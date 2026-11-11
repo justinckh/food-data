@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>食物營養資料庫</title>
+<meta name="description" content="近3,000種食物的卡路里、蛋白質、脂肪、碳水化合物及礦物質營養資料。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+TC:wght@400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/"><span class="brand-mark"></span>食物營養資料庫</a>
+    <form class="search" id="searchForm" role="search">
+      <svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="搜尋食物，例如：虎蝦、白飯、apple" autocomplete="off" aria-label="搜尋食物">
+    </form>
+  </div>
+  <nav class="groupbar" id="groupbar" aria-label="食物類別"></nav>
+</header>
+
+<main class="wrap" id="app"><p class="muted">載入中…</p></main>
+
+<footer class="wrap footer">
+  數值以每100克可食用部份計算，只供一般參考。
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

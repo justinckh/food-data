@@ -1,0 +1,17 @@
+# Scraper cache (re-creatable, ~37 MB of HTML)
+cache/
+scrape.log
+
+# Raw downloads from other sources (re-creatable)
+data/raw/
+
+# Build outputs
+data/food.db
+data/food.db-*
+data/export/
+
+# Tooling
+.wrangler/
+__pycache__/
+node_modules/
+.DS_Store
