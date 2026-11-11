@@ -11,25 +11,22 @@ import sys
 from pathlib import Path
 
 from .common import NUTRIENT_IDS, NUTRIENTS
-from .importers import cfs
+from .importers import cfs, usda
 
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMA = ROOT / "db" / "schema.sql"
 OUT = ROOT / "data" / "food.db"
 
-# (importer module, input file). Add new sources here.
-IMPORTERS = [
-    (cfs, ROOT / "cfs_foods.csv"),
-]
+# Each importer exposes datasets(root) -> (SOURCE dict, rows). Add new sources here.
+IMPORTERS = [cfs, usda]
 
 
-def import_source(db, mod, path):
-    src = mod.SOURCE
+def import_source(db, src, rows):
     db.execute(
         "INSERT INTO sources (id, name, publisher, country, licence, attribution, url, version, retrieved_at)"
         " VALUES (:id, :name, :publisher, :country, :licence, :attribution, :url, :version, :retrieved_at)", src)
     n_foods = n_values = 0
-    for food, nutrients, servings in mod.load(path):
+    for food, nutrients, servings in rows:
         db.execute(
             "INSERT INTO foods (id, source_id, source_code, name_en, name_zh, name_local, alias,"
             " group_en, group_zh, subgroup_en, subgroup_zh, origin_source, search_text)"
@@ -60,8 +57,9 @@ def main():
             "INSERT INTO nutrients (id, infoods_tag, name_en, name_zh, unit, sort_order) VALUES (?, ?, ?, ?, ?, ?)",
             [(*n, i) for i, n in enumerate(NUTRIENTS)])
         print("Importing:")
-        for mod, path in IMPORTERS:
-            import_source(db, mod, path)
+        for mod in IMPORTERS:
+            for src, rows in mod.datasets(ROOT):
+                import_source(db, src, rows)
         db.execute("INSERT INTO foods_fts(foods_fts) VALUES ('rebuild')")
         bad = db.execute("PRAGMA foreign_key_check").fetchall()
         if bad:

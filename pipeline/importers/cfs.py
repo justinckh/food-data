@@ -63,6 +63,11 @@ def parse_serving(s):
             float(m.group(2)), "ml" if m.group(3) == "毫升" else "g")
 
 
+def datasets(root):
+    """Yield (SOURCE dict, rows iterator). Same interface as every importer."""
+    yield SOURCE, load(root / "cfs_foods.csv")
+
+
 def load(path):
     """Yield (food, nutrients, servings) tuples.
 

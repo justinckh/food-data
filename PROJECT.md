@@ -21,6 +21,7 @@ Other systems and AI tools will also use the data.
 | Data source: Hong Kong CFS | Done. The data has 2,999 foods. |
 | Local database (`data/food.db`) | Done. It has the CFS data. |
 | Keyword search (FTS5) | Done in the local database. |
+| Data source: USDA (Foundation Foods, SR Legacy) | The importer is ready. It has a test with sample data. The real data is not downloaded (section 2.5). |
 | Backend API | Not started. |
 | Cloudflare D1 | Not started. |
 | Other data sources | Not started. |
@@ -37,7 +38,10 @@ Other systems and AI tools will also use the data.
 | `db/schema.sql` | The database tables. |
 | `pipeline/common.py` | The nutrient list, the value parser and the search text function. |
 | `pipeline/importers/cfs.py` | This importer reads `cfs_foods.csv` for the database. |
-| `pipeline/build_db.py` | This script makes `data/food.db` from all importers. |
+| `pipeline/importers/usda.py` | This importer reads the USDA zip files in `data/raw/usda/`. It does not extract the zip files. |
+| `pipeline/download_usda.py` | This script downloads the newest USDA zip files to `data/raw/usda/`. |
+| `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
+| `data/raw/` | The downloaded source files. Git does not keep this folder. |
 | `data/food.db` | The master copy of the database. Git does not keep this file. You can make it again at any time. |
 | `PROJECT.md` | This document. |
 
@@ -48,6 +52,7 @@ Other systems and AI tools will also use the data.
 | `npm run dev` | Starts the site on your computer at port 8000. |
 | `npm run scrape` | Gets the CFS data again. Then it makes `foods.json` again. |
 | `npm run build` | Makes `site/foods.json` from `cfs_foods.csv`. |
+| `npm run download` | Downloads the USDA files. |
 | `npm run db` | Makes `data/food.db` from all sources. |
 | `npm run deploy` | Sends the `site/` folder to Cloudflare Pages. |
 
@@ -68,6 +73,36 @@ The column `foods.origin_source` keeps the name of the first source.
 Some foods (codes A and D) will also come directly from USDA and FSANZ.
 These are duplicates.
 Section 4.2 shows how we will link them.
+
+### 2.5 About the USDA data
+
+The importer uses 2 USDA data sets:
+
+| Source ID | Data set | Approximate number of foods |
+|---|---|---|
+| `usda_fnd` | Foundation Foods | 400 |
+| `usda_sr` | SR Legacy | 7,800 |
+
+The importer finds each nutrient by its USDA nutrient number.
+It also examines the unit.
+Thus it cannot use a kJ value as a kcal value.
+
+Some foods have no standard value for energy or carbohydrate.
+For these foods, the importer uses a different value.
+The `method` column records this value type.
+
+| Nutrient | First choice | Second choice | Third choice |
+|---|---|---|---|
+| Energy | Nutrient 208 | Atwater specific (`atwater_specific`) | Atwater general (`atwater_general`) |
+| Carbohydrate | By difference | By summation (`summation`) | - |
+
+The USDA web site does not accept connections from the Claude Code sandbox.
+To get the data, do one of these steps:
+
+1. Run `npm run download` in your terminal.
+2. Or, download the 2 "CSV" zip files from https://fdc.nal.usda.gov/download-datasets. Put them in `data/raw/usda/`.
+
+Then run `npm run db`.
 
 ## 3. Database design
 
@@ -100,6 +135,7 @@ Section 4.2 shows how we will link them.
 | `ND` (not detected) | `value` = empty, `flag` = `ND` |
 | `Trace` | `value` = empty, `flag` = `TRACE` |
 | Total carbohydrate | `method` = `total` |
+| A different value type (USDA, section 2.5) | `method` = the value type |
 
 ### 3.4 Search
 
@@ -143,7 +179,7 @@ Reasons:
 | 1 | Start a Git repository | Done |
 | 2 | Write the database tables (`db/schema.sql`) | Done |
 | 3 | Write the CFS importer and the build script | Done |
-| 4 | Write the importer for USDA (Foundation Foods and SR Legacy) | To do |
+| 4 | Write the importer for USDA (Foundation Foods and SR Legacy) | Code done. Test with the real data is necessary. |
 | 5 | Write the importer for the Taiwan TFDA data | To do |
 | 6 | Link the duplicates in `food_links` (section 4.2) | To do |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
