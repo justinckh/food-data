@@ -280,6 +280,7 @@ Reasons:
 | 5 | Write the importer for the Taiwan TFDA data | Done |
 | 5a | Write the importer for the Japan MEXT data | Done |
 | 5b | Write the importer for the Australia AFCD data | Done |
+| 5c | Write the importers for USDA, Canada, UK and France | On hold. We cannot download the data now (section 4.3). |
 | 6 | Link the duplicates in `food_links` (section 4.2) | To do |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
 | 8 | Make the API with Pages Functions | To do |
@@ -314,7 +315,7 @@ The numbers of foods are approximate. Make sure that each number and each licenc
 | Canadian Nutrient File (CNF) | CA | 5,700 | Open Government Licence. The web site does not accept connections from this computer. |
 | UK CoFID (McCance and Widdowson) | GB | 3,000 | Open Government Licence. The web site does not accept connections from this computer. |
 | Australian Food Composition Database (AFCD) | AU | 1,588 (done) | CC BY 4.0 |
-| France Ciqual | FR | 3,000 | Open licence |
+| France Ciqual | FR | 3,000 | Licence Ouverte (Etalab). On 2026-11-11 the Ciqual web site was in maintenance. Try again later. The files are listed on data.gouv.fr. |
 
 We do not use these sources now:
 
