@@ -69,6 +69,8 @@ NUTRIENTS = [
     ("niacin_eq",    "NE",         "Niacin equivalents", "菸鹼素當量", "mg"),
     ("pantothenic_acid", "PANTAC", "Pantothenic acid", "泛酸",    "mg"),
     ("biotin",       "BIOT",       "Biotin",        "生物素",     "ug"),
+    # Added with AFCD (2026-11).
+    ("caffeine",     "CAFFN",      "Caffeine",      "咖啡因",     "mg"),
 ]
 NUTRIENT_IDS = {n[0] for n in NUTRIENTS}
 

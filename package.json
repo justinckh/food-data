@@ -7,6 +7,7 @@
     "db": "python3 -m pipeline.build_db",
     "download:tfda": "python3 -m pipeline.download_tfda",
     "download:mext": "python3 -m pipeline.download_mext",
+    "download:afcd": "python3 -m pipeline.download_afcd",
     "download:usda": "python3 -m pipeline.download_usda",
     "scrape": "python3 scrape_cfs.py && python3 build_data.py",
     "deploy": "npx --yes wrangler pages deploy site --project-name=hk-food-nutrition --branch=main"

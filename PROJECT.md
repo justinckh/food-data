@@ -23,6 +23,7 @@ Other systems and AI tools will also use the data.
 | Keyword search (FTS5) | Done in the local database. |
 | Data source: Taiwan TFDA | Done. The data has 2,213 foods (section 2.6). |
 | Data source: Japan MEXT | Done. The data has 2,538 foods (section 2.7). |
+| Data source: Australia AFCD | Done. The data has 1,588 foods (section 2.8). |
 | Data source: USDA (Foundation Foods, SR Legacy) | On hold. The importer is ready. It has a test with sample data. We cannot download the real data (section 2.5). |
 | Backend API | Not started. |
 | Cloudflare D1 | Not started. |
@@ -44,6 +45,8 @@ Other systems and AI tools will also use the data.
 | `pipeline/download_tfda.py` | This script downloads the TFDA zip file to `data/raw/tfda/`. |
 | `pipeline/importers/mext.py` | This importer reads the MEXT Excel files in `data/raw/mext/`. |
 | `pipeline/download_mext.py` | This script downloads the MEXT Excel files to `data/raw/mext/`. |
+| `pipeline/importers/afcd.py` | This importer reads the AFCD Excel files in `data/raw/afcd/`. |
+| `pipeline/download_afcd.py` | This script downloads the AFCD Excel files to `data/raw/afcd/`. |
 | `pipeline/importers/usda.py` | This importer reads the USDA zip files in `data/raw/usda/`. It does not extract the zip files. |
 | `pipeline/download_usda.py` | This script downloads the newest USDA zip files to `data/raw/usda/`. |
 | `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
@@ -60,6 +63,7 @@ Other systems and AI tools will also use the data.
 | `npm run build` | Makes `site/foods.json` from `cfs_foods.csv`. |
 | `npm run download:tfda` | Downloads the TFDA file. |
 | `npm run download:mext` | Downloads the MEXT files. |
+| `npm run download:afcd` | Downloads the AFCD files. |
 | `npm run download:usda` | Downloads the USDA files. |
 | `npm run db` | Makes `data/food.db` from all sources. |
 | `npm run deploy` | Sends the `site/` folder to Cloudflare Pages. |
@@ -168,6 +172,31 @@ The importer uses 44 columns.
 
 We compared the database with the raw file. All 99,184 values are the same.
 
+### 2.8 About the AFCD data
+
+The data set is the Australian Food Composition Database, Release 3 (December 2025), from FSANZ.
+It has 1,588 foods. The names are in English.
+The licence is CC BY 4.0.
+
+The importer uses the sheet "All solids & liquids per 100 g".
+It finds each column by the header text.
+It examines the unit in each header.
+Some fatty acid columns have the same name 2 times: one in `%T` and one in `g`.
+The importer uses only the column with the correct unit.
+
+| Item | Rule |
+|---|---|
+| Energy | The source gives kJ only. `energy_kj` is the source value. `energy_kcal` = kJ / 4.184, `method` = `from_kj`. |
+| Carbohydrate | The source gives available carbohydrate. `carbohydrate` has `method` = `available`. `carbohydrate_available` has the same value. |
+| Trans fat | The source unit is mg. The importer changes it to g. |
+| Derivation (Analysed, Recipe, Borrowed, and others) | The importer adds it to `description`. |
+| Empty value | No row |
+
+78 foods have the derivation "Borrowed". Some of these values come from USDA.
+Step 6 (links) must examine these foods.
+
+We compared the database with the raw file. All 72,086 values are the same.
+
 ## 3. Database design
 
 ### 3.1 Main rules
@@ -200,6 +229,8 @@ We compared the database with the raw file. All 99,184 values are the same.
 | `Trace` | `value` = empty, `flag` = `TRACE` |
 | Total carbohydrate | `method` = `total` |
 | Carbohydrate by difference (MEXT, USDA) | `method` = `difference` |
+| Available carbohydrate (AFCD) | `method` = `available` |
+| Energy in kcal that we calculated from kJ | `method` = `from_kj` |
 | A value that the source estimated or calculated | `estimated` = 1 |
 | A different value type (USDA, section 2.5) | `method` = the value type |
 
@@ -248,6 +279,7 @@ Reasons:
 | 4 | Write the importer for USDA (Foundation Foods and SR Legacy) | Code done. Test with the real data is necessary. |
 | 5 | Write the importer for the Taiwan TFDA data | Done |
 | 5a | Write the importer for the Japan MEXT data | Done |
+| 5b | Write the importer for the Australia AFCD data | Done |
 | 6 | Link the duplicates in `food_links` (section 4.2) | To do |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
 | 8 | Make the API with Pages Functions | To do |
@@ -281,7 +313,7 @@ The numbers of foods are approximate. Make sure that each number and each licenc
 | Japan MEXT Standard Tables (8th edition) | JP | 2,538 (done) | Public Data License (Japan) v1.0 |
 | Canadian Nutrient File (CNF) | CA | 5,700 | Open Government Licence. The web site does not accept connections from this computer. |
 | UK CoFID (McCance and Widdowson) | GB | 3,000 | Open Government Licence. The web site does not accept connections from this computer. |
-| Australian Food Composition Database (AFCD) | AU | 1,600 | CC BY |
+| Australian Food Composition Database (AFCD) | AU | 1,588 (done) | CC BY 4.0 |
 | France Ciqual | FR | 3,000 | Open licence |
 
 We do not use these sources now:
@@ -300,7 +332,7 @@ Each importer must:
 
 If a source has a new nutrient, add it to the end of `NUTRIENTS` in `pipeline/common.py`.
 Do not change the ID of a nutrient that is in the list.
-The list has 53 nutrients now.
+The list has 54 nutrients now.
 
 ### 4.4 Hosting
 
