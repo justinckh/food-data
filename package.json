@@ -5,7 +5,8 @@
     "dev": "npx --yes live-server site --port=8000",
     "build": "python3 build_data.py",
     "db": "python3 -m pipeline.build_db",
-    "download": "python3 -m pipeline.download_usda",
+    "download:tfda": "python3 -m pipeline.download_tfda",
+    "download:usda": "python3 -m pipeline.download_usda",
     "scrape": "python3 scrape_cfs.py && python3 build_data.py",
     "deploy": "npx --yes wrangler pages deploy site --project-name=hk-food-nutrition --branch=main"
   }

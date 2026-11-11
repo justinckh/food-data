@@ -15,3 +15,6 @@ data/export/
 __pycache__/
 node_modules/
 .DS_Store
+
+# Personal Claude Code settings
+.claude/settings.local.json

@@ -33,6 +33,27 @@ NUTRIENTS = [
     ("copper",       "CU",         "Copper",        "銅",         "mg"),
     ("manganese",    "MN",         "Manganese",     "錳",         "mg"),
     ("vitamin_c",    "VITC",       "Vitamin C",     "維他命C",    "mg"),
+    # Added with TFDA (2026-11). Append only - never reorder or rename.
+    ("energy_kcal_adjusted", None, "Energy (adjusted, TFDA 修正熱量)", "修正熱量", "kcal"),
+    ("water",        "WATER",      "Water",         "水分",       "g"),
+    ("ash",          "ASH",        "Ash",           "灰分",       "g"),
+    ("alcohol",      "ALC",        "Alcohol",       "酒精",       "g"),
+    ("fat_mono",     "FAMS",       "Monounsaturated fat", "單元不飽和脂肪", "g"),
+    ("fat_poly",     "FAPU",       "Polyunsaturated fat", "多元不飽和脂肪", "g"),
+    ("vitamin_a_re", None,         "Vitamin A (retinol equivalents)", "維他命A (視網醇當量)", "ug"),
+    ("retinol",      "RETOL",      "Retinol",       "視網醇",     "ug"),
+    ("beta_carotene", "CARTB",     "Beta-carotene", "β-胡蘿蔔素", "ug"),
+    ("alpha_carotene", "CARTA",    "Alpha-carotene", "α-胡蘿蔔素", "ug"),
+    ("vitamin_b1",   "THIA",       "Vitamin B1 (thiamin)", "維他命B1", "mg"),
+    ("vitamin_b2",   "RIBF",       "Vitamin B2 (riboflavin)", "維他命B2", "mg"),
+    ("niacin",       "NIA",        "Niacin",        "菸鹼素",     "mg"),
+    ("vitamin_b6",   None,         "Vitamin B6",    "維他命B6",   "mg"),
+    ("vitamin_b12",  "VITB12",     "Vitamin B12",   "維他命B12",  "ug"),
+    ("folate",       None,         "Folate",        "葉酸",       "ug"),
+    ("vitamin_d",    None,         "Vitamin D",     "維他命D",    "ug"),
+    ("vitamin_e_ate", None,        "Vitamin E (alpha-tocopherol equivalents)", "維他命E (α-生育酚當量)", "mg"),
+    ("alpha_tocopherol", "TOCPHA", "Alpha-tocopherol", "α-生育酚", "mg"),
+    ("vitamin_k1",   None,         "Vitamin K1",    "維他命K1",   "ug"),
 ]
 NUTRIENT_IDS = {n[0] for n in NUTRIENTS}
 

@@ -21,7 +21,8 @@ Other systems and AI tools will also use the data.
 | Data source: Hong Kong CFS | Done. The data has 2,999 foods. |
 | Local database (`data/food.db`) | Done. It has the CFS data. |
 | Keyword search (FTS5) | Done in the local database. |
-| Data source: USDA (Foundation Foods, SR Legacy) | The importer is ready. It has a test with sample data. The real data is not downloaded (section 2.5). |
+| Data source: Taiwan TFDA | Done. The data has 2,213 foods (section 2.6). |
+| Data source: USDA (Foundation Foods, SR Legacy) | On hold. The importer is ready. It has a test with sample data. We cannot download the real data (section 2.5). |
 | Backend API | Not started. |
 | Cloudflare D1 | Not started. |
 | Other data sources | Not started. |
@@ -38,6 +39,8 @@ Other systems and AI tools will also use the data.
 | `db/schema.sql` | The database tables. |
 | `pipeline/common.py` | The nutrient list, the value parser and the search text function. |
 | `pipeline/importers/cfs.py` | This importer reads `cfs_foods.csv` for the database. |
+| `pipeline/importers/tfda.py` | This importer reads the TFDA zip file in `data/raw/tfda/`. |
+| `pipeline/download_tfda.py` | This script downloads the TFDA zip file to `data/raw/tfda/`. |
 | `pipeline/importers/usda.py` | This importer reads the USDA zip files in `data/raw/usda/`. It does not extract the zip files. |
 | `pipeline/download_usda.py` | This script downloads the newest USDA zip files to `data/raw/usda/`. |
 | `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
@@ -52,7 +55,8 @@ Other systems and AI tools will also use the data.
 | `npm run dev` | Starts the site on your computer at port 8000. |
 | `npm run scrape` | Gets the CFS data again. Then it makes `foods.json` again. |
 | `npm run build` | Makes `site/foods.json` from `cfs_foods.csv`. |
-| `npm run download` | Downloads the USDA files. |
+| `npm run download:tfda` | Downloads the TFDA file. |
+| `npm run download:usda` | Downloads the USDA files. |
 | `npm run db` | Makes `data/food.db` from all sources. |
 | `npm run deploy` | Sends the `site/` folder to Cloudflare Pages. |
 
@@ -96,13 +100,41 @@ The `method` column records this value type.
 | Energy | Nutrient 208 | Atwater specific (`atwater_specific`) | Atwater general (`atwater_general`) |
 | Carbohydrate | By difference | By summation (`summation`) | - |
 
-The USDA web site does not accept connections from the Claude Code sandbox.
-To get the data, do one of these steps:
+The USDA web site does not accept connections from this computer (2026-11-11).
+The USDA work is on hold.
+When the site is available, do these steps:
 
-1. Run `npm run download` in your terminal.
+1. Run `npm run download:usda`.
 2. Or, download the 2 "CSV" zip files from https://fdc.nal.usda.gov/download-datasets. Put them in `data/raw/usda/`.
+3. Run `npm run db`.
+4. Compare the number of foods and some values with the USDA web site.
 
-Then run `npm run db`.
+### 2.6 About the TFDA data
+
+The data set is "食品營養成分資料集" (number 8543) from https://data.fda.gov.tw.
+It has 2,213 foods in 18 food groups.
+Each food has a Traditional Chinese name.
+Most foods also have an English name.
+
+The source file has one row for each nutrient of each food.
+The importer uses 39 of the 104 nutrients.
+The raw file keeps the other nutrients.
+Examples are the amino acids and the fatty acids.
+
+| Item | Rule |
+|---|---|
+| Energy | `熱量` is `energy_kcal`. `修正熱量` is `energy_kcal_adjusted`. |
+| Carbohydrate | The value is total carbohydrate. `method` = `total`. |
+| Trans fat | The source unit is mg. The importer changes it to g. |
+| Monounsaturated and polyunsaturated fat | The source unit is mg. The importer changes it to g. |
+| Empty value | No row |
+| Serving `0.0克` | No serving |
+| English food group names | We wrote these names. They are not from TFDA. |
+
+The importer examines the unit of each nutrient.
+If TFDA changes a unit, the build stops with an error.
+
+We compared the database with the raw file. All 64,385 values are the same.
 
 ## 3. Database design
 
@@ -120,7 +152,7 @@ Then run `npm run db`.
 |---|---|
 | `sources` | One row for each data source. It has the licence and the attribution text. |
 | `nutrients` | The master list of nutrients. Each nutrient has one ID and one unit. |
-| `foods` | One row for each food from each source. The data is the same as the source data. |
+| `foods` | One row for each food from each source. The data is the same as the source data. The `description` column keeps the source description, for example the cooking method. |
 | `food_nutrients` | One row for each value. If a value is missing, there is no row. |
 | `servings` | Typical serving sizes, for example "1 small bottle = 330 g". |
 | `food_links` | Links between duplicates and between equal foods from different sources. It is empty now. |
@@ -180,7 +212,7 @@ Reasons:
 | 2 | Write the database tables (`db/schema.sql`) | Done |
 | 3 | Write the CFS importer and the build script | Done |
 | 4 | Write the importer for USDA (Foundation Foods and SR Legacy) | Code done. Test with the real data is necessary. |
-| 5 | Write the importer for the Taiwan TFDA data | To do |
+| 5 | Write the importer for the Taiwan TFDA data | Done |
 | 6 | Link the duplicates in `food_links` (section 4.2) | To do |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
 | 8 | Make the API with Pages Functions | To do |
@@ -196,6 +228,12 @@ Reasons:
 3. If the name and the values are the same, record an `exact_copy` link.
 4. Record other matches as `equivalent` or `similar`.
 5. Record the method and the confidence for each link.
+
+Hong Kong and Taiwan use different words for some foods.
+Examples: 西蘭花 (HK) and 青花菜 (TW), 番薯 (HK) and 地瓜 (TW).
+Thus a search for 西蘭花 does not find the TFDA food.
+Make a synonym table for these words.
+The search text and the links must use this table.
 
 ### 4.3 Data sources
 
@@ -225,8 +263,9 @@ Each importer must:
 4. Change each unit to the unit of that nutrient.
 5. Use `search_text()` for the search text.
 
-If a source has a new nutrient, add it to `NUTRIENTS` in `pipeline/common.py`.
+If a source has a new nutrient, add it to the end of `NUTRIENTS` in `pipeline/common.py`.
 Do not change the ID of a nutrient that is in the list.
+The list has 40 nutrients now.
 
 ### 4.4 Hosting
 
