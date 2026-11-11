@@ -54,13 +54,14 @@ CREATE INDEX IF NOT EXISTS idx_foods_source ON foods(source_id);
 
 -- Nutrient values. A missing value ('NA') has NO row.
 -- flag: NULL = normal number; 'ND' = not detected; 'TRACE' = trace amount (value is NULL for both).
--- method: optional qualifier, e.g. 'total' for carbohydrate given as total instead of available.
+-- method: optional qualifier, e.g. 'total' or 'difference' for carbohydrate, 'atwater_specific' for energy.
 CREATE TABLE IF NOT EXISTS food_nutrients (
     food_id      TEXT NOT NULL REFERENCES foods(id) ON DELETE CASCADE,
     nutrient_id  TEXT NOT NULL REFERENCES nutrients(id),
     value        REAL,
     flag         TEXT CHECK (flag IN ('ND', 'TRACE')),
     method       TEXT,
+    estimated    INTEGER NOT NULL DEFAULT 0 CHECK (estimated IN (0, 1)),  -- 1 = source marks the value as estimated/calculated
     PRIMARY KEY (food_id, nutrient_id)
 );
 CREATE INDEX IF NOT EXISTS idx_fn_nutrient_value ON food_nutrients(nutrient_id, value);

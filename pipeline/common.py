@@ -54,6 +54,21 @@ NUTRIENTS = [
     ("vitamin_e_ate", None,        "Vitamin E (alpha-tocopherol equivalents)", "維他命E (α-生育酚當量)", "mg"),
     ("alpha_tocopherol", "TOCPHA", "Alpha-tocopherol", "α-生育酚", "mg"),
     ("vitamin_k1",   None,         "Vitamin K1",    "維他命K1",   "ug"),
+    # Added with MEXT (2026-11).
+    ("energy_kj",    "ENERC",      "Energy",        "能量",       "kJ"),
+    ("carbohydrate_available", "CHOAVL", "Available carbohydrate", "可利用碳水化合物", "g"),
+    ("salt_eq",      None,         "Salt equivalent", "食鹽相當量", "g"),
+    ("iodine",       "ID",         "Iodine",        "碘",         "ug"),
+    ("selenium",     "SE",         "Selenium",      "硒",         "ug"),
+    ("chromium",     "CR",         "Chromium",      "鉻",         "ug"),
+    ("molybdenum",   "MO",         "Molybdenum",    "鉬",         "ug"),
+    ("vitamin_a_rae", "VITA_RAE",  "Vitamin A (retinol activity equivalents)", "維他命A (視黃醇活性當量)", "ug"),
+    ("beta_carotene_eq", "CARTBEQ", "Beta-carotene equivalents", "β-胡蘿蔔素當量", "ug"),
+    ("beta_cryptoxanthin", "CRYPXB", "Beta-cryptoxanthin", "β-隱黃質", "ug"),
+    ("vitamin_k",    None,         "Vitamin K",     "維他命K",    "ug"),
+    ("niacin_eq",    "NE",         "Niacin equivalents", "菸鹼素當量", "mg"),
+    ("pantothenic_acid", "PANTAC", "Pantothenic acid", "泛酸",    "mg"),
+    ("biotin",       "BIOT",       "Biotin",        "生物素",     "ug"),
 ]
 NUTRIENT_IDS = {n[0] for n in NUTRIENTS}
 

@@ -22,6 +22,7 @@ Other systems and AI tools will also use the data.
 | Local database (`data/food.db`) | Done. It has the CFS data. |
 | Keyword search (FTS5) | Done in the local database. |
 | Data source: Taiwan TFDA | Done. The data has 2,213 foods (section 2.6). |
+| Data source: Japan MEXT | Done. The data has 2,538 foods (section 2.7). |
 | Data source: USDA (Foundation Foods, SR Legacy) | On hold. The importer is ready. It has a test with sample data. We cannot download the real data (section 2.5). |
 | Backend API | Not started. |
 | Cloudflare D1 | Not started. |
@@ -41,6 +42,8 @@ Other systems and AI tools will also use the data.
 | `pipeline/importers/cfs.py` | This importer reads `cfs_foods.csv` for the database. |
 | `pipeline/importers/tfda.py` | This importer reads the TFDA zip file in `data/raw/tfda/`. |
 | `pipeline/download_tfda.py` | This script downloads the TFDA zip file to `data/raw/tfda/`. |
+| `pipeline/importers/mext.py` | This importer reads the MEXT Excel files in `data/raw/mext/`. |
+| `pipeline/download_mext.py` | This script downloads the MEXT Excel files to `data/raw/mext/`. |
 | `pipeline/importers/usda.py` | This importer reads the USDA zip files in `data/raw/usda/`. It does not extract the zip files. |
 | `pipeline/download_usda.py` | This script downloads the newest USDA zip files to `data/raw/usda/`. |
 | `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
@@ -56,6 +59,7 @@ Other systems and AI tools will also use the data.
 | `npm run scrape` | Gets the CFS data again. Then it makes `foods.json` again. |
 | `npm run build` | Makes `site/foods.json` from `cfs_foods.csv`. |
 | `npm run download:tfda` | Downloads the TFDA file. |
+| `npm run download:mext` | Downloads the MEXT files. |
 | `npm run download:usda` | Downloads the USDA files. |
 | `npm run db` | Makes `data/food.db` from all sources. |
 | `npm run deploy` | Sends the `site/` folder to Cloudflare Pages. |
@@ -136,6 +140,34 @@ If TFDA changes a unit, the build stops with an error.
 
 We compared the database with the raw file. All 64,385 values are the same.
 
+### 2.7 About the MEXT data
+
+The data set is "日本食品標準成分表（八訂）増補2023年" (Standard Tables of Food Composition in Japan, 8th edition, 2023 supplement).
+MEXT updated the data file on 2026-03-27.
+It has 2,538 foods in 18 food groups.
+The licence is the Public Data License (Japan) v1.0. This licence is compatible with CC BY 4.0.
+
+The main table has Japanese names only.
+The importer puts the Japanese name in `name_local`.
+The English names come from the 7th edition (2015) English table.
+The importer finds the English name by the food number.
+2,184 foods have an English name. The new foods after 2015 have no English name.
+
+The header row has an INFOODS identifier for each column.
+The importer finds each column by its identifier, not by its position.
+The importer uses 44 columns.
+
+| Source value | Database value |
+|---|---|
+| A number | `value` = the number |
+| A number in parentheses, for example `(11.3)` | `value` = the number, `estimated` = 1 |
+| `Tr` | `flag` = `TRACE` |
+| `(Tr)` | `flag` = `TRACE`, `estimated` = 1 |
+| `-` or empty | No row |
+| `*` | No row. The value is in a different chapter. |
+
+We compared the database with the raw file. All 99,184 values are the same.
+
 ## 3. Database design
 
 ### 3.1 Main rules
@@ -167,6 +199,8 @@ We compared the database with the raw file. All 64,385 values are the same.
 | `ND` (not detected) | `value` = empty, `flag` = `ND` |
 | `Trace` | `value` = empty, `flag` = `TRACE` |
 | Total carbohydrate | `method` = `total` |
+| Carbohydrate by difference (MEXT, USDA) | `method` = `difference` |
+| A value that the source estimated or calculated | `estimated` = 1 |
 | A different value type (USDA, section 2.5) | `method` = the value type |
 
 ### 3.4 Search
@@ -213,6 +247,7 @@ Reasons:
 | 3 | Write the CFS importer and the build script | Done |
 | 4 | Write the importer for USDA (Foundation Foods and SR Legacy) | Code done. Test with the real data is necessary. |
 | 5 | Write the importer for the Taiwan TFDA data | Done |
+| 5a | Write the importer for the Japan MEXT data | Done |
 | 6 | Link the duplicates in `food_links` (section 4.2) | To do |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
 | 8 | Make the API with Pages Functions | To do |
@@ -243,9 +278,9 @@ The numbers of foods are approximate. Make sure that each number and each licenc
 |---|---|---|---|
 | USDA FoodData Central (Foundation, SR Legacy, FNDDS) | US | 13,000 | Public domain |
 | Taiwan TFDA food composition | TW | 2,000 | Taiwan Open Data |
-| Japan MEXT Standard Tables (8th edition) | JP | 2,500 | Free with attribution |
-| Canadian Nutrient File (CNF) | CA | 5,700 | Open Government Licence |
-| UK CoFID (McCance and Widdowson) | GB | 3,000 | Open Government Licence |
+| Japan MEXT Standard Tables (8th edition) | JP | 2,538 (done) | Public Data License (Japan) v1.0 |
+| Canadian Nutrient File (CNF) | CA | 5,700 | Open Government Licence. The web site does not accept connections from this computer. |
+| UK CoFID (McCance and Widdowson) | GB | 3,000 | Open Government Licence. The web site does not accept connections from this computer. |
 | Australian Food Composition Database (AFCD) | AU | 1,600 | CC BY |
 | France Ciqual | FR | 3,000 | Open licence |
 
@@ -265,7 +300,7 @@ Each importer must:
 
 If a source has a new nutrient, add it to the end of `NUTRIENTS` in `pipeline/common.py`.
 Do not change the ID of a nutrient that is in the list.
-The list has 40 nutrients now.
+The list has 53 nutrients now.
 
 ### 4.4 Hosting
 

@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 from .common import NUTRIENT_IDS, NUTRIENTS
-from .importers import cfs, tfda, usda
+from .importers import cfs, mext, tfda, usda
 
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMA = ROOT / "db" / "schema.sql"
@@ -22,7 +22,7 @@ FOOD_COLS = ["id", "source_id", "source_code", "name_en", "name_zh", "name_local
              "origin_source", "search_text"]
 
 # Each importer exposes datasets(root) -> (SOURCE dict, rows). Add new sources here.
-IMPORTERS = [cfs, tfda, usda]
+IMPORTERS = [cfs, tfda, mext, usda]
 
 
 def import_source(db, src, rows):
@@ -34,12 +34,13 @@ def import_source(db, src, rows):
         db.execute(
             f"INSERT INTO foods ({', '.join(FOOD_COLS)}) VALUES ({', '.join(':' + c for c in FOOD_COLS)})",
             {c: food.get(c) for c in FOOD_COLS})   # importers may omit optional columns
-        for nid, value, flag, method in nutrients:
+        for nid, *_ in nutrients:
             if nid not in NUTRIENT_IDS:
                 raise SystemExit(f"{src['id']}: unknown nutrient id {nid!r} - add it to pipeline/common.py")
         db.executemany(
-            "INSERT INTO food_nutrients (food_id, nutrient_id, value, flag, method) VALUES (?, ?, ?, ?, ?)",
-            [(food["id"], *n) for n in nutrients])
+            "INSERT INTO food_nutrients (food_id, nutrient_id, value, flag, method, estimated)"
+            " VALUES (?, ?, ?, ?, ?, ?)",
+            [(food["id"], *n[:4], int(n[4]) if len(n) > 4 else 0) for n in nutrients])
         db.executemany(
             "INSERT INTO servings (food_id, label_en, label_zh, amount, unit) VALUES (?, ?, ?, ?, ?)",
             [(food["id"], *s) for s in servings])

@@ -60,6 +60,7 @@ NUTRIENT_MAP = {
 METHOD = {
     ("energy_kcal", 1): "atwater_specific",
     ("energy_kcal", 2): "atwater_general",
+    ("carbohydrate", 0): "difference",
     ("carbohydrate", 1): "summation",
 }
 
