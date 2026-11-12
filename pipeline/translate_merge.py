@@ -30,9 +30,9 @@ NOT_HK = {"土豆": "薯仔", "马铃薯": "薯仔", "馬鈴薯": "薯仔", "西
 NOT_HK = {k: v for k, v in NOT_HK.items() if v}
 
 
-def read(path):
+def read(path, delimiter="\t"):
     with open(path, encoding="utf-8", newline="") as f:
-        return list(csv.DictReader(f, delimiter="\t"))
+        return list(csv.DictReader(f, delimiter=delimiter))
 
 
 def glossary():
@@ -48,7 +48,7 @@ def glossary():
 
 def main():
     names = sys.argv[1:] or sorted(p.stem for p in (WORK / "out").glob("*.tsv"))
-    done = {r["key"]: r for r in read(DONE)} if DONE.exists() else {}
+    done = {r["key"]: r for r in read(DONE, ",")} if DONE.exists() else {}
     gl = glossary()
     added = 0
     for name in names:

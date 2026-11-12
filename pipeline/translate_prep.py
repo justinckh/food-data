@@ -60,6 +60,8 @@ You translate food names from food composition tables into the words a Hong Kong
 - Species and varieties with no common Chinese name: give the closest common name, not a literal translation.
 - No explanations, no notes, no question marks, no alternatives with "/". One name per line.
 - If you really cannot tell what the food is, still give the best short name.
+- Two different English names must not get the identical translation: keep the detail that makes them different
+  (e.g. "meat only" 只計肉 vs "weighed with bones" 連骨稱重, brand, flavour, fat level).
 
 ## Glossary (English -> HK word)
 """
