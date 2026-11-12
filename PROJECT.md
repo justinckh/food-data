@@ -77,7 +77,10 @@ Other systems and AI tools will also use the data.
 | `npm run export` | Makes the D1 file `data/export/d1.sql` from `data/food.db`. |
 | `npm run build` | Does `npm run db` and then `npm run export`. |
 | `npm run load:local` | Puts `d1.sql` into the local D1 database (on your computer). |
-| `npm run load:remote` | Puts `d1.sql` into the D1 database on Cloudflare. This replaces all data. |
+| `npm run update:plan` | Compares `data/food.db` with the data on D1. Writes the changes as SQL parts (section 4.4). |
+| `npm run update:apply` | Sends the next part to D1. |
+| `npm run update:status` | Shows the parts and which parts are sent. |
+| `npm run load:remote:full` | Puts all of `d1.sql` into D1. Use only for a full rebuild (section 4.4). |
 | `npm run dev` | Starts the site and the API on your computer at http://localhost:8788. |
 | `npm run deploy` | Sends the site and the API to the live site on Cloudflare Pages. |
 
@@ -587,17 +590,42 @@ The site and AI tools must use only the API.
 They must not read the tables directly.
 Then a change to the search method does not change the site or the AI tools.
 
-The API keeps its answers in the Cloudflare cache for 1 hour (search: 5 minutes).
+The API keeps its answers in the Cloudflare cache for 1 hour (short searches: 1 day).
 The constant `DATA_VERSION` in `functions/_lib.js` is part of the cache key.
 
-To put new data on the site, do these steps:
+### 4.4.1 Limits of the D1 free plan
+
+The account uses the D1 free plan.
+
+| Limit | Value | Effect |
+|---|---|---|
+| Rows written | 100,000 each day (all databases) | Uploads of data |
+| Rows read | 5 million each day | Searches and pages that are not in the cache |
+| Storage | 500 MB for each database | The database is 96 MB |
+
+Batch requests do not decrease the count. D1 counts each written row and each index entry.
+A full load writes approximately 2.6 million rows. Thus do not use a full load on the free plan.
+On 2026-11-12 the first full load used the limit of that day.
+
+The Workers Paid plan (5 USD each month) includes 50 million written rows each month.
+
+### 4.4.2 Put new data on the site
+
+Send only the changes. Do these steps:
 
 1. Run `npm run build`.
-2. Run `npm run load:remote`.
-3. Change `DATA_VERSION` in `functions/_lib.js`.
-4. Run `npm run deploy`.
+2. Run `npm run update:plan`. The tool compares `data/food.db` with `data/export/remote_baseline.db` (the data on D1). It writes the changes in parts of no more than 90,000 estimated row writes.
+3. Run `npm run update:apply`. This sends 1 part. On the free plan, send 1 part each day.
+4. Do step 3 again until all parts are sent. After the last part, the tool replaces the baseline.
+5. Change `DATA_VERSION` in `functions/_lib.js` and `API_VERSION` in `site/app.js`.
+6. Run `npm run deploy`.
 
-CAUTION: A full load writes approximately 2.6 million rows. The D1 free plan allows 100,000 written rows each day. The first load was successful. If a load stops because of this limit, use the Workers Paid plan or wait 1 day.
+We tested the tool: the old data and the parts make exactly the new database.
+
+### 4.4.3 Searches and the read limit
+
+A search with 3 or more characters uses the index `search_fts` (FTS5, trigram). It reads only the rows that match.
+A search with 1 or 2 characters (for example 白飯) reads all foods. Its result stays in the cache for 1 day.
 
 ### 4.5 Vector search (future)
 

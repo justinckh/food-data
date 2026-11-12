@@ -30,6 +30,8 @@ import math
 import re
 from collections import Counter, defaultdict
 
+from . import versions
+
 KEY = ("protein", "fat", "carbohydrate", "sodium", "calcium", "iron", "potassium", "energy_kcal")
 MIN_COMMON = 4     # nutrients both foods must have to compare at all
 MIN_NONZERO = 2    # agreeing non-zero values needed - else every oil or sugar "matches"
@@ -222,6 +224,7 @@ def link_by_name(db):
 def run(db):
     db.execute("DELETE FROM food_links")
     steps = [
+        ("Versions (dated)", versions.link_versions(db)),
         ("CNF -> USDA (code)", link_by_origin_code(db)),
         ("CFS -> USDA (values)", link_by_values(db, "USDA FoodData Central", "f.source_id LIKE 'usda%'")),
         # CFS states FSANZ energy without fibre, converted at 4.2 kJ/kcal, so energy is not compared here.

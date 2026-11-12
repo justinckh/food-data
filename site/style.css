@@ -230,3 +230,13 @@ body.is-home .topbar .search { display: none; }
 .others a { font-weight: 600; }
 .source-line { margin: 4px 0 24px; }
 .list .pill { font-size: 11px; vertical-align: 2px; }
+
+/* ---------- categories, sources, pager ---------- */
+.filters { flex-wrap: wrap; }
+.pager { display: flex; justify-content: space-between; align-items: center; padding: 16px 4px 0; font-weight: 700; font-size: 14px; }
+.sources { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.source-card { display: flex; gap: 14px; align-items: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; }
+.source-card .flag { flex: none; font-size: 12px; font-weight: 800; background: var(--cream); border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; }
+.source-card strong { display: block; font-size: 14px; line-height: 1.35; }
+.source-card .sub { display: block; font-size: 12px; color: var(--ink-3); margin-top: 2px; }
+.others .sub { font-size: 12px; color: var(--ink-3); white-space: nowrap; }

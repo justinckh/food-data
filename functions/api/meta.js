@@ -3,7 +3,7 @@ import { json, slug, cached } from "../_lib.js";
 
 async function handle({ env }) {
   const db = env.DB;
-  const [counts, sources, nutrients, groups] = await db.batch([
+  const [counts, sources, nutrients, groups, categories] = await db.batch([
     db.prepare("SELECT COUNT(*) AS foods, SUM(is_primary) AS main_records FROM foods"),
     db.prepare(`SELECT s.id, s.name, s.publisher, s.country, s.licence, s.attribution, s.url, s.version,
                        COUNT(f.id) AS foods
@@ -11,6 +11,9 @@ async function handle({ env }) {
     db.prepare("SELECT id, name_zh, name_en, unit FROM nutrients ORDER BY sort_order"),
     db.prepare(`SELECT group_zh, group_en, subgroup_zh, subgroup_en, COUNT(*) AS n
                 FROM foods WHERE source_id = 'cfs' GROUP BY group_en, subgroup_en ORDER BY group_en, subgroup_en`),
+    db.prepare(`SELECT c.id, c.name_zh, c.name_en,
+                       (SELECT COUNT(*) FROM foods f WHERE f.category = c.id AND f.is_primary = 1) AS n
+                FROM categories c ORDER BY c.sort_order`),
   ]);
 
   const byGroup = new Map();
@@ -27,6 +30,7 @@ async function handle({ env }) {
     sources: sources.results,
     nutrients: nutrients.results,
     groups: [...byGroup.values()],
+    categories: categories.results,
   }, 3600);
 }
 

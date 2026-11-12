@@ -14,7 +14,7 @@ async function handle({ request, env }) {
   // one round trip for the record itself, then one batch for everything else
   const food = await db.prepare(`SELECT id, source_id, source_code, display_zh, display_en, name_zh, name_en,
       name_local, alias, group_zh, group_en, subgroup_zh, subgroup_en, description, origin_source,
-      cluster_id, is_primary,
+      cluster_id, is_primary, sample_note, category,
       (SELECT value FROM food_nutrients WHERE food_id = foods.id AND nutrient_id = 'energy_kcal') AS kcal
       FROM foods WHERE id = ?1`).bind(id).first();
   if (!food) return bad("food not found", 404);
@@ -27,6 +27,8 @@ async function handle({ request, env }) {
     db.prepare("SELECT id, name, publisher, country, licence, attribution, url, version FROM sources WHERE id = ?1")
       .bind(food.source_id),
     db.prepare(`SELECT m.id, m.source_id, s.country, s.name AS source_name, m.name_zh, m.name_en, m.name_local,
+        m.sample_note,
+        EXISTS (SELECT 1 FROM food_links c WHERE c.food_id = m.id AND c.match_type = 'exact_copy') AS is_copy,
         (SELECT l.match_type FROM food_links l WHERE (l.food_id = m.id AND l.canonical_id = ?1)
             OR (l.food_id = ?1 AND l.canonical_id = m.id)) AS link_to_this,
         ${keyNutrientCols("m")}

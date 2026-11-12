@@ -54,6 +54,8 @@ CREATE TABLE IF NOT EXISTS foods (
     is_primary     INTEGER NOT NULL DEFAULT 1,  -- 1 = main record of its group (shown in search)
     display_zh     TEXT,                     -- name shown to HK users (HK word where possible)
     display_en     TEXT,
+    sample_note    TEXT,                     -- sampling date removed from the name, e.g. '2018', '2月'
+    category       TEXT,                     -- database-wide category (pipeline/categories.py)
     UNIQUE (source_id, source_code)
 );
 CREATE INDEX IF NOT EXISTS idx_foods_source ON foods(source_id);
@@ -105,6 +107,14 @@ CREATE TABLE IF NOT EXISTS food_links (
     PRIMARY KEY (food_id, canonical_id)
 );
 CREATE INDEX IF NOT EXISTS idx_links_canonical ON food_links(canonical_id);
+
+-- Database-wide categories (pipeline/categories.py); foods.category refers to id.
+CREATE TABLE IF NOT EXISTS categories (
+    id          TEXT PRIMARY KEY,
+    name_zh     TEXT NOT NULL,
+    name_en     TEXT NOT NULL,
+    sort_order  INTEGER NOT NULL
+);
 
 -- Synonym concepts a food belongs to (pipeline/synonyms.csv), e.g. 'broccoli'.
 CREATE TABLE IF NOT EXISTS food_concepts (

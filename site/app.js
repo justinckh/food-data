@@ -2,20 +2,24 @@
 //   /api/meta  /api/search  /api/food  /api/group  /api/foods
 // Routes (hash-based):
 //   #/                 home
-//   #/g/<group>[/<sub>] HK (CFS) food group, optional subgroup index
+//   #/c/<category>?src=<source>&sort=<sort>&page=<n>   database-wide category
 //   #/f/<food id>      food detail (old CFS ids without "cfs:" still work)
 //   #/search/<query>   search results
 "use strict";
 
-let META, GROUPS = {}, NUTRIENTS = {};
+let META, CATS = {}, NUTRIENTS = {};
 const app = document.getElementById("app");
 const q = document.getElementById("q");
 const cache = new Map();
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+// API_VERSION is added to every API address, so a new release never reads answers that a
+// browser or the edge cached for the previous release. Change it when the API or data changes.
+const API_VERSION = "2026-11-12b";
 const api = (path) => {
   if (!cache.has(path)) {
-    cache.set(path, fetch(path).then((r) => {
+    const url = path + (path.includes("?") ? "&" : "?") + "v=" + API_VERSION;
+    cache.set(path, fetch(url).then((r) => {
       if (!r.ok) throw Object.assign(new Error(`HTTP ${r.status}`), { status: r.status });
       return r.json();
     }).catch((e) => { cache.delete(path); throw e; }));
@@ -48,6 +52,14 @@ function fmt(v, factor = 1) {
   if (v.value === null || v.value === undefined) return "—";
   return (v.estimated ? "≈" : "") + fmtNum(v.value * factor);
 }
+// Sampling dates are not shown in names (user request); the year is shown as a tag instead.
+// Same rule as pipeline/versions.py: (2018) (2021年取樣) (2020取樣) (2月) and dates inside (12月,雄魚).
+const stripDate = (n) => !n ? n : n
+  .replace(/\s*[(（]\s*(?:(?:19|20)\d{2,3}\s*年?\s*(?:取樣)?|\d{1,2}\s*月\s*(?:取樣)?)\s*[)）]/g, "")
+  .replace(/[(（]\s*(?:(?:19|20)\d{2,3}\s*年?\s*(?:取樣)?|\d{1,2}\s*月\s*(?:取樣)?)\s*[,，、]\s*/g, "(")
+  .replace(/\s*[,，、]\s*(?:(?:19|20)\d{2,3}\s*年?\s*(?:取樣)?|\d{1,2}\s*月\s*(?:取樣)?)\s*(?=[)）])/g, "")
+  .replace(/\s*[(（]?\s*(?:19|20)\d{2,3}\s*年取樣\s*[)）]?/g, "")
+  .trim();
 const name = (f) => f.display_zh || f.display_en || f.name_en || f.name_local || f.id;
 const subName = (f) => (f.display_zh && f.display_en ? f.display_en : "");
 const kcal = (f) => (typeof f.energy_kcal === "number" ? Math.round(f.energy_kcal) : "—");
@@ -60,15 +72,20 @@ function crumbs(items) {
 }
 
 function foodRow(f, extra = "") {
-  const multi = f.n_sources > 1 ? `<span class="pill soft">${f.n_sources} 地資料</span>` : "";
+  const multi = f.n_sources > 1 ? `<span class="pill soft">${f.n_sources} 個來源</span>` : "";
+  if (extra === "" && f.source_id) extra = `${subName(f) ? " · " : ""}${esc(SOURCE_SHORT[f.source_id] || f.source_id)}`;
   return `<li><a href="#/f/${encodeURIComponent(f.id)}">
     <span><span class="nm">${esc(name(f))}</span> ${multi}<br><span class="sub">${esc(subName(f))}${extra}</span></span>
     <span class="kc">${kcal(f)}<small>kcal/100g</small></span></a></li>`;
 }
 
-function setActiveGroup(g) {
-  document.querySelectorAll("#groupbar a").forEach((a) => a.classList.toggle("on", a.dataset.g === g));
+function setActiveGroup(c) {
+  document.querySelectorAll("#groupbar a").forEach((a) => a.classList.toggle("on", a.dataset.g === c));
 }
+const catHref = (id, o = {}) => {
+  const qs = new URLSearchParams(Object.entries(o).filter(([, v]) => v && v !== "name" && v !== 1 && v !== "1"));
+  return `#/c/${id}${qs.toString() ? "?" + qs : ""}`;
+};
 const loading = () => { app.innerHTML = '<p class="muted">載入中…</p>'; };
 const failed = (e) => {
   app.innerHTML = e && e.status === 404 ? '<p>找不到此頁。<a href="#/">返回首頁</a></p>'
@@ -80,7 +97,6 @@ const failed = (e) => {
 async function home() {
   setActiveGroup(null);
   document.title = "食物營養資料庫";
-  const subs = Object.values(GROUPS).reduce((n, g) => n + g.subs.length, 0);
   app.innerHTML = `
     <section class="home-hero">
       <h1>搜尋食物營養</h1>
@@ -90,7 +106,7 @@ async function home() {
         <input id="hq" type="search" placeholder="輸入食物名稱，例如：虎蝦、白飯、apple" autocomplete="off" aria-label="搜尋食物">
       </form>
       <div class="quick">${QUICK.map((w) => `<a href="#/search/${encodeURIComponent(w)}">${w}</a>`).join("")}</div>
-      <div class="meta-line"><b>${META.main_records.toLocaleString()}</b> 種食物 · <b>${META.sources.length}</b> 個資料來源 · <b>${Object.keys(GROUPS).length}</b> 個類別 · <b>${subs}</b> 個細分類別 · <b>${META.nutrients.length}</b> 項營養素</div>
+      <div class="meta-line"><b>${META.main_records.toLocaleString()}</b> 種食物 · <b>${META.categories.length}</b> 個類別 · <b>${META.sources.length}</b> 個官方資料來源 · <b>${META.nutrients.length}</b> 項營養素</div>
     </section>
 
     <section class="home-section">
@@ -99,11 +115,22 @@ async function home() {
     </section>
 
     <section class="home-section">
-      <div class="section-head"><h2>食物類別</h2><span class="eyebrow">香港食物安全中心分類</span></div>
-      <div class="grid">${Object.values(GROUPS).map((g) => `
-        <a href="#/g/${g.id}">
-          <span class="txt"><strong>${esc(g.zh)}</strong><span class="sub">${esc(g.en)}</span></span>
-          <span class="count">${g.subs.reduce((n, s) => n + s.n, 0)} 種</span>${ICON_CHEVRON}</a>`).join("")}
+      <div class="section-head"><h2>食物類別</h2><span class="eyebrow">全部資料來源</span></div>
+      <div class="grid">${META.categories.map((c) => `
+        <a href="${catHref(c.id)}">
+          <span class="txt"><strong>${esc(c.name_zh)}</strong><span class="sub">${esc(c.name_en)}</span></span>
+          <span class="count">${c.n.toLocaleString()} 種</span>${ICON_CHEVRON}</a>`).join("")}
+      </div>
+    </section>
+
+    <section class="home-section">
+      <div class="section-head"><h2>資料來源</h2><span class="eyebrow">各地政府公開資料</span></div>
+      <div class="sources">${META.sources.map((x) => `
+        <div class="source-card">
+          <div class="flag">${esc(COUNTRY[x.country] || x.country)}</div>
+          <div><strong>${esc(x.name)}</strong><span class="sub">${esc(x.publisher || "")}${x.version ? ` · ${esc(x.version)}` : ""}</span>
+          <span class="sub">${x.foods.toLocaleString()} 項記錄 · ${esc(x.licence || "")}</span></div>
+        </div>`).join("")}
       </div>
     </section>`;
   const hq = document.getElementById("hq");
@@ -136,35 +163,46 @@ async function home() {
   }).join("");
 }
 
-async function group(gid, subId, sort = "name") {
-  const g = GROUPS[gid];
-  if (!g) return failed({ status: 404 });
-  setActiveGroup(gid);
-  document.title = `${g.zh} - 食物營養資料庫`;
-  const sub = subId === undefined ? null : g.subs[+subId];
+async function category(cid, params) {
+  const c = CATS[cid];
+  if (!c) return failed({ status: 404 });
+  const src = params.get("src") || "";
+  const sort = params.get("sort") || "name";
+  const page = Math.max(parseInt(params.get("page") || "1", 10) || 1, 1);
+  setActiveGroup(cid);
+  document.title = `${c.name_zh} - 食物營養資料庫`;
   loading();
-  const data = await api(`/api/group?g=${encodeURIComponent(gid)}${sub ? `&s=${sub.id}` : ""}&sort=${sort}`);
-  const base = `#/g/${gid}`;
-  const showSub = !sub && g.subs.length > 1;
+  const qs = new URLSearchParams({ c: cid, sort, page: String(page) });
+  if (src) qs.set("src", src);
+  const d = await api(`/api/category?${qs}`);
+  const pages = Math.max(Math.ceil(d.total / d.page_size), 1);
+  const all = d.sources.reduce((n, r) => n + r.n, 0);
+  const href = (o) => catHref(cid, { src, sort, page: 1, ...o });
   app.innerHTML = `
-    ${crumbs([["首頁", "#/"], [g.zh, base], ...(sub ? [[sub.zh, ""]] : [])])}
-    <h1 class="page">${esc(sub ? sub.zh : g.zh)}</h1>
-    <p class="muted">${esc(sub ? sub.en : g.en)} · ${data.results.length} 種食物</p>
-    ${g.subs.length > 1 ? `<div class="tabs">
-      <a href="${base}" class="${sub ? "" : "on"}">全部</a>
-      ${g.subs.map((s) => `<a href="${base}/${s.id}" class="${sub && sub.id === s.id ? "on" : ""}">${esc(s.zh)} (${s.n})</a>`).join("")}
-    </div>` : ""}
+    ${crumbs([["首頁", "#/"], [c.name_zh, ""]])}
+    <h1 class="page">${esc(c.name_zh)}</h1>
+    <p class="muted">${esc(c.name_en)} · ${d.total.toLocaleString()} 種食物</p>
+    <div class="tabs filters">
+      <a href="${href({ src: "" })}" class="${src ? "" : "on"}">全部 (${all.toLocaleString()})</a>
+      ${d.sources.map((r) => `<a href="${href({ src: r.source_id })}" class="${src === r.source_id ? "on" : ""}">${esc(SOURCE_SHORT[r.source_id] || r.source_id)} (${r.n.toLocaleString()})</a>`).join("")}
+    </div>
     <div class="card">
-      <div class="toolbar"><span class="eyebrow">每100克</span>
+      <div class="toolbar"><span class="eyebrow">每100克 · 第 ${page} / ${pages} 頁</span>
         <select id="sort" aria-label="排序">
           <option value="name">按名稱</option><option value="kcalAsc">卡路里：低至高</option>
           <option value="kcalDesc">卡路里：高至低</option><option value="protein">蛋白質最高</option>
         </select></div>
-      <ul class="list">${data.results.map((f) => foodRow(f, showSub && f.subgroup_zh ? ` · ${esc(f.subgroup_zh)}` : "")).join("")}</ul>
+      <ul class="list">${d.results.map((f) => foodRow(f)).join("") || '<li class="muted">沒有食物</li>'}</ul>
+      ${pages > 1 ? `<nav class="pager" aria-label="分頁">
+        ${page > 1 ? `<a href="${href({ page: page - 1 })}">‹ 上一頁</a>` : "<span></span>"}
+        <span class="muted">第 ${page} / ${pages} 頁</span>
+        ${page < pages ? `<a href="${href({ page: page + 1 })}">下一頁 ›</a>` : "<span></span>"}
+      </nav>` : ""}
     </div>`;
   const sel = document.getElementById("sort");
   sel.value = sort;
-  sel.onchange = () => group(gid, subId, sel.value);
+  sel.onchange = () => { location.hash = href({ sort: sel.value }); };
+  window.scrollTo(0, 0);
 }
 
 function macros(n, factor) {
@@ -242,19 +280,20 @@ async function food(id) {
   const d = await api(`/api/food?id=${encodeURIComponent(id)}`);
   const f = d.food;
   const n = Object.fromEntries(d.nutrients.map((x) => [x.id, x]));
-  const cfsGroup = f.source_id === "cfs" ? Object.values(GROUPS).find((g) => g.en === f.group_en) : null;
-  const cfsSub = cfsGroup ? cfsGroup.subs.find((s) => s.en === f.subgroup_en) : null;
-  setActiveGroup(cfsGroup ? cfsGroup.id : null);
+  const cat = CATS[f.category];
+  setActiveGroup(cat ? cat.id : null);
   document.title = `${name(f)} 營養及卡路里 - 食物營養資料庫`;
 
   const servings = [{ text: "100克", g: 100 }];
   for (const s of d.servings.slice(0, 6)) if (s.amount !== 100) servings.push({ text: servingLabel(s), g: s.amount });
 
-  const original = [f.name_zh, f.name_local, f.name_en].filter((x) => x && x !== f.display_zh && x !== f.display_en);
+  const original = [...new Set([f.name_zh, f.name_local, f.name_en].map(stripDate))]
+    .filter((x) => x && x !== f.display_zh && x !== f.display_en);
   const country = COUNTRY[d.source?.country] || d.source?.country || "";
-  const path = cfsGroup
-    ? [["首頁", "#/"], [cfsGroup.zh, `#/g/${cfsGroup.id}`], ...(cfsSub ? [[cfsSub.zh, `#/g/${cfsGroup.id}/${cfsGroup.subs.indexOf(cfsSub)}`]] : []), [name(f), ""]]
-    : [["首頁", "#/"], [SOURCE_SHORT[f.source_id] || f.source_id, ""], [name(f), ""]];
+  const path = [["首頁", "#/"], ...(cat ? [[cat.name_zh, catHref(cat.id)]] : []), [name(f), ""]];
+  const noteText = (n) => (n ? (/^\d{4}$/.test(n) ? `${n}年數據` : `${n}取樣`) : "");
+  const shown = d.members.filter((m) => !m.is_copy);
+  const copies = d.members.filter((m) => m.is_copy);
 
   const linkText = { exact_copy: "相同數據", equivalent: "同一食物" };
   app.innerHTML = `<div class="food-page">
@@ -266,6 +305,7 @@ async function food(id) {
           <div class="en">${esc(subName(f))}</div>
           <div class="chips">
             <span class="pill">${esc(SOURCE_SHORT[f.source_id] || f.source_id)}</span>
+            ${f.sample_note ? `<span class="pill soft">${esc(noteText(f.sample_note))}</span>` : ""}
             ${original.map((o) => `<span class="pill soft">原名 ${esc(o)}</span>`).join("")}
             ${f.alias ? f.alias.split(/[、,]/).slice(0, 6).map((a) => `<span class="pill soft">又名 ${esc(a.replace(/[\[\]]/g, ""))}</span>`).join("") : ""}
           </div>
@@ -287,20 +327,21 @@ async function food(id) {
       <section class="card"><div class="section-head"><h2>主要營養分佈</h2></div><div id="macros"></div></section>
       <section class="card" id="label"></section>
     </div>
-    ${d.members.length ? `<section class="card"><div class="section-head"><h2>其他地區的數據</h2><span class="eyebrow">每100克</span></div>
+    ${shown.length || copies.length ? `<section class="card"><div class="section-head"><h2>其他來源的數據</h2><span class="eyebrow">每100克</span></div>
       <div class="table-wrap"><table class="others">
         <thead><tr><th>來源</th><th>原名</th><th>kcal</th><th>蛋白質</th><th>脂肪</th><th>碳水</th><th></th></tr></thead>
-        <tbody>${d.members.map((m) => `<tr>
+        <tbody>${shown.map((m) => `<tr>
           <td>${esc(SOURCE_SHORT[m.source_id] || m.source_name)}</td>
-          <td><a href="#/f/${encodeURIComponent(m.id)}">${esc(m.name_zh || m.name_local || m.name_en)}</a></td>
+          <td><a href="#/f/${encodeURIComponent(m.id)}">${esc(stripDate(m.name_zh || m.name_local || m.name_en))}</a>${m.sample_note ? ` <span class="sub">${esc(noteText(m.sample_note))}</span>` : ""}</td>
           <td>${fmt(m.energy_kcal)}</td><td>${fmt(m.protein)}</td><td>${fmt(m.fat)}</td><td>${fmt(m.carbohydrate)}</td>
           <td>${m.link_to_this ? `<span class="pill soft">${linkText[m.link_to_this] || ""}</span>` : ""}</td></tr>`).join("")}</tbody>
       </table></div>
+      ${copies.length ? `<p class="src">另有 ${copies.length} 項記錄與上列數據相同，已隱藏（${[...new Set(copies.map((m) => SOURCE_SHORT[m.source_id] || m.source_id))].map(esc).join("、")}）。</p>` : ""}
       <p class="src">不同地區的分析方法及定義可能不同（例如碳水化合物），數值只供比較參考。</p>
     </section>` : ""}
     ${d.similar.length ? `<section class="card"><div class="section-head"><h2>近似食物</h2></div>
       <ul class="list">${d.similar.map((x) => foodRow(x)).join("")}</ul></section>` : ""}
-    <section class="card"><div class="section-head"><h2>相關食物</h2><span class="eyebrow">${esc(f.subgroup_zh || f.group_zh || f.subgroup_en || f.group_en || "")}</span></div>
+    <section class="card"><div class="section-head"><h2>相關食物</h2><span class="eyebrow">${esc(SOURCE_SHORT[f.source_id] || "")} · ${esc(f.subgroup_zh || f.group_zh || f.subgroup_en || f.group_en || "")}</span></div>
       <ul class="list">${d.related.map((x) => foodRow(x)).join("") || '<li class="muted">沒有相關食物</li>'}</ul>
     </section>
     <p class="src source-line">資料來源：${esc(d.source?.attribution || d.source?.name || "")}${country ? `（${esc(country)}）` : ""}${d.source?.licence ? ` · 授權：${esc(d.source.licence)}` : ""}${d.source?.version ? ` · 版本：${esc(d.source.version)}` : ""}</p>
@@ -345,16 +386,17 @@ async function search(term) {
     ${crumbs([["首頁", "#/"], ["搜尋", ""]])}
     <h1 class="page">搜尋「${esc(term)}」</h1>
     <p class="muted">找到 ${d.total} 種食物${d.total > d.results.length ? `，顯示首 ${d.results.length} 種` : ""}</p>
-    <div class="card"><ul class="list">${d.results.map((f) => foodRow(f, f.group_zh ? ` · ${esc(f.group_zh)}` : "")).join("") ||
+    <div class="card"><ul class="list">${d.results.map((f) => foodRow(f)).join("") ||
       '<li class="muted">很抱歉，找不到符合的食物。</li>'}</ul></div>`;
 }
 
 async function route() {
-  document.body.classList.toggle("is-home", !/^#\/(f|g|search)\//.test(location.hash));
-  const parts = location.hash.replace(/^#\/?/, "").split("/").map(decodeURIComponent);
+  document.body.classList.toggle("is-home", !/^#\/(f|c|search)\//.test(location.hash));
+  const [path, query = ""] = location.hash.replace(/^#\/?/, "").split("?");
+  const parts = path.split("/").map(decodeURIComponent);
   try {
     if (parts[0] === "f" && parts[1]) await food(parts[1]);
-    else if (parts[0] === "g" && parts[1]) await group(parts[1], parts[2]);
+    else if (parts[0] === "c" && parts[1]) await category(parts[1], new URLSearchParams(query));
     else if (parts[0] === "search" && parts[1]) await search(parts[1]);
     else await home();
   } catch (e) {
@@ -377,10 +419,10 @@ document.getElementById("searchForm").addEventListener("submit", (e) => e.preven
 api("/api/meta")
   .then((meta) => {
     META = meta;
-    GROUPS = Object.fromEntries(meta.groups.map((g) => [g.id, g]));
+    CATS = Object.fromEntries(meta.categories.map((c) => [c.id, c]));
     NUTRIENTS = Object.fromEntries(meta.nutrients.map((x) => [x.id, x]));
-    document.getElementById("groupbar").innerHTML = meta.groups
-      .map((g) => `<a href="#/g/${g.id}" data-g="${g.id}">${esc(g.zh)}</a>`).join("");
+    document.getElementById("groupbar").innerHTML = meta.categories
+      .map((c) => `<a href="${catHref(c.id)}" data-g="${c.id}">${esc(c.name_zh)}</a>`).join("");
     window.addEventListener("hashchange", route);
     route();
   })

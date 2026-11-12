@@ -23,7 +23,7 @@ Original names are never changed; they stay in name_zh / name_en / name_local.
 import re
 from collections import defaultdict
 
-from . import link, synonyms
+from . import link, synonyms, versions
 
 PRIORITY = ["cfs", "tfda", "mext", "afcd", "cofid", "usda_fnd", "usda_sr", "cnf"]
 # Preparation words ignored when matching an English name to a synonym word (display only;
@@ -100,9 +100,18 @@ def run(db):
                 return zh.replace(core, cn_to_hk[core], 1)
         return zh
 
+    # sampling dates are removed from shown names (user request 2026-11-12) and kept as a note
+    note = {}
+    for fid, (_, _, en, zh, *_rest) in foods.items():
+        note[fid] = versions.split(zh)[1] or versions.split(en)[1]
+
+    def nodate(name):
+        return versions.split(name)[0] if name else name
+
     rows = []
     for members in clusters(db):
-        members.sort(key=lambda f: (rank.get(foods[f][1], 99), f))
+        # source preference, then the newest version (dated re-tests), then id
+        members.sort(key=lambda f: (rank.get(foods[f][1], 99), -versions.year(note[f]), f))
         main = members[0]
         cfs = [f for f in members if foods[f][1] == "cfs" and foods[f][3]]
         zh = None
@@ -112,14 +121,16 @@ def run(db):
             zh = next((w for w in map(hk_word, members) if w), None)
         if not zh:
             zh = next((foods[f][3] for f in members if foods[f][1] == "tfda" and foods[f][3]), None)
-        ens = [foods[f][2] for f in members if foods[f][2]]
+        # TFDA English names can be synonym lists ("Sea mullet; River mullet; ..."): first name only
+        ens = [foods[f][2].split(";")[0].strip() for f in members if foods[f][2] and foods[f][2].split(";")[0].strip()]
         en = min(ens, key=lambda n: (len(n), n)) if ens else None
         for f in members:
             # HK records always keep their own (HK) name; other records show the group name
             own_zh = cfs_name(f) if foods[f][1] == "cfs" and foods[f][3] else zh
             own_en = foods[f][2] if foods[f][1] == "cfs" and foods[f][2] else en
-            rows.append((main, int(f == main), own_zh, own_en, f))
-    db.executemany("UPDATE foods SET cluster_id = ?, is_primary = ?, display_zh = ?, display_en = ? WHERE id = ?", rows)
+            rows.append((main, int(f == main), nodate(own_zh), nodate(own_en), note[f], f))
+    db.executemany("UPDATE foods SET cluster_id = ?, is_primary = ?, display_zh = ?, display_en = ?, sample_note = ? "
+                   "WHERE id = ?", rows)
     n_clusters = sum(r[1] for r in rows)
     print(f"  Display              {n_clusters:>6} main records for {len(rows)} foods; "
           f"{sum(1 for r in rows if r[1] and r[2])} have a Chinese display name")

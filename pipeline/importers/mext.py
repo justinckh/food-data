@@ -139,7 +139,10 @@ def english_names(path):
         text = r[3]
         syn = re.findall(r"［\*?Syn\.\s*([^］]+)］", text)
         text = re.sub(r"［[^］]*］", "", text).replace("*", "")
-        names[code] = (clean(text), clean(", ".join(syn)) or None)
+        text = clean(text)
+        if not re.search(r"[A-Za-z]", text):      # the 2015 table has "-" for a few foods
+            continue
+        names[code] = (text, clean(", ".join(syn)) or None)
     return names
 
 

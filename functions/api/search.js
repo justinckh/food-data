@@ -19,6 +19,13 @@ async function handle({ request, env }) {
   const e = likeEscape(q);
   const prefix = `${e}%`, contains = `%${e}%`;
   const latin = /^[\x20-\x7e]+$/.test(q) ? 1 : 0;
+  // Queries of 3+ characters use the trigram index search_fts (reads only matching rows);
+  // shorter queries (e.g. 白飯) scan foods.search_text, and their answers are cached for a day.
+  const useFts = [...q].length >= 3;
+  const ftsQuery = '"' + q.replace(/"/g, '""') + '"';
+  const candidates = useFts
+    ? "id IN (SELECT food_id FROM search_fts WHERE search_fts MATCH ?6)"
+    : "search_text LIKE ?3 ESCAPE '\\'";
   const ranked = `
     SELECT id, cluster_id, is_primary, source_id, CASE
       WHEN display_zh = ?1 OR name_zh = ?1 OR display_en = ?1 COLLATE NOCASE OR name_en = ?1 COLLATE NOCASE THEN ?5
@@ -28,7 +35,7 @@ async function handle({ request, env }) {
            OR alias LIKE ?3 ESCAPE '\\' THEN 2
       WHEN display_en LIKE ?3 ESCAPE '\\' OR name_en LIKE ?3 ESCAPE '\\' THEN 3
       ELSE 4 END AS rank
-    FROM foods WHERE search_text LIKE ?3 ESCAPE '\\'`;
+    FROM foods WHERE ${candidates}`;
   const best = `
     SELECT *, ROW_NUMBER() OVER (PARTITION BY cluster_id
       ORDER BY rank, is_primary DESC, (source_id <> 'cfs'), id) AS pick
@@ -44,10 +51,11 @@ async function handle({ request, env }) {
       WHERE b.pick = 1
       ORDER BY b.rank, (p.display_zh IS NULL), (p.source_id <> 'cfs'), n_sources DESC,
                length(coalesce(p.display_zh, p.display_en)), p.id
-      LIMIT ?4`).bind(q, prefix, contains, limit, latin),
-    db.prepare(`SELECT COUNT(DISTINCT cluster_id) AS n FROM foods WHERE search_text LIKE ?1 ESCAPE '\\'`).bind(contains),
+      LIMIT ?4`).bind(q, prefix, contains, limit, latin, ...(useFts ? [ftsQuery] : [])),
+    db.prepare(`SELECT COUNT(DISTINCT cluster_id) AS n FROM foods WHERE ${candidates.replace("?6", "?1").replace("?3", "?1")}`)
+      .bind(useFts ? ftsQuery : contains),
   ]);
-  return json({ q, total: total.results[0].n, results: rows.results });
+  return json({ q, total: total.results[0].n, results: rows.results }, useFts ? 3600 : 86400);
 }
 
 export const onRequestGet = (context) => cached(context, handle);
