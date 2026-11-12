@@ -49,9 +49,15 @@ CREATE TABLE IF NOT EXISTS foods (
     origin_source  TEXT,                     -- for republished data: where the values first came from
     origin_code    TEXT,                     -- for republished data: the original publisher's food code (e.g. USDA NDB number)
     search_text    TEXT NOT NULL DEFAULT '', -- built by pipeline/common.py:search_text()
+    -- display layer (pipeline/display.py), filled at the end of the build:
+    cluster_id     TEXT,                     -- id of the main record of this food's group
+    is_primary     INTEGER NOT NULL DEFAULT 1,  -- 1 = main record of its group (shown in search)
+    display_zh     TEXT,                     -- name shown to HK users (HK word where possible)
+    display_en     TEXT,
     UNIQUE (source_id, source_code)
 );
 CREATE INDEX IF NOT EXISTS idx_foods_source ON foods(source_id);
+CREATE INDEX IF NOT EXISTS idx_foods_cluster ON foods(cluster_id);
 
 -- Nutrient values. A missing value ('NA') has NO row.
 -- flag: NULL = normal number; 'ND' = not detected; 'TRACE' = trace amount (value is NULL for both).
