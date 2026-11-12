@@ -87,8 +87,13 @@ def release_date(path):
 
 
 def find_zip(root, pattern):
-    hits = sorted((root / RAW).glob(pattern))
-    return hits[-1] if hits else None   # newest release by filename date
+    """Newest release (by file-name date) that has the core tables."""
+    for path in sorted((root / RAW).glob(pattern), reverse=True):
+        names = {Path(n).name for n in zipfile.ZipFile(path).namelist()}
+        if {"food.csv", "food_nutrient.csv", "nutrient.csv"} <= names:
+            return path
+        print(f"    warning: {path.name} has no food.csv/food_nutrient.csv - ignored", file=sys.stderr)
+    return None
 
 
 def resolve_nutrients(z):

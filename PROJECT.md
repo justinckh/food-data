@@ -24,7 +24,7 @@ Other systems and AI tools will also use the data.
 | Data source: Taiwan TFDA | Done. The data has 2,213 foods (section 2.6). |
 | Data source: Japan MEXT | Done. The data has 2,538 foods (section 2.7). |
 | Data source: Australia AFCD | Done. The data has 1,588 foods (section 2.8). |
-| Data source: USDA (Foundation Foods, SR Legacy) | On hold. The importer is ready. It has a test with sample data. We cannot download the real data (section 2.5). |
+| Data source: USDA (Foundation Foods, SR Legacy) | Done. The data has 8,262 foods (section 2.5). |
 | Backend API | Not started. |
 | Cloudflare D1 | Not started. |
 | Other data sources | Not started. |
@@ -90,10 +90,12 @@ Section 4.2 shows how we will link them.
 
 The importer uses 2 USDA data sets:
 
-| Source ID | Data set | Approximate number of foods |
-|---|---|---|
-| `usda_fnd` | Foundation Foods | 400 |
-| `usda_sr` | SR Legacy | 7,800 |
+| Source ID | Data set | Release | Number of foods |
+|---|---|---|---|
+| `usda_fnd` | Foundation Foods | 2026-04-30 | 469 |
+| `usda_sr` | SR Legacy | 2018-04 | 7,793 |
+
+The licence is public domain (CC0 1.0).
 
 The importer finds each nutrient by its USDA nutrient number.
 It also examines the unit.
@@ -106,16 +108,20 @@ The `method` column records this value type.
 | Nutrient | First choice | Second choice | Third choice |
 |---|---|---|---|
 | Energy | Nutrient 208 | Atwater specific (`atwater_specific`) | Atwater general (`atwater_general`) |
-| Carbohydrate | By difference | By summation (`summation`) | - |
+| Carbohydrate | By difference (`difference`) | By summation (`summation`) | - |
 
-The USDA web site does not accept connections from this computer (2026-11-11).
-The USDA work is on hold.
-When the site is available, do these steps:
+The Foundation Foods release 2026-10-29 has no `food.csv` and no `food_nutrient.csv`.
+Thus we cannot use it.
+The download script examines each zip file.
+If a zip file does not have these tables, the script uses the release before it.
 
-1. Run `npm run download:usda`.
-2. Or, download the 2 "CSV" zip files from https://fdc.nal.usda.gov/download-datasets. Put them in `data/raw/usda/`.
-3. Run `npm run db`.
-4. Compare the number of foods and some values with the USDA web site.
+Foundation Foods has fewer nutrients for each food than SR Legacy.
+This is a property of the USDA data, not an import error.
+Example: only 140 of 469 Foundation foods have a value for vitamin C.
+
+SR Legacy also has some brand products, for example Pillsbury and Kraft.
+
+We compared the database with the raw files. All 143,925 values are the same.
 
 ### 2.6 About the TFDA data
 
@@ -280,7 +286,8 @@ Reasons:
 | 5 | Write the importer for the Taiwan TFDA data | Done |
 | 5a | Write the importer for the Japan MEXT data | Done |
 | 5b | Write the importer for the Australia AFCD data | Done |
-| 5c | Write the importers for USDA, Canada, UK and France | On hold. We cannot download the data now (section 4.3). |
+| 5c | Write the importer for USDA | Done |
+| 5d | Write the importers for Canada and France | On hold. We cannot download the data now (section 4.3). |
 | 6 | Link the duplicates in `food_links` (section 4.2) | To do |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
 | 8 | Make the API with Pages Functions | To do |
@@ -309,7 +316,7 @@ The numbers of foods are approximate. Make sure that each number and each licenc
 
 | Source | Country | Approximate number of foods | Licence |
 |---|---|---|---|
-| USDA FoodData Central (Foundation, SR Legacy, FNDDS) | US | 13,000 | Public domain |
+| USDA FoodData Central (Foundation, SR Legacy) | US | 8,262 (done) | Public domain |
 | Taiwan TFDA food composition | TW | 2,000 | Taiwan Open Data |
 | Japan MEXT Standard Tables (8th edition) | JP | 2,538 (done) | Public Data License (Japan) v1.0 |
 | Canadian Nutrient File (CNF) | CA | 5,700 | Open Government Licence. The web site does not accept connections from this computer. |
