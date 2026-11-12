@@ -15,11 +15,20 @@ Rules, strongest first:
     code; they are matched by identical key-nutrient values. A unique match is an
     exact_copy. Several matches are settled by name similarity, or left unlinked.
 
-Not done yet (planned): fuzzy 'equivalent' links across countries by name/group, and
-the synonym table (PROJECT.md 4.2).
+ 3. Name link: the same food from different sources, by English name (reviewed on a sample
+    with the user, 2026-11-12). Weighted word overlap of normalised names, plus:
+      - the cooking state must agree (raw / boiled / fried ...),
+      - product-form words must agree (flour, juice, oil, powder ...),
+      - protein, fat, carbohydrate and water must be roughly similar.
+    score >= 0.90 -> 'equivalent'; 0.75-0.90 -> 'similar'; below -> no link.
+    Foods already linked as copies are left out.
+
+Not done yet (planned): a species rule (pork vs beef) for lower scores, and the synonym
+table for foods without English names (PROJECT.md 4.2).
 """
+import math
 import re
-from collections import defaultdict
+from collections import Counter, defaultdict
 
 KEY = ("protein", "fat", "carbohydrate", "sodium", "calcium", "iron", "potassium", "energy_kcal")
 MIN_COMMON = 4     # nutrients both foods must have to compare at all
@@ -103,6 +112,113 @@ def link_by_values(db, origin_label, target_where, keys=KEY):
     return rows
 
 
+# --- rule 3: name link ------------------------------------------------------------
+EQUIVALENT_MIN = 0.90
+SIMILAR_MIN = 0.75
+RARE = 400          # words in more foods than this are too common to find candidates
+
+STATE = {"raw": "raw", "fresh": "raw", "uncooked": "raw",
+         "boiled": "boiled", "simmered": "boiled", "stewed": "boiled",
+         "steamed": "steamed", "baked": "baked", "roasted": "roasted", "roast": "roasted",
+         "fried": "fried", "deep": "fried", "grilled": "grilled", "broiled": "grilled", "microwaved": "microwaved",
+         "dried": "dried", "dehydrated": "dried", "canned": "canned", "frozen": "frozen", "cooked": "cooked"}
+UKUS = {"aubergine": "eggplant", "courgette": "zucchini", "coriander": "cilantro", "mince": "ground",
+        "minced": "ground", "prawn": "shrimp", "prawns": "shrimp", "capsicum": "pepper", "rocket": "arugula",
+        "yoghurt": "yogurt", "flavour": "flavor", "wholemeal": "wholewheat", "biscuit": "cookie",
+        "chips": "fries", "crisps": "chips", "swede": "rutabaga", "spring": "green", "beetroot": "beet",
+        "maize": "corn", "sweetcorn": "corn", "groundnut": "peanut", "lady": "okra"}
+STOP = {"and", "or", "with", "the", "of", "a", "in", "all", "type", "types", "regular", "plain", "commercial",
+        "average", "composite", "varieties", "ns", "nfs", "as", "to", "from", "added", "no", "without", "salt",
+        "includes", "include", "only", "edible", "portion", "flesh", "whole", "unspecified", "purchased", "sample"}
+
+def toks(name):
+    out = []
+    for w in re.findall(r"[a-z]+", (name or "").lower()):
+        w = UKUS.get(w, w)
+        if len(w) > 3 and w.endswith("ies"): w = w[:-3] + "y"
+        elif len(w) > 3 and w.endswith("oes"): w = w[:-2]
+        elif len(w) > 3 and w.endswith("s") and not w.endswith("ss"): w = w[:-1]
+        if w not in STOP and w not in STATE: out.append(w)
+    return set(out)
+
+def state(name):
+    return {STATE[w] for w in re.findall(r"[a-z]+", (name or "").lower()) if w in STATE} or {"raw?"}
+
+foods = {}
+FORM = {"flour", "vinegar", "juice", "powder", "oil", "sauce", "soup", "drink", "beverage", "paste", "bread",
+        "cake", "pie", "jam", "syrup", "milk", "cream", "cheese", "food", "mix", "bar", "cereal", "noodle",
+        "pasta", "sprout", "seed", "leaf", "leaves", "pickle", "pickled", "concentrate", "nectar", "spread",
+        "butter", "yolk", "white", "skin", "fat", "liver", "chip", "cracker", "biscuit", "cookie", "candy",
+        "salad", "sandwich", "pudding", "dessert", "babyfood", "infant", "formula", "stock", "broth", "gravy"}
+
+
+def name_tokens(name):
+    out = set()
+    for w in re.findall(r"[a-z]+", (name or "").lower()):
+        w = UKUS.get(w, w)
+        if len(w) > 3 and w.endswith("ies"):
+            w = w[:-3] + "y"
+        elif len(w) > 3 and w.endswith("oes"):
+            w = w[:-2]
+        elif len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
+            w = w[:-1]
+        if w not in STOP and w not in STATE and w not in PART:
+            out.add(w)
+    return out
+
+
+# Plant-part words that some sources add (MEXT: "Broccoli, inflorescence, raw").
+PART = {"inflorescence", "head", "heads"}
+# TFDA English names rarely say "raw"; the state is in the description: "樣品狀態:生".
+DESC_STATE = (("樣品狀態:生", "raw"), ("樣品狀態:冷凍", "frozen"))
+
+
+def cooking_state(name, description=None):
+    st = {STATE[w] for w in re.findall(r"[a-z]+", (name or "").lower()) if w in STATE}
+    if not st and description:
+        st = {state for marker, state in DESC_STATE if description.startswith(marker)}
+    return st or {"unstated"}
+
+
+def plausible(va, vb):
+    for k, tol in (("protein", 3), ("fat", 3), ("carbohydrate", 6), ("water", 12)):
+        if k in va and k in vb and abs(va[k] - vb[k]) > max(tol, 0.35 * max(va[k], vb[k])):
+            return False
+    return True
+
+
+def link_by_name(db):
+    foods = {fid: (src, name_tokens(n), cooking_state(n, d))
+             for fid, src, n, d in db.execute("SELECT id, source_id, name_en, description FROM foods WHERE name_en IS NOT NULL "
+                                           "AND id NOT IN (SELECT food_id FROM food_links)")}
+    vals = defaultdict(dict)
+    for f, n, v in db.execute("SELECT food_id, nutrient_id, value FROM food_nutrients WHERE value IS NOT NULL "
+                              "AND nutrient_id IN ('protein', 'fat', 'carbohydrate', 'water')"):
+        vals[f][n] = v
+    df = Counter(t for _, ts, _ in foods.values() for t in ts)
+    idf = {t: math.log(len(foods) / c) for t, c in df.items()}
+    index = defaultdict(list)
+    for fid, (_, ts, _) in foods.items():
+        for t in ts:
+            if df[t] < RARE:
+                index[t].append(fid)
+
+    rows = []
+    for a in sorted(foods):
+        sa, ta, sta = foods[a]
+        cands = Counter(b for t in ta if df[t] < RARE for b in index[t] if b > a and foods[b][0] != sa)
+        for b, _ in cands.most_common(60):
+            sb, tb, stb = foods[b]
+            if sta != stb or (ta & FORM) != (tb & FORM):
+                continue
+            union = sum(idf[t] for t in ta | tb)
+            score = sum(idf[t] for t in ta & tb) / union if union else 0
+            if score >= SIMILAR_MIN and plausible(vals[a], vals[b]):
+                kind = "equivalent" if score >= EQUIVALENT_MIN else "similar"
+                rows.append((a, b, kind, round(score, 3), "name+values"))
+    return rows
+
+
 def run(db):
     db.execute("DELETE FROM food_links")
     steps = [
@@ -115,5 +231,9 @@ def run(db):
     for label, rows in steps:
         db.executemany("INSERT OR IGNORE INTO food_links (food_id, canonical_id, match_type, confidence, method)"
                        " VALUES (?, ?, ?, ?, ?)", rows)
-        exact = sum(1 for r in rows if r[2] == "exact_copy")
-        print(f"  {label:<22} {len(rows):>5} links  ({exact} exact_copy, {len(rows) - exact} equivalent)")
+        print(f"  {label:<22} {len(rows):>5} links  " + ", ".join(f"{n} {k}" for k, n in sorted(Counter(r[2] for r in rows).items())))
+    # rule 3 runs after the copies are stored, so it can leave linked copies out
+    rows = link_by_name(db)
+    db.executemany("INSERT OR IGNORE INTO food_links (food_id, canonical_id, match_type, confidence, method)"
+                   " VALUES (?, ?, ?, ?, ?)", rows)
+    print(f"  {'Same food (name)':<22} {len(rows):>5} links  " + ", ".join(f"{n} {k}" for k, n in sorted(Counter(r[2] for r in rows).items())))

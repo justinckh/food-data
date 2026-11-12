@@ -384,6 +384,7 @@ The script `pipeline/link.py` makes the links. It uses these rules:
 | 1 | CNF food with a USDA code | USDA food with the same NDB number | Code. If the values are the same: `exact_copy`. If not: `equivalent`. | 3,896 `exact_copy`, 719 `equivalent` |
 | 2 | CFS food from USDA (code A) | USDA food | Same values | 76 `exact_copy` |
 | 3 | CFS food from FSANZ (code D) | AFCD food | Same values. Energy is not compared, because CFS uses a different energy definition for FSANZ. | 601 `exact_copy` |
+| 4 | Any food | The same food from a different source | English name (section 3.6) | 1,264 `equivalent`, 212 `similar` |
 
 For a value link, the 2 foods must have the same values for at least 4 key nutrients.
 At least 2 of these values must not be zero.
@@ -392,7 +393,31 @@ If the name does not show a clear selection, the script does not make a link.
 
 We examined samples of the links. All links in the samples were correct.
 
-Reasons:
+### 3.6 Links by name (rule 4)
+
+Rule 4 compares the English names of foods from different sources.
+It does not use the foods that rules 1 to 3 linked as copies.
+
+1. The script changes each name to a set of words. It removes plurals and common words. It changes UK words to US words, for example "aubergine" to "eggplant".
+2. The script calculates a score from 0 to 1. Rare words have more weight than common words.
+3. The cooking state must be the same, for example "raw" and "raw". For TFDA foods, the script reads the state from the description ("樣品狀態:生" is raw).
+4. The product form must be the same, for example "flour" and "flour".
+5. Protein, fat, carbohydrate and water must be almost the same.
+
+| Score | Link type | Meaning on the site |
+|---|---|---|
+| 0.90 or more | `equivalent` | The same food from a different country |
+| 0.75 to 0.90 | `similar` | A related food |
+| Less than 0.75 | No link | - |
+
+We examined samples with the user on 2026-11-12. At 0.90 or more, all foods in the samples were correct.
+Example: "Broccoli, raw" now has 9 records from 7 sources, which include Japan and Taiwan.
+
+Rule 4 does not link foods that have no English name.
+The synonym table (section 4.2) will link these foods.
+Rule 4 does not yet stop links such as pork to beef. Thus it does not use scores less than 0.75.
+
+### 3.7 Reasons for the link table
 
 - We can always find the first source of a value.
 - A new import does not bring the duplicates back.
@@ -415,7 +440,7 @@ Reasons:
 | 5e | Write the importer for UK CoFID | Done |
 | 5f | Write the importer for Canada CNF | Done |
 | 5d | Write the importer for France Ciqual | On hold. The Ciqual web site is in maintenance (section 4.3). |
-| 6 | Link the duplicates in `food_links` (section 4.2) | Exact copies done (section 3.5). Equivalent foods and synonyms: to do. |
+| 6 | Link the duplicates in `food_links` (section 4.2) | Exact copies and links by name done (sections 3.5 and 3.6). Synonyms: to do. |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
 | 8 | Make the API with Pages Functions | To do |
 | 9 | Change the site to use the API, not `foods.json` | To do |
