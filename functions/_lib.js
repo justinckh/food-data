@@ -29,7 +29,7 @@ export function listCols(a) {
 // Serve GET responses from Cloudflare's edge cache when possible. The data only changes
 // when the database is reloaded (see PROJECT.md 4.4), so answers are cached for an hour.
 // DATA_VERSION is part of the cache key: change it after each reload to drop old answers.
-export const DATA_VERSION = "2026-11-13a";
+export const DATA_VERSION = "2026-11-13b";
 
 export async function cached(context, handler) {
   const url = new URL(context.request.url);

@@ -93,11 +93,16 @@ def plan():
                     ["(" + ",".join(literal(x) for x in r) + ")" for r in rows], 1, parts)
             summary[t] = f"new table, {len(rows)} rows"
             continue
-        if cols != old_cols:
-            sys.exit(f"{t}: columns changed ({old_cols} -> {cols}). Add a migration step here first.")
-
+        if set(old_cols) - set(cols):
+            sys.exit(f"{t}: columns removed ({set(old_cols) - set(cols)}). Add a migration step here first.")
+        for c in cols:                                     # new columns: ALTER TABLE (NULL first)
+            if c not in old_cols:
+                ctype = next(r[2] for r in db.execute(f"PRAGMA main.table_info({t})") if r[1] == c)
+                parts.add(f"ALTER TABLE {t} ADD COLUMN {c} {ctype};", 1)
+        # compare by column name; a new column counts as NULL on D1
+        sel_old = ", ".join(c if c in old_cols else f"NULL AS {c}" for c in cols)
         new = {r[0]: r for r in db.execute(f"SELECT {', '.join(cols)} FROM main.{t}")}
-        old = {r[0]: r for r in db.execute(f"SELECT {', '.join(cols)} FROM old.{t}")}
+        old = {r[0]: r for r in db.execute(f"SELECT {sel_old} FROM old.{t}")}
         added = [k for k in new if k not in old]
         removed = [k for k in old if k not in new]
         changed = [k for k in new if k in old and new[k] != old[k]]

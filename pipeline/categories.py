@@ -12,6 +12,8 @@ Foods without a mapping go to 'other'.
 """
 import re
 
+from . import subcategories
+
 # id, Chinese (HK), English - in display order
 CATEGORIES = [
     ("cereals", "穀物米麵", "Cereals, rice & noodles"),
@@ -193,5 +195,13 @@ def run(db):
     db.executemany("INSERT INTO categories (id, name_zh, name_en, sort_order) VALUES (?, ?, ?, ?)",
                    [(*c, i) for i, c in enumerate(CATEGORIES)])
     db.executemany("UPDATE foods SET category = ? WHERE id = ?", updates)
+    # subcategories by name (English, Chinese incl. shown/translated name, Japanese)
+    cat = {fid: c for c, fid in updates}
+    subs = [(subcategories.sub_for(cat[fid], en, (zh, dzh, local)), fid) for fid, en, zh, dzh, local in
+            db.execute("SELECT id, name_en, name_zh, display_zh, name_local FROM foods")]
+    db.execute("DELETE FROM subcategories")
+    db.executemany("INSERT INTO subcategories (id, category, name_zh, name_en, sort_order) VALUES (?, ?, ?, ?, ?)",
+                   subcategories.rows())
+    db.executemany("UPDATE foods SET subcategory = ? WHERE id = ?", subs)
     other = sum(1 for c, _ in updates if c == "other")
     print(f"  Categories            {len(updates)} foods in {len({c for c, _ in updates})} categories ({other} other)")

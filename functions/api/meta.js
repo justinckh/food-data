@@ -8,7 +8,7 @@ async function handle({ env }) {
     db.prepare(`SELECT id, name, publisher, country, licence, attribution, url, version, foods
                 FROM sources ORDER BY foods DESC`),
     db.prepare("SELECT id, name_zh, name_en, unit FROM nutrients ORDER BY sort_order"),
-    db.prepare("SELECT id, name_zh, name_en, n FROM categories ORDER BY sort_order"),
+    db.prepare("SELECT id, name_zh, name_en, n, n_records FROM categories ORDER BY sort_order"),
   ]);
   return json({
     foods: sources.results.reduce((n, s) => n + s.foods, 0),

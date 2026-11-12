@@ -530,6 +530,23 @@ The site uses these categories to show all foods of all sources.
 
 To change a category, change the tables `GROUP`, `SUBGROUP` or `NAME_RULES` in `pipeline/categories.py`. Then run `npm run db`.
 
+### 3.10.1 Subcategories and counts
+
+The large categories have subcategories, for example 肉類: 肉類製品, 內臟, 牛肉, 豬肉, 羊肉, 其他.
+The script `pipeline/subcategories.py` sets `foods.subcategory` from the food names (English, Chinese and Japanese).
+The rules for 1 category apply in sequence. The first rule that matches gives the subcategory.
+
+The site shows 2 counts:
+
+| Count | Meaning |
+|---|---|
+| 種食物 | Food groups. The list shows each group 1 time. |
+| 筆數據 | All records from all sources. |
+
+If you select a source, the list shows all records of that source.
+This includes the records that are in a group of a different source.
+The page `#/c/all` shows all foods.
+
 ### 3.11 Dates in food names
 
 Some sources tested the same food again in a different year or month. Examples: CFS 菠蘿包 (2002) and 菠蘿包 (2018). TFDA 鯔(12月,雄魚).
@@ -649,8 +666,7 @@ Browser --> Cloudflare Pages "hk-food-nutrition" --> Pages Functions /api/* --> 
 |---|---|
 | Cloudflare account | "neologism" (ID in `.env`). Moved from the hotmail account on 2026-11-12. |
 | Pages project | `hk-food-nutrition` |
-| Live address | https://hk-food-nutrition-b9m.pages.dev |
-| Old address (hotmail account, old site) | https://hk-food-nutrition.pages.dev |
+| Live address | https://hk-food-nutrition.pages.dev |
 | D1 database | `food-db` (location: Asia-Pacific) |
 | Deployment | By hand (`npm run deploy`). There is no connection to GitHub. |
 
@@ -661,7 +677,7 @@ The API:
 | `/api/meta` | Counts, sources, the nutrient list and the categories |
 | `/api/search?q=&limit=` | Find foods by name in any language (section 3.4) |
 | `/api/food?id=` | All data for 1 food: nutrients, servings, source, the other records of its group, similar foods and related foods |
-| `/api/category?c=&src=&sort=&page=` | The foods of 1 category (section 3.10) |
+| `/api/category?c=&sub=&src=&sort=&page=` | The foods of 1 category or subcategory, or all foods (`c=all`) (section 3.10.1) |
 | `/api/foods?ids=` | Short data for a list of foods |
 | `/api/filter?...` | Find foods by the key nutrients. Not done yet. |
 

@@ -55,6 +55,8 @@ button, input, select { font: inherit; color: inherit; }
 .search input:focus { outline: none; border-color: var(--orange); background: var(--surface); }
 .groupbar { display: flex; gap: 8px; overflow-x: auto; padding: 0 var(--gutter) 12px; max-width: 1040px; margin: 0 auto; scrollbar-width: none; }
 .groupbar::-webkit-scrollbar { display: none; }
+/* desktop: show every category (wrap) instead of a hidden scroll */
+@media (min-width: 900px) { .groupbar { flex-wrap: wrap; overflow: visible; } .groupbar a { padding: 5px 12px; } }
 .groupbar a {
   flex: none; font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 999px;
   border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
@@ -240,3 +242,8 @@ body.is-home .topbar .search { display: none; }
 .source-card strong { display: block; font-size: 14px; line-height: 1.35; }
 .source-card .sub { display: block; font-size: 12px; color: var(--ink-3); margin-top: 2px; }
 .others .sub { font-size: 12px; color: var(--ink-3); white-space: nowrap; }
+
+/* category page: subcategory chips */
+.filters.subs a { font-weight: 700; }
+.grid a.all { border-color: var(--ink-3); }
+.meta-line a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }

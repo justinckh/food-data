@@ -56,6 +56,7 @@ CREATE TABLE IF NOT EXISTS foods (
     display_en     TEXT,
     sample_note    TEXT,                     -- sampling date removed from the name, e.g. '2018', '2月'
     category       TEXT,                     -- database-wide category (pipeline/categories.py)
+    subcategory    TEXT,                     -- e.g. 'meat.beef' (pipeline/subcategories.py); NULL for small categories
     zh_mt          INTEGER NOT NULL DEFAULT 0,  -- 1 = display_zh is a machine translation (pipeline/translations_zh.csv)
     UNIQUE (source_id, source_code)
 );
@@ -112,6 +113,15 @@ CREATE INDEX IF NOT EXISTS idx_links_canonical ON food_links(canonical_id);
 -- Database-wide categories (pipeline/categories.py); foods.category refers to id.
 CREATE TABLE IF NOT EXISTS categories (
     id          TEXT PRIMARY KEY,
+    name_zh     TEXT NOT NULL,
+    name_en     TEXT NOT NULL,
+    sort_order  INTEGER NOT NULL
+);
+
+-- Subcategories of the large categories (pipeline/subcategories.py); id = '<category>.<sub>'.
+CREATE TABLE IF NOT EXISTS subcategories (
+    id          TEXT PRIMARY KEY,
+    category    TEXT NOT NULL,
     name_zh     TEXT NOT NULL,
     name_en     TEXT NOT NULL,
     sort_order  INTEGER NOT NULL
