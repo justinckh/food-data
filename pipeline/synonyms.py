@@ -9,7 +9,7 @@ Runs at the end of every build (after linking rules 1-4), and does two things:
 1. Tags foods with concepts (table food_concepts) and adds every word of those concepts
    to foods.search_text, so a search in any region's words finds the food.
    - Chinese: name_zh and alias are read with the columns of the food's region
-     (CFS: HK, then CN; TFDA: TW). Longest words are matched first and their characters
+     (CFS: HK, then CN - but CN first for CFS records copied from the China table; TFDA: TW). Longest words are matched first and their characters
      are masked, so 洋蔥 (onion) is never read as 蔥 (spring onion).
    - Japanese (MEXT name_local): a word must be a whole space-separated token,
      so ねぎ is not found inside たまねぎ.
@@ -30,6 +30,7 @@ from . import link
 
 CSV = Path(__file__).with_name("synonyms.csv")
 REGIONS = {"cfs": ["hk", "cn"], "tfda": ["tw"]}   # source -> Chinese columns, in priority order
+CHINA = "China Food Composition (CFC2002)"         # CFS origin whose names are Mainland words
 LANGS = ("en", "hk", "tw", "cn", "ja")
 
 
@@ -51,6 +52,13 @@ def term_maps(concepts):
                 for t in terms[col]:
                     m.setdefault(t, c)
         maps[src] = m
+    # CFS records copied from the China table use Mainland words: read CN before HK
+    m = {}
+    for col in ("cn", "hk"):
+        for c, terms in concepts.items():
+            for t in terms[col]:
+                m.setdefault(t, c)
+    maps["cfs_cn"] = m
     maps["ja"] = {t: c for c, terms in concepts.items() for t in terms["ja"]}
     maps["en"] = {t.lower(): c for c, terms in concepts.items() for t in terms["en"]}
     return maps
@@ -92,11 +100,12 @@ def run(db):
     db.execute("DELETE FROM food_concepts")
 
     tags = defaultdict(set)
-    rows = db.execute("SELECT id, source_id, name_en, name_zh, name_local, alias, search_text FROM foods").fetchall()
-    for fid, src, en, zh, local, alias, st in rows:
+    rows = db.execute("SELECT id, source_id, name_en, name_zh, name_local, alias, search_text, origin_source FROM foods").fetchall()
+    for fid, src, en, zh, local, alias, st, origin in rows:
         found = match_en(f"{en or ''} | {alias or ''}" if src not in REGIONS else en, maps["en"])
         if src in REGIONS:
-            found |= match_zh(f"{zh or ''} {alias or ''}", maps[src])
+            zmap = maps["cfs_cn"] if src == "cfs" and origin == CHINA else maps[src]
+            found |= match_zh(f"{zh or ''} {alias or ''}", zmap)
         if src == "mext":
             found |= match_ja(local, maps["ja"])
         tags[fid] = found

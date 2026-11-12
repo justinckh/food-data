@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Cloudflare Pages project (static site in ./site + API in ./functions), account:
+  // "Justinckhcheung@hotmail.com's Account". Deploy: npm run deploy
+  "name": "hk-food-nutrition",
+  "pages_build_output_dir": "./site",
+  "compatibility_date": "2026-11-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "food-data",
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}

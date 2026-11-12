@@ -2,15 +2,18 @@
   "name": "food-data",
   "private": true,
   "scripts": {
-    "dev": "npx --yes live-server site --port=8000",
-    "build": "python3 build_data.py",
+    "dev": "npx --yes wrangler pages dev --port 8788",
     "db": "python3 -m pipeline.build_db",
+    "export": "python3 -m pipeline.export_d1",
+    "load:local": "npx --yes wrangler d1 execute food-data --local --file data/export/d1.sql --yes",
+    "load:remote": "npx --yes wrangler d1 execute food-data --remote --file data/export/d1.sql --yes",
+    "build": "python3 -m pipeline.build_db && python3 -m pipeline.export_d1",
     "download:tfda": "python3 -m pipeline.download_tfda",
     "download:mext": "python3 -m pipeline.download_mext",
     "download:afcd": "python3 -m pipeline.download_afcd",
     "download:usda": "python3 -m pipeline.download_usda",
     "download:cofid": "python3 -m pipeline.download_cofid",
-    "scrape": "python3 scrape_cfs.py && python3 build_data.py",
-    "deploy": "npx --yes wrangler pages deploy site --project-name=hk-food-nutrition --branch=main"
+    "scrape": "python3 scrape_cfs.py",
+    "deploy": "npx --yes wrangler pages deploy --branch=main"
   }
 }

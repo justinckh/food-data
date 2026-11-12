@@ -9,6 +9,8 @@ the other members are shown as "other sources" on the detail page.
 
 display_zh (per cluster):
   1. the HK name: name_zh of a CFS member (the main record if it is CFS, else the shortest);
+     for CFS records copied from the China table, a Mainland word is shown as the HK word
+     (鱷梨 -> 牛油果). Every CFS record keeps its own name, even inside a group;
   2. else the HK synonym word, when a member's name is exactly one concept word
      (Chinese/Japanese core name, or English name words), plus the cooking state
      in Chinese when it is not raw, e.g. USDA "Broccoli, boiled" -> 西蘭花(煮);
@@ -58,11 +60,11 @@ def run(db):
     maps = synonyms.term_maps(concepts)
     en_concept = {frozenset(link.name_tokens(t)): c for c, terms in concepts.items() for t in terms["en"]}
     foods = {r[0]: r for r in db.execute(
-        "SELECT id, source_id, name_en, name_zh, name_local, description FROM foods")}
+        "SELECT id, source_id, name_en, name_zh, name_local, description, origin_source FROM foods")}
     rank = {s: i for i, s in enumerate(PRIORITY)}
 
     def hk_word(fid):
-        _, src, en, zh, local, desc = foods[fid]
+        _, src, en, zh, local, desc, _origin = foods[fid]
         c = None
         if src in synonyms.REGIONS:
             core = synonyms.core_name(zh)
@@ -85,6 +87,19 @@ def run(db):
             extra.remove("熟")
         return f"{word}({','.join(extra)})" if extra else word
 
+    cn_to_hk = {t: terms["hk"][0] for terms in concepts.values() if terms["hk"]
+                for t in terms["cn"] if t not in terms["hk"]}
+
+    def cfs_name(fid):
+        """A CFS record's own name. Records copied from the China table use Mainland words
+        (鱷梨); show the HK word (牛油果). HK's own records already use HK words."""
+        zh = foods[fid][3]
+        if zh and foods[fid][6] == synonyms.CHINA:
+            core = synonyms.core_name(zh)
+            if core in cn_to_hk:
+                return zh.replace(core, cn_to_hk[core], 1)
+        return zh
+
     rows = []
     for members in clusters(db):
         members.sort(key=lambda f: (rank.get(foods[f][1], 99), f))
@@ -92,7 +107,7 @@ def run(db):
         cfs = [f for f in members if foods[f][1] == "cfs" and foods[f][3]]
         zh = None
         if cfs:
-            zh = foods[main][3] if main in cfs else min((foods[f][3] for f in cfs), key=len)
+            zh = cfs_name(main) if main in cfs else min((cfs_name(f) for f in cfs), key=len)
         if not zh:
             zh = next((w for w in map(hk_word, members) if w), None)
         if not zh:
@@ -100,7 +115,10 @@ def run(db):
         ens = [foods[f][2] for f in members if foods[f][2]]
         en = min(ens, key=lambda n: (len(n), n)) if ens else None
         for f in members:
-            rows.append((main, int(f == main), zh, en, f))
+            # HK records always keep their own (HK) name; other records show the group name
+            own_zh = cfs_name(f) if foods[f][1] == "cfs" and foods[f][3] else zh
+            own_en = foods[f][2] if foods[f][1] == "cfs" and foods[f][2] else en
+            rows.append((main, int(f == main), own_zh, own_en, f))
     db.executemany("UPDATE foods SET cluster_id = ?, is_primary = ?, display_zh = ?, display_en = ? WHERE id = ?", rows)
     n_clusters = sum(r[1] for r in rows)
     print(f"  Display              {n_clusters:>6} main records for {len(rows)} foods; "
