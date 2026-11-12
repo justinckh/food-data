@@ -918,8 +918,8 @@ Bacon and beef sticks,煙肉牛肉條,batch-033
 "Bagel, cinnamon-raisin",肉桂提子貝果,batch-021
 "Bagel, cinnamon-raisin, toasted",肉桂提子貝果(烘過),batch-021
 "Bagel, egg",雞蛋貝果,batch-021
-"Bagel, from white flour, commercial","貝果(白麵粉製,市售)",batch-001
-"Bagel, from white flour, commercial, toasted","貝果(白麵粉製,市售,烘過)",batch-001
+"Bagel, from white flour, commercial",貝果(白麵粉製),batch-001
+"Bagel, from white flour, commercial, toasted","貝果(白麵粉製,烘過)",batch-001
 "Bagel, multigrain",多種穀物貝果,batch-021
 "Bagel, plain (with onion, poppy seed and/or sesame seed)",原味貝果(可含洋蔥、罌粟籽或芝麻),batch-021
 "Bagel, plain (with onion, poppy seed and/or sesame seed), toasted","原味貝果(可含洋蔥、罌粟籽或芝麻,烘過)",batch-021
@@ -1609,29 +1609,29 @@ Beef stew with potatoes and vegetables,薯仔蔬菜燉牛肉,batch-005
 "Beef, composite cuts, steak/roast, lean and fat, raw","牛肉(混合部位,牛扒或烤肉塊,連肥肉,生)",batch-003
 "Beef, composite cuts, stewing beef, 0mm (0) trim, cooked","燉牛肉(混合部位,不修脂,熟)",batch-003
 "Beef, composite cuts, stewing beef, 0mm (0) trim, raw","燉牛肉(混合部位,不修脂,生)",batch-003
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, all grades, cooked","牛肉綜合修整零售切塊(連肥肉,修脂至0吋,各級別,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, all grades, raw","牛肉綜合修整零售切塊(連肥肉,修脂至0吋,各級別,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, choice, cooked","牛肉綜合修整零售切塊(連肥肉,修脂至0吋,特選級,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, choice, raw","牛肉綜合修整零售切塊(連肥肉,修脂至0吋,特選級,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, select, cooked","牛肉綜合修整零售切塊(連肥肉,修脂至0吋,精選級,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, select, raw","牛肉綜合修整零售切塊(連肥肉,修脂至0吋,精選級,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, all grades, cooked","牛肉綜合修整零售切塊(連肥肉,修脂至1/8吋,各級別,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, all grades, raw","牛肉綜合修整零售切塊(連肥肉,修脂至1/8吋,各級別,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, choice, cooked","牛肉綜合修整零售切塊(連肥肉,修脂至1/8吋,特選級,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, choice, raw","牛肉綜合修整零售切塊(連肥肉,修脂至1/8吋,特選級,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, select, cooked","牛肉綜合修整零售切塊(連肥肉,修脂至1/8吋,精選級,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, select, raw","牛肉綜合修整零售切塊(連肥肉,修脂至1/8吋,精選級,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, all grades, cooked","牛肉綜合修整零售切塊(只計瘦肉,修脂至0吋,各級別,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, all grades, raw","牛肉綜合修整零售切塊(只計瘦肉,修脂至0吋,各級別,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, choice, cooked","牛肉綜合修整零售切塊(只計瘦肉,修脂至0吋,特選級,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, choice, raw","牛肉綜合修整零售切塊(只計瘦肉,修脂至0吋,特選級,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, select, cooked","牛肉綜合修整零售切塊(只計瘦肉,修脂至0吋,精選級,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, select, raw","牛肉綜合修整零售切塊(只計瘦肉,修脂至0吋,精選級,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, all grades, cooked","牛肉綜合修整零售切塊(只計瘦肉,修脂至1/8吋,各級別,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, all grades, raw","牛肉綜合修整零售切塊(只計瘦肉,修脂至1/8吋,各級別,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, choice, raw","牛肉綜合修整零售切塊(只計瘦肉,修脂至1/8吋,特選級,生)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, select, cooked","牛肉綜合修整零售切塊(只計瘦肉,修脂至1/8吋,精選級,熟)",batch-023
-"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, select, raw","牛肉綜合修整零售切塊(只計瘦肉,修脂至1/8吋,精選級,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, all grades, cooked","牛肉(各部位平均,連肥肉,修脂至0吋,各級別,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, all grades, raw","牛肉(各部位平均,連肥肉,修脂至0吋,各級別,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, choice, cooked","牛肉(各部位平均,連肥肉,修脂至0吋,特選級,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, choice, raw","牛肉(各部位平均,連肥肉,修脂至0吋,特選級,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, select, cooked","牛肉(各部位平均,連肥肉,修脂至0吋,精選級,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 0"" fat, select, raw","牛肉(各部位平均,連肥肉,修脂至0吋,精選級,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, all grades, cooked","牛肉(各部位平均,連肥肉,修脂至1/8吋,各級別,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, all grades, raw","牛肉(各部位平均,連肥肉,修脂至1/8吋,各級別,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, choice, cooked","牛肉(各部位平均,連肥肉,修脂至1/8吋,特選級,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, choice, raw","牛肉(各部位平均,連肥肉,修脂至1/8吋,特選級,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, select, cooked","牛肉(各部位平均,連肥肉,修脂至1/8吋,精選級,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, select, raw","牛肉(各部位平均,連肥肉,修脂至1/8吋,精選級,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, all grades, cooked","牛肉(各部位平均,只計瘦肉,修脂至0吋,各級別,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, all grades, raw","牛肉(各部位平均,只計瘦肉,修脂至0吋,各級別,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, choice, cooked","牛肉(各部位平均,只計瘦肉,修脂至0吋,特選級,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, choice, raw","牛肉(各部位平均,只計瘦肉,修脂至0吋,特選級,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, select, cooked","牛肉(各部位平均,只計瘦肉,修脂至0吋,精選級,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 0"" fat, select, raw","牛肉(各部位平均,只計瘦肉,修脂至0吋,精選級,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, all grades, cooked","牛肉(各部位平均,只計瘦肉,修脂至1/8吋,各級別,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, all grades, raw","牛肉(各部位平均,只計瘦肉,修脂至1/8吋,各級別,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, choice, raw","牛肉(各部位平均,只計瘦肉,修脂至1/8吋,特選級,生)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, select, cooked","牛肉(各部位平均,只計瘦肉,修脂至1/8吋,精選級,熟)",batch-023
+"Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, select, raw","牛肉(各部位平均,只計瘦肉,修脂至1/8吋,精選級,生)",batch-023
 "Beef, corned beef hash, with potato, canned","牛肉(鹹牛肉薯仔碎,罐頭)",batch-031
 "Beef, crossbred (Holstein×Japanese black) steer, fillet, without subcutaneous fat, boiled","牛柳(荷斯登黑毛和牛雜交閹牛,無皮下脂肪,煮)",batch-016
 "Beef, crossbred (Holstein×Japanese black) steer, flank or short plate, lean and fat, boiled","牛腹脅肉(荷斯登黑毛和牛雜交閹牛,瘦肉連肥肉,煮)",batch-016
@@ -2736,16 +2736,16 @@ Bicarbonate of soda,梳打粉,batch-010
 "Biscuit, savoury, rice cracker, plain","鹹餅乾(米餅,原味)",batch-001
 "Biscuit, savoury, rice cracker, seaweed flavoured","鹹餅乾(米餅,紫菜味)",batch-001
 "Biscuit, savoury, seed based",鹹餅乾(種子類),batch-001
-"Biscuit, sweet, Anzac style, commercial","澳紐軍團餅乾(甜,市售)",pilot
+"Biscuit, sweet, Anzac style, commercial",澳紐軍團餅乾(甜),pilot
 "Biscuit, sweet, Anzac style, homemade from basic ingredients","甜餅乾(澳新軍團式,家庭自製)",batch-001
-"Biscuit, sweet, biscuit base, caramel filling, chocolate-coated, commercial","甜餅乾(餅底,焦糖餡,朱古力外層,市售)",batch-001
+"Biscuit, sweet, biscuit base, caramel filling, chocolate-coated, commercial","甜餅乾(餅底,焦糖餡,朱古力外層)",batch-001
 "Biscuit, sweet, biscuit base, mint filling, chocolate-coated","甜餅乾(餅底,薄荷餡,朱古力外層)",batch-001
 "Biscuit, sweet, breakfast style, with or without dried fruit","甜餅乾(早餐式,連或不連乾果)",batch-001
 "Biscuit, sweet, chocolate chip, homemade from basic ingredients, fat not further defined","甜餅乾(朱古力粒,家庭自製,脂肪種類不詳)",batch-001
-"Biscuit, sweet, chocolate flavoured, commercial","甜餅乾(朱古力味,市售)",batch-001
-"Biscuit, sweet, cream filled, commercial","甜餅乾(夾心忌廉餡,市售)",batch-001
-"Biscuit, sweet, ginger flavoured, commercial","甜餅乾(薑味,市售)",batch-001
-"Biscuit, sweet, plain, with icing, commercial","甜餅乾(原味,糖霜面層,市售)",batch-001
+"Biscuit, sweet, chocolate flavoured, commercial",甜餅乾(朱古力味),batch-001
+"Biscuit, sweet, cream filled, commercial",甜餅乾(夾心忌廉餡),batch-001
+"Biscuit, sweet, ginger flavoured, commercial",甜餅乾(薑味),batch-001
+"Biscuit, sweet, plain, with icing, commercial","甜餅乾(原味,糖霜面層)",batch-001
 "Biscuit, sweet, sandwich, cream filling, chocolate-coated, tim tam style","甜餅乾(夾心餅,忌廉餡,朱古力外層,Tim Tam式)",batch-001
 "Biscuits, Chinese cookies containing lard",曲奇(中式豬油曲奇),batch-013
 "Biscuits, Sablé shortbread",曲奇(法式沙布列酥餅),batch-013
@@ -2902,7 +2902,7 @@ Brawn,豬頭肉凍,batch-009
 "Bread, Indian, paratha, whole wheat",印度全麥parathā煎餅,batch-021
 "Bread, Irish soda, homemade",愛爾蘭蘇打麵包(自家製),batch-021
 "Bread, Italian, toasted",意大利麵包(烘過),batch-003
-"Bread, banana, commercial",香蕉麵包(市售),batch-001
+"Bread, banana, commercial",香蕉麵包,batch-001
 "Bread, banana, homemade, made with margarine","香蕉麵包(自家製,用瑪琪琳製作)",batch-021
 "Bread, bannock",班諾克麵包,batch-003
 "Bread, blue corn, somiviki (Hopi)","藍粟米麵包(Somiviki,霍皮族)",batch-019
@@ -2917,26 +2917,26 @@ Brawn,豬頭肉凍,batch-009
 "Bread, cornbread, homemade, made with 2% milk","粟米麵包(自家製,用2%脂肪牛奶製作)",batch-021
 "Bread, damper, from white flour, homemade","澳洲野外麵包(白麵粉製,家庭自製)",batch-001
 "Bread, damper, homemade, toasted","澳洲野外麵包(家庭自製,烘過)",batch-001
-"Bread, flat (pita or Lebanese), white, commercial","扁麵包(皮塔餅或黎巴嫩式,白色,市售)",batch-001
-"Bread, flat wrap or tortilla, corn, commercial","扁平捲餅或墨西哥薄餅(粟米,市售)",batch-001
+"Bread, flat (pita or Lebanese), white, commercial","扁麵包(皮塔餅或黎巴嫩式,白色)",batch-001
+"Bread, flat wrap or tortilla, corn, commercial",扁平捲餅或墨西哥薄餅(粟米),batch-001
 "Bread, from rye flour, sour dough",酸種裸麥麵包,batch-001
 "Bread, from rye flour, sour dough, toasted",酸種裸麥麵包(烘過),batch-001
 "Bread, from white Jackaroo flour, added fibre and vitamins B1 & folate & Fe","白麵粉麵包(Jackaroo牌,添加纖維及維他命B1、葉酸、鐵)",batch-001
 "Bread, from white Jackaroo flour, added fibre and vitamins B1 & folate & Fe, toasted","白麵粉麵包(Jackaroo牌,添加纖維及維他命B1、葉酸、鐵,烘過)",batch-001
-"Bread, from white flour, Italian-style, commercial",意大利式白麵粉麵包(市售),batch-001
-"Bread, from white flour, Italian-style, commercial, toasted","意大利式白麵粉麵包(市售,烘過)",batch-001
+"Bread, from white flour, Italian-style, commercial",意大利式白麵粉麵包,batch-001
+"Bread, from white flour, Italian-style, commercial, toasted",意大利式白麵粉麵包(烘過),batch-001
 "Bread, from white flour, Turkish",土耳其白麵粉麵包,batch-001
 "Bread, from white flour, Turkish, toasted",土耳其白麵粉麵包(烘過),batch-001
 "Bread, from white flour, added fibre",白麵粉麵包(添加纖維),batch-001
 "Bread, from white flour, added fibre, toasted","白麵粉麵包(添加纖維,烘過)",batch-001
 "Bread, from white flour, added omega-3 polyunsaturates",白麵粉麵包(添加奧米加3多元不飽和脂肪),batch-001
 "Bread, from white flour, added omega-3 polyunsaturates, toasted","白麵粉麵包(添加奧米加3多元不飽和脂肪,烘過)",batch-001
-"Bread, from white flour, sour dough, commercial",酸種白麵粉麵包(市售),batch-001
+"Bread, from white flour, sour dough, commercial",酸種白麵粉麵包,batch-001
 "Bread, from white flour, sour dough, toasted",酸種白麵粉麵包(烘過),batch-001
 "Bread, from white wheat flour, added dried fruit, toasted","水果乾白麵包(白麵粉製,烘過)",pilot
 "Bread, from wholemeal flour, toasted",全麥麵粉麵包(烘過),batch-001
 "Bread, garlic",蒜蓉麵包,batch-021
-"Bread, garlic and herb, retail",蒜香香草麵包(零售),batch-006
+"Bread, garlic and herb, retail",蒜香香草麵包,batch-006
 "Bread, garlic or herb, homemade, cooked","蒜蓉或香草麵包(家庭自製,熟)",batch-001
 "Bread, garlic, toasted",蒜蓉麵包(烘過),batch-003
 "Bread, gluten free",無麩質麵包,batch-001
@@ -2946,18 +2946,18 @@ Brawn,豬頭肉凍,batch-009
 "Bread, gluten-free, white (made with tapioca and brown rice)",無麩質白麵包(用木薯粉及糙米製作),batch-021
 "Bread, gluten-free, whole grain (prepared with tapioca and brown rice)",無麩質全穀物麵包(用木薯粉及糙米製作),batch-021
 "Bread, kneel down (Navajo)",跪下麵包(納瓦霍族),batch-019
-"Bread, made with milk, commercial",牛奶麵包(商業製品),batch-003
-"Bread, made with milk, commercial, toasted","牛奶麵包(商業製品,烘過)",batch-003
+"Bread, made with milk, commercial",牛奶麵包,batch-003
+"Bread, made with milk, commercial, toasted",牛奶麵包(烘過),batch-003
 "Bread, malt, fruited",麥芽提子麵包,batch-006
 "Bread, malted wheat",麥芽小麥麵包,batch-006
-"Bread, mulitgrain, commercial",多種穀物麵包(市售),batch-019
-"Bread, multigrain, commercial",多種穀物麵包(市面出售),batch-021
-"Bread, multigrain, commercial, reduced sodium","多種穀物麵包(商業製品,減鈉)",batch-003
-"Bread, multigrain, commercial, reduced sodium, toasted","多種穀物麵包(商業製品,減鈉,烘過)",batch-003
-"Bread, multigrain, commercial, toasted","多種穀物麵包(市面出售,烘過)",batch-021
-"Bread, naan, peshwari naan, takeaway and retail",白沙瓦烤餅(外賣及零售),batch-006
-"Bread, naan, retail",印度烤餅(零售),batch-006
-"Bread, oat (includes oatmeal and oat bran), commercial, toasted","燕麥麵包(包括燕麥片及燕麥麩,商業製品,烘過)",batch-003
+"Bread, mulitgrain, commercial",多種穀物麵包,batch-019
+"Bread, multigrain, commercial",多種穀物麵包(市售),batch-021
+"Bread, multigrain, commercial, reduced sodium",多種穀物麵包(減鈉),batch-003
+"Bread, multigrain, commercial, reduced sodium, toasted","多種穀物麵包(減鈉,烘過)",batch-003
+"Bread, multigrain, commercial, toasted",多種穀物麵包(烘過),batch-021
+"Bread, naan, peshwari naan, takeaway and retail",白沙瓦烤餅(外賣或市售),batch-006
+"Bread, naan, retail",印度烤餅,batch-006
+"Bread, oat (includes oatmeal and oat bran), commercial, toasted","燕麥麵包(包括燕麥片及燕麥麩,烘過)",batch-003
 "Bread, oat bran, toasted",燕麥麩麵包(烘過),batch-021
 "Bread, organic",有機麵包,batch-001
 "Bread, organic, toasted",有機麵包(烘過),batch-001
@@ -2986,15 +2986,15 @@ Brawn,豬頭肉凍,batch-009
 "Bread, salvadoran sweet cheese (quesadilla salvadorena)",薩爾瓦多甜芝士麵包(quesadilla salvadoreña),batch-021
 "Bread, seeded",雜籽麵包,batch-006
 "Bread, soda, made with white flour, homemade","梳打麵包(以白麵粉製,自家製)",batch-006
-"Bread, spelt, commercial",斯佩爾特小麥麵包(商業製品),batch-003
-"Bread, spelt, commercial, toasted","斯佩爾特小麥麵包(商業製品,烘過)",batch-003
-"Bread, sprouted wheat with added calcium and vitamin D, commercial","發芽小麥麵包(添加鈣及維他命D,商業製品)",batch-003
-"Bread, sprouted wheat with added calcium and vitamin D, commercial, toasted","發芽小麥麵包(添加鈣及維他命D,商業製品,烘過)",batch-003
-"Bread, sprouted wheat, commercial",發芽小麥麵包(商業製品),batch-003
-"Bread, sprouted wheat, commercial, toasted","發芽小麥麵包(商業製品,烘過)",batch-003
+"Bread, spelt, commercial",斯佩爾特小麥麵包,batch-003
+"Bread, spelt, commercial, toasted",斯佩爾特小麥麵包(烘過),batch-003
+"Bread, sprouted wheat with added calcium and vitamin D, commercial",發芽小麥麵包(添加鈣及維他命D),batch-003
+"Bread, sprouted wheat with added calcium and vitamin D, commercial, toasted","發芽小麥麵包(添加鈣及維他命D,烘過)",batch-003
+"Bread, sprouted wheat, commercial",發芽小麥麵包(市售),batch-003
+"Bread, sprouted wheat, commercial, toasted","發芽小麥麵包(烘過,市售)",batch-003
 "Bread, stuffing, cornbread, dry mix","麵包餡料(粟米麵包,乾粉預拌)",batch-021
 "Bread, stuffing, dry mix",麵包餡料(乾粉預拌),batch-021
-"Bread, tortilla, white, commercial","墨西哥薄餅(白色,市售)",batch-001
+"Bread, tortilla, white, commercial",墨西哥薄餅(白色),batch-001
 "Bread, wheat",小麥麵包,pilot
 "Bread, wheat germ, toasted",麥芽麵包(烘過),batch-003
 "Bread, wheat, sprouted",發芽小麥麵包,batch-021
@@ -3005,11 +3005,11 @@ Brawn,豬頭肉凍,batch-009
 "Bread, white, 'with added fibre', toasted","白麵包(添加纖維,烘過)",batch-006
 "Bread, white, Danish style",丹麥式白麵包,batch-006
 "Bread, white, French stick",法式長棍白麵包,batch-006
-"Bread, white, commercial",白麵包(市面出售),batch-021
-"Bread, white, commercial, reduced sodium","白麵包(市面出售,減鈉)",batch-021
-"Bread, white, commercial, toasted","白麵包(市面出售,烘過)",batch-021
-"Bread, white, commercial, toasted, reduced sodium","白麵包(市面出售,烘過,減鈉)",batch-021
-"Bread, white, commercially prepared",白麵包(市售),batch-019
+"Bread, white, commercial",白麵包(市售),batch-021
+"Bread, white, commercial, reduced sodium",白麵包(減鈉),batch-021
+"Bread, white, commercial, toasted",白麵包(烘過),batch-021
+"Bread, white, commercial, toasted, reduced sodium","白麵包(烘過,減鈉)",batch-021
+"Bread, white, commercially prepared",白麵包,batch-019
 "Bread, white, crusty bloomer, unsliced, fresh, large","脆皮白麵包(未切片,新鮮,大)",batch-006
 "Bread, white, farmhouse or split tin",農莊式白麵包(或開口模麵包),batch-006
 "Bread, white, homemade with 2% M.F. milk","白麵包(自家製,用2%脂肪牛奶製作)",batch-021
@@ -3017,21 +3017,21 @@ Brawn,豬頭肉凍,batch-009
 "Bread, white, premium",優質白麵包,batch-006
 "Bread, white, sliced",白麵包(切片),batch-006
 "Bread, white, sliced, fried in rapeseed oil","白麵包(切片,以芥花籽油煎)",batch-006
-"Bread, whole grain (whole wheat) with seeds (flax, sunflower), commercial","全穀物麵包(全麥,加籽[亞麻籽,葵花子],商業製品)",batch-003
-"Bread, whole grain (whole wheat) with seeds (flax, sunflower), commercial, toasted","全穀物麵包(全麥,加籽[亞麻籽,葵花子],商業製品,烘過)",batch-003
-"Bread, whole grain (whole wheat) with seeds and bran, commercial","全穀物麵包(全麥,加籽及麩皮,商業製品)",batch-003
-"Bread, whole grain (whole wheat) with seeds and bran, commercial, toasted","全穀物麵包(全麥,加籽及麩皮,商業製品,烘過)",batch-003
-"Bread, whole grain (whole wheat), commercial","全穀物麵包(全麥,商業製品)",batch-003
-"Bread, whole grain (whole wheat), commercial, toasted","全穀物麵包(全麥,商業製品,烘過)",batch-003
-"Bread, whole grain (whole wheat), with added fibre, commercial","全穀物麵包(全麥,添加纖維,商業製品)",batch-003
-"Bread, whole grain (whole wheat), with added fibre, commercial, toasted","全穀物麵包(全麥,添加纖維,商業製品,烘過)",batch-003
-"Bread, whole wheat, commercial",全麥麵包(市售),batch-019
-"Bread, whole wheat, commercial, toasted","全麥麵包(市面出售,烘過)",batch-021
+"Bread, whole grain (whole wheat) with seeds (flax, sunflower), commercial","全穀物麵包(全麥,加籽[亞麻籽,葵花子])",batch-003
+"Bread, whole grain (whole wheat) with seeds (flax, sunflower), commercial, toasted","全穀物麵包(全麥,加籽[亞麻籽,葵花子],烘過)",batch-003
+"Bread, whole grain (whole wheat) with seeds and bran, commercial","全穀物麵包(全麥,加籽及麩皮)",batch-003
+"Bread, whole grain (whole wheat) with seeds and bran, commercial, toasted","全穀物麵包(全麥,加籽及麩皮,烘過)",batch-003
+"Bread, whole grain (whole wheat), commercial",全穀物麵包(全麥),batch-003
+"Bread, whole grain (whole wheat), commercial, toasted","全穀物麵包(全麥,烘過)",batch-003
+"Bread, whole grain (whole wheat), with added fibre, commercial","全穀物麵包(全麥,添加纖維)",batch-003
+"Bread, whole grain (whole wheat), with added fibre, commercial, toasted","全穀物麵包(全麥,添加纖維,烘過)",batch-003
+"Bread, whole wheat, commercial",全麥麵包,batch-019
+"Bread, whole wheat, commercial, toasted","全麥麵包(烘過,市售)",batch-021
 "Bread, whole-wheat, prepared from recipe",全麥麵包(按食譜製作),batch-021
 "Bread, whole-wheat, prepared from recipe, toasted","全麥麵包(按食譜製作,烘過)",batch-021
 "Bread, wholemeal, average",全麥麵包(平均),batch-006
 "Bread, wholemeal, toasted",全麥麵包(烘過),batch-006
-"Bread, wrap, white, commercial","捲餅(白色,市售)",batch-001
+"Bread, wrap, white, commercial",捲餅(白色),batch-001
 "Breaded seafood, cuttlefish, fried, frozen","炸海鮮(墨魚,炸,冷凍)",batch-017
 "Breaded seafood, cuttlefish, pre-fried, frozen","炸海鮮(墨魚,預炸,冷凍)",batch-017
 "Breaded seafood, prawn, fried, frozen","炸海鮮(蝦,炸,冷凍)",batch-017
@@ -3200,7 +3200,7 @@ Buckwheat,蕎麥,batch-025
 "Burger, beef, with bun, grilled, homemade","牛肉漢堡包(燒烤,自家製)",batch-009
 "Burger, cheeseburger, takeaway",芝士漢堡包(外賣),batch-009
 "Burger, chicken, takeaway",雞肉漢堡包(外賣),batch-009
-"Burger, chicken/turkey, coated, retail, grilled","雞肉或火雞肉漢堡扒(裹粉,零售,燒烤)",batch-009
+"Burger, chicken/turkey, coated, retail, grilled","雞肉或火雞肉漢堡扒(裹粉,燒烤)",batch-009
 "Burger, hamburger, takeaway",漢堡包(外賣),batch-009
 "Burrito, bean and cheese, frozen",豆及芝士墨西哥卷(冷凍),batch-031
 "Burrito, bean and cheese, microwaved",豆及芝士墨西哥卷(微波),batch-005
@@ -3298,23 +3298,23 @@ Buckwheat,蕎麥,batch-025
 "Cake mix, coffee, cinnamon with crumb topping, dry, unprepared","咖啡蛋糕預拌粉(肉桂味,加酥粒面層,乾,未經調製)",batch-003
 "Cake mix, german chocolate, pudding-type mix, dry, unprepared","德式朱古力蛋糕預拌粉(布甸型,乾,未經調製)",batch-003
 "Cake mix, marble, pudding-type, dry, unprepared","大理石蛋糕預拌粉(布甸型,乾,未經調製)",batch-003
-"Cake or cupcake, sponge, plain, commercial, iced, unfilled","海綿蛋糕或杯子蛋糕(原味,市售,糖霜面層,無夾心)",batch-001
+"Cake or cupcake, sponge, plain, commercial, iced, unfilled","海綿蛋糕或杯子蛋糕(原味,糖霜面層,無夾心)",batch-001
 Cake rusks,蛋糕脆麵包,batch-006
-"Cake, Boston cream pie, commercial",波士頓忌廉批蛋糕(市面出售),batch-021
+"Cake, Boston cream pie, commercial",波士頓忌廉批蛋糕,batch-021
 "Cake, Swiss roll, homemade",瑞士卷(自家製),batch-006
-"Cake, Swiss rolls, chocolate covered and filled, retail","瑞士卷(塗朱古力及夾餡,零售)",batch-006
-"Cake, angel food, commercial",天使蛋糕(市面出售),batch-021
+"Cake, Swiss rolls, chocolate covered and filled, retail",瑞士卷(塗朱古力及夾餡),batch-006
+"Cake, angel food, commercial",天使蛋糕,batch-021
 "Cake, angelfood, dry mix, prepared","天使蛋糕(乾粉預拌,已調製)",batch-021
-"Cake, battenberg, retail",巴頓堡蛋糕(零售),batch-006
+"Cake, battenberg, retail",巴頓堡蛋糕,batch-006
 "Cake, carrot, homemade, iced","甘筍蛋糕(家庭自製,糖霜面層)",batch-001
 "Cake, carrot, homemade, uniced","甘筍蛋糕(家庭自製,無糖霜)",batch-001
 "Cake, carrot, homemade, with cream cheese icing","甘筍蛋糕(自家製,加忌廉芝士糖霜)",batch-003
-"Cake, carrot, iced, retail","甘筍蛋糕(有糖霜,零售)",batch-006
+"Cake, carrot, iced, retail",甘筍蛋糕(有糖霜),batch-006
 "Cake, carrot, with topping, homemade","甘筍蛋糕(連面層,自家製)",batch-006
 "Cake, cherry fudge with chocolate frosting",車厘子朱古力軟糖蛋糕(朱古力糖霜),batch-021
 "Cake, cherry, homemade",車厘子蛋糕(自家製),batch-006
 "Cake, chocolate fudge",朱古力軟糖蛋糕,batch-006
-"Cake, chocolate, commercial, with chocolate icing (frosting), in-store bakery","朱古力蛋糕(市面出售,朱古力糖霜,店內烘焙)",batch-021
+"Cake, chocolate, commercial, with chocolate icing (frosting), in-store bakery","朱古力蛋糕(朱古力糖霜,店內烘焙)",batch-021
 "Cake, chocolate, homemade, iced","朱古力蛋糕(家庭自製,糖霜面層)",batch-001
 "Cake, chocolate, homemade, uniced","朱古力蛋糕(家庭自製,無糖霜)",batch-001
 "Cake, chocolate, homemade, with chocolate icing (frosting)","朱古力蛋糕(自家製,加朱古力糖霜)",batch-003
@@ -3322,38 +3322,38 @@ Cake rusks,蛋糕脆麵包,batch-006
 "Cake, chocolate, not filled, homemade","朱古力蛋糕(無夾餡,自家製)",batch-006
 "Cake, chocolate, pudding-type, dry mix, prepared, with chocolate icing (frosting)","朱古力蛋糕(布甸型,預拌粉調製,加朱古力糖霜)",batch-003
 "Cake, chocolate, with butter icing, homemade","朱古力蛋糕(牛油糖霜,自家製)",batch-006
-"Cake, chocolate, with filling and icing, retail","朱古力蛋糕(有夾餡及糖霜,零售)",batch-006
+"Cake, chocolate, with filling and icing, retail",朱古力蛋糕(有夾餡及糖霜),batch-006
 "Cake, coconut, homemade",椰子蛋糕(自家製),batch-006
-"Cake, coffee cake, cinnamon with crumb topping, commercial",肉桂酥粒咖啡蛋糕(市面出售),batch-021
+"Cake, coffee cake, cinnamon with crumb topping, commercial",肉桂酥粒咖啡蛋糕,batch-021
 "Cake, coffeecake, cheese",芝士咖啡蛋糕,batch-021
-"Cake, coffeecake, cinnamon with crumb topping, commercially prepared, unenriched","肉桂酥粒咖啡蛋糕(市面出售,未強化)",batch-021
+"Cake, coffeecake, cinnamon with crumb topping, commercially prepared, unenriched",肉桂酥粒咖啡蛋糕(未強化),batch-021
 "Cake, coffeecake, cinnamon with crumb topping, dry mix, prepared","肉桂酥粒咖啡蛋糕(乾粉預拌,已調製)",batch-021
 "Cake, coffeecake, creme-filled with chocolate frosting",忌廉夾心咖啡蛋糕(朱古力糖霜),batch-021
 "Cake, coffeecake, fruit",水果咖啡蛋糕,batch-021
 "Cake, date square (matrimonial cake), homemade",棗子方塊蛋糕(自家製),batch-003
 "Cake, fruit, homemade, uniced","水果蛋糕(家庭自製,無糖霜)",batch-001
-"Cake, fruit, retail",水果蛋糕(零售),batch-006
+"Cake, fruit, retail",水果蛋糕,batch-006
 "Cake, fruit, rich, homemade",濃味水果蛋糕(自家製),batch-006
 "Cake, fruit, rich, iced, homemade","濃味水果蛋糕(有糖霜,自家製)",batch-006
 "Cake, fruit, wholemeal, homemade",全麥水果蛋糕(自家製),batch-006
-"Cake, fruitcake, commercial",水果蛋糕(市面出售),batch-021
+"Cake, fruitcake, commercial",水果蛋糕(市售),batch-021
 "Cake, gingerbread, dry mix",薑餅蛋糕(乾粉預拌),batch-021
 "Cake, gingerbread, dry mix, prepared, without icing","薑餅蛋糕(預拌粉調製,不加糖霜)",batch-003
 "Cake, gingerbread, homemade",薑餅蛋糕(自家製),batch-021
 "Cake, lardy, homemade",豬油蛋糕(自家製),batch-006
-"Cake, loaf, retail",長條蛋糕(零售),batch-006
-"Cake, mud, dark chocolate, commercial, chocolate ganache icing","黑朱古力泥蛋糕(市售,朱古力甘納許面層)",batch-001
+"Cake, loaf, retail",長條蛋糕,batch-006
+"Cake, mud, dark chocolate, commercial, chocolate ganache icing",黑朱古力泥蛋糕(朱古力甘納許面層),batch-001
 "Cake, mud, dark chocolate, homemade, chocolate ganache icing","黑朱古力泥蛋糕(家庭自製,朱古力甘納許面層)",batch-001
 "Cake, mud, dark chocolate, homemade, uniced","黑朱古力泥蛋糕(家庭自製,無糖霜)",batch-001
 "Cake, pineapple upside-down, homemade",菠蘿倒轉蛋糕(自家製),batch-021
-"Cake, plain butter cake, commercial, iced","牛油蛋糕(原味,市售,糖霜面層)",pilot
+"Cake, plain butter cake, commercial, iced","牛油蛋糕(原味,糖霜面層)",pilot
 "Cake, plain butter cake, homemade, iced","牛油蛋糕(原味,家庭自製,糖霜面層)",batch-001
 "Cake, plain butter cake, homemade, uniced","牛油蛋糕(原味,家庭自製,無糖霜)",batch-001
 "Cake, pound, Bimbo Bakeries USA, Panque Casero, home baked style","磅蛋糕(Bimbo Bakeries USA,Panque Casero,自家烘焙風味)",batch-021
-"Cake, pound, commercial, fat free","磅蛋糕(市面出售,無脂)",batch-021
-"Cake, pound, commercial, made with butter (includes fresh and frozen)","磅蛋糕(市面出售,用牛油製作,包括新鮮及冷凍)",batch-021
-"Cake, pound, commercial, made with other than butter","磅蛋糕(市面出售,用牛油以外油脂製作)",batch-021
-"Cake, pound, commercially prepared, other than all butter, unenriched","磅蛋糕(市面出售,非全牛油,未強化)",batch-021
+"Cake, pound, commercial, fat free",磅蛋糕(無脂),batch-021
+"Cake, pound, commercial, made with butter (includes fresh and frozen)","磅蛋糕(用牛油製作,包括新鮮及冷凍)",batch-021
+"Cake, pound, commercial, made with other than butter",磅蛋糕(用牛油以外油脂製作),batch-021
+"Cake, pound, commercially prepared, other than all butter, unenriched","磅蛋糕(非全牛油,未強化)",batch-021
 "Cake, pound, homemade",磅蛋糕(自家製),batch-003
 "Cake, pudding-type, carrot, dry mix",布甸式甘筍蛋糕(乾粉預拌),batch-021
 "Cake, pudding-type, chocolate, dry mix",布甸式朱古力蛋糕(乾粉預拌),batch-021
@@ -3365,28 +3365,28 @@ Cake rusks,蛋糕脆麵包,batch-006
 "Cake, snack cakes, creme-filled, chocolate with frosting",忌廉夾心朱古力小蛋糕(糖霜面層),batch-021
 "Cake, snack cakes, creme-filled, chocolate with frosting, low-fat, with added fiber","忌廉夾心朱古力小蛋糕(糖霜面層,低脂,添加纖維)",batch-021
 "Cake, snack cakes, not chocolate, with icing or filling, low-fat, with added fiber","非朱古力小蛋糕(糖霜面層或夾心,低脂,添加纖維)",batch-021
-"Cake, sponge, commercial",海綿蛋糕(市面出售),batch-021
+"Cake, sponge, commercial",海綿蛋糕(市售),batch-021
 "Cake, sponge, fatless, homemade",無脂海綿蛋糕(自家製),batch-006
 "Cake, sponge, homemade",海綿蛋糕(自家製),batch-006
-"Cake, sponge, soft iced, retail",軟糖霜海綿蛋糕(零售),batch-006
+"Cake, sponge, soft iced, retail",軟糖霜海綿蛋糕,batch-006
 "Cake, sponge, with butter icing, homemade",牛油糖霜海綿蛋糕(自家製),batch-006
 "Cake, sponge, with dairy cream and jam, frozen",鮮忌廉果醬海綿蛋糕(雪藏),batch-006
-"Cake, sponge, with jam and butter cream, retail",果醬牛油忌廉海綿蛋糕(零售),batch-006
+"Cake, sponge, with jam and butter cream, retail",果醬牛油忌廉海綿蛋糕,batch-006
 "Cake, white, dry mix, special dietary (includes lemon-flavored)","白蛋糕(乾粉預拌,特殊飲食用途,包括檸檬味)",batch-021
 "Cake, white, homemade, with coconut icing (frosting)","白蛋糕(自家製,椰子糖霜面層)",batch-021
 "Cake, white, homemade, without icing (frosting)","白蛋糕(自家製,無糖霜)",batch-021
 "Cake, white, pudding-type, dry mix, prepared, with chocolate icing","白蛋糕(布甸型,預拌粉調製,加朱古力糖霜)",batch-003
 "Cake, white, regular, dry mix, unprepared","白蛋糕預拌粉(普通,乾,未經調製)",batch-003
 "Cake, yellow (plus streusel), pudding-type, dry mix, prepared, with icing","黃蛋糕(加酥粒,布甸型,預拌粉調製,加糖霜)",batch-003
-"Cake, yellow, commercial, with chocolate icing (frosting), in-store bakery","黃蛋糕(市面出售,朱古力糖霜,店內烘焙)",batch-021
-"Cake, yellow, commercially prepared, with vanilla frosting","黃蛋糕(市面出售,雲呢拿糖霜)",batch-021
+"Cake, yellow, commercial, with chocolate icing (frosting), in-store bakery","黃蛋糕(朱古力糖霜,店內烘焙)",batch-021
+"Cake, yellow, commercially prepared, with vanilla frosting",黃蛋糕(雲呢拿糖霜),batch-021
 "Cake, yellow, enriched, dry mix","黃蛋糕(強化,乾粉預拌)",batch-021
 "Cake, yellow, homemade, without icing (frosting)","黃蛋糕(自家製,無糖霜)",batch-021
 "Cake, yellow, light, dry mix","黃蛋糕(輕盈,乾粉預拌)",batch-021
 "Cake, yellow, unenriched, dry mix","黃蛋糕(未強化,乾粉預拌)",batch-021
 Cakes from 'healthy eating' ranges,健康飲食系列蛋糕,batch-006
 "Cakes, crispie, homemade",脆米蛋糕(自家製),batch-006
-"Cakes, fancy iced, individual, retail","花式糖霜小蛋糕(獨立包裝,零售)",batch-006
+"Cakes, fancy iced, individual, retail",花式糖霜小蛋糕(獨立包裝),batch-006
 "Calamari, coated in batter, baked","魷魚圈(裹漿,焗)",batch-007
 "Callaloo and cho cho, homemade",卡拉魯菜佛手瓜(自家製),batch-011
 "Callaloo and okra, homemade",卡拉魯菜秋葵(自家製),batch-011
@@ -3660,7 +3660,7 @@ Catsup,茄汁,batch-036
 "Cauliflower cheese, made with semi-skimmed milk, homemade","焗芝士椰菜花(以半脂奶製,自家製)",batch-011
 "Cauliflower cheese, made with skimmed milk, homemade","焗芝士椰菜花(以脫脂奶製,自家製)",batch-011
 "Cauliflower cheese, made with whole milk, homemade","焗芝士椰菜花(以全脂奶製,自家製)",batch-011
-"Cauliflower cheese, retail",焗芝士椰菜花(零售),batch-011
+"Cauliflower cheese, retail",焗芝士椰菜花,batch-011
 "Cauliflower in white sauce, made with semi-skimmed milk, homemade","白汁椰菜花(以半脂奶製,自家製)",batch-011
 "Cauliflower in white sauce, made with skimmed milk, homemade","白汁椰菜花(以脫脂奶製,自家製)",batch-011
 "Cauliflower in white sauce, made with whole milk, homemade","白汁椰菜花(以全脂奶製,自家製)",batch-011
@@ -4068,7 +4068,7 @@ Celery seeds,芹菜籽,batch-008
 "Cereals, whole wheat hot natural cereal, cooked with water, with salt","全麥熱天然麥片(以水煮熟,有鹽)",batch-025
 "Cereals, whole wheat hot natural cereal, cooked with water, without salt","全麥熱天然麥片(以水煮熟,無鹽)",batch-025
 "Cereals, whole wheat hot natural cereal, dry",全麥熱天然麥片(乾),batch-025
-"Chapatis, made with fat, retail","印度薄餅(加脂肪,零售)",batch-006
+"Chapatis, made with fat, retail",印度薄餅(加脂肪),batch-006
 "Chapatis, made without fat",印度薄餅(無脂肪),batch-006
 "Chard, Swiss, boiled in unsalted water",瑞士甜菜(以無鹽水煮),batch-011
 "Chard, Swiss, raw",瑞士甜菜(生),batch-011
@@ -4080,7 +4080,7 @@ Celery seeds,芹菜籽,batch-008
 "Chayote, fruit, raw","佛手瓜(瓜果,生)",batch-036
 "Chayote, fruit, white-colored, raw","佛手瓜(果實,白色,生)",batch-018
 "Chayote, fruit, white-colored, salted pickles","佛手瓜(果實,白色,鹽漬)",batch-018
-"Cheese and onion rolls, pastry, retail",芝士洋蔥酥卷(零售),batch-006
+"Cheese and onion rolls, pastry, retail",芝士洋蔥酥卷,batch-006
 "Cheese fondue, swiss/emmental/gruyere, ready-to-serve","芝士火鍋(瑞士芝士,埃曼塔芝士,格魯耶爾芝士,即食)",batch-004
 "Cheese food, cold pack, American","芝士食品(冷包裝,美式)",batch-026
 "Cheese food, imitation",仿芝士食品,batch-004
@@ -4103,7 +4103,7 @@ Cheese souffle,芝士梳乎厘,batch-005
 "Cheese spread, pasteurized process, American","塗抹芝士(巴氏殺菌加工,美式)",batch-026
 "Cheese spread, plain",芝士醬(原味),batch-010
 "Cheese spread, plain, reduced fat","芝士醬(原味,低脂)",batch-010
-"Cheese straws/twists, retail",芝士條或芝士扭(零售),batch-006
+"Cheese straws/twists, retail",芝士條或芝士扭,batch-006
 "Cheese substitute, mozzarella",芝士代替品(水牛芝士),batch-026
 Cheese whey powder,芝士乳清粉,batch-016
 "Cheese, American, nonfat or fat free",美式芝士(脫脂或無脂),batch-026
@@ -4286,7 +4286,7 @@ Cheese whey powder,芝士乳清粉,batch-016
 "Cheese, tilsit",蒂爾西特芝士,batch-026
 "Cheese, white, average",白芝士(平均),batch-010
 "Cheese, white, queso blanco",白芝士(queso blanco),batch-026
-"Cheesecake, commercial",芝士蛋糕(市面出售),batch-021
+"Cheesecake, commercial",芝士蛋糕,batch-021
 "Cheesecake, fruit, frozen",水果芝士蛋糕(冷凍),batch-010
 "Cheesecake, fruit, individual",水果芝士蛋糕(獨立裝),batch-010
 "Cheesecake, homemade",芝士蛋糕(自家製),batch-010
@@ -4658,7 +4658,7 @@ Chicken spread,雞肉抹醬,batch-034
 "Chicken, stewing, meat, skin, giblets and neck, stewed","燉用雞(肉,皮,雞雜及雞頸,燜煮)",batch-033
 "Chicken, stir-fried with mushrooms and cashew nuts, homemade",蘑菇腰果炒雞(自家製),batch-009
 "Chicken, stir-fried with peppers in black bean sauce, homemade",豉汁青椒炒雞(自家製),batch-009
-"Chicken, stir-fried with rice and vegetables, retail, reheated","雞肉蔬菜炒飯(零售,已翻熱)",batch-009
+"Chicken, stir-fried with rice and vegetables, retail, reheated",雞肉蔬菜炒飯(已翻熱),batch-009
 "Chicken, thigh, boneless, skinless, raw","雞扒(去骨,去皮,生)",batch-019
 "Chicken, thigh, lean flesh, fried, no added fat","雞髀肉(瘦肉,炸,無添加脂肪)",batch-002
 "Chicken, thigh, meat and skin, raw","雞腿肉(連皮,生)",batch-019
@@ -4717,8 +4717,8 @@ Chilchen (Red Berry Beverage) (Navajo),"紅莓飲品(Chilchen,納瓦霍族)",bat
 "Chili without beans, canned",辣肉醬不含豆(罐頭),batch-031
 "Chilli (chili), dried, ground","辣椒(乾,磨粉)",batch-002
 "Chilli con carne, homemade",辣肉醬豆(自家製),batch-009
-"Chilli con carne, retail, reheated","辣肉醬豆(零售,已翻熱)",batch-009
-"Chilli con carne, retail, reheated, with rice","辣肉醬豆配飯(零售,已翻熱)",batch-009
+"Chilli con carne, retail, reheated",辣肉醬豆(已翻熱),batch-009
+"Chilli con carne, retail, reheated, with rice",辣肉醬豆配飯(已翻熱),batch-009
 Chilli powder,辣椒粉,batch-008
 Chilli sauce,辣椒醬,batch-011
 "Chilli, Quorn, homemade","辣豆醬(Quorn素肉,自家製)",batch-011
@@ -4783,7 +4783,7 @@ Chocolate-flavored hazelnut spread,朱古力味榛子醬,batch-035
 "Chop suey, with meat, canned","雜碎(連肉,罐頭)",batch-005
 Chorizo,西班牙辣腸,batch-009
 "Choux buns, homemade",泡芙(自家製),batch-006
-"Chow mein, beef, retail, reheated","牛肉炒麵(零售,已翻熱)",batch-009
+"Chow mein, beef, retail, reheated",牛肉炒麵(已翻熱),batch-009
 "Chow mein, chicken, takeaway",雞肉炒麵(外賣),batch-009
 "Chow mein, pork and chicken, homemade",豬肉雞肉炒麵(自家製),batch-009
 "Chrysanthemum leaves, raw",茼蒿葉(生),batch-036
@@ -4860,8 +4860,8 @@ Cocoa butter,可可脂,batch-007
 "Coconut milk (liquid from grated meat and water), canned","椰奶(磨碎椰肉及水製成的液體,罐頭)",batch-031
 "Coconut milk (liquid from grated meat and water), frozen","椰奶(磨碎椰肉及水製成的液體,冷凍)",batch-031
 "Coconut milk (liquid from grated meat and water), raw","椰奶(磨碎椰肉及水製成的液體,生)",batch-031
-"Coconut milk, reduced fat, retail","椰漿(低脂,零售)",batch-010
-"Coconut milk, retail",椰漿(零售),batch-010
+"Coconut milk, reduced fat, retail",椰漿(低脂),batch-010
+"Coconut milk, retail",椰漿(市售),batch-010
 Coconut water (liquid from coconut),椰子水(來自椰子的液體),batch-031
 "Coconut, Nata de coco in syrup",椰果(糖漿浸),batch-015
 "Coconut, coconut milk",椰漿,batch-015
@@ -4939,8 +4939,8 @@ Cola,可樂,batch-006
 "Cola, diet",健怡可樂,batch-006
 "Cole leaves, dried, boiled in unsalted water","羽衣甘藍葉(乾,以無鹽水煮)",batch-011
 "Coleslaw (cabbage salad), with dressing, homemade","凉拌椰菜絲(連沙律醬,自家製)",batch-006
-"Coleslaw, not low calorie, retail","凍椰菜沙律(非低卡,零售)",batch-011
-"Coleslaw, with reduced calorie dressing, retail","凍椰菜沙律(低卡沙律醬,零售)",batch-011
+"Coleslaw, not low calorie, retail",凍椰菜沙律(非低卡),batch-011
+"Coleslaw, with reduced calorie dressing, retail",凍椰菜沙律(低卡沙律醬),batch-011
 "Coley, flesh only, baked","黑線鱈類鯰魚(只計魚肉,焗)",batch-007
 "Coley, flesh only, grilled","黑線鱈類鯰魚(只計魚肉,燒烤)",batch-007
 "Coley, flesh only, poached","黑線鱈類鯰魚(只計魚肉,水煮)",batch-007
@@ -5044,109 +5044,109 @@ Cola,可樂,batch-006
 "Confectionery, sultana, chocolate-coated","糖果(提子乾,朱古力外層)",batch-001
 "Continental Mills, Krusteaz Almond Poppyseed Muffin Mix, Artificially Flavored, dry","鬆餅預拌粉(Continental Mills Krusteaz,杏仁罌粟籽,人工調味,乾)",batch-021
 "Coo-coo, homemade",粟米粉糕(自家製),batch-011
-"Cookie, ""S"" shaped, commercial",「S」形曲奇(商業製品),batch-003
-"Cookie, Ladyfingers, chocolate covered, commercial","手指餅(朱古力包面,商業製品)",batch-003
-"Cookie, Ladyfingers, plain, commercial","手指餅(原味,商業製品)",batch-003
+"Cookie, ""S"" shaped, commercial",「S」形曲奇,batch-003
+"Cookie, Ladyfingers, chocolate covered, commercial",手指餅(朱古力包面),batch-003
+"Cookie, Ladyfingers, plain, commercial",手指餅(原味),batch-003
 "Cookie, Marie biscuit",瑪利餅乾,batch-021
-"Cookie, Ovaltine, commercial",阿華田曲奇(商業製品),batch-003
-"Cookie, animal shaped, sandwich, fruit and yogourt filling, soft type, with added fibre, commercial","動物形夾心曲奇(水果乳酪餡,軟身,添加纖維,商業製品)",batch-003
+"Cookie, Ovaltine, commercial",阿華田曲奇,batch-003
+"Cookie, animal shaped, sandwich, fruit and yogourt filling, soft type, with added fibre, commercial","動物形夾心曲奇(水果乳酪餡,軟身,添加纖維)",batch-003
 "Cookie, biscuit stick, chocolate covered",朱古力包面條形餅乾,batch-021
-"Cookie, brownie, commercial",布朗尼(市面出售),batch-021
-"Cookie, brownie, commercial, reduced fat","布朗尼(市面出售,減脂)",batch-021
+"Cookie, brownie, commercial",布朗尼,batch-021
+"Cookie, brownie, commercial, reduced fat",布朗尼(減脂),batch-021
 "Cookie, brownie, homemade",布朗尼(自家製),batch-021
 "Cookie, butter or sugar, with chocolate icing or filling",牛油或糖曲奇(朱古力糖霜面層或夾心),batch-021
-"Cookie, butter, Danish style, commercial","牛油曲奇(丹麥式,商業製品)",batch-003
-"Cookie, butter, Petit Beurre, commercial","牛油曲奇(Petit Beurre,商業製品)",batch-003
-"Cookie, butter, caramel filling, chocolate covered, commercial","牛油曲奇(焦糖餡,朱古力包面,商業製品)",batch-003
-"Cookie, butter, commercial",牛油曲奇(市面出售),batch-021
-"Cookie, butter, shortbread, fudge striped, commercial","牛油酥餅(軟糖條紋,商業製品)",batch-003
-"Cookie, butter, shortbread, plain, commercial","牛油酥餅(原味,市面出售)",batch-021
-"Cookie, chocolate chip or chunk, made with butter, commercial","朱古力片或朱古力粒曲奇(用牛油製作,市面出售)",batch-021
-"Cookie, chocolate chip or chunk, made with butter, soft type, commercial","朱古力粒曲奇(牛油製,軟身,商業製品)",batch-003
-"Cookie, chocolate chip or chunk, made with oils and/or shortening, commercial","朱古力粒曲奇(以油或起酥油製,商業製品)",batch-003
+"Cookie, butter, Danish style, commercial",牛油曲奇(丹麥式),batch-003
+"Cookie, butter, Petit Beurre, commercial",牛油曲奇(Petit Beurre),batch-003
+"Cookie, butter, caramel filling, chocolate covered, commercial","牛油曲奇(焦糖餡,朱古力包面)",batch-003
+"Cookie, butter, commercial",牛油曲奇,batch-021
+"Cookie, butter, shortbread, fudge striped, commercial",牛油酥餅(軟糖條紋),batch-003
+"Cookie, butter, shortbread, plain, commercial",牛油酥餅(原味),batch-021
+"Cookie, chocolate chip or chunk, made with butter, commercial",朱古力片或朱古力粒曲奇(用牛油製作),batch-021
+"Cookie, chocolate chip or chunk, made with butter, soft type, commercial","朱古力粒曲奇(牛油製,軟身)",batch-003
+"Cookie, chocolate chip or chunk, made with oils and/or shortening, commercial",朱古力粒曲奇(以油或起酥油製),batch-003
 "Cookie, chocolate chip sandwich, creme filling",朱古力片夾心曲奇(忌廉夾心),batch-021
-"Cookie, chocolate chip, commercial, regular, lower fat","朱古力片曲奇(市面出售,普通,低脂)",batch-021
+"Cookie, chocolate chip, commercial, regular, lower fat","朱古力片曲奇(普通,低脂)",batch-021
 "Cookie, chocolate chip, homemade, made with butter","朱古力片曲奇(自家製,用牛油製作)",batch-021
 "Cookie, chocolate chip, homemade, made with margarine","朱古力片曲奇(自家製,用瑪琪琳製作)",batch-021
 "Cookie, chocolate chip, refrigerated dough",朱古力片曲奇(雪藏麵糰),batch-021
 "Cookie, chocolate chip, refrigerated dough, baked","朱古力片曲奇(雪藏麵糰,焗)",batch-021
-"Cookie, chocolate or sugar cookie sandwich, all flavours filling, made with coconut oil shortening, commercial","朱古力或糖夾心曲奇(各種餡料,以椰子油起酥油製,商業製品)",batch-003
+"Cookie, chocolate or sugar cookie sandwich, all flavours filling, made with coconut oil shortening, commercial","朱古力或糖夾心曲奇(各種餡料,以椰子油起酥油製)",batch-003
 "Cookie, chocolate sandwich, extra cream filling",朱古力夾心曲奇(加量忌廉夾心),batch-021
 "Cookie, chocolate wafer",朱古力威化餅,batch-021
 "Cookie, chocolate, with icing or coating",朱古力曲奇(糖霜面層或包面),batch-021
 "Cookie, chocolate, with rice cereal",朱古力脆米曲奇,batch-021
 "Cookie, coconut macaroon",椰子蛋白杏仁餅,batch-021
-"Cookie, digestive, chocolate covered, commercial","消化餅(朱古力包面,商業製品)",batch-003
-"Cookie, digestive, with added fibre, commercial","消化餅(添加纖維,商業製品)",batch-003
+"Cookie, digestive, chocolate covered, commercial",消化餅(朱古力包面),batch-003
+"Cookie, digestive, with added fibre, commercial",消化餅(添加纖維),batch-003
 "Cookie, fig bar",無花果條餅,batch-021
 "Cookie, fortune",幸運餅,batch-021
 "Cookie, fudge, cake-type",軟糖蛋糕式曲奇,batch-021
-"Cookie, ginger, soft type, commercial","薑餅曲奇(軟身,商業製品)",batch-003
-"Cookie, ginger, thin style, commercial","薑餅曲奇(薄身,市售)",pilot
+"Cookie, ginger, soft type, commercial",薑餅曲奇(軟身),batch-003
+"Cookie, ginger, thin style, commercial",薑餅曲奇(薄身),pilot
 "Cookie, gluten-free, chocolate sandwich, creme filling",無麩質朱古力夾心曲奇(忌廉夾心),batch-021
 "Cookie, gluten-free, chocolate wafer",無麩質朱古力威化餅,batch-021
 "Cookie, gluten-free, lemon wafer",無麩質檸檬威化餅,batch-021
 "Cookie, gluten-free, vanilla sandwich, creme filling",無麩質雲呢拿夾心曲奇(忌廉夾心),batch-021
 "Cookie, graham cracker, chocolate-coated",全麥餅乾(朱古力包面),batch-021
 "Cookie, graham cracker, plain or honey, low fat","全麥餅乾(原味或蜜糖味,低脂)",batch-021
-"Cookie, graham wafer, commercial",全麥威化餅(市面出售),batch-021
-"Cookie, graham, animal shaped, with added fibre, commercial","全麥動物餅(添加纖維,商業製品)",batch-003
+"Cookie, graham wafer, commercial",全麥威化餅,batch-021
+"Cookie, graham, animal shaped, with added fibre, commercial",全麥動物餅(添加纖維),batch-003
 "Cookie, ladyfinger (with lemon juice and rind)",手指餅(含檸檬汁及檸檬皮),batch-021
 "Cookie, ladyfinger (without lemon juice and rind)",手指餅(不含檸檬汁及檸檬皮),batch-021
 "Cookie, marshmallow (includes pies), chocolate-coated","棉花糖曲奇(包括批,朱古力包面)",batch-021
-"Cookie, marshmallow with coconut, chocolate covered, commercial","棉花糖椰絲曲奇(朱古力包面,商業製品)",batch-003
+"Cookie, marshmallow with coconut, chocolate covered, commercial",棉花糖椰絲曲奇(朱古力包面),batch-003
 "Cookie, marshmallow, with rice cereal and chocolate chips",棉花糖脆米朱古力片曲奇,batch-021
-"Cookie, oatmeal (with raisins), commercial, less than 5g fat/serving","燕麥曲奇(加提子乾,商業製品,每份脂肪少於5克)",batch-003
+"Cookie, oatmeal (with raisins), commercial, less than 5g fat/serving","燕麥曲奇(加提子乾,每份脂肪少於5克)",batch-003
 "Cookie, oatmeal sandwich, cream filling",燕麥夾心曲奇(忌廉夾心),batch-021
-"Cookie, oatmeal, chocolate chip, commercial",燕麥朱古力粒曲奇(商業製品),batch-003
-"Cookie, oatmeal, chocolate chunk, with added fibre, commercial","燕麥朱古力塊曲奇(添加纖維,商業製品)",batch-003
-"Cookie, oatmeal, commercial",燕麥曲奇(市面出售),batch-021
-"Cookie, oatmeal, date, soft type, commercial","燕麥棗子曲奇(軟身,商業製品)",batch-003
-"Cookie, oatmeal, fruit, with added fibre, commercial","燕麥水果曲奇(添加纖維,商業製品)",batch-003
+"Cookie, oatmeal, chocolate chip, commercial",燕麥朱古力粒曲奇,batch-003
+"Cookie, oatmeal, chocolate chunk, with added fibre, commercial",燕麥朱古力塊曲奇(添加纖維),batch-003
+"Cookie, oatmeal, commercial",燕麥曲奇,batch-021
+"Cookie, oatmeal, date, soft type, commercial",燕麥棗子曲奇(軟身),batch-003
+"Cookie, oatmeal, fruit, with added fibre, commercial",燕麥水果曲奇(添加纖維),batch-003
 "Cookie, oatmeal, homemade, without raisins","燕麥曲奇(自家製,不含提子乾)",batch-021
 "Cookie, oatmeal, reduced fat",燕麥曲奇(減脂),batch-021
 "Cookie, peanut butter filling, chocolate coated",花生醬夾心曲奇(朱古力包面),batch-021
 "Cookie, peanut butter sandwich",花生醬夾心餅,batch-021
-"Cookie, peanut butter, chocolate chunk, commercial",花生醬朱古力塊曲奇(商業製品),batch-003
-"Cookie, peanut butter, commercial",花生醬曲奇(市面出售),batch-021
-"Cookie, peanut butter, commercial, soft-type","花生醬曲奇(市面出售,軟身型)",batch-021
+"Cookie, peanut butter, chocolate chunk, commercial",花生醬朱古力塊曲奇,batch-003
+"Cookie, peanut butter, commercial",花生醬曲奇,batch-021
+"Cookie, peanut butter, commercial, soft-type",花生醬曲奇(軟身型),batch-021
 "Cookie, peanut butter, refrigerated dough",花生醬曲奇(雪藏麵糰),batch-021
 "Cookie, raisin, soft-type",提子乾曲奇(軟身型),batch-021
-"Cookie, shortbread, pecan, commercial",胡桃酥餅(市面出售),batch-021
-"Cookie, shortbread, plain, commercial, no sugar added, with artificial sweetener","酥餅(原味,商業製品,無添加糖,加人造甜味劑)",batch-003
+"Cookie, shortbread, pecan, commercial",胡桃酥餅,batch-021
+"Cookie, shortbread, plain, commercial, no sugar added, with artificial sweetener","酥餅(原味,無添加糖,加人造甜味劑)",batch-003
 "Cookie, shortbread, plain, homemade","酥餅(原味,自家製)",batch-003
-"Cookie, shortcake, commercial",酥餅曲奇(商業製品),batch-003
-"Cookie, shortcake, no added sugar, with sugar substitutes, commercial","酥餅曲奇(無添加糖,加代糖,商業製品)",batch-003
+"Cookie, shortcake, commercial",酥餅曲奇,batch-003
+"Cookie, shortcake, no added sugar, with sugar substitutes, commercial","酥餅曲奇(無添加糖,加代糖)",batch-003
 "Cookie, sugar wafer sandwich, cream filling",糖威化夾心餅(忌廉夾心),batch-021
 "Cookie, sugar wafer, chocolate covered",糖威化餅(朱古力包面),batch-021
-"Cookie, sugar, bran, commercial","糖曲奇(麩皮,商業製品)",batch-003
-"Cookie, sugar, coconut, commercial","糖曲奇(椰絲,商業製品)",batch-003
-"Cookie, sugar, commercial",砂糖曲奇(市面出售),batch-021
+"Cookie, sugar, bran, commercial",糖曲奇(麩皮),batch-003
+"Cookie, sugar, coconut, commercial",糖曲奇(椰絲),batch-003
+"Cookie, sugar, commercial",砂糖曲奇,batch-021
 "Cookie, sugar, homemade, made with margarine","糖曲奇(自家製,以人造牛油製)",batch-003
 "Cookie, sugar, refrigerated dough",砂糖曲奇(雪藏麵糰),batch-021
 "Cookie, sugar, refrigerated dough, baked","砂糖曲奇(雪藏麵糰,焗)",batch-021
-"Cookie, sugar, vanilla, chocolate drizzle, commercial","糖曲奇(雲呢拿味,朱古力醬裝飾,商業製品)",batch-003
-"Cookie, sugar, with fruit and nuts, thin style, commercial","糖曲奇(加水果及果仁,薄身,商業製品)",batch-003
-"Cookie, sugar, with fruit, with added fibre, commercial","糖曲奇(加水果,添加纖維,商業製品)",batch-003
-"Cookie, tea biscuit, commercial",茶餅(商業製品),batch-003
-"Cookie, tea biscuit, wheat, Indian style (includes Punjabi, Gur/Jaggery), commercial","小麥茶餅(印度式[包括旁遮普及黑糖],商業製品)",batch-003
-"Cookie, tea biscuit, with added fibre, commercial","茶餅(添加纖維,商業製品)",batch-003
-"Cookie, turnover, fruit filling, commercial",水果餡角形酥餅(商業製品),batch-003
-"Cookie, vanilla sandwich, cream filling, jelly centre, no added sugar, with sugar substitutes, commercial","雲呢拿夾心曲奇(忌廉餡,果凍芯,無添加糖,加代糖,商業製品)",batch-003
+"Cookie, sugar, vanilla, chocolate drizzle, commercial","糖曲奇(雲呢拿味,朱古力醬裝飾)",batch-003
+"Cookie, sugar, with fruit and nuts, thin style, commercial","糖曲奇(加水果及果仁,薄身)",batch-003
+"Cookie, sugar, with fruit, with added fibre, commercial","糖曲奇(加水果,添加纖維)",batch-003
+"Cookie, tea biscuit, commercial",茶餅,batch-003
+"Cookie, tea biscuit, wheat, Indian style (includes Punjabi, Gur/Jaggery), commercial",小麥茶餅(印度式[包括旁遮普及黑糖]),batch-003
+"Cookie, tea biscuit, with added fibre, commercial",茶餅(添加纖維),batch-003
+"Cookie, turnover, fruit filling, commercial",水果餡角形酥餅,batch-003
+"Cookie, vanilla sandwich, cream filling, jelly centre, no added sugar, with sugar substitutes, commercial","雲呢拿夾心曲奇(忌廉餡,果凍芯,無添加糖,加代糖)",batch-003
 "Cookie, vanilla sandwich, creme filling, reduced fat","雲呢拿夾心曲奇(忌廉夾心,減脂)",batch-021
-"Cookie, vanilla sandwich, flavoured filling, with or without jelly, commercial","雲呢拿夾心曲奇(調味餡,連或不連果凍,商業製品)",batch-003
-"Cookie, vanilla wafer, flavoured filling, no added sugar, with sugar substitutes, commercial","雲呢拿威化餅(調味餡,無添加糖,加代糖,商業製品)",batch-003
-"Cookie, vanilla wafer, flavoured with extra filling, commercial","雲呢拿威化餅(調味,多餡,商業製品)",batch-003
+"Cookie, vanilla sandwich, flavoured filling, with or without jelly, commercial","雲呢拿夾心曲奇(調味餡,連或不連果凍)",batch-003
+"Cookie, vanilla wafer, flavoured filling, no added sugar, with sugar substitutes, commercial","雲呢拿威化餅(調味餡,無添加糖,加代糖)",batch-003
+"Cookie, vanilla wafer, flavoured with extra filling, commercial","雲呢拿威化餅(調味,多餡)",batch-003
 "Cookie, vanilla with caramel, coconut, and chocolate coating",雲呢拿曲奇(焦糖、椰子及朱古力包面),batch-021
-"Cookie, waffle crips, plain, commercial","窩夫脆片(原味,商業製品)",batch-003
+"Cookie, waffle crips, plain, commercial",窩夫脆片(原味),batch-003
 "Cookies, animal crackers (includes arrowroot, tea biscuits)",動物餅乾(包括葛粉餅乾、茶點餅乾),batch-021
 "Cookies, animal, with frosting or icing",動物餅乾(糖霜面層),batch-021
 "Cookies, brownies, dry mix, regular","布朗尼(乾粉預拌,普通)",batch-021
 "Cookies, brownies, dry mix, sugar free","布朗尼(乾粉預拌,無糖)",batch-021
-"Cookies, butter, commercially prepared, unenriched","牛油曲奇(市面出售,未強化)",batch-021
-"Cookies, chocolate chip, commercially prepared, regular, higher fat, unenriched","朱古力片曲奇(市面出售,普通,高脂,未強化)",batch-021
-"Cookies, chocolate chip, commercially prepared, soft-type","朱古力片曲奇(市面出售,軟身型)",batch-021
-"Cookies, chocolate chip, commercially prepared, special dietary","朱古力片曲奇(市面出售,特殊飲食用途)",batch-021
+"Cookies, butter, commercially prepared, unenriched",牛油曲奇(未強化),batch-021
+"Cookies, chocolate chip, commercially prepared, regular, higher fat, unenriched","朱古力片曲奇(普通,高脂,未強化)",batch-021
+"Cookies, chocolate chip, commercially prepared, soft-type",朱古力片曲奇(軟身型),batch-021
+"Cookies, chocolate chip, commercially prepared, special dietary",朱古力片曲奇(特殊飲食用途),batch-021
 "Cookies, chocolate chip, dry mix",朱古力片曲奇(乾粉預拌),batch-021
 "Cookies, chocolate sandwich, with creme filling, reduced fat","朱古力夾心曲奇(忌廉夾心,減脂)",batch-021
 "Cookies, chocolate sandwich, with creme filling, regular","朱古力夾心曲奇(忌廉夾心,普通)",batch-021
@@ -5154,15 +5154,15 @@ Cola,可樂,batch-006
 "Cookies, chocolate sandwich, with creme filling, special dietary","朱古力夾心曲奇(忌廉夾心,特殊飲食用途)",batch-021
 "Cookies, gingersnaps",薑餅脆餅,batch-021
 "Cookies, molasses",糖蜜曲奇,batch-021
-"Cookies, oatmeal, commercially prepared, soft-type","燕麥曲奇(市面出售,軟身型)",batch-021
-"Cookies, oatmeal, commercially prepared, special dietary","燕麥曲奇(市面出售,特殊飲食用途)",batch-021
+"Cookies, oatmeal, commercially prepared, soft-type",燕麥曲奇(軟身型),batch-021
+"Cookies, oatmeal, commercially prepared, special dietary",燕麥曲奇(特殊飲食用途),batch-021
 "Cookies, oatmeal, dry mix",燕麥曲奇(乾粉預拌),batch-021
 "Cookies, oatmeal, refrigerated dough",燕麥曲奇(雪藏麵糰),batch-021
 "Cookies, oatmeal, refrigerated dough, baked","燕麥曲奇(雪藏麵糰,焗)",batch-021
 "Cookies, oatmeal, soft, with raisins",燕麥提子乾軟曲奇,batch-019
 "Cookies, oatmeal, with raisins",燕麥提子乾曲奇,batch-021
 "Cookies, peanut butter sandwich, special dietary",花生醬夾心曲奇(特殊飲食用途),batch-021
-"Cookies, peanut butter, commercially prepared, sugar free","花生醬曲奇(市面出售,無糖)",batch-021
+"Cookies, peanut butter, commercially prepared, sugar free",花生醬曲奇(無糖),batch-021
 "Cookies, peanut butter, prepared from recipe",花生醬曲奇(按食譜製作),batch-021
 "Cookies, peanut butter, refrigerated dough, baked","花生醬曲奇(雪藏麵糰,焗)",batch-021
 "Cookies, shortbread, reduced fat",酥餅(減脂),batch-021
@@ -5260,7 +5260,7 @@ Corned beef and potatoes in tortilla (Apache),鹹牛肉薯仔薄餅卷(阿帕切
 "Corned beef loaf, jellied",鹹牛肉卷(凍膠狀),batch-034
 Cornetto type ice cream cone,意式甜筒雪糕,batch-010
 "Cornish pasty, homemade",康沃爾肉餡批(自家製),batch-009
-"Cornish pasty, retail",康沃爾肉餡批(零售),batch-009
+"Cornish pasty, retail",康沃爾肉餡批,batch-009
 "Cornmeal (polenta), boiled, no added fat or salt","粟米粉粥(玉米糕粥,烚,無添加脂肪或鹽)",batch-001
 "Cornmeal, blue (Navajo)",藍粟米粉(納瓦霍族),batch-019
 "Cornmeal, degermed, enriched, white","粟米糝(去胚芽,營養強化,白色)",batch-026
@@ -5477,7 +5477,7 @@ Cream of tartar,塔塔粉,batch-011
 "Creamy dressing, made with sour cream and/or buttermilk and oil, reduced calorie","忌廉沙律醬(以酸忌廉或白脫牛奶及油製成,減卡路里)",batch-027
 "Creamy dressing, made with sour cream and/or buttermilk and oil, reduced calorie, cholesterol-free","忌廉沙律醬(以酸忌廉或白脫牛奶及油製成,減卡路里,無膽固醇)",batch-027
 "Creamy dressing, made with sour cream and/or buttermilk and oil, reduced calorie, fat-free","忌廉沙律醬(以酸忌廉或白脫牛奶及油製成,減卡路里,無脂肪)",batch-027
-"Creme caramel, retail",焦糖布甸(零售),batch-010
+"Creme caramel, retail",焦糖布甸,batch-010
 Creme egg,朱古力蛋(Creme Egg),batch-011
 "Creme fraiche, full fat",法式酸忌廉(全脂),batch-010
 "Creme fraiche, half fat",法式酸忌廉(半脂),batch-010
@@ -5500,7 +5500,7 @@ Cretons,法式豬肉醬(Cretons),batch-005
 "Croutons, plain",麵包粒(原味),batch-021
 "Crumble, apple, homemade",蘋果脆批(自家製),batch-006
 "Crumble, fruit, homemade",水果脆批(自家製),batch-006
-"Crumble, fruit, retail",水果脆批(零售),batch-006
+"Crumble, fruit, retail",水果脆批,batch-006
 "Crumble, fruit, wholemeal, homemade",全麥水果脆批(自家製),batch-006
 "Crumble, vegetable, with tinned tomatoes, homemade","蔬菜酥皮焗(配罐頭番茄,自家製)",batch-011
 "Crumble, vegetable, with tinned tomatoes, wholemeal, homemade","蔬菜酥皮焗(配罐頭番茄,全麥,自家製)",batch-011
@@ -5586,7 +5586,7 @@ Cumin seeds,孜然籽,batch-008
 "Cumquat (kumquat), raw",金桔(生),batch-001
 "Curly kale, boiled in unsalted water",羽衣甘藍(以無鹽水煮),batch-011
 "Curly kale, raw",羽衣甘藍(生),batch-011
-"Currant buns, retail",提子乾麵包(零售),batch-006
+"Currant buns, retail",提子乾麵包,batch-006
 "Currant buns, toasted",提子乾麵包(烘過),batch-006
 "Currant, european black, raw",歐洲黑加侖子(生),batch-029
 "Currant, fresh",紅醋栗(新鮮),batch-001
@@ -5605,8 +5605,8 @@ Curry powder,咖喱粉,batch-008
 "Curry, beef and spinach, homemade",菠菜咖喱牛肉(自家製),batch-009
 "Curry, beef, homemade",咖喱牛肉(自家製),batch-009
 "Curry, beef, reduced fat, homemade","咖喱牛肉(低脂,自家製)",batch-009
-"Curry, beef, retail, reheated","咖喱牛肉(零售,已翻熱)",batch-009
-"Curry, beef, retail, reheated, with rice","咖喱牛肉配飯(零售,已翻熱)",batch-009
+"Curry, beef, retail, reheated",咖喱牛肉(已翻熱),batch-009
+"Curry, beef, retail, reheated, with rice",咖喱牛肉配飯(已翻熱),batch-009
 "Curry, bhindi subji, homemade",秋葵咖喱(自家製),batch-011
 "Curry, black gram, whole and red kidney bean, homemade",黑豆紅腰豆咖喱(自家製),batch-011
 "Curry, black gram, whole, Bengali, homemade","黑豆咖喱(整粒,孟加拉式,自家製)",batch-011
@@ -5625,15 +5625,15 @@ Curry powder,咖喱粉,batch-008
 "Curry, chick pea, whole and tomato, Punjabi, with butter, homemade","鷹嘴豆番茄咖喱(整粒,旁遮普式,用牛油,自家製)",batch-011
 "Curry, chick pea, whole and tomato, Punjabi, with vegetable oil, homemade","鷹嘴豆番茄咖喱(整粒,旁遮普式,用植物油,自家製)",batch-011
 "Curry, chick pea, whole, Gujerati type, homemade","鷹嘴豆咖喱(整粒,古吉拉特式,自家製)",batch-012
-"Curry, chicken balti, retail",巴爾蒂咖喱雞(零售),batch-009
+"Curry, chicken balti, retail",巴爾蒂咖喱雞,batch-009
 "Curry, chicken korma, homemade",科爾馬咖喱雞(自家製),batch-009
-"Curry, chicken tandoori, retail, reheated","坦都里咖喱雞(零售,已翻熱)",batch-009
-"Curry, chicken tikka masala, retail, reheated","烤雞瑪莎拉咖喱(零售,已翻熱)",batch-009
+"Curry, chicken tandoori, retail, reheated",坦都里咖喱雞(已翻熱),batch-009
+"Curry, chicken tikka masala, retail, reheated",烤雞瑪莎拉咖喱(已翻熱),batch-009
 "Curry, chicken vindaloo, homemade",葡式辣咖喱雞(自家製),batch-009
 "Curry, chicken vindaloo, reduced fat, homemade","葡式辣咖喱雞(低脂,自家製)",batch-009
 "Curry, chicken, Thai green, takeaway and restaurant",泰式青咖喱雞(外賣及餐廳),batch-009
-"Curry, chicken, average, retail, reheated","咖喱雞(平均,零售,已翻熱)",batch-009
-"Curry, chicken, average, retail, reheated with rice","咖喱雞配飯(平均,零售,已翻熱)",batch-009
+"Curry, chicken, average, retail, reheated","咖喱雞(平均,已翻熱)",batch-009
+"Curry, chicken, average, retail, reheated with rice","咖喱雞配飯(平均,已翻熱)",batch-009
 "Curry, chicken, average, takeaway","咖喱雞(平均,外賣)",batch-009
 "Curry, chicken, made with cook-in sauce",咖喱雞(以即煮醬汁製),batch-009
 "Curry, courgette and potato, homemade",意大利青瓜薯仔咖喱(自家製),batch-012
@@ -5692,7 +5692,7 @@ Curry powder,咖喱粉,batch-008
 "Curry, vegetable, frozen mixed vegetables, homemade","蔬菜咖喱(冷凍雜菜,自家製)",batch-012
 "Curry, vegetable, in sweet sauce, UK type, homemade","甜醬蔬菜咖喱(英式,自家製)",batch-012
 "Curry, vegetable, ready meal, without rice, cooked","蔬菜咖喱(即食餐,不含飯,熟)",batch-012
-"Curry, vegetable, retail, with rice",蔬菜咖喱飯(零售),batch-012
+"Curry, vegetable, retail, with rice",蔬菜咖喱飯,batch-012
 "Curry, vegetable, with yogurt, UK type, homemade","乳酪蔬菜咖喱(英式,自家製)",batch-012
 "Custard apple/Bullock's heart, flesh only",番荔枝(只計果肉),batch-008
 Custard powder,吉士粉,batch-006
@@ -5871,7 +5871,7 @@ Doner kebab in pitta bread with salad,沙律皮塔餅旋轉烤肉,batch-009
 "Dove (includes squab), cooked","鴿(包括乳鴿,熟)",batch-033
 "Dover sole, raw",龍利魚(生),batch-007
 "Dressing, French",沙律醬(法式),batch-017
-"Dressing, French or Italian, regular fat, commercial","法式或意式沙律醬(全脂,市售)",batch-002
+"Dressing, French or Italian, regular fat, commercial",法式或意式沙律醬(全脂),batch-002
 "Dressing, French, fat free",法式沙律醬(脫脂),batch-011
 "Dressing, French, homemade",法式沙律醬(自家製),batch-011
 "Dressing, Ranch",田園沙律醬,batch-019
@@ -5965,7 +5965,7 @@ Dulce de Leche,牛奶焦糖醬(Dulce de Leche),batch-026
 "Dutch brand loaf, chicken, pork and beef","荷蘭式肉卷(雞肉,豬肉及牛肉)",batch-034
 "East Indian lotus root, rhizome, boiled","蓮藕(根莖,煮)",batch-018
 "East Indian lotus root, rhizome, raw","蓮藕(根莖,生)",batch-018
-"Eccles cakes, retail",埃克爾斯蛋糕(零售),batch-006
+"Eccles cakes, retail",埃克爾斯蛋糕,batch-006
 "Edamame, frozen, prepared","毛豆(冷凍,已調製)",batch-019
 "Edamame, frozen, unprepared","毛豆(冷凍,未經調製)",batch-036
 "Edible burdock, root, boiled","牛蒡(食用,根,煮)",batch-018
@@ -6116,7 +6116,7 @@ Eggnog,蛋酒,batch-026
 "Epazote, raw",土荊芥(生),batch-036
 "Eppaw, raw","埃保根(Eppaw,生)",batch-036
 "Escarole, boiled, drained","寬葉菊苣(烚,瀝乾)",batch-036
-"Faggots in gravy, retail, reheated","肉丸配肉汁(零售,已翻熱)",batch-009
+"Faggots in gravy, retail, reheated",肉丸配肉汁(已翻熱),batch-009
 Fajita with chicken and vegetables,雞肉蔬菜墨西哥法吉達,batch-005
 "Fajita, chicken, meat only, takeaway and restaurant","雞肉法士達(只計肉,外賣及餐廳)",batch-009
 "Falafel, fried in rapeseed oil, homemade","炸豆丸子(以芥花籽油炸,自家製)",batch-012
@@ -6504,7 +6504,7 @@ Fish paste,魚醬,batch-007
 "Fish, flathead, bar-tailed flathead, raw","魚(牛抽魚,橫帶牛抽魚,生)",batch-014
 "Fish, flathead, big-eyed flathead, raw","魚(牛抽魚,大眼牛抽魚,生)",batch-014
 "Fish, frigate mackerel, raw","魚(圓鰺,生)",batch-014
-"Fish, gefiltefish, commercial, sweet recipe","猶太魚丸(市售,甜味配方)",batch-028
+"Fish, gefiltefish, commercial, sweet recipe",猶太魚丸(甜味配方),batch-028
 "Fish, gnomefish, boiled",鯥魚(烚),pilot
 "Fish, gnomefish, raw","魚(銀鱗鯧,生)",batch-014
 "Fish, golden-thread, Surimi","魚(金線魚,魚漿)",batch-014
@@ -6918,8 +6918,8 @@ Fish paste,魚醬,batch-007
 "Flan, vegetable, homemade",蔬菜批(自家製),batch-012
 "Flan, vegetable, wholemeal, homemade","蔬菜批(全麥,自家製)",batch-012
 "Flapjacks, homemade",燕麥脆條(自家製),batch-006
-"Flapjacks, retail",燕麥脆條(零售),batch-006
-"Flapjacks, retail, chocolate covered","燕麥脆條(零售,塗朱古力)",batch-006
+"Flapjacks, retail",燕麥脆條,batch-006
+"Flapjacks, retail, chocolate covered",燕麥脆條(塗朱古力),batch-006
 "Flathead, fillet, baked, no added fat","牛抽魚(魚柳,焗,無添加脂肪)",batch-001
 "Flax seeds, roasted",亞麻籽(烤),batch-016
 "Flaxseed, ground",亞麻籽(磨碎),batch-019
@@ -7086,7 +7086,7 @@ Frankfurter with bun,法蘭克福腸熱狗包,batch-009
 "Fruit cocktail, canned in syrup, whole contents","雜果杯(罐頭,糖漿,連汁)",batch-008
 "Fruit cocktail, canned, heavy syrup, drained","雜果(罐頭,濃糖漿,瀝乾)",batch-029
 "Fruit drink, apple juice",果汁飲品(蘋果汁),batch-002
-"Fruit drink, blackcurrant, commercial","果汁飲品(黑加侖子,市售)",batch-002
+"Fruit drink, blackcurrant, commercial",果汁飲品(黑加侖子),batch-002
 "Fruit drink, cranberry",果汁飲品(蔓越莓),batch-002
 "Fruit drink, orange juice",果汁飲品(橙汁),batch-002
 "Fruit fool, homemade",水果忌廉甜品(自家製),batch-010
@@ -7562,7 +7562,7 @@ Gravy instant granules,即食肉汁顆粒,batch-011
 "Guinea, meat and skin, raw","珍珠雞(連皮,生)",batch-033
 "Guinea, meat only, raw","珍珠雞(只計肉,生)",batch-033
 "Gulab jamen/jambu, homemade","印度炸奶球(Gulab jamun,自家製)",batch-006
-"Gulab jamen/jambu, retail","印度炸奶球(Gulab jamun,零售)",batch-006
+"Gulab jamen/jambu, retail",印度炸奶球(Gulab jamun),batch-006
 "Gums, seed gums (includes locust bean, guar)","植物膠(種子膠,包括刺槐豆膠,瓜爾豆膠)",batch-036
 "HORMEL ALWAYS TENDER, Boneless Pork Loin, Fresh Pork",HORMEL ALWAYS TENDER 去骨豬腰肉(新鮮豬肉),batch-031
 "HORMEL ALWAYS TENDER, Center Cut Chops, Fresh Pork",HORMEL ALWAYS TENDER 中段豬扒(新鮮豬肉),batch-031
@@ -7599,7 +7599,7 @@ HOUSE FOODS Premium Soft Tofu,HOUSE FOODS 優質軟豆腐,batch-031
 "Haddock, flesh only, steamed, fillets weighed with bones and skin","黑線鱈(只計魚肉,蒸,魚柳連骨連皮稱重)",batch-007
 "Haddock, in batter, fried in blended oil",炸漿黑線鱈(用混合油炸),batch-007
 "Haddock, in batter, fried in dripping",炸漿黑線鱈(用豬油炸),batch-007
-"Haddock, in batter, fried in retail blend oil",炸漿黑線鱈(用店售混合油炸),batch-007
+"Haddock, in batter, fried in retail blend oil",炸漿黑線鱈(以混合油炸),batch-007
 "Haddock, in batter, fried in sunflower oil",炸漿黑線鱈(用葵花子油炸),batch-007
 "Haggis, boiled",蘇格蘭羊雜腸(烚),batch-009
 "Hake, flesh only, grilled","無鬚鱈(只計魚肉,燒烤)",batch-007
@@ -7689,7 +7689,7 @@ Horseradish sauce,辣根醬,batch-011
 "Hot peppers, fruit, raw","辣椒(果實,生)",batch-018
 "Hot peppers, leaves and fruits, raw","辣椒(葉及果實,生)",batch-018
 "Hot peppers, leaves and fruits, sautéed","辣椒(葉及果實,炒)",batch-018
-"Hot pot, lamb/beef with potatoes, retail, reheated","薯仔燉羊肉或牛肉(零售,已翻熱)",batch-009
+"Hot pot, lamb/beef with potatoes, retail, reheated",薯仔燉羊肉或牛肉(已翻熱),batch-009
 "Hot seasoning, Chinese chili oil",辣椒油(中式),batch-017
 "Hot seasoning, Doubanjiang",豆瓣醬,batch-017
 "Hot seasoning, hot pepper sauce",辣椒醬,batch-017
@@ -7760,7 +7760,7 @@ Ice cream sundae cone,新地雪糕筒,batch-026
 "Ice creams, vanilla, light, no sugar added","雪糕(雲呢拿,輕盈,無添加糖)",batch-036
 "Ice creams, vanilla, light, soft-serve","雪糕(雲呢拿,輕盈,軟雪糕)",batch-036
 "Ice creams, vanilla, rich","雪糕(雲呢拿,濃郁)",batch-036
-"Iced buns, retail",糖霜麵包卷(店售),batch-007
+"Iced buns, retail",糖霜麵包卷,batch-007
 "Icing (frosting), glaze, homemade","糖霜(糖衣,自家製)",batch-036
 "Icing (frosting), sour cream flavour, ready to eat","糖霜(酸忌廉味,即食)",batch-006
 "Icing (frosting), vanilla (white), creamy, dry mix, prepared with butter","雲呢拿(白色)奶油糖霜(粉狀,以牛油調製)",batch-006
@@ -7893,7 +7893,7 @@ Ice cream sundae cone,新地雪糕筒,batch-026
 "Jackfruit, canned, syrup pack","菠蘿蜜(罐頭,糖漿裝)",batch-029
 "Jackfruit, raw",菠蘿蜜(生),batch-012
 Jaffa cakes,Jaffa 橙味夾心蛋糕,batch-007
-"Jam tarts, retail",果醬撻(店售),batch-007
+"Jam tarts, retail",果醬撻,batch-007
 "Jam, fruit with edible seeds",果醬(含可食用籽的水果),batch-011
 "Jam, reduced sugar",果醬(減糖),batch-011
 "Jam, stone fruit",果醬(核果類),batch-002
@@ -7999,7 +7999,7 @@ Jellies,果凍醬,batch-036
 "Juice drink, orange, Calorie-reduced","果汁飲品(橙,減少卡路里)",batch-025
 "Juice, Orange-strawberry-banana",橙士多啤梨香蕉汁,pilot
 "Juice, apple and grape, with added vitamin C","果汁(蘋果及葡萄,添加維他命C)",batch-029
-"Juice, apple, commercial, added vitamin C","蘋果汁(市售,添加維他命C)",batch-002
+"Juice, apple, commercial, added vitamin C",蘋果汁(添加維他命C),batch-002
 "Juice, apple, grape and pear blend, with added ascorbic acid and calcium","果汁(蘋果,葡萄及梨混合,添加抗壞血酸及鈣)",batch-029
 "Juice, pomegranate",石榴汁,batch-029
 "Juice, pomegranate, from concentrate, shelf-stable","石榴汁(濃縮還原,常溫保存)",batch-019
@@ -8008,7 +8008,7 @@ Jellies,果凍醬,batch-036
 "Juice, tomato clam cocktail, canned",番茄蜆汁雞尾飲品(罐裝),batch-025
 "Juice, tomato, canned",番茄汁(罐頭),batch-037
 "Juice, tomato, canned, unsalted","番茄汁(罐頭,無鹽)",batch-037
-"Juice, vegetable blend, commercial",蔬菜混合汁(市售),batch-002
+"Juice, vegetable blend, commercial",蔬菜混合汁,batch-002
 "Jujube (chinese date), dried",棗乾(紅棗),batch-029
 "Jujube, dried",紅棗(乾),batch-015
 "Jujube, flesh only",棗子(只計果肉),batch-008
@@ -8148,10 +8148,10 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb stir-fried with vegetables, homemade",蔬菜炒羊肉(自家製),batch-009
 "Lamb's heart casserole, homemade",燉羊心(自家製),batch-009
 "Lamb, Australian, ground, 85% lean / 15% fat, raw","澳洲免治羊肉(85%瘦肉,15%脂肪,生)",batch-029
-"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, cooked","澳洲進口新鮮羊肉(綜合削切零售部位,瘦肉連脂肪,修脂至1/8吋,熟)",batch-029
-"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肉(綜合削切零售部位,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
-"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, cooked","澳洲進口新鮮羊肉(綜合削切零售部位,只計瘦肉,修脂至1/8吋,熟)",batch-029
-"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肉(綜合削切零售部位,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, cooked","澳洲進口新鮮羊肉(各部位平均,瘦肉連脂肪,修脂至1/8吋,熟)",batch-029
+"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肉(各部位平均,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, cooked","澳洲進口新鮮羊肉(各部位平均,只計瘦肉,修脂至1/8吋,熟)",batch-029
+"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肉(各部位平均,只計瘦肉,修脂至1/8吋,生)",batch-029
 "Lamb, Australian, imported, fresh, external fat, cooked","澳洲進口新鮮羊肉(外層脂肪,熟)",batch-029
 "Lamb, Australian, imported, fresh, external fat, raw","澳洲進口新鮮羊肉(外層脂肪,生)",batch-029
 "Lamb, Australian, imported, fresh, foreshank, separable lean and fat, trimmed to 1/8"" fat, cooked, braised","澳洲進口新鮮羊前腿腱(瘦肉連脂肪,修脂至1/8吋,熟,炆)",batch-029
@@ -8399,8 +8399,8 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, chump chops, raw, lean and fat, weighed with bone","羊臀扒(生,瘦肉連肥肉,連骨稱重)",batch-009
 "Lamb, chump steaks, fried, lean and fat","羊臀肉排(煎,瘦肉連肥肉)",batch-009
 "Lamb, chump steaks, raw, lean and fat","羊臀肉排(生,瘦肉連肥肉)",batch-009
-"Lamb, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/4"" fat, choice, cooked","羊肉(綜合削切零售部位,瘦肉連脂肪,修脂至1/4吋,特選級,熟)",batch-030
-"Lamb, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊肉(綜合削切零售部位,瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/4"" fat, choice, cooked","羊肉(各部位平均,瘦肉連脂肪,修脂至1/4吋,特選級,熟)",batch-030
+"Lamb, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊肉(各部位平均,瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
 "Lamb, cubed for stew or kabob, lean braised","羊肉粒(用於燉煮或串燒,瘦肉,炆)",batch-030
 "Lamb, cubed for stew or kabob, lean, broiled","羊肉粒(用於燉煮或串燒,瘦肉,燒烤)",batch-030
 "Lamb, cubed for stew or kabob, lean, raw","羊肉粒(用於燉煮或串燒,瘦肉,生)",batch-030
@@ -8616,9 +8616,9 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lasagne, beef, homemade","千層麵(牛肉,家庭自製)",batch-001
 "Lasagne, homemade",千層麵(自家製),batch-009
 "Lasagne, homemade, with extra lean minced beef","千層麵(自家製,以特瘦免治牛肉製)",batch-009
-"Lasagne, retail, reheated","千層麵(零售,已翻熱)",batch-009
+"Lasagne, retail, reheated",千層麵(已翻熱),batch-009
 "Lasagne, spinach, wholemeal, homemade","千層麵(菠菜,全麥,自家製)",batch-012
-"Lasagne, vegetable, retail","千層麵(蔬菜,零售)",batch-012
+"Lasagne, vegetable, retail",千層麵(蔬菜),batch-012
 "Lasagne, vegetable, wholemeal, homemade","千層麵(蔬菜,全麥,自家製)",batch-012
 "Lassi, sweetened",拉西(加糖),batch-010
 Laverbread,紫菜麵包,batch-012
@@ -8906,7 +8906,7 @@ Maple syrup,楓糖漿,batch-018
 "Margarine, regular, 80% fat, composite, tub, with salt, with added vitamin D","人造牛油(普通,含80%脂肪,混合,盒裝,有鹽,添加維他命D)",batch-027
 "Margarine, regular, 80% fat, composite, tub, without salt","人造牛油(普通,含80%脂肪,混合,盒裝,無鹽)",batch-027
 "Margarine, regular, hard, soybean (hydrogenated)","人造牛油(普通,硬身,大豆油(氫化))",batch-027
-"Margarine, soft type, commercial use","植物牛油(軟身,商業用)",batch-014
+"Margarine, soft type, commercial use",植物牛油(軟身),batch-014
 "Margarine, soft type, home use","植物牛油(軟身,家庭用)",batch-014
 "Margarine, stick, palm and soybean oils","人造牛油(條狀,棕櫚油及大豆油)",batch-027
 "Margarine, tub, hydrogenated, canola oil","人造牛油(盒裝,氫化,芥花籽油)",batch-004
@@ -8952,20 +8952,20 @@ Mars bar and own brand equivalents,Mars朱古力條及自家品牌同類產品,b
 "Martha White Foods, Martha White's Chewy Fudge Brownie Mix, dry","軟糖布朗尼預拌粉(Martha White's,乾)",batch-021
 "Mary's Gone Crackers, Original Crackers, Organic Gluten Free",有機無麩質原味餅乾(Mary's Gone Crackers),batch-021
 "Marzipan, homemade",杏仁糖膏(自製),pilot
-"Marzipan, white and yellow, retail","杏仁膏(白色及黃色,零售)",batch-010
+"Marzipan, white and yellow, retail",杏仁膏(白色及黃色),batch-010
 "Mashu roots, raw (Alaska Native)","馬舒根(生,阿拉斯加原住民)",batch-020
 "Matoki, boiled in unsalted water",Matoki蕉(以無鹽水煮),batch-012
 "Matoki, raw",Matoki蕉(生),batch-012
 "Mayonnaise dressing, no cholesterol",蛋黃醬(無膽固醇),batch-027
 "Mayonnaise, Regular",蛋黃醬(普通),batch-019
 "Mayonnaise, homemade",蛋黃醬(自家製),batch-011
-"Mayonnaise, low fat, commercial","蛋黃醬(低脂,市售)",batch-002
+"Mayonnaise, low fat, commercial",蛋黃醬(低脂),batch-002
 "Mayonnaise, low sodium, low calorie or diet","蛋黃醬(低鈉,低卡路里或減肥)",batch-027
 "Mayonnaise, made with tofu",蛋黃醬(以豆腐製成),batch-027
 "Mayonnaise, reduced fat",蛋黃醬(減脂),batch-011
 "Mayonnaise, reduced fat, with olive oil","蛋黃醬(減脂,含橄欖油)",batch-027
 "Mayonnaise, reduced-calorie or diet, cholesterol-free","蛋黃醬(減卡路里或減肥,無膽固醇)",batch-027
-"Mayonnaise, standard, retail","蛋黃醬(標準,零售)",batch-011
+"Mayonnaise, standard, retail",蛋黃醬(標準),batch-011
 McDONALD'S Bacon Ranch Salad with Crispy Chicken,麥當勞 煙肉田莊醬沙律(脆雞),batch-027
 "McDONALD'S, BIG BREAKFAST",麥當勞 豐盛早餐,batch-027
 "McDONALD'S, BIG MAC",麥當勞 巨無霸,batch-027
@@ -9018,7 +9018,7 @@ McDONALD'S Bacon Ranch Salad with Crispy Chicken,麥當勞 煙肉田莊醬沙律
 "Meal replacement, regular",代餐(普通),batch-003
 "Meat alternative, legume and/or vegetable base, as purchased","肉類替代品(豆類及或蔬菜為主,購買時)",batch-001
 "Meat alternative, legume and/or vegetable base, cooked","肉類替代品(豆類及或蔬菜為主,熟)",batch-001
-"Meat alternative, mycoprotein/fungus base, commercial, as purchased","肉類替代品(真菌蛋白為主,市售,購買時)",batch-001
+"Meat alternative, mycoprotein/fungus base, commercial, as purchased","肉類替代品(真菌蛋白為主,購買時)",batch-001
 "Meat alternative, mycoprotein/fungus base, cooked","肉類替代品(真菌蛋白為主,熟)",batch-001
 "Meat alternative, mycoprotein/fungus base, schnitzels/fish alternative/patty/sausages, as purchased","肉類替代品(真菌蛋白為主,炸肉排、魚類替代品、肉餅、香腸,購買時)",batch-001
 "Meat alternative, protein (soy/wheat/pea) base, added vitamins & minerals, as purchased","肉類替代品(蛋白質(大豆、小麥或豌豆)為主,添加維他命及礦物質,購買時)",batch-001
@@ -9031,8 +9031,8 @@ Meat extender,肉類增量劑,batch-031
 "Meat samosas, takeaway",肉餡咖喱角(外賣),batch-009
 Meat spread,肉醬,batch-009
 "Meat stick, chicken/turkey, refrigerated","肉條小食(雞肉或火雞肉,冷藏)",batch-005
-"Meatball or rissole, beef mince, commercial, raw","肉丸或肉餅(牛肉碎,市售,生)",batch-002
-"Meatball or rissole, beef, commercial, cooked","肉丸或肉餅(牛肉,市售,熟)",batch-002
+"Meatball or rissole, beef mince, commercial, raw","肉丸或肉餅(牛肉碎,生)",batch-002
+"Meatball or rissole, beef, commercial, cooked","肉丸或肉餅(牛肉,熟)",batch-002
 "Meatball, Italian style, frozen","肉丸(意式,冷凍)",batch-034
 "Meatball, frozen",肉丸(冷凍),batch-017
 "Meatballs, meatless",素肉丸,batch-031
@@ -9090,7 +9090,7 @@ Milk and cereal bar,牛奶穀物棒,batch-034
 "Milk, canned, evaporated, with added vitamin A","淡奶(罐裝,添加維他命A)",batch-026
 "Milk, chocolate beverage, hot cocoa, homemade","朱古力奶飲品(熱可可,自製)",batch-026
 "Milk, chocolate, fat free, with added vitamin A and vitamin D","朱古力奶(無脂,添加維他命A及維他命D)",batch-026
-"Milk, chocolate, fluid, commercial, reduced fat, with added calcium","朱古力奶(液體,市售,減脂,添加鈣質)",batch-026
+"Milk, chocolate, fluid, commercial, reduced fat, with added calcium","朱古力奶(液體,減脂,添加鈣質)",batch-026
 "Milk, chocolate, lowfat, reduced sugar","朱古力奶(低脂,減糖)",batch-026
 "Milk, cow, fluid, flavoured, chocolate, reduced fat","牛奶(液體,調味,朱古力味,低脂)",batch-002
 "Milk, cow, fluid, lactose free, reduced fat (~1%)","牛奶(液體,無乳糖,低脂約1%)",batch-002
@@ -9189,11 +9189,11 @@ Millet flour,小米粉,batch-026
 "Millet, cooked",小米(熟),batch-026
 "Millet, puffed",膨化小米,batch-025
 "Millet, raw",小米(生),batch-001
-"Mince pies, homemade, individual","鹹肉碎批(自家製,個別裝)",batch-007
-"Mince pies, retail",鹹肉碎批(店售),batch-007
+"Mince pies, homemade, individual","百果批(自家製,獨立裝)",batch-007
+"Mince pies, retail",百果批,batch-007
 Mincemeat,英式水果餡料,batch-011
 "Mincemeat, vegetarian, homemade","英式水果餡料(素食,自家製)",batch-011
-"Minibreads, toasted, retail","迷你麵包(烘過,店售)",batch-007
+"Minibreads, toasted, retail",迷你麵包(烘過),batch-007
 Mint sauce,薄荷醬,batch-011
 "Mint sauce, homemade",薄荷醬(自家製),batch-011
 "Mint, dried",薄荷(乾),batch-008
@@ -9337,9 +9337,9 @@ Molasses,糖蜜,batch-011
 "Mouse nuts, roots (Alaska Native)","鼠堅果(根,阿拉斯加原住民)",batch-020
 "Mouse nuts, seedlings (Alaska Native)","鼠堅果(幼苗,阿拉斯加原住民)",batch-020
 "Moussaka, homemade",穆薩卡(自家製),batch-009
-"Moussaka, retail, reheated","穆薩卡(零售,已翻熱)",batch-009
+"Moussaka, retail, reheated",穆薩卡(已翻熱),batch-009
 "Moussaka, vegetable, homemade",素千層茄子(自家製),batch-012
-"Moussaka, vegetable, retail",素千層茄子(零售),batch-012
+"Moussaka, vegetable, retail",素千層茄子,batch-012
 "Mousse, chocolate, low fat",朱古力慕絲(低脂),batch-010
 "Mousse, fruit",水果慕絲,batch-010
 "Mozzarella sticks, fried",莫澤雷勒芝士條(炸),batch-033
@@ -9350,17 +9350,17 @@ Molasses,糖蜜,batch-011
 "Muesli, untoasted or natural style, added dried fruit, unfortified","麥片(未烘焙或天然式,加水果乾,未強化)",pilot
 "Muffin bar, all flavours",瑪芬棒(各種味道),batch-003
 "Muffin, English style, from white flour",英式瑪芬(白麵粉製),batch-001
-"Muffin, blueberry, commercial",藍莓瑪芬(市面出售),batch-021
-"Muffin, blueberry, commercial, reduced fat","藍莓瑪芬(市面出售,減脂)",batch-021
+"Muffin, blueberry, commercial",藍莓瑪芬,batch-021
+"Muffin, blueberry, commercial, reduced fat",藍莓瑪芬(減脂),batch-021
 "Muffin, blueberry, dry mix, prepared",藍莓瑪芬(預拌粉調製),batch-003
 "Muffin, blueberry, homemade, with 2% M.F. milk","藍莓瑪芬(自家製,用2%脂肪牛奶)",batch-021
 "Muffin, blueberry, toaster-type",藍莓瑪芬(多士爐型),batch-021
 "Muffin, blueberry, toaster-type, toasted","藍莓瑪芬(多士爐型,烘過)",batch-021
-"Muffin, cake-style, berry, commercial","鬆糕式瑪芬(莓果,市售)",batch-001
-"Muffin, cake-style, chocolate chip, commercial","鬆糕式瑪芬(朱古力粒,市售)",batch-001
-"Muffin, carrot, commercial",甘筍瑪芬(商業製品),batch-003
-"Muffin, chocolate chip, commercial",朱古力粒瑪芬(商業製品),batch-003
-"Muffin, corn, commercial",粟米瑪芬(市面出售),batch-021
+"Muffin, cake-style, berry, commercial",鬆糕式瑪芬(莓果),batch-001
+"Muffin, cake-style, chocolate chip, commercial",鬆糕式瑪芬(朱古力粒),batch-001
+"Muffin, carrot, commercial",甘筍瑪芬,batch-003
+"Muffin, chocolate chip, commercial",朱古力粒瑪芬,batch-003
+"Muffin, corn, commercial",粟米瑪芬,batch-021
 "Muffin, corn, homemade, with 2% M.F. milk","粟米瑪芬(自家製,用2%脂肪牛奶)",batch-021
 "Muffin, corn, toaster type",粟米瑪芬(多士爐型),batch-021
 "Muffin, plain, homemade, made with 2% M.F. milk","原味瑪芬(自家製,用2%脂肪牛奶)",batch-021
@@ -9368,8 +9368,8 @@ Molasses,糖蜜,batch-011
 "Muffin, wheat bran, toaster-type, with raisins, toasted","麥麩提子瑪芬(多士爐型,烘過)",batch-021
 "Muffin, wheat bran, with raisins, homemade","小麥麩瑪芬(加提子乾,自家製)",batch-003
 "Muffins, American style, chocolate chip, homemade",美式朱古力粒鬆餅(自家製),batch-007
-"Muffins, American, chocolate, retail",美式朱古力鬆餅(店售),batch-007
-"Muffins, American, not chocolate, retail","美式鬆餅(非朱古力,店售)",batch-007
+"Muffins, American, chocolate, retail",美式朱古力鬆餅,batch-007
+"Muffins, American, not chocolate, retail",美式鬆餅(非朱古力),batch-007
 "Muffins, English style, white",英式白麵包鬆餅,batch-007
 "Muffins, English style, white, toasted",英式白麵包鬆餅(烘過),batch-007
 "Muffins, English, whole-wheat",英式瑪芬(全麥),batch-021
@@ -9590,9 +9590,9 @@ Natto,納豆,batch-031
 "Nut and vegetable roast, mixed nuts, homemade","果仁蔬菜烤餅(什果仁,自家製)",batch-012
 "Nut croquettes, fried in sunflower oil, homemade","果仁炸丸(以葵花籽油炸,自家製)",batch-012
 "Nut croquettes, fried in vegetable oil, homemade","果仁炸丸(以植物油炸,自家製)",batch-012
-"Nut cutlets, retail, fried in sunflower oil","果仁餅(零售,以葵花籽油煎)",batch-012
-"Nut cutlets, retail, fried in vegetable oil","果仁餅(零售,以植物油煎)",batch-012
-"Nut cutlets, retail, grilled","果仁餅(零售,燒烤)",batch-012
+"Nut cutlets, retail, fried in sunflower oil",果仁餅(以葵花籽油煎),batch-012
+"Nut cutlets, retail, fried in vegetable oil",果仁餅(以植物油煎),batch-012
+"Nut cutlets, retail, grilled",果仁餅(燒烤),batch-012
 "Nut roast, homemade",果仁烤餅(自家製),batch-012
 "Nut roast, mixed nuts with egg, homemade","果仁烤餅(什果仁加蛋,自家製)",batch-012
 "Nut, almond meal",杏仁粉,batch-002
@@ -9714,7 +9714,7 @@ Natto,納豆,batch-031
 "Oat flour, partially debranned",燕麥粉(部分去麩皮),batch-026
 "Oat milk, unsweetened, plain, refrigerated","燕麥奶(無糖,原味,冷藏)",batch-019
 "Oatcakes, homemade",燕麥餅(自家製),batch-007
-"Oatcakes, plain, retail",原味燕麥餅(店售),batch-007
+"Oatcakes, plain, retail",原味燕麥餅,batch-007
 "Oats, hulled, uncooked","燕麥(去殼,未煮)",batch-001
 "Oats, rolled, mixed with sugar or honey & other flavours, uncooked","燕麥片(混合糖或蜂蜜及其他味道,未煮)",batch-001
 "Oats, whole grain, steel cut",全穀物燕麥(鋼切),batch-019
@@ -9977,7 +9977,7 @@ Pad thaï with chicken,泰式炒河(雞肉),batch-005
 "Pakora/bhajia, potato, carrot and pea, fried in vegetable oil, homemade","印度炸餅(薯仔甘筍豌豆,以植物油炸,自家製)",batch-012
 "Pakora/bhajia, potato, fried in vegetable oil, homemade","印度炸餅(薯仔,以植物油炸,自家製)",batch-012
 "Pakora/bhajia, spinach, fried in vegetable oil, homemade","印度炸餅(菠菜,以植物油炸,自家製)",batch-012
-"Pakora/bhajia, vegetable, retail","印度炸餅(蔬菜,零售)",batch-012
+"Pakora/bhajia, vegetable, retail",印度炸餅(蔬菜),batch-012
 "Pakoras, homemade",炸蔬菜糰(自家製),batch-007
 Palm kernel oil,棕櫚仁油,batch-014
 "Pan Dulce, La Ricura, Salpora de Arroz con Azucar, cookie-like, contains wheat flour and rice flour","墨西哥甜麵包(La Ricura,米糖曲奇式,含小麥粉及米粉)",batch-021
@@ -10107,18 +10107,18 @@ Passion fruit juice,熱情果汁,batch-008
 "Pasta, whole grain, 51% whole wheat, remaining unenriched semolina, dry","全穀物意大利麵食(51%全麥,其餘為未強化粗粒小麥粉,乾)",batch-026
 "Pasta, wholewheat, spaghetti, dried, boiled in unsalted water","全麥長條意粉(乾,用無鹽水烚)",batch-007
 "Pasta, wholewheat, spaghetti, dried, raw","全麥長條意粉(乾,生)",batch-007
-"Paste, Indian style curry, commercial",印度式咖喱醬(市售),batch-002
-"Paste, green curry, commercial",青咖喱醬(市售),batch-002
+"Paste, Indian style curry, commercial",印度式咖喱醬,batch-002
+"Paste, green curry, commercial",青咖喱醬,batch-002
 "Paste, soybean",黃豆醬,batch-001
 Pastichio,希臘千層茄子麵,batch-012
 "Pastrami, beef, 98% fat-free","煙燻牛肉(牛肉,98%無脂肪)",batch-034
 "Pastrami, turkey",煙燻牛肉(火雞肉),batch-034
 "Pastries, Asian",亞洲酥餅,batch-007
-"Pastries, Danish, retail",丹麥酥(店售),batch-007
-"Pastries, Greek, baklava, retail",希臘蜜糖果仁千層酥(店售),batch-007
-"Pastries, chocolate eclairs, cream filled, retail",朱古力忌廉閃電泡芙(店售),batch-007
+"Pastries, Danish, retail",丹麥酥(市售),batch-007
+"Pastries, Greek, baklava, retail",希臘蜜糖果仁千層酥,batch-007
+"Pastries, chocolate eclairs, cream filled, retail",朱古力忌廉閃電泡芙,batch-007
 "Pastries, chocolate eclairs, fresh, homemade","朱古力閃電泡芙(新鮮,自家製)",batch-007
-"Pastries, cream filled, retail",忌廉餡酥餅(店售),batch-007
+"Pastries, cream filled, retail",忌廉餡酥餅,batch-007
 Pastry cream,法式甜品忌廉(卡士達醬),batch-014
 "Pastry, Pastelitos de Guava (guava pastries)",番石榴酥餅(Pastelitos de Guava),batch-022
 "Pastry, cheese, shortcrust, homemade",芝士牛油酥皮(自家製),batch-007
@@ -10126,15 +10126,15 @@ Pastry cream,法式甜品忌廉(卡士達醬),batch-014
 "Pastry, choux, uncooked, homemade","泡芙皮(生,自家製)",batch-007
 "Pastry, danish, sweet, all types","丹麥酥(甜,各類)",batch-001
 "Pastry, filled with spinach & cheese, purchased frozen, baked","酥餅(菠菜芝士餡,市售冷凍,焗)",batch-001
-"Pastry, filo, retail, cooked","薄脆酥皮(店售,熟)",batch-007
-"Pastry, filo, retail, uncooked","薄脆酥皮(店售,生)",batch-007
+"Pastry, filo, retail, cooked",薄脆酥皮(熟),batch-007
+"Pastry, filo, retail, uncooked",薄脆酥皮(生),batch-007
 "Pastry, flaky, cooked, homemade","千層酥皮(熟,自家製)",batch-007
 "Pastry, flaky, uncooked, homemade","千層酥皮(生,自家製)",batch-007
-"Pastry, flaky/puff, retail, cooked","酥皮(起酥,零售,熟)",pilot
-"Pastry, flaky/puff, retail, uncooked","千層酥皮(店售,生)",batch-007
+"Pastry, flaky/puff, retail, cooked","酥皮(起酥,熟)",pilot
+"Pastry, flaky/puff, retail, uncooked",千層酥皮(生),batch-007
 "Pastry, shortcrust, cooked, homemade","牛油酥皮(熟,自家製)",batch-007
-"Pastry, shortcrust, retail, cooked","牛油酥皮(店售,熟)",batch-007
-"Pastry, shortcrust, retail, uncooked","牛油酥皮(店售,生)",batch-007
+"Pastry, shortcrust, retail, cooked",牛油酥皮(熟),batch-007
+"Pastry, shortcrust, retail, uncooked",牛油酥皮(生),batch-007
 "Pastry, shortcrust, uncooked, homemade","牛油酥皮(生,自家製)",batch-007
 "Pastry, wholemeal, cooked, homemade","全麥酥皮(熟,自家製)",batch-007
 "Pastry, wholemeal, uncooked, homemade","全麥酥皮(生,自家製)",batch-007
@@ -10454,43 +10454,43 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pie fillings, cherry, low calorie","批餡(車厘子,低卡路里)",batch-036
 "Pie, Cottage, homemade",農舍批(自家製),batch-009
 "Pie, Cottage/Shepherd's, reheated",農舍批或牧羊人批(已翻熱),batch-009
-"Pie, Dutch Apple, Commercially Prepared",荷蘭蘋果批(市面出售),batch-022
+"Pie, Dutch Apple, Commercially Prepared",荷蘭蘋果批,batch-022
 "Pie, Quorn and vegetable",Quorn素肉蔬菜批,batch-012
-"Pie, apple, commercial, 2 crust","蘋果批(市面出售,雙層批皮)",batch-022
-"Pie, apple, commercially prepared, unenriched flour","蘋果批(市面出售,用未強化麵粉)",batch-022
+"Pie, apple, commercial, 2 crust",蘋果批(雙層批皮),batch-022
+"Pie, apple, commercially prepared, unenriched flour",蘋果批(用未強化麵粉),batch-022
 "Pie, apple, homemade, 2 crust","蘋果批(自家製,雙層批皮)",batch-022
 "Pie, apple, one crust, homemade","蘋果批(單層皮,自家製)",batch-007
 "Pie, apple, pastry top and bottom, homemade","蘋果批(上下皮,自家製)",batch-007
-"Pie, apple, pastry, double crust, deep filled, retail","蘋果批(雙層皮,餡料豐富,店售)",batch-007
-"Pie, apple, pastry, double crust, retail","蘋果批(雙層皮,店售)",batch-007
+"Pie, apple, pastry, double crust, deep filled, retail","蘋果批(雙層皮,餡料豐富)",batch-007
+"Pie, apple, pastry, double crust, retail",蘋果批(雙層皮),batch-007
 "Pie, apple, wholemeal, one crust, homemade","全麥蘋果批(單層皮,自家製)",batch-007
 "Pie, apple, wholemeal, pastry top and bottom, homemade","全麥蘋果批(上下皮,自家製)",batch-007
 "Pie, banana cream, homemade",香蕉忌廉批(自家製),batch-022
 "Pie, banana cream, prepared from mix, no-bake type","香蕉忌廉批(用預拌粉製作,免焗型)",batch-022
 "Pie, banoffee",香蕉太妃批,batch-010
-"Pie, beef, commercial",牛肉批(商業製品),batch-003
-"Pie, beef, puff or shortcrust pastry, family size, retail","牛肉批(酥皮或牛油酥皮,家庭裝,零售)",batch-009
-"Pie, beef, puff or shortcrust pastry, individual, retail","牛肉批(酥皮或牛油酥皮,獨立裝,零售)",batch-009
-"Pie, blueberry, commercial, 2 crust","藍莓批(市面出售,雙層批皮)",batch-022
+"Pie, beef, commercial",牛肉批,batch-003
+"Pie, beef, puff or shortcrust pastry, family size, retail","牛肉批(酥皮或牛油酥皮,家庭裝)",batch-009
+"Pie, beef, puff or shortcrust pastry, individual, retail","牛肉批(酥皮或牛油酥皮,獨立裝)",batch-009
+"Pie, blueberry, commercial, 2 crust",藍莓批(雙層批皮),batch-022
 "Pie, blueberry, homemade, 2 crust","藍莓批(自家製,雙層批皮)",batch-022
 "Pie, cheese and potato, homemade",芝士薯仔批(自家製),batch-010
-"Pie, cherry, commercial, 2 crust","車厘子批(市面出售,雙層批皮)",batch-022
+"Pie, cherry, commercial, 2 crust",車厘子批(雙層批皮),batch-022
 "Pie, cherry, homemade, 2 crust","車厘子批(自家製,雙層批皮)",batch-022
 "Pie, chicken and mushroom, single crust, homemade","雞肉蘑菇批(單層批皮,自家製)",batch-009
-"Pie, chicken, commercial",雞批(商業製品),batch-003
+"Pie, chicken, commercial",雞批,batch-003
 "Pie, chicken, individual, baked","雞批(獨立裝,焗)",batch-009
-"Pie, chocolate cream, commercial",朱古力忌廉批(市面出售),batch-022
+"Pie, chocolate cream, commercial",朱古力忌廉批,batch-022
 "Pie, chocolate mousse, prepared from mix, no-bake type","朱古力慕絲批(用預拌粉製作,免焗型)",batch-022
-"Pie, coconut cream, commercial",椰子忌廉批(市面出售),batch-022
+"Pie, coconut cream, commercial",椰子忌廉批,batch-022
 "Pie, coconut cream, prepared from mix, no-bake type","椰奶忌廉批(預拌粉調製,免焗)",pilot
-"Pie, coconut custard, commercial",椰子吉士批(市面出售),batch-022
-"Pie, egg custard, commercial",蛋撻式批(市面出售),batch-022
+"Pie, coconut custard, commercial",椰子吉士批,batch-022
+"Pie, egg custard, commercial",蛋撻式批,batch-022
 "Pie, fish, white fish, homemade","魚批(白肉魚,自家製)",batch-007
-"Pie, fish, white fish, retail, baked","魚批(白肉魚,店售,焗)",batch-007
+"Pie, fish, white fish, retail, baked","魚批(白肉魚,焗)",batch-007
 "Pie, fried pies, fruit",炸水果批,batch-022
 "Pie, fried, cherry",炸車厘子批,batch-022
 "Pie, fried, lemon",炸檸檬批,batch-022
-"Pie, fruit, individual, retail","水果批(個別裝,店售)",batch-007
+"Pie, fruit, individual, retail",水果批(個別裝),batch-007
 "Pie, fruit, one crust, homemade","水果批(單層皮,自家製)",batch-007
 "Pie, fruit, pastry top and bottom, blackcurrant, homemade","黑加侖子批(上下皮,自家製)",batch-007
 "Pie, fruit, pastry top and bottom, homemade","水果批(上下皮,自家製)",batch-007
@@ -10500,27 +10500,27 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pie, fruit, wholemeal, with pie filling, homemade","全麥水果批(用現成批餡,自家製)",batch-007
 "Pie, fruit, with pie filling, homemade","水果批(用現成批餡,自家製)",batch-007
 "Pie, game, homemade",野味批(自家製),batch-009
-"Pie, lemon meringue, commercial",檸檬蛋白批(市面出售),batch-022
+"Pie, lemon meringue, commercial",檸檬蛋白批(市售),batch-022
 "Pie, lemon meringue, homemade",檸檬蛋白批(自家製),batch-022
-"Pie, lemon meringue, retail",檸檬蛋白批(店售),batch-007
+"Pie, lemon meringue, retail",檸檬蛋白批,batch-007
 "Pie, lentil and cheese, homemade",扁豆芝士批(自家製),batch-012
 "Pie, mince, prepared from recipe",百果批(按食譜製作),batch-022
 "Pie, peach",桃批,batch-022
-"Pie, pecan, commercial",胡桃批(市面出售),batch-022
+"Pie, pecan, commercial",胡桃批,batch-022
 "Pie, pecan, homemade",胡桃批(自家製),batch-022
-"Pie, pork, commercial",豬肉批(商業製品),batch-003
-"Pie, pumpkin, commercial",南瓜批(市面出售),batch-022
+"Pie, pork, commercial",豬肉批,batch-003
+"Pie, pumpkin, commercial",南瓜批,batch-022
 "Pie, pumpkin, homemade",南瓜批(自家製),batch-022
-"Pie, savoury, chicken & vegetable, commercial","鹹批(雞肉及蔬菜,市售)",batch-001
+"Pie, savoury, chicken & vegetable, commercial",鹹批(雞肉及蔬菜),batch-001
 "Pie, savoury, meat, purchased frozen, baked","鹹批(肉類,市售冷凍,焗)",batch-001
 "Pie, spinach, homemade",菠菜批(自家製),batch-012
 "Pie, steak & kidney, canned",牛扒腰子批(罐頭),batch-001
 "Pie, steak and kidney, double crust, homemade","牛扒腰子批(雙層批皮,自家製)",batch-009
 "Pie, steak and kidney, single crust, homemade","牛扒腰子批(單層批皮,自家製)",batch-010
-"Pie, steak, commercial",牛扒批(商業製品),batch-003
+"Pie, steak, commercial",牛扒批,batch-003
 "Pie, sugar, 1 crust, homemade","糖批(單層批皮,自家製)",batch-003
-"Pie, tourtiere, commercial","肉批(加拿大魁北克式,商業製品)",batch-003
-"Pie, turkey, commercial",火雞批(商業製品),batch-003
+"Pie, tourtiere, commercial",肉批(加拿大魁北克式),batch-003
+"Pie, turkey, commercial",火雞批,batch-003
 "Pie, turkey, single crust, homemade","火雞肉批(單層批皮,自家製)",batch-010
 "Pie, vanilla cream, homemade",雲呢拿忌廉批(自家製),batch-022
 "Pie, vegetable, homemade",蔬菜批(自家製),batch-012
@@ -10587,7 +10587,7 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pitanga, raw",巴西車厘子(生),batch-029
 "Pizza base, raw",薄餅底(生),batch-007
 "Pizza roll, frozen, unprepared","薄餅卷(冷凍,未經調製)",batch-031
-"Pizza, cheese & tomato, commercial","薄餅(芝士番茄,市售)",batch-001
+"Pizza, cheese & tomato, commercial",薄餅(芝士番茄),batch-001
 "Pizza, cheese and meat, thin crust, frozen, cooked","薄餅,芝士及肉,薄批,雪藏,熟",batch-005
 "Pizza, cheese and mushrooms, thin crust, frozen, cooked","薄餅,芝士及蘑菇,薄批,雪藏,熟",batch-005
 "Pizza, cheese and pepperoni, frozen, cooked","薄餅(芝士意大利辣肉腸,冷凍,熟)",batch-027
@@ -10598,7 +10598,7 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pizza, cheese and sausage, thick crust, whole grain, frozen, cooked","薄餅(芝士香腸,厚批底,全穀物,冷凍,熟)",batch-027
 "Pizza, cheese and sausage, thin crust, whole grain, frozen, cooked","薄餅(芝士香腸,薄批底,全穀物,冷凍,熟)",batch-027
 "Pizza, cheese and spinach, thin crust, frozen, cooked","薄餅,芝士及菠菜,薄批,雪藏,熟",batch-005
-"Pizza, cheese and tomato, retail",芝士番茄薄餅(店售),batch-007
+"Pizza, cheese and tomato, retail",芝士番茄薄餅,batch-007
 "Pizza, cheese and vegetable, thin crust, frozen, cooked","薄餅,芝士及蔬菜,薄批,雪藏,熟",batch-005
 "Pizza, cheese, Canadian, thick/regular crust, frozen, cooked","加拿大式芝士薄餅,厚批或普通批,雪藏,熟",batch-005
 "Pizza, cheese, Canadian, thin crust, frozen, cooked","加拿大式芝士薄餅,薄批,雪藏,熟",batch-005
@@ -10617,9 +10617,9 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pizza, cheese, thin crust, frozen, cooked","薄餅(芝士,薄批底,冷凍,熟)",batch-027
 "Pizza, cheese, thin crust, whole grain, frozen, cooked","薄餅(芝士,薄批底,全穀物,冷凍,熟)",batch-027
 "Pizza, cheese, vegetarian, thick/regular crust, frozen, cooked","素食芝士薄餅,厚批或普通批,雪藏,熟",batch-005
-"Pizza, chicken topped, retail",雞肉薄餅(店售),batch-007
+"Pizza, chicken topped, retail",雞肉薄餅,batch-007
 "Pizza, fish topped, takeaway",魚肉薄餅(外賣),batch-007
-"Pizza, ham and pineapple, retail",火腿菠蘿薄餅(店售),batch-007
+"Pizza, ham and pineapple, retail",火腿菠蘿薄餅,batch-007
 "Pizza, meat topped, retail and takeaway",肉類薄餅(店售及外賣),batch-007
 "Pizza, meat topping, thick crust, frozen, cooked","薄餅(肉類餡料,厚批底,冷凍,熟)",batch-027
 "Pizza, mini, cheese, thin crust, frozen, cooked","迷你芝士薄餅,薄批,雪藏,熟",batch-005
@@ -10648,7 +10648,7 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Plaice, flesh only, steamed","鰈魚(只計魚肉,蒸)",batch-007
 "Plaice, flesh only, steamed, fillets weighed with bones and skin","鰈魚(只計魚肉,蒸,魚柳連骨連皮稱重)",batch-007
 "Plaice, in batter, fried in blended oil",炸漿鰈魚(用混合油炸),batch-007
-"Plaice, in batter, fried in retail blend oil",炸漿鰈魚(用店售混合油炸),batch-007
+"Plaice, in batter, fried in retail blend oil",炸漿鰈魚(以混合油炸),batch-007
 "Plaice, in batter, fried in sunflower oil",炸漿鰈魚(用葵花子油炸),batch-007
 "Plaice, in breadcrumbs, baked",麵包糠鰈魚(焗),batch-007
 "Plant-Based Beverage, Almond and Coconut Beverage, Plain, Unsweetened, Fortified, refrigerated","植物飲品(杏仁椰子飲品,原味,無糖,強化,冷藏)",batch-003
@@ -10736,7 +10736,7 @@ Pomegranate juice drink,石榴汁飲品,batch-008
 "Popcorn, candied",糖衣爆谷,batch-011
 "Popcorn, microwave, low fat and sodium","爆谷(微波,低脂低鈉)",batch-034
 "Popcorn, microwave, regular (butter) flavor, made with palm oil","爆谷(微波,普通(牛油)味,以棕櫚油製作)",batch-034
-"Popcorn, salted, retail","爆谷(鹽味,零售)",batch-011
+"Popcorn, salted, retail",爆谷(鹽味),batch-011
 "Popcorn, sugar syrup/caramel, fat-free","爆谷(糖漿或焦糖,無脂肪)",batch-034
 "Popovers, dry mix, enriched","泡芙麵包(乾粉預拌,強化)",batch-022
 "Popovers, dry mix, unenriched","泡芙麵包(乾粉預拌,未強化)",batch-022
@@ -10928,14 +10928,14 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, fresh, composite of separable fat, with added solution, cooked","豬肉(新鮮,可分離脂肪綜合,加入溶液,熟)",batch-032
 "Pork, fresh, composite of separable fat, with added solution, raw","豬肉(新鮮,可分離脂肪綜合,加入溶液,生)",batch-032
 "Pork, fresh, composite of trimmed leg, loin, shoulder, and spareribs, (includes cuts to be cured), separable lean and fat, raw","豬肉(新鮮,削切腿肉,腰肉,肩肉及腩排綜合(包括待醃製部位),瘦肉連脂肪,生)",batch-032
-"Pork, fresh, composite of trimmed retail cuts (leg, loin, and shoulder), separable lean only, cooked","豬肉(新鮮,削切零售部位綜合(腿肉,腰肉及肩肉),只計瘦肉,熟)",batch-032
-"Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder), separable lean only, raw","豬肉(新鮮,削切零售部位綜合(腿肉,腰肉,肩肉),只計瘦肉,生)",batch-032
-"Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder, and spareribs), separable lean and fat, cooked","豬肉(新鮮,削切零售部位綜合(腿肉,腰肉,肩肉及腩排),瘦肉連脂肪,熟)",batch-032
-"Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder, and spareribs), separable lean and fat, raw","豬肉(新鮮,削切零售部位綜合(腿肉,腰肉,肩肉及腩排),瘦肉連脂肪,生)",batch-032
-"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean and fat, cooked","豬肉(新鮮,削切零售部位綜合(腰肉及肩胛),瘦肉連脂肪,熟)",batch-032
-"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean and fat, raw","豬肉(新鮮,削切零售部位綜合(腰肉及肩胛),瘦肉連脂肪,生)",batch-032
-"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean only, cooked","豬肉(新鮮,削切零售部位綜合(腰肉及肩胛),只計瘦肉,熟)",batch-032
-"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean only, raw","豬肉(新鮮,削切零售部位綜合(腰肉及肩胛),只計瘦肉,生)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (leg, loin, and shoulder), separable lean only, cooked","豬肉(新鮮,腿肉、腰肉、肩肉平均,只計瘦肉,熟)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder), separable lean only, raw","豬肉(新鮮,腿肉、腰肉、肩肉平均,只計瘦肉,生)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder, and spareribs), separable lean and fat, cooked","豬肉(新鮮,腿肉、腰肉、肩肉、腩排平均,瘦肉連脂肪,熟)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder, and spareribs), separable lean and fat, raw","豬肉(新鮮,腿肉、腰肉、肩肉、腩排平均,瘦肉連脂肪,生)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean and fat, cooked","豬肉(新鮮,腰肉、肩胛平均,瘦肉連脂肪,熟)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean and fat, raw","豬肉(新鮮,腰肉、肩胛平均,瘦肉連脂肪,生)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean only, cooked","豬肉(新鮮,腰肉、肩胛平均,只計瘦肉,熟)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean only, raw","豬肉(新鮮,腰肉、肩胛平均,只計瘦肉,生)",batch-032
 "Pork, fresh, enhanced, loin, tenderloin, separable lean only, raw","豬肉(新鮮,調味增強,腰肉,豬柳,只計瘦肉,生)",batch-032
 "Pork, fresh, loin, blade (chops or roasts), bone-in, separable lean and fat, raw","豬肉(新鮮,腰肉,肩胛(扒或烤肉塊),連骨,瘦肉連脂肪,生)",batch-032
 "Pork, fresh, loin, blade (chops or roasts), bone-in, separable lean only, raw","豬肉(新鮮,腰肉,肩胛(扒或烤肉塊),連骨,只計瘦肉,生)",batch-032
@@ -11286,8 +11286,8 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, smoked liver",煙燻豬肝,batch-016
 "Pork, spare ribs, 'barbecue style', homemade",燒烤式豬肋骨(自家製),batch-010
 "Pork, spare ribs, 'barbecue style', homemade, weighed with bone","燒烤式豬肋骨(自家製,連骨稱重)",batch-010
-"Pork, spare ribs, 'barbecue style', meat only, retail, reheated","燒烤式豬肋骨(只計肉,零售,已翻熱)",batch-010
-"Pork, spare ribs, 'barbecue style', meat only, retail, reheated, weighed with bone","燒烤式豬肋骨(只計肉,零售,已翻熱,連骨稱重)",batch-010
+"Pork, spare ribs, 'barbecue style', meat only, retail, reheated","燒烤式豬肋骨(只計肉,已翻熱)",batch-010
+"Pork, spare ribs, 'barbecue style', meat only, retail, reheated, weighed with bone","燒烤式豬肋骨(只計肉,已翻熱,連骨稱重)",batch-010
 "Pork, spare ribs, Chinese barbecue, takeaway",中式燒豬肋骨(外賣),batch-010
 "Pork, spare ribs, in black bean sauce, meat and sauce only, homemade","豉汁蒸排骨(只計肉及醬汁,自家製)",batch-010
 "Pork, spare ribs, in black bean sauce, meat and sauce only, homemade, weighed with bone","豉汁蒸排骨(只計肉及醬汁,自家製,連骨稱重)",batch-010
@@ -11364,7 +11364,7 @@ Potato salad with egg,雞蛋薯仔沙律,batch-031
 "Potato snacks, pringle-type, fried in vegetable oil","薯片小食(Pringles類,植物油炸)",batch-011
 "Potato soup, instant, dry mix","薯仔湯(即沖,乾粉)",batch-034
 "Potato wedges, frozen (Includes foods for USDA's Food Distribution Program)",薯仔角(冷凍)(包括美國農業部食物分配計劃的食品),batch-037
-"Potato wedges, retail, cooked","薯角(零售,熟)",batch-012
+"Potato wedges, retail, cooked",薯角(熟),batch-012
 "Potato, O'brien, frozen, prepared","奧布萊恩薯仔(冷凍,已調製)",batch-037
 "Potato, O'brien, frozen, unprepared","奧布萊恩薯仔(冷凍,未經調製)",batch-037
 "Potato, O'brien, homemade",奧布萊恩薯仔(自家製),batch-037
@@ -11550,7 +11550,7 @@ Prune puree,西梅蓉,batch-029
 "Pudding and chilled dessert, orange jelly",布甸及冷凍甜品(橙啫喱),batch-014
 "Pudding and chilled dessert, wine flavored jelly",布甸及冷凍甜品(酒味啫喱),batch-014
 "Pudding, Christmas, homemade",聖誕布甸(自家製),batch-007
-"Pudding, Christmas, retail",聖誕布甸(店售),batch-007
+"Pudding, Christmas, retail",聖誕布甸,batch-007
 "Pudding, Eve's pudding, homemade",夏娃布甸(自家製),batch-007
 "Pudding, Queen of Puddings, homemade",皇后布甸(自家製),batch-007
 "Pudding, bread and butter, homemade",麵包牛油布甸(自家製),batch-007
@@ -11666,13 +11666,13 @@ Pumpkin seeds,南瓜籽,batch-010
 Quesadilla with cheese,墨西哥芝士餅(芝士),batch-033
 Quesadilla with meat and cheese,肉類芝士墨西哥薄餅(Quesadilla),batch-005
 "Quiche, Lorraine, homemade",洛林鹹批(自家製),batch-007
-"Quiche, Lorraine, shortcrust pastry, retail","洛林鹹批(牛油酥皮,店售)",batch-007
+"Quiche, Lorraine, shortcrust pastry, retail",洛林鹹批(牛油酥皮),batch-007
 "Quiche, Lorraine, wholemeal pastry, homemade","洛林鹹批(全麥酥皮,自家製)",batch-007
 "Quiche, cheese and egg, homemade",芝士雞蛋鹹批(自家製),batch-007
 "Quiche, cheese and egg, wholemeal, homemade",全麥芝士雞蛋鹹批(自家製),batch-007
 "Quiche, mushroom, homemade",蘑菇鹹批(自家製),batch-007
 "Quiche, mushroom, wholemeal, homemade",全麥蘑菇鹹批(自家製),batch-007
-"Quiche, vegetable, retail",蔬菜鹹批(店售),batch-007
+"Quiche, vegetable, retail",蔬菜鹹批,batch-007
 "Quince, raw",榲桲(生),batch-029
 "Quinces, flesh only",榲桲(只計果肉),batch-008
 "Quinoa burger patty, frozen",藜麥漢堡扒(雪藏),batch-005
@@ -11844,7 +11844,7 @@ Rice crackers,米餅,batch-034
 "Rice, brown, wholegrain, boiled in unsalted water",全穀糙米飯(用無鹽水烚),batch-007
 "Rice, brown, wholegrain, raw",全穀糙米(生),batch-007
 "Rice, cheese flavour, dry mix, unprepared","飯(芝士味,乾粉包,未經調製)",batch-031
-"Rice, egg fried, ready cooked, re-heated, retail, not takeaway","蛋炒飯(即食,已翻熱,店售,非外賣)",batch-007
+"Rice, egg fried, ready cooked, re-heated, retail, not takeaway","蛋炒飯(即食,已翻熱,非外賣)",batch-007
 "Rice, egg fried, takeaway",蛋炒飯(外賣),batch-007
 "Rice, glutinous rice products, ""Akumaki"" (lye-soaked and cooked rice in bamboo leaf wrapping)","糯米製品(灰汁粽,竹葉包裹的鹼水糯米)",batch-013
 "Rice, glutinous rice products, ""Domyojiko"" (steamed flour)","糯米製品(道明寺粉,蒸製米粉)",batch-013
@@ -11950,7 +11950,7 @@ Roast beef spread,烤牛肉抹醬,batch-034
 "Rock Salmon/Dogfish, in batter, fried in blended oil, weighed with bones","炸漿角鯊(用混合油炸,連骨稱重)",batch-008
 "Rock Salmon/Dogfish, in batter, fried in dripping",炸漿角鯊(用豬油炸),batch-008
 "Rock Salmon/Dogfish, in batter, fried in dripping, weighed with bones","炸漿角鯊(用豬油炸,連骨稱重)",batch-008
-"Rock Salmon/Dogfish, in batter, fried in retail blend oil",炸漿角鯊(用店售混合油炸),batch-008
+"Rock Salmon/Dogfish, in batter, fried in retail blend oil",炸漿角鯊(以混合油炸),batch-008
 "Rock Salmon/Dogfish, in batter, fried in retail blend oil, weighed with bones","炸漿角鯊(用店售混合油炸,連骨稱重)",batch-008
 "Rock Salmon/Dogfish, in batter, fried in sunflower oil",炸漿角鯊(用葵花子油炸),batch-008
 "Rock Salmon/Dogfish, in batter, fried in sunflower oil, weighed with bones","炸漿角鯊(用葵花子油炸,連骨稱重)",batch-008
@@ -11964,7 +11964,7 @@ Roast beef spread,烤牛肉抹醬,batch-034
 "Rohu, raw",Rohu 鯉魚(生),batch-008
 "Roll, dinner, egg",晚餐餐包(雞蛋),batch-022
 "Roll, dinner, oat bran",晚餐餐包(燕麥麩),batch-022
-"Roll, dinner, plain (also brown and serve), commercial","晚餐餐包(原味,亦稱半焗包,市面出售)",batch-022
+"Roll, dinner, plain (also brown and serve), commercial","晚餐餐包(原味,亦稱半焗包)",batch-022
 "Roll, dinner, plain, homemade, with 2% M.F. milk","晚餐餐包(原味,自家製,用2%脂肪牛奶)",batch-022
 "Roll, dinner, rye",晚餐餐包(裸麥),batch-022
 "Roll, dinner, sweet",晚餐餐包(甜味),batch-022
@@ -12093,7 +12093,7 @@ Salad cream,沙律奶油醬,batch-011
 "Salad dressing, buttermilk as main ingredient",沙律醬(以酪乳為主要成分),batch-004
 "Salad dressing, buttermilk, lite",白脫牛奶沙律醬(輕身),batch-028
 "Salad dressing, coleslaw",椰菜沙律醬,batch-028
-"Salad dressing, french dressing, commercial, regular, without salt","法式沙律醬(市售,普通,無鹽)",batch-028
+"Salad dressing, french dressing, commercial, regular, without salt","法式沙律醬(普通,無鹽)",batch-028
 "Salad dressing, french dressing, reduced fat, without salt","法式沙律醬(減脂,無鹽)",batch-028
 "Salad dressing, french, cottonseed, oil, home recipe","法式沙律醬(棉籽油,自家製)",batch-028
 "Salad dressing, french, home recipe",法式沙律醬(自家製),batch-028
@@ -12133,7 +12133,7 @@ Salad cream,沙律奶油醬,batch-011
 "Salad, pasta, vegetables and mayonnaise",蔬菜蛋黃醬意粉沙律,batch-012
 "Salad, potato, with French dressing",薯仔沙律(法式沙律醬),batch-012
 "Salad, potato, with mayonnaise",薯仔沙律(蛋黃醬),batch-012
-"Salad, potato, with mayonnaise, retail","薯仔沙律(蛋黃醬,零售)",batch-012
+"Salad, potato, with mayonnaise, retail","薯仔沙律(蛋黃醬,市售)",batch-012
 "Salad, rice, brown",糙米沙律,batch-012
 "Salad, rice, homemade",米飯沙律(自家製),batch-012
 "Salad, taco, with salsa, homemade",墨西哥脆餅沙律(莎莎醬)(自家製),batch-005
@@ -12152,7 +12152,7 @@ Salami snack,薩拉米腸小食,batch-010
 "Salisbury steak in gravy with macaroni and cheese, frozen",沙利斯伯里牛扒配肉汁及芝士通粉(雪藏),batch-005
 "Salisbury steak with gravy, frozen",沙律斯堡扒配肉汁(冷凍),batch-031
 "Salmis of pheasant, homemade",燴野雉(自家製),batch-010
-"Salmon en croute, retail",酥皮三文魚(店售),batch-008
+"Salmon en croute, retail",酥皮三文魚,batch-008
 "Salmon nuggets, breaded, frozen, heated","三文魚塊(裹粉,冷凍,已加熱)",batch-028
 "Salmon nuggets, cooked as purchased, unheated","三文魚塊(購買時已煮熟,未加熱)",batch-028
 "Salmon, Pacific King, fillet, skinless, grilled, no added fat","三文魚(太平洋帝王三文魚,魚柳,去皮,燒烤,無添加脂肪)",batch-001
@@ -12191,7 +12191,7 @@ Salt,鹽,batch-011
 "Sambar, homemade",印度扁豆蔬菜湯(自家製),batch-012
 "Samosas, lamb, baked, homemade","羊肉咖喱角(焗,自家製)",batch-010
 "Samosas, lamb, deep fried in rapeseed oil, homemade","羊肉咖喱角(芥花籽油炸,自家製)",batch-010
-"Samosas, vegetable, retail",蔬菜咖喱角(零售),batch-012
+"Samosas, vegetable, retail",蔬菜咖喱角,batch-012
 "Sandwich spread, pork, beef","三明治抹醬(豬肉,牛肉)",batch-034
 "Sandwich spread, with chopped pickle, regular, unspecified oil","三明治抹醬(含酸青瓜碎,普通,未指明油類)",batch-028
 "Sandwich, egg salad, homemade",雞蛋沙律三文治(自家製),batch-005
@@ -12302,15 +12302,15 @@ Sangria,桑格利亞酒,batch-003
 "Sauce, sweet and sour, homemade",糖醋醬(自家製),batch-034
 "Sauce, sweet and sour, ready to serve",糖醋醬(即食),batch-034
 "Sauce, sweet and sour, take-away",糖醋醬(外賣),batch-011
-"Sauce, tabasco, commercial",辣椒仔醬(市售),batch-002
+"Sauce, tabasco, commercial",辣椒仔醬,batch-002
 "Sauce, tartar, ready-to-serve",他他醬(即食),batch-034
 "Sauce, teriyaki, ready-to-serve",照燒醬(即食),batch-034
 "Sauce, teriyaki, ready-to-serve, reduced sodium","照燒醬(即食,減鈉)",batch-034
 "Sauce, tomato and mushroom, homemade",番茄蘑菇醬(自家製),batch-012
 "Sauce, tomato based, homemade",番茄醬汁(自家製),batch-011
 "Sauce, tomato chili sauce, bottled, with salt","番茄辣椒醬(瓶裝,有鹽)",batch-034
-"Sauce, tomato, commercial, reduced salt","茄汁(市售,減鹽)",batch-002
-"Sauce, tomato, reduced sugar & salt, commercial","茄汁(減糖減鹽,市售)",batch-002
+"Sauce, tomato, commercial, reduced salt",茄汁(減鹽),batch-002
+"Sauce, tomato, reduced sugar & salt, commercial",茄汁(減糖減鹽),batch-002
 "Sauce, traditional cook in, tomato based",傳統煮食醬(番茄底),batch-011
 "Sauce, traditional cook in, white sauce based",傳統煮食醬(白汁底),batch-011
 "Sauce, white, savoury, homemade","白汁(鹹味,家庭自製)",batch-002
@@ -12319,7 +12319,7 @@ Sangria,桑格利亞酒,batch-003
 "Sauces, Indian cook in, other",印度煮食醬(其他),batch-011
 Sauerkraut,酸椰菜,batch-012
 "Sauerkraut, canned, solids and liquid","酸椰菜(罐頭,固體連汁)",batch-037
-"Sausage roll, flaky pastry, ready-to-eat, retail","腸仔酥皮卷(千層酥皮,即食,零售)",batch-010
+"Sausage roll, flaky pastry, ready-to-eat, retail","腸仔酥皮卷(千層酥皮,即食)",batch-010
 "Sausage roll, purchased frozen, baked","香腸酥卷(市售冷凍,焗)",batch-001
 "Sausage rolls, short pastry, homemade","腸仔卷(鬆酥皮,自家製)",batch-010
 "Sausage, Berliner, pork, beef","腸(柏林式,豬肉,牛肉)",batch-034
@@ -12416,19 +12416,19 @@ Sauerkraut,酸椰菜,batch-012
 "School Lunch, pizza, TONY'S Breakfast Pizza Sausage, frozen","學校午餐 薄餅(TONY'S 早餐香腸薄餅,冷凍)",batch-027
 "School Lunch, pizza, TONY'S SMARTPIZZA Whole Grain 4x6 Cheese Pizza 50/50 Cheese, frozen","學校午餐 薄餅(TONY'S SMARTPIZZA 全穀物4x6吋芝士薄餅,50/50芝士,冷凍)",batch-027
 "School Lunch, pizza, TONY'S SMARTPIZZA Whole Grain 4x6 Pepperoni Pizza 50/50 Cheese, frozen","學校午餐 薄餅(TONY'S SMARTPIZZA 全穀物4x6吋意大利辣肉腸薄餅,50/50芝士,冷凍)",batch-027
-"Scone, fruit, commercial","司康(水果,市售)",batch-001
+"Scone, fruit, commercial",司康(水果),batch-001
 "Scone, plain, homemade","司康(原味,家庭自製)",batch-001
 "Scone, pumpkin, homemade","司康(南瓜,家庭自製)",batch-001
 "Scones, cheese, homemade",芝士英式鬆餅(自家製),batch-007
-"Scones, fruit, retail",水果英式鬆餅(店售),batch-007
+"Scones, fruit, retail",水果英式鬆餅,batch-007
 "Scones, fruit, wholemeal, homemade",全麥水果英式鬆餅(自家製),batch-007
-"Scones, plain, retail",原味英式鬆餅(店售),batch-007
+"Scones, plain, retail",原味英式鬆餅,batch-007
 "Scones, potato, homemade",薯仔英式鬆餅(自家製),batch-007
 "Scones, wholemeal, homemade",全麥英式鬆餅(自家製),batch-007
 "Scotch broth, homemade",蘇格蘭大麥湯(自家製),batch-011
-"Scotch eggs, retail",蘇格蘭蛋(零售),batch-010
+"Scotch eggs, retail",蘇格蘭蛋,batch-010
 "Scotch pancakes, homemade",蘇格蘭煎餅(自家製),batch-007
-"Scotch pancakes, retail",蘇格蘭煎餅(店售),batch-007
+"Scotch pancakes, retail",蘇格蘭煎餅,batch-007
 "Scrapple, pork",豬肉粟米糊腸,batch-034
 "Sea bass, Chilean, frozen, wild caught","智利海鱸魚(冷凍,野生)",batch-019
 "Sea cucumber, ""Konowata"" (salted and fermented viscera)",海參(「Konowata」鹽醃發酵內臟),batch-015
@@ -12584,7 +12584,7 @@ Sesame seeds,芝麻,batch-010
 "Sharon fruit, flesh only",沙龍柿(只計果肉),batch-008
 "Shepherd's pie, homemade",牧羊人批(自家製),batch-010
 "Shepherd's pie, vegetable",素牧羊人批,batch-012
-"Shepherd's pie, vegetable, retail",素牧羊人批(零售),batch-012
+"Shepherd's pie, vegetable, retail",素牧羊人批(市售),batch-012
 "Shepherd's purse, leaves, raw","薺菜(葉,生)",batch-018
 Sherbet,雪葩,batch-016
 "Sherbet, orange",果子露(橙),batch-036
@@ -12593,7 +12593,7 @@ Shish kebab in pitta bread with salad,沙律皮塔餅烤肉串,batch-010
 "Shish kebab, meat only",烤肉串(只計肉),batch-010
 "Shish kebabs, with onions and peppers, homemade",洋蔥燈籠椒烤肉串(自家製),batch-010
 Shortbread,酥脆牛油餅,batch-007
-"Shortcake, caramel, chocolate covered, retail","焦糖朱古力酥餅(朱古力外層,店售)",batch-007
+"Shortcake, caramel, chocolate covered, retail",焦糖朱古力酥餅(朱古力外層),batch-007
 "Shortening bread, soybean (hydrogenated) and cottonseed",麵包用起酥油(大豆(氫化)及棉籽),batch-028
 "Shortening cake mix, soybean (hydrogenated) and cottonseed (hydrogenated)",蛋糕粉用起酥油(大豆(氫化)及棉籽(氫化)),batch-028
 "Shortening confectionery, coconut (hydrogenated) and or palm kernel (hydrogenated)",糖果用起酥油(椰子(氫化)及或棕櫚仁(氫化)),batch-028
@@ -12603,8 +12603,8 @@ Shortbread,酥脆牛油餅,batch-007
 Shortening household soybean (hydrogenated) and palm,家用起酥油(大豆(氫化)及棕櫚),batch-028
 "Shortening industrial, lard and vegetable oil",工業用起酥油(豬油及植物油),batch-028
 "Shortening industrial, soybean (hydrogenated) and cottonseed",工業用起酥油(大豆(氫化)及棉籽),batch-028
-"Shortening, commercial use for confectionery","起酥油(商業用,糕點用)",batch-014
-"Shortening, commercial use for frying","起酥油(商業用,煎炸用)",batch-014
+"Shortening, commercial use for confectionery",起酥油(糕點用),batch-014
+"Shortening, commercial use for frying",起酥油(煎炸用),batch-014
 "Shortening, confectionery, fractionated palm",糖果用起酥油(分餾棕櫚),batch-028
 "Shortening, home use",起酥油(家庭用),batch-014
 "Shortening, household, all-vegetable, soybean oil and hydrogenated palm oil","起酥油(家用,全植物性,大豆油及氫化棕櫚油)",batch-004
@@ -12626,7 +12626,7 @@ Shortening household soybean (hydrogenated) and palm,家用起酥油(大豆(氫�
 "Skate, grilled, weighed with bones","鰩魚(燒烤,連骨稱重)",batch-008
 "Skate, raw",鰩魚(生),batch-008
 "Slice, brownie, chocolate, with nuts, homemade","布朗尼方塊(朱古力,連果仁,家庭自製)",batch-001
-"Slice, brownie, chocolate, without nuts, commercial","布朗尼方塊(朱古力,不含果仁,市售)",batch-001
+"Slice, brownie, chocolate, without nuts, commercial","布朗尼方塊(朱古力,不含果仁)",batch-001
 "Slice, caramel",焦糖方塊,batch-001
 Smartie-type sweets,Smarties類糖果,batch-011
 "Smoothie, fruit juice, strawberry banana","冰沙(果汁,士多啤梨香蕉)",batch-029
@@ -13084,7 +13084,7 @@ Sorghum grain,高粱穀粒,batch-026
 "Soup, tomato, canned, condensed, reduced sodium, water added","番茄湯(罐頭,濃縮,減鈉,加水)",batch-006
 "Soup, tomato, canned, condensed, water added","番茄湯(罐頭,濃縮,加水)",batch-006
 "Soup, tomato, canned, prepared with equal volume low fat (2%) milk","湯(番茄,罐頭,加等量低脂(2%)牛奶調製)",batch-035
-"Soup, tomato, canned, prepared with equal volume water, commercial","湯(番茄,罐頭,加等量水調製,市售)",batch-035
+"Soup, tomato, canned, prepared with equal volume water, commercial","湯(番茄,罐頭,加等量水調製)",batch-035
 "Soup, tomato, carton, chilled","番茄湯(盒裝,冷藏)",batch-011
 "Soup, tomato, dehydrated",番茄湯(脫水),batch-006
 "Soup, tomato, dehydrated, water added","湯(番茄,脫水,已加水)",batch-035
@@ -13231,8 +13231,8 @@ Soy sauce made from soy and wheat (shoyu),大豆及小麥製醬油(日式醬油)
 "Soymilk, original and vanilla, with added calcium, vitamins A and D","豆漿(原味及雲呢拿味,添加鈣及維他命A和D)",batch-031
 "Spaghetti and meatballs, restaurant prepared",肉丸意粉(餐廳製作),batch-033
 "Spaghetti bolognese, homemade",肉醬意粉(自家製),batch-010
-"Spaghetti bolognese, retail, meat and sauce only, reheated","肉醬意粉(零售,只計肉及醬汁,已翻熱)",batch-010
-"Spaghetti bolognese, retail, reheated, with spaghetti","肉醬意粉(零售,已翻熱,連意粉)",batch-010
+"Spaghetti bolognese, retail, meat and sauce only, reheated","肉醬意粉(只計肉及醬汁,已翻熱)",batch-010
+"Spaghetti bolognese, retail, reheated, with spaghetti","肉醬意粉(已翻熱,連意粉)",batch-010
 "Spaghetti in tomato & cheese sauce, canned",番茄芝士醬意粉(罐頭),batch-001
 "Spaghetti in tomato & cheese sauce, canned, reduced salt","番茄芝士醬意粉(罐頭,減鹽)",batch-001
 Spaghetti with cream sauce,忌廉汁意粉,batch-005
@@ -13479,7 +13479,7 @@ Stock gel,高湯啫喱,batch-011
 "Stock powder, ""Katsuo-bushi"" (cf. 10091 ""Katsuo-bushi"")",鰹魚乾高湯粉,batch-017
 "Stock powder, chicken, pork and vegetable",雞豬肉蔬菜高湯粉,batch-017
 "Stock powder, for ""Oden"" (Japanese winter hodgepodge)",關東煮高湯粉,batch-017
-"Stock, chicken, ready made, retail","雞湯(即用,零售)",batch-011
+"Stock, chicken, ready made, retail",雞湯(即用),batch-011
 "Stock, dry powder or cube",上湯(乾粉或湯塊),batch-002
 "Stock, liquid, all flavours (except fish), prepared from commercial powder or cube","上湯(液體,所有味道(魚味除外),由市售粉或湯塊調製)",batch-002
 "Stout, Guinness",健力士黑啤酒,batch-006
@@ -13493,7 +13493,7 @@ Stock gel,高湯啫喱,batch-011
 "Strawberry, frozen, sweetened, whole","士多啤梨(冷凍,加糖,原粒)",batch-004
 "Strawberry, frozen, unsweetened","士多啤梨(冷凍,無糖)",batch-029
 "Strudel, apple",蘋果酥卷,batch-022
-"Strudel, fruit filled, retail, frozen","水果卷(店售,冷凍)",batch-007
+"Strudel, fruit filled, retail, frozen",水果卷(冷凍),batch-007
 "Stuffed cabbage with meat in tomato sauce and whipped potatoes, frozen",番茄醬釀椰菜卷配薯蓉(雪藏),batch-005
 "Stuffing mix, dried",餡料預拌粉(乾),batch-007
 "Stuffing mix, dried, assorted flavours, made up","餡料預拌粉(乾,各種口味,已調製)",batch-007
@@ -13753,7 +13753,7 @@ Taramasalata,希臘魚子醬,batch-008
 "Tart, mincemeat, one crust, homemade","鹹肉碎撻(單層皮,自家製)",batch-007
 Tartare sauce,他他醬,batch-011
 "Tartlets, strawberry, homemade",士多啤梨小撻(自家製),batch-007
-"Tarts, bakewell, iced, retail","貝克韋爾撻(糖霜面層,零售)",pilot
+"Tarts, bakewell, iced, retail",貝克韋爾撻(糖霜面層),pilot
 "Tarts, custard, individual",吉士撻(獨立裝),batch-010
 "Tarts, jam, homemade",果醬撻(自家製),batch-007
 "Tarts, jam, wholemeal, homemade",全麥果醬撻(自家製),batch-007
@@ -14017,7 +14017,7 @@ Treacle or molasses,糖蜜,batch-002
 "Treacle, black",黑糖蜜,batch-011
 "Tree fern, cooked, with salt","桫欏(熟,有鹽)",batch-037
 "Tree fern, cooked, without salt","桫欏(熟,無鹽)",batch-037
-"Trifle, fruit, retail",水果特飛(零售),batch-010
+"Trifle, fruit, retail",水果特飛,batch-010
 "Trifle, homemade",特飛蛋糕(自家製),batch-010
 "Trifle, with Dream Topping",特飛蛋糕(配Dream Topping),batch-010
 "Tripe and onions, stewed, homemade",洋蔥炆牛肚(自家製),batch-010
@@ -14146,17 +14146,17 @@ Turkey slices,火雞肉片,batch-010
 "Turkey, meat, average, roasted","火雞肉(平均,烤)",batch-010
 "Turkey, mechanically deboned, from turkey frames, raw","火雞(機械去骨,取自火雞骨架,生)",batch-033
 "Turkey, mince, stewed",免治火雞肉(炆),batch-010
-"Turkey, retail parts, breast, meat and skin, with added solution, raw","火雞(零售部位,胸肉,連皮,加入溶液,生)",batch-033
-"Turkey, retail parts, breast, meat only, with added solution, cooked, roasted","火雞(零售部位,胸肉,只計肉,加入溶液,熟,烤)",batch-033
-"Turkey, retail parts, breast, meat only, with added solution, raw","火雞(零售部位,胸肉,只計肉,加入溶液,生)",batch-033
-"Turkey, retail parts, wing, meat and skin, cooked, roasted","火雞(零售部位,翼,連皮,熟,烤)",batch-033
-"Turkey, retail parts, wing, meat and skin, raw","火雞(零售部位,翼,連皮,生)",batch-033
+"Turkey, retail parts, breast, meat and skin, with added solution, raw","火雞(胸肉,連皮,加入溶液,生)",batch-033
+"Turkey, retail parts, breast, meat only, with added solution, cooked, roasted","火雞(胸肉,只計肉,加入溶液,熟,烤)",batch-033
+"Turkey, retail parts, breast, meat only, with added solution, raw","火雞(胸肉,只計肉,加入溶液,生)",batch-033
+"Turkey, retail parts, wing, meat and skin, cooked, roasted","火雞(翼,連皮,熟,烤)",batch-033
+"Turkey, retail parts, wing, meat and skin, raw","火雞(翼,連皮,生)",batch-033
 "Turkey, self-basting, light meat, roasted","自澆油火雞(淺色肉,烤)",batch-010
 "Turkey, skin from whole (light and dark), with added solution, raw","火雞(整隻的皮(淺色及深色),加入溶液,生)",batch-033
 "Turkey, skin from whole, (light and dark), with added solution, roasted","火雞(整隻的皮(淺色及深色),加入溶液,烤)",batch-033
 "Turkey, skin, dry, roasted","火雞皮(乾身,烤)",batch-010
-"Turkey, skin, from retail parts, from dark meat, cooked, roasted","火雞皮(零售部位,黑肉,熟,烤)",pilot
-"Turkey, skin, from retail parts, from dark meat, raw","火雞(零售部位的皮,取自深色肉,生)",batch-033
+"Turkey, skin, from retail parts, from dark meat, cooked, roasted","火雞皮(黑肉,熟,烤)",pilot
+"Turkey, skin, from retail parts, from dark meat, raw","火雞(皮,取自深色肉,生)",batch-033
 "Turkey, skin, moist, roasted","火雞皮(濕潤,烤)",batch-010
 "Turkey, skin, raw",火雞皮(生),batch-010
 "Turkey, stir-fried with vegetables, homemade",蔬菜炒火雞肉(自家製),batch-010
@@ -14416,7 +14416,7 @@ Vanilla extract,雲呢拿香精,batch-035
 "Veal, thymus, raw",牛仔胸腺(生),batch-030
 "Veal, tongue, braised",牛仔脷(炆),batch-030
 "Veal, tongue, raw",牛仔脷(生),batch-030
-"Vegeburger, retail, grilled","素漢堡(零售,燒烤)",batch-012
+"Vegeburger, retail, grilled",素漢堡(燒烤),batch-012
 "Vegetable and cheese grill/burger, in crumbs, baked/grilled","蔬菜芝士漢堡(裹麵包糠,焗或燒烤)",batch-012
 "Vegetable bake, homemade",焗蔬菜(自家製),batch-012
 "Vegetable crisps or chips, sweet potato & taro, flavoured","蔬菜脆片(番薯及芋頭,調味)",batch-002
