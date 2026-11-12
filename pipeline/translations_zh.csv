@@ -14676,6 +14676,7 @@ Wheatgerm,麥芽,batch-007
 "Winged beans (goa bean), green, boiled, drained","翼豆(果阿豆,青色,烚,瀝乾)",batch-037
 "Winged beans (goa bean), green, boiled, drained, with salt","翼豆(果阿豆,青色,烚,瀝乾,有鹽)",batch-037
 "Winged beans, immature pods, raw","四角豆(未成熟豆莢,生)",batch-019
+"Winged beans, immature seeds, raw","翼豆(未成熟豆,生)",batch-038
 "Winged beans, mature seeds, cooked, boiled, with salt","翼豆(成熟豆,熟,烚,有鹽)",batch-031
 "Winged beans, mature seeds, raw","翼豆(成熟豆,生)",batch-031
 "Winkles, boiled",玉黍螺(烚),batch-008
@@ -14692,6 +14693,8 @@ Wonton wrapper (egg roll wrapper),雲吞皮(春卷皮),batch-022
 "Yam, Chinese yam, ""Yamatoimo"", tuberous root, raw","山藥(大和芋,塊根,生)",batch-017
 "Yam, Japanese yam, tuberous root, raw","山藥(日本山藥,塊根,生)",batch-017
 "Yam, baked",山藥(焗),batch-012
+"Yam, boiled, drained or baked","山薯(烚,瀝乾或焗)",batch-038
+"Yam, boiled, drained or baked, salt added","山薯(烚,瀝乾或焗,加鹽)",batch-038
 "Yam, bulbil, raw","山藥(零餘子,生)",batch-019
 "Yam, flesh only, boiled in unsalted water","山藥(只計肉,以無鹽水煮)",batch-012
 "Yam, flour",山藥粉,batch-006
@@ -14699,10 +14702,18 @@ Wonton wrapper (egg roll wrapper),雲吞皮(春卷皮),batch-022
 "Yam, steamed",山藥(蒸),batch-012
 "Yam, white yam, tuberous root, raw","山藥(白山藥,塊根,生)",batch-017
 "Yam, wild harvested, cooked","薯蕷(野生採集,熟)",batch-002
+"Yambean (jicama), raw",沙葛(生),batch-038
+"Yambean (jicama), tuber, boiled, drained","沙葛(塊根,烚,瀝乾)",batch-038
+"Yambean (jicama), tuber, boiled, drained, with salt","沙葛(塊根,烚,瀝乾,有鹽)",batch-038
 "Yandlong beans, immature pods, boiled","豇豆(未成熟豆莢,烚)",batch-019
 "Yandlong beans, immature pods, raw","豇豆(未成熟豆莢,生)",batch-019
+"Yardlong bean, cooked, boiled, drained, with salt","豆角(熟,烚,瀝乾,有鹽)",batch-038
+"Yardlong bean, cooked, boiled, drained, without salt","豆角(熟,烚,瀝乾,無鹽)",batch-038
+"Yardlong bean, raw",豆角(生),batch-038
 "Yardlong beans, mature seeds, raw","豆角(成熟豆,生)",batch-031
+"Yautia (tannier), raw",黃肉芋(生),batch-038
 Yeast extract,酵母抽取物,batch-011
+Yeast extract spread,酵母抽出物抹醬,batch-038
 "Yeast, baker's yeast, compressed",麵包酵母(壓縮),batch-018
 "Yeast, baker's yeast, dried",麵包酵母(乾),batch-018
 "Yeast, bakers, compressed",麵包酵母(壓縮),batch-011
