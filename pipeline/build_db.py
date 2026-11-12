@@ -19,7 +19,7 @@ OUT = ROOT / "data" / "food.db"
 
 FOOD_COLS = ["id", "source_id", "source_code", "name_en", "name_zh", "name_local", "alias",
              "group_en", "group_zh", "subgroup_en", "subgroup_zh", "description",
-             "origin_source", "search_text"]
+             "origin_source", "origin_code", "search_text"]
 
 # Each importer exposes datasets(root) -> (SOURCE dict, rows). Add new sources here.
 IMPORTERS = [cfs, tfda, mext, afcd, usda, cofid, cnf]

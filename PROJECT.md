@@ -26,7 +26,7 @@ Other systems and AI tools will also use the data.
 | Data source: Australia AFCD | Done. The data has 1,588 foods (section 2.8). |
 | Data source: USDA (Foundation Foods, SR Legacy) | Done. The data has 8,262 foods (section 2.5). |
 | Data source: UK CoFID | Done. The data has 2,887 foods (section 2.9). |
-| Data source: Canada CNF | Done. The data has 5,690 foods (section 2.10). |
+| Data source: Canada CNF | Done. The data has 5,993 foods (section 2.10). |
 | Backend API | Not started. |
 | Cloudflare D1 | Not started. |
 | Other data sources | Not started. |
@@ -242,18 +242,20 @@ We compared the database with the raw file. All 103,806 values are the same.
 
 ### 2.10 About the CNF data
 
-The data set is the Canadian Nutrient File (CNF) 2015 from Health Canada.
-It has 5,690 foods. Each food has an English name and a French name.
+The data set is the Canadian Nutrient File (CNF) 2026 from Health Canada.
+It has 5,993 foods. Each food has an English name and a French name.
 The importer puts the French name in `name_local`.
 The licence is the Open Government Licence - Canada.
 
 This computer cannot connect to the Health Canada web site.
 To get the data, do these steps:
 
-1. Open https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/canadian-nutrient-file-2015-download-files.html in your browser.
-2. Download the CSV zip file (`cnf-fcen-csv.zip`).
+1. Open the Canadian Nutrient File page on https://www.canada.ca in your browser.
+2. Download the 2026 zip file with all the data files (`cnf_fcen_all-files-data_2026.zip`).
 3. Put the zip file in `data/raw/cnf/`. Do not extract it.
 4. Run `npm run db`.
+
+The importer does not use the 2015 file (`cnf-fcen-csv.zip`). You can delete it.
 
 The importer finds each nutrient by its nutrient code.
 These codes are the same as the USDA SR Legacy nutrient numbers.
@@ -262,14 +264,19 @@ The importer examines the unit of each nutrient.
 | Item | Rule |
 |---|---|
 | Carbohydrate | By difference. `method` = `difference`. |
-| Servings | CNF gives a factor for 100 g. The serving weight is the factor x 100 g. |
-| Data origin | The importer puts the CNF food source in `origin_source`. |
+| Alternative English name | `alias` |
+| Comment | `description` |
+| Data origin | `origin_source` |
+| USDA code (`USDA_NDB_Code`) | `origin_code` |
+| Servings | Only measure type 6 (user-defined, for example 250 ml). The weight is in grams. |
+| Measure type 3 (refuse) and type 9 (yield) | Not used. They are not servings. |
 
-3,555 CNF foods (62 %) are USDA data with no changes.
-356 other CNF foods are USDA data with some nutrients analysed in Canada.
-Step 6 (links) must use `origin_source` to find these foods.
+3,529 CNF foods (59 %) are USDA data with no changes.
+4,798 CNF foods have a USDA code.
+4,615 of these codes are in our USDA SR Legacy data.
+Step 6 (links) must use `origin_code` to link these foods.
 
-We compared the database with the raw file. All 221,636 values are the same.
+We compared the database with the raw file. All 236,465 values are the same.
 
 ## 3. Database design
 
@@ -287,7 +294,7 @@ We compared the database with the raw file. All 221,636 values are the same.
 |---|---|
 | `sources` | One row for each data source. It has the licence and the attribution text. |
 | `nutrients` | The master list of nutrients. Each nutrient has one ID and one unit. |
-| `foods` | One row for each food from each source. The data is the same as the source data. The `description` column keeps the source description, for example the cooking method. |
+| `foods` | One row for each food from each source. The data is the same as the source data. The `description` column keeps the source description, for example the cooking method. For republished data, `origin_source` and `origin_code` tell the first source and its food code. |
 | `food_nutrients` | One row for each value. If a value is missing, there is no row. |
 | `servings` | Typical serving sizes, for example "1 small bottle = 330 g". |
 | `food_links` | Links between duplicates and between equal foods from different sources. It is empty now. |

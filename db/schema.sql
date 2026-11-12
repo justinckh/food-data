@@ -47,6 +47,7 @@ CREATE TABLE IF NOT EXISTS foods (
     subgroup_zh    TEXT,
     description    TEXT,                     -- source's own description (state, preparation); not used for search
     origin_source  TEXT,                     -- for republished data: where the values first came from
+    origin_code    TEXT,                     -- for republished data: the original publisher's food code (e.g. USDA NDB number)
     search_text    TEXT NOT NULL DEFAULT '', -- built by pipeline/common.py:search_text()
     UNIQUE (source_id, source_code)
 );

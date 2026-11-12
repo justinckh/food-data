@@ -1,19 +1,24 @@
-"""Importer: Canadian Nutrient File (CNF) 2015, Health Canada.
+"""Importer: Canadian Nutrient File (CNF) 2026, Health Canada.
 
-Input: data/raw/cnf/cnf-fcen-csv.zip (the CSV download, read in place).
-Tables used: FOOD NAME, FOOD GROUP, NUTRIENT NAME, NUTRIENT AMOUNT,
-CONVERSION FACTOR, MEASURE NAME. Text tables are Windows-1252; NUTRIENT AMOUNT is ASCII.
+Input: data/raw/cnf/cnf_fcen_all-files-data_2026.zip (read in place). The Health Canada
+site cannot be reached from the build machine; download the zip by hand (PROJECT.md 2.10).
+An older 2015 zip (cnf-fcen-csv.zip) in the same folder is ignored.
 
-Nutrients are matched by NutrientCode (the same numbers as USDA SR Legacy) and the
-unit is checked. NutrientID differs from NutrientCode for some nutrients, so amounts
-are joined through NutrientID. Values are plain numbers (no markers).
+Tables used (UTF-8): Food_Name, CNF_Food_Group, Food_Source, Nutrient_Name,
+Nutrient_Amount, Measure_Name, Measure_Weight_Conversion.
 
-Servings: CNF conversion factors are multiples of 100 g, so grams = factor x 100.
-French names go to name_local. FOOD SOURCE descriptions go to origin_source
-(62% of foods are USDA data with no changes).
+- Nutrients are matched by Nutrient_Code (same numbers as USDA SR Legacy) and the unit
+  is checked. Values are plain numbers (no markers).
+- Food_Source description -> origin_source (most foods are USDA data);
+  USDA_NDB_Code -> origin_code, for exact links to USDA records later.
+- Alternate_Description_EN -> alias; Comment_EN -> description; French name -> name_local.
+- Servings: Measure_Weight_Conversion rows of type 6 (user-defined, e.g. 250 ml) only.
+  Type 3 is refuse (inedible parts) and type 9 is yield (cooked weight from raw);
+  neither is a serving. Weights are already in grams.
 
 Not imported yet: individual sugars, starch, amino acids, individual fatty acids,
-phytosterols, choline, betaine, other tocopherols, vitamin D in IU, folate forms.
+phytosterols, choline, betaine, other tocopherols, vitamin D in IU, folate forms,
+refuse and yield data.
 
 Licence: Open Government Licence - Canada.
 """
@@ -25,106 +30,111 @@ from datetime import date
 from ..common import clean, search_text
 
 RAW = "data/raw/cnf"
-FILE = "cnf-fcen-csv.zip"
+FILE = "cnf_fcen_all-files-data_2026.zip"
 
-# NutrientCode -> (our id, CNF unit, method)
+# Nutrient_Code -> (our id, CNF 2026 unit word, method)
 NUTRIENT_MAP = {
-    "208": ("energy_kcal", "kCal", None), "268": ("energy_kj", "kJ", None),
-    "203": ("protein", "g", None), "204": ("fat", "g", None),
-    "205": ("carbohydrate", "g", "difference"), "291": ("fibre", "g", None),
-    "269": ("sugars", "g", None), "255": ("water", "g", None), "207": ("ash", "g", None),
-    "221": ("alcohol", "g", None), "262": ("caffeine", "mg", None),
-    "601": ("cholesterol", "mg", None), "606": ("fat_sat", "g", None),
-    "645": ("fat_mono", "g", None), "646": ("fat_poly", "g", None), "605": ("fat_trans", "g", None),
-    "301": ("calcium", "mg", None), "303": ("iron", "mg", None), "304": ("magnesium", "mg", None),
-    "305": ("phosphorus", "mg", None), "306": ("potassium", "mg", None), "307": ("sodium", "mg", None),
-    "309": ("zinc", "mg", None), "312": ("copper", "mg", None), "315": ("manganese", "mg", None),
-    "317": ("selenium", "µg", None),
-    "319": ("retinol", "µg", None), "320": ("vitamin_a_rae", "µg", None),
-    "321": ("beta_carotene", "µg", None), "322": ("alpha_carotene", "µg", None),
-    "334": ("beta_cryptoxanthin", "µg", None), "323": ("alpha_tocopherol", "mg", None),
-    "328": ("vitamin_d", "µg", None), "401": ("vitamin_c", "mg", None),
-    "404": ("vitamin_b1", "mg", None), "405": ("vitamin_b2", "mg", None), "406": ("niacin", "mg", None),
-    "409": ("niacin_eq", "NE", None),          # CNF unit "NE" = mg niacin equivalents
-    "410": ("pantothenic_acid", "mg", None), "415": ("vitamin_b6", "mg", None),
-    "416": ("biotin", "µg", None), "417": ("folate", "µg", None), "418": ("vitamin_b12", "µg", None),
-    "430": ("vitamin_k1", "µg", None),         # USDA/CNF 430 = phylloquinone
+    "208": ("energy_kcal", "kilocalorie", None), "268": ("energy_kj", "kilojoule", None),
+    "203": ("protein", "Gram", None), "204": ("fat", "Gram", None),
+    "205": ("carbohydrate", "Gram", "difference"), "291": ("fibre", "Gram", None),
+    "269": ("sugars", "Gram", None), "255": ("water", "Gram", None), "207": ("ash", "Gram", None),
+    "221": ("alcohol", "Gram", None), "262": ("caffeine", "Milligram", None),
+    "601": ("cholesterol", "Milligram", None), "606": ("fat_sat", "Gram", None),
+    "645": ("fat_mono", "Gram", None), "646": ("fat_poly", "Gram", None), "605": ("fat_trans", "Gram", None),
+    "301": ("calcium", "Milligram", None), "303": ("iron", "Milligram", None),
+    "304": ("magnesium", "Milligram", None), "305": ("phosphorus", "Milligram", None),
+    "306": ("potassium", "Milligram", None), "307": ("sodium", "Milligram", None),
+    "309": ("zinc", "Milligram", None), "312": ("copper", "Milligram", None),
+    "315": ("manganese", "Milligram", None), "317": ("selenium", "Microgram", None),
+    "319": ("retinol", "Microgram", None), "320": ("vitamin_a_rae", "Microgram", None),
+    "321": ("beta_carotene", "Microgram", None), "322": ("alpha_carotene", "Microgram", None),
+    "334": ("beta_cryptoxanthin", "Microgram", None), "323": ("alpha_tocopherol", "Milligram", None),
+    "328": ("vitamin_d", "Microgram", None), "401": ("vitamin_c", "Milligram", None),
+    "404": ("vitamin_b1", "Milligram", None), "405": ("vitamin_b2", "Milligram", None),
+    "406": ("niacin", "Milligram", None),
+    "409": ("niacin_eq", "Niacin Equivalents", None),   # = mg niacin equivalents
+    "410": ("pantothenic_acid", "Milligram", None), "415": ("vitamin_b6", "Milligram", None),
+    "416": ("biotin", "Microgram", None), "417": ("folate", "Microgram", None),
+    "418": ("vitamin_b12", "Microgram", None),
+    "430": ("vitamin_k1", "Microgram", None),           # phylloquinone
 }
+SERVING_TYPE = "6"   # user-defined measures
 
 SOURCE = {
     "id": "cnf",
-    "name": "Canadian Nutrient File (CNF) 2015",
+    "name": "Canadian Nutrient File (CNF) 2026",
     "publisher": "Health Canada",
     "country": "CA",
     "licence": "Open Government Licence - Canada",
     "attribution": "Contains information licensed under the Open Government Licence - Canada. "
-                   "Health Canada, Canadian Nutrient File, 2015.",
+                   "Health Canada, Canadian Nutrient File, 2026.",
     "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data.html",
-    "version": "2015",
+    "version": "2026",
 }
 
 
 def table(zf, name):
-    raw = zf.read(name)
-    try:
-        text = raw.decode("utf-8")
-    except UnicodeDecodeError:
-        text = raw.decode("cp1252")
-    return list(csv.DictReader(io.StringIO(text)))
+    return list(csv.DictReader(io.StringIO(zf.read(name).decode("utf-8-sig"))))
 
 
 def load(path):
     zf = zipfile.ZipFile(path)
-    groups = {g["FoodGroupID"]: clean(g["FoodGroupName"]) for g in table(zf, "FOOD GROUP.csv")}
-    # Where each food's data comes from, e.g. "FOODS BASED ON DATA FROM USDA: NO CHANGES"
-    # (about 62% of foods). Kept so USDA copies can be linked later.
-    origins = {o["FoodSourceID"].strip(): clean(o["FoodSourceDescription"]) for o in table(zf, "FOOD SOURCE.csv")}
+    groups = {g["CNF_Food_Group_Code"].strip(): clean(g["CNF_Food_Group_Description_EN"])
+              for g in table(zf, "CNF_Food_Group.csv")}
+    origins = {o["Food_Source_Code"].strip(): clean(o["Food_Source_Description_EN"])
+               for o in table(zf, "Food_Source.csv")}
 
-    by_id = {}
-    for n in table(zf, "NUTRIENT NAME.csv"):
-        hit = NUTRIENT_MAP.get(n["NutrientCode"].strip())
-        if hit:
-            if n["NutrientUnit"].strip() != hit[1]:
-                raise SystemExit(f"cnf: nutrient {n['NutrientCode']} unit is {n['NutrientUnit']!r}, expected {hit[1]!r}")
-            by_id[n["NutrientID"].strip()] = (hit[0], hit[2])
-    if len(by_id) != len(NUTRIENT_MAP):
-        raise SystemExit(f"cnf: found {len(by_id)} of {len(NUTRIENT_MAP)} mapped nutrients")
+    found = set()
+    for n in table(zf, "Nutrient_Name.csv"):
+        code = n["Nutrient_Code"].strip()
+        if code in NUTRIENT_MAP:
+            if n["Nutrient_Unit"].strip() != NUTRIENT_MAP[code][1]:
+                raise SystemExit(f"cnf: nutrient {code} unit is {n['Nutrient_Unit']!r}, "
+                                 f"expected {NUTRIENT_MAP[code][1]!r}")
+            found.add(code)
+    if found != set(NUTRIENT_MAP):
+        raise SystemExit(f"cnf: nutrients missing from Nutrient_Name: {sorted(set(NUTRIENT_MAP) - found)}")
 
     values = {}
-    for a in table(zf, "NUTRIENT AMOUNT.csv"):
-        hit = by_id.get(a["NutrientID"].strip())
-        v = a["NutrientValue"].strip()
+    for a in table(zf, "Nutrient_Amount.csv"):
+        hit = NUTRIENT_MAP.get(a["Nutrient_Code"].strip())
+        v = a["Nutrient_Amount"].strip()
         if hit and v:
-            values.setdefault(a["FoodID"].strip(), []).append((hit[0], float(v), None, hit[1]))
+            values.setdefault(a["Food_Code"].strip(), []).append((hit[0], float(v), None, hit[2]))
 
-    measures = {m["MeasureID"].strip(): clean(m["MeasureDescription"]) for m in table(zf, "MEASURE NAME.csv")}
+    measures = {m["Measure_Code"].strip(): clean(m["Measure_Description_and_Unit_EN"])
+                for m in table(zf, "Measure_Name.csv")}
     servings = {}
-    for c in table(zf, "CONVERSION FACTOR.csv"):
-        label = measures.get(c["MeasureID"].strip())
-        factor = c["ConversionFactorValue"].strip()
-        if label and factor and float(factor) > 0:
-            servings.setdefault(c["FoodID"].strip(), []).append(
-                (label, None, round(float(factor) * 100, 3), "g"))
+    for m in table(zf, "Measure_Weight_Conversion.csv"):
+        if m["Measure_Type_Code"].strip() != SERVING_TYPE:
+            continue
+        label = measures.get(m["Measure_Code"].strip())
+        grams = m["Measure_Weight_Conversion"].strip()
+        if label and grams and float(grams) > 0:
+            servings.setdefault(m["Food_Code"].strip(), []).append((label, None, float(grams), "g"))
 
-    for f in table(zf, "FOOD NAME.csv"):
-        fid = f["FoodID"].strip()
+    for f in table(zf, "Food_Name.csv"):
+        code = f["Food_Code"].strip()
         food = {
-            "id": f"cnf:{fid}",
+            "id": f"cnf:{code}",
             "source_id": "cnf",
-            "source_code": fid,
-            "name_en": clean(f["FoodDescription"]),
-            "name_local": clean(f["FoodDescriptionF"]) or None,     # French
-            "group_en": groups.get(f["FoodGroupID"].strip()),
-            "origin_source": origins.get(f["FoodSourceID"].strip()),
+            "source_code": code,
+            "name_en": clean(f["Food_Description_EN"]),
+            "name_local": clean(f["Food_Description_FR"]) or None,      # French
+            "alias": clean(f["Alternate_Description_EN"]) or None,
+            "group_en": groups.get(f["CNF_Food_Group_Code"].strip()),
+            "description": clean(f["Comment_EN"]) or None,
+            "origin_source": origins.get(f["Food_Source_Code"].strip()),
+            "origin_code": clean(f["USDA_NDB_Code"]) or None,
         }
         food["search_text"] = search_text(food)
-        yield food, values.get(fid, []), servings.get(fid, [])
+        yield food, values.get(code, []), servings.get(code, [])
 
 
 def datasets(root):
     path = root / RAW / FILE
     if not path.exists():
-        print(f"  cnf        skipped: no {FILE} in {RAW}/ (download the CSV zip from Health Canada)")
+        print(f"  cnf        skipped: no {FILE} in {RAW}/ (download it by hand, see PROJECT.md 2.10)")
         return
     src = dict(SOURCE, retrieved_at=date.fromtimestamp(path.stat().st_mtime).isoformat())
     yield src, load(path)
