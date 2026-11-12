@@ -100,6 +100,14 @@ CREATE TABLE IF NOT EXISTS food_links (
 );
 CREATE INDEX IF NOT EXISTS idx_links_canonical ON food_links(canonical_id);
 
+-- Synonym concepts a food belongs to (pipeline/synonyms.csv), e.g. 'broccoli'.
+CREATE TABLE IF NOT EXISTS food_concepts (
+    food_id  TEXT NOT NULL REFERENCES foods(id) ON DELETE CASCADE,
+    concept  TEXT NOT NULL,
+    PRIMARY KEY (food_id, concept)
+);
+CREATE INDEX IF NOT EXISTS idx_food_concepts ON food_concepts(concept);
+
 -- Keyword search. Trigram tokenizer gives substring matching for Chinese text
 -- (no spaces between words). Queries shorter than 3 characters must fall back to LIKE.
 CREATE VIRTUAL TABLE IF NOT EXISTS foods_fts USING fts5(

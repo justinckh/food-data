@@ -1,0 +1,7 @@
+term,hk_meaning,tw_meaning,cn_meaning,decision
+乳酪,yogurt,cheese,cheese,"Region-scoped: HK column of 'yogurt'; TW and CN columns of 'cheese'."
+奶油,"(rare)",butter,cream,"Region-scoped: TW column of 'butter'; CN column of 'cream'."
+白菜,bok choy,napa cabbage,napa cabbage,"Region-scoped: HK column of 'bok choy'; TW and CN columns of 'napa cabbage'."
+芹菜,Chinese celery,celery,Chinese celery or celery,"TW column of 'celery' only."
+花椰菜,(rare),cauliflower (some people: broccoli),cauliflower,"TW column of 'cauliflower' only."
+土豆,(rare),peanut,potato,"CN column of 'potato' only. No TW food is named 土豆 in TFDA."

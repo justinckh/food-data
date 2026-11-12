@@ -56,6 +56,9 @@ Other systems and AI tools will also use the data.
 | `pipeline/importers/usda.py` | This importer reads the USDA zip files in `data/raw/usda/`. It does not extract the zip files. |
 | `pipeline/download_usda.py` | This script downloads the newest USDA zip files to `data/raw/usda/`. |
 | `pipeline/link.py` | This script finds the duplicates and records them in `food_links`. The build runs it after the import. |
+| `pipeline/synonyms.py` | This script uses the synonym table for search and for links (section 3.7). |
+| `pipeline/synonyms.csv` | The synonym table. Each row is 1 food concept with the words for HK, TW, CN, JA and EN. |
+| `pipeline/synonyms_ambiguous.csv` | Words that have different meanings in different regions, and our decision for each word. |
 | `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
 | `data/raw/` | The downloaded source files. Git does not keep this folder. |
 | `data/food.db` | The master copy of the database. Git does not keep this file. You can make it again at any time. |
@@ -330,6 +333,7 @@ We examined each source for a newer version on 2026-11-12.
 | `servings` | Typical serving sizes, for example "1 small bottle = 330 g". |
 | `food_codes` | Other codes for a food, for example the USDA NDB number. |
 | `food_links` | Links between duplicates and between equal foods from different sources (section 3.5). |
+| `food_concepts` | The synonym concepts of each food, for example `broccoli`. |
 | `foods_fts` | The keyword search index. |
 
 ### 3.3 Special values
@@ -417,7 +421,35 @@ Rule 4 does not link foods that have no English name.
 The synonym table (section 4.2) will link these foods.
 Rule 4 does not yet stop links such as pork to beef. Thus it does not use scores less than 0.75.
 
-### 3.7 Reasons for the link table
+### 3.7 Synonyms
+
+The synonym table `pipeline/synonyms.csv` has 93 food concepts.
+Each concept has the words for Hong Kong, Taiwan, Mainland China, Japan and English.
+Example: broccoli = 西蘭花 (HK), 青花菜 (TW), 綠菜花 (CN), ブロッコリー (JA), broccoli (EN).
+
+At each build, the script `pipeline/synonyms.py` does these steps:
+
+1. It finds the concepts in the name of each food. It uses the words of the region of the source (CFS: HK, then CN. TFDA: TW. MEXT: JA). It uses English for all sources.
+2. It records the concepts in the table `food_concepts`.
+3. It adds all words of these concepts to `foods.search_text`. Thus a search with a word from any region finds the food.
+4. It links a food with no English name to the same food in a different source, if the name is exactly 1 concept word (rule 5).
+
+Rules for matching:
+
+- Chinese: the script finds the longest words first. Thus 洋蔥 (onion) does not match 蔥 (spring onion).
+- Japanese: the word must be a full word in the name. Thus たまねぎ does not match ねぎ.
+- English: the script ignores punctuation. Thus "Chicken, egg" matches "chicken egg" (egg), not "chicken".
+
+Some words have different meanings in different regions, for example 乳酪 (yogurt in HK, cheese in TW).
+The script uses these words only for the sources of their region.
+The file `pipeline/synonyms_ambiguous.csv` gives the decision for each of these words.
+
+Result: 12,181 foods have at least 1 concept.
+A search for 西蘭花, 青花菜, ブロッコリー or broccoli finds broccoli in all 8 sources.
+
+To add a synonym, add a row or a word to `pipeline/synonyms.csv`. Then run `npm run db`.
+
+### 3.8 Reasons for the link table
 
 - We can always find the first source of a value.
 - A new import does not bring the duplicates back.
@@ -440,7 +472,7 @@ Rule 4 does not yet stop links such as pork to beef. Thus it does not use scores
 | 5e | Write the importer for UK CoFID | Done |
 | 5f | Write the importer for Canada CNF | Done |
 | 5d | Write the importer for France Ciqual | On hold. The Ciqual web site is in maintenance (section 4.3). |
-| 6 | Link the duplicates in `food_links` (section 4.2) | Exact copies and links by name done (sections 3.5 and 3.6). Synonyms: to do. |
+| 6 | Link the duplicates in `food_links` (section 4.2) | Done (sections 3.5 to 3.7). The synonym table can grow. |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
 | 8 | Make the API with Pages Functions | To do |
 | 9 | Change the site to use the API, not `foods.json` | To do |

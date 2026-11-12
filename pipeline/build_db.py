@@ -10,7 +10,7 @@ import sqlite3
 import sys
 from pathlib import Path
 
-from . import link
+from . import link, synonyms
 from .common import NUTRIENT_IDS, NUTRIENTS
 from .importers import afcd, cfs, cnf, cofid, mext, tfda, usda
 
@@ -68,6 +68,7 @@ def main():
                 import_source(db, src, rows)
         print("Linking:")
         link.run(db)
+        synonyms.run(db)
         db.execute("INSERT INTO foods_fts(foods_fts) VALUES ('rebuild')")
         bad = db.execute("PRAGMA foreign_key_check").fetchall()
         if bad:
