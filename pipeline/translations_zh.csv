@@ -2580,6 +2580,8 @@ Bicarbonate of soda,梳打粉,batch-010
 "Biscuits, wafers",威化餅,batch-013
 "Biscuits, wafers with cream",威化餅(夾忌廉),batch-013
 "Biscuits, wholemeal, homemade",全麥餅乾(自家製),batch-006
+"Bison, ground, grass-fed, cooked","免治野牛肉(草飼,熟)",batch-029
+"Bison, ground, grass-fed, raw","免治野牛肉(草飼,生)",batch-029
 "Bison, ground, raw",野牛肉碎(生),batch-019
 "Bitter melon, fruit, raw","苦瓜(果實,生)",batch-018
 "Bitter melon, fruit, sautéed","苦瓜(果實,炒)",batch-018
@@ -2622,6 +2624,9 @@ Bicarbonate of soda,梳打粉,batch-010
 "Blueberries, wild, canned, heavy syrup, drained","野生藍莓(罐頭,濃糖漿,瀝乾)",batch-028
 "Blueberries, wild, frozen (Alaska Native)","野生藍莓(冷凍,阿拉斯加原住民)",batch-019
 "Blueberry, dried, sweetened",藍莓乾(加糖),batch-028
+"Blueberry, frozen, sweetened","藍莓(冷凍,加糖)",batch-029
+"Blueberry, frozen, unsweetened","藍莓(冷凍,無糖)",batch-029
+"Blueberry, wild, frozen",野生藍莓(冷凍),batch-029
 "Blueberry, wild, raw",野生藍莓(生),batch-019
 "Boal, raw",Boal 鯰魚(生),batch-007
 "Bok choy, leaves, raw","白菜(葉,生)",batch-018
@@ -2633,6 +2638,8 @@ Bombay duck,孟買鴨魚乾,batch-007
 Bombay mix,孟買雜錦小食,batch-011
 "Bouillabaisse, homemade",馬賽魚湯(自家製),batch-010
 Bounty bar and own brand equivalents,Bounty椰子朱古力條及自家品牌同類產品,batch-011
+"Boysenberries, canned, heavy syrup","波森莓(罐頭,濃糖漿)",batch-029
+"Boysenberry, frozen, unsweetened","波森莓(冷凍,無糖)",batch-029
 "Bracken fern, fiddleheads, boiled","蕨菜(嫩芽,煮)",batch-018
 "Bracken fern, fiddleheads, dried, raw","蕨菜(嫩芽,乾,生)",batch-018
 "Bracken fern, fiddleheads, raw","蕨菜(嫩芽,生)",batch-018
@@ -3097,6 +3104,7 @@ Cakes from 'healthy eating' ranges,健康飲食系列蛋糕,batch-006
 "Candied foods, maraschino cherries, jar, solids and liquid","酒漬車厘子(樽裝,連汁)",batch-006
 "Candied foods, orange peel",糖漬橙皮,batch-006
 "Candied foods, pineapple",糖漬菠蘿,batch-006
+Candied fruit,糖漬水果,batch-029
 "Candied fruits, Marron glacé (candied chestnuts)",糖漬水果(糖漬栗子),batch-014
 "Candies, bars, Twix, caramel cookie","朱古力條(Twix,焦糖曲奇)",pilot
 "Candies, bars, white chocolate with almonds",杏仁白朱古力條,batch-006
@@ -3114,6 +3122,7 @@ Cakes from 'healthy eating' ranges,健康飲食系列蛋糕,batch-006
 "Capsicum, green, fresh, fried, no added fat","燈籠椒(青色,新鮮,炸,無添加脂肪)",batch-002
 "Capsicum, red, fresh, fried, no added fat","燈籠椒(紅色,新鮮,炸,無添加脂肪)",batch-002
 "Capsicum, yellow, fresh, raw","燈籠椒(黃色,新鮮,生)",batch-002
+"Carambola (star fruit), raw",楊桃(生),batch-029
 "Carambola, raw",楊桃(生),batch-015
 "Caramel bars and sweets, chocolate covered",焦糖條及糖果(朱古力包裹),batch-011
 Caraway seeds,葛縷子籽,batch-008
@@ -3836,8 +3845,24 @@ Cheese whey powder,芝士乳清粉,batch-016
 "Cherries, stewed without sugar",車厘子(無糖炆),batch-008
 "Cherries, stewed without sugar, weighed with stones","車厘子(無糖炆,連核稱重)",batch-008
 "Cherries, sweet, dark red, raw","甜車厘子(深紅色,生)",batch-019
+"Cherries, tart, dried, sweetened",酸車厘子乾(加糖),batch-029
+"Cherry juice, tart",酸車厘子汁,batch-029
+"Cherry sour, red, frozen, unsweetened","紅酸車厘子(冷凍,無糖)",batch-029
 "Cherry, pitted, frozen","車厘子(去核,冷凍)",batch-001
+"Cherry, sour, canned, water pack, drained","酸車厘子(罐頭,水浸裝,瀝乾)",batch-029
+"Cherry, sour, red, canned, extra heavy syrup pack, solids and liquid","紅酸車厘子(罐頭,特濃糖漿裝,固體連汁)",batch-029
+"Cherry, sour, red, canned, heavy syrup pack, solids and liquid","紅酸車厘子(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Cherry, sour, red, canned, light syrup pack, solids and liquid","紅酸車厘子(罐頭,淡糖漿裝,固體連汁)",batch-029
+"Cherry, sour, red, canned, water pack, solids and liquid","紅酸車厘子(罐頭,水浸裝,固體連汁)",batch-029
+"Cherry, sour, red, raw",紅酸車厘子(生),batch-029
+"Cherry, sweet, canned, extra heavy syrup pack, solids and liquid","甜車厘子(罐頭,特濃糖漿裝,固體連汁)",batch-029
+"Cherry, sweet, canned, heavy syrup pack","甜車厘子(罐頭,濃糖漿裝)",batch-029
+"Cherry, sweet, canned, heavy syrup, drained","甜車厘子(罐頭,濃糖漿,瀝乾)",batch-029
+"Cherry, sweet, canned, juice pack, solids and liquid","甜車厘子(罐頭,果汁浸裝,固體連汁)",batch-029
+"Cherry, sweet, canned, light syrup pack","甜車厘子(罐頭,淡糖漿裝)",batch-029
+"Cherry, sweet, canned, water pack, solids and liquid","甜車厘子(罐頭,水浸裝,固體連汁)",batch-029
 "Cherry, sweet, frozen, sweetened","車厘子(甜,冷凍,加糖)",batch-004
+"Cherry, sweet, raw",甜車厘子(生),batch-029
 "Chervil, dried",細葉芹(乾),batch-008
 "Chestnuts, Chinese chestnuts, roasted",甘栗(烤),batch-016
 "Chestnuts, Japanese chestnuts, Kanroni (boiled and sweetened), drained","日本栗子(「Kanroni」甜煮,瀝乾)",batch-016
@@ -4108,6 +4133,7 @@ Chorizo,西班牙辣腸,batch-009
 "Citrus, Seminole, juice sacs, raw","塞米諾爾橘柚(果肉,生)",batch-015
 "Citrus, sour oranges, juice, fresh",酸橙(鮮榨汁),batch-015
 Clam fritter,蜆肉炸餅,batch-004
+"Clementine, raw",克萊門氏小柑橘(生),batch-029
 Clif Z bar,Clif Z能量棒,batch-020
 "Cloudberries, raw (Alaska Native)","雲莓(生,阿拉斯加原住民)",batch-019
 "Cloudberry (bakeapple), Indigenous",雲莓(原住民食品),batch-004
@@ -4520,6 +4546,7 @@ Cornstarch,粟粉,batch-026
 "Crab, canned in brine, drained","蟹(罐頭,鹽水,已瀝乾)",batch-007
 "Crab, white and brown meat, purchased cooked, weighed with shell","蟹(白肉及蟹膏,購買時已煮熟,連殼稱重)",batch-007
 "Crab, white meat, purchased cooked","蟹(白肉,購買時已煮熟)",batch-007
+"Crabapple, raw",小蘋果(生),batch-029
 Cracker meal,餅乾粉,batch-021
 "Cracker, 7 grain",七穀餅乾,batch-003
 "Cracker, assorted mix",什錦餅乾,batch-003
@@ -4624,6 +4651,11 @@ Cranberry fruit juice drink,紅莓果汁飲品,batch-006
 "Cranberry juice cocktail, frozen concentrate",紅莓汁飲品(冷凍濃縮),batch-025
 "Cranberry juice cocktail, frozen concentrate, prepared with water","紅莓汁飲品(冷凍濃縮,以水沖調)",batch-025
 "Cranberry juice, not fortified, from concentrate, shelf stable","小紅莓汁(沒有強化,濃縮還原,常溫保存)",batch-019
+"Cranberry juice, unsweetened",小紅莓汁(無糖),batch-029
+"Cranberry orange relish, canned",小紅莓橙醬(罐頭),batch-029
+"Cranberry sauce, canned, sweetened","小紅莓醬(罐頭,加糖)",batch-029
+"Cranberry sauce, jellied, canned, OCEAN SPRAY","小紅莓醬(果凍狀,罐頭,OCEAN SPRAY)",batch-029
+"Cranberry sauce, whole, canned, OCEAN SPRAY","小紅莓醬(整粒,罐頭,OCEAN SPRAY)",batch-029
 "Cranberry, dried, sweetened",蔓越莓乾(加糖),batch-001
 "Cranberry, low bush or lingenberry, raw (Alaska Native)","矮灌木越橘(生,阿拉斯加原住民)",batch-019
 "Cranberry, raw",蔓越莓(生),batch-001
@@ -4783,7 +4815,10 @@ Cumin seeds,孜然籽,batch-008
 "Curly kale, raw",羽衣甘藍(生),batch-011
 "Currant buns, retail",提子乾麵包(零售),batch-006
 "Currant buns, toasted",提子乾麵包(烘過),batch-006
+"Currant, european black, raw",歐洲黑加侖子(生),batch-029
 "Currant, fresh",紅醋栗(新鮮),batch-001
+"Currant, red and white, raw",紅醋栗及白醋栗(生),batch-029
+"Currant, zante, dried",贊提葡萄乾,batch-029
 Currants,無核小葡萄乾,batch-008
 "Curry leaves, fresh",咖喱葉(新鮮),batch-008
 Curry paste,咖喱醬,batch-011
@@ -4896,6 +4931,7 @@ Custard powder,吉士粉,batch-006
 "Custard, made up with whole milk",吉士醬(以全脂牛奶沖調),batch-010
 "Custard, ready to eat, canned and tetra-pak",即食吉士醬(罐裝及利樂包裝),batch-010
 "Custard, vanilla, prepared from dry mix","吉士醬(雲呢拿味,由乾粉調製)",batch-002
+"Custard-apple, raw",番荔枝(生),batch-029
 "DIGIORNO Pizza, cheese topping, cheese stuffed crust, frozen, baked","DIGIORNO 薄餅(芝士餡,芝士邊,冷凍,焗)",batch-027
 "DIGIORNO Pizza, cheese topping, rising crust, frozen, baked","DIGIORNO 薄餅(芝士餡,發酵厚批底,冷凍,焗)",batch-027
 "DIGIORNO Pizza, cheese topping, thin crispy crust, frozen, baked","DIGIORNO 薄餅(芝士餡,薄脆批底,冷凍,焗)",batch-027
@@ -4935,6 +4971,8 @@ Custard powder,吉士粉,batch-006
 "Danish pastry, lemon, unenriched",檸檬丹麥酥(未強化),batch-021
 "Danish pastry, nut (almond, raisin nut, cinnamon nut)","丹麥酥(果仁[杏仁,提子乾果仁,肉桂果仁])",batch-003
 "Danish pastry, raspberry, unenriched",紅莓丹麥酥(未強化),batch-021
+"Date, medjool",梅久爾椰棗,batch-029
+"Dates, deglet noor",德格列特努爾椰棗,batch-029
 "Dates, dried, flesh and skin","棗(乾,連皮連肉)",batch-008
 "Dates, dried, flesh and skin, weighed with stones","棗(乾,連皮連肉,連核稱重)",batch-008
 "Dates, raw, flesh and skin","棗(生,連皮連肉)",batch-008
@@ -5080,6 +5118,7 @@ Dulce de Leche,牛奶焦糖醬(Dulce de Leche),batch-026
 "Dumpling, plain",麵粉糰子(原味),batch-003
 "Dumplings, homemade",湯丸(自家製),batch-006
 "Durian, raw",榴槤(生),batch-015
+"Durian, raw or frozen",榴槤(生或冷凍),batch-029
 "Durum wheat, macaroni and spaghetti, dry pasta, boiled","硬粒小麥(通粉及意粉,乾意大利麵,烚)",batch-013
 "Durum wheat, macaroni and spaghetti, dry pasta, uncooked","硬粒小麥(通粉及意粉,乾意大利麵,未經烹煮)",batch-013
 "Durum wheat, macaroni and spaghetti, fresh pasta, uncooked","硬粒小麥(通粉及意粉,新鮮意大利麵,未經烹煮)",batch-013
@@ -5181,6 +5220,7 @@ Eggnog,蛋酒,batch-026
 "Eggs, turkey, whole, raw","火雞蛋(全蛋,生)",batch-007
 "Einkorn, grain, dry, raw","單粒小麥穀粒(乾,生)",batch-019
 "Elderberries, whole fruit",接骨木莓(全果),batch-008
+"Elderberry, raw",接骨木莓(生),batch-029
 "Elk, free range, ground, cooked patties (Shoshone Bannock)","放養麋鹿肉餅(碎肉,熟,肖松尼-班諾克族)",batch-019
 "Elk, free range, ground, raw (Shoshone Bannock)","駝鹿免治肉(放養,生,Shoshone Bannock)",pilot
 "Elk, free range, roast, eye of round, cooked (Shoshone Bannock)","放養麋鹿牛腱芯烤肉塊(熟,肖松尼-班諾克族)",batch-019
@@ -5385,6 +5425,11 @@ Fenugreek seeds,葫蘆巴籽,batch-008
 "Field horsetail, fertile shoot, boiled","問荊(生殖莖,煮)",batch-018
 "Field horsetail, fertile shoot, raw","問荊(生殖莖,生)",batch-018
 Fig Rolls,無花果卷餅,batch-006
+"Fig, canned, extra heavy syrup pack, solids and liquid","無花果(罐頭,特濃糖漿裝,固體連汁)",batch-029
+"Fig, canned, heavy syrup pack, solids and liquid","無花果(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Fig, canned, light syrup pack, solids and liquid","無花果(罐頭,淡糖漿裝,固體連汁)",batch-029
+"Fig, canned, water pack, solids and liquid","無花果(罐頭,水浸裝,固體連汁)",batch-029
+"Fig, dried, cooked",無花果乾(熟),batch-029
 "Fig, dried, uncooked",無花果乾(未煮),batch-019
 "Fig, fresh, unpeeled, raw","無花果(新鮮,連皮,生)",batch-001
 "Fig, raw",無花果(生),batch-015
@@ -6105,8 +6150,15 @@ Frankfurter with bun,法蘭克福腸熱狗包,batch-009
 "Frozen entree, turkey with potato and gravy, heated","急凍餐(火雞肉配薯仔及肉汁,已加熱)",batch-005
 "Frozen entree, turkey with potato, vegetables and gravy, heated","急凍餐(火雞肉配薯仔,蔬菜及肉汁,已加熱)",batch-005
 "Frozen yogurts, vanilla, soft-serve",雲呢拿冷凍乳酪(軟雪糕式),pilot
+"Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, extra heavy syrup, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,特濃糖漿,固體連汁)",batch-029
+"Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, extra light syrup pack, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,特淡糖漿裝,固體連汁)",batch-029
+"Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, heavy syrup pack, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, juice pack, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,果汁浸裝,固體連汁)",batch-029
+"Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, light syrup pack, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,淡糖漿裝,固體連汁)",batch-029
+"Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, water pack, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,水浸裝,固體連汁)",batch-029
 "Fruit cocktail, canned in juice, whole contents","雜果杯(罐頭,果汁,連汁)",batch-008
 "Fruit cocktail, canned in syrup, whole contents","雜果杯(罐頭,糖漿,連汁)",batch-008
+"Fruit cocktail, canned, heavy syrup, drained","雜果(罐頭,濃糖漿,瀝乾)",batch-029
 "Fruit drink, apple juice",果汁飲品(蘋果汁),batch-002
 "Fruit drink, blackcurrant, commercial","果汁飲品(黑加侖子,市售)",batch-002
 "Fruit drink, cranberry",果汁飲品(蔓越莓),batch-002
@@ -6121,10 +6173,23 @@ Fruit gums/jellies,水果軟糖,batch-011
 "Fruit juice drink/squash, no sugar added, undiluted","果汁飲品(無添加糖,未稀釋)",batch-006
 "Fruit juice drink/squash, ready to drink",果汁飲品(即飲),batch-006
 "Fruit juice drink/squash, undiluted",果汁飲品(未稀釋),batch-006
+"Fruit juice smoothie, BOLTHOUSE FARMS, BERRY BOOST","果汁冰沙(BOLTHOUSE FARMS,莓果能量)",batch-029
+"Fruit juice smoothie, BOLTHOUSE FARMS, GREEN GOODNESS","果汁冰沙(BOLTHOUSE FARMS,綠色美味)",batch-029
+"Fruit juice smoothie, NAKED JUICE, BLUE MACHINE","果汁冰沙(NAKED JUICE,藍色機器)",batch-029
+"Fruit juice smoothie, NAKED JUICE, GREEN MACHINE","果汁冰沙(NAKED JUICE,綠色機器)",batch-029
+"Fruit juice smoothie, NAKED JUICE, MIGHTY MANGO","果汁冰沙(NAKED JUICE,強力芒果)",batch-029
+"Fruit juice smoothie, NAKED JUICE, strawberry banana","果汁冰沙(NAKED JUICE,士多啤梨香蕉)",batch-029
+"Fruit juice smoothie, ODWALLA, ORIGINAL SUPERFOOD","果汁冰沙(ODWALLA,原味超級食物)",batch-029
+"Fruit juice smoothie, ODWALLA, strawberry banana","果汁冰沙(ODWALLA,士多啤梨香蕉)",batch-029
 "Fruit juice, mixed",雜果汁,batch-006
 Fruit pastilles,水果軟糖片,batch-011
+"Fruit salad (peach, pear, apricot, pineapple, cherry), canned, extra heavy syrup pack, solids and liquid","水果沙律(桃,梨,杏,菠蘿,車厘子)(罐頭,特濃糖漿裝,固體連汁)",batch-029
 "Fruit salad (peach, pear, apricot, pineapple, cherry), canned, heavy syrup pack, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,罐頭,濃糖漿裝,連糖漿)",batch-004
+"Fruit salad (peach, pear, apricot, pineapple, cherry), canned, juice pack, solids and liquid","水果沙律(桃,梨,杏,菠蘿,車厘子)(罐頭,果汁浸裝,固體連汁)",batch-029
+"Fruit salad (peach, pear, apricot, pineapple, cherry), canned, light syrup pack, solids and liquid","水果沙律(桃,梨,杏,菠蘿,車厘子)(罐頭,淡糖漿裝,固體連汁)",batch-029
+"Fruit salad (peach, pear, apricot, pineapple, cherry), canned, water pack, solids and liquid","水果沙律(桃,梨,杏,菠蘿,車厘子)(罐頭,水浸裝,固體連汁)",batch-029
 "Fruit salad, homemade",水果沙律(自家製),batch-008
+"Fruit salad, tropical (pineapple, red and yellow papaya), canned, heavy syrup pack, solids and liquid","熱帶水果沙律(菠蘿,紅肉及黃肉木瓜)(罐頭,濃糖漿裝,固體連汁)",batch-029
 "Fruit salad, tropical (pineapple, red and yellow papaya), canned, juice pack, solids and liquid","熱帶雜果(菠蘿,紅木瓜及黃木瓜,罐頭,果汁裝,連汁)",batch-004
 "Frybread, made with lard","油炸麵包(Frybread,用豬油製)",batch-020
 "Frybread, made with lard (Navajo)","油炸麵包(Frybread,用豬油製,納瓦霍族)",batch-020
@@ -6221,8 +6286,67 @@ Gajjeralla,Gajjeralla(印度胡蘿蔔甜品),batch-006
 "Game meat, Indigenous, walrus, meat, raw","海象肉(原住民食物,生)",batch-005
 "Game meat, Indigenous, walrus, skin (muktuk), aged","海象皮(Muktuk,原住民食物,熟成)",batch-005
 "Game meat, Indigenous, walrus, skin (muktuk), raw","海象皮(Muktuk,原住民食物,生)",batch-005
+"Game meat, antelope, raw","野味肉(羚羊,生)",batch-029
+"Game meat, antelope, roasted","野味肉(羚羊,烤)",batch-029
+"Game meat, bear, cooked, simmered","野味肉(熊,熟,燉煮)",batch-029
+"Game meat, bear, raw","野味肉(熊,生)",batch-029
+"Game meat, beaver, cooked, roasted","野味肉(河狸,熟,烤)",batch-029
+"Game meat, beaver, raw","野味肉(河狸,生)",batch-029
+"Game meat, beefalo, composite cuts, raw","野味肉(比法羅牛,綜合部位,生)",batch-029
+"Game meat, beefalo, composite cuts, roasted","野味肉(比法羅牛,綜合部位,烤)",batch-029
+"Game meat, bison, chuck, shoulder clod roast, lean, raw","野味肉(野牛,肩肉,肩胛烤肉塊,瘦肉,生)",batch-029
+"Game meat, bison, chuck, shoulder clod, roast, lean, braised","野味肉(野牛,肩肉,肩胛烤肉塊,瘦肉,炆)",batch-029
+"Game meat, bison, ground, cooked, pan-broiled","野味肉(野牛,免治,熟,平底鍋煎)",batch-029
+"Game meat, bison, ground, raw","野味肉(野牛,免治,生)",batch-029
+"Game meat, bison, raw","野味肉(野牛,生)",batch-029
+"Game meat, bison, rib eye, lean, raw","野味肉(野牛,肉眼,瘦肉,生)",batch-029
+"Game meat, bison, rib eye, lean, steak, cooked, broiled","野味肉(野牛,肉眼扒,瘦肉,熟,燒烤)",batch-029
+"Game meat, bison, roasted","野味肉(野牛,烤)",batch-029
+"Game meat, bison, shoulder, separable lean only, raw","野味肉(野牛,肩肉,只計瘦肉,生)",batch-029
+"Game meat, bison, top round, lean, steak, cooked, broiled","野味肉(野牛,上腿肉扒,瘦肉,熟,燒烤)",batch-029
+"Game meat, bison, top round, lean, steak, raw","野味肉(野牛,上腿肉扒,瘦肉,生)",batch-029
+"Game meat, bison, top sirloin, separable lean only, raw","野味肉(野牛,上後腰脊肉,只計瘦肉,生)",batch-029
+"Game meat, bison, top sirloin, separable lean only, steak, cooked, broiled","野味肉(野牛,上後腰脊肉扒,只計瘦肉,熟,燒烤)",batch-029
+"Game meat, boar, wild, raw","野味肉(野豬,生)",batch-029
+"Game meat, boar, wild, roasted","野味肉(野豬,烤)",batch-029
+"Game meat, caribou, cooked, roasted","野味肉(北美馴鹿,熟,烤)",batch-029
+"Game meat, caribou, raw","野味肉(北美馴鹿,生)",batch-029
+"Game meat, deer (venison), shoulder clod roast, lean, braised","野味肉(鹿(鹿肉),肩胛烤肉塊,瘦肉,炆)",batch-029
+"Game meat, deer (venison), tenderloin, roast, lean, broiled","野味肉(鹿(鹿肉),里脊,烤肉塊,瘦肉,燒烤)",batch-029
+"Game meat, deer, cooked, roasted","野味肉(鹿,熟,烤)",batch-029
+"Game meat, deer, ground, cooked, pan-broiled","野味肉(鹿,免治,熟,平底鍋煎)",batch-029
+"Game meat, deer, ground, raw","野味肉(鹿,免治,生)",batch-029
+"Game meat, deer, loin, separable lean only, 1"" steak, cooked, broiled","野味肉(鹿,腰脊肉,只計瘦肉,1吋厚肉扒,熟,燒烤)",batch-029
+"Game meat, deer, raw","野味肉(鹿,生)",batch-029
+"Game meat, deer, top round, separable lean only, 1"" steak, cooked, broiled","野味肉(鹿,上腿肉,只計瘦肉,1吋厚肉扒,熟,燒烤)",batch-029
+"Game meat, elk, ground, cooked, pan-broiled","野味肉(麋鹿,免治,熟,平底鍋煎)",batch-029
+"Game meat, elk, ground, raw","野味肉(麋鹿,免治,生)",batch-029
+"Game meat, elk, loin, separable lean only, cooked, broiled","野味肉(麋鹿,腰脊肉,只計瘦肉,熟,燒烤)",batch-029
+"Game meat, elk, raw","野味肉(麋鹿,生)",batch-029
+"Game meat, elk, roasted","野味肉(麋鹿,烤)",batch-029
+"Game meat, elk, round, separable lean only, cooked, broiled","野味肉(麋鹿,腿肉,只計瘦肉,熟,燒烤)",batch-029
+"Game meat, elk, tenderloin, separable lean only, cooked, broiled","野味肉(麋鹿,里脊,只計瘦肉,熟,燒烤)",batch-029
 "Game meat, frog legs, breaded and fried","田雞腿(粉衣,炸)",batch-005
+"Game meat, goat, raw","野味肉(山羊,生)",batch-029
+"Game meat, goat, roasted","野味肉(山羊,烤)",batch-029
+"Game meat, horse, raw","野味肉(馬,生)",batch-029
+"Game meat, horse, roasted","野味肉(馬,烤)",batch-029
+"Game meat, moose, cooked, roasted","野味肉(駝鹿,熟,烤)",batch-029
+"Game meat, moose, raw","野味肉(駝鹿,生)",batch-029
+"Game meat, muskrat, raw","野味肉(麝鼠,生)",batch-029
+"Game meat, muskrat, roasted","野味肉(麝鼠,烤)",batch-029
+"Game meat, opossum, roasted","野味肉(負鼠,烤)",batch-029
+"Game meat, rabbit, domestic, composite cuts, roasted","野味肉(家兔,綜合部位,烤)",batch-029
+"Game meat, rabbit, domestic, composite cuts, stewed","野味肉(家兔,綜合部位,炆)",batch-029
+"Game meat, rabbit, domesticated, composite cuts, raw","野味肉(馴養兔,綜合部位,生)",batch-029
+"Game meat, rabbit, wild, cooked, stewed","野味肉(野兔,熟,炆)",batch-029
+"Game meat, rabbit, wild, raw","野味肉(野兔,生)",batch-029
+"Game meat, raccoon, roasted","野味肉(浣熊,烤)",batch-029
 "Game meat, seal, harp, raw",豎琴海豹肉(生),batch-005
+"Game meat, squirrel, raw","野味肉(松鼠,生)",batch-029
+"Game meat, squirrel, roasted","野味肉(松鼠,烤)",batch-029
+"Game meat, water buffalo, raw","野味肉(水牛,生)",batch-029
+"Game meat, water buffalo, roasted","野味肉(水牛,烤)",batch-029
 "Game meat, whale, raw",鯨魚肉(生),batch-005
 Garam masala,印度綜合香料粉,batch-008
 "Garden rhubarb, petiole, boiled","大黃(葉柄,煮)",batch-018
@@ -6278,6 +6402,7 @@ Ghee made from vegetable oil,植物油製酥油,batch-010
 "Goat, meat, all cuts, untrimmed, casseroled, no added fat","山羊肉(所有部位,未經削切,燉,無添加脂肪)",batch-002
 "Goat, meat, all cuts, untrimmed, raw","山羊肉(所有部位,未經削切,生)",batch-002
 "Goat, meat, lean, raw","山羊肉(瘦肉,生)",batch-016
+"Goji berries, dried",枸杞子(乾),batch-029
 "Goji berry, dried",枸杞子(乾),batch-001
 "Goose, foie gras, boiled",鵝肝(煮),batch-016
 "Goose, meat, raw, fat and skin","鵝肉(生,連脂肪及皮)",batch-009
@@ -6305,6 +6430,7 @@ Ghee made from vegetable oil,植物油製酥油,batch-010
 "Gooseberries, cooking, stewed without sugar",烹調用鵝莓(無糖炆),batch-008
 "Gooseberries, dessert, raw",甜品用鵝莓(生),batch-008
 Gooseberry raw,醋栗(生),batch-015
+"Gooseberry, canned, light syrup pack, solids and liquid","醋栗(罐頭,淡糖漿裝,固體連汁)",batch-029
 "Goulash, homemade",匈牙利燉牛肉(自家製),batch-009
 "Gourd, ""Kanpyo"" (dried gourd strips), boiled","干瓢(葫蘆乾條,煮)",batch-018
 "Gourd, ""Kanpyo"" (dried gourd strips), raw","干瓢(葫蘆乾條,生)",batch-018
@@ -6360,6 +6486,9 @@ Gooseberry raw,醋栗(生),batch-015
 "Granola bar, chewy, sweet and salty","格蘭諾拉棒(煙韌,甜鹹味)",batch-003
 "Granola bar, crunchy, fruit and/or nut","格蘭諾拉棒(脆身,水果或果仁)",batch-003
 "Granola bar, crunchy, plain","格蘭諾拉棒(脆身,原味)",batch-003
+"Grape juice, canned or bottled, unsweetened, with added ascorbic acid and calcium","葡萄汁(罐裝或瓶裝,無糖,添加抗壞血酸及鈣)",batch-029
+"Grape juice, canned or bottled, unsweetened, with added vitamin C","葡萄汁(罐裝或瓶裝,無糖,添加維他命C)",batch-029
+"Grape juice, canned or bottled, without added vitamin C","葡萄汁(罐裝或瓶裝,無添加維他命C)",batch-029
 "Grape juice, frozen concentrate, sugar and vitamin C added, diluted","提子汁(冷凍濃縮,加糖及維他命C,已稀釋)",batch-004
 "Grape juice, frozen concentrate, sugar and vitamin C added, undiluted","提子汁(冷凍濃縮,加糖及維他命C,未稀釋)",batch-004
 "Grape juice, purple, with added vitamin C, from concentrate, shelf stable","葡萄汁(紫色,添加維他命C,濃縮還原,常溫保存)",batch-019
@@ -6367,16 +6496,35 @@ Gooseberry raw,醋栗(生),batch-015
 "Grape juice, white, with added vitamin C, from concentrate, shelf stable","葡萄汁(白色,添加維他命C,濃縮還原,常溫保存)",batch-019
 "Grape, black muscatel (muscat), raw",黑麝香葡萄(生),batch-001
 "Grape, cornichon, raw",Cornichon葡萄(生),batch-001
+"Grape, thompson seedless, canned, heavy syrup pack, solids and liquid","湯普森無籽提子(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Grape, thompson seedless, canned, water pack, solids and liquid","湯普森無籽提子(罐頭,水浸裝,固體連汁)",batch-029
 "Grape, waltham cross, raw",Waltham Cross葡萄(生),batch-001
 "Grapefruit juice, canned, no added sugar","西柚汁(罐頭,無添加糖)",batch-019
+"Grapefruit juice, canned, sweetened","西柚汁(罐頭,加糖)",batch-029
+"Grapefruit juice, frozen concentrate, diluted","西柚汁(冷凍濃縮,已稀釋)",batch-029
+"Grapefruit juice, frozen concentrate, undiluted","西柚汁(冷凍濃縮,未稀釋)",batch-029
+"Grapefruit juice, pink or red, with added calcium",粉紅或紅西柚汁(添加鈣),batch-029
+"Grapefruit juice, pink, raw",粉紅西柚汁(生),batch-029
 "Grapefruit juice, red, not fortified, not from concentrate, refrigerated","紅西柚汁(沒有強化,非濃縮還原,冷藏)",batch-019
 "Grapefruit juice, unsweetened",西柚汁(無糖),batch-006
+"Grapefruit juice, white, bottled, unsweetened, OCEAN SPRAY","白西柚汁(瓶裝,無糖,OCEAN SPRAY)",batch-029
+"Grapefruit juice, white, raw",白西柚汁(生),batch-029
 "Grapefruit, 20 % fruit juice beverage",西柚(含20%果汁飲品),batch-015
 "Grapefruit, 50 % fruit juice beverage",西柚(含50%果汁飲品),batch-015
 "Grapefruit, canned in juice, whole contents","西柚(罐頭,果汁,連汁)",batch-008
 "Grapefruit, canned in light syrup",西柚(淡糖漿罐頭),batch-015
+"Grapefruit, canned, juice pack, solids and liquid","西柚(罐頭,果汁浸裝,固體連汁)",batch-029
+"Grapefruit, canned, light syrup pack, solids and liquid","西柚(罐頭,淡糖漿裝,固體連汁)",batch-029
+"Grapefruit, canned, water pack, solids and liquid","西柚(罐頭,水浸裝,固體連汁)",batch-029
 "Grapefruit, flesh only, raw, weighed with peel and pips","西柚(只計果肉,生,連皮連籽稱重)",batch-008
 "Grapefruit, pink flesh, peeled, raw","西柚(粉紅肉,去皮,生)",batch-001
+"Grapefruit, pink or red, all areas, raw","粉紅或紅西柚(各產區,生)",batch-029
+"Grapefruit, pink or red, california or arizona, raw","粉紅或紅西柚(加州或亞利桑那州,生)",batch-029
+"Grapefruit, pink or red, florida, raw","粉紅或紅西柚(佛羅里達州,生)",batch-029
+"Grapefruit, pink, red or white, all areas, raw","粉紅,紅或白西柚(各產區,生)",batch-029
+"Grapefruit, raw, white, California","白西柚(生,加州)",batch-029
+"Grapefruit, raw, white, Florida","白西柚(生,佛羅里達州)",batch-029
+"Grapefruit, raw, white, all areas","白西柚(生,各產區)",batch-029
 "Grapefruit, reconstituted fruit juice",西柚(還原果汁),batch-015
 "Grapefruit, red flesh type, juice sacs, raw","西柚(紅肉種,果肉,生)",batch-015
 "Grapefruit, straight fruit juice",西柚(純果汁),batch-015
@@ -6384,14 +6532,17 @@ Gooseberry raw,醋栗(生),batch-015
 "Grapefruit, yellow flesh, peeled, raw","西柚(黃肉,去皮,生)",batch-001
 "Grapes, 10 % fruit juice beverage",提子(含10%果汁飲品),batch-015
 "Grapes, 70 % fruit juice beverage",提子(含70%果汁飲品),batch-015
+"Grapes, american type (slip skin), raw","美洲種葡萄(易剝皮,生)",batch-029
 "Grapes, average, weighed with pips","提子(平均,連籽稱重)",batch-008
 "Grapes, canned in heavy syrup",提子(濃糖漿罐頭),batch-015
 "Grapes, green",青提子,batch-008
 "Grapes, green, seedless, raw","青提子(無籽,生)",batch-019
+"Grapes, muscadine, raw",麝香葡萄(生),batch-029
 "Grapes, raisins",提子乾,batch-015
 "Grapes, raw",提子(生),batch-015
 "Grapes, reconstituted fruit juice",提子(還原果汁),batch-015
 "Grapes, red",紅提子,batch-008
+"Grapes, red or green (European type, such as Thompson seedless), raw","紅或青提子(歐洲種,例如湯普森無籽,生)",batch-029
 "Grapes, red, seedless, raw","紅提子(無籽,生)",batch-019
 "Grapes, straight fruit juice",提子(純果汁),batch-015
 "Gratin, prawn, frozen","焗蝦(白汁焗,冷凍)",batch-017
@@ -6422,13 +6573,20 @@ Gravy instant granules,即食肉汁顆粒,batch-011
 "Greengages, stewed without sugar, weighed with stones","青梅(無糖炆,連核稱重)",batch-008
 "Greengages, stones, removed, stewed without sugar","青梅(去核,無糖炆)",batch-008
 "Grenadillas, flesh and seeds",紫色百香果(連肉連籽),batch-008
+"Groundcherry, raw",燈籠果(生),batch-029
 "Grouse, meat only, roasted","松雞(只計肉,烤)",batch-009
 "Grouse, meat only, roasted, weighed with bone","松雞(只計肉,烤,連骨稱重)",batch-009
 "Guacamole, homemade",牛油果醬(自家製),batch-011
+"Guanabana nectar, canned",刺果番荔枝汁(罐頭),batch-029
+"Guava nectar, with sucralose, canned","番石榴汁(含三氯蔗糖,罐頭)",batch-029
+"Guava sauce, cooked",番石榴醬(熟),batch-029
+"Guava, common, raw","番石榴(普通,生)",batch-029
 "Guava, fruit juice, 20 % fruit juice beverage (nectar)","番石榴(含20%果汁飲品,果汁)",batch-015
 "Guava, fruit juices, 10 % fruit juice beverage","番石榴(含10%果汁飲品,果汁)",batch-015
+"Guava, nectar, canned",番石榴汁(罐頭),batch-029
 "Guava, raw, weighed with skin and pips","番石榴(生,連皮連籽稱重)",batch-008
 "Guava, red flesh type, raw","番石榴(紅肉種,生)",batch-015
+"Guava, strawberry, raw",士多啤梨番石榴(生),batch-029
 "Guava, white flesh type, raw","番石榴(白肉種,生)",batch-015
 "Guinea fowl, meat without skin, raw","珍珠雞肉(去皮,生)",batch-016
 "Gulab jamen/jambu, homemade","印度炸奶球(Gulab jamun,自家製)",batch-006
@@ -6695,6 +6853,7 @@ Ice cream sundae cone,新地雪糕筒,batch-026
 "Instant soup mix, ""Sumashi-jiru"" (Japanese traditional clear-soup)",即沖湯料(日式清湯),batch-017
 "Interstate Brands Corp, Wonder Hamburger Rolls",漢堡包麵包(Interstate Brands Corp Wonder),batch-021
 "Jackfish, raw",鰺魚(生),batch-007
+"Jackfruit, canned, syrup pack","菠蘿蜜(罐頭,糖漿裝)",batch-029
 "Jackfruit, raw",菠蘿蜜(生),batch-012
 Jaffa cakes,Jaffa 橙味夾心蛋糕,batch-007
 "Jam tarts, retail",果醬撻(店售),batch-007
@@ -6765,6 +6924,7 @@ Jaffa cakes,Jaffa 橙味夾心蛋糕,batch-007
 "Japanese water chestnuts, raw",荸薺(生),batch-017
 "Japanese wormwood, leaves, boiled","艾草(葉,煮)",batch-018
 "Japanese wormwood, leaves, raw","艾草(葉,生)",batch-018
+"Java-plum, raw",爪哇蒲桃(生),batch-029
 "Jellabi, homemade",Jellabi 印度炸糖圈(自家製),batch-007
 "Jelly crystals, sugar sweetened, all flavours","啫喱粉(加糖,各種味道)",batch-002
 "Jelly, made with skimmed milk",果凍(以脫脂牛奶製),batch-010
@@ -6791,14 +6951,19 @@ Jaffa cakes,Jaffa 橙味夾心蛋糕,batch-007
 "Juice drink, orange and apricot, canned","果汁飲品(橙杏,罐裝)",batch-025
 "Juice drink, orange, Calorie-reduced","果汁飲品(橙,減少卡路里)",batch-025
 "Juice, Orange-strawberry-banana",橙士多啤梨香蕉汁,pilot
+"Juice, apple and grape, with added vitamin C","果汁(蘋果及葡萄,添加維他命C)",batch-029
 "Juice, apple, commercial, added vitamin C","蘋果汁(市售,添加維他命C)",batch-002
+"Juice, apple, grape and pear blend, with added ascorbic acid and calcium","果汁(蘋果,葡萄及梨混合,添加抗壞血酸及鈣)",batch-029
+"Juice, pomegranate",石榴汁,batch-029
 "Juice, pomegranate, from concentrate, shelf-stable","石榴汁(濃縮還原,常溫保存)",batch-019
 "Juice, prune, shelf-stable",西梅汁(常溫保存),batch-019
 "Juice, tart cherry, from concentrate, shelf-stable","酸櫻桃汁(濃縮還原,常溫保存)",batch-019
 "Juice, tomato clam cocktail, canned",番茄蜆汁雞尾飲品(罐裝),batch-025
 "Juice, vegetable blend, commercial",蔬菜混合汁(市售),batch-002
+"Jujube (chinese date), dried",棗乾(紅棗),batch-029
 "Jujube, dried",紅棗(乾),batch-015
 "Jujube, flesh only",棗子(只計果肉),batch-008
+"Jujube, raw",棗(生),batch-029
 "KFC, Coleslaw",肯德基 椰菜沙律,batch-027
 "KFC, Crispy Chicken Strips",肯德基 脆雞條,batch-027
 "KFC, Fried Chicken, EXTRA CRISPY, Breast, meat and skin with breading","肯德基 炸雞(特脆,雞胸,連皮連炸粉)",batch-027
@@ -6880,6 +7045,7 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Kiwano, raw",刺角瓜(生),batch-015
 "Kiwi fruit, flesh only, raw","奇異果(只計果肉,生)",batch-008
 "Kiwi fruit, flesh only, raw, weighed with skin","奇異果(只計果肉,生,連皮稱重)",batch-008
+"Kiwi fruit, golden, raw",金奇異果(生),batch-029
 "Kiwi fruit, raw",奇異果(生),batch-015
 "Kiwifruit (kiwi), green, peeled, raw","奇異果(綠色,去皮,生)",batch-019
 "Kiwifruit, gold, peeled, raw","奇異果(金色,去皮,生)",batch-001
@@ -6919,7 +7085,88 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lager, standard",普通拉格啤酒,batch-006
 "Lamb stir-fried with vegetables, homemade",蔬菜炒羊肉(自家製),batch-009
 "Lamb's heart casserole, homemade",燉羊心(自家製),batch-009
+"Lamb, Australian, ground, 85% lean / 15% fat, raw","澳洲免治羊肉(85%瘦肉,15%脂肪,生)",batch-029
+"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, cooked","澳洲進口新鮮羊肉(綜合削切零售部位,瘦肉連脂肪,修脂至1/8吋,熟)",batch-029
+"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肉(綜合削切零售部位,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, cooked","澳洲進口新鮮羊肉(綜合削切零售部位,只計瘦肉,修脂至1/8吋,熟)",batch-029
+"Lamb, Australian, imported, fresh, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肉(綜合削切零售部位,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, external fat, cooked","澳洲進口新鮮羊肉(外層脂肪,熟)",batch-029
+"Lamb, Australian, imported, fresh, external fat, raw","澳洲進口新鮮羊肉(外層脂肪,生)",batch-029
+"Lamb, Australian, imported, fresh, foreshank, separable lean and fat, trimmed to 1/8"" fat, cooked, braised","澳洲進口新鮮羊前腿腱(瘦肉連脂肪,修脂至1/8吋,熟,炆)",batch-029
+"Lamb, Australian, imported, fresh, foreshank, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊前腿腱(瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, foreshank, separable lean only, trimmed to 1/8"" fat, cooked, braised","澳洲進口新鮮羊前腿腱(只計瘦肉,修脂至1/8吋,熟,炆)",batch-029
+"Lamb, Australian, imported, fresh, foreshank, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊前腿腱(只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, bottom, boneless, separable lean and fat, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(下部,去骨,瘦肉連脂肪,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, bottom, boneless, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(下部,去骨,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, bottom, boneless, separable lean only, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(下部,去骨,只計瘦肉,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, bottom, boneless, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(下部,去骨,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, center slice, bone-in, separable lean and fat, trimmed to 1/8"" fat, cooked, broiled","澳洲進口新鮮羊腿(中段切片,連骨,瘦肉連脂肪,修脂至1/8吋,熟,燒烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, center slice, bone-in, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(中段切片,連骨,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, center slice, bone-in, separable lean only, trimmed to 1/8"" fat, cooked, broiled","澳洲進口新鮮羊腿(中段切片,連骨,只計瘦肉,修脂至1/8吋,熟,燒烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, center slice, bone-in, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(中段切片,連骨,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, hindshank, heel on, bone-in, separable lean and fat, trimmed to 1/8"" fat, cooked, braised","澳洲進口新鮮羊腿(後腿腱,連腳跟,連骨,瘦肉連脂肪,修脂至1/8吋,熟,炆)",batch-029
+"Lamb, Australian, imported, fresh, leg, hindshank, heel on, bone-in, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(後腿腱,連腳跟,連骨,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, hindshank, heel on, bone-in, separable lean only, trimmed to 1/8"" fat, cooked, braised","澳洲進口新鮮羊腿(後腿腱,連腳跟,連骨,只計瘦肉,修脂至1/8吋,熟,炆)",batch-029
+"Lamb, Australian, imported, fresh, leg, hindshank, heel on, bone-in, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(後腿腱,連腳跟,連骨,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, shank half, separable lean and fat, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(腱端半邊,瘦肉連脂肪,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, shank half, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(腱端半邊,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, shank half, separable lean only, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(腱端半邊,只計瘦肉,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, shank half, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(腱端半邊,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, sirloin chops, boneless, separable lean and fat, trimmed to 1/8"" fat, cooked, broiled","澳洲進口新鮮羊腿(後腰脊肉扒,去骨,瘦肉連脂肪,修脂至1/8吋,熟,燒烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, sirloin chops, boneless, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(後腰脊肉扒,去骨,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, sirloin chops, boneless, separable lean only, trimmed to 1/8"" fat, cooked, broiled","澳洲進口新鮮羊腿(後腰脊肉扒,去骨,只計瘦肉,修脂至1/8吋,熟,燒烤)",batch-029
 "Lamb, Australian, imported, fresh, leg, sirloin chops, boneless, separable lean only, trimmed to 1/8"" fat, raw","澳洲羊仔腿扒(進口,新鮮,去骨,只計瘦肉,修脂至1/8吋,生)",pilot
+"Lamb, Australian, imported, fresh, leg, sirloin half, boneless, separable lean and fat, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(後腰脊端半邊,去骨,瘦肉連脂肪,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, sirloin half, boneless, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(後腰脊端半邊,去骨,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, sirloin half, boneless, separable lean only, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(後腰脊端半邊,去骨,只計瘦肉,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, sirloin half, boneless, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(後腰脊端半邊,去骨,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, trotter off, bone-in, separable lean and fat, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(去蹄,連骨,瘦肉連脂肪,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, trotter off, bone-in, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(去蹄,連骨,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, trotter off, bone-in, separable lean only, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(去蹄,連骨,只計瘦肉,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, trotter off, bone-in, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(去蹄,連骨,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, whole (shank and sirloin), separable lean and fat, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(整隻(腱端及後腰脊端),瘦肉連脂肪,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, whole (shank and sirloin), separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(整隻(腱端及後腰脊端),瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, leg, whole (shank and sirloin), separable lean only, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊腿(整隻(腱端及後腰脊端),只計瘦肉,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, leg, whole (shank and sirloin), separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腿(整隻(腱端及後腰脊端),只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, loin, separable lean and fat, trimmed to 1/8"" fat, cooked, broiled","澳洲進口新鮮羊腰肉(瘦肉連脂肪,修脂至1/8吋,熟,燒烤)",batch-029
+"Lamb, Australian, imported, fresh, loin, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腰肉(瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, loin, separable lean only, trimmed to 1/8"" fat, cooked, broiled","澳洲進口新鮮羊腰肉(只計瘦肉,修脂至1/8吋,熟,燒烤)",batch-029
+"Lamb, Australian, imported, fresh, loin, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊腰肉(只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, rack, roast, frenched, bone-in, separable lean and fat, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊排架烤肉塊(法式切法,連骨,瘦肉連脂肪,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, rack, roast, frenched, bone-in, separable lean only, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊排架烤肉塊(法式切法,連骨,只計瘦肉,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, rack, roast, frenched, denuded, bone-in, separable lean and fat, trimmed to 0"" fat, cooked, roasted","澳洲進口新鮮羊排架烤肉塊(法式切法,去筋膜,連骨,瘦肉連脂肪,修脂至0吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, rack, roast, frenched, denuded, bone-in, separable lean only, trimmed to 0"" fat, cooked, roasted","澳洲進口新鮮羊排架烤肉塊(法式切法,去筋膜,連骨,只計瘦肉,修脂至0吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, rib chop, frenched, bone-in, separable lean and fat, trimmed to 1/8"" fat, cooked, grilled","澳洲進口新鮮羊肋排(法式切法,連骨,瘦肉連脂肪,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, rib chop, frenched, bone-in, separable lean only, trimmed to 1/8"" fat, cooked, grilled","澳洲進口新鮮羊肋排(法式切法,連骨,只計瘦肉,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, rib chop, frenched, denuded, bone-in, separable lean and fat, trimmed to 0"" fat, cooked, grilled","澳洲進口新鮮羊肋排(法式切法,去筋膜,連骨,瘦肉連脂肪,修脂至0吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, rib chop, frenched, denuded, bone-in, separable lean only, trimmed to 0"" fat, cooked, grilled","澳洲進口新鮮羊肋排(法式切法,去筋膜,連骨,只計瘦肉,修脂至0吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, rib chop/rack roast, frenched, bone-in, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肋排或排架烤肉塊(法式切法,連骨,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, rib chop/rack roast, frenched, bone-in, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肋排或排架烤肉塊(法式切法,連骨,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, seam fat, cooked","澳洲進口新鮮羊肉(肌間脂肪,熟)",batch-029
+"Lamb, Australian, imported, fresh, seam fat, raw","澳洲進口新鮮羊肉(肌間脂肪,生)",batch-029
+"Lamb, Australian, imported, fresh, separable fat, cooked","澳洲進口新鮮羊肉(可分離脂肪,熟)",batch-029
+"Lamb, Australian, imported, fresh, separable fat, raw","澳洲進口新鮮羊肉(可分離脂肪,生)",batch-029
+"Lamb, Australian, imported, fresh, shoulder ,blade, separable lean only, trimmed to 1/8"" fat, cooked, broiled","澳洲進口新鮮羊肩(肩胛,只計瘦肉,修脂至1/8吋,熟,燒烤)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, arm, separable lean and fat, trimmed to 1/8"" fat, cooked, braised","澳洲進口新鮮羊肩(上臂,瘦肉連脂肪,修脂至1/8吋,熟,炆)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, arm, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肩(上臂,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, arm, separable lean only, trimmed to 1/8"" fat, cooked, braised","澳洲進口新鮮羊肩(上臂,只計瘦肉,修脂至1/8吋,熟,炆)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, arm, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肩(上臂,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, blade, separable lean and fat, trimmed to 1/8"" fat, cooked, broiled","澳洲進口新鮮羊肩(肩胛,瘦肉連脂肪,修脂至1/8吋,熟,燒烤)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, blade, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肩(肩胛,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, blade, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肩(肩胛,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8"" fat, cooked","澳洲進口新鮮羊肩(整隻(上臂及肩胛),瘦肉連脂肪,修脂至1/8吋,熟)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肩(整隻(上臂及肩胛),瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, whole (arm and blade), separable lean only, trimmed to 1/8"" fat, cooked","澳洲進口新鮮羊肩(整隻(上臂及肩胛),只計瘦肉,修脂至1/8吋,熟)",batch-029
+"Lamb, Australian, imported, fresh, shoulder, whole (arm and blade), separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊肩(整隻(上臂及肩胛),只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, tenderloin, boneless, separable lean and fat, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊柳(去骨,瘦肉連脂肪,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, tenderloin, boneless, separable lean and fat, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊柳(去骨,瘦肉連脂肪,修脂至1/8吋,生)",batch-029
+"Lamb, Australian, imported, fresh, tenderloin, boneless, separable lean only, trimmed to 1/8"" fat, cooked, roasted","澳洲進口新鮮羊柳(去骨,只計瘦肉,修脂至1/8吋,熟,烤)",batch-029
+"Lamb, Australian, imported, fresh, tenderloin, boneless, separable lean only, trimmed to 1/8"" fat, raw","澳洲進口新鮮羊柳(去骨,只計瘦肉,修脂至1/8吋,生)",batch-029
+"Lamb, Canadian, composite cuts, lean and fat, 3mm (1/8) trim, raw","加拿大羊肉(綜合部位,瘦肉連脂肪,修脂3毫米(1/8吋),生)",batch-029
+"Lamb, Canadian, composite cuts, lean and fat, 3mm (1/8), cooked","加拿大羊肉(綜合部位,瘦肉連脂肪,修脂3毫米(1/8吋),熟)",batch-029
+"Lamb, Canadian, composite cuts, lean, cooked","加拿大羊肉(綜合部位,瘦肉,熟)",batch-029
+"Lamb, Canadian, composite cuts, lean, raw","加拿大羊肉(綜合部位,瘦肉,生)",batch-029
+"Lamb, Canadian, fat, cooked",加拿大羊脂肪(熟),batch-029
 "Lamb, Canadian, fat, raw",加拿大羊仔脂肪(生),pilot
 "Lamb, Canadian, foreshank, lean and fat, 3mm (1/8) trim, cooked","加拿大羊小腿(連肥肉,修脂3毫米,熟)",batch-005
 "Lamb, Canadian, foreshank, lean and fat, 3mm trim (1/8''), raw","加拿大羊小腿(連肥肉,修脂3毫米,生)",batch-005
@@ -6943,6 +7190,16 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, Canadian, shoulder, whole, lean and fat, 3mm (1/8) trim, raw","加拿大羊整塊肩肉(連肥肉,修脂3毫米,生)",batch-005
 "Lamb, Canadian, shoulder, whole, lean, cooked","加拿大羊整塊肩肉(瘦肉,熟)",batch-005
 "Lamb, Canadian, shoulder, whole, lean, raw","加拿大羊整塊肩肉(瘦肉,生)",batch-005
+"Lamb, New Zealand, composite cuts, fat, cooked","新西蘭羊肉(綜合部位,脂肪,熟)",batch-029
+"Lamb, New Zealand, composite cuts, fat, raw","新西蘭羊肉(綜合部位,脂肪,生)",batch-029
+"Lamb, New Zealand, composite cuts, lean and fat, 6mm (1/4) trim, cooked","新西蘭羊肉(綜合部位,瘦肉連脂肪,修脂6毫米(1/4吋),熟)",batch-029
+"Lamb, New Zealand, composite cuts, lean and fat, 6mm (1/4) trim, raw","新西蘭羊肉(綜合部位,瘦肉連脂肪,修脂6毫米(1/4吋),生)",batch-029
+"Lamb, New Zealand, composite cuts, lean, cooked","新西蘭羊肉(綜合部位,瘦肉,熟)",batch-029
+"Lamb, New Zealand, composite cuts, lean, raw","新西蘭羊肉(綜合部位,瘦肉,生)",batch-029
+"Lamb, New Zealand, foreshank, lean and fat, 6mm (1/4) trim, braised","新西蘭羊前腿腱(瘦肉連脂肪,修脂6毫米(1/4吋),炆)",batch-029
+"Lamb, New Zealand, foreshank, lean and fat, 6mm (1/4) trim, raw","新西蘭羊前腿腱(瘦肉連脂肪,修脂6毫米(1/4吋),生)",batch-029
+"Lamb, New Zealand, foreshank, lean, braised","新西蘭羊前腿腱(瘦肉,炆)",batch-029
+"Lamb, New Zealand, foreshank, lean, raw","新西蘭羊前腿腱(瘦肉,生)",batch-029
 "Lamb, New Zealand, imported, rack - fully frenched, separable lean only, raw","紐西蘭羊仔排(進口,全修骨,只計瘦肉,生)",pilot
 "Lamb, New Zealand, leg, whole, chilled, roasted, lean","羊肉(紐西蘭,全腿,冷藏,烤,瘦肉)",batch-009
 "Lamb, New Zealand, leg, whole, chilled, roasted, lean and fat","羊肉(紐西蘭,全腿,冷藏,烤,瘦肉連肥肉)",batch-009
@@ -7126,6 +7383,9 @@ Laverbread,紫菜麵包,batch-012
 "Lemon chicken, homemade",檸檬雞(自家製),batch-009
 Lemon curd,檸檬醬,batch-011
 "Lemon curd, homemade",檸檬醬(自家製),batch-011
+"Lemon juice from concentrate, bottled, CONCORD","檸檬汁(濃縮還原,瓶裝,CONCORD)",batch-029
+"Lemon juice from concentrate, bottled, REAL LEMON","檸檬汁(濃縮還原,瓶裝,REAL LEMON)",batch-029
+"Lemon juice, canned or bottled",檸檬汁(罐裝或瓶裝),batch-029
 "Lemon juice, fresh, weighed as whole fruit","檸檬汁(新鮮,以整個果實稱重)",batch-008
 "Lemon juice, frozen",檸檬汁(冷凍),batch-004
 "Lemon juice, raw",檸檬汁(生),pilot
@@ -7137,6 +7397,7 @@ Lemon peel,檸檬皮,batch-008
 "Lemon sole, flesh only, steamed, weighed with bones and skin","檸檬鰈(只計魚肉,蒸,連骨連皮稱重)",batch-007
 "Lemon sole, goujons, baked",檸檬鰈魚條(焗),batch-007
 "Lemon, preserved",檸檬(醃製),batch-001
+"Lemon, raw, without peel","檸檬(生,去皮)",batch-029
 Lemonade,檸檬汽水,batch-006
 "Lemonade with artificial sweetener, powder","檸檬水(加人造甜味劑,粉末)",batch-003
 "Lemonade with artificial sweetener, powder, water added","檸檬水(加人造甜味劑,粉末,加水)",batch-003
@@ -7194,9 +7455,11 @@ Lemonade,檸檬汽水,batch-006
 "Lima beans, mature seeds, whole, raw","利馬豆(成熟,連皮,生)",batch-017
 "Lime juice cordial, diluted",青檸汁濃縮飲品(已稀釋),batch-006
 "Lime juice cordial, undiluted",青檸汁濃縮飲品(未稀釋),batch-006
+"Lime juice, canned or bottled",青檸汁(罐裝或瓶裝),batch-029
 "Lime juice, fresh",青檸汁(新鮮),batch-008
 "Lime juice, raw",青檸汁(生),batch-015
 "Lime, native, fruit",澳洲原生青檸(果實),batch-001
+"Lime, raw",青檸(生),batch-029
 "Limeade, frozen concentrate",青檸汁飲品(冷凍濃縮),pilot
 "Limeade, frozen concentrate, water added","青檸水(冷凍濃縮,加水)",batch-025
 "Limes, flesh only",青檸(只計果肉),batch-008
@@ -7233,6 +7496,7 @@ Liver sausage,肝腸,batch-009
 "Loganberries, raw",羅甘莓(生),batch-008
 "Loganberries, stewed with sugar",羅甘莓(加糖炆),batch-008
 "Loganberries, stewed without sugar",羅甘莓(無糖炆),batch-008
+"Loganberry, frozen",羅甘莓(冷凍),batch-029
 "Lollies, containing ice-cream",雪條(含雪糕),batch-010
 "Lollies, with real fruit juice",雪條(含真果汁),batch-010
 "Lolly, hard varieties",糖果(硬糖類),batch-001
@@ -7286,21 +7550,26 @@ Lucozade,Lucozade能量飲品,batch-006
 "Malted milk, natural flavour, powder, with whole milk","麥芽奶粉(原味,粉狀,加全脂奶)",batch-025
 Maltesers and similar products,麥提莎及同類產品,batch-011
 "Mammie apple, flesh only",Mammie 蘋果(只計果肉),batch-008
+"Mammy-apple, raw",曼密蘋果(生),batch-029
 "Manchurian wild rice, stem, raw","茭白(莖,生)",batch-018
 "Mandarin oranges, canned in juice, whole contents","柑(罐頭,果汁,連汁)",batch-008
 "Mandarin, peeled, raw","柑(去皮,生)",batch-001
 "Mandarin, seedless, peeled, raw","柑(無籽,去皮,生)",batch-019
+"Mango nectar, canned",芒果汁(罐頭),batch-029
 "Mango, Ataulfo, peeled, raw","芒果(阿陶爾福品種,去皮,生)",batch-019
 "Mango, Tommy Atkins, peeled, raw","芒果(湯米阿金斯品種,去皮,生)",batch-019
+"Mango, dried, sweetened",芒果乾(加糖),batch-029
 "Mango, peeled, frozen","芒果(去皮,冷凍)",batch-001
 "Mango, pulped, canned","芒果(果肉泥,罐頭)",batch-001
 "Mango, raw",芒果(生),batch-015
 "Mango, unripe, green flesh, raw","芒果(未成熟,青肉,生)",batch-012
 "Mangoes, ripe, flesh only, raw","芒果(熟,只計果肉,生)",batch-008
 "Mangoes, ripe, flesh only, raw, weighed with skin and stone","芒果(熟,只計果肉,生,連皮連核稱重)",batch-008
+"Mangosteen, canned, syrup pack","山竹(罐頭,糖漿裝)",batch-029
 "Mangosteen, flesh only",山竹(只計果肉),batch-008
 "Mangosteen, raw",山竹(生),batch-015
 Maple syrup,楓糖漿,batch-018
+"Maraschino cherries, canned, drained","馬拉斯奇諾車厘子(罐頭,瀝乾)",batch-029
 "Margarine Spread, 40-49% fat, tub","人造牛油抹醬(含40至49%脂肪,盒裝)",batch-027
 "Margarine spread, monounsaturated (>65% fat)","人造牛油塗醬(單元不飽和,脂肪多於65%)",batch-001
 "Margarine spread, monounsaturated (>65% fat), reduced salt (sodium 360 mg/100 g)","人造牛油塗醬(單元不飽和,脂肪多於65%,減鹽,鈉360毫克每100克)",batch-001
@@ -7451,6 +7720,7 @@ Meat spread,肉醬,batch-009
 "Meatballs, pork and beef, in tomato sauce, homemade",番茄汁豬牛肉丸(自家製),batch-009
 "Meatballs, sweet and sour",糖醋肉丸,batch-005
 "Medlars, flesh only",歐楂(只計果肉),batch-008
+"Melon balls, frozen",瓜球(冷凍),batch-029
 Melon seeds,瓜子,batch-010
 "Melon, Canteloupe-type, flesh only",哈密瓜類(只計果肉),batch-008
 "Melon, Canteloupe-type, flesh only, weighed whole","哈密瓜類(只計果肉,整個稱重)",batch-008
@@ -7462,11 +7732,13 @@ Melon seeds,瓜子,batch-010
 "Melon, Honeydew, flesh only, weighed with skin","蜜瓜(只計果肉,連皮稱重)",batch-008
 "Melon, banana (Navajo)",香蕉瓜(納瓦霍族),batch-020
 "Melon, cantaloupe, raw","哈密瓜(網紋,生)",batch-019
+"Melon, casaba, raw",卡薩巴甜瓜(生),batch-029
 "Melon, flesh only, average","瓜類(只計果肉,平均)",batch-008
 "Melon, flesh only, average, weighed whole","瓜類(只計果肉,平均,整個稱重)",batch-008
 "Melon, flesh only, average, weighed with skin","瓜類(只計果肉,平均,連皮稱重)",batch-008
 "Melon, honey dew, peeled, raw","蜜瓜(去皮,生)",batch-001
 "Melon, honeydew, raw",蜜瓜(生),batch-019
+"Melon, horned",刺角瓜(生),batch-029
 "Melon, watermelon, flesh only",西瓜(只計果肉),batch-008
 "Melon, watermelon, flesh only, weighed whole","西瓜(只計果肉,整個稱重)",batch-008
 "Melon, yellow flesh, flesh only",黃肉瓜(只計果肉),batch-008
@@ -7891,6 +8163,9 @@ Mustard seeds,芥菜籽,batch-008
 "Nabisco, Nabisco Snackwell's Fat Free Devil's Food Cookie Cakes",無脂魔鬼蛋糕曲奇(Nabisco Snackwell's),batch-021
 "Nalta jute, stems and leaves, boiled","黃麻葉(莖及葉,煮)",batch-018
 "Nalta jute, stems and leaves, raw","黃麻葉(莖及葉,生)",batch-018
+"Nance, canned, syrup, drained","南西果(罐頭,糖漿,瀝乾)",batch-029
+"Nance, frozen, unsweetened","南西果(冷凍,無糖)",batch-029
+"Naranjilla (lulo) pulp, frozen, unsweetened","小橙茄(盧洛果)果肉(冷凍,無糖)",batch-029
 "Nectarine, raw",油桃(生),batch-015
 "Nectarine, white, unpeeled, raw","油桃(白色,連皮,生)",batch-001
 "Nectarine, yellow, unpeeled, raw","油桃(黃色,連皮,生)",batch-001
@@ -7997,6 +8272,7 @@ Mustard seeds,芥菜籽,batch-008
 "Oats, whole grain, steel cut",全穀物燕麥(鋼切),batch-019
 Octopus (Alaska Native),八爪魚(阿拉斯加原住民),batch-020
 "Octopus, boiled, no added fat","八爪魚(烚,無添加脂肪)",batch-001
+"Oheloberry, raw",夏威夷越橘(生),batch-029
 "Oil, apricot kernel",杏仁油,batch-027
 "Oil, avocado",牛油果油,batch-001
 "Oil, babassu",巴巴蘇棕櫚油,batch-027
@@ -8072,12 +8348,15 @@ Octopus (Alaska Native),八爪魚(阿拉斯加原住民),batch-020
 "Okra, pods, raw","秋葵(豆莢,生)",batch-018
 "Okra, stir-fried in corn oil",秋葵(粟米油炒),batch-012
 "Oleasters, raw",胡頹子(生),batch-015
+"Olive, pickled, canned or bottled, green","醃橄欖(罐裝或瓶裝,綠色)",batch-029
 "Olives, green, Manzanilla, stuffed with pimiento","青橄欖(曼薩尼亞品種,釀甜椒)",batch-019
 "Olives, green, in brine, drained, flesh and skin","青橄欖(鹽水浸,已瀝乾,連皮連肉)",batch-008
 "Olives, green, in brine, drained, flesh and skin, weighed with stones","青橄欖(鹽水浸,已瀝乾,連皮連肉,連核稱重)",batch-008
 "Olives, in brine, green","橄欖(鹽水浸,青色)",batch-015
 "Olives, in brine, ripe","橄欖(鹽水浸,熟透)",batch-015
 "Olives, in brine, stuffed olives","橄欖(鹽水浸,釀餡橄欖)",batch-015
+"Olives, ripe, canned (jumbo-super colossal)","熟橄欖(罐頭,特大至超大號)",batch-029
+"Olives, ripe, canned (small-extra large)","熟橄欖(罐頭,小號至特大號)",batch-029
 "Omelette, Spanish, homemade",西班牙蛋餅(自家製),batch-007
 "Omelette, cheese, homemade",芝士奄列(自家製),batch-007
 "Omelette, curried, homemade",咖喱奄列(自家製),batch-007
@@ -8108,15 +8387,31 @@ Octopus (Alaska Native),八爪魚(阿拉斯加原住民),batch-020
 "Onions, white, raw",白洋蔥(生),batch-019
 "Onions, yellow, raw",黃洋蔥(生),batch-019
 "Oopah (tunicate), whole animal (Alaska Native)","被囊動物(Oopah,整隻,阿拉斯加原住民)",batch-020
+"Orange grapefruit juice, canned",橙西柚汁(罐頭),batch-029
 "Orange juice, ambient, UHT","橙汁(常溫,超高溫處理)",batch-008
+"Orange juice, canned",橙汁(罐頭),batch-029
 "Orange juice, chilled",橙汁(冷藏),batch-008
+"Orange juice, chilled, includes from concentrate","橙汁(冷藏,包括濃縮還原)",batch-029
+"Orange juice, chilled, includes from concentrate, with added calcium","橙汁(冷藏,包括濃縮還原,添加鈣)",batch-029
+"Orange juice, chilled, includes from concentrate, with added calcium and vitamin D","橙汁(冷藏,包括濃縮還原,添加鈣及維他命D)",batch-029
+"Orange juice, chilled, includes from concentrate, with added calcium and vitamins A, D, E","橙汁(冷藏,包括濃縮還原,添加鈣及維他命A,D,E)",batch-029
 "Orange juice, freshly squeezed",鮮榨橙汁,batch-008
 "Orange juice, freshly squeezed, weighed as whole fruit",鮮榨橙汁(以整個果實稱重),batch-008
+"Orange juice, frozen concentrate, diluted","橙汁(冷凍濃縮,已稀釋)",batch-029
+"Orange juice, frozen concentrate, diluted, with added calcium and Vitamin D","橙汁(冷凍濃縮,已稀釋,添加鈣及維他命D)",batch-029
+"Orange juice, frozen concentrate, undiluted","橙汁(冷凍濃縮,未稀釋)",batch-029
+"Orange juice, frozen concentrate, unsweetened, undiluted, with added calcium","橙汁(冷凍濃縮,無糖,未稀釋,添加鈣)",batch-029
 "Orange juice, no pulp, not fortified, from concentrate, refrigerated","橙汁(無果肉,沒有強化,濃縮還原,冷藏)",batch-019
 "Orange juice, no pulp, not fortified, not from concentrate, refrigerated","橙汁(無果肉,沒有強化,非濃縮還原,冷藏)",batch-019
+"Orange juice, raw",橙汁(生),batch-029
+"Orange peel, raw",橙皮(生),batch-029
+Orange pineapple juice,橙菠蘿汁,batch-029
 "Orange roughy, raw",橙棘鯛(生),batch-007
 "Orange, california, navel, raw",加州臍橙(生),batch-019
+"Orange, california, valencia, raw","橙(加州,伐倫西亞,生)",batch-029
+"Orange, florida, raw","橙(佛羅里達州,生)",batch-029
 "Orange, navel, peeled, raw","臍橙(去皮,生)",batch-001
+"Orange, with peel, raw","橙(連皮,生)",batch-029
 "Oranges, Fukuhara-orange, juice sacs, raw","福原橙(果肉,生)",batch-015
 "Oranges, Valencia, 30 % fruit juice beverage",巴倫西亞橙(含30%果汁飲品),batch-015
 "Oranges, Valencia, 50 % fruit juice beverage",巴倫西亞橙(含50%果汁飲品),batch-015
@@ -8234,6 +8529,7 @@ Palm kernel oil,棕櫚仁油,batch-014
 "Pangasius, flesh only, poached","巴沙魚(只計魚肉,水煮)",batch-007
 "Pangasius, flesh only, raw","巴沙魚(只計魚肉,生)",batch-007
 "Papadums, takeaway",印度脆餅(外賣),batch-007
+"Papaya nectar, canned",木瓜汁(罐頭),batch-029
 "Papaya, canned, heavy syrup, drained","木瓜(罐頭,濃糖漿,已瀝乾)",pilot
 "Papaya, flesh only, raw, weighed with skin and pips","木瓜(只計果肉,生,連皮連籽稱重)",batch-008
 "Papaya, red, peeled, raw","木瓜(紅肉,去皮,生)",batch-001
@@ -8255,9 +8551,12 @@ Paprika,紅椒粉,batch-008
 "Partridge, meat only, roasted","鷓鴣(只計肉,烤)",batch-009
 "Partridge, meat only, roasted, weighed with bone","鷓鴣(只計肉,烤,連骨稱重)",batch-009
 Passion fruit juice,熱情果汁,batch-008
+"Passion fruit juice, purple, raw","百香果汁(紫色,生)",batch-029
+"Passion fruit juice, yellow, raw","百香果汁(黃色,生)",batch-029
 "Passion fruit, flesh and pips",熱情果(連肉連籽),batch-008
 "Passion fruit, flesh and pips, weighed with skin","熱情果(連肉連籽,連皮稱重)",batch-008
 "Passion fruit, juice, fresh",熱情果(鮮榨汁),batch-015
+"Passion fruit, purple, raw","百香果(紫色,生)",batch-029
 "Passionfruit, pulp, frozen","熱情果(果肉,冷凍)",batch-001
 "Pasta and sauce mixes, dried, raw","意粉及醬料預拌粉(乾,生)",batch-007
 "Pasta dish, homemade, cooked unfilled pasta, homemade beef bolognese sauce & added vegetables","意粉料理(家庭自製,已煮無餡意粉,家庭自製牛肉肉醬及加入蔬菜)",batch-001
@@ -8356,7 +8655,13 @@ Pastry cream,法式甜品忌廉(卡士達醬),batch-014
 "Pea, green, whole, dried","青豌豆(整粒,乾)",batch-002
 "Pea, yellow, whole, dried","黃豌豆(整粒,乾)",batch-002
 "Peach melba, homemade",蜜桃梅爾芭(自家製),batch-010
+"Peach nectar, canned",桃汁(罐頭),batch-029
+"Peach nectar, canned, with added ascorbic acid","桃汁(罐頭,添加抗壞血酸)",batch-029
+"Peach, canned halves or slices, extra light syrup pack, solids and liquid","桃(罐頭,半邊或切片,特淡糖漿裝,固體連汁)",batch-029
+"Peach, canned, heavy syrup, drained","桃(罐頭,濃糖漿,瀝乾)",batch-029
+"Peach, dehydrated (low moisture), sulphured, cooked","桃(脫水(低水分),經二氧化硫處理,熟)",batch-029
 "Peach, dehydrated (low moisture), sulphured, uncooked","桃乾(低水分,經硫處理,未煮)",pilot
+"Peach, frozen sliced, sweetened","桃片(冷凍,加糖)",batch-029
 "Peach, raw",桃(生),batch-019
 "Peach, white, unpeeled, raw","桃(白色,連皮,生)",batch-001
 "Peach, yellow, unpeeled, raw","桃(黃色,連皮,生)",batch-001
@@ -8364,9 +8669,18 @@ Pastry cream,法式甜品忌廉(卡士達醬),batch-014
 "Peaches, canned in heavy syrup, liquid","桃(濃糖漿罐頭,糖水)",batch-015
 "Peaches, canned in juice, whole contents","桃(罐頭,果汁,連汁)",batch-008
 "Peaches, canned in syrup, whole contents","桃(罐頭,糖漿,連汁)",batch-008
+"Peaches, canned, extra heavy syrup pack, solids and liquids","桃(罐頭,特濃糖漿裝,固體連汁)",batch-029
+"Peaches, canned, heavy syrup pack, solids and liquids","桃(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Peaches, canned, juice pack, solids and liquids","桃(罐頭,果汁浸裝,固體連汁)",batch-029
+"Peaches, canned, light syrup pack, solids and liquids","桃(罐頭,淡糖漿裝,固體連汁)",batch-029
+"Peaches, canned, water pack, solids and liquids","桃(罐頭,水浸裝,固體連汁)",batch-029
+"Peaches, dried, sulfured, stewed, with added sugar","桃乾(經二氧化硫處理,燉煮,加糖)",batch-029
+"Peaches, dried, sulfured, stewed, without added sugar","桃乾(經二氧化硫處理,燉煮,無添加糖)",batch-029
+"Peaches, dried, sulfured, uncooked","桃乾(經二氧化硫處理,未煮)",batch-029
 "Peaches, flesh and skin, raw, weighed with stone","桃(連皮連肉,生,連核稱重)",batch-008
 "Peaches, raw",桃(生),batch-015
 "Peaches, raw, flesh and skin","桃(生,連皮連肉)",batch-008
+"Peaches, spiced, canned, heavy syrup pack, solids and liquids","香料桃(罐頭,濃糖漿裝,固體連汁)",batch-029
 "Peaches, white flesh type, canned in heavy syrup, solids","白肉桃(濃糖漿罐頭,固體)",batch-015
 "Peaches, yellow flesh type, canned in heavy syrup, solids","黃肉桃(罐頭,濃糖漿,果肉)",pilot
 "Peanut brittle, homemade",花生脆糖(自家製),batch-011
@@ -8388,11 +8702,19 @@ Peanuts and raisins,花生提子乾,batch-010
 "Peanuts, mature seeds, oil-roasted and salted","花生(成熟,油炸,加鹽)",batch-017
 "Peanuts, raisins and chocolate chips",花生提子乾朱古力粒,batch-010
 "Peanuts, roasted and salted","花生(烤,有鹽)",batch-010
+"Pear nectar, canned",梨汁(罐頭),batch-029
+"Pear nectar, canned, with added ascorbic acid","梨汁(罐頭,添加抗壞血酸)",batch-029
 "Pear, Anjou, green, with skin, raw","安茹梨(綠色,連皮,生)",batch-019
 "Pear, Bartlett, raw",巴梨(生),batch-019
 "Pear, William Bartlett, unpeeled, raw","啤梨(威廉姆斯,連皮,生)",batch-001
+"Pear, asian, raw",亞洲梨(生),batch-029
+"Pear, bosc, raw",啤梨(生),batch-029
+"Pear, canned, halves, extra light syrup pack, solids and liquid","梨(罐頭,半邊,特淡糖漿裝,固體連汁)",batch-029
+"Pear, canned, heavy syrup, drained","梨(罐頭,濃糖漿,瀝乾)",batch-029
+"Pear, green anjou, raw",青安茹梨(生),batch-029
 "Pear, green skin, unpeeled, raw","梨(綠皮,連皮,生)",batch-001
 "Pear, nashi, unpeeled, raw","水晶梨(連皮,生)",batch-001
+"Pear, red anjou, raw",紅安茹梨(生),batch-029
 "Pears, Chinese white pears, raw",白梨(生),batch-015
 "Pears, European pears, canned in heavy syrup",西洋梨(濃糖漿罐頭),batch-015
 "Pears, European pears, raw",西洋梨(生),batch-015
@@ -8402,7 +8724,15 @@ Peanuts and raisins,花生提子乾,batch-010
 "Pears, average, stewed with sugar","梨(平均,加糖炆)",batch-008
 "Pears, average, stewed without sugar","梨(平均,無糖炆)",batch-008
 "Pears, canned in juice, whole contents","梨(罐頭,果汁,連汁)",batch-008
+"Pears, canned, extra heavy syrup pack, solids and liquids","梨(罐頭,特濃糖漿裝,固體連汁)",batch-029
+"Pears, canned, heavy syrup pack, solids and liquids","梨(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Pears, canned, juice pack, solids and liquids","梨(罐頭,果汁浸裝,固體連汁)",batch-029
+"Pears, canned, light syrup pack, solids and liquids","梨(罐頭,淡糖漿裝,固體連汁)",batch-029
+"Pears, canned, water pack, solids and liquids","梨(罐頭,水浸裝,固體連汁)",batch-029
 "Pears, dried",梨乾,batch-008
+"Pears, dried, sulfured, stewed, with added sugar","梨乾(經二氧化硫處理,燉煮,加糖)",batch-029
+"Pears, dried, sulfured, stewed, without added sugar","梨乾(經二氧化硫處理,燉煮,無添加糖)",batch-029
+"Pears, dried, sulfured, uncooked","梨乾(經二氧化硫處理,未煮)",batch-029
 "Pears, raw",梨(生),batch-008
 "Pears, raw, bartlett",巴梨(生),batch-019
 "Pears, raw, flesh and skin","梨(生,連皮連肉)",batch-008
@@ -8481,6 +8811,8 @@ Perilla oil,紫蘇籽油,batch-014
 "Perilla, ""Egoma"", seeds, dried",紫蘇籽(乾),batch-017
 "Perilla, ""Shiso"", immature seeds, raw","紫蘇(未成熟種子,生)",batch-018
 "Perilla, ""Shiso"", leaves, raw",紫蘇葉(生),batch-018
+"Persimmon, japanese, raw",日本柿(生),batch-029
+"Persimmons, native, raw",本地柿(生),batch-029
 "Pesto sauce, homemade",青醬(自家製),batch-012
 "Pesto, green",青醬,batch-011
 "Pesto, red",紅醬(番茄青醬),batch-011
@@ -8603,17 +8935,30 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pine nuts, kernel only",松子(只計果仁),batch-010
 "Pine nuts, raw",松子(生),batch-017
 "Pine nuts, roasted",松子(烤),batch-017
+"Pineapple juice, canned or bottled, unsweetened, without added ascorbic acid","菠蘿汁(罐裝或瓶裝,無糖,無添加抗壞血酸)",batch-029
+"Pineapple juice, canned, added vitamin C","菠蘿汁(罐頭,添加維他命C)",batch-029
+"Pineapple juice, canned, not from concentrate, unsweetened, with added vitamins A, C and E","菠蘿汁(罐頭,非濃縮還原,無糖,添加維他命A,C及E)",batch-029
+"Pineapple juice, frozen concentrate, diluted","菠蘿汁(冷凍濃縮,已稀釋)",batch-029
+"Pineapple juice, frozen concentrate, unsweetened, undiluted","菠蘿汁(冷凍濃縮,無糖,未稀釋)",batch-029
 "Pineapple juice, unsweetened",菠蘿汁(無糖),batch-006
 "Pineapple, 10 % fruit juice beverage",菠蘿(含10%果汁飲品),batch-015
 "Pineapple, 50 % fruit juice beverage",菠蘿(含50%果汁飲品),batch-015
 "Pineapple, candied",菠蘿(糖漬),batch-015
+"Pineapple, canned heavy syrup pack, solids and liquid","菠蘿(罐頭,濃糖漿裝,固體連汁)",batch-029
 "Pineapple, canned in heavy syrup",菠蘿(濃糖漿罐頭),batch-015
 "Pineapple, canned in juice, whole contents","菠蘿(罐頭,果汁,連汁)",batch-008
 "Pineapple, canned in syrup",菠蘿(糖水罐頭),batch-001
 "Pineapple, canned in syrup, drained","菠蘿(糖水罐頭,已瀝乾)",batch-001
 "Pineapple, canned in syrup, syrup only","菠蘿(糖水罐頭,只計糖水)",batch-001
 "Pineapple, canned in syrup, whole contents","菠蘿(罐頭,糖漿,連汁)",batch-008
+"Pineapple, canned, extra heavy syrup pack, solids and liquid","菠蘿(罐頭,特濃糖漿裝,固體連汁)",batch-029
+"Pineapple, canned, juice pack, drained","菠蘿(罐頭,果汁浸裝,瀝乾)",batch-029
+"Pineapple, canned, juice pack, solids and liquid","菠蘿(罐頭,果汁浸裝,固體連汁)",batch-029
+"Pineapple, canned, light syrup pack, solids and liquid","菠蘿(罐頭,淡糖漿裝,固體連汁)",batch-029
+"Pineapple, canned, water pack, solids and liquid","菠蘿(罐頭,水浸裝,固體連汁)",batch-029
 "Pineapple, flesh only, raw, weighed with skin and top","菠蘿(只計果肉,生,連皮連頂稱重)",batch-008
+"Pineapple, frozen chunks, sweetened","菠蘿塊(冷凍,加糖)",batch-029
+"Pineapple, raw, extra sweet variety","菠蘿(生,特甜品種)",batch-029
 "Pineapple, raw, traditional varieties","菠蘿(生,傳統品種)",pilot
 "Pineapple, reconstituted fruit juice",菠蘿(還原果汁),batch-015
 "Pineapple, straight fruit juice",菠蘿(純果汁),batch-015
@@ -8623,6 +8968,7 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pistachio nuts, kernel only, roasted and salted, weighed with shells","開心果(只計果仁,烤,有鹽,連殼稱重)",batch-010
 "Pistachio nuts, roasted and salted","開心果(烤,加鹽)",batch-017
 "Pitahaya (pitaya, dragon fruit, strawberry pear), raw",火龍果(生),batch-004
+"Pitanga, raw",巴西車厘子(生),batch-029
 "Pizza base, raw",薄餅底(生),batch-007
 "Pizza, cheese & tomato, commercial","薄餅(芝士番茄,市售)",batch-001
 "Pizza, cheese and meat, thin crust, frozen, cooked","薄餅,芝士及肉,薄批,雪藏,熟",batch-005
@@ -8716,13 +9062,25 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Plant-based beverage, soy beverage, strawberry, fortified, shelf-stable","植物飲品(豆漿,士多啤梨味,強化,常溫保存)",batch-003
 "Plant-based beverage, soy beverage, vanilla, reduced fat, fortified, shelf-stable","植物飲品(豆漿,雲呢拿味,減脂,強化,常溫保存)",batch-003
 "Plantain, boiled in unsalted water, flesh only","大蕉(以無鹽水煮,只計肉)",batch-012
+"Plantain, green, boiled",青大蕉(烚),batch-029
+"Plantain, green, fried",青大蕉(炸),batch-029
 "Plantain, green, raw","大蕉(青,生)",batch-012
 "Plantain, ripe, fried in rapeseed oil","大蕉(熟,以芥花籽油煎)",batch-012
+"Plantain, yellow cooked",黃大蕉(熟),batch-029
+"Plantain, yellow raw",黃大蕉(生),batch-029
 "Plantains, overripe, raw","大蕉(過熟,生)",batch-019
 "Plantains, ripe, raw","大蕉(熟,生)",batch-019
 "Plantains, underripe, raw","大蕉(未熟,生)",batch-019
+"Plantains, yellow, fried, Latino restaurant","黃大蕉(炸,拉丁餐廳)",batch-029
 "Plum, black, with skin, raw","黑布冧(連皮,生)",batch-019
+"Plum, canned, heavy syrup, drained","布冧(罐頭,濃糖漿,瀝乾)",batch-029
+"Plum, canned, purple, extra heavy syrup pack, solids and liquid","紫布冧(罐頭,特濃糖漿裝,固體連汁)",batch-029
+"Plum, canned, purple, heavy syrup pack, solids and liquid","紫布冧(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Plum, canned, purple, juice pack, solids and liquid","紫布冧(罐頭,果汁浸裝,固體連汁)",batch-029
+"Plum, canned, purple, light syrup pack, solids and liquid","紫布冧(罐頭,淡糖漿裝,固體連汁)",batch-029
+"Plum, canned, purple, water pack, solids and liquid","紫布冧(罐頭,水浸裝,固體連汁)",batch-029
 "Plum, davidson (native), flesh","大衛森梅(澳洲原生,果肉)",batch-001
+"Plum, raw",布冧(生),batch-029
 "Plum, salted",鹹梅,batch-001
 "Plums, European plums, dried",西洋李(乾),batch-015
 "Plums, European plums, raw",西洋李(生),batch-015
@@ -9122,6 +9480,7 @@ Poutine,肉汁芝士薯條(Poutine),batch-005
 "Prawns, standard, dried","蝦(標準,乾)",batch-008
 "Prawns, standard, purchased cooked","蝦(標準,購買時已煮熟)",batch-008
 Pre-mixed spirit based drinks,預調烈酒飲品,batch-006
+"Prickly pear, raw",仙人掌果(生),batch-029
 "Prickly pears, broiled (Northern Plains Indians)","仙人掌果(燒烤,北部平原印第安人)",batch-020
 "Prickly pears, flesh and seeds",仙人掌果(連肉連籽),batch-008
 "Prickly pears, raw (Northern Plains Indians)","仙人掌果(生,北部平原印第安人)",batch-020
@@ -9134,6 +9493,13 @@ Prosciutto,意大利風乾火腿,batch-002
 "Protein supplement, milk based, Muscle Milk Light, powder","蛋白質補充品(奶類為本,Muscle Milk Light,粉狀)",batch-026
 "Protein supplement, milk based, Muscle Milk, powder","蛋白質補充品(奶類為本,Muscle Milk,粉狀)",batch-026
 Prune juice,西梅汁,batch-008
+"Prune juice, canned",西梅汁(罐頭),batch-029
+Prune puree,西梅蓉,batch-029
+"Prune, canned, heavy syrup pack, solids and liquid","西梅(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Prune, dehydrated (low moisture), cooked","西梅(脫水(低水分),熟)",batch-029
+"Prune, dehydrated (low moisture), uncooked","西梅(脫水(低水分),未煮)",batch-029
+"Prune, dried, cooked, added sugar","西梅乾(熟,加糖)",batch-029
+"Prune, dried, cooked, no added sugar","西梅乾(熟,無添加糖)",batch-029
 "Prune, dried, uncooked",西梅乾(未煮),batch-019
 "Prunes, canned in juice, whole contents","西梅(罐頭,果汁,連汁)",batch-008
 "Prunes, flesh and skin",西梅(連皮連肉),batch-008
@@ -9177,6 +9543,7 @@ Prune juice,西梅汁,batch-008
 "Puff pastry, frozen, ready-to-bake, baked","酥皮(冷凍,即焗型,已焗)",batch-022
 "Pummelo, candied peel",柚子皮(糖漬),batch-015
 "Pummelo, juice sacs, raw","柚(果肉,生)",batch-015
+"Pummelo, raw",柚子(生),batch-029
 "Pumpkin and squash, Japanese squash, fruit, boiled","日本南瓜(果實,煮)",batch-018
 "Pumpkin and squash, Japanese squash, fruit, raw","日本南瓜(果實,生)",batch-018
 "Pumpkin and squash, spaghetti squash, fruit, raw","意大利麵瓜(果實,生)",batch-018
@@ -9212,6 +9579,7 @@ Quesadilla with meat and cheese,肉類芝士墨西哥薄餅(Quesadilla),batch-00
 "Quiche, mushroom, homemade",蘑菇鹹批(自家製),batch-007
 "Quiche, mushroom, wholemeal, homemade",全麥蘑菇鹹批(自家製),batch-007
 "Quiche, vegetable, retail",蔬菜鹹批(店售),batch-007
+"Quince, raw",榲桲(生),batch-029
 "Quinces, flesh only",榲桲(只計果肉),batch-008
 "Quinoa burger patty, frozen",藜麥漢堡扒(雪藏),batch-005
 "Quinoa, black, uncooked",黑藜麥(未煮),batch-001
@@ -9233,15 +9601,24 @@ Quorn korma,Quorn素肉科爾馬咖喱,batch-012
 "Radish, white/mooli, raw",白蘿蔔(生),batch-012
 "Radishes, red, raw",紅蘿白(生),batch-019
 "Raisin, golden seedless",金黃無籽提子乾,batch-019
+"Raisin, seeded",提子乾(有籽),batch-029
+"Raisin, seedless (sultana)","提子乾(無籽,蘇丹娜)",batch-029
 "Raisins, dark, seedless",深色無籽提子乾,batch-019
 "Raisins, dried",提子乾,batch-008
 "Raita, homemade",印度乳酪青瓜醬(自家製),batch-011
 "Raita, yogurt and gram flour, homemade",乳酪鷹嘴豆粉拉依塔(自家製),batch-010
+"Rambutan, canned, syrup pack","紅毛丹(罐頭,糖漿裝)",batch-029
 "Rape leaves, raw",油菜葉(生),batch-012
 "Rape, stems and leaves, boiled","油菜(莖及葉,煮)",batch-018
 "Rape, stems and leaves, raw","油菜(莖及葉,生)",batch-018
+"Raspberries, puree, seedless",紅莓蓉(去籽),batch-029
+"Raspberries, puree, with seeds",紅莓蓉(連籽),batch-029
 "Raspberries, stewed with sugar",紅桑莓(加糖炆),batch-008
 "Raspberries, stewed without sugar",紅桑莓(無糖炆),batch-008
+Raspberry juice concentrate,紅莓汁濃縮液,batch-029
+"Raspberry, canned, heavy syrup pack, solids and liquid","紅莓(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Raspberry, frozen, sweetened","紅莓(冷凍,加糖)",batch-029
+"Raspberry, frozen, unsweetened","紅莓(冷凍,無糖)",batch-029
 "Raspberry, wild, raw",野生紅莓(生),batch-020
 "Ratatouille, homemade",法式燉雜菜(自家製),batch-012
 Re-fried beans,墨西哥炸豆泥,batch-012
@@ -9270,6 +9647,9 @@ Reddi Wip Fat Free Whipped Topping,無脂打發忌廉面層(Reddi Wip),batch-026
 "Restaurant, Latino, pupusas con frijoles (pupusas, bean)",餐廳式拉丁美洲豆餡玉米餅(Pupusas),batch-019
 "Restaurant, family style, onion rings",炸洋蔥圈(家庭式餐廳),pilot
 "Rhea, raw",美洲鴕鳥(生),batch-005
+"Rhubarb, frozen, cooked, with sugar","大黃(冷凍,熟,加糖)",batch-029
+"Rhubarb, frozen, uncooked","大黃(冷凍,未煮)",batch-029
+"Rhubarb, raw",大黃(生),batch-029
 "Rhubarb, stems only, raw","大黃(只計莖,生)",batch-008
 "Rhubarb, stems only, stewed with sugar","大黃(只計莖,加糖炆)",batch-008
 "Rhubarb, stems only, stewed without sugar","大黃(只計莖,無糖炆)",batch-008
@@ -9435,12 +9815,16 @@ Rice and split peas,飯配乾豌豆瓣,batch-012
 "Rolls, gluten-free, white, made with rice flour, rice starch, and corn starch",無麩質白餐包(用米粉、米澱粉及粟粉製作),batch-022
 "Rolls, hamburger, whole grain white, calcium-fortified","漢堡包麵包(全穀物白色,強化鈣質)",batch-022
 "Rose hips, wild, Indigenous",野生玫瑰果(原住民),batch-020
+"Rose-apple, raw",蒲桃(生),batch-029
+"Roselle, raw",洛神花(生),batch-029
 "Rosemary, dried",迷迭香(乾),batch-002
 "Rosemary, fresh",迷迭香(新鮮),batch-008
 "Rosemary, fresh, raw","迷迭香(新鮮,生)",batch-002
 "Roulade, spinach",菠菜卷,batch-012
 "Roux, Japanese curry roux, instant",日式咖喱醬磚(即食),batch-017
 "Roux, hash and rice roux, instant",哈燴飯醬磚(即食),batch-017
+"Rowal, raw",羅瓦爾果(生),batch-029
+"Ruby Red grapefruit juice blend (grapefruit, grape, apple), OCEAN SPRAY, bottled, with added vitamin C","紅寶石西柚混合汁(西柚,葡萄,蘋果)(OCEAN SPRAY,瓶裝,添加維他命C)",batch-029
 "Rudi's, Gluten-Free Bakery, Original Sandwich Bread","三明治麵包(Rudi's無麩質烘焙坊,原味)",batch-022
 "Rum baba, homemade",朗姆巴巴蛋糕(自家製),batch-007
 Rusks,麵包乾,batch-007
@@ -9608,6 +9992,8 @@ Salt,鹽,batch-011
 "Sandwich, white bread, tuna mayonnaise",白麵包三文治(吞拿魚蛋黃醬),batch-007
 "Sandwich, wrap, chicken with vegetables and cheese, ranch dressing",雞肉蔬菜芝士捲餅(田園沙律醬),batch-005
 Sangria,桑格利亞酒,batch-003
+"Sapodilla, raw",人心果(生),batch-029
+"Sapote, mamey, raw",馬米蛇果(生),batch-029
 "Sardine, Australian, whole, fried, no added fat","沙甸魚(澳洲,原條,炸,無添加脂肪)",batch-001
 "Sardine, Australian, whole, raw","沙甸魚(澳洲,原條,生)",batch-001
 "Sardines, canned in brine, drained","沙甸魚(罐頭,鹽水,已瀝乾)",batch-008
@@ -9888,6 +10274,7 @@ Shortening household soybean (hydrogenated) and palm,家用起酥油(大豆(氫�
 "Slice, brownie, chocolate, without nuts, commercial","布朗尼方塊(朱古力,不含果仁,市售)",batch-001
 "Slice, caramel",焦糖方塊,batch-001
 Smartie-type sweets,Smarties類糖果,batch-011
+"Smoothie, fruit juice, strawberry banana","冰沙(果汁,士多啤梨香蕉)",batch-029
 Smoothies,冰沙,batch-006
 "Snack ball, date based",小食球(棗子為主),batch-001
 "Snack, grain based, extruded, flavoured","穀物小食(擠壓,調味)",batch-002
@@ -10069,6 +10456,7 @@ Sorghum grain,高粱穀粒,batch-026
 "Sour cream, reduced fat",酸忌廉(減脂),batch-026
 "Sour dressing, non-butterfat, cultured, filled cream-type","酸味沙律醬(非牛油脂肪,發酵,脂肪替代忌廉型)",batch-026
 "Sourdock, young leaves (Alaska Native)","酸模(嫩葉,阿拉斯加原住民)",batch-020
+"Soursop, raw",刺果番荔枝(生),batch-029
 "Soy beverage, reduced fat (~1%), added Ca & vitamins A, B1, B2 & B12","豆奶(低脂約1%,添加鈣及維他命A、B1、B2、B12)",batch-001
 "Soy beverage, regular fat (~3%), added Ca","豆奶(全脂約3%,添加鈣)",batch-001
 "Soy beverage, regular fat (~3%), added Ca & vitamins A, B1, B2 & B12","豆奶(全脂約3%,添加鈣及維他命A、B1、B2、B12)",batch-001
@@ -10313,7 +10701,10 @@ Stock gel,高湯啫喱,batch-011
 "Strawberry flavour mix, powder",士多啤梨味沖劑(粉狀),batch-025
 "Strawberry flavour mix, powder, with 2% M.F. milk","士多啤梨味沖劑(粉末,加2%脂肪牛奶)",batch-003
 "Strawberry flavour mix, powder, with whole milk","士多啤梨味沖劑(粉狀,加全脂奶)",batch-025
+"Strawberry, canned, heavy syrup pack, solids and liquid","士多啤梨(罐頭,濃糖漿裝,固體連汁)",batch-029
+"Strawberry, frozen, sweetened, sliced","士多啤梨片(冷凍,加糖)",batch-029
 "Strawberry, frozen, sweetened, whole","士多啤梨(冷凍,加糖,原粒)",batch-004
+"Strawberry, frozen, unsweetened","士多啤梨(冷凍,無糖)",batch-029
 "Strudel, apple",蘋果酥卷,batch-022
 "Strudel, fruit filled, retail, frozen","水果卷(店售,冷凍)",batch-007
 "Stuffed cabbage with meat in tomato sauce and whipped potatoes, frozen",番茄醬釀椰菜卷配薯蓉(雪藏),batch-005
@@ -10326,6 +10717,7 @@ Stock gel,高湯啫喱,batch-011
 "Sugar, Demerara",黃砂糖(Demerara),batch-011
 "Sugar, icing",糖霜粉,batch-011
 "Sugar, white",白砂糖,batch-011
+"Sugar-apple, raw",釋迦(生),batch-029
 "Sugars, ""Wasanbonto"" (traditional non-centrifugal soft white cane sugar)",和三盆糖(傳統非離心軟白蔗糖),batch-018
 "Sugars, brown sugar lump",黑糖塊,batch-018
 "Sugars, candy sugar molasses",糖蜜冰糖,batch-018
@@ -10464,11 +10856,18 @@ Tamale (Navajo),"粟米粽(Tamale,納瓦霍族)",batch-020
 "Tamarillos, flesh and seeds",樹番茄(連肉連籽),batch-008
 Tamarind,羅望子,batch-008
 "Tamarind leaves, fresh",羅望子葉(新鮮),batch-008
+"Tamarind nectar, canned",酸角汁(罐頭),batch-029
 "Tamarind pulp, flesh only",羅望子果肉(只計果肉),batch-008
 "Tamarind, paste, pure",羅望子醬(純),batch-001
+"Tamarind, raw",酸角(生),batch-029
 "Tangelo, peeled, raw","橘柚(去皮,生)",batch-001
 "Tangerine (mandarin) juice, canned, sugar added","柑汁(罐頭,加糖)",batch-004
+"Tangerine (mandarin), raw",柑(生),batch-029
+"Tangerine juice, raw",柑汁(生),batch-029
 "Tangerine or tangor, peeled, raw","橘或橘柚(去皮,生)",batch-001
+"Tangerine, (mandarin), canned, juice pack, drained","柑(罐頭,果汁浸裝,瀝乾)",batch-029
+"Tangerines, (mandarin oranges), canned, juice pack","柑(蜜柑,罐頭,果汁浸裝)",batch-029
+"Tangerines, (mandarin oranges), canned, light syrup pack","柑(蜜柑,罐頭,淡糖漿裝)",batch-029
 "Tannia, raw",美洲芋頭(生),batch-012
 "Tapioca, pearl, dry",珍珠木薯粉(乾),batch-026
 "Tapioca, raw",木薯粉(生),batch-007
@@ -10973,6 +11372,7 @@ Vinegar (except balsamic vinegar),醋(香醋除外),batch-002
 "Water, with corn syrup and/or sugar and low calorie sweetener, fruit flavored",水果味水(含粟米糖漿或糖及低卡甜味劑),batch-025
 "Watercress, stems and leaves, raw","西洋菜(莖及葉,生)",batch-018
 "Watermelon seeds, roasted and salted","西瓜籽(烤,加鹽)",batch-017
+"Watermelon, raw",西瓜(生),batch-029
 "Watermelon, red flesh type, raw","西瓜(紅肉種,生)",batch-015
 "Watermelon, seedless, flesh only, raw","無籽西瓜(只計果肉,生)",batch-019
 "Watermelon, seedless, rind only, raw","無籽西瓜(只計瓜皮,生)",batch-019
