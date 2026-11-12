@@ -28,7 +28,7 @@ Other systems and AI tools will also use the data.
 | Data source: UK CoFID | Done. The data has 2,887 foods (section 2.9). |
 | Data source: Canada CNF | Done. The data has 5,993 foods (section 2.10). |
 | Backend API | Done. It is on the preview address (section 4.4). |
-| Cloudflare D1 | Done. The database `food-data` has all data. |
+| Cloudflare D1 | The new database `food-db` is empty. The upload is ready (1 part, approximately 82,000 row writes). Send it after 00:00 UTC (section 4.4.2). The old database `food-data` has the old layout. Delete it after the new site is live. |
 | Other data sources | France Ciqual is on hold (section 4.3). |
 
 ### 2.2 Files and folders
@@ -74,13 +74,13 @@ Other systems and AI tools will also use the data.
 | `npm run download:tfda` | Downloads the TFDA file. Use the same type of command for `mext`, `afcd`, `usda` and `cofid`. |
 | `npm run scrape` | Gets the CFS data again. It writes `cfs_foods.csv`. |
 | `npm run db` | Makes `data/food.db` from all sources. |
-| `npm run export` | Makes the D1 file `data/export/d1.sql` from `data/food.db`. |
+| `npm run serve` | Makes the served database `data/export/served.db` from `data/food.db` (section 3.2.1). |
+| `npm run export` | Makes the served database and the D1 file `data/export/d1.sql`. |
 | `npm run build` | Does `npm run db` and then `npm run export`. |
 | `npm run load:local` | Puts `d1.sql` into the local D1 database (on your computer). |
-| `npm run update:plan` | Compares `data/food.db` with the data on D1. Writes the changes as SQL parts (section 4.4). |
+| `npm run update:plan` | Makes the served database. Compares it with the data on D1. Writes the changes as SQL parts (section 4.4.2). |
 | `npm run update:apply` | Sends the next part to D1. |
 | `npm run update:status` | Shows the parts and which parts are sent. |
-| `npm run load:remote:full` | Puts all of `d1.sql` into D1. Use only for a full rebuild (section 4.4). |
 | `npm run dev` | Starts the site and the API on your computer at http://localhost:8788. |
 | `npm run deploy` | Sends the site and the API to the live site on Cloudflare Pages. |
 
@@ -341,6 +341,40 @@ We examined each source for a newer version on 2026-11-12.
 | `food_concepts` | The synonym concepts of each food, for example `broccoli`. |
 | `foods_fts` | The keyword search index. |
 
+### 3.2.1 The served database (on D1)
+
+D1 counts each written row. It does not count bytes.
+Thus the database on D1 has a different layout: 1 row for each food.
+The script `pipeline/serve_db.py` makes this layout from `data/food.db`.
+
+| Table | Content |
+|---|---|
+| `sources` | The data sources, with the number of foods. |
+| `nutrients` | The master list of nutrients. |
+| `categories` | The categories, with the number of main records. |
+| `foods` | 1 row for each food. |
+
+The `foods` table has these special columns:
+
+| Column | Content |
+|---|---|
+| `energy_kcal`, `protein`, `fat`, `carbohydrate`, `sugars`, `fibre`, `sodium` | The key nutrients, as numbers. Use them to sort and to filter. |
+| `nutrients` | All values of the food, as JSON. A plain number is a normal value. An object has the value (`v`), the flag (`f`), the method (`m`) and the estimate mark (`e`). |
+| `servings` | The serving sizes, as JSON. |
+| `members` | The IDs of all records in the group of the food, as JSON. |
+| `links` | The links to other records in the group, as JSON. |
+| `similar`, `related` | The IDs of similar foods and related foods, as JSON. |
+| `n_sources`, `is_copy` | The number of sources in the group. 1 if the record is a copy. |
+
+There is no filter for other nutrients (decision of 2026-11-12).
+
+Results:
+
+- A full upload writes approximately 82,000 rows. The old layout wrote 2.6 million rows.
+- A food page reads 1 row for each food on the page. The old layout read approximately 30 rows for each food.
+
+We compared 3,000 foods with `data/food.db`. All values and lists are the same.
+
 ### 3.3 Special values
 
 | Source value | Database value |
@@ -526,7 +560,7 @@ Result on 2026-11-12: 138 old versions. 30 are duplicates. 108 have different va
 | 5f | Write the importer for Canada CNF | Done |
 | 5d | Write the importer for France Ciqual | On hold. The Ciqual web site is in maintenance (section 4.3). |
 | 6 | Link the duplicates in `food_links` (section 4.2) | Done (sections 3.5 to 3.7). The synonym table can grow. |
-| 7 | Make a script that sends `food.db` to Cloudflare D1 | Done (`npm run export`, `npm run load:remote`) |
+| 7 | Make a script that sends `food.db` to Cloudflare D1 | Done (`npm run update:plan`, `npm run update:apply`) |
 | 8 | Make the API with Pages Functions | Done. On the preview address. |
 | 9 | Change the site to use the API, not `foods.json` | Done. On the preview address. The live site changes after the user approves it. |
 | 10 | Write the importers for the other sources (section 4.3) | To do |
@@ -584,7 +618,7 @@ The list has 54 nutrients now.
 ```
 raw files --> importers --> data/food.db (master copy)
                               |
-                              +--> data/export/d1.sql --> Cloudflare D1 "food-data"
+                              +--> data/export/served.db --> update parts --> Cloudflare D1 "food-db"
                               +--> Parquet files (for AI and analysis, planned)
 
 Browser --> Cloudflare Pages "hk-food-nutrition" --> Pages Functions /api/* --> D1
@@ -596,19 +630,19 @@ Browser --> Cloudflare Pages "hk-food-nutrition" --> Pages Functions /api/* --> 
 | Pages project | `hk-food-nutrition` |
 | Live address | https://hk-food-nutrition.pages.dev |
 | Preview address | https://preview.hk-food-nutrition.pages.dev |
-| D1 database | `food-data` (location: Asia-Pacific) |
+| D1 database | `food-db` (location: Asia-Pacific) |
 | Deployment | By hand (`npm run deploy`). There is no connection to GitHub. |
 
 The API:
 
 | Endpoint | Function |
 |---|---|
-| `/api/meta` | Counts, sources, the nutrient list and the HK food groups |
+| `/api/meta` | Counts, sources, the nutrient list and the categories |
 | `/api/search?q=&limit=` | Find foods by name in any language (section 3.4) |
 | `/api/food?id=` | All data for 1 food: nutrients, servings, source, the other records of its group, similar foods and related foods |
-| `/api/group?g=&s=&sort=` | The foods of 1 HK food group |
+| `/api/category?c=&src=&sort=&page=` | The foods of 1 category (section 3.10) |
 | `/api/foods?ids=` | Short data for a list of foods |
-| `/api/filter?...` | Find foods by nutrient values. Not done yet. |
+| `/api/filter?...` | Find foods by the key nutrients. Not done yet. |
 
 The site and AI tools must use only the API.
 They must not read the tables directly.
@@ -625,11 +659,13 @@ The account uses the D1 free plan.
 |---|---|---|
 | Rows written | 100,000 each day (all databases) | Uploads of data |
 | Rows read | 5 million each day | Searches and pages that are not in the cache |
-| Storage | 500 MB for each database | The database is 96 MB |
+| Storage | 500 MB for each database | The served database is approximately 81 MB |
 
 Batch requests do not decrease the count. D1 counts each written row and each index entry.
-A full load writes approximately 2.6 million rows. Thus do not use a full load on the free plan.
+The old layout wrote approximately 2.6 million rows for a full load.
 On 2026-11-12 the first full load used the limit of that day.
+The served layout (section 3.2.1) writes approximately 82,000 rows for a full load.
+The search index uses `columnsize=0`. This option removes 1 row for each food from the index.
 
 The Workers Paid plan (5 USD each month) includes 50 million written rows each month.
 
@@ -638,13 +674,13 @@ The Workers Paid plan (5 USD each month) includes 50 million written rows each m
 Send only the changes. Do these steps:
 
 1. Run `npm run build`.
-2. Run `npm run update:plan`. The tool compares `data/food.db` with `data/export/remote_baseline.db` (the data on D1). It writes the changes in parts of no more than 90,000 estimated row writes.
+2. Run `npm run update:plan`. The tool compares `data/export/served.db` with `data/export/remote/food-db/baseline.db` (the data on D1). If there is no baseline, the tool sends all data. It writes the changes in parts of no more than 90,000 estimated row writes.
 3. Run `npm run update:apply`. This sends 1 part. On the free plan, send 1 part each day.
 4. Do step 3 again until all parts are sent. After the last part, the tool replaces the baseline.
 5. Change `DATA_VERSION` in `functions/_lib.js` and `API_VERSION` in `site/app.js`.
 6. Run `npm run deploy`.
 
-We tested the tool: the old data and the parts make exactly the new database.
+We tested the tool on a local database. A full upload and a small update make exactly the served database.
 
 ### 4.4.3 Searches and the read limit
 

@@ -5,11 +5,13 @@
   "name": "hk-food-nutrition",
   "pages_build_output_dir": "./site",
   "compatibility_date": "2026-11-01",
+  // food-db (region APAC): one row per food, built by pipeline/serve_db.py.
+  // The old database food-data (normalised layout, 2026-11-11) is kept until go-live.
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "food-data",
-      "database_id": "1dc75ee3-74fc-4823-81be-7cef529f5276"
+      "database_name": "food-db",
+      "database_id": "c7f14ba2-3ed3-41c4-b368-c7517ee59486"
     }
   ]
 }

@@ -7,7 +7,7 @@
 // because English names such as "Apple" are too generic to win alone), 2 Chinese / local /
 // alias contains q, 3 English contains q, 4 synonym or group match only.
 // Ties: Chinese name first, HK (CFS) records, groups with data from more sources, shorter names.
-import { json, bad, likeEscape, keyNutrientCols, cached } from "../_lib.js";
+import { json, bad, likeEscape, listCols, cached } from "../_lib.js";
 
 async function handle({ request, env }) {
   const url = new URL(request.url);
@@ -44,9 +44,7 @@ async function handle({ request, env }) {
   const db = env.DB;
   const [rows, total] = await db.batch([
     db.prepare(`WITH best AS (${best})
-      SELECT p.id, p.display_zh, p.display_en, p.name_local, p.name_en, p.source_id, p.group_zh, p.group_en, b.rank,
-             (SELECT COUNT(DISTINCT m.source_id) FROM foods m WHERE m.cluster_id = p.cluster_id) AS n_sources,
-             ${keyNutrientCols("p")}
+      SELECT ${listCols("p")}, p.group_zh, p.group_en, b.rank
       FROM best b JOIN foods p ON p.id = b.id
       WHERE b.pick = 1
       ORDER BY b.rank, (p.display_zh IS NULL), (p.source_id <> 'cfs'), n_sources DESC,

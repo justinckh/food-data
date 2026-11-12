@@ -1,5 +1,5 @@
 // Food nutrition site. Data comes from the API (Cloudflare Pages Functions + D1):
-//   /api/meta  /api/search  /api/food  /api/group  /api/foods
+//   /api/meta  /api/search  /api/food  /api/category  /api/foods
 // Routes (hash-based):
 //   #/                 home
 //   #/c/<category>?src=<source>&sort=<sort>&page=<n>   database-wide category
@@ -15,7 +15,7 @@ const cache = new Map();
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 // API_VERSION is added to every API address, so a new release never reads answers that a
 // browser or the edge cached for the previous release. Change it when the API or data changes.
-const API_VERSION = "2026-11-12b";
+const API_VERSION = "2026-11-13a";
 const api = (path) => {
   if (!cache.has(path)) {
     const url = path + (path.includes("?") ? "&" : "?") + "v=" + API_VERSION;

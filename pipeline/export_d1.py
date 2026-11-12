@@ -1,37 +1,26 @@
-"""Export data/food.db as a SQL file for Cloudflare D1: data/export/d1.sql
+"""Export the served database (pipeline/serve_db.py) as one SQL file for Cloudflare D1:
+data/export/d1.sql
 
 Run from the project root:   python3 -m pipeline.export_d1
-Only for a FIRST load or a full rebuild: a full load writes ~2.6 million rows, far over the
-D1 free plan's 100,000 a day. Normal updates use pipeline/d1_update.py. Load it (PROJECT.md 4.4):
-    npx wrangler d1 execute food-data --local  --file data/export/d1.sql   (local test)
-    npx wrangler d1 execute food-data --remote --file data/export/d1.sql   (live)
+The file drops and re-creates every table, so a load always replaces all data. A full
+load writes ~85k rows (the D1 free plan allows 100k rows a day); use it for
+the LOCAL dev database; the live database is updated with pipeline/d1_update.py.
+    npx wrangler d1 execute food-db --local --file data/export/d1.sql   (local test)
 
-- The file drops and re-creates every table, so a load always replaces all data.
 - search_fts (FTS5, trigram) is built inside D1 from foods.search_text, so the search
   reads only matching rows for queries of 3+ characters.
 - No BEGIN/COMMIT: D1 imports run without explicit transactions.
 """
 import sqlite3
-from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-DB = ROOT / "data" / "food.db"
-OUT = ROOT / "data" / "export" / "d1.sql"
+from .serve_db import INDEXES, SERVED, TABLES, build
 
-TABLES = ["sources", "nutrients", "categories", "foods", "food_nutrients", "servings", "food_links", "food_concepts"]
-INDEXES = [
-    "CREATE INDEX idx_foods_cluster ON foods(cluster_id)",
-    "CREATE INDEX idx_foods_primary ON foods(is_primary, source_id)",
-    "CREATE INDEX idx_foods_group ON foods(source_id, group_en, subgroup_en)",
-    "CREATE INDEX idx_foods_category ON foods(category, is_primary, source_id)",
-    "CREATE INDEX idx_fn_nutrient_value ON food_nutrients(nutrient_id, value)",
-    "CREATE INDEX idx_servings_food ON servings(food_id)",
-    "CREATE INDEX idx_links_food ON food_links(food_id)",
-    "CREATE INDEX idx_links_canonical ON food_links(canonical_id)",
-    "CREATE INDEX idx_concepts ON food_concepts(concept)",
-]
+OUT = SERVED.parent / "d1.sql"
+D1_DATABASE = "food-db"     # database_name in wrangler.jsonc
 # Trigram search index for queries of 3+ characters (functions/api/search.js)
-FTS = ("CREATE VIRTUAL TABLE search_fts USING fts5(text, food_id UNINDEXED, tokenize='trigram');\n"
+# columnsize=0: no per-row size table (only needed for bm25 ranking, which the site does not use);
+# this halves the rows the search index writes (~1.1 per food instead of ~2.1).
+FTS = ("CREATE VIRTUAL TABLE search_fts USING fts5(text, food_id UNINDEXED, tokenize='trigram', columnsize=0);\n"
        "INSERT INTO search_fts (text, food_id) SELECT search_text, id FROM foods;")
 MAX_STATEMENT = 50_000   # characters per INSERT; D1 rejects statements over 100 KB
 
@@ -44,21 +33,20 @@ def literal(v):
     return "'" + str(v).replace("'", "''") + "'"
 
 
+def table_ddl(db, t):
+    return db.execute("SELECT sql FROM sqlite_master WHERE type = 'table' AND name = ?", (t,)).fetchone()[0]
+
+
 def main():
-    src = sqlite3.connect(DB)
-    OUT.parent.mkdir(parents=True, exist_ok=True)
+    build()
+    src = sqlite3.connect(SERVED)
     total = 0
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("DROP TABLE IF EXISTS search_fts;\n")
         for t in reversed(TABLES):
             f.write(f"DROP TABLE IF EXISTS {t};\n")
         for t in TABLES:
-            ddl = src.execute("SELECT sql FROM sqlite_master WHERE type = 'table' AND name = ?", (t,)).fetchone()[0]
-            # foreign keys are checked at build time; D1 loads tables in bulk without them
-            ddl = "\n".join(line for line in ddl.splitlines() if "REFERENCES" not in line or "NOT NULL" in line)
-            ddl = ddl.replace(" REFERENCES foods(id) ON DELETE CASCADE", "").replace(" REFERENCES sources(id)", "") \
-                     .replace(" REFERENCES nutrients(id)", "")
-            f.write(ddl + ";\n")
+            f.write(table_ddl(src, t) + ";\n")
             cols = [r[1] for r in src.execute(f"PRAGMA table_info({t})")]
             head = f"INSERT INTO {t} ({', '.join(cols)}) VALUES "
             batch, size = [], len(head)

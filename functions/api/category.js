@@ -2,7 +2,7 @@
 // Browse the whole database by the shared categories (pipeline/categories.py).
 // Shows one row per food group (main records only). 60 rows per page.
 // Returns per-source counts for the filter chips.
-import { json, bad, keyNutrientCols, cached } from "../_lib.js";
+import { json, bad, listCols, cached } from "../_lib.js";
 
 const PAGE = 60;
 const SORT = {
@@ -25,9 +25,7 @@ async function handle({ request, env }) {
 
   const [rows, bySource] = await db.batch([
     db.prepare(`SELECT * FROM (
-        SELECT f.id, f.display_zh, f.display_en, f.name_local, f.name_en, f.source_id,
-               (SELECT COUNT(DISTINCT m.source_id) FROM foods m WHERE m.cluster_id = f.cluster_id) AS n_sources,
-               ${keyNutrientCols("f")}
+        SELECT ${listCols("f")}
         FROM foods f WHERE f.category = ?1 AND f.is_primary = 1 AND (?2 IS NULL OR f.source_id = ?2))
       ORDER BY ${SORT[sortKey]}, id LIMIT ${PAGE} OFFSET ?3`).bind(c, src, (page - 1) * PAGE),
     db.prepare(`SELECT source_id, COUNT(*) AS n FROM foods WHERE category = ?1 AND is_primary = 1
