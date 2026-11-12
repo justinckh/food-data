@@ -192,9 +192,9 @@ def run(db):
             rows.append((main, int(f == main), nodate(own_zh), nodate(own_en), note[f], own_mt, f))
     db.executemany("UPDATE foods SET cluster_id = ?, is_primary = ?, display_zh = ?, display_en = ?, sample_note = ?, "
                    "zh_mt = ? WHERE id = ?", rows)
-    # translated names are searchable too
+    # shown names are searchable too (translations, TW -> HK words such as 雞全翼)
     db.execute("UPDATE foods SET search_text = search_text || ' ' || lower(display_zh) "
-               "WHERE zh_mt = 1 AND instr(search_text, lower(display_zh)) = 0")   # display runs twice
+               "WHERE display_zh IS NOT NULL AND instr(search_text, lower(display_zh)) = 0")   # shown names (HK words, translations)
     n_clusters = sum(r[1] for r in rows)
     print(f"  Display              {n_clusters:>6} main records for {len(rows)} foods; "
           f"{sum(1 for r in rows if r[1] and r[2])} have a Chinese display name "
