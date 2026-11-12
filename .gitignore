@@ -18,3 +18,6 @@ node_modules/
 
 # Personal Claude Code settings
 .claude/settings.local.json
+
+# Machine translation work files (pipeline/translate_prep.py)
+data/translate/

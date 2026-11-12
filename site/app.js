@@ -289,6 +289,7 @@ async function food(id) {
 
   const original = [...new Set([f.name_zh, f.name_local, f.name_en].map(stripDate))]
     .filter((x) => x && x !== f.display_zh && x !== f.display_en);
+  // a machine-translated name: the original name stays visible under the title (subName)
   const country = COUNTRY[d.source?.country] || d.source?.country || "";
   const path = [["首頁", "#/"], ...(cat ? [[cat.name_zh, catHref(cat.id)]] : []), [name(f), ""]];
   const noteText = (n) => (n ? (/^\d{4}$/.test(n) ? `${n}年數據` : `${n}取樣`) : "");
@@ -306,6 +307,7 @@ async function food(id) {
           <div class="chips">
             <span class="pill">${esc(SOURCE_SHORT[f.source_id] || f.source_id)}</span>
             ${f.sample_note ? `<span class="pill soft">${esc(noteText(f.sample_note))}</span>` : ""}
+            ${f.zh_mt ? `<span class="pill soft" title="這個中文名稱由機器翻譯，請以原名為準">機器翻譯</span>` : ""}
             ${original.map((o) => `<span class="pill soft">原名 ${esc(o)}</span>`).join("")}
             ${f.alias ? f.alias.split(/[、,]/).slice(0, 6).map((a) => `<span class="pill soft">又名 ${esc(a.replace(/[\[\]]/g, ""))}</span>`).join("") : ""}
           </div>

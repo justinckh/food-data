@@ -16,15 +16,20 @@ display_zh (per cluster):
      in Chinese when it is not raw, e.g. USDA "Broccoli, boiled" -> 西蘭花(煮);
      for a Chinese name only the matched word is replaced: 青花菜(2021年取樣) -> 西蘭花(2021年取樣);
   3. else the TFDA name_zh;
-  4. else NULL (English only).
+  4. else the machine translation of the English name (or the Japanese name) from
+     pipeline/translations_zh.csv (pipeline/translate_prep.py); foods.zh_mt = 1;
+  5. else NULL (English only).
 display_en: the shortest English name in the cluster.
 Original names are never changed; they stay in name_zh / name_en / name_local.
 """
+import csv
 import re
 from collections import defaultdict
+from pathlib import Path
 
 from . import link, synonyms, versions
 
+TRANSLATIONS = Path(__file__).resolve().parent / "translations_zh.csv"
 PRIORITY = ["cfs", "tfda", "mext", "afcd", "cofid", "usda_fnd", "usda_sr", "cnf"]
 # Preparation words ignored when matching an English name to a synonym word (display only;
 # the linking rules keep their reviewed word lists).
@@ -108,6 +113,11 @@ def run(db):
     def nodate(name):
         return versions.split(name)[0] if name else name
 
+    mt = {}
+    if TRANSLATIONS.exists():
+        with open(TRANSLATIONS, encoding="utf-8") as f:
+            mt = {r["key"]: r["zh"] for r in csv.DictReader(f)}
+
     rows = []
     for members in clusters(db):
         # source preference, then the newest version (dated re-tests), then id
@@ -124,13 +134,22 @@ def run(db):
         # TFDA English names can be synonym lists ("Sea mullet; River mullet; ..."): first name only
         ens = [foods[f][2].split(";")[0].strip() for f in members if foods[f][2] and foods[f][2].split(";")[0].strip()]
         en = min(ens, key=lambda n: (len(n), n)) if ens else None
+        is_mt = 0
+        if not zh:
+            # same key as translate_prep: the shown English name, else the Japanese name
+            zh = mt.get(nodate(en) or foods[main][4])
+            is_mt = int(zh is not None)
         for f in members:
             # HK records always keep their own (HK) name; other records show the group name
             own_zh = cfs_name(f) if foods[f][1] == "cfs" and foods[f][3] else zh
             own_en = foods[f][2] if foods[f][1] == "cfs" and foods[f][2] else en
-            rows.append((main, int(f == main), nodate(own_zh), nodate(own_en), note[f], f))
-    db.executemany("UPDATE foods SET cluster_id = ?, is_primary = ?, display_zh = ?, display_en = ?, sample_note = ? "
-                   "WHERE id = ?", rows)
+            own_mt = 0 if foods[f][1] == "cfs" and foods[f][3] else is_mt
+            rows.append((main, int(f == main), nodate(own_zh), nodate(own_en), note[f], own_mt, f))
+    db.executemany("UPDATE foods SET cluster_id = ?, is_primary = ?, display_zh = ?, display_en = ?, sample_note = ?, "
+                   "zh_mt = ? WHERE id = ?", rows)
+    # translated names are searchable too
+    db.execute("UPDATE foods SET search_text = search_text || ' ' || lower(display_zh) WHERE zh_mt = 1")
     n_clusters = sum(r[1] for r in rows)
     print(f"  Display              {n_clusters:>6} main records for {len(rows)} foods; "
-          f"{sum(1 for r in rows if r[1] and r[2])} have a Chinese display name")
+          f"{sum(1 for r in rows if r[1] and r[2])} have a Chinese display name "
+          f"({sum(1 for r in rows if r[1] and r[5])} machine-translated)")

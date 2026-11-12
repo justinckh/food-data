@@ -25,7 +25,7 @@ SERVED = ROOT / "data" / "export" / "served.db"
 KEY_NUTRIENTS = ["energy_kcal", "protein", "fat", "carbohydrate", "sugars", "fibre", "sodium"]
 TEXT_COLS = ["id", "source_id", "source_code", "name_en", "name_zh", "name_local", "alias",
              "group_en", "group_zh", "subgroup_en", "subgroup_zh", "description", "origin_source",
-             "search_text", "cluster_id", "is_primary", "display_zh", "display_en", "sample_note", "category"]
+             "search_text", "cluster_id", "is_primary", "display_zh", "display_en", "sample_note", "category", "zh_mt"]
 N_SIMILAR = N_RELATED = 8
 
 SCHEMA = f"""
@@ -40,6 +40,7 @@ CREATE TABLE foods (
     name_local TEXT, alias TEXT, group_en TEXT, group_zh TEXT, subgroup_en TEXT, subgroup_zh TEXT,
     description TEXT, origin_source TEXT, search_text TEXT NOT NULL, cluster_id TEXT NOT NULL,
     is_primary INTEGER NOT NULL, display_zh TEXT, display_en TEXT, sample_note TEXT, category TEXT,
+    zh_mt INTEGER NOT NULL,          -- 1 = display_zh is a machine translation
     n_sources INTEGER NOT NULL,      -- sources with a record in this food's group
     is_copy INTEGER NOT NULL,        -- 1 = republished copy of another record (hidden in tables)
     {", ".join(f"{n} REAL" for n in KEY_NUTRIENTS)},
