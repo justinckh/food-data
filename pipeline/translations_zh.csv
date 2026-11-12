@@ -553,6 +553,7 @@ Asafoetida,阿魏,batch-008
 "Avocado, raw, florida","牛油果(生,佛羅里達品種)",batch-028
 "Avocado, shepard, raw","牛油果(Shepard,生)",batch-002
 "Ayr, raw",Ayr 鯰魚(生),batch-007
+"BANQUET, Salisbury Steak With Gravy, family size, frozen, unprepared","BANQUET 沙律斯堡扒配肉汁(家庭裝,冷凍,未經調製)",batch-031
 "BURGER KING, CROISSAN'WICH with Egg and Cheese",漢堡王 芝士雞蛋牛角包三明治,batch-027
 "BURGER KING, CROISSAN'WICH with Sausage and Cheese",漢堡王 芝士香腸牛角包三明治,batch-027
 "BURGER KING, CROISSAN'WICH with Sausage, Egg and Cheese",漢堡王 芝士香腸雞蛋牛角包三明治,batch-027
@@ -1141,7 +1142,9 @@ Barley malt flour,大麥麥芽粉,batch-025
 "Beef bourguignonne, made with lean beef, homemade","勃艮第燜牛肉(用瘦牛肉,自家製)",batch-008
 "Beef composite, separable lean only, trimmed to 1/8"" fat, choice, cooked","牛肉綜合(只計瘦肉,修脂至1/8吋,特選級,熟)",batch-022
 Beef extract,牛肉精,batch-010
+"Beef macaroni with tomato sauce, frozen entree, reduced fat","牛肉通粉配茄汁(冷凍主菜,減脂)",batch-031
 "Beef olives, homemade",牛肉卷(自家製),batch-008
+"Beef pot pie, frozen, prepared","牛肉批(冷凍,已調製)",batch-031
 "Beef pot roast with whipped potatoes, frozen",薯蓉燜牛肉(雪藏),batch-005
 "Beef products, beef jerky",牛肉乾,batch-016
 "Beef products, canned with seasoning",牛肉(調味罐頭),batch-016
@@ -1150,6 +1153,7 @@ Beef extract,牛肉精,batch-010
 "Beef products, smoked tongue",牛脷(煙燻),batch-016
 "Beef steak pudding, homemade",牛扒布甸(自家製),batch-008
 Beef stew with potatoes and vegetables,薯仔蔬菜燉牛肉,batch-005
+"Beef stew, canned",燴牛肉(罐頭),batch-031
 "Beef, Australian, imported, Wagyu, external fat, Aust. marble score 4/5, raw","澳洲進口和牛外層脂肪(澳洲大理石紋評分4至5,生)",batch-022
 "Beef, Australian, imported, Wagyu, external fat, Aust. marble score 9, raw","澳洲進口和牛外層脂肪(澳洲大理石紋評分9,生)",batch-022
 "Beef, Australian, imported, Wagyu, loin, tenderloin steak/roast, boneless, separable lean and fat, Aust. marble score 4/5, raw","澳洲進口和牛柳扒或烤肉塊(去骨,連肥肉,澳洲大理石紋評分4至5,生)",batch-022
@@ -1531,6 +1535,7 @@ Beef stew with potatoes and vegetables,薯仔蔬菜燉牛肉,batch-005
 "Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, choice, raw","牛肉綜合修整零售切塊(只計瘦肉,修脂至1/8吋,特選級,生)",batch-023
 "Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, select, cooked","牛肉綜合修整零售切塊(只計瘦肉,修脂至1/8吋,精選級,熟)",batch-023
 "Beef, composite of trimmed retail cuts, separable lean only, trimmed to 1/8"" fat, select, raw","牛肉綜合修整零售切塊(只計瘦肉,修脂至1/8吋,精選級,生)",batch-023
+"Beef, corned beef hash, with potato, canned","牛肉(鹹牛肉薯仔碎,罐頭)",batch-031
 "Beef, crossbred (Holstein×Japanese black) steer, fillet, without subcutaneous fat, boiled","牛柳(荷斯登黑毛和牛雜交閹牛,無皮下脂肪,煮)",batch-016
 "Beef, crossbred (Holstein×Japanese black) steer, flank or short plate, lean and fat, boiled","牛腹脅肉(荷斯登黑毛和牛雜交閹牛,瘦肉連肥肉,煮)",batch-016
 "Beef, crossbred (Holstein×Japanese black) steer, inside round, fat, raw","牛內側後腿肉(荷斯登黑毛和牛雜交閹牛,肥肉,生)",batch-016
@@ -3037,7 +3042,10 @@ Buckwheat,蕎麥,batch-025
 "Burger, chicken, takeaway",雞肉漢堡包(外賣),batch-009
 "Burger, chicken/turkey, coated, retail, grilled","雞肉或火雞肉漢堡扒(裹粉,零售,燒烤)",batch-009
 "Burger, hamburger, takeaway",漢堡包(外賣),batch-009
+"Burrito, bean and cheese, frozen",豆及芝士墨西哥卷(冷凍),batch-031
 "Burrito, bean and cheese, microwaved",豆及芝士墨西哥卷(微波),batch-005
+"Burrito, beef and bean, frozen",牛肉豆墨西哥卷(冷凍),batch-031
+"Burrito, beef and bean, microwaved",牛肉豆墨西哥卷(微波),batch-031
 "Butter oil, anhydrous",無水牛油脂,batch-026
 "Butter replacement, without fat, powder","牛油代替品(無脂肪,粉狀)",batch-027
 "Butter tart, with raisins, homemade",提子乾牛油撻(自家製),batch-003
@@ -3187,6 +3195,8 @@ Cakes from 'healthy eating' ranges,健康飲食系列蛋糕,batch-006
 "Camel, rump, raw","駱駝肉(臀肉,生)",batch-002
 "Camel, steak, as purchased, fried, no added fat","駱駝肉排(購買時,炸,無添加脂肪)",batch-002
 "Camel, steak, as purchased, raw","駱駝肉排(購買時,生)",batch-002
+"Canadian bacon, cooked, pan-fried","加拿大煙肉(熟,煎)",batch-031
+"Canadian bacon, unprepared",加拿大煙肉(未經調製),batch-031
 "Candied foods, cherries",糖漬車厘子,batch-006
 "Candied foods, citron",糖漬香橼,batch-006
 "Candied foods, ginger root, crystallized",結晶糖薑,batch-006
@@ -3976,15 +3986,19 @@ Cheese whey powder,芝士乳清粉,batch-016
 "Chicken fricassee, reduced fat, homemade","白汁燴雞(低脂,自家製)",batch-009
 "Chicken in white sauce, made with semi-skimmed milk",白汁雞(以半脫脂牛奶製),batch-009
 "Chicken in white sauce, made with whole milk",白汁雞(以全脂牛奶製),batch-009
+"Chicken nuggets, dark and white meat, pre-cooked, frozen, not heated","雞塊(黑肉及白肉,預先煮熟,冷凍,未加熱)",batch-031
 "Chicken nuggets, macaroni in cheese sauce, corn in a seasoned sauce and chocolate pudding, frozen","雞塊,芝士汁通粉,調味粟米及朱古力布甸套餐(雪藏)",batch-005
+"Chicken nuggets, white meat, pre-cooked, frozen, not heated","雞塊(白肉,預先煮熟,冷凍,未加熱)",batch-031
 "Chicken nuggets, whole grain breading",雞塊(全穀物麵包糠),batch-027
 "Chicken patty, breaded, whole grain breading","雞肉餅(炸粉,全穀物麵包糠)",batch-027
 "Chicken piece, flesh, skin & fat, coated, fast food outlet, fried","雞塊(連肉、皮及脂肪,裹粉,快餐店,炸)",batch-002
 "Chicken pieces, coated, takeaway","雞塊(裹粉,外賣)",batch-009
 "Chicken portions, battered, deep fried, takeaway","雞塊(裹漿,油炸,外賣)",batch-009
+"Chicken pot pie, frozen, prepared","雞批(冷凍,已調製)",batch-031
 "Chicken satay, takeaway",沙嗲雞(外賣),batch-009
 Chicken slices,雞肉片,batch-009
 "Chicken soup, cream of, canned, condensed, as served","忌廉雞湯(罐頭,濃縮,即飲)",batch-011
+"Chicken tenders, breaded, frozen, prepared","雞柳條(裹粉,冷凍,已調製)",batch-031
 "Chicken wings, marinated, meat and skin, barbecued","雞翼(醃製,連皮,炭燒)",batch-009
 "Chicken wings, marinated, meat and skin, barbecued, weighed with bone","雞翼(醃製,連皮,炭燒,連骨稱重)",batch-009
 "Chicken, ""Tsukune"" (Japanese chicken meatball)",雞肉丸(「Tsukune」日式雞肉丸),batch-016
@@ -4061,6 +4075,8 @@ Chicken slices,雞肉片,batch-009
 "Chicken, light meat, roasted","雞肉(淺色肉,烤)",batch-009
 "Chicken, meat, average, raw","雞肉(平均,生)",batch-009
 "Chicken, meat, average, roasted","雞肉(平均,烤)",batch-009
+"Chicken, meatless",素雞肉,batch-031
+"Chicken, meatless, breaded, fried","素雞肉(裹粉,炸)",batch-031
 "Chicken, mince, fried, no added fat","免治雞肉(炸,無添加脂肪)",batch-002
 "Chicken, mince, raw",免治雞肉(生),batch-002
 "Chicken, nugget, purchased from fast food chain, grilled","雞塊(購自連鎖快餐店,燒烤)",batch-002
@@ -4092,6 +4108,7 @@ Chicken slices,雞肉片,batch-009
 "Chicken, thighs, casseroled, meat and skin","雞髀(燉,連皮)",batch-009
 "Chicken, thighs, casseroled, meat and skin, weighed with bone","雞髀(燉,連皮,連骨稱重)",batch-009
 "Chicken, thighs, casseroled, meat only, diced","雞髀(燉,只計雞肉,切粒)",batch-009
+"Chicken, thighs, frozen, breaded, reheated","雞髀(冷凍,裹粉,已翻熱)",batch-031
 "Chicken, whole, corn-fed, raw, meat and skin","粟米雞(全隻,生,連皮)",batch-009
 "Chicken, whole, corn-fed, raw, meat and skin, weighed with bone","粟米雞(全隻,生,連皮,連骨稱重)",batch-009
 "Chicken, whole, corn-fed, roasted, meat and skin","粟米雞(全隻,烤,連皮)",batch-009
@@ -4112,7 +4129,14 @@ Chicken slices,雞肉片,batch-009
 "Chicken/turkey pieces, coated, baked","雞肉或火雞肉塊(裹粉,焗)",batch-009
 "Chickpea, dried",鷹嘴豆(乾),batch-001
 "Chickpea, dried, boiled, drained","鷹嘴豆(乾,烚,瀝乾)",batch-001
+"Chickpeas (garbanzo beans, bengal gram), canned, drained solids","鷹嘴豆(罐頭,瀝乾固體)",batch-031
+"Chickpeas (garbanzo beans, bengal gram), canned, drained, rinsed","鷹嘴豆(罐頭,瀝乾,沖洗)",batch-031
 "Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed","雪蓮子(罐頭,添加鈉,已瀝乾沖洗)",batch-019
+"Chickpeas (garbanzo beans, bengal gram), canned, solids and liquid","鷹嘴豆(罐頭,固體連汁)",batch-031
+"Chickpeas (garbanzo beans, bengal gram), canned, solids and liquid, reduced sodium","鷹嘴豆(罐頭,固體連汁,減鈉)",batch-031
+"Chickpeas (garbanzo beans, bengal gram), mature seeds, boiled","鷹嘴豆(成熟豆,烚)",batch-031
+"Chickpeas (garbanzo beans, bengal gram), mature seeds, boiled, salt added","鷹嘴豆(成熟豆,烚,加鹽)",batch-031
+"Chickpeas (garbanzo beans, bengal gram), mature seeds, dry","鷹嘴豆(成熟豆,乾)",batch-031
 "Chickpeas, (garbanzo beans, bengal gram), dry",雪蓮子(乾),batch-019
 "Chickpeas, mature seeds, whole, boiled","雀仔豆(成熟,連皮,煮)",batch-017
 "Chickpeas, mature seeds, whole, oil-roasted and salted","雀仔豆(成熟,連皮,油炸,加鹽)",batch-017
@@ -4123,6 +4147,10 @@ Chicken slices,雞肉片,batch-009
 Chilchen (Red Berry Beverage) (Navajo),"紅莓飲品(Chilchen,納瓦霍族)",batch-019
 "Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed","兒童配方奶(ABBOTT NUTRITION,PEDIASURE,即飲)",batch-020
 "Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed, with iron and fiber","兒童配方奶(ABBOTT NUTRITION,PEDIASURE,即飲,含鐵質及纖維)",batch-020
+"Chili con carne with beans, canned",辣肉醬連豆(罐頭),batch-031
+"Chili with beans, canned","辣豆醬(罐頭,連豆)",batch-031
+"Chili with beans, microwavable bowls",辣豆醬(可微波碗裝),batch-031
+"Chili without beans, canned",辣肉醬不含豆(罐頭),batch-031
 "Chilli (chili), dried, ground","辣椒(乾,磨粉)",batch-002
 "Chilli con carne, homemade",辣肉醬豆(自家製),batch-009
 "Chilli con carne, retail, reheated","辣肉醬豆(零售,已翻熱)",batch-009
@@ -4243,9 +4271,21 @@ Cocoa butter,可可脂,batch-007
 "Cocoa, pure powder",可可(純粉),batch-013
 "Coconut beverage, added Ca",椰子飲品(添加鈣),batch-001
 "Coconut beverage, unfortified",椰子飲品(無強化),batch-001
+"Coconut cream (liquid from grated meat), raw","椰漿(磨碎椰肉擠出的液體,生)",batch-031
 "Coconut ice, homemade",椰子糖(自家製),batch-011
+"Coconut meat, desiccated, creamed","椰肉(乾燥,磨成忌廉狀)",batch-031
+"Coconut meat, desiccated, sweetened, flaked, canned","椰肉(乾燥,加糖,片狀,罐頭)",batch-031
+"Coconut meat, desiccated, sweetened, flaked, packaged","椰肉(乾燥,加糖,片狀,包裝)",batch-031
+"Coconut meat, desiccated, sweetened, shredded","椰肉(乾燥,加糖,絲狀)",batch-031
+"Coconut meat, desiccated, toasted","椰肉(乾燥,烘烤)",batch-031
+"Coconut meat, desiccated, unsweetened","椰肉(乾燥,無糖)",batch-031
+"Coconut meat, raw",椰肉(生),batch-031
+"Coconut milk (liquid from grated meat and water), canned","椰奶(磨碎椰肉及水製成的液體,罐頭)",batch-031
+"Coconut milk (liquid from grated meat and water), frozen","椰奶(磨碎椰肉及水製成的液體,冷凍)",batch-031
+"Coconut milk (liquid from grated meat and water), raw","椰奶(磨碎椰肉及水製成的液體,生)",batch-031
 "Coconut milk, reduced fat, retail","椰漿(低脂,零售)",batch-010
 "Coconut milk, retail",椰漿(零售),batch-010
+Coconut water (liquid from coconut),椰子水(來自椰子的液體),batch-031
 "Coconut, Nata de coco in syrup",椰果(糖漿浸),batch-015
 "Coconut, coconut milk",椰漿,batch-015
 "Coconut, coconut water",椰子水,batch-015
@@ -4560,6 +4600,7 @@ Cola,可樂,batch-006
 "Coriander seed, dried, ground","芫荽籽(乾,磨粉)",batch-002
 Coriander seeds,芫荽籽,batch-008
 "Corn bran, crude",粟米麩(粗製),batch-026
+"Corn dogs, frozen, prepared","粟米熱狗(冷凍,已調製)",batch-031
 "Corn flour, masa, enriched, white","粟米粉(Masa,營養強化,白色)",batch-026
 "Corn flour, masa, unenriched, white","粟米粉(Masa,未強化,白色)",batch-026
 "Corn flour, whole-grain, white","粟米粉(全穀物,白色)",batch-026
@@ -4632,6 +4673,11 @@ Cornstarch,粟粉,batch-026
 "Couscous, dry",古斯米(乾),batch-026
 "Couscous, plain, cooked","古斯米(原味,熟)",batch-006
 "Couscous, uncooked",古斯米(未煮),batch-001
+"Cowpeas, catjang, mature seeds, cooked, boiled, with salt","小豇豆(成熟豆,熟,烚,有鹽)",batch-031
+"Cowpeas, catjang, mature seeds, raw","小豇豆(成熟豆,生)",batch-031
+"Cowpeas, common (blackeyes, crowder, southern), mature seeds, canned with pork","眉豆(普通,成熟豆,罐頭,加豬肉)",batch-031
+"Cowpeas, common (blackeyes, crowder, southern), mature seeds, canned, plain","眉豆(普通,成熟豆,罐頭,原味)",batch-031
+"Cowpeas, common (blackeyes, crowder, southern), mature seeds, raw","眉豆(普通,成熟豆,生)",batch-031
 "Cowpeas, mature seeds, whole, dried, boiled","豇豆(成熟,連皮,乾,煮)",batch-017
 "Cowpeas, mature seeds, whole, raw","豇豆(成熟,連皮,生)",batch-017
 "Crab, brown meat, purchased cooked","蟹(褐色蟹膏,購買時已煮熟)",batch-007
@@ -5208,6 +5254,7 @@ Dried mixed fruit,雜果乾,batch-008
 "Duck, wild, meat without skin, raw","野鴨肉(去皮,生)",batch-016
 Dulce de Leche,牛奶焦糖醬(Dulce de Leche),batch-026
 "Dumpling, plain",麵粉糰子(原味),batch-003
+"Dumpling, potato- or cheese-filled, frozen","餃子(薯仔餡或芝士餡,冷凍)",batch-031
 "Dumplings, homemade",湯丸(自家製),batch-006
 "Durian, raw",榴槤(生),batch-015
 "Durian, raw or frozen",榴槤(生或冷凍),batch-029
@@ -5230,6 +5277,9 @@ Dulce de Leche,牛奶焦糖醬(Dulce de Leche),batch-026
 Egg Benedict,班尼迪克蛋,batch-004
 Egg fu yung,芙蓉蛋,batch-007
 "Egg nog, homemade",蛋酒(自家製),batch-006
+"Egg roll, chicken, refrigerated, heated","雞肉春卷(冷藏,已加熱)",batch-031
+"Egg roll, pork, refrigerated, heated","豬肉春卷(冷藏,已加熱)",batch-031
+"Egg rolls, vegetable, frozen, prepared","蔬菜春卷(冷凍,已調製)",batch-031
 "Egg substitute, powder",雞蛋代替品(粉狀),batch-026
 "Egg, chicken, Spanish omelet, with onion, peppers, tomatoes and mushrooms","雞蛋(西班牙式蛋卷,加洋蔥,燈籠椒,番茄及蘑菇)",batch-004
 "Egg, chicken, Western omelet, with peppers, onion and ham","雞蛋(西式蛋卷,加燈籠椒,洋蔥及火腿)",batch-004
@@ -5348,6 +5398,7 @@ Eggnog,蛋酒,batch-026
 Fajita with chicken and vegetables,雞肉蔬菜墨西哥法吉達,batch-005
 "Fajita, chicken, meat only, takeaway and restaurant","雞肉法士達(只計肉,外賣及餐廳)",batch-009
 "Falafel, fried in rapeseed oil, homemade","炸豆丸子(以芥花籽油炸,自家製)",batch-012
+"Falafel, homemade",法拉費炸豆丸(自家製),batch-031
 "Farro, pearled, dry, raw","法羅小麥(去皮,乾,生)",batch-019
 "Fast Food, Pizza Chain, 14"" pizza, cheese topping, stuffed crust",快餐薄餅連鎖店14吋芝士薄餅(芝士邊),batch-027
 "Fast Food, Pizza Chain, 14"" pizza, sausage topping, thick crust",快餐薄餅連鎖店14吋香腸薄餅(厚批底),batch-027
@@ -6186,8 +6237,10 @@ Fish paste,魚醬,batch-007
 Frankfurter,法蘭克福腸,batch-009
 Frankfurter with bun,法蘭克福腸熱狗包,batch-009
 "Frankfurter with bun, ketchup, fried onions and mustard","法蘭克福腸熱狗包(加茄汁,炒洋蔥及芥末)",batch-009
+"Frankfurter, meatless",素熱狗腸,batch-031
 "French toast, frozen, ready to heat","西多士(冷凍,即熱型)",batch-021
 "French toast, homemade, with 2% M.F. milk and margarine","西多士(自家製,用2%脂肪牛奶及瑪琪琳)",batch-021
+"Frijoles rojos volteados (Refried beans, red, canned)","紅豆泥(罐頭,紅腰豆,墨西哥式)",batch-031
 "Frog legs, raw",田雞腿(生),batch-028
 "Fromage frais, fruit, children's, fortified","法式鮮乳酪(水果味,兒童裝,強化)",batch-010
 "Fromage frais, virtually fat free, fruit","法式鮮乳酪(近乎無脂,水果味)",batch-010
@@ -6540,6 +6593,7 @@ Gooseberry raw,醋栗(生),batch-015
 "Grains, cornmeal (yellow), degermed","穀物(黃粟米糝,去胚芽)",batch-026
 "Grains, oats, dry","穀物(燕麥,乾)",batch-026
 "Grains, quinoa, flour",藜麥粉,batch-004
+"Grains, rice and vermicelli mix, pilaf flavour, prepared with margarine","穀物(米及粉絲混合,抓飯味,以人造牛油製備)",batch-031
 "Grains, rice, brown, long-grain, cooked","穀物(糙米,長粒,熟)",batch-026
 "Grains, rice, brown, long-grain, dry","穀物(糙米,長粒,乾)",batch-026
 "Grains, rice, brown, medium-grain, cooked","穀物(糙米,中粒,熟)",batch-026
@@ -6683,6 +6737,19 @@ Gravy instant granules,即食肉汁顆粒,batch-011
 "Guinea fowl, meat without skin, raw","珍珠雞肉(去皮,生)",batch-016
 "Gulab jamen/jambu, homemade","印度炸奶球(Gulab jamun,自家製)",batch-006
 "Gulab jamen/jambu, retail","印度炸奶球(Gulab jamun,零售)",batch-006
+"HORMEL ALWAYS TENDER, Boneless Pork Loin, Fresh Pork",HORMEL ALWAYS TENDER 去骨豬腰肉(新鮮豬肉),batch-031
+"HORMEL ALWAYS TENDER, Center Cut Chops, Fresh Pork",HORMEL ALWAYS TENDER 中段豬扒(新鮮豬肉),batch-031
+"HORMEL ALWAYS TENDER, Pork Loin Filets, Lemon Garlic-Flavored",HORMEL ALWAYS TENDER 豬腰柳片(檸檬蒜蓉味),batch-031
+"HORMEL ALWAYS TENDER, Pork Tenderloin, Peppercorn-Flavored",HORMEL ALWAYS TENDER 豬柳(胡椒粒味),batch-031
+"HORMEL ALWAYS TENDER, Pork Tenderloin, Teriyaki-Flavored",HORMEL ALWAYS TENDER 豬柳(照燒味),batch-031
+HORMEL Canadian Style Bacon,HORMEL 加拿大式煙肉,batch-031
+"HORMEL, Cure 81 Ham",HORMEL Cure 81 火腿,batch-031
+"HOT POCKETS Ham 'N Cheese Stuffed Sandwich, frozen",HOT POCKETS 火腿芝士餡三明治(冷凍),batch-031
+"HOT POCKETS, CROISSANT POCKETS Chicken, Broccoli, and Cheddar Stuffed Sandwich, frozen",HOT POCKETS 牛角包袋 雞肉西蘭花車打芝士餡三明治(冷凍),batch-031
+"HOT POCKETS, meatballs & mozzarella stuffed sandwich, frozen",HOT POCKETS 肉丸及莫澤雷勒芝士餡三明治(冷凍),batch-031
+HOUSE FOODS Premium Firm Tofu,HOUSE FOODS 優質硬豆腐,batch-031
+HOUSE FOODS Premium Soft Tofu,HOUSE FOODS 優質軟豆腐,batch-031
+"HUNGRY MAN, Salisbury Steak With Gravy, frozen, unprepared","HUNGRY MAN 沙律斯堡扒配肉汁(冷凍,未經調製)",batch-031
 "Haddock, coated in crumbs, frozen, fried in blended oil","黑線鱈(裹麵包糠,冷凍,用混合油炸)",batch-007
 "Haddock, coated in crumbs, frozen, fried in blended oil, weighed with bones and skin","黑線鱈(裹麵包糠,冷凍,用混合油炸,連骨連皮稱重)",batch-007
 "Haddock, coated in crumbs, frozen, raw","黑線鱈(裹麵包糠,冷凍,生)",pilot
@@ -6720,9 +6787,12 @@ Gravy instant granules,即食肉汁顆粒,batch-011
 "Halva, carrot, homemade",甘筍哈爾瓦甜品(自家製),batch-011
 "Halva, semolina, homemade",粗麥粉哈爾瓦甜品(自家製),batch-011
 Ham,火腿,batch-009
+"Ham, extra lean, canned","火腿(特瘦,罐頭)",batch-031
 "Ham, gammon joint, boiled",豬後腿火腿肉塊(烚),batch-009
 "Ham, gammon joint, raw",豬後腿火腿肉塊(生),batch-009
 "Ham, gammon rashers, grilled",豬後腿火腿片(燒烤),batch-009
+"Ham, lean, canned","火腿(瘦,罐頭)",batch-031
+"Ham, regular (13% fat), canned","火腿(普通(13%脂肪),罐頭)",batch-031
 "Ham, sliced, restaurant",火腿片(餐廳式),batch-019
 "Hamburger, white roll, beef patty, with cheese, onion, pickles & sauce, fast food chain","漢堡包(白麵包,牛肉餅,連芝士、洋蔥、酸瓜及醬汁,連鎖快餐店)",batch-001
 "Hare, meat only, stewed","野兔(只計肉,炆)",batch-009
@@ -6784,8 +6854,11 @@ Horseradish sauce,辣根醬,batch-011
 Houmous,鷹嘴豆泥,batch-012
 "Huckleberries, raw",黑果越橘(生),batch-020
 "Hummus, commercial",鷹嘴豆泥(市售),batch-019
+"Hummus, homemade",鷹嘴豆泥(自家製),batch-031
 "Hush puppy, homemade","玉米炸球(hush puppy,自家製)",batch-021
 "Hyacinth beans, immature pods, raw","扁豆(未成熟豆莢,生)",batch-018
+"Hyacinth beans, mature seeds, cooked, boiled, with salt","扁豆(藊豆,成熟豆,熟,烚,有鹽)",batch-031
+"Hyacinth beans, mature seeds, raw","扁豆(藊豆,成熟豆,生)",batch-031
 "Ice cream bar, covered with chocolate and nuts",雪糕條(朱古力及果仁面層),batch-026
 "Ice cream bar, stick or nugget, with crunch coating","雪糕條(棒裝或粒狀,脆皮面層)",batch-026
 "Ice cream bars/choc ices, chocolate coated, luxury","雪糕條或朱古力雪條(朱古力外層,高級)",batch-010
@@ -6944,6 +7017,7 @@ Ice cream sundae cone,新地雪糕筒,batch-026
 "Instant drinks powder, malted, unfortified",即溶麥芽飲品沖劑(未強化),pilot
 "Instant soup mix, ""Sumashi-jiru"" (Japanese traditional clear-soup)",即沖湯料(日式清湯),batch-017
 "Interstate Brands Corp, Wonder Hamburger Rolls",漢堡包麵包(Interstate Brands Corp Wonder),batch-021
+"JIMMY DEAN, Sausage, Egg, and Cheese Breakfast Biscuit, frozen, unprepared","JIMMY DEAN 香腸雞蛋芝士早餐鬆餅(冷凍,未經調製)",batch-031
 "Jackfish, raw",鰺魚(生),batch-007
 "Jackfruit, canned, syrup pack","菠蘿蜜(罐頭,糖漿裝)",batch-029
 "Jackfruit, raw",菠蘿蜜(生),batch-012
@@ -7161,6 +7235,7 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Kraft, Stove Top Stuffing Mix Chicken Flavor","餡料預拌粉(Kraft Stove Top,雞肉味)",batch-021
 "Kulfi, homemade",印度奶雪糕(自家製),batch-010
 "Kumquats, whole fruit, raw","金桔(全果,生)",batch-008
+"LEAN POCKETS, Ham N Cheddar",LEAN POCKETS 火腿車打芝士餡,batch-031
 "LITTLE CAESARS 14"" Cheese Pizza, Large Deep Dish Crust",小凱撒 14吋芝士薄餅(大號厚批底),batch-027
 "LITTLE CAESARS 14"" Cheese Pizza, Thin Crust",小凱撒 14吋芝士薄餅(薄批底),batch-027
 "LITTLE CAESARS 14"" Original Round Cheese Pizza, Regular Crust",小凱撒 14吋原味圓形芝士薄餅(普通批底),batch-027
@@ -7632,7 +7707,12 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lambsquarters, steamed (Northern Plains Indians)","藜(蒸,北部平原印第安人)",batch-020
 "Lancashire hotpot, homemade",蘭開夏火鍋燉羊肉(自家製),batch-009
 "Langoustine, boiled",挪威海螯蝦(烚),batch-007
+"Lasagna with meat & sauce, frozen entree",千層麵配肉醬(冷凍主菜),batch-031
+"Lasagna with meat & sauce, low-fat, frozen entree","千層麵配肉醬(低脂,冷凍主菜)",batch-031
+"Lasagna with meat sauce, frozen, prepared","肉醬千層麵(冷凍,已調製)",batch-031
 "Lasagna with meat sauce, homemade",肉醬千層麵(自家製),batch-005
+"Lasagna, Vegetable, frozen, baked","蔬菜千層麵(冷凍,焗)",batch-031
+"Lasagna, cheese, frozen, prepared","芝士千層麵(冷凍,已調製)",batch-031
 "Lasagna, cheese, frozen, unprepared","芝士千層麵(冷凍,未經調製)",pilot
 "Lasagna, vegetarian, homemade",素千層麵(自家製),batch-005
 "Lasagne, beef, homemade","千層麵(牛肉,家庭自製)",batch-001
@@ -7654,6 +7734,7 @@ Laverbread,紫菜麵包,batch-012
 "Leaf mustard, ""Karashina"", leaves, salted pickles","芥菜(葉,鹽漬)",batch-018
 "Leaf mustard, ""Takana"", leaves, raw","高菜(葉,生)",batch-018
 "Leaf mustard, ""Takana"", leaves, salted pickles","高菜(葉,鹽漬)",batch-018
+"Lean Pockets, Meatballs & Mozzarella",Lean Pockets 肉丸及莫澤雷勒芝士餡,batch-031
 "Leavening agent, baking powder, double acting, phosphate","發粉(雙重反應,磷酸鹽型)",batch-021
 "Leavening agent, baking powder, low sodium",發粉(低鈉),batch-021
 "Leavening agent, baking soda",小蘇打,batch-021
@@ -7719,9 +7800,13 @@ Lemonade,檸檬汽水,batch-006
 "Lentils, flour",小扁豆粉,batch-005
 "Lentils, green and brown, whole, dried, boiled in unsalted water","青扁豆及棕扁豆(整粒,乾,以無鹽水煮)",batch-012
 "Lentils, green and brown, whole, dried, raw","青扁豆及棕扁豆(整粒,乾,生)",batch-012
+"Lentils, mature seeds, boiled","小扁豆(成熟豆,烚)",batch-031
+"Lentils, mature seeds, boiled, salt added","小扁豆(成熟豆,烚,加鹽)",batch-031
 "Lentils, mature seeds, whole, boiled","扁豆(成熟,連皮,煮)",batch-017
 "Lentils, mature seeds, whole, raw","扁豆(成熟,連皮,生)",batch-017
+"Lentils, pink or red, raw",粉紅或紅小扁豆(生),batch-031
 "Lentils, pink, mature seeds, boiled","粉紅小扁豆(成熟種子,烚)",batch-005
+"Lentils, raw",小扁豆(生),batch-031
 "Lentils, red, split, dried, boiled in unsalted water","紅扁豆(去皮split,乾,以無鹽水煮)",batch-012
 "Lentils, red, split, dried, raw","紅扁豆(去皮split,乾,生)",batch-012
 "Leopard plant, petiole, boiled","蜂斗菜(葉柄,煮)",batch-018
@@ -7743,6 +7828,8 @@ Lemonade,檸檬汽水,batch-006
 "Light Ice Cream, soft serve, blended with milk chocolate candies","輕盈雪糕(軟雪糕,混入牛奶朱古力糖)",batch-027
 "Light ice cream, Creamsicle",輕怡雪糕(Creamsicle橙味),batch-026
 "Lily, bulb, boiled","百合(鱗莖,煮)",batch-018
+"Lima beans, large, mature seeds, canned","大粒利馬豆(成熟豆,罐頭)",batch-031
+"Lima beans, large, mature seeds, raw","大粒利馬豆(成熟豆,生)",batch-031
 "Lima beans, mature seeds, whole, boiled","利馬豆(成熟,連皮,煮)",batch-017
 "Lima beans, mature seeds, whole, raw","利馬豆(成熟,連皮,生)",batch-017
 "Lime juice cordial, diluted",青檸汁濃縮飲品(已稀釋),batch-006
@@ -7805,6 +7892,7 @@ Liver sausage,肝腸,batch-009
 "Lotus tubers, raw",蓮藕(生),batch-012
 Lucozade,Lucozade能量飲品,batch-006
 "Luncheon meat, Chinese, steamed",中式午餐肉(蒸),batch-009
+"Luncheon slices, meatless",素午餐肉片,batch-031
 "Lunchmeat, chicken breast, sliced",雞胸午餐肉(切片),batch-019
 "Lunchmeat, ham, black forest, sliced",黑森林火腿午餐肉(切片),batch-019
 "Lunchmeat, roast beef, sliced, prepackaged","烤牛肉午餐肉(切片,預先包裝)",batch-019
@@ -7812,12 +7900,26 @@ Lucozade,Lucozade能量飲品,batch-006
 "Lupin, dehulled, flakes, uncooked","羽扇豆片(去殼,未煮)",pilot
 "Lupin, dehulled, splits, uncooked","羽扇豆(去殼,瓣,未煮)",batch-001
 "Lupin, whole, uncooked","羽扇豆(全粒,未煮)",batch-001
+"Lupins, mature seeds, boiled","羽扇豆(成熟豆,烚)",batch-031
+"Lupins, mature seeds, boiled, salt added","羽扇豆(成熟豆,烚,加鹽)",batch-031
+"Lupins, mature seeds, dry","羽扇豆(成熟豆,乾)",batch-031
 "Lychees, flesh only, raw, weighed with skin and stone","荔枝(只計果肉,生,連皮連核稱重)",batch-008
+"MORI-NU, Tofu, silken, extra firm",MORI-NU 嫩滑豆腐(特硬),batch-031
+"MORI-NU, Tofu, silken, soft",MORI-NU 嫩滑豆腐(軟),batch-031
 "Macadamia nuts, roasted and salted","夏威夷果(烤,加鹽)",batch-017
 "Macadamia nuts, salted",夏威夷果(有鹽),batch-010
 "Macaroni & cheese, homemade, cooked unfilled pasta, homemade cheese sauce","芝士通粉(家庭自製,已煮無餡意粉,家庭自製芝士醬)",batch-001
+"Macaroni and Cheese, canned entree",芝士通粉(罐頭主菜),batch-031
+"Macaroni and Cheese, canned, microwavable","芝士通粉(罐頭,可微波)",batch-031
 "Macaroni and beef in tomato sauce, frozen",番茄醬牛肉通粉(雪藏),batch-005
+"Macaroni and cheese dinner with dry sauce mix, boxed, uncooked","芝士通粉晚餐(附乾醬粉,盒裝,未煮)",batch-031
+"Macaroni and cheese, box mix with cheese sauce, prepared","芝士通粉(盒裝配芝士醬,已調製)",batch-031
+"Macaroni and cheese, box mix with cheese sauce, unprepared","芝士通粉(盒裝配芝士醬,未經調製)",batch-031
+"Macaroni and cheese, dry mix, prepared with 2% milk and 80% stick margarine from dry mix","芝士通粉(乾粉包,以2%牛奶及80%條裝人造牛油調製)",batch-031
+"Macaroni and cheese, frozen entree",芝士通粉(冷凍主菜),batch-031
 "Macaroni cheese, homemade",芝士通粉(自家製),batch-007
+"Macaroni or noodles with cheese, made from reduced fat packaged mix, unprepared","芝士通粉或芝士麵條(減脂包裝粉,未經調製)",batch-031
+"Macaroni or noodles with cheese, microwaveable, unprepared","芝士通粉或芝士麵條(可微波,未經調製)",batch-031
 "Macaroni, vegetable, enriched, cooked","蔬菜通粉(營養強化,熟)",batch-026
 "Macaroni, vegetable, enriched, dry","蔬菜通粉(營養強化,乾)",batch-026
 "Macaroon, homemade",杏仁蛋白餅(自家製),batch-007
@@ -8001,6 +8103,7 @@ McDONALD'S Bacon Ranch Salad with Crispy Chicken,麥當勞 煙肉田莊醬沙律
 "Meat alternative, protein (soy/wheat/pea) base, as purchased","肉類替代品(蛋白質(大豆、小麥或豌豆)為主,購買時)",batch-001
 "Meat alternative, protein (soy/wheat/pea) base, cooked","肉類替代品(蛋白質(大豆、小麥或豌豆)為主,熟)",batch-001
 "Meat drippings (lard, beef tallow, mutton tallow)","肉汁油脂(豬油,牛脂,羊脂)",batch-004
+Meat extender,肉類增量劑,batch-031
 "Meat loaf with tomato sauce, mashed potatoes and peas","肉餅配番茄醬,薯蓉及豌豆",batch-005
 "Meat loaf, homemade",肉卷(自家製),batch-009
 "Meat samosas, takeaway",肉餡咖喱角(外賣),batch-009
@@ -8009,8 +8112,14 @@ Meat spread,肉醬,batch-009
 "Meatball or rissole, beef mince, commercial, raw","肉丸或肉餅(牛肉碎,市售,生)",batch-002
 "Meatball or rissole, beef, commercial, cooked","肉丸或肉餅(牛肉,市售,熟)",batch-002
 "Meatball, frozen",肉丸(冷凍),batch-017
+"Meatballs, meatless",素肉丸,batch-031
 "Meatballs, pork and beef, in tomato sauce, homemade",番茄汁豬牛肉丸(自家製),batch-009
 "Meatballs, sweet and sour",糖醋肉丸,batch-005
+"Meatless, fillets",素肉柳,batch-031
+"Meatless, meat loaf or patty",素肉餅或素肉卷,batch-031
+"Meatless, sandwich spread",素三明治抹醬,batch-031
+"Meatless, sausage",素香腸,batch-031
+"Meatless, soy burger patty, unprepared",素大豆漢堡肉餅(未經調製),batch-031
 "Medlars, flesh only",歐楂(只計果肉),batch-008
 "Melon balls, frozen",瓜球(冷凍),batch-029
 Melon seeds,瓜子,batch-010
@@ -8166,6 +8275,7 @@ Mint sauce,薄荷醬,batch-011
 "Mint, fresh",薄荷(新鮮),batch-002
 Mirin,味醂,batch-001
 Mirin-like sweet cooking seasoning,類味醂甜味調味料,batch-017
+Miso,麵豉,batch-031
 "Miso, ""Goma-miso"" (miso sauce containing sesami)",芝麻味噌醬,batch-017
 "Miso, ""Karashi-miso"" (miso sauce containing mustard, vinegar and sugar)",芥末味噌醬(含芥末、醋及糖),batch-017
 "Miso, ""Neri-miso"" (miso sauce containing egg and mirin)",煉味噌醬(含蛋及味醂),batch-017
@@ -8291,6 +8401,9 @@ Molasses,糖蜜,batch-011
 "Morwong, fillet, grilled, no added fat","澳洲鯛魚(魚柳,燒烤,無添加脂肪)",batch-001
 "Morwong, fillet, raw","澳洲鯛魚(魚柳,生)",batch-001
 "Morwong, fillet, steamed, no added fat","澳洲鯛魚(魚柳,蒸,無添加脂肪)",batch-001
+"Moth beans, mature seeds, boiled","飛蛾豆(成熟豆,烚)",batch-031
+"Moth beans, mature seeds, boiled, salt added","飛蛾豆(成熟豆,烚,加鹽)",batch-031
+"Mothbeans, mature seeds, raw","飛蛾豆(成熟豆,生)",batch-031
 "Mountain sorrel, Indigenous, leaves, raw","山酸模葉(原住民食物,生)",batch-006
 "Mouse nuts, roots (Alaska Native)","鼠堅果(根,阿拉斯加原住民)",batch-020
 "Mouse nuts, seedlings (Alaska Native)","鼠堅果(幼苗,阿拉斯加原住民)",batch-020
@@ -8354,8 +8467,11 @@ Molasses,糖蜜,batch-011
 "Mume, raw",梅(生),batch-015
 "Mume, salted pickles",梅(鹽醃),batch-015
 "Mume,""Umebishio"" (sweetened puree of pickled mume)",梅(「Umebishio」醃梅甜蓉),batch-015
+"Mung beans, mature seeds, cooked, boiled, with salt","綠豆(成熟豆,熟,烚,有鹽)",batch-031
+"Mung beans, mature seeds, cooked, boiled, without salt","綠豆(成熟豆,熟,烚,無鹽)",batch-031
 "Mung beans, mature seeds, raw","綠豆(成熟,生)",batch-017
 "Mung beans, mature seeds, whole, boiled","綠豆(成熟,連皮,煮)",batch-017
+"Mungo beans, mature seeds, raw","黑吉豆(成熟豆,生)",batch-031
 "Mush, blue corn with ash (Navajo)","藍粟米糊(混草木灰,納瓦霍族)",batch-020
 "Mushroom, Maitake, raw",舞茸(生),batch-016
 "Mushroom, beech",蟹味菇,pilot
@@ -8458,6 +8574,7 @@ Mustard seeds,芥菜籽,batch-008
 "Nance, canned, syrup, drained","南西果(罐頭,糖漿,瀝乾)",batch-029
 "Nance, frozen, unsweetened","南西果(冷凍,無糖)",batch-029
 "Naranjilla (lulo) pulp, frozen, unsweetened","小橙茄(盧洛果)果肉(冷凍,無糖)",batch-029
+Natto,納豆,batch-031
 "Nectarine, raw",油桃(生),batch-015
 "Nectarine, white, unpeeled, raw","油桃(白色,連皮,生)",batch-001
 "Nectarine, yellow, unpeeled, raw","油桃(黃色,連皮,生)",batch-001
@@ -8484,6 +8601,7 @@ Mustard seeds,芥菜籽,batch-008
 "Noodle, wheat, instant, unflavoured, boiled, drained","即食小麥麵(無調味,烚,瀝乾)",batch-001
 "Noodle, wheat, instant, unflavoured, boiled, undrained","即食小麥麵(無調味,烚,未瀝乾)",batch-001
 "Noodle, wheat, instant, unflavoured, dry, uncooked","即食小麥麵(無調味,乾,未煮)",batch-001
+"Noodles, chinese, cellophane or long rice (mung beans), dehydrated","粉絲(綠豆,脫水)",batch-031
 "Noodles, chinese, chow mein",中式麵條(炒麵),batch-026
 "Noodles, egg, cooked, enriched, with added salt","蛋麵(熟,營養強化,加鹽)",batch-026
 "Noodles, egg, cooked, unenriched, with added salt","蛋麵(熟,未強化,加鹽)",batch-026
@@ -8528,27 +8646,95 @@ Mustard seeds,芥菜籽,batch-008
 "Nutmeg, dried, ground","肉豆蔻(乾,磨粉)",batch-002
 "Nutmeg, ground",肉豆蔻粉,batch-008
 "Nutritional supplement for people with diabetes, liquid",糖尿病人營養補充品(液體),batch-026
+"Nuts, Chinese chestnuts, boiled and steamed","堅果(板栗,烚或蒸)",batch-031
+"Nuts, Chinese chestnuts, dried","堅果(板栗,乾)",batch-031
+"Nuts, Chinese chestnuts, raw","堅果(板栗,生)",batch-031
+"Nuts, Chinese chestnuts, roasted","堅果(板栗,烤)",batch-031
+"Nuts, Japanese chestnuts, boiled and steamed","堅果(日本栗子,烚或蒸)",batch-031
+"Nuts, Japanese chestnuts, dried","堅果(日本栗子,乾)",batch-031
+"Nuts, Japanese chestnuts, raw","堅果(日本栗子,生)",batch-031
+"Nuts, Japanese chestnuts, roasted","堅果(日本栗子,烤)",batch-031
+"Nuts, acorn flour, full fat","堅果(橡子粉,全脂)",batch-031
+"Nuts, acorns, dried","堅果(橡子,乾)",batch-031
+"Nuts, acorns, raw","堅果(橡子,生)",batch-031
 "Nuts, almond butter, honey and cinnamon, salt added","杏仁醬(蜜糖玉桂,有鹽)",batch-005
+"Nuts, almond butter, plain",杏仁醬(原味),batch-031
+"Nuts, almond butter, plain, salt added","杏仁醬(原味,加鹽)",batch-031
 "Nuts, almond meal, partially defatted",杏仁粉(部分脫脂),batch-005
 "Nuts, almond meal, partially defatted, salt added","杏仁粉(部分脫脂,加鹽)",pilot
+"Nuts, almond paste",杏仁膏,batch-031
+"Nuts, almonds",杏仁,batch-031
+"Nuts, almonds, blanched",杏仁(去衣),batch-031
 "Nuts, almonds, dry roasted, unblanched","杏仁(乾烤,未去皮)",batch-019
+"Nuts, almonds, honey roasted, unblanched","杏仁(蜜糖烤,未去衣)",batch-031
 "Nuts, almonds, oil roasted, blanched","杏仁(油炸,去衣)",batch-005
 "Nuts, almonds, oil roasted, blanched, salt added","杏仁(油炸,去衣,有鹽)",batch-005
+"Nuts, almonds, oil roasted, lightly salted","杏仁(油炸烤,微鹽)",batch-031
+"Nuts, almonds, oil roasted, smoke flavour, salt added","杏仁(油炸烤,煙燻味,加鹽)",batch-031
+"Nuts, almonds, oil roasted, unblanched","杏仁(油炸烤,未去衣)",batch-031
 "Nuts, almonds, oil roasted, with salt added","杏仁(油炒,有鹽)",pilot
 "Nuts, almonds, toasted, unblanched","杏仁(烘過,未去衣)",batch-005
 "Nuts, almonds, whole, raw","杏仁(原粒,生)",batch-019
+"Nuts, beechnuts, dried",山毛櫸堅果(乾),batch-031
+"Nuts, brazilnuts, dried, unblanched","巴西果(乾,未去衣)",batch-031
 "Nuts, brazilnuts, raw",巴西果(生),batch-019
+"Nuts, butternuts, dried",灰胡桃(乾),batch-031
+"Nuts, cashew butter, plain",腰果醬(原味),batch-031
+"Nuts, cashew butter, plain, salt added","腰果醬(原味,加鹽)",batch-031
+"Nuts, cashew nuts, dry roasted",腰果(乾烤),batch-031
+"Nuts, cashew nuts, dry roasted, salt added","腰果(乾烤,加鹽)",batch-031
+"Nuts, cashew nuts, oil roasted",腰果(油炸烤),batch-031
+"Nuts, cashew nuts, oil roasted, salt added","腰果(油炸烤,加鹽)",batch-031
+"Nuts, chestnuts, european, boiled and steamed",歐洲栗子(烚或蒸),batch-031
+"Nuts, chestnuts, european, dried, peeled","歐洲栗子(乾,去殼)",batch-031
+"Nuts, chestnuts, european, dried, unpeeled","歐洲栗子(乾,未去殼)",batch-031
+"Nuts, chestnuts, european, raw, peeled","歐洲栗子(生,去殼)",batch-031
+"Nuts, chestnuts, european, raw, unpeeled","歐洲栗子(生,未去殼)",batch-031
+"Nuts, chestnuts, european, roasted",歐洲栗子(烤),batch-031
+"Nuts, coconut cream, canned, sweetened","椰子忌廉(罐頭,加糖)",batch-031
 "Nuts, filberts or hazelnuts, dry roasted, unblanched","榛子(乾烤,未去衣)",pilot
+"Nuts, formulated, wheat-based, all flavors except macadamia, without salt","合成堅果(小麥製,各種口味除夏威夷果外,無鹽)",batch-031
+"Nuts, formulated, wheat-based, unflavored, with salt added","合成堅果(小麥製,原味,加鹽)",batch-031
+"Nuts, ginkgo nuts, canned",白果(罐頭),batch-031
+"Nuts, ginkgo nuts, dried",白果(乾),batch-031
+"Nuts, hazelnuts or filberts",榛子,batch-031
+"Nuts, hazelnuts or filberts, blanched",榛子(去衣),batch-031
 "Nuts, hazelnuts or filberts, raw",榛子(生),batch-019
+"Nuts, hickorynuts, dried",山核桃(乾),batch-031
 "Nuts, macadamia (bushnuts, queensland), oil roasted",夏威夷果(油炸),batch-005
 "Nuts, macadamia (bushnuts, queensland), oil roasted, salt added","夏威夷果(油炸,有鹽)",batch-005
 "Nuts, macadamia nuts, raw",夏威夷果(生),batch-019
 "Nuts, macadamia, dry roasted, salt added","夏威夷果(乾烤,加鹽)",pilot
+"Nuts, macadamia, dry roasted, unsalted","夏威夷果(乾烤,無鹽)",batch-031
 "Nuts, mixed",什錦果仁,batch-010
+"Nuts, mixed nuts, dry roasted with peanuts","什錦堅果(乾烤,含花生)",batch-031
+"Nuts, mixed nuts, dry roasted with peanuts, salt added","什錦堅果(乾烤,含花生,加鹽)",batch-031
+"Nuts, mixed nuts, dry roasted, with peanuts, salt added, CHOSEN ROASTER","什錦堅果(乾烤,含花生,加鹽,CHOSEN ROASTER)",batch-031
+"Nuts, mixed nuts, dry roasted, with peanuts, salt added, PLANTERS pistachio blend","什錦堅果(乾烤,含花生,加鹽,PLANTERS 開心果混合)",batch-031
+"Nuts, mixed nuts, oil roasted with peanuts","什錦堅果(油炸烤,含花生)",batch-031
+"Nuts, mixed nuts, oil roasted with peanuts, lightly salted","什錦堅果(油炸烤,含花生,微鹽)",batch-031
+"Nuts, mixed nuts, oil roasted with peanuts, salt added","什錦堅果(油炸烤,含花生,加鹽)",batch-031
+"Nuts, mixed nuts, oil roasted without peanuts","什錦堅果(油炸烤,不含花生)",batch-031
+"Nuts, mixed nuts, oil roasted without peanuts, lightly salted","什錦堅果(油炸烤,不含花生,微鹽)",batch-031
+"Nuts, mixed nuts, oil roasted without peanuts, salt added","什錦堅果(油炸烤,不含花生,加鹽)",batch-031
+"Nuts, pecans",美洲山核桃,batch-031
+"Nuts, pecans, dry roasted",美洲山核桃(乾烤),batch-031
+"Nuts, pecans, dry roasted, salt added","美洲山核桃(乾烤,加鹽)",batch-031
 "Nuts, pecans, halves, raw","美洲山核桃(半粒,生)",batch-019
+"Nuts, pecans, oil roasted",美洲山核桃(油炸烤),batch-031
+"Nuts, pecans, oil roasted, salt added","美洲山核桃(油炸烤,加鹽)",batch-031
+"Nuts, pilinuts, dried",菲律賓橄欖仁(乾),batch-031
+"Nuts, pine nuts, dried",松子(乾),batch-031
+"Nuts, pine nuts, pinyon, dried","松子(皮諾松,乾)",batch-031
 "Nuts, pine nuts, raw",松子(生),batch-019
+"Nuts, pistachio nuts, dry roasted",開心果(乾烤),batch-031
+"Nuts, pistachio nuts, dry roasted, salt added","開心果(乾烤,加鹽)",batch-031
 "Nuts, pistachio nuts, raw",開心果(生),batch-019
 "Nuts, walnuts, English, halves, raw","核桃(英國核桃,半粒,生)",batch-019
+"Nuts, walnuts, black, dried",黑核桃(乾),batch-031
+"Nuts, walnuts, dry roasted, with salt added","合桃(乾烤,加鹽)",batch-031
+"Nuts, walnuts, english",合桃(英國核桃),batch-031
+"Nuts, walnuts, glazed",糖衣合桃,batch-031
 "Oat beverage, fluid, added Ca","燕麥飲品(液體,添加鈣)",batch-001
 "Oat beverage, fluid, added calcium & vitamins","燕麥飲品(液體,添加鈣及維他命)",batch-001
 "Oat beverage, fluid, unfortified","燕麥飲品(液體,無強化)",batch-001
@@ -8633,6 +8819,7 @@ Octopus (Alaska Native),八爪魚(阿拉斯加原住民),batch-020
 "Oil, walrus (Alaska Native)",海象油(阿拉斯加原住民),batch-020
 "Oil, whale, bowhead (Alaska Native)",弓頭鯨油(阿拉斯加原住民),batch-020
 "Oil, wheat germ",麥芽油,batch-028
+Okara,豆渣,batch-031
 "Okra with tomatoes and onion, Greek, homemade","希臘式秋葵(配番茄洋蔥,自家製)",batch-012
 "Okra with tomatoes and onion, West Indian, homemade","西印度式秋葵(配番茄洋蔥,自家製)",batch-012
 "Okra, boiled in unsalted water",秋葵(以無鹽水煮),batch-012
@@ -8820,6 +9007,7 @@ Palm kernel oil,棕櫚仁油,batch-014
 "Pangasius, flesh only, baked","巴沙魚(只計魚肉,焗)",batch-007
 "Pangasius, flesh only, poached","巴沙魚(只計魚肉,水煮)",batch-007
 "Pangasius, flesh only, raw","巴沙魚(只計魚肉,生)",batch-007
+Papad,印度薄脆豆餅,batch-031
 "Papadums, takeaway",印度脆餅(外賣),batch-007
 "Papaya nectar, canned",木瓜汁(罐頭),batch-029
 "Papaya, canned, heavy syrup, drained","木瓜(罐頭,濃糖漿,已瀝乾)",pilot
@@ -8853,10 +9041,15 @@ Passion fruit juice,熱情果汁,batch-008
 "Pasta and sauce mixes, dried, raw","意粉及醬料預拌粉(乾,生)",batch-007
 "Pasta dish, homemade, cooked unfilled pasta, homemade beef bolognese sauce & added vegetables","意粉料理(家庭自製,已煮無餡意粉,家庭自製牛肉肉醬及加入蔬菜)",batch-001
 "Pasta in cream based sauce, prepared from dry mix",忌廉醬意粉(由乾粉包調製),batch-001
+"Pasta mix, Italian four cheese lasagna, unprepared","意粉混合包(意式四種芝士千層麵,未經調製)",batch-031
+"Pasta mix, Italian lasagna, unprepared","意粉混合包(意式千層麵,未經調製)",batch-031
+"Pasta mix, classic beef, unprepared","意粉混合包(經典牛肉,未經調製)",batch-031
+"Pasta mix, classic cheeseburger macaroni, unprepared","意粉混合包(經典芝士漢堡通粉,未經調製)",batch-031
 "Pasta salad with vegetables, prepared with Italian dressing, homemade","蔬菜意粉沙律(意式沙律醬,自家製)",batch-005
 "Pasta shapes, coloured, flavoured, dried, raw","彩色調味意粉(乾,生)",batch-007
 "Pasta with ham and mushroom sauce, homemade",火腿蘑菇醬意粉(自家製),batch-009
 "Pasta with meat and tomato sauce, homemade",肉醬番茄醬意粉(自家製),batch-009
+"Pasta with sliced franks in tomato sauce, canned",意粉配腸仔片及茄汁(罐頭),batch-031
 "Pasta, (spaghetti, macaroni), whole wheat, cooked",全麥意粉及通粉(熟),batch-026
 "Pasta, (spaghetti, macaroni), whole wheat, dry",全麥意粉及通粉(乾),batch-026
 "Pasta, cooked, enriched, without added salt","意大利麵食(熟,營養強化,無添加鹽)",batch-026
@@ -8882,6 +9075,7 @@ Passion fruit juice,熱情果汁,batch-008
 "Pasta, fresh-refrigerated, plain, cooked","新鮮雪藏意大利麵食(原味,熟)",batch-026
 "Pasta, fresh-refrigerated, spinach, as purchased","新鮮雪藏意大利麵食(菠菜,購買時狀態)",batch-026
 "Pasta, fresh-refrigerated, spinach, cooked","新鮮雪藏意大利麵食(菠菜,熟)",batch-026
+"Pasta, fresh-refrigerated, tortellini with cheese filling, as purchased","意大利芝士餃(新鮮冷藏,芝士餡,購買時狀態)",batch-031
 "Pasta, gluten free, boiled from dry, no added salt","無麩質意粉(乾製烚熟,無添加鹽)",batch-001
 "Pasta, gluten-free, brown rice flour, cooked, TINKYADA","無麩質意大利麵食(糙米粉,熟,TINKYADA)",batch-026
 "Pasta, gluten-free, corn and rice flour, cooked","無麩質意大利麵食(粟米及米粉,熟)",batch-026
@@ -8975,13 +9169,31 @@ Pastry cream,法式甜品忌廉(卡士達醬),batch-014
 "Peaches, spiced, canned, heavy syrup pack, solids and liquids","香料桃(罐頭,濃糖漿裝,固體連汁)",batch-029
 "Peaches, white flesh type, canned in heavy syrup, solids","白肉桃(濃糖漿罐頭,固體)",batch-015
 "Peaches, yellow flesh type, canned in heavy syrup, solids","黃肉桃(罐頭,濃糖漿,果肉)",pilot
+"Peanut Butter, smooth (Includes foods for USDA's Food Distribution Program)",花生醬(幼滑)(包括美國農業部食物分配計劃的食品),batch-031
 "Peanut brittle, homemade",花生脆糖(自家製),batch-011
+"Peanut butter with omega-3, creamy","花生醬(含奧米加3,幼滑)",batch-031
 "Peanut butter, Creamy",花生醬(幼滑),batch-019
+"Peanut butter, chunk style, with salt","花生醬(粗粒,有鹽)",batch-031
+"Peanut butter, chunk style, without salt","花生醬(粗粒,無鹽)",batch-031
+"Peanut butter, chunky, vitamin and mineral fortified","花生醬(粗粒,強化維他命及礦物質)",batch-031
 "Peanut butter, creamy",花生醬(幼滑),batch-019
 "Peanut butter, natural",天然花生醬,batch-005
+"Peanut butter, reduced sodium",花生醬(減鈉),batch-031
+"Peanut butter, reduced sugar",花生醬(減糖),batch-031
 "Peanut butter, smooth",花生醬(幼滑),batch-010
 "Peanut butter, smooth style, with salt","花生醬(幼滑型,有鹽)",batch-019
+"Peanut butter, smooth type, fat, sugar and salt added","花生醬(幼滑型,加脂肪,糖及鹽)",batch-031
+"Peanut butter, smooth, reduced fat","花生醬(幼滑,減脂)",batch-031
+"Peanut butter, smooth, vitamin and mineral fortified","花生醬(幼滑,強化維他命及礦物質)",batch-031
+"Peanut flour, defatted",花生粉(脫脂),batch-031
+"Peanut flour, low fat",花生粉(低脂),batch-031
 Peanuts and raisins,花生提子乾,batch-010
+"Peanuts, Spanish, oil-roasted",西班牙花生(油炸烤),batch-031
+"Peanuts, Spanish, raw",西班牙花生(生),batch-031
+"Peanuts, Valencia, oil-roasted",瓦倫西亞花生(油炸烤),batch-031
+"Peanuts, Valencia, raw",瓦倫西亞花生(生),batch-031
+"Peanuts, Virginia, oil-roasted",弗吉尼亞花生(油炸烤),batch-031
+"Peanuts, Virginia, raw",弗吉尼亞花生(生),batch-031
 "Peanuts, dry roasted",花生(乾烤),batch-010
 "Peanuts, immature beans, boiled","花生(未成熟,煮)",batch-018
 "Peanuts, immature beans, raw","花生(未成熟,生)",batch-018
@@ -8994,6 +9206,9 @@ Peanuts and raisins,花生提子乾,batch-010
 "Peanuts, mature seeds, oil-roasted and salted","花生(成熟,油炸,加鹽)",batch-017
 "Peanuts, raisins and chocolate chips",花生提子乾朱古力粒,batch-010
 "Peanuts, roasted and salted","花生(烤,有鹽)",batch-010
+"Peanuts, spanish, oil-roasted, with salt","西班牙花生(油炸烤,有鹽)",batch-031
+"Peanuts, valencia, oil-roasted, with salt","瓦倫西亞花生(油炸烤,有鹽)",batch-031
+"Peanuts, virginia, oil-roasted, with salt","弗吉尼亞花生(油炸烤,有鹽)",batch-031
 "Pear nectar, canned",梨汁(罐頭),batch-029
 "Pear nectar, canned, with added ascorbic acid","梨汁(罐頭,添加抗壞血酸)",batch-029
 "Pear, Anjou, green, with skin, raw","安茹梨(綠色,連皮,生)",batch-019
@@ -9055,12 +9270,16 @@ Peanuts and raisins,花生提子乾,batch-010
 "Peas, mature seeds, green seed coats and cotyledons, whole, raw","豌豆(成熟,綠色種皮及子葉,連皮,生)",batch-017
 "Peas, mature seeds, oil-roasted and salted","豌豆(成熟,油炸,加鹽)",batch-017
 "Peas, mushy, canned, re-heated","豌豆泥(罐頭,翻熱)",batch-012
+"Peas, pigeon (red gram), mature seeds, boiled","木豆(紅豆,成熟豆,烚)",batch-031
+"Peas, pigeon (red gram), mature seeds, boiled, salt added","木豆(紅豆,成熟豆,烚,加鹽)",batch-031
 "Peas, raw",豌豆(生),batch-012
 "Peas, snap peas, immature pods, raw","蜜糖豌豆(未成熟豆莢,生)",batch-018
 "Peas, snow peas, immature pods, boiled","荷蘭豆(未成熟豆莢,煮)",batch-018
 "Peas, snow peas, immature pods, raw","荷蘭豆(未成熟豆莢,生)",batch-018
 "Peas, split, dried, boiled in unsalted water",乾豌豆瓣(以無鹽水煮),batch-012
 "Peas, split, dried, raw",乾豌豆瓣(生),batch-012
+"Peas, split, mature seeds, boiled","乾豌豆瓣(成熟豆,烚)",batch-031
+"Peas, split, mature seeds, boiled, salt added","乾豌豆瓣(成熟豆,烚,加鹽)",batch-031
 "Peas, split, mature seeds, dry",乾豌豆瓣(成熟種子),pilot
 "Peas, sprouts, boiled",豌豆苗(煮),batch-018
 "Peas, sprouts, sautéed",豌豆苗(炒),batch-018
@@ -9205,6 +9424,7 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pie, vegetable, wholemeal, homemade","蔬菜批(全麥,自家製)",batch-012
 "Pigeon (squab), meat, cooked",乳鴿肉(熟),batch-002
 "Pigeon (squab), whole, raw","乳鴿(原隻,生)",batch-002
+"Pigeon peas (red gram), mature seeds, raw","木豆(紅豆,成熟豆,生)",batch-031
 "Pigeon, meat only, roasted","鴿(只計肉,烤)",batch-010
 "Pigeon, meat only, roasted, weighed with bone","鴿(只計肉,烤,連骨稱重)",batch-010
 "Pigeon, meat without skin, raw","鴿肉(去皮,生)",batch-016
@@ -9262,6 +9482,7 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pitahaya (pitaya, dragon fruit, strawberry pear), raw",火龍果(生),batch-004
 "Pitanga, raw",巴西車厘子(生),batch-029
 "Pizza base, raw",薄餅底(生),batch-007
+"Pizza roll, frozen, unprepared","薄餅卷(冷凍,未經調製)",batch-031
 "Pizza, cheese & tomato, commercial","薄餅(芝士番茄,市售)",batch-001
 "Pizza, cheese and meat, thin crust, frozen, cooked","薄餅,芝士及肉,薄批,雪藏,熟",batch-005
 "Pizza, cheese and mushrooms, thin crust, frozen, cooked","薄餅,芝士及蘑菇,薄批,雪藏,熟",batch-005
@@ -9347,6 +9568,7 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Plant-based beverage, oat and quinoa beverage, unsweetened, fortified, shelf-stable","植物飲品(燕麥藜麥飲品,無糖,強化,常溫保存)",batch-003
 "Plant-based beverage, rice beverage, chocolate, fortified, shelf-stable","植物飲品(米漿,朱古力味,強化,常溫保存)",batch-003
 "Plant-based beverage, rice beverage, vanilla, unsweetened, fortified, shelf-stable","植物飲品(米漿,雲呢拿味,無糖,強化,常溫保存)",batch-003
+"Plant-based beverage, soy beverage, all flavours, reduced fat, fortified","植物飲品(大豆飲品,各種口味,減脂,強化)",batch-031
 "Plant-based beverage, soy beverage, plain, fortified, refrigerated and/or shelf-stable","植物飲品(豆漿,原味,強化,冷藏或常溫保存)",batch-003
 "Plant-based beverage, soy beverage, plain, reduced fat, fortified, shelf-stable","植物飲品(豆漿,原味,減脂,強化,常溫保存)",batch-003
 "Plant-based beverage, soy beverage, plain, reduced fat, not fortified, shelf-stable","植物飲品(豆漿,原味,減脂,沒有強化,常溫保存)",batch-003
@@ -9410,9 +9632,17 @@ Poppy seeds,罌粟籽,batch-002
 "Poppy seeds, dried",罌粟籽(乾),batch-017
 "Pork chops in mustard and cream, homemade",芥末忌廉豬扒(自家製),batch-010
 "Pork chops in mustard and cream, homemade, weighed with bone","芥末忌廉豬扒(自家製,連骨稱重)",batch-010
+"Pork loin, fresh, backribs, bone-in, cooked-roasted, lean only","豬腰肉(新鮮,背脊骨,連骨,烤,只計瘦肉)",batch-031
+"Pork loin, fresh, backribs, bone-in, raw, lean only","豬腰肉(新鮮,背脊骨,連骨,生,只計瘦肉)",batch-031
 "Pork pie, individual",豬肉批(獨立裝),batch-010
 "Pork sausage rice links, brown and serve, cooked","豬肉米腸仔(煎香即食,熟)",pilot
 Pork scratchings,豬皮脆,batch-011
+"Pork, Leg Cap Steak, boneless, separable lean and fat, raw","豬腿肉蓋扒(去骨,瘦肉連脂肪,生)",batch-031
+"Pork, Leg sirloin tip roast, boneless, separable lean and fat, cooked, braised","豬腿後腰脊端烤肉塊(去骨,瘦肉連脂肪,熟,炆)",batch-031
+"Pork, Leg sirloin tip roast, boneless, separable lean and fat, raw","豬腿後腰脊端烤肉塊(去骨,瘦肉連脂肪,生)",batch-031
+"Pork, Shoulder breast, boneless, separable lean and fat, cooked, broiled","豬肩胸肉(去骨,瘦肉連脂肪,熟,燒烤)",batch-031
+"Pork, Shoulder breast, boneless, separable lean and fat, raw","豬肩胸肉(去骨,瘦肉連脂肪,生)",batch-031
+"Pork, Shoulder petite tender, boneless, separable lean and fat, raw","豬肩小柳(去骨,瘦肉連脂肪,生)",batch-031
 "Pork, bacon",煙肉,batch-016
 "Pork, bacon loin",煙燻豬裡脊肉,batch-016
 "Pork, belly joint, roasted, lean and fat","豬腩烤肉塊(烤,瘦肉連肥肉)",batch-010
@@ -9690,6 +9920,7 @@ Potato flour,薯仔粉,batch-019
 "Potato powder, instant, raw",即食薯仔粉(生),batch-012
 "Potato products, shaped, frozen, baked","成型薯仔製品(冷凍,焗)",batch-012
 Potato rings,薯圈,batch-011
+Potato salad with egg,雞蛋薯仔沙律,batch-031
 "Potato snacks, pringle-type, fried in vegetable oil","薯片小食(Pringles類,植物油炸)",batch-011
 "Potato wedges, retail, cooked","薯角(零售,熟)",batch-012
 "Potato, Russet, flesh and skin, raw","褐皮薯仔(連皮,生)",pilot
@@ -9751,6 +9982,7 @@ Potato rings,薯圈,batch-011
 "Potatoes, tuber, boiled","薯仔(塊莖,煮)",batch-017
 "Potatoes, tuber, raw","薯仔(塊莖,生)",batch-017
 "Potatoes, tuber, steamed","薯仔(塊莖,蒸)",batch-017
+"Potsticker or wonton, pork and vegetable, frozen, unprepared","鍋貼或雲吞(豬肉蔬菜餡,冷凍,未經調製)",batch-031
 "Poultry food products, chicken, canned, flaked","家禽製品(雞肉,罐頭,肉絲)",batch-005
 "Poultry food products, turkey, canned, flaked","家禽製品(火雞肉,罐頭,肉絲)",batch-005
 "Poussin, raw, meat and skin","春雞(生,連皮)",batch-010
@@ -9833,6 +10065,7 @@ Prune puree,西梅蓉,batch-029
 "Pudding, suet, homemade",牛脂布甸(自家製),batch-007
 "Puff pastry, frozen, ready-to-bake","酥皮(冷凍,即焗型)",batch-022
 "Puff pastry, frozen, ready-to-bake, baked","酥皮(冷凍,即焗型,已焗)",batch-022
+Pulled pork in barbecue sauce,燒烤汁手撕豬肉,batch-031
 "Pummelo, candied peel",柚子皮(糖漬),batch-015
 "Pummelo, juice sacs, raw","柚(果肉,生)",batch-015
 "Pummelo, raw",柚子(生),batch-029
@@ -9881,6 +10114,7 @@ Quesadilla with meat and cheese,肉類芝士墨西哥薄餅(Quesadilla),batch-00
 "Quinoa, white, uncooked",白藜麥(未煮),batch-001
 Quorn korma,Quorn素肉科爾馬咖喱,batch-012
 "Quorn, pieces, as purchased",Quorn素肉塊(購買時),batch-012
+"RICE-A-RONI, chicken flavor, unprepared",RICE-A-RONI 雞肉味(未經調製),batch-031
 "Rabbit, farmed, whole, raw","兔肉(養殖,原隻,生)",batch-002
 "Rabbit, meat, lean, raw","兔肉(瘦肉,生)",batch-016
 "Rabbit, raw, meat only","兔肉(生,只計肉)",batch-010
@@ -9913,6 +10147,9 @@ Raspberry juice concentrate,紅莓汁濃縮液,batch-029
 "Raspberry, frozen, unsweetened","紅莓(冷凍,無糖)",batch-029
 "Raspberry, wild, raw",野生紅莓(生),batch-020
 "Ratatouille, homemade",法式燉雜菜(自家製),batch-012
+"Ravioli, cheese and tomato sauce, frozen, not prepared","芝士意大利雲吞(芝士茄汁,冷凍,未經調製)",batch-031
+"Ravioli, cheese-filled, canned","意大利雲吞(芝士餡,罐頭)",batch-031
+"Ravioli, meat-filled, with tomato or meat sauce, canned","意大利雲吞(肉餡,配茄汁或肉醬,罐頭)",batch-031
 Re-fried beans,墨西哥炸豆泥,batch-012
 "Red bayberries, raw",楊梅(生),batch-015
 "Red beet, root, boiled","紅菜頭(根,煮)",batch-018
@@ -9930,7 +10167,10 @@ Red pea loaf,紅豆糕,batch-012
 "Redcurrants, stewed without sugar",紅醋栗(無糖炆),batch-008
 Reddi Wip Fat Free Whipped Topping,無脂打發忌廉面層(Reddi Wip),batch-026
 "Redfish, raw",紅魚(生),batch-008
+"Refried beans, canned",炸豆泥(罐頭),batch-031
 "Refried beans, canned (pinto)","炒豆泥(罐頭,斑豆)",batch-019
+"Refried beans, canned, fat-free","炸豆泥(罐頭,無脂肪)",batch-031
+"Refried beans, canned, reduced sodium","炸豆泥(罐頭,減鈉)",batch-031
 "Refried beans, canned, vegetarian","炒豆泥(罐頭,素食)",batch-019
 "Relish, corn/cucumber/onion",粟米青瓜洋蔥醃醬,batch-011
 "Relish, tomato based",番茄醃醬,batch-011
@@ -9955,10 +10195,15 @@ Rice and red kidney beans,飯配紅腰豆,batch-012
 "Rice and red kidney beans, brown rice",飯配紅腰豆(糙米),batch-012
 Rice and split peas,飯配乾豌豆瓣,batch-012
 "Rice and split peas, brown rice",飯配乾豌豆瓣(糙米),batch-012
+"Rice and vermicelli mix, beef flavor, prepared with 80% margarine","米及粉絲混合包(牛肉味,以80%人造牛油調製)",batch-031
+"Rice and vermicelli mix, beef flavor, unprepared","米及粉絲混合包(牛肉味,未經調製)",batch-031
+"Rice and vermicelli mix, chicken flavor, prepared with 80% margarine","米及粉絲混合包(雞肉味,以80%人造牛油調製)",batch-031
+"Rice and vermicelli mix, rice pilaf flavor, unprepared","米及粉絲混合包(抓飯味,未經調製)",batch-031
 "Rice beans, mature seeds, whole, boiled","米豆(成熟,連皮,煮)",batch-017
 "Rice beans, mature seeds, whole, raw","米豆(成熟,連皮,生)",batch-017
 "Rice beverage, fluid, added calcium","米飲品(液體,添加鈣)",batch-001
 "Rice beverage, unfortified",米飲品(無強化),batch-001
+"Rice bowl with chicken, frozen entree, prepared (includes fried, teriyaki, and sweet and sour varieties)","雞肉飯(冷凍主菜,已調製,包括炒飯,照燒及糖醋款式)",batch-031
 "Rice bran, crude",米糠(粗製),batch-026
 "Rice hopper, Tsukudani (simmered whole without wings and legs in soy sauce and sugar)","蝗蟲(「Tsukudani」去翼去腳,豉油糖煮原隻)",batch-016
 "Rice noodles, dry",米粉(乾),batch-026
@@ -9975,6 +10220,7 @@ Rice and split peas,飯配乾豌豆瓣,batch-012
 "Rice, brown, parboiled, dry, UNCLE BEN'S","糙米(蒸穀處理,乾,UNCLE BEN'S)",batch-026
 "Rice, brown, wholegrain, boiled in unsalted water",全穀糙米飯(用無鹽水烚),batch-007
 "Rice, brown, wholegrain, raw",全穀糙米(生),batch-007
+"Rice, cheese flavour, dry mix, unprepared","飯(芝士味,乾粉包,未經調製)",batch-031
 "Rice, egg fried, ready cooked, re-heated, retail, not takeaway","蛋炒飯(即食,已翻熱,店售,非外賣)",batch-007
 "Rice, egg fried, takeaway",蛋炒飯(外賣),batch-007
 "Rice, glutinous rice products, ""Akumaki"" (lye-soaked and cooked rice in bamboo leaf wrapping)","糯米製品(灰汁粽,竹葉包裹的鹼水糯米)",batch-013
@@ -10034,6 +10280,9 @@ Rice and split peas,飯配乾豌豆瓣,batch-012
 "Rice, short grain, upland rice, under-milled, raw","短粒米(陸稻,輕度精磨,生)",batch-013
 "Rice, short grain, upland rice, well-milled, ""meshi"" (cooked rice)","短粒米(陸稻,精磨,白飯)",batch-013
 "Rice, short grain, upland rice, well-milled, raw","短粒米(陸稻,精磨,生)",batch-013
+"Rice, spanish rice mix, prepared","飯(西班牙飯混合包,已調製)",batch-031
+"Rice, spanish rice mix, unprepared","飯(西班牙飯混合包,未經調製)",batch-031
+"Rice, white and wild, flavoured, unprepared","飯(白米及野米,調味,未經調製)",batch-031
 "Rice, white, Italian ""Arborio"" risotto, boiled in unsalted water",意大利Arborio燴飯米(用無鹽水烚),batch-007
 "Rice, white, Italian Arborio risotto, raw",意大利Arborio燴飯米(生),batch-007
 "Rice, white, basmati, boiled in unsalted water",白巴斯馬蒂香米飯(用無鹽水烚),pilot
@@ -10127,6 +10376,34 @@ Rusks,麵包乾,batch-007
 Rye grain,黑麥粒,batch-026
 "Rye, grain, whole, uncooked","裸麥(全穀粒,未煮)",batch-001
 "Rye, rolled, uncooked",裸麥片(未煮),batch-001
+SILK Banana-Strawberry soy yogurt,SILK 香蕉士多啤梨豆乳酪,batch-031
+SILK Black Cherry soy yogurt,SILK 黑車厘子豆乳酪,batch-031
+SILK Blueberry soy yogurt,SILK 藍莓豆乳酪,batch-031
+"SILK Chai, soymilk",SILK 印度香料茶味豆漿,batch-031
+"SILK Chocolate, soymilk",SILK 朱古力味豆漿,batch-031
+"SILK Coffee, soymilk",SILK 咖啡味豆漿,batch-031
+SILK French Vanilla Creamer,SILK 法式雲呢拿咖啡伴侶,batch-031
+SILK Hazelnut Creamer,SILK 榛子咖啡伴侶,batch-031
+SILK Key Lime soy yogurt,SILK 青檸批豆乳酪,batch-031
+"SILK Light Chocolate, soymilk",SILK 輕盈朱古力味豆漿,batch-031
+"SILK Light Plain, soymilk",SILK 輕盈原味豆漿,batch-031
+"SILK Light Vanilla, soymilk",SILK 輕盈雲呢拿味豆漿,batch-031
+"SILK Mocha, soymilk",SILK 摩卡味豆漿,batch-031
+"SILK Nog, soymilk",SILK 蛋酒味豆漿,batch-031
+SILK Original Creamer,SILK 原味咖啡伴侶,batch-031
+SILK Peach soy yogurt,SILK 桃味豆乳酪,batch-031
+SILK Plain soy yogurt,SILK 原味豆乳酪,batch-031
+"SILK Plain, soymilk",SILK 原味豆漿,batch-031
+"SILK Plus Fiber, soymilk",SILK 加纖維豆漿,batch-031
+"SILK Plus Omega-3 DHA, soymilk",SILK 加奧米加3 DHA豆漿,batch-031
+"SILK Plus for Bone Health, soymilk",SILK 加強骨骼健康豆漿,batch-031
+SILK Raspberry soy yogurt,SILK 紅莓豆乳酪,batch-031
+SILK Strawberry soy yogurt,SILK 士多啤梨豆乳酪,batch-031
+"SILK Unsweetened, soymilk",SILK 無糖豆漿,batch-031
+SILK Vanilla soy yogurt (family size),SILK 雲呢拿豆乳酪(家庭裝),batch-031
+SILK Vanilla soy yogurt (single serving size),SILK 雲呢拿豆乳酪(單份裝),batch-031
+"SILK Vanilla, soymilk",SILK 雲呢拿味豆漿,batch-031
+"SILK Very Vanilla, soymilk",SILK 濃雲呢拿味豆漿,batch-031
 "SUBWAY, B.L.T. sub on white bread with bacon, lettuce and tomato",賽百味 煙肉生菜番茄潛艇包(白麵包),batch-027
 "SUBWAY, SUBWAY CLUB sub on white bread with lettuce and tomato","賽百味 賽百味會所潛艇包(白麵包,生菜,番茄)",batch-027
 "SUBWAY, black forest ham sub on white bread with lettuce and tomato","賽百味 黑森林火腿潛艇包(白麵包,生菜,番茄)",batch-027
@@ -10231,6 +10508,7 @@ Salami,薩拉米腸,batch-010
 Salami snack,薩拉米腸小食,batch-010
 "Salami, hard, sliced","意大利薩拉米(硬身,切片)",batch-019
 "Salisbury steak in gravy with macaroni and cheese, frozen",沙利斯伯里牛扒配肉汁及芝士通粉(雪藏),batch-005
+"Salisbury steak with gravy, frozen",沙律斯堡扒配肉汁(冷凍),batch-031
 "Salmis of pheasant, homemade",燴野雉(自家製),batch-010
 "Salmon en croute, retail",酥皮三文魚(店售),batch-008
 "Salmon nuggets, breaded, frozen, heated","三文魚塊(裹粉,冷凍,已加熱)",batch-028
@@ -10368,6 +10646,7 @@ Sauerkraut,酸椰菜,batch-012
 "Sausage, chorizo, fried, no added fat","西班牙辣腸(炸,無添加脂肪)",batch-002
 "Sausage, chorizo, raw",西班牙辣腸(生),pilot
 "Sausage, chorizo, semi-dried (Spanish style), cured","西班牙辣腸(半乾,西班牙式,醃製)",batch-005
+"Sausage, egg and cheese breakfast biscuit",香腸雞蛋芝士早餐鬆餅,batch-031
 "Sausage, ham, pre cooked",火腿腸仔(預先煮熟),batch-005
 "Sausage, lamb, flavoured, fried, no added fat","羊肉腸仔(調味,炸,無添加脂肪)",batch-002
 "Sausage, lamb, plain, fried, no added fat","羊肉腸仔(原味,炸,無添加脂肪)",batch-002
@@ -10493,9 +10772,53 @@ Seafood sticks,海鮮條,batch-008
 "Seed, linseed or flaxseed",亞麻籽,batch-002
 "Seed, pumpkin, hulled & dried","南瓜籽(去殼,乾)",batch-002
 "Seed, sesame, unsalted",芝麻(無鹽),batch-002
+"Seeds, breadfruit seeds, boiled",麵包果籽(烚),batch-031
+"Seeds, breadfruit seeds, raw",麵包果籽(生),batch-031
+"Seeds, breadfruit seeds, roasted",麵包果籽(烤),batch-031
+"Seeds, breadnuttree seeds, dried",麵包堅果樹籽(乾),batch-031
+"Seeds, breadnuttree seeds, raw",麵包堅果樹籽(生),batch-031
+"Seeds, chia seeds, dried",奇亞籽(乾),batch-031
+"Seeds, cottonseed flour, low fat",棉籽粉(低脂),batch-031
+"Seeds, cottonseed flour, partially defatted",棉籽粉(部分脫脂),batch-031
+"Seeds, cottonseed kernels, roasted",棉籽仁(烤),batch-031
+"Seeds, cottonseed meal, partially defatted",棉籽粕(部分脫脂),batch-031
+"Seeds, flaxseed",亞麻籽,batch-031
+"Seeds, hemp seed, hulled",大麻籽(去殼),batch-031
+"Seeds, lotus seeds, raw",蓮子(生),batch-031
+"Seeds, pumpkin and squash seed kernels, dried",南瓜及瓜類籽仁(乾),batch-031
+"Seeds, pumpkin and squash seed kernels, roasted",南瓜及瓜類籽仁(烤),batch-031
+"Seeds, pumpkin and squash seed kernels, roasted, salt added","南瓜及瓜類籽仁(烤,加鹽)",batch-031
+"Seeds, pumpkin and squash seeds, whole, roasted","南瓜及瓜類籽(連殼,烤)",batch-031
+"Seeds, pumpkin and squash seeds, whole, roasted, salt added","南瓜及瓜類籽(連殼,烤,加鹽)",batch-031
 "Seeds, pumpkin seeds (pepitas), raw",南瓜籽(生),batch-019
+"Seeds, safflower seed kernels, dried",紅花籽仁(乾),batch-031
+"Seeds, safflower seed meal, partially defatted",紅花籽粕(部分脫脂),batch-031
+"Seeds, sesame butter, paste",芝麻醬(芝麻糊),batch-031
+"Seeds, sesame butter, tahini, from raw and stone ground kernels","芝麻醬(中東芝麻醬,以生芝麻及石磨製成)",batch-031
+"Seeds, sesame butter, tahini, roasted and toasted kernels","芝麻醬(中東芝麻醬,以烘烤芝麻製成)",batch-031
+"Seeds, sesame butter, tahini, type of kernels unspecified","芝麻醬(中東芝麻醬,芝麻種類未指明)",batch-031
+"Seeds, sesame butter, tahini, unroasted kernels","芝麻醬(中東芝麻醬,以未烘烤芝麻製成)",batch-031
+"Seeds, sesame flour, high-fat",芝麻粉(高脂),batch-031
+"Seeds, sesame flour, low fat",芝麻粉(低脂),batch-031
+"Seeds, sesame flour, partially defatted",芝麻粉(部分脫脂),batch-031
+"Seeds, sesame meal, partially defatted",芝麻粕(部分脫脂),batch-031
+"Seeds, sesame seed kernels, dried, shelled","芝麻仁(乾,去殼)",batch-031
+"Seeds, sesame seed kernels, toasted, shelled","芝麻仁(烘烤,去殼)",batch-031
+"Seeds, sesame seed kernels, toasted, shelled, with salt","芝麻仁(烘烤,去殼,有鹽)",batch-031
+"Seeds, sesame seeds, whole, roasted and toasted","芝麻(全粒,烘烤)",batch-031
+"Seeds, sisymbrium sp. seeds, whole, dried","大蒜芥籽(全粒,乾)",batch-031
+"Seeds, sunflower seed butter",葵花籽醬,batch-031
+"Seeds, sunflower seed butter, salt added",葵花籽醬(加鹽),batch-031
+"Seeds, sunflower seed flour, partially defatted",葵花籽粉(部分脫脂),batch-031
+"Seeds, sunflower seed kernels from shell, dry roasted, with salt added","葵花籽仁(去殼,乾烤,加鹽)",batch-031
+"Seeds, sunflower seed kernels, dried",葵花籽仁(乾),batch-031
 "Seeds, sunflower seed kernels, dry roasted",葵花籽仁(乾烤),batch-019
+"Seeds, sunflower seed kernels, oil roasted",葵花籽仁(油炸烤),batch-031
+"Seeds, sunflower seed kernels, oil roasted, salt added","葵花籽仁(油炸烤,加鹽)",batch-031
+"Seeds, sunflower seed kernels, toasted",葵花籽仁(烘烤),batch-031
+"Seeds, sunflower seed kernels, toasted, salt added","葵花籽仁(烘烤,加鹽)",batch-031
 "Seeds, sunflower seed, kernel, raw",葵花籽仁(生),batch-019
+"Seeds, watermelon seed kernels, dried",西瓜籽仁(乾),batch-031
 "Semi-heading Chinese cabbage, ""Nagasaki-hakusai"", leaves, boiled","長崎白菜(半結球,葉,煮)",batch-018
 "Semi-heading Chinese cabbage, ""Nagasaki-hakusai"", leaves, raw","長崎白菜(半結球,葉,生)",batch-018
 "Semolina, boiled, no added fat or salt","粗粒小麥粉(烚,無添加脂肪或鹽)",batch-001
@@ -10753,8 +11076,20 @@ Sorghum grain,高粱穀粒,batch-026
 "Soy beverage, regular fat (~3%), added Ca","豆奶(全脂約3%,添加鈣)",batch-001
 "Soy beverage, regular fat (~3%), added Ca & vitamins A, B1, B2 & B12","豆奶(全脂約3%,添加鈣及維他命A、B1、B2、B12)",batch-001
 "Soy flour, defatted",大豆粉(脫脂),batch-019
+"Soy flour, full-fat",大豆粉(全脂),batch-031
+"Soy flour, full-fat, roasted","大豆粉(全脂,烤)",batch-031
+"Soy flour, low fat",大豆粉(低脂),batch-031
+"Soy meal, defatted",大豆粕(脫脂),batch-031
 "Soy milk, sweetened, plain, refrigerated","豆漿(加糖,原味,冷藏)",batch-019
 "Soy milk, unsweetened, plain, shelf stable","豆漿(無糖,原味,常溫保存)",batch-019
+Soy protein concentrate (prepared with alcohol),濃縮大豆蛋白(以酒精製備),batch-031
+"Soy protein concentrate, produced by acid wash",濃縮大豆蛋白(以酸洗製成),batch-031
+Soy protein isolate,分離大豆蛋白,batch-031
+"Soy protein isolate, potassium type",分離大豆蛋白(鉀型),batch-031
+Soy sauce made from hydrolyzed vegetable protein,水解植物蛋白製醬油,batch-031
+Soy sauce made from soy (tamari),大豆製醬油(溜醬油),batch-031
+Soy sauce made from soy and wheat (shoyu),大豆及小麥製醬油(日式醬油),batch-031
+"Soy sauce made from soy and wheat (shoyu), low sodium","大豆及小麥製醬油(日式醬油,低鈉)",batch-031
 "Soy sauce, ""Koikuchi-shoyu"" (common soy sauce)",濃口豉油(普通豉油),batch-017
 "Soy sauce, ""Saishikomi-shoyu"" (refermented soy sauce)",再釀豉油(二次發酵豉油),batch-017
 "Soy sauce, ""Shiro-shoyu"" (extra light color soy sauce)",白豉油(特淡色豉油),batch-017
@@ -10762,7 +11097,11 @@ Sorghum grain,高粱穀粒,batch-026
 "Soy sauce, ""Usukuchi-shoyu"" (light color soy sauce)",淡口豉油(淡色豉油),batch-017
 "Soy sauce, light and dark varieties",豉油(生抽及老抽),batch-011
 "Soy sauce, pre-seasoned with soup stock",加入高湯的豉油,batch-017
+"Soy sauce, reduced sodium, made from hydrolyzed vegetable protein","醬油(減鈉,水解植物蛋白製)",batch-031
 "Soy sauce, soy glazed",照燒豉油,batch-017
+"Soybean kernels, roasted, salt added","大豆仁(烤,加鹽)",batch-031
+"Soybean kernels, roasted, unsalted","大豆仁(烤,無鹽)",batch-031
+"Soybean, curd cheese",大豆凝乳芝士,batch-031
 "Soybeans, ""Budo-mame"" (beans cooked with sugar and salt)",黃豆(加糖鹽煮),batch-017
 "Soybeans, ""Hishio-miso"" (fermented soybeans, barley or wheat, and vegetable with koji mold)","黃豆(醬味噌,以黃豆、大麥或小麥及蔬菜加麴發酵)",batch-017
 "Soybeans, ""Kinako"" (roasted and ground beans), made from hulled beans with yellow seed coats","黃豆粉(烤熟磨粉,以黃色去皮大豆製成)",batch-017
@@ -10775,10 +11114,14 @@ Sorghum grain,高粱穀粒,batch-026
 "Soybeans, ""Yuba"" (film formed on surface of warmed soy milk), dried, uncooked","腐皮(乾,未煮)",batch-017
 "Soybeans, ""Yuba"" (film formed on surface of warmed soy milk), fresh",鮮腐皮,batch-017
 "Soybeans, Tempeh (fermented soybeans with Rhizopus oligospore)",天貝(以米根霉發酵的大豆),batch-017
+"Soybeans, dry, mature seeds, boiled, salt added","大豆(乾,成熟豆,烚,加鹽)",batch-031
+"Soybeans, dry, roasted","大豆(乾,烤)",batch-031
 "Soybeans, embryonic axis",大豆胚軸,batch-017
 "Soybeans, immature, boiled","毛豆(未成熟,煮)",batch-018
 "Soybeans, immature, frozen","毛豆(未成熟,冷凍)",batch-018
 "Soybeans, immature, raw","毛豆(未成熟,生)",batch-018
+"Soybeans, mature seeds, dry","大豆(成熟豆,乾)",batch-031
+"Soybeans, mature seeds, dry, boiled","大豆(成熟豆,乾,烚)",batch-031
 "Soybeans, mature seeds, whole, black seed coats, roasted","黃豆(成熟,連皮,黑色種皮,烤)",batch-017
 "Soybeans, mature seeds, whole, domestic, black seed coats, raw","黃豆(成熟,連皮,本地,黑色種皮,生)",batch-017
 "Soybeans, mature seeds, whole, domestic, yellow seed coats, boiled","黃豆(成熟,連皮,本地,黃色種皮,煮)",batch-017
@@ -10821,8 +11164,17 @@ Sorghum grain,高粱穀粒,batch-026
 "Soybeans, tofu, ""Yaki-tofu"" (grilled tofu)",烤豆腐,batch-017
 "Soybeans, tofu, ""Yushi-dofu"" (unmoulded tofu)",湯豆腐(未成型豆腐),batch-017
 "Soybeans, tofu, soft tofu",嫩豆腐,batch-017
+"Soymilk (All flavors), enhanced","豆漿(各種口味,加強版)",batch-031
 "Soymilk (All flavors), lowfat, with added calcium, vitamins A and D","豆漿(低脂,添加鈣質及維他命A和D,各種口味)",pilot
 "Soymilk (all flavors), nonfat, with added calcium, vitamins A and D","豆漿(脫脂,添加鈣質及維他命A和D,各種口味)",pilot
+"Soymilk (all flavors), unsweetened, with added calcium, vitamins A and D","豆漿(各種口味,無糖,添加鈣及維他命A和D)",batch-031
+"Soymilk, chocolate, nonfat, with added calcium, vitamins A and D","朱古力豆漿(脫脂,添加鈣及維他命A和D)",batch-031
+"Soymilk, chocolate, unfortified",朱古力豆漿(未強化),batch-031
+"Soymilk, chocolate, with added calcium, vitamins A and D",朱古力豆漿(添加鈣及維他命A和D),batch-031
+"Soymilk, original and vanilla, light, unsweetened, with added calcium, vitamins A and D","豆漿(原味及雲呢拿味,輕盈,無糖,添加鈣及維他命A和D)",batch-031
+"Soymilk, original and vanilla, light, with added calcium, vitamins A and D","豆漿(原味及雲呢拿味,輕盈,添加鈣及維他命A和D)",batch-031
+"Soymilk, original and vanilla, unfortified","豆漿(原味及雲呢拿味,未強化)",batch-031
+"Soymilk, original and vanilla, with added calcium, vitamins A and D","豆漿(原味及雲呢拿味,添加鈣及維他命A和D)",batch-031
 "Spaghetti bolognese, homemade",肉醬意粉(自家製),batch-010
 "Spaghetti bolognese, retail, meat and sauce only, reheated","肉醬意粉(零售,只計肉及醬汁,已翻熱)",batch-010
 "Spaghetti bolognese, retail, reheated, with spaghetti","肉醬意粉(零售,已翻熱,連意粉)",batch-010
@@ -10830,10 +11182,13 @@ Sorghum grain,高粱穀粒,batch-026
 "Spaghetti in tomato & cheese sauce, canned, reduced salt","番茄芝士醬意粉(罐頭,減鹽)",batch-001
 Spaghetti with cream sauce,忌廉汁意粉,batch-005
 Spaghetti with meat sauce,肉醬意粉,batch-005
+"Spaghetti with meat sauce, frozen entree",肉醬意粉(冷凍主菜),batch-031
 "Spaghetti, protein-fortified, cooked, enriched (n x 6.25)","意粉(蛋白質強化,熟,營養強化,氮x6.25)",batch-026
 "Spaghetti, protein-fortified, dry, enriched (n x 6.25)","意粉(蛋白質強化,乾,營養強化,氮x6.25)",batch-026
 "Spaghetti, spinach, cooked",菠菜意粉(熟),batch-026
 "Spaghetti, spinach, dry",菠菜意粉(乾),batch-026
+"Spaghetti, with meatballs in tomato sauce, canned",意粉配肉丸茄汁(罐頭),batch-031
+"Spaghetti, without meat, canned",無肉意粉(罐頭),batch-031
 "Sparrow, meat with bones and skin, raw","麻雀肉(連骨連皮,生)",batch-016
 "Spelt, boiled, no added fat or salt","斯佩爾特小麥(烚,無添加脂肪或鹽)",batch-001
 "Spelt, cooked",斯佩爾特小麥(熟),batch-026
@@ -11163,6 +11518,8 @@ Tamarind,羅望子,batch-008
 "Tannia, raw",美洲芋頭(生),batch-012
 "Tapioca, pearl, dry",珍珠木薯粉(乾),batch-026
 "Tapioca, raw",木薯粉(生),batch-007
+"Taquitos, frozen, beef and cheese, oven-heated","墨西哥炸卷(冷凍,牛肉芝士,焗爐加熱)",batch-031
+"Taquitos, frozen, chicken and cheese, oven-heated","墨西哥炸卷(冷凍,雞肉芝士,焗爐加熱)",batch-031
 Taramasalata,希臘魚子醬,batch-008
 "Taro leaves, raw",芋葉(生),batch-012
 "Taro leaves, steamed",芋葉(蒸),batch-012
@@ -11231,6 +11588,7 @@ Tartare sauce,他他醬,batch-011
 "Teff, uncooked",苔麩(未煮),batch-001
 Tempeh,天貝,batch-012
 "Tempeh burgers, fried in vegetable oil",天貝漢堡(以植物油煎),batch-012
+"Tempeh, cooked",天貝(熟),batch-031
 "Tennis Bread, plain (Apache)","網球麵包(原味,阿帕切族)",batch-020
 Textured vegetable protein/soy granules,組織植物蛋白或大豆粒,batch-001
 "Thistle root, ""Yamagobo"", pickled with miso",味噌漬山牛蒡,batch-018
@@ -11256,6 +11614,21 @@ Tiramisu,提拉米蘇,batch-010
 "Toffees, mixed",雜錦太妃糖,batch-011
 "Tofu burger, baked",豆腐漢堡(焗),batch-012
 Tofu spread,豆腐醬,batch-012
+Tofu yogurt,豆腐乳酪,batch-031
+"Tofu, dried-frozen (koyadofu), prepared with calcium sulfate","凍豆腐(高野豆腐,以硫酸鈣製備)",batch-031
+"Tofu, extra firm, prepared with nigari",特硬豆腐(以鹽滷製備),batch-031
+"Tofu, firm, prepared with calcium sulfate and magnesium chloride (nigari)",硬豆腐(以硫酸鈣及氯化鎂(鹽滷)製備),batch-031
+"Tofu, fried, prepared with calcium sulfate",炸豆腐(以硫酸鈣製備),batch-031
+"Tofu, fuyu, salted and fermented (with calcium sulphate)","腐乳(鹽醃發酵,含硫酸鈣)",batch-031
+"Tofu, hard, prepared with nigari",堅硬豆腐(以鹽滷製備),batch-031
+"Tofu, koyadofu, dried-frozen",高野豆腐(凍乾),batch-031
+"Tofu, raw, firm, prepared with calcium sulfate",生硬豆腐(以硫酸鈣製備),batch-031
+"Tofu, raw, regular, prepared with calcium sulfate",生普通豆腐(以硫酸鈣製備),batch-031
+"Tofu, salted and fermented (fuyu)",腐乳(鹽醃發酵),batch-031
+"Tofu, silken, light, extra firm","嫩滑豆腐(輕盈,特硬)",batch-031
+"Tofu, silken, light, firm","嫩滑豆腐(輕盈,硬)",batch-031
+"Tofu, silken, refrigerated",嫩滑豆腐(冷藏),batch-031
+"Tofu, soft, prepared with calcium sulfate and magnesium chloride (nigari)",軟豆腐(以硫酸鈣及氯化鎂(鹽滷)製備),batch-031
 "Tofu, soya bean, steamed","豆腐(大豆,蒸)",batch-012
 "Tofu, soya bean, steamed, fried","豆腐(大豆,蒸後炸)",batch-012
 "Tomatillos, dehusked, raw","墨西哥酸漿果(去殼,生)",batch-019
@@ -11436,6 +11809,7 @@ Tuna salad,吞拿魚沙律,batch-028
 "Turbot, flesh only, raw","大菱鮃(只計魚肉,生)",batch-008
 "Turkey and pasta bake, homemade",火雞肉焗意粉(自家製),batch-010
 "Turkey from whole, light meat, meat only, with added solution, cooked, roasted","火雞肉(原隻,白肉,只計肉,注入溶液,熟,烤)",pilot
+"Turkey pot pie, frozen",火雞批(冷凍),batch-031
 Turkey slices,火雞肉片,batch-010
 "Turkey, all classes, back, meat and skin, raw","火雞(各類,背部,連皮,生)",batch-005
 "Turkey, all classes, back, meat only, raw","火雞(各類,背部,只計肉,生)",batch-005
@@ -11464,6 +11838,7 @@ Turkey slices,火雞肉片,batch-010
 "Turkey, skin, raw",火雞皮(生),batch-010
 "Turkey, stir-fried with vegetables, homemade",蔬菜炒火雞肉(自家製),batch-010
 "Turkey, strips, stir-fried in corn oil",火雞肉條(粟米油炒),batch-010
+"Turkey, stuffing, mashed potatoes w/gravy, assorted vegetables, frozen, microwaved","火雞,餡料,薯蓉配肉汁,雜菜(冷凍,微波)",batch-031
 "Turkey, thighs, diced, casseroled, meat only","火雞髀肉粒(燉,只計肉)",batch-010
 "Turkey, whole, raw","火雞(全隻,生)",batch-010
 "Turkey, whole, raw, weighed with bone","火雞(全隻,生,連骨稱重)",batch-010
@@ -11501,7 +11876,11 @@ Turkey slices,火雞肉片,batch-010
 "Turnip, root, with skin, raw","蕪菁(連皮根,生)",batch-018
 "Turnip, root, without skin, boiled","蕪菁(去皮根,煮)",batch-018
 "Turnip, root, without skin, raw","蕪菁(去皮根,生)",batch-018
+"Turnover, cheese-filled, tomato-based sauce, frozen, unprepared","半圓形餡餅(芝士餡,茄汁底,冷凍,未經調製)",batch-031
+"Turnover, chicken or turkey, with vegetables, reduced fat, frozen","半圓形餡餅(雞肉或火雞肉,加蔬菜,減脂,冷凍)",batch-031
+"Turnover, filled with egg, meat and cheese, frozen","半圓形餡餅(雞蛋,肉及芝士餡,冷凍)",batch-031
 "Turnover, fruit (apple, berry, cherry, peach)","角形酥餅(水果[蘋果,莓,車厘子,桃])",batch-003
+"Turnover, meat and cheese with tomato sauce, reduced fat, frozen","半圓形餡餅(肉及芝士,配茄汁,減脂,冷凍)",batch-031
 "Turtle, green, raw",綠海龜(生),batch-028
 Twiglets,Twiglets鹹味餅條,batch-011
 Tzatziki,希臘青瓜乳酪醬,batch-010
@@ -11701,6 +12080,7 @@ Vanilla bean extract,雲呢拿豆萃取物,batch-002
 "Venison, mince, premium, baked, roasted, fried, stir-fried, grilled or BBQ'd, no added fat","鹿肉碎(優質,焗、烤、炸、炒、燒烤或戶外燒烤,無添加脂肪)",batch-002
 "Venison, mince, premium, raw","鹿肉碎(優質,生)",batch-002
 "Venison, roast",烤鹿肉,batch-010
+"Vermicelli, made from soy",大豆粉絲,batch-031
 "Vermouth, dry",乾威末酒,batch-006
 "Vine leaf, grape, canned",葡萄葉(罐頭),batch-002
 "Vine leaves, stuffed with rice",釀葡萄葉(釀飯),batch-012
@@ -11718,6 +12098,22 @@ Vinegar (except balsamic vinegar),醋(香醋除外),batch-002
 "Vitamin water, lemon/orange flavours, low calorie","維他命水(檸檬或橙味,低熱量)",batch-003
 "Vitamin water, lemon/orange flavours, sweetened","維他命水(檸檬或橙味,加糖)",batch-003
 "Vitamin water, tropical citrus flavour, sweetened, with caffeine","維他命水(熱帶柑橘味,加糖,含咖啡因)",batch-003
+"Vitasoy USA Azumaya, Extra Firm Tofu",Vitasoy USA Azumaya 特硬豆腐,batch-031
+"Vitasoy USA Azumaya, Firm Tofu",Vitasoy USA Azumaya 硬豆腐,batch-031
+"Vitasoy USA Azumaya, Silken Tofu",Vitasoy USA Azumaya 嫩滑豆腐,batch-031
+"Vitasoy USA Nasoya, Lite Silken Tofu",Vitasoy USA Nasoya 輕盈嫩滑豆腐,batch-031
+"Vitasoy USA Organic Nasoya Sprouted, Tofu Plus Super Firm",Vitasoy USA 有機 Nasoya 發芽加強超硬豆腐,batch-031
+"Vitasoy USA Organic Nasoya, Soft Tofu",Vitasoy USA 有機 Nasoya 軟豆腐,batch-031
+"Vitasoy USA Organic Nasoya, Tofu Plus Extra Firm",Vitasoy USA 有機 Nasoya 加強特硬豆腐,batch-031
+"Vitasoy USA Organic Nasoya, Tofu Plus Firm",Vitasoy USA 有機 Nasoya 加強硬豆腐,batch-031
+"Vitasoy USA, Nasoya Lite Firm Tofu",Vitasoy USA Nasoya 輕盈硬豆腐,batch-031
+"Vitasoy USA, Organic Nasoya Extra Firm Tofu",Vitasoy USA 有機 Nasoya 特硬豆腐,batch-031
+"Vitasoy USA, Organic Nasoya Firm Tofu",Vitasoy USA 有機 Nasoya 硬豆腐,batch-031
+"Vitasoy USA, Organic Nasoya Silken Tofu",Vitasoy USA 有機 Nasoya 嫩滑豆腐,batch-031
+"Vitasoy USA, Organic Nasoya Super Firm Cubed Tofu",Vitasoy USA 有機 Nasoya 超硬豆腐粒,batch-031
+"Vitasoy USA, Vitasoy Light Vanilla Soymilk",Vitasoy USA 維他 輕盈雲呢拿豆漿,batch-031
+"Vitasoy USA, Vitasoy Organic Classic Original Soymilk",Vitasoy USA 維他 有機經典原味豆漿,batch-031
+"Vitasoy USA, Vitasoy Organic Creamy Original Soymilk",Vitasoy USA 維他 有機幼滑原味豆漿,batch-031
 "Vodka cooler, fruit flavours",伏特加果味酒精飲品,batch-003
 "WEND'YS, Crispy Chicken Sandwich",溫蒂漢堡 脆雞三明治,batch-027
 "WENDY'S, CLASSIC DOUBLE, with cheese",溫蒂漢堡 經典雙層漢堡(加芝士),batch-027
@@ -11881,6 +12277,8 @@ Wheatgerm,麥芽,batch-007
 "Wine, white, semillon",白酒(賽美蓉),batch-001
 "Wine, white, sweet",甜白餐酒,batch-006
 "Winged beans, immature pods, raw","四角豆(未成熟豆莢,生)",batch-019
+"Winged beans, mature seeds, cooked, boiled, with salt","翼豆(成熟豆,熟,烚,有鹽)",batch-031
+"Winged beans, mature seeds, raw","翼豆(成熟豆,生)",batch-031
 "Winkles, boiled",玉黍螺(烚),batch-008
 "Winkles, boiled, weighed with shells","玉黍螺(烚,連殼稱重)",batch-008
 "Wocas, dried seeds, Oregon, yellow pond lily (Klamath)","黃睡蓮乾種子(Wocas,俄勒岡,克拉馬斯族)",batch-020
@@ -11903,12 +12301,14 @@ Wonton wrapper (egg roll wrapper),雲吞皮(春卷皮),batch-022
 "Yam, wild harvested, cooked","薯蕷(野生採集,熟)",batch-002
 "Yandlong beans, immature pods, boiled","豇豆(未成熟豆莢,烚)",batch-019
 "Yandlong beans, immature pods, raw","豇豆(未成熟豆莢,生)",batch-019
+"Yardlong beans, mature seeds, raw","豆角(成熟豆,生)",batch-031
 Yeast extract,酵母抽取物,batch-011
 "Yeast, baker's yeast, compressed",麵包酵母(壓縮),batch-018
 "Yeast, baker's yeast, dried",麵包酵母(乾),batch-018
 "Yeast, bakers, compressed",麵包酵母(壓縮),batch-011
 "Yeast, dried",乾酵母,batch-011
 "Yeast, dry powder",酵母(乾粉),batch-002
+"Yellow rice with seasoning, dry packet mix, unprepared","黃飯(附調味料,乾粉包,未經調製)",batch-031
 "Yoghurt, almond based, flavoured","乳酪(杏仁為主,調味)",batch-001
 "Yoghurt, coconut based, flavoured","乳酪(椰子為主,調味)",batch-001
 "Yoghurt, flavoured, high fat (~5%)","乳酪(調味,高脂約5%)",batch-002
