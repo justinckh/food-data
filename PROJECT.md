@@ -89,6 +89,20 @@ The column `foods.origin_source` keeps the name of the first source.
 | D | Food Standards Australia New Zealand | 762 |
 | E | Thai FCD (Mahidol University) | 92 |
 
+The CFS web site tells the definitions for each first source.
+The importer records them in the `method` column.
+
+| Code | Carbohydrate | Dietary fibre |
+|---|---|---|
+| A (USDA) | Total (`total`) | Total dietary fibre |
+| B (China CFC2002) | Total (`total`) | Insoluble fibre only (`insoluble`) |
+| C (CFS laboratory) | Available (`available`) | Total dietary fibre |
+| D (FSANZ) | Available (`available`) | Total dietary fibre |
+| E (Thai FCD) | Available (`available`). Values with "(總量)" are total (`total`). | Not told |
+
+Do not compare the fibre of code B foods with the fibre of other foods.
+The values are not of the same type.
+
 Some foods (codes A and D) will also come directly from USDA and FSANZ.
 These are duplicates.
 Section 4.2 shows how we will link them.
@@ -278,6 +292,22 @@ Step 6 (links) must use `origin_code` to link these foods.
 
 We compared the database with the raw file. All 236,465 values are the same.
 
+### 2.11 Data versions
+
+We examined each source for a newer version on 2026-11-12.
+
+| Source | Version in the database | Newest version | Status |
+|---|---|---|---|
+| HK CFS | Web site, scraped 2025-09-29 | Same. The site has the same 2,999 foods. | Current |
+| Taiwan TFDA | Download of 2026-11-11 | Same | Current |
+| Japan MEXT | 8th edition, 2023 supplement, data file of 2026-03-27 | Same | Current |
+| Australia AFCD | Release 3 (December 2025) | Same | Current |
+| USDA Foundation Foods | 2026-04-30 | 2026-10-29. The CSV file of this release is not complete (section 2.5). | Newest usable version |
+| USDA SR Legacy | 2018-04 | Same. USDA does not update SR Legacy. | Current (final) |
+| UK CoFID | 2021 | Same | Current |
+| Canada CNF | 2026 | Same | Current |
+| France Ciqual | Not in the database | Unknown. The web site is in maintenance. | On hold |
+
 ## 3. Database design
 
 ### 3.1 Main rules
@@ -309,6 +339,8 @@ We compared the database with the raw file. All 236,465 values are the same.
 | `ND` (not detected) | `value` = empty, `flag` = `ND` |
 | `Trace` | `value` = empty, `flag` = `TRACE` |
 | Total carbohydrate | `method` = `total` |
+| Available carbohydrate (CFS codes C, D and E) | `method` = `available` |
+| Insoluble fibre only (CFS code B) | `method` = `insoluble` |
 | Carbohydrate by difference (MEXT, USDA) | `method` = `difference` |
 | Available carbohydrate (AFCD) | `method` = `available` |
 | Available carbohydrate as monosaccharide equivalents (CoFID) | `method` = `available_monosaccharide` |

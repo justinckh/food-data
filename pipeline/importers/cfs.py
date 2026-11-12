@@ -31,6 +31,14 @@ ORIGIN = {
     "E": "Thai FCD (Mahidol University)",
 }
 
+# Definitions per origin, from the CFS footnotes on fc-nutrientvalue.php (checked 2026-11-12):
+#  carbohydrate: FoodData Central (A) and CFC2002 (B) = total carbohydrate;
+#                FRL (C), FSANZ (D), Thai FCD (E) = available carbohydrate,
+#                except Thai values marked (總量) = total.
+#  dietary fibre: CFC2002 (B) = insoluble fibre only; A, C, D = total dietary fibre.
+CARB_METHOD = {"A": "total", "B": "total", "C": "available", "D": "available", "E": "available"}
+FIBRE_METHOD = {"B": "insoluble"}
+
 COLUMNS = {
     "能量 (千卡)": "energy_kcal",
     "蛋白質 (克)": "protein",
@@ -102,7 +110,11 @@ def load(path):
             parsed = parse_value(r[col])
             if parsed is None:
                 continue
-            method = "total" if "(總量)" in r[col] else None
+            method = None
+            if nid == "carbohydrate":
+                method = "total" if "(總量)" in r[col] else CARB_METHOD.get(r["source_code"])
+            elif nid == "fibre":
+                method = FIBRE_METHOD.get(r["source_code"])
             nutrients.append((nid, parsed[0], parsed[1], method))
 
         servings = []
