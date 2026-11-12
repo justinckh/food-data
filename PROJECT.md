@@ -484,6 +484,30 @@ We agreed these rules with the user on 2026-11-12.
 4. The English display name (`foods.display_en`) is the shortest English name in the group.
 5. The original names do not change. The food page shows them.
 
+### 3.10 Categories for all sources
+
+Each source has its own food groups (172 groups and subgroups in total).
+The script `pipeline/categories.py` puts each food in 1 of 23 shared categories (`foods.category`).
+The site uses these categories to show all foods of all sources.
+
+1. For a group that has different types of food, the script uses the subgroup. Example: the CFS group "Cereals and cereal products" has rice and cakes.
+2. For other foods, the script uses the group.
+3. Name rules move some foods. Examples: chicken in the TFDA group "Meat" goes to poultry. Sake in the MEXT group "Beverages" goes to alcoholic drinks.
+
+To change a category, change the tables `GROUP`, `SUBGROUP` or `NAME_RULES` in `pipeline/categories.py`. Then run `npm run db`.
+
+### 3.11 Dates in food names
+
+Some sources tested the same food again in a different year or month. Examples: CFS 菠蘿包 (2002) and 菠蘿包 (2018). TFDA 鯔(12月,雄魚).
+The user does not want dates in food names (2026-11-12).
+
+1. The script `pipeline/versions.py` removes the date from the shown name. It keeps the date in `foods.sample_note`. The food page shows it as a tag, for example "2018年數據".
+2. The records of 1 source with the same name (without the date) are versions of 1 food. The newest version is the main record.
+3. If the values of 2 versions are almost the same, the old version is a duplicate (`exact_copy`). The site does not show it. "Almost the same" is: energy difference 5 % or less, and protein, fat and carbohydrate difference 1 g or less (or 10 % or less).
+4. If the values are different, the site shows the old version with its year in the table of other data.
+
+Result on 2026-11-12: 138 old versions. 30 are duplicates. 108 have different values. Example: 燒鵝 289 kcal (old) and 420 kcal (2019).
+
 ## 4. Plan
 
 ### 4.1 Steps
