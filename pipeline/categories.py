@@ -203,5 +203,10 @@ def run(db):
     db.executemany("INSERT INTO subcategories (id, category, name_zh, name_en, sort_order) VALUES (?, ?, ?, ?, ?)",
                    subcategories.rows())
     db.executemany("UPDATE foods SET subcategory = ? WHERE id = ?", subs)
+    # a food group lives in ONE category: other records follow the group's main record, so
+    # the counts per category are "food groups" and "all records of those groups"
+    db.execute("""UPDATE foods SET (category, subcategory) =
+                  (SELECT m.category, m.subcategory FROM foods m WHERE m.id = foods.cluster_id)
+                  WHERE is_primary = 0""")
     other = sum(1 for c, _ in updates if c == "other")
     print(f"  Categories            {len(updates)} foods in {len({c for c, _ in updates})} categories ({other} other)")
