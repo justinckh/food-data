@@ -77,6 +77,15 @@ CREATE TABLE IF NOT EXISTS servings (
 );
 CREATE INDEX IF NOT EXISTS idx_servings_food ON servings(food_id);
 
+-- Other codes a publisher gives the same food (e.g. USDA NDB number next to the FDC id).
+CREATE TABLE IF NOT EXISTS food_codes (
+    food_id  TEXT NOT NULL REFERENCES foods(id) ON DELETE CASCADE,
+    scheme   TEXT NOT NULL,                  -- e.g. 'usda_ndb'
+    code     TEXT NOT NULL,
+    PRIMARY KEY (food_id, scheme)
+);
+CREATE INDEX IF NOT EXISTS idx_food_codes ON food_codes(scheme, code);
+
 -- Link layer: duplicates and cross-source equivalents. Raw rows are never deleted.
 -- match_type: 'exact_copy' = same values republished (hide one by default)
 --             'equivalent' = same food, different source/country (keep both)
@@ -89,6 +98,7 @@ CREATE TABLE IF NOT EXISTS food_links (
     method        TEXT,                      -- how the link was made, e.g. 'name+values', 'manual'
     PRIMARY KEY (food_id, canonical_id)
 );
+CREATE INDEX IF NOT EXISTS idx_links_canonical ON food_links(canonical_id);
 
 -- Keyword search. Trigram tokenizer gives substring matching for Chinese text
 -- (no spaces between words). Queries shorter than 3 characters must fall back to LIKE.

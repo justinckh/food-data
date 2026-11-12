@@ -132,6 +132,13 @@ def load_dataset(path, data_type, source_id):
     units = {r["id"]: clean(r["name"]) for r in z.rows("measure_unit.csv", required=False)}
     fdc_to_ours = resolve_nutrients(z)
 
+    # NDB number (the pre-FDC USDA code) per fdc_id; other publishers (e.g. CNF) cite it.
+    ndb = {}
+    for name in ("sr_legacy_food.csv", "foundation_food.csv"):
+        for r in z.rows(name, required=False):
+            if (r.get("NDB_number") or "").strip():
+                ndb[r["fdc_id"].strip()] = r["NDB_number"].strip().lstrip("0")
+
     foods = {}
     for r in z.rows("food.csv"):
         if r["data_type"].strip() != data_type:
@@ -151,6 +158,8 @@ def load_dataset(path, data_type, source_id):
             "subgroup_zh": None,
             "origin_source": None,
         }
+        if fid in ndb:
+            food["codes"] = [("usda_ndb", ndb[fid])]
         food["search_text"] = search_text(food)
         foods[fid] = food
 

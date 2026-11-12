@@ -10,6 +10,7 @@ import sqlite3
 import sys
 from pathlib import Path
 
+from . import link
 from .common import NUTRIENT_IDS, NUTRIENTS
 from .importers import afcd, cfs, cnf, cofid, mext, tfda, usda
 
@@ -34,6 +35,8 @@ def import_source(db, src, rows):
         db.execute(
             f"INSERT INTO foods ({', '.join(FOOD_COLS)}) VALUES ({', '.join(':' + c for c in FOOD_COLS)})",
             {c: food.get(c) for c in FOOD_COLS})   # importers may omit optional columns
+        db.executemany("INSERT INTO food_codes (food_id, scheme, code) VALUES (?, ?, ?)",
+                       [(food["id"], scheme, code) for scheme, code in food.get("codes", [])])
         for nid, *_ in nutrients:
             if nid not in NUTRIENT_IDS:
                 raise SystemExit(f"{src['id']}: unknown nutrient id {nid!r} - add it to pipeline/common.py")
@@ -63,6 +66,8 @@ def main():
         for mod in IMPORTERS:
             for src, rows in mod.datasets(ROOT):
                 import_source(db, src, rows)
+        print("Linking:")
+        link.run(db)
         db.execute("INSERT INTO foods_fts(foods_fts) VALUES ('rebuild')")
         bad = db.execute("PRAGMA foreign_key_check").fetchall()
         if bad:

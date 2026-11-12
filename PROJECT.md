@@ -55,6 +55,7 @@ Other systems and AI tools will also use the data.
 | `pipeline/importers/cnf.py` | This importer reads the CNF zip file in `data/raw/cnf/`. |
 | `pipeline/importers/usda.py` | This importer reads the USDA zip files in `data/raw/usda/`. It does not extract the zip files. |
 | `pipeline/download_usda.py` | This script downloads the newest USDA zip files to `data/raw/usda/`. |
+| `pipeline/link.py` | This script finds the duplicates and records them in `food_links`. The build runs it after the import. |
 | `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
 | `data/raw/` | The downloaded source files. Git does not keep this folder. |
 | `data/food.db` | The master copy of the database. Git does not keep this file. You can make it again at any time. |
@@ -327,7 +328,8 @@ We examined each source for a newer version on 2026-11-12.
 | `foods` | One row for each food from each source. The data is the same as the source data. The `description` column keeps the source description, for example the cooking method. For republished data, `origin_source` and `origin_code` tell the first source and its food code. |
 | `food_nutrients` | One row for each value. If a value is missing, there is no row. |
 | `servings` | Typical serving sizes, for example "1 small bottle = 330 g". |
-| `food_links` | Links between duplicates and between equal foods from different sources. It is empty now. |
+| `food_codes` | Other codes for a food, for example the USDA NDB number. |
+| `food_links` | Links between duplicates and between equal foods from different sources (section 3.5). |
 | `foods_fts` | The keyword search index. |
 
 ### 3.3 Special values
@@ -375,6 +377,21 @@ The `food_links` table records the duplicates.
 | `equivalent` | The same food from a different country | Show the two rows. |
 | `similar` | A related food | Show as a suggestion. |
 
+The script `pipeline/link.py` makes the links. It uses these rules:
+
+| Rule | Copy | Original | Method | Number of links |
+|---|---|---|---|---|
+| 1 | CNF food with a USDA code | USDA food with the same NDB number | Code. If the values are the same: `exact_copy`. If not: `equivalent`. | 3,896 `exact_copy`, 719 `equivalent` |
+| 2 | CFS food from USDA (code A) | USDA food | Same values | 76 `exact_copy` |
+| 3 | CFS food from FSANZ (code D) | AFCD food | Same values. Energy is not compared, because CFS uses a different energy definition for FSANZ. | 601 `exact_copy` |
+
+For a value link, the 2 foods must have the same values for at least 4 key nutrients.
+At least 2 of these values must not be zero.
+If more than 1 food matches, the script uses the name to select 1.
+If the name does not show a clear selection, the script does not make a link.
+
+We examined samples of the links. All links in the samples were correct.
+
 Reasons:
 
 - We can always find the first source of a value.
@@ -398,7 +415,7 @@ Reasons:
 | 5e | Write the importer for UK CoFID | Done |
 | 5f | Write the importer for Canada CNF | Done |
 | 5d | Write the importer for France Ciqual | On hold. The Ciqual web site is in maintenance (section 4.3). |
-| 6 | Link the duplicates in `food_links` (section 4.2) | To do |
+| 6 | Link the duplicates in `food_links` (section 4.2) | Exact copies done (section 3.5). Equivalent foods and synonyms: to do. |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
 | 8 | Make the API with Pages Functions | To do |
 | 9 | Change the site to use the API, not `foods.json` | To do |
