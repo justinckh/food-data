@@ -913,6 +913,9 @@ Bacon and beef sticks,煙肉牛肉條,batch-033
 "Baked beans, canned in tomato sauce","焗豆(罐頭,茄汁)",batch-011
 "Baked beans, canned in tomato sauce, reduced sugar, reduced salt","茄汁焗豆(罐頭,低糖低鹽)",pilot
 "Baked beans, canned in tomato sauce, with pork sausages","焗豆(罐頭,茄汁,配豬肉腸仔)",batch-011
+"Baking chocolate, mexican, squares","烘焙朱古力(墨西哥式,方塊)",batch-035
+"Baking chocolate, unsweetened, liquid","烘焙朱古力(無糖,液體)",batch-035
+"Baking chocolate, unsweetened, squares","烘焙朱古力(無糖,方塊)",batch-035
 "Baking fat and margarine (75-90% fat), hard block","焗製用脂肪及植物牛油(含75%至90%脂肪,硬塊裝)",batch-010
 Baking powder,發粉,batch-017
 "Baking powder, dry powder",泡打粉(乾粉),batch-002
@@ -3275,9 +3278,142 @@ Cakes from 'healthy eating' ranges,健康飲食系列蛋糕,batch-006
 "Candied foods, pineapple",糖漬菠蘿,batch-006
 Candied fruit,糖漬水果,batch-029
 "Candied fruits, Marron glacé (candied chestnuts)",糖漬水果(糖漬栗子),batch-014
+"Candies, 5TH AVENUE Candy Bar",糖果(5TH AVENUE 糖果棒),batch-035
+"Candies, ALMOND JOY Candy Bar",糖果(ALMOND JOY 糖果棒),batch-035
+"Candies, CARAMELLO Candy Bar",糖果(CARAMELLO 糖果棒),batch-035
+"Candies, HEATH BITES",糖果(HEATH BITES),batch-035
+"Candies, HERSHEY'S POT OF GOLD Almond Bar",糖果(HERSHEY'S POT OF GOLD 杏仁棒),batch-035
+"Candies, HERSHEY'S, ALMOND JOY BITES","糖果(HERSHEY'S,ALMOND JOY BITES)",batch-035
+"Candies, HERSHEYS, PAYDAY Bar","糖果(HERSHEYS,PAYDAY 棒)",batch-035
+"Candies, KIT KAT Wafer Bar",糖果(KIT KAT 威化棒),batch-035
+"Candies, KRACKEL Chocolate Bar",糖果(KRACKEL 朱古力棒),batch-035
+"Candies, M&M MARS 3 MUSKETEERS Truffle Crisp",糖果(M&M MARS 3 MUSKETEERS 松露脆心),batch-035
+"Candies, M&M MARS Pretzel Chocolate Candies",糖果(M&M MARS 椒鹽脆餅朱古力糖),batch-035
+"Candies, M&M's Almond Chocolate Candies",糖果(M&M's 杏仁朱古力糖),batch-035
+"Candies, M&M's peanut butter chocolate candies",糖果(M&M's 花生醬朱古力糖),batch-035
+"Candies, M&M's peanut chocolate candies",糖果(M&M's 花生朱古力糖),batch-035
+"Candies, M&M's, mini milk chocolate","糖果(M&M's,迷你牛奶朱古力)",batch-035
+"Candies, M&M's, plain chocolate candies","糖果(M&M's,原味朱古力糖)",batch-035
+"Candies, MARS SNACKFOOD US, COCOAVIA Blueberry and Almond Chocolate Bar","糖果(MARS SNACKFOOD US,COCOAVIA 藍莓杏仁朱古力棒)",batch-035
+"Candies, MARS SNACKFOOD US, COCOAVIA Chocolate Bar","糖果(MARS SNACKFOOD US,COCOAVIA 朱古力棒)",batch-035
+"Candies, MARS SNACKFOOD US, COCOAVIA Chocolate Covered Almonds","糖果(MARS SNACKFOOD US,COCOAVIA 朱古力杏仁)",batch-035
+"Candies, MARS SNACKFOOD US, COCOAVIA Crispy Chocolate Bar","糖果(MARS SNACKFOOD US,COCOAVIA 脆朱古力棒)",batch-035
+"Candies, MARS SNACKFOOD US, DOVE Dark Chocolate","糖果(MARS SNACKFOOD US,DOVE 黑朱古力)",batch-035
+"Candies, MARS SNACKFOOD US, DOVE Milk Chocolate","糖果(MARS SNACKFOOD US,DOVE 牛奶朱古力)",batch-035
+"Candies, MARS SNACKFOOD US, M&M's Crispy Chocolate Candies","糖果(MARS SNACKFOOD US,M&M's 脆心朱古力糖)",batch-035
+"Candies, MARS SNACKFOOD US, MARS Almond Bar","糖果(MARS SNACKFOOD US,MARS 杏仁棒)",batch-035
+"Candies, MARS SNACKFOOD US, MILKY WAY Caramels, milk chocolate covered","糖果(MARS SNACKFOOD US,MILKY WAY 焦糖,牛奶朱古力包裹)",batch-035
+"Candies, MARS SNACKFOOD US, MILKY WAY Caramels. dark chocolate covered","糖果(MARS SNACKFOOD US,MILKY WAY 焦糖,黑朱古力包裹)",batch-035
+"Candies, MARS SNACKFOOD US, POP'ABLES 3 MUSKETEERS Brand Bite Size Candies","糖果(MARS SNACKFOOD US,POP'ABLES 3 MUSKETEERS 一口大小糖果)",batch-035
+"Candies, MARS SNACKFOOD US, POP'ABLES MILKY WAY Brand Bite Size Candies","糖果(MARS SNACKFOOD US,POP'ABLES MILKY WAY 一口大小糖果)",batch-035
+"Candies, MARS SNACKFOOD US, POP'ABLES SNICKERS Brand Bite Size Candies","糖果(MARS SNACKFOOD US,POP'ABLES SNICKERS 一口大小糖果)",batch-035
+"Candies, MARS SNACKFOOD US, SKITTLES Sours Original","糖果(MARS SNACKFOOD US,SKITTLES 酸味原味)",batch-035
+"Candies, MARS SNACKFOOD US, SKITTLES Tropical Bite Size Candies","糖果(MARS SNACKFOOD US,SKITTLES 熱帶一口大小糖果)",batch-035
+"Candies, MARS SNACKFOOD US, SKITTLES Wild Berry Bite Size Candies","糖果(MARS SNACKFOOD US,SKITTLES 野莓一口大小糖果)",batch-035
+"Candies, MARS SNACKFOOD US, SNICKERS CRUNCHER","糖果(MARS SNACKFOOD US,SNICKERS CRUNCHER)",batch-035
+"Candies, MARS SNACKFOOD US, SNICKERS MUNCH bar","糖果(MARS SNACKFOOD US,SNICKERS MUNCH 棒)",batch-035
+"Candies, MARS SNACKFOOD US, STARBURST Fruit Chews, Fruit and Creme","糖果(MARS SNACKFOOD US,STARBURST 水果軟糖,水果忌廉味)",batch-035
+"Candies, MARS SNACKFOOD US, STARBURST Fruit Chews, Tropical fruits","糖果(MARS SNACKFOOD US,STARBURST 水果軟糖,熱帶水果味)",batch-035
+"Candies, MARS SNACKFOOD US, STARBURST Sour Fruit Chews","糖果(MARS SNACKFOOD US,STARBURST 酸味水果軟糖)",batch-035
+"Candies, MOUNDS Candy Bar",糖果(MOUNDS 糖果棒),batch-035
+"Candies, MR. GOODBAR Chocolate Bar",糖果(MR. GOODBAR 朱古力棒),batch-035
+"Candies, NESTLE, AFTER EIGHT Mints","糖果(NESTLE,AFTER EIGHT 薄荷朱古力)",batch-035
+"Candies, NESTLE, BUTTERFINGER Crisp","糖果(NESTLE,BUTTERFINGER 脆心)",batch-035
+"Candies, NESTLE, RAISINETS Chocolate Covered Raisins","糖果(NESTLE,RAISINETS 朱古力提子乾)",batch-035
+"Candies, REESE'S BITES",糖果(REESE'S BITES),batch-035
+"Candies, REESE'S NUTRAGEOUS Candy Bar",糖果(REESE'S NUTRAGEOUS 糖果棒),batch-035
+"Candies, REESE'S Peanut Butter Cups",糖果(REESE'S 花生醬杯),batch-035
+"Candies, REESE's Fast Break, milk chocolate, peanut butter, soft nougats, candy bar","糖果(REESE's Fast Break,牛奶朱古力,花生醬,軟牛軋糖,糖果棒)",batch-035
+"Candies, ROLO Caramels in Milk Chocolate",糖果(ROLO 焦糖夾牛奶朱古力),batch-035
+"Candies, Reese's Pieces",糖果(Reese's Pieces),batch-035
+"Candies, Reese's, Fast Break, milk chocolate peanut butter and soft nougat","糖果(Reese's,Fast Break,牛奶朱古力花生醬及軟牛軋糖)",batch-035
+"Candies, Reesesticks, crispy wafers, peanut butter, milk chocolate","糖果(Reesesticks,脆威化,花生醬,牛奶朱古力)",batch-035
+"Candies, Skittles",糖果(Skittles),batch-035
+"Candies, Starburst fruit chews",糖果(Starburst 水果軟糖),batch-035
+"Candies, TOOTSIE ROLL, chocolate-flavor roll","糖果(TOOTSIE ROLL,朱古力味糖卷)",batch-035
+"Candies, TWIZZLERS CHERRY BITES",糖果(TWIZZLERS 車厘子一口糖),batch-035
+"Candies, Tamarind",糖果(酸角),batch-035
+"Candies, YORK BITES",糖果(YORK BITES),batch-035
+"Candies, YORK Peppermint Pattie",糖果(YORK 薄荷餅),batch-035
+"Candies, bars, 100 Grand","糖果(糖果棒,100 Grand)",batch-035
+"Candies, bars, 3 Musketeers","糖果(糖果棒,3 Musketeers)",batch-035
+"Candies, bars, Baby Ruth","糖果(糖果棒,Baby Ruth)",batch-035
+"Candies, bars, Bit-O-Honey candy chews","糖果(糖果棒,Bit-O-Honey 蜜糖軟糖)",batch-035
+"Candies, bars, Butterfinger","糖果(糖果棒,Butterfinger)",batch-035
+"Candies, bars, Chunky","糖果(糖果棒,Chunky)",batch-035
+"Candies, bars, Kit Kat Big Kat","糖果(糖果棒,Kit Kat Big Kat)",batch-035
+"Candies, bars, Mars","糖果(糖果棒,Mars)",batch-035
+"Candies, bars, Milky Way, Dark Bar","糖果(糖果棒,Milky Way,黑朱古力棒)",batch-035
+"Candies, bars, Nestle Crunch","糖果(糖果棒,Nestle Crunch)",batch-035
+"Candies, bars, Oh Henry!","糖果(糖果棒,Oh Henry!)",batch-035
+"Candies, bars, SNICKERS Almond bar","糖果(糖果棒,SNICKERS 杏仁棒)",batch-035
+"Candies, bars, Skor","糖果(糖果棒,Skor)",batch-035
+"Candies, bars, Snickers","糖果(糖果棒,Snickers)",batch-035
+"Candies, bars, Special Dark","糖果(糖果棒,Special Dark)",batch-035
+"Candies, bars, Symphony","糖果(糖果棒,Symphony)",batch-035
+"Candies, bars, Twix peanut butter cookie","糖果(糖果棒,Twix 花生醬曲奇)",batch-035
 "Candies, bars, Twix, caramel cookie","朱古力條(Twix,焦糖曲奇)",pilot
+"Candies, bars, Twix, chocolate fudge cookie","糖果(糖果棒,Twix,朱古力軟糖曲奇)",batch-035
+"Candies, bars, Whatchamacallit","糖果(糖果棒,Whatchamacallit)",batch-035
 "Candies, bars, white chocolate with almonds",杏仁白朱古力條,batch-006
+"Candies, butterscotch",糖果(奶油糖),batch-035
 "Candies, candy bits, yogourt (yogurt) covered","糖果(糖粒,乳酪包裹)",batch-034
+"Candies, caramel",糖果(焦糖),batch-035
+"Candies, caramel with nuts, chocolate covered","糖果(焦糖配果仁,朱古力包裹)",batch-035
+"Candies, caramels, chocolate-flavor roll","糖果(焦糖,朱古力味糖卷)",batch-035
+"Candies, carob, unsweetened","糖果(角豆,無糖)",batch-035
+"Candies, chocolate coated, reduced sugar","糖果(朱古力包裹,減糖)",batch-035
+"Candies, chocolate covered almond",糖果(朱古力包裹杏仁),batch-035
+"Candies, chocolate, dark, not further specified","糖果(朱古力,黑,未進一步指明)",batch-035
+"Candies, coconut bar, not chocolate covered","糖果(椰子棒,無朱古力包裹)",batch-035
+"Candies, confectioner's coating, butterscotch","糖果(糖果塗層,奶油糖)",batch-035
+"Candies, confectioner's coating, peanut butter","糖果(糖果塗層,花生醬)",batch-035
+"Candies, confectioner's coating, yogurt","糖果(糖果塗層,乳酪)",batch-035
+"Candies, crispy bar with peanut butter filling",糖果(脆棒配花生醬餡),batch-035
+"Candies, dark chocolate coated coffee beans",糖果(黑朱古力包裹咖啡豆),batch-035
+"Candies, divinity, homemade","糖果(白色軟糖,自家製)",batch-035
+"Candies, fondant, homemade","糖果(翻糖,自家製)",batch-035
+"Candies, fruit snacks, with high vitamin C","糖果(水果小食,高維他命C)",batch-035
+"Candies, fudge, chocolate marshmallow with nuts, homemade","糖果(朱古力棉花糖軟糖配果仁,自家製)",batch-035
+"Candies, fudge, chocolate marshmallow, homemade","糖果(朱古力棉花糖軟糖,自家製)",batch-035
+"Candies, fudge, chocolate with nuts, homemade","糖果(朱古力軟糖配果仁,自家製)",batch-035
+"Candies, fudge, chocolate, homemade","糖果(朱古力軟糖,自家製)",batch-035
+"Candies, fudge, peanut butter, homemade","糖果(花生醬軟糖,自家製)",batch-035
+"Candies, fudge, vanilla with nuts",糖果(雲呢拿軟糖配果仁),batch-035
+"Candies, fudge, vanilla, homemade","糖果(雲呢拿軟糖,自家製)",batch-035
+"Candies, goobers, chocolate covered peanuts",糖果(朱古力包裹花生),batch-035
+"Candies, gum drops, lower in Calories (sorbitol)","糖果(橡皮糖,較低卡路里(山梨糖醇))",batch-035
+"Candies, gumdrops (jujubes)",糖果(橡皮糖(棗味軟糖)),batch-035
+"Candies, halavah, plain","糖果(哈瓦酥糖,原味)",batch-035
+"Candies, hard",糖果(硬糖),batch-035
+"Candies, hard, sorbitol sweetened","糖果(硬糖,山梨糖醇增甜)",batch-035
+"Candies, honey-combed, with peanut butter","糖果(蜂巢糖,配花生醬)",batch-035
+"Candies, jellybeans",糖果(雜錦豆形軟糖),batch-035
+"Candies, licorice, cherry, pieces","糖果(甘草糖,車厘子味,片狀)",batch-035
+"Candies, licorice, strawberry","糖果(甘草糖,士多啤梨味)",batch-035
+"Candies, milk chocolate",糖果(牛奶朱古力),batch-035
+"Candies, milk chocolate coated coffee beans",糖果(牛奶朱古力包裹咖啡豆),batch-035
+"Candies, milk chocolate coated peanuts",糖果(牛奶朱古力包裹花生),batch-035
+"Candies, milk chocolate coated raisins",糖果(牛奶朱古力包裹提子乾),batch-035
+"Candies, milk chocolate with almond bites",糖果(牛奶朱古力配杏仁粒),batch-035
+"Candies, milk chocolate with honey and almond nougat",糖果(牛奶朱古力配蜜糖杏仁牛軋糖),batch-035
+"Candies, milk chocolate, with almonds","糖果(牛奶朱古力,配杏仁)",batch-035
+"Candies, milk chocolate, with rice cereal","糖果(牛奶朱古力,配脆米)",batch-035
+"Candies, nougat, with almonds","糖果(牛軋糖,配杏仁)",batch-035
+"Candies, peanut bar",糖果(花生棒),batch-035
+"Candies, peanut brittle, homemade","糖果(花生脆糖,自家製)",batch-035
+"Candies, praline, homemade","糖果(果仁糖,自家製)",batch-035
+"Candies, semisweet chocolate",糖果(半甜朱古力),batch-035
+"Candies, semisweet chocolate, made with butter","糖果(半甜朱古力,以牛油製成)",batch-035
+"Candies, sesame crunch",糖果(芝麻脆糖),batch-035
+"Candies, soft fruit and nut squares",糖果(軟身水果果仁方塊),batch-035
+"Candies, sugar-coated almonds",糖果(糖衣杏仁),batch-035
+"Candies, sweet chocolate",糖果(甜朱古力),batch-035
+"Candies, sweet chocolate coated fondant",糖果(甜朱古力包裹翻糖),batch-035
+"Candies, taffy, homemade","糖果(太妃糖,自家製)",batch-035
+"Candies, toffee, homemade","糖果(牛油糖,自家製)",batch-035
+"Candies, truffles, homemade","糖果(松露朱古力,自家製)",batch-035
+"Candies, white chocolate",糖果(白朱古力),batch-035
 "Candy, brittles",糖果(脆糖),batch-014
 "Candy, butterscotch hard candy",糖果(牛油糖硬糖),batch-014
 "Candy, caramel soft candy",糖果(焦糖軟糖),batch-014
@@ -3288,6 +3424,7 @@ Candied fruit,糖漬水果,batch-029
 "Candy, sugar candy",糖果(冰糖),batch-014
 "Cannelloni, spinach, homemade","意大利大卷(菠菜,自家製)",batch-011
 "Cannelloni, vegetable, homemade","意大利大卷(蔬菜,自家製)",batch-011
+"Capers, canned",酸豆(罐頭),batch-035
 "Capers, pickled, canned, drained","醃續隨子(罐頭,已瀝乾)",batch-002
 "Capsicum, green, fresh, fried, no added fat","燈籠椒(青色,新鮮,炸,無添加脂肪)",batch-002
 "Capsicum, red, fresh, fried, no added fat","燈籠椒(紅色,新鮮,炸,無添加脂肪)",batch-002
@@ -4047,6 +4184,7 @@ Cheese whey powder,芝士乳清粉,batch-016
 "Chewing gum, bubble gum",泡泡糖,batch-014
 "Chewing gum, stick",口香糖(條裝),batch-014
 "Chewing gum, sugar-coated",口香糖(糖衣),batch-014
+"Chewing gum, sugarless",香口膠(無糖),batch-035
 "Chia seeds, dry, raw","奇亞籽(乾,生)",batch-019
 "Chicken breast tenders, breaded, cooked","雞胸柳條(裹粉,熟)",batch-032
 "Chicken breast tenders, breaded, uncooked","雞胸柳條(裹粉,未煮)",batch-032
@@ -4465,10 +4603,15 @@ Chocolate nut spread,朱古力果仁醬,batch-011
 Chocolate nut sundae,朱古力果仁新地,batch-010
 Chocolate spread,朱古力醬,batch-011
 "Chocolate syrup, thin type, 2% M.F. milk added","朱古力糖漿(稀身,加2%乳脂牛奶)",batch-004
+"Chocolate syrup, thin type, Calorie-reduced","朱古力糖漿(稀身,減卡路里)",batch-035
+"Chocolate syrup, thin type, reduced sugar, with added vitamins and minerals","朱古力糖漿(稀身,減糖,添加維他命及礦物質)",batch-035
 "Chocolate syrup, thin type, whole milk added","朱古力糖漿(稀身,添加全脂奶)",batch-025
 "Chocolate, chocolate with almonds",朱古力(杏仁朱古力),batch-014
 "Chocolate, chocolate-covered biscuit",朱古力(朱古力脆皮餅乾),batch-014
 "Chocolate, compound, cooking",代可可脂朱古力(烹調用),batch-001
+"Chocolate, dark, 45- 59% cacao solids","朱古力(黑,含45至59%可可固體)",batch-035
+"Chocolate, dark, 60-69% cacao solids","朱古力(黑,含60至69%可可固體)",batch-035
+"Chocolate, dark, 70-85% cacao solids","朱古力(黑,含70至85%可可固體)",batch-035
 "Chocolate, dark, no added sugar",黑朱古力(無添加糖),batch-001
 "Chocolate, dark, with crème or mint fondant centres",黑朱古力(忌廉或薄荷軟糖心),batch-011
 "Chocolate, fancy and filled",花式夾心朱古力,batch-011
@@ -4478,6 +4621,7 @@ Chocolate spread,朱古力醬,batch-011
 "Chocolate, plain",純朱古力,batch-011
 "Chocolate, white",白朱古力,batch-011
 "Chocolate, white chocolate",白朱古力,batch-014
+Chocolate-flavored hazelnut spread,朱古力味榛子醬,batch-035
 "Chokecherries, raw, pitted (Northern Plains Indians)","野櫻桃(生,去核,北部平原印第安人)",batch-019
 "Chokecherry, raw, pitted","野櫻桃(生,去核)",batch-019
 "Choko, peeled, fresh, boiled, drained","佛手瓜(去皮,新鮮,烚,瀝乾)",batch-002
@@ -4542,6 +4686,9 @@ Cocoa butter,可可脂,batch-007
 "Cocoa powder, made up with skimmed milk",可可粉(以脫脂牛奶沖調),batch-010
 "Cocoa powder, made up with whole milk",可可粉(以全脂牛奶沖調),batch-010
 "Cocoa, chocolate milk powder",可可(朱古力奶粉),batch-013
+"Cocoa, dry powder, hi-fat or breakfast, processed with alkali","可可粉(乾粉,高脂或早餐用,經鹼處理)",batch-035
+"Cocoa, dry powder, unsweetened","可可粉(乾粉,無糖)",batch-035
+"Cocoa, dry powder, unsweetened, HERSHEY'S European Style Cocoa","可可粉(乾粉,無糖,HERSHEY'S 歐式可可粉)",batch-035
 "Cocoa, pure powder",可可(純粉),batch-013
 "Coconut beverage, added Ca",椰子飲品(添加鈣),batch-001
 "Coconut beverage, unfortified",椰子飲品(無強化),batch-001
@@ -5435,18 +5582,38 @@ Custard powder,吉士粉,batch-006
 "Dessert topping, powdered",甜品面層醬(粉狀),batch-026
 "Dessert topping, pressurized",甜品面層醬(加壓裝),batch-026
 "Dessert topping, semi solid, frozen","甜品面層醬(半固體,冷凍)",batch-026
+"Dessert, apple crisp, homemade","甜品(蘋果脆,自家製)",batch-035
+"Dessert, egg custard, baked, homemade","甜品(蛋撻水,焗,自家製)",batch-035
+"Dessert, flan, caramel custard, homemade","甜品(焦糖布丁,自家製)",batch-035
+"Dessert, frozen yogourt (yogurt)",甜品(冷凍乳酪),batch-035
 "Dessert, frozen, Fudgesicle bar, low fat","雪糕棒(Fudgesicle,低脂)",batch-006
+"Dessert, frozen, Popsicle pop (orange, cherry, grape), sugar free","甜品(冷凍,Popsicle 雪條(橙,車厘子,葡萄),無糖)",batch-035
+"Dessert, frozen, fruit and juice bar","甜品(冷凍,水果及果汁雪條)",batch-035
 "Dessert, frozen, gelatin pop",吉士雪條,batch-006
+"Dessert, frozen, ice cream, chocolate or caramel coated, with nuts","甜品(冷凍,雪糕,朱古力或焦糖包裹,配果仁)",batch-035
+"Dessert, frozen, ice cream, sundae, prepackaged","甜品(冷凍,雪糕,新地,預先包裝)",batch-035
+"Dessert, frozen, ice cream, vanilla, light, no sugar added, chocolate coated","甜品(冷凍,雪糕,雲呢拿,輕盈,無添加糖,朱古力包裹)",batch-035
 "Dessert, frozen, ice milk bar, low fat",冷凍甜品(低脂奶雪條),batch-026
+"Dessert, frozen, ice pop","甜品(冷凍,冰條)",batch-035
 "Dessert, frozen, ices, Italian, restaurant prepared",意式冰品(餐廳製),pilot
+"Dessert, frozen, juice with cream","甜品(冷凍,果汁配忌廉)",batch-035
+"Dessert, frozen, juice, orange","甜品(冷凍,果汁,橙)",batch-035
+"Dessert, frozen, pop, with artificial sweetener","甜品(冷凍,雪條,含人工增甜劑)",batch-035
 "Dessert, frozen, pudding pop, chocolate",朱古力布甸雪條,batch-006
 "Dessert, frozen, pudding pop, vanilla",雲呢拿布甸雪條,batch-006
+"Dessert, gelatin dry mix, prepared with water","甜品(啫喱粉,加水調製)",batch-035
+"Dessert, gelatin, dry mix, calorie-reduced, with aspartame, prepared with water","甜品(啫喱粉,減卡路里,含阿斯巴甜,加水調製)",batch-035
+"Dessert, mousse, chocolate, homemade","甜品(慕斯,朱古力,自家製)",batch-035
 "Dessert, pudding, all flavours except chocolate, instant, dry mix, prepared with 2% M.F. milk","布甸(朱古力味除外的各種口味,即食粉,以2%脂肪牛奶調製)",batch-006
 "Dessert, pudding, rice, with raisins, homemade",提子乾米布甸(自家製),batch-006
 "Dessert, pudding, vanilla, dry mix, instant, prepared with 2% M.F. milk","雲呢拿布甸(即食粉,以2%脂肪牛奶調製)",batch-006
+"Dessert, rennin, tablets, unsweetened","甜品(凝乳酶片,無糖)",batch-035
 "Desserts, dairy, chocolate",朱古力奶類甜品,pilot
+"Desserts, rennin, chocolate, dry mix","甜品(凝乳酶,朱古力,乾粉)",batch-035
+"Desserts, rennin, vanilla, dry mix","甜品(凝乳酶,雲呢拿,乾粉)",batch-035
 "Devilled kidneys, homemade",惡魔腰子(自家製),batch-009
 Dill seeds,蒔蘿籽,batch-008
+"Dill weed, fresh",蒔蘿(新鮮),batch-035
 "Dill, dried",蒔蘿(乾),batch-008
 "Dill, fresh",蒔蘿(新鮮),batch-002
 "Dip, FRITO'S, bean, original flavor","蘸醬(FRITO'S,豆,原味)",batch-034
@@ -5587,6 +5754,9 @@ Dulce de Leche,牛奶焦糖醬(Dulce de Leche),batch-026
 "Eel, conger, flesh only, raw","海鰻(只計魚肉,生)",batch-007
 "Eel, yellow, raw",黃鱔(生),batch-007
 Egg Benedict,班尼迪克蛋,batch-004
+"Egg custards, dry mix",蛋撻水(乾粉),batch-035
+"Egg custards, dry mix, prepared with 2% milk","蛋撻水(乾粉,以2%牛奶調製)",batch-035
+"Egg custards, dry mix, prepared with whole milk","蛋撻水(乾粉,以全脂牛奶調製)",batch-035
 Egg fu yung,芙蓉蛋,batch-007
 "Egg nog, homemade",蛋酒(自家製),batch-006
 "Egg roll, assorted, restaurant prepared","春卷(什錦,餐廳製作)",batch-033
@@ -6501,6 +6671,9 @@ Fish paste,魚醬,batch-007
 "Fishcakes, white fish, coated in breadcrumbs, baked","白肉魚餅(裹麵包糠,焗)",batch-007
 "Flan case, pastry, homemade",酥皮批底(自家製),batch-006
 "Flan case, sponge, homemade",海綿批底(自家製),batch-006
+"Flan, caramel custard, dry mix",焦糖布丁(乾粉),batch-035
+"Flan, caramel custard, dry mix, prepared with 2% milk","焦糖布丁(乾粉,以2%牛奶調製)",batch-035
+"Flan, caramel custard, dry mix, prepared with whole milk","焦糖布丁(乾粉,以全脂牛奶調製)",batch-035
 "Flan, cheese and mushroom, homemade",芝士蘑菇批(自家製),batch-012
 "Flan, cheese and mushroom, wholemeal, homemade","芝士蘑菇批(全麥,自家製)",batch-012
 "Flan, cheese, onion and potato, homemade",芝士洋蔥薯仔批(自家製),batch-012
@@ -6595,6 +6768,18 @@ Frankfurter with bun,法蘭克福腸熱狗包,batch-009
 "Fromage frais, fruit, children's, fortified","法式鮮乳酪(水果味,兒童裝,強化)",batch-010
 "Fromage frais, virtually fat free, fruit","法式鮮乳酪(近乎無脂,水果味)",batch-010
 "Fromage frais, virtually fat free, natural","法式鮮乳酪(近乎無脂,原味)",batch-010
+"Frostings, chocolate, creamy, dry mix","糖霜(朱古力,幼滑,乾粉)",batch-035
+"Frostings, chocolate, creamy, dry mix, prepared with butter","糖霜(朱古力,幼滑,乾粉,以牛油調製)",batch-035
+"Frostings, chocolate, creamy, dry mix, prepared with margarine","糖霜(朱古力,幼滑,乾粉,以人造牛油調製)",batch-035
+"Frostings, chocolate, creamy, ready-to-eat","糖霜(朱古力,幼滑,即食)",batch-035
+"Frostings, coconut-nut, ready-to-eat","糖霜(椰子果仁,即食)",batch-035
+"Frostings, cream cheese-flavor, ready-to-eat","糖霜(忌廉芝士味,即食)",batch-035
+"Frostings, glaze, chocolate, prepared-from-recipe, with butter, NFSMI Recipe No. C-32","糖霜(朱古力糖衣,按食譜調製,含牛油,NFSMI 食譜編號 C-32)",batch-035
+"Frostings, vanilla, creamy, dry mix","糖霜(雲呢拿,幼滑,乾粉)",batch-035
+"Frostings, vanilla, creamy, dry mix, prepared with margarine","糖霜(雲呢拿,幼滑,乾粉,以人造牛油調製)",batch-035
+"Frostings, vanilla, creamy, ready-to-eat","糖霜(雲呢拿,幼滑,即食)",batch-035
+"Frostings, white, fluffy, dry mix","糖霜(白色,鬆軟,乾粉)",batch-035
+"Frostings, white, fluffy, dry mix, prepared with water","糖霜(白色,鬆軟,乾粉,加水調製)",batch-035
 "Frozen entree, Asian dish, beef, rice and vegetables, ginger sauce, heated","急凍餐(亞洲菜式,牛肉,飯及蔬菜,薑汁醬,已加熱)",batch-005
 "Frozen entree, Asian dish, chicken (breaded or not breaded), rice and vegetables, asian sauce (general tao [tso]), heated","急凍餐(亞洲菜式,雞肉(有粉衣或無),飯及蔬菜,左宗棠醬,已加熱)",batch-005
 "Frozen entree, Asian dish, chicken fried rice, heated","急凍餐(亞洲菜式,雞肉炒飯,已加熱)",batch-005
@@ -6644,6 +6829,12 @@ Frankfurter with bun,法蘭克福腸熱狗包,batch-009
 "Frozen entree, shepherd's pie with corn (may include carrots and peas), heated","急凍餐(牧羊人批配粟米(可能包括甘筍及豌豆),已加熱)",batch-005
 "Frozen entree, turkey with potato and gravy, heated","急凍餐(火雞肉配薯仔及肉汁,已加熱)",batch-005
 "Frozen entree, turkey with potato, vegetables and gravy, heated","急凍餐(火雞肉配薯仔,蔬菜及肉汁,已加熱)",batch-005
+"Frozen novelties, KLONDIKE, SLIM-A-BEAR Chocolate Cone","冷凍甜點(KLONDIKE,SLIM-A-BEAR 朱古力甜筒)",batch-035
+"Frozen novelties, KLONDIKE, SLIM-A-BEAR Fudge Bar, 98% fat free, no sugar added","冷凍甜點(KLONDIKE,SLIM-A-BEAR 朱古力軟糖雪條,98%無脂肪,無添加糖)",batch-035
+"Frozen novelties, KLONDIKE, SLIM-A-BEAR Vanilla Sandwich","冷凍甜點(KLONDIKE,SLIM-A-BEAR 雲呢拿雪糕三文治)",batch-035
+"Frozen novelties, KLONDIKE, SLIM-A-BEAR, No Sugar Added, Stickless Bar","冷凍甜點(KLONDIKE,SLIM-A-BEAR,無添加糖,無棍雪條)",batch-035
+"Frozen novelties, No Sugar Added CREAMSICLE Pops",冷凍甜點(無添加糖 CREAMSICLE 雪條),batch-035
+"Frozen novelties, No Sugar Added, FUDGSICLE pops","冷凍甜點(無添加糖,FUDGSICLE 雪條)",batch-035
 "Frozen yogurts, vanilla, soft-serve",雲呢拿冷凍乳酪(軟雪糕式),pilot
 "Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, extra heavy syrup, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,特濃糖漿,固體連汁)",batch-029
 "Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, extra light syrup pack, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,特淡糖漿裝,固體連汁)",batch-029
@@ -7220,6 +7411,7 @@ Honey and comb,蜂巢蜜,batch-011
 "Horlicks, powder",好立克粉,batch-006
 "Horse, meat, lean, raw","馬肉(瘦肉,生)",batch-016
 Horseradish sauce,辣根醬,batch-011
+"Horseradish, prepared",辣根(已調製),batch-035
 "Horseradish, raw",辣根(生),batch-012
 "Horseradish, rhizome, raw","辣根(根莖,生)",batch-018
 "Hot chocolate with marshmallows, mix, powder, prepared with water","熱朱古力(加棉花糖,沖劑,粉末,以水沖調)",batch-003
@@ -9750,6 +9942,7 @@ Peanuts and raisins,花生提子乾,batch-010
 "Pepperidge Farm, Goldfish, Baked Snack Crackers, Parmesan","金魚形焗烤小食餅乾(Pepperidge Farm,巴馬臣芝士味)",batch-022
 "Pepperidge Farm, Goldfish, Baked Snack Crackers, Pizza","金魚形焗烤小食餅乾(Pepperidge Farm,薄餅味)",batch-022
 "Peppermint creams, homemade",薄荷奶油糖(自家製),batch-011
+"Peppermint, fresh",薄荷(新鮮),batch-035
 Peppermints,薄荷糖,batch-011
 "Peppers, banana or Hungarian wax, seeded, raw","香蕉椒或匈牙利蠟椒(去籽,生)",batch-019
 "Peppers, bell, green, raw","燈籠椒(青色,生)",batch-019
@@ -11663,6 +11856,9 @@ Seafood sticks,海鮮條,batch-008
 "Seal, ringed, liver (Alaska Native)",環斑海豹肝(阿拉斯加原住民),batch-020
 "Seal, ringed, meat (Alaska Native)",環斑海豹肉(阿拉斯加原住民),batch-020
 "Seasoning mix for ""Ochazuke"" (bowl of rice soaked in dashi broth)",茶泡飯調味料,batch-017
+"Seasoning mix, chili, dry mix","調味粉(辣椒,乾粉)",batch-035
+"Seasoning mix, dry, sazon, coriander & annatto","調味粉(乾,Sazon,芫荽及胭脂樹籽)",batch-035
+"Seasoning mix, taco, dry mix","調味粉(墨西哥脆餅,乾粉)",batch-035
 "Seasoning sauce ""Nihaizu"" (vinegar mixture containing soy sauce)",二杯醋(含豉油的醋混合物),batch-017
 "Seasoning sauce, ""Gomasu"" (vinegar mixture containing sesami, soy sauce and sugar)",芝麻醋醬(含芝麻、豉油及糖),batch-017
 "Seasoning sauce, ""Kimizu"" (seasoning containing vinegar and egg yolk)",蛋黃醋醬(含醋及蛋黃),batch-017
@@ -12007,23 +12203,60 @@ Sorghum grain,高粱穀粒,batch-026
 "Soup, French onion, homemade",法式洋蔥湯(自家製),batch-011
 "Soup, French onion, homemade (with bread and cheese)","法式洋蔥湯(連麵包及芝士,自家製)",batch-005
 "Soup, HEALTHY CHOICE Chicken Noodle Soup, canned","湯(HEALTHY CHOICE 雞肉麵湯,罐頭)",batch-034
+"Soup, HEALTHY CHOICE Chicken and Rice Soup, canned","湯(HEALTHY CHOICE 雞肉飯湯,罐頭)",batch-035
+"Soup, HEALTHY CHOICE Garden Vegetable Soup, canned","湯(HEALTHY CHOICE 田園雜菜湯,罐頭)",batch-035
 "Soup, Italian wedding, ready-to-serve",意式婚禮湯(即食),batch-005
 "Soup, Nissin, Cup Noodles, ramen noodle, chicken flavour, dry","日清杯麵(日清,拉麵,雞肉味,乾)",batch-005
 "Soup, Nissin, Cup Noodles, ramen noodles, chicken flavour, dry, water added","日清杯麵(日清,拉麵,雞肉味,乾,加水)",batch-005
 "Soup, Nissin, Oodles of Noodles Top Ramen, ramen noodles, oriental flavour, dry","日清出前一丁(日清,拉麵,東方味,乾)",batch-005
 "Soup, Nissin, Oodles of Noodles Top Ramen, ramen noodles, oriental flavour, dry, water added","日清出前一丁(日清,拉麵,東方味,乾,加水)",batch-005
+"Soup, SWANSON, beef broth, lower sodium","湯(SWANSON,牛肉清湯,較低鈉)",batch-035
+"Soup, SWANSON, vegetable broth","湯(SWANSON,蔬菜清湯)",batch-035
+"Soup, bean & ham, canned, reduced sodium, prepared with water or ready-to-serve","湯(豆火腿,罐頭,減鈉,加水調製或即食)",batch-035
 "Soup, bean with bacon, canned, condensed, water added","煙肉豆湯(罐頭,濃縮,加水)",batch-005
+"Soup, bean with bacon, condensed, single brand","湯(豆配煙肉,濃縮,單一品牌)",batch-035
 "Soup, bean with bacon, dehydrated",煙肉豆湯(脫水),batch-005
 "Soup, bean with bacon, dehydrated, water added","煙肉豆湯(脫水,加水)",batch-005
+"Soup, bean with frankfurters, canned, condensed","湯(豆配熱狗腸,罐頭,濃縮)",batch-035
+"Soup, bean with frankfurters, canned, prepared with equal volume water","湯(豆配熱狗腸,罐頭,加等量水調製)",batch-035
+"Soup, bean with ham, ready-to-serve","湯(豆配火腿,即食)",batch-035
+"Soup, bean with pork, canned, condensed","湯(豆配豬肉,罐頭,濃縮)",batch-035
+"Soup, bean with pork, canned, prepared with equal volume water","湯(豆配豬肉,罐頭,加等量水調製)",batch-035
+"Soup, beef and mushroom, low sodium, chunk style","湯(牛肉及蘑菇,低鈉,粗粒型)",batch-035
+"Soup, beef and vegetables, canned, ready-to-serve","湯(牛肉及蔬菜,罐頭,即食)",batch-035
+"Soup, beef and vegetables, reduced sodium, canned, ready-to-serve","湯(牛肉及蔬菜,減鈉,罐頭,即食)",batch-035
+"Soup, beef barley, ready to serve","湯(牛肉大麥,即食)",batch-035
+"Soup, beef barley, ready-to-serve","湯(牛肉大麥,即食)",batch-035
+"Soup, beef broth, bouillon, consomme, prepared with equal volume water","湯(牛肉清湯,牛肉湯塊,清澈肉湯,加等量水調製)",batch-035
+"Soup, beef broth, cubed, dry","湯(牛肉清湯,方塊,乾)",batch-035
+"Soup, beef broth, cubed, prepared with water","湯(牛肉清湯,方塊,加水調製)",batch-035
+"Soup, beef broth, less/reduced sodium, ready to serve","湯(牛肉清湯,較低鈉或減鈉,即食)",batch-035
+"Soup, beef mushroom, canned, condensed","湯(牛肉蘑菇,罐頭,濃縮)",batch-035
+"Soup, beef mushroom, canned, prepared with equal volume water","湯(牛肉蘑菇,罐頭,加等量水調製)",batch-035
+"Soup, beef noodle, canned, condensed","湯(牛肉麵,罐頭,濃縮)",batch-035
+"Soup, beef noodle, canned, condensed, water added","湯(牛肉麵,罐頭,濃縮,已加水)",batch-035
 "Soup, beef noodle, dehydrated",牛肉麵湯(脫水),batch-005
 "Soup, beef noodle, dehydrated, water added","牛肉麵湯(脫水,加水)",batch-005
+"Soup, beef stroganoff, canned, chunky style, ready-to-serve","湯(俄式牛肉,罐頭,粗粒型,即食)",batch-035
 "Soup, black bean and vegetable, ready-to-serve, reduced sodium","黑豆蔬菜湯(即食,減鈉)",batch-005
+"Soup, black bean, canned, condensed","湯(黑豆,罐頭,濃縮)",batch-035
+"Soup, black bean, canned, prepared with equal volume water","湯(黑豆,罐頭,加等量水調製)",batch-035
 "Soup, black bean, ready-to-serve","湯(黑豆,即食)",batch-033
+"Soup, bouillon cubes and granules, low sodium, dry","湯(湯料方塊及顆粒,低鈉,乾)",batch-035
 "Soup, broccoli and stilton, carton, chilled","西蘭花藍紋芝士湯(盒裝,冷藏)",batch-011
+"Soup, broccoli cheese, canned, condensed","湯(西蘭花芝士,罐頭,濃縮)",batch-035
 "Soup, broccoli cheese, canned, condensed, water added","西蘭花芝士湯(罐頭,濃縮,加水)",batch-005
+"Soup, broth (consomme), beef, canned, condensed","湯(清湯(澄清肉湯),牛肉,罐頭,濃縮)",batch-035
 "Soup, broth (consomme), beef, canned, condensed, water added","清湯(牛肉,罐頭,濃縮,加水)",batch-005
 "Soup, broth style, with meat, instant dry mix","湯(清湯式,連肉,即食乾粉)",batch-002
+"Soup, broth, beef, dehydrated","湯(肉湯,牛肉,脫水)",batch-035
+"Soup, broth, beef, dehydrated, water added","湯(肉湯,牛肉,脫水,已加水)",batch-035
+"Soup, broth, beef, ready-to-serve","湯(肉湯,牛肉,即食)",batch-035
+"Soup, broth, chicken, canned, condensed, water added","湯(肉湯,雞肉,罐頭,濃縮,已加水)",batch-035
 "Soup, broth, chicken, canned, condensed, water added, reduced sodium","雞湯(罐頭,濃縮,加水,減鈉)",batch-005
+"Soup, broth, chicken, dehydrated","湯(肉湯,雞肉,脫水)",batch-035
+"Soup, broth, chicken, dehydrated, water added","湯(肉湯,雞肉,脫水,已加水)",batch-035
+"Soup, broth, chicken, ready to serve, reduced sodium","湯(肉湯,雞肉,即食,減鈉)",batch-035
 "Soup, broth, vegetable, ready-to-serve, low sodium","蔬菜湯(即食,低鈉)",batch-005
 "Soup, butternut squash, ready-to-serve",灰胡桃南瓜湯(即食),batch-005
 "Soup, butternut squash, ready-to-serve, reduced sodium","灰胡桃南瓜湯(即食,減鈉)",batch-005
@@ -12032,23 +12265,75 @@ Sorghum grain,高粱穀粒,batch-026
 "Soup, cauliflower, dehydrated",椰菜花湯(脫水),batch-005
 "Soup, cauliflower, dehydrated, water added","椰菜花湯(脫水,加水)",batch-005
 "Soup, cheddar cheese, canned, condensed, 2% M.F. milk added","車打芝士湯(罐頭,濃縮,加入2%脂肪牛奶)",batch-005
+"Soup, cheddar cheese, canned, condensed, water added","湯(車打芝士,罐頭,濃縮,已加水)",batch-035
+"Soup, cheese, canned, condensed","湯(芝士,罐頭,濃縮)",batch-035
+"Soup, cheese, canned, prepared with equal volume milk","湯(芝士,罐頭,加等量牛奶調製)",batch-035
 "Soup, chicken & noodle, cup of soup, prepared from instant dry mix with water","湯(雞肉麵,杯裝湯,由即食乾粉加水調製)",batch-002
+"Soup, chicken and vegetable, canned, ready-to-serve","湯(雞肉及蔬菜,罐頭,即食)",batch-035
+"Soup, chicken broth cubes, dry","湯(雞肉清湯方塊,乾)",batch-035
+"Soup, chicken broth cubes, dry, prepared with water","湯(雞肉清湯方塊,乾,加水調製)",batch-035
+"Soup, chicken broth, canned, condensed","湯(雞肉清湯,罐頭,濃縮)",batch-035
+"Soup, chicken broth, low sodium, canned","湯(雞肉清湯,低鈉,罐頭)",batch-035
+"Soup, chicken broth, ready-to-serve","湯(雞肉清湯,即食)",batch-035
+"Soup, chicken corn chowder, chunky, ready-to-serve, single brand","湯(雞肉粟米周打,粗粒型,即食,單一品牌)",batch-035
+"Soup, chicken gumbo, canned, condensed","湯(雞肉秋葵濃湯,罐頭,濃縮)",batch-035
+"Soup, chicken gumbo, canned, condensed, water added","湯(雞肉秋葵濃湯,罐頭,濃縮,已加水)",batch-035
+"Soup, chicken mushroom, canned, condensed","湯(雞肉蘑菇,罐頭,濃縮)",batch-035
+"Soup, chicken mushroom, canned, prepared with equal volume water","湯(雞肉蘑菇,罐頭,加等量水調製)",batch-035
+"Soup, chicken noodle, canned, condensed","湯(雞肉麵,罐頭,濃縮)",batch-035
 "Soup, chicken noodle, canned, condensed, reduced sodium","雞肉麵湯(罐頭,濃縮,減鈉)",batch-005
 "Soup, chicken noodle, canned, condensed, water added","雞肉麵湯(罐頭,濃縮,加水)",batch-006
 "Soup, chicken noodle, canned, condensed, water added, reduced sodium","雞肉麵湯(罐頭,濃縮,加水,減鈉)",batch-006
+"Soup, chicken noodle, canned, prepared with equal volume water","湯(雞肉麵,罐頭,加等量水調製)",batch-035
+"Soup, chicken noodle, dehydrated, water added","湯(雞肉麵,脫水,已加水)",batch-035
 "Soup, chicken noodle, dried",雞肉麵湯(乾),batch-011
 "Soup, chicken noodle, dried, as served","雞肉麵湯(乾,即飲)",batch-011
+"Soup, chicken noodle, dry, mix","湯(雞肉麵,乾粉包)",batch-035
 "Soup, chicken noodle, homemade",雞肉麵湯(自家製),batch-006
+"Soup, chicken noodle, low sodium, canned, prepared with equal volume water","湯(雞肉麵,低鈉,罐頭,加等量水調製)",batch-035
+"Soup, chicken noodle, ready-to-serve","湯(雞肉麵,即食)",batch-035
+"Soup, chicken noodle, ready-to-serve, reduced sodium","湯(雞肉麵,即食,減鈉)",batch-035
+"Soup, chicken rice, canned, condensed","湯(雞肉飯,罐頭,濃縮)",batch-035
+"Soup, chicken rice, canned, condensed, water added","湯(雞肉飯,罐頭,濃縮,已加水)",batch-035
 "Soup, chicken rice, dehydrated",雞肉飯湯(脫水),batch-006
 "Soup, chicken rice, dehydrated, water added","雞肉飯湯(脫水,加水)",batch-006
+"Soup, chicken rice, ready-to-serve","湯(雞肉飯,即食)",batch-035
 "Soup, chicken rice, ready-to-serve, reduced sodium","雞肉飯湯(即食,減鈉)",batch-006
+"Soup, chicken vegetable with potato and cheese, chunky, ready-to-serve","湯(雞肉蔬菜配薯仔及芝士,粗粒型,即食)",batch-035
+"Soup, chicken vegetable, canned, condensed","湯(雞肉蔬菜,罐頭,濃縮)",batch-035
 "Soup, chicken vegetable, canned, condensed, water added","雞肉蔬菜湯(罐頭,濃縮,加水)",batch-006
 "Soup, chicken vegetable, dehydrated",雞肉蔬菜湯(脫水),batch-006
 "Soup, chicken vegetable, dehydrated, water added","雞肉蔬菜湯(脫水,加水)",batch-006
+"Soup, chicken, canned, chunky, ready-to-serve","湯(雞肉,罐頭,粗粒型,即食)",batch-035
 "Soup, chicken, cream of, canned",忌廉雞湯(罐頭),batch-011
+"Soup, chili beef, canned, condensed","湯(辣肉醬牛肉,罐頭,濃縮)",batch-035
+"Soup, chili beef, canned, prepared with equal volume water","湯(辣肉醬牛肉,罐頭,加等量水調製)",batch-035
+"Soup, chunky vegetable, canned, ready-to-serve","湯(粗粒蔬菜,罐頭,即食)",batch-035
+"Soup, chunky vegetable, reduced sodium, canned, ready-to-serve","湯(粗粒蔬菜,減鈉,罐頭,即食)",batch-035
+"Soup, clam chowder, Manhattan, ready-to-serve","湯(蜆肉周打,曼哈頓式,即食)",batch-035
+"Soup, clam chowder, New England, ready-to-serve","湯(蜆肉周打,新英格蘭式,即食)",batch-035
 "Soup, clam chowder, New England, ready-to-serve, reduced sodium","新英格蘭蜆肉周打湯(即食,減鈉)",batch-006
+"Soup, clam chowder, manhattan, canned, condensed","湯(蜆肉周打,曼哈頓式,罐頭,濃縮)",batch-035
+"Soup, clam chowder, manhattan, canned, prepared with equal volume water","湯(蜆肉周打,曼哈頓式,罐頭,加等量水調製)",batch-035
+"Soup, clam chowder, new england, canned, condensed","湯(蜆肉周打,新英格蘭式,罐頭,濃縮)",batch-035
+"Soup, clam chowder, new england, canned, prepared with equal volume low fat (2%) milk","湯(蜆肉周打,新英格蘭式,罐頭,加等量低脂(2%)牛奶調製)",batch-035
+"Soup, clam chowder, new england, canned, prepared with equal volume water","湯(蜆肉周打,新英格蘭式,罐頭,加等量水調製)",batch-035
+"Soup, clam chowder, new england, reduced sodium, canned, ready-to-serve","湯(蜆肉周打,新英格蘭式,減鈉,罐頭,即食)",batch-035
+"Soup, cream of asparagus, canned, prepared with equal volume milk","忌廉湯(露筍,罐頭,加等量牛奶調製)",batch-035
+"Soup, cream of celery, canned, prepared with equal volume milk","忌廉湯(西芹,罐頭,加等量牛奶調製)",batch-035
+"Soup, cream of chicken, canned, condensed, reduced sodium","忌廉湯(雞肉,罐頭,濃縮,減鈉)",batch-035
+"Soup, cream of chicken, canned, prepared with equal volume milk","忌廉湯(雞肉,罐頭,加等量牛奶調製)",batch-035
+"Soup, cream of chicken, canned, prepared with equal volume water","忌廉湯(雞肉,罐頭,加等量水調製)",batch-035
+"Soup, cream of mushroom, canned, prepared with equal volume low fat (2%) milk","忌廉湯(蘑菇,罐頭,加等量低脂(2%)牛奶調製)",batch-035
+"Soup, cream of onion, canned, prepared with equal volume milk","忌廉湯(洋蔥,罐頭,加等量牛奶調製)",batch-035
+"Soup, cream of potato, canned, prepared with equal volume milk","忌廉湯(薯仔,罐頭,加等量牛奶調製)",batch-035
+"Soup, cream of shrimp, canned, condensed","忌廉湯(蝦,罐頭,濃縮)",batch-035
+"Soup, cream of shrimp, canned, prepared with equal volume low fat (2%) milk","忌廉湯(蝦,罐頭,加等量低脂(2%)牛奶調製)",batch-035
+"Soup, cream of shrimp, canned, prepared with equal volume water","忌廉湯(蝦,罐頭,加等量水調製)",batch-035
 "Soup, cream of tomato, canned",忌廉番茄湯(罐頭),batch-011
+"Soup, cream, asparagus, canned, condensed","忌廉濃湯(露筍,罐頭,濃縮)",batch-035
 "Soup, cream, asparagus, canned, condensed, 2% M.F. milk added","忌廉蘆筍湯(罐頭,濃縮,加入2%脂肪牛奶)",batch-006
+"Soup, cream, asparagus, canned, condensed, water added","忌廉濃湯(露筍,罐頭,濃縮,已加水)",batch-035
 "Soup, cream, asparagus, dehydrated",忌廉蘆筍湯(脫水),batch-006
 "Soup, cream, asparagus, dehydrated, water added","忌廉蘆筍湯(脫水,加水)",batch-006
 "Soup, cream, asparagus, ready-to-serve",忌廉蘆筍湯(即食),batch-006
@@ -12063,6 +12348,7 @@ Sorghum grain,高粱穀粒,batch-026
 "Soup, cream, celery, canned, condensed, reduced fat","忌廉西芹湯(罐頭,濃縮,減脂)",batch-006
 "Soup, cream, celery, canned, condensed, reduced fat, 2% M.F. milk added","忌廉西芹湯(罐頭,濃縮,減脂,加入2%脂肪牛奶)",batch-006
 "Soup, cream, celery, canned, condensed, reduced fat, water added","忌廉西芹湯(罐頭,濃縮,減脂,加水)",batch-006
+"Soup, cream, celery, canned, condensed, water added","忌廉濃湯(西芹,罐頭,濃縮,已加水)",batch-035
 "Soup, cream, celery, dehydrated",忌廉西芹湯(脫水),batch-006
 "Soup, cream, celery, dehydrated, water added","忌廉西芹湯(脫水,加水)",batch-006
 "Soup, cream, chicken, canned, condensed","忌廉雞湯(罐頭,濃縮)",batch-011
@@ -12072,71 +12358,141 @@ Sorghum grain,高粱穀粒,batch-026
 "Soup, cream, chicken, canned, condensed, reduced fat, water added","忌廉雞湯(罐頭,濃縮,減脂,加水)",batch-006
 "Soup, cream, chicken, canned, condensed, water added","忌廉雞湯(罐頭,濃縮,加水)",batch-006
 "Soup, cream, chicken, dehydrated",忌廉雞湯(脫水),batch-006
+"Soup, cream, chicken, dehydrated, water added","忌廉濃湯(雞肉,脫水,已加水)",batch-035
 "Soup, cream, chicken, ready-to-serve",忌廉雞湯(即食),batch-006
+"Soup, cream, mushroom, canned, condensed","忌廉濃湯(蘑菇,罐頭,濃縮)",batch-035
 "Soup, cream, mushroom, canned, condensed, 2% M.F. milk added","忌廉蘑菇湯(罐頭,濃縮,加入2%脂肪牛奶)",batch-006
 "Soup, cream, mushroom, canned, condensed, reduced fat","忌廉蘑菇湯(罐頭,濃縮,減脂)",batch-006
 "Soup, cream, mushroom, canned, condensed, reduced fat, 2% M.F. milk added","忌廉蘑菇湯(罐頭,濃縮,減脂,加入2%脂肪牛奶)",batch-006
 "Soup, cream, mushroom, canned, condensed, reduced fat, water added","忌廉蘑菇湯(罐頭,濃縮,減脂,加水)",batch-006
+"Soup, cream, mushroom, canned, condensed, reduced sodium","忌廉濃湯(蘑菇,罐頭,濃縮,減鈉)",batch-035
 "Soup, cream, mushroom, canned, condensed, reduced sodium, 2% M.F. milk added","忌廉蘑菇湯(罐頭,濃縮,減鈉,加入2%脂肪牛奶)",batch-006
 "Soup, cream, mushroom, canned, condensed, reduced sodium, water added","忌廉蘑菇湯(罐頭,濃縮,減鈉,加水)",batch-006
+"Soup, cream, mushroom, canned, condensed, water added","忌廉濃湯(蘑菇,罐頭,濃縮,已加水)",batch-035
 "Soup, cream, mushroom, ready-to-serve",忌廉蘑菇湯(即食),batch-006
+"Soup, cream, mushroom, ready-to-serve, reduced sodium","忌廉濃湯(蘑菇,即食,減鈉)",batch-035
+"Soup, cream, onion, canned, condensed","忌廉濃湯(洋蔥,罐頭,濃縮)",batch-035
 "Soup, cream, onion, canned, condensed, 2% M.F. milk added","忌廉洋蔥湯(罐頭,濃縮,加入2%脂肪牛奶)",batch-006
+"Soup, cream, onion, canned, condensed, water added","忌廉濃湯(洋蔥,罐頭,濃縮,已加水)",batch-035
+"Soup, cream, potato, canned, condensed","忌廉濃湯(薯仔,罐頭,濃縮)",batch-035
 "Soup, cream, potato, canned, condensed, 2% M.F. milk added","忌廉薯仔湯(罐頭,濃縮,加入2%脂肪牛奶)",batch-006
+"Soup, cream, potato, canned, condensed, water added","忌廉濃湯(薯仔,罐頭,濃縮,已加水)",batch-035
 "Soup, cream, potato, ready-to-serve",忌廉薯仔湯(即食),batch-006
+"Soup, cream, vegetable, dehydrated","忌廉濃湯(蔬菜,脫水)",batch-035
 "Soup, cream, vegetable, dehydrated, water added","忌廉蔬菜湯(脫水,加水)",batch-006
 "Soup, cream, vegetable, prepared with 2% M.F. milk, homemade","忌廉蔬菜湯(以2%脂肪牛奶調製,自家製)",batch-006
+"Soup, egg drop, Chinese restaurant",蛋花湯(中式餐廳),batch-035
 "Soup, fish, homemade (Alaska Native)","魚湯(自家製,阿拉斯加原住民)",batch-020
 "Soup, gazpacho, homemade",西班牙凍湯(自家製),batch-011
 "Soup, goulash, homemade",匈牙利燉牛肉湯(自家製),batch-011
+"Soup, hot and sour, Chinese restaurant",酸辣湯(中式餐廳),batch-035
 "Soup, instant, dried, as purchased","即食湯(乾,購買時)",batch-011
 "Soup, instant, dried, as served","即食湯(乾,即飲)",batch-011
 "Soup, leek, dehydrated",韭蔥湯(脫水),batch-006
 "Soup, leek, dehydrated, water added","韭蔥湯(脫水,加水)",batch-006
+"Soup, lentil with bacon, ready-to-serve","湯(小扁豆配煙肉,即食)",batch-035
 "Soup, lentil, canned",扁豆湯(罐頭),batch-011
 "Soup, lentil, homemade",扁豆湯(自家製),batch-011
 "Soup, lentil, ready-to-serve",扁豆湯(即食),batch-006
 "Soup, low calorie, canned",低卡湯(罐頭),batch-011
 "Soup, minestrone, canned",意大利雜菜湯(罐頭),batch-011
+"Soup, minestrone, canned, condensed","湯(意大利雜菜,罐頭,濃縮)",batch-035
+"Soup, minestrone, canned, condensed, water added","湯(意大利雜菜,罐頭,濃縮,已加水)",batch-035
 "Soup, minestrone, dehydrated",意式雜菜湯(脫水),batch-006
 "Soup, minestrone, dehydrated, water added","意式雜菜湯(脫水,加水)",batch-006
 "Soup, minestrone, homemade",意大利雜菜湯(自家製),batch-011
+"Soup, minestrone, ready-to-serve","湯(意大利雜菜,即食)",batch-035
+"Soup, minestrone, ready-to-serve, reduced sodium","湯(意大利雜菜,即食,減鈉)",batch-035
 "Soup, mulligatawny, homemade",咖喱雞湯(自家製),batch-011
+"Soup, mushroom barley, canned, condensed","湯(蘑菇大麥,罐頭,濃縮)",batch-035
+"Soup, mushroom barley, canned, condensed, water added","湯(蘑菇大麥,罐頭,濃縮,已加水)",batch-035
 "Soup, mushroom barley, ready-to-serve, low sodium","蘑菇大麥湯(即食,低鈉)",batch-006
+"Soup, mushroom with beef stock, canned, condensed","湯(蘑菇配牛肉高湯,罐頭,濃縮)",batch-035
+"Soup, mushroom with beef stock, canned, prepared with equal volume water","湯(蘑菇配牛肉高湯,罐頭,加等量水調製)",batch-035
 "Soup, mushroom, carton, chilled","蘑菇湯(盒裝,冷藏)",batch-011
 "Soup, mushroom, cream of, canned",忌廉蘑菇湯(罐頭),batch-011
 "Soup, mushroom, dehydrated",蘑菇湯(脫水),batch-006
 "Soup, mushroom, dehydrated, water added","蘑菇湯(脫水,加水)",batch-006
+"Soup, onion, canned, condensed","湯(洋蔥,罐頭,濃縮)",batch-035
 "Soup, onion, canned, condensed, water added","洋蔥湯(罐頭,濃縮,加水)",batch-006
+"Soup, onion, dehydrated, water added","湯(洋蔥,脫水,已加水)",batch-035
+"Soup, onion, dry, mix","湯(洋蔥,乾粉包)",batch-035
 "Soup, oxtail, canned",牛尾湯(罐頭),batch-011
 "Soup, oxtail, dehydrated",牛尾湯(脫水),batch-006
 "Soup, oxtail, dehydrated, water added","牛尾湯(脫水,加水)",batch-006
+"Soup, oyster stew, canned, condensed","湯(燉蠔,罐頭,濃縮)",batch-035
+"Soup, oyster stew, canned, prepared with equal volume milk","湯(燉蠔,罐頭,加等量牛奶調製)",batch-035
+"Soup, oyster stew, canned, prepared with equal volume water","湯(燉蠔,罐頭,加等量水調製)",batch-035
 "Soup, pea and ham, homemade",豌豆火腿湯(自家製),batch-011
 "Soup, pea, green or split, dehydrated",青豆或乾豌豆湯(脫水),batch-006
 "Soup, pea, green or split, dehydrated, water added","青豆或乾豌豆湯(脫水,加水)",batch-006
+"Soup, pea, green, canned, condensed","湯(青豌豆,罐頭,濃縮)",batch-035
 "Soup, pea, green, canned, condensed, 2% M.F. milk added","青豆湯(罐頭,濃縮,加入2%脂肪牛奶)",batch-006
+"Soup, pea, green, canned, condensed, water added","湯(青豌豆,罐頭,濃縮,已加水)",batch-035
+"Soup, pea, green, canned, prepared with equal volume milk","湯(青豌豆,罐頭,加等量牛奶調製)",batch-035
+"Soup, pea, low sodium, water added","湯(豌豆,低鈉,已加水)",batch-035
 "Soup, potato and leek, homemade",薯仔韭蔥湯(自家製),batch-011
+"Soup, ramen noodle, any flavor, dry","湯(拉麵,任何口味,乾)",batch-035
+"Soup, ramen noodle, beef flavor, dry","湯(拉麵,牛肉味,乾)",batch-035
+"Soup, ramen noodle, chicken flavor, dry","湯(拉麵,雞肉味,乾)",batch-035
+"Soup, ramen noodle, dry, any flavor, reduced fat, reduced sodium","湯(拉麵,乾,任何口味,減脂,減鈉)",batch-035
 "Soup, scotch broth, canned, condensed","蘇格蘭肉湯(罐頭,濃縮)",batch-006
 "Soup, scotch broth, canned, condensed, water added","蘇格蘭肉湯(罐頭,濃縮,加水)",batch-006
+"Soup, shark fin, restaurant-prepared",魚翅羹(餐廳製作),batch-035
+"Soup, split pea with ham, canned, condensed","湯(豌豆瓣配火腿,罐頭,濃縮)",batch-035
+"Soup, split pea with ham, canned, condensed, water added","湯(豌豆瓣配火腿,罐頭,濃縮,已加水)",batch-035
 "Soup, split pea with ham, homemade",火腿乾豌豆湯(自家製),batch-006
+"Soup, split pea with ham, ready-to-serve","湯(豌豆瓣配火腿,即食)",batch-035
 "Soup, split pea with ham, ready-to-serve, reduced sodium","火腿乾豌豆湯(即食,減鈉)",batch-006
 "Soup, split pea, ready-to-serve",乾豌豆湯(即食),batch-006
+"Soup, stock, beef, homemade","高湯(牛肉,自家製)",batch-035
+"Soup, stock, chicken, homemade","高湯(雞肉,自家製)",batch-035
+"Soup, stock, fish, homemade","高湯(魚,自家製)",batch-035
 "Soup, tomato and red pepper, ready-to-serve, low sodium","番茄紅椒湯(即食,低鈉)",batch-006
+"Soup, tomato beef with noodle, canned, condensed","湯(番茄牛肉麵,罐頭,濃縮)",batch-035
+"Soup, tomato beef with noodle, canned, prepared with equal volume water","湯(番茄牛肉麵,罐頭,加等量水調製)",batch-035
+"Soup, tomato bisque, canned, condensed","湯(番茄濃湯,罐頭,濃縮)",batch-035
+"Soup, tomato bisque, canned, prepared with equal volume milk","湯(番茄濃湯,罐頭,加等量牛奶調製)",batch-035
+"Soup, tomato bisque, canned, prepared with equal volume water","湯(番茄濃湯,罐頭,加等量水調製)",batch-035
 "Soup, tomato noodle, ready-to-serve",番茄麵湯(即食),batch-006
+"Soup, tomato rice, canned, condensed","湯(番茄飯,罐頭,濃縮)",batch-035
+"Soup, tomato rice, canned, condensed, water added","湯(番茄飯,罐頭,濃縮,已加水)",batch-035
 "Soup, tomato vegetable, dehydrated",番茄蔬菜湯(脫水),batch-006
 "Soup, tomato vegetable, dehydrated, water added","番茄蔬菜湯(脫水,加水)",batch-006
+"Soup, tomato, canned, condensed","湯(番茄,罐頭,濃縮)",batch-035
 "Soup, tomato, canned, condensed, 2% M.F. milk added","番茄湯(罐頭,濃縮,加入2%脂肪牛奶)",pilot
+"Soup, tomato, canned, condensed, reduced sodium","湯(番茄,罐頭,濃縮,減鈉)",batch-035
 "Soup, tomato, canned, condensed, reduced sodium, 2% M.F. milk added","番茄湯(罐頭,濃縮,減鈉,加入2%脂肪牛奶)",batch-006
 "Soup, tomato, canned, condensed, reduced sodium, water added","番茄湯(罐頭,濃縮,減鈉,加水)",batch-006
 "Soup, tomato, canned, condensed, water added","番茄湯(罐頭,濃縮,加水)",batch-006
+"Soup, tomato, canned, prepared with equal volume low fat (2%) milk","湯(番茄,罐頭,加等量低脂(2%)牛奶調製)",batch-035
+"Soup, tomato, canned, prepared with equal volume water, commercial","湯(番茄,罐頭,加等量水調製,市售)",batch-035
 "Soup, tomato, carton, chilled","番茄湯(盒裝,冷藏)",batch-011
 "Soup, tomato, dehydrated",番茄湯(脫水),batch-006
+"Soup, tomato, dehydrated, water added","湯(番茄,脫水,已加水)",batch-035
+"Soup, tomato, low sodium, with water","湯(番茄,低鈉,加水)",batch-035
 "Soup, tomato, ready-to-serve",番茄湯(即食),batch-006
+"Soup, turkey noodle, canned, prepared with equal volume water","湯(火雞肉麵,罐頭,加等量水調製)",batch-035
+"Soup, turkey vegetable, canned, prepared with equal volume water","湯(火雞肉蔬菜,罐頭,加等量水調製)",batch-035
+"Soup, turkey, ready-to-serve","湯(火雞肉,即食)",batch-035
 "Soup, vegetable & noodle, instant dry mix","湯(蔬菜麵,即食乾粉)",batch-002
+"Soup, vegetable beef, canned, condensed","湯(蔬菜牛肉,罐頭,濃縮)",batch-035
+"Soup, vegetable beef, canned, prepared with equal volume water","湯(蔬菜牛肉,罐頭,加等量水調製)",batch-035
 "Soup, vegetable beef, dehydrated",蔬菜牛肉湯(脫水),batch-006
 "Soup, vegetable beef, dehydrated, water added","蔬菜牛肉湯(脫水,加水)",batch-006
+"Soup, vegetable beef, microwavable, ready-to-serve, single brand","湯(蔬菜牛肉,可微波,即食,單一品牌)",batch-035
+"Soup, vegetable broth, ready to serve","湯(蔬菜清湯,即食)",batch-035
+"Soup, vegetable chicken, canned, prepared with water, low sodium","湯(蔬菜雞肉,罐頭,加水調製,低鈉)",batch-035
+"Soup, vegetable soup, condensed, low sodium, prepared with equal volume water","湯(蔬菜湯,濃縮,低鈉,加等量水調製)",batch-035
 "Soup, vegetable with beef (and barley), canned, condensed, water added","蔬菜牛肉(大麥)湯(罐頭,濃縮,加水)",batch-006
+"Soup, vegetable with beef broth, canned, prepared with equal volume water","湯(蔬菜配牛肉高湯,罐頭,加等量水調製)",batch-035
+"Soup, vegetable with pasta, canned, condensed","湯(蔬菜配意粉,罐頭,濃縮)",batch-035
 "Soup, vegetable, canned",蔬菜湯(罐頭),batch-011
+"Soup, vegetable, canned, low sodium, condensed","湯(蔬菜,罐頭,低鈉,濃縮)",batch-035
 "Soup, vegetable, homemade",蔬菜湯(自家製),batch-006
+"Soup, vegetarian vegetable, canned, condensed","湯(素蔬菜,罐頭,濃縮)",batch-035
+"Soup, vegetarian vegetable, canned, prepared with equal volume water","湯(素蔬菜,罐頭,加等量水調製)",batch-035
+"Soup, wonton, Chinese restaurant",雲吞湯(中式餐廳),batch-035
 "Sour cream, fat free",酸忌廉(無脂),batch-026
 "Sour cream, imitation, cultured","酸忌廉(仿製,發酵)",batch-026
 "Sour cream, light",酸忌廉(輕怡),batch-026
@@ -12263,6 +12619,8 @@ Spaghetti with meat sauce,肉醬意粉,batch-005
 "Spaghetti, with meatballs in tomato sauce, canned",意粉配肉丸茄汁(罐頭),batch-031
 "Spaghetti, without meat, canned",無肉意粉(罐頭),batch-031
 "Sparrow, meat with bones and skin, raw","麻雀肉(連骨連皮,生)",batch-016
+"Spearmint, dried",留蘭香(乾),batch-035
+"Spearmint, fresh",留蘭香(新鮮),batch-035
 "Spelt, boiled, no added fat or salt","斯佩爾特小麥(烚,無添加脂肪或鹽)",batch-001
 "Spelt, cooked",斯佩爾特小麥(熟),batch-026
 "Spelt, uncooked",斯佩爾特小麥(未煮),batch-001
@@ -12277,22 +12635,55 @@ Spaghetti with meat sauce,肉醬意粉,batch-005
 "Spices, ""Wasabi"", paste",芥末膏(山葵),batch-017
 "Spices, ""Wasabi"", powder, mixed with mustard powder",山葵粉(混合芥末粉),batch-017
 "Spices, allspice, ground",牙買加胡椒粉,batch-017
+"Spices, anise seed",香料(茴芹籽),batch-035
+"Spices, basil, dried","香料(羅勒,乾)",batch-035
+"Spices, bay leaf",香料(月桂葉),batch-035
+"Spices, caraway seed",香料(葛縷子籽),batch-035
+"Spices, cardamom",香料(小豆蔻),batch-035
+"Spices, celery seed",香料(芹菜籽),batch-035
+"Spices, chervil, dried","香料(細葉芹,乾)",batch-035
+"Spices, chili powder",香料(辣椒粉),batch-035
 "Spices, cinnamon, ground",肉桂粉,batch-017
 "Spices, clove, ground",丁香粉,batch-017
+"Spices, coriander leaf, dried","香料(芫荽葉,乾)",batch-035
+"Spices, coriander seed",香料(芫荽籽),batch-035
+"Spices, cumin seed",香料(孜然籽),batch-035
 "Spices, curry powder",咖喱粉,batch-017
+"Spices, dill seed",香料(蒔蘿籽),batch-035
+"Spices, dill weed, dried","香料(蒔蘿,乾)",batch-035
+"Spices, fennel seed",香料(茴香籽),batch-035
+"Spices, fenugreek seed",香料(葫蘆巴籽),batch-035
 "Spices, garlic powder",蒜粉,batch-017
 "Spices, ginger, dried, ground",薑粉(乾),batch-017
+"Spices, ginger, ground",香料(薑粉),batch-035
 "Spices, ginger, paste",薑蓉醬,batch-017
+"Spices, mace, ground",香料(肉豆蔻皮粉),batch-035
+"Spices, marjoram, dried","香料(馬郁蘭,乾)",batch-035
+"Spices, mustard seed, ground",香料(芥末籽粉),batch-035
 "Spices, mustard, paste",芥末醬,batch-017
 "Spices, mustard, powder",芥末粉,batch-017
 "Spices, mustard, whole grain mustard",粗粒芥末醬,batch-017
 "Spices, mustard, yellow mustard",黃芥末醬,batch-017
 "Spices, onion powder",洋蔥粉,batch-017
+"Spices, oregano, dried","香料(牛至,乾)",batch-035
 "Spices, paprika",紅椒粉,batch-017
 "Spices, parsley, dried",芫荽葉碎(乾),batch-017
+"Spices, pepper, black",香料(黑胡椒),batch-035
 "Spices, pepper, black and white pepper mix, ground",黑白胡椒粉(混合),batch-017
 "Spices, pepper, black, ground",黑胡椒粉,batch-017
+"Spices, pepper, red or cayenne",香料(紅辣椒或卡晏辣椒),batch-035
+"Spices, pepper, white",香料(白胡椒),batch-035
 "Spices, pepper, white, ground",白胡椒粉,batch-017
+"Spices, poppy seed",香料(罌粟籽),batch-035
+"Spices, poultry seasoning",香料(家禽調味料),batch-035
+"Spices, pumpkin pie spice",香料(南瓜批香料),batch-035
+"Spices, rosemary, dried","香料(迷迭香,乾)",batch-035
+"Spices, saffron",香料(藏紅花),batch-035
+"Spices, sage, ground",香料(鼠尾草粉),batch-035
+"Spices, savory, ground",香料(香薄荷粉),batch-035
+"Spices, tarragon, dried","香料(龍蒿,乾)",batch-035
+"Spices, thyme, dried","香料(百里香,乾)",batch-035
+"Spices, turmeric, ground",香料(薑黃粉),batch-035
 "Spinach mustard, ""Komatsuna"", leaves, boiled","小松菜(葉,煮)",batch-018
 "Spinach mustard, ""Komatsuna"", leaves, raw","小松菜(葉,生)",batch-018
 "Spinach, Mature English, fresh, boiled, drained","菠菜(成熟英式,新鮮,烚,瀝乾)",batch-002
@@ -12312,6 +12703,8 @@ Spaghetti with meat sauce,肉醬意粉,batch-005
 "Spinach, mature, boiled in unsalted water",成熟菠菜(以無鹽水煮),batch-012
 "Spinach, mature, raw",成熟菠菜(生),batch-012
 "Spirits, 40% volume",烈酒(40%酒精),batch-006
+"Split pea soup, canned, reduced sodium, prepared with water or ready-to serve","豌豆瓣湯(罐頭,減鈉,加水調製或即食)",batch-035
+"Split pea with ham soup, canned, reduced sodium, prepared with water or ready-to-serve","豌豆瓣配火腿湯(罐頭,減鈉,加水調製或即食)",batch-035
 "Sponge gourd, immature fruit, boiled","絲瓜(未成熟果實,煮)",batch-018
 "Sponge gourd, immature fruit, raw","絲瓜(未成熟果實,生)",batch-018
 Sports drink,運動飲品,batch-013
@@ -13090,6 +13483,9 @@ Tzatziki,希臘青瓜乳酪醬,batch-010
 "Van's, Gluten Free, Totally Original Waffles","原味窩夫(Van's,無麩質)",batch-022
 "Van's, The Perfect 10, Crispy Six Whole Grain + Four Seed Baked Crackers, Gluten Free","六種全穀物加四種籽焗脆餅乾(Van's Perfect 10,無麩質)",batch-022
 Vanilla bean extract,雲呢拿豆萃取物,batch-002
+Vanilla extract,雲呢拿香精,batch-035
+"Vanilla extract, imitation, alcohol","雲呢拿香精(仿製,含酒精)",batch-035
+"Vanilla extract, imitation, no alcohol","雲呢拿香精(仿製,不含酒精)",batch-035
 "Vanilla, artificial or imitation",雲呢拿(人造或仿製),batch-002
 "Veal, Australian, rib, rib roast, separable lean and fat, raw","澳洲牛仔肋骨烤肉塊(瘦肉連脂肪,生)",batch-030
 "Veal, Australian, rib, rib roast, separable lean only, raw","澳洲牛仔肋骨烤肉塊(只計瘦肉,生)",batch-030
@@ -13284,10 +13680,13 @@ Vanilla bean extract,雲呢拿豆萃取物,batch-002
 Vinegar (except balsamic vinegar),醋(香醋除外),batch-002
 "Vinegar, balsamic",香醋,batch-002
 "Vinegar, black rice vinegar",黑米醋,batch-017
+"Vinegar, cider",醋(蘋果),batch-035
+"Vinegar, distilled",醋(蒸餾),batch-035
 "Vinegar, fruit vinegar, Balsamic vinegar",意大利黑醋(果醋),pilot
 "Vinegar, fruit vinegar, cider vinegar",蘋果醋,batch-017
 "Vinegar, fruit vinegar, wine vinegar",葡萄酒醋,batch-017
 "Vinegar, grain vinegar",穀物醋,batch-018
+"Vinegar, red wine",醋(紅酒),batch-035
 "Vitamin water, all flavours, low calorie","維他命水(各種味道,低熱量)",batch-003
 "Vitamin water, all flavours, sweetened","維他命水(各種味道,加糖)",batch-003
 "Vitamin water, flavours not lemon/orange, low calorie","維他命水(非檸檬或橙味,低熱量)",batch-003
@@ -13344,6 +13743,7 @@ Vinegar (except balsamic vinegar),醋(香醋除外),batch-002
 "Walrus, liver, raw (Alaska Native)","海象肝(生,阿拉斯加原住民)",batch-020
 "Walrus, meat and subcutaneous fat raw (Alaska Native)","海象肉連皮下脂肪(生,阿拉斯加原住民)",batch-020
 "Walrus, meat, raw (Alaska Native)","海象肉(生,阿拉斯加原住民)",batch-020
+Wasabi,山葵,batch-035
 "Wasabi, pickled with Sake lees",酒糟漬山葵,batch-018
 "Wasabi, rhizome, raw","山葵(根莖,生)",batch-018
 "Wasp, broods, canned with seasoning",黃蜂幼蟲(調味罐頭),batch-016
