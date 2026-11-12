@@ -15,6 +15,8 @@ const cache = new Map();
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 // API_VERSION is added to every API address, so a new release never reads answers that a
 // browser or the edge cached for the previous release. Change it when the API or data changes.
+// Machine-translated Chinese names (foods.zh_mt): the tag is hidden for now (user request 2026-11-12).
+const SHOW_MT_TAG = false;
 const API_VERSION = "2026-11-13a";
 const api = (path) => {
   if (!cache.has(path)) {
@@ -307,7 +309,7 @@ async function food(id) {
           <div class="chips">
             <span class="pill">${esc(SOURCE_SHORT[f.source_id] || f.source_id)}</span>
             ${f.sample_note ? `<span class="pill soft">${esc(noteText(f.sample_note))}</span>` : ""}
-            ${f.zh_mt ? `<span class="pill soft" title="這個中文名稱由機器翻譯，請以原名為準">機器翻譯</span>` : ""}
+            ${f.zh_mt && SHOW_MT_TAG ? `<span class="pill soft" title="這個中文名稱由機器翻譯，請以原名為準">機器翻譯</span>` : ""}
             ${original.map((o) => `<span class="pill soft">原名 ${esc(o)}</span>`).join("")}
             ${f.alias ? f.alias.split(/[、,]/).slice(0, 6).map((a) => `<span class="pill soft">又名 ${esc(a.replace(/[\[\]]/g, ""))}</span>`).join("") : ""}
           </div>
