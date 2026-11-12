@@ -225,6 +225,7 @@ def run(db):
     db.execute("DELETE FROM food_links")
     steps = [
         ("Versions (dated)", versions.link_versions(db)),
+        ("TFDA samples -> average", link_tfda_averages(db)),
         ("CNF -> USDA (code)", link_by_origin_code(db)),
         ("CFS -> USDA (values)", link_by_values(db, "USDA FoodData Central", "f.source_id LIKE 'usda%'")),
         # CFS states FSANZ energy without fibre, converted at 4.2 kJ/kcal, so energy is not compared here.
@@ -300,4 +301,25 @@ def link_same_name(db):
                 rows.append((b, joined[0], "equivalent", 0.8, "same_name"))
                 joined.append(b)
                 srcs |= sources[b]
+    return rows
+
+
+# --- rule 0b: TFDA samples and their average ---------------------------------------------
+def link_tfda_averages(db):
+    """TFDA publishes single samples ('雞皮蛋') and their average ('雞皮蛋平均值'). The samples
+    are linked to the average ('equivalent', method 'tfda_average'), so the site shows one food
+    (the average) with the samples in the other-data table (user request 2026-11-12)."""
+    from .synonyms import core_name
+    rows = []
+    tf = [(fid, zh) for fid, zh in db.execute("SELECT id, name_zh FROM foods WHERE source_id = 'tfda' AND name_zh IS NOT NULL")]
+    avg = {}
+    for fid, zh in tf:
+        if "平均值" in zh:
+            avg.setdefault(core_name(versions.split(zh.replace("平均值", ""))[0]), fid)
+    for fid, zh in tf:
+        if "平均值" in zh:
+            continue
+        a = avg.get(core_name(versions.split(zh)[0]))
+        if a:
+            rows.append((fid, a, "equivalent", 1.0, "tfda_average"))
     return rows

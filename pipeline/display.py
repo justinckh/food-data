@@ -41,6 +41,40 @@ STATE_ZH = {"boiled": "煮", "steamed": "蒸", "baked": "焗", "roasted": "烤",
             "cooked": "熟"}
 
 
+# Taiwan (TFDA) words -> Hong Kong words in shown names (user request 2026-11-12). Longest first.
+# Original names stay in name_zh. '平均值' (TFDA: average of several samples) is dropped.
+TW_HK = [
+    ("櫻桃小番茄", "車厘茄"), ("小番茄", "車厘茄"), ("奶油萵苣", "牛油生菜"), ("萵苣", "生菜"),
+    ("櫻桃蘿蔔", "櫻桃蘿蔔"), ("奶油南瓜", "牛油果南瓜"), ("奶油白菜", "奶白菜"),
+    ("三節翅", "雞全翼"), ("二節翅", "雞中翼"), ("翅腿", "雞翼根"), ("土雞", "走地雞"),
+    ("綠花椰菜", "西蘭花"), ("白花椰菜", "椰菜花"), ("花椰菜", "椰菜花"), ("高麗菜", "椰菜"),
+    ("馬鈴薯", "薯仔"), ("洋芋", "薯仔"), ("地瓜", "番薯"), ("玉米", "粟米"), ("鳳梨", "菠蘿"),
+    ("酪梨", "牛油果"), ("草莓", "士多啤梨"), ("櫻桃", "車厘子"), ("奇異果", "奇異果"),
+    ("鮭魚", "三文魚"), ("鮪魚", "吞拿魚"), ("培根", "煙肉"), ("起司", "芝士"), ("乳酪", "芝士"),
+    ("優格", "乳酪"), ("優酪乳", "乳酪飲品"), ("巧克力", "朱古力"), ("冰淇淋", "雪糕"),
+    ("義大利麵", "意粉"), ("花枝", "墨魚"), ("透抽", "魷魚"), ("小卷", "魷魚仔"), ("豬五花", "豬腩肉"),
+    ("五花肉", "腩肉"), ("鮮奶油", "忌廉"), ("奶油", "牛油"), ("美乃滋", "沙律醬"), ("番茄醬", "茄汁"),
+    ("青江菜", "小棠菜"), ("空心菜", "通菜"), ("地瓜葉", "番薯葉"), ("豌豆苗", "豆苗"),
+]
+TW_HK.sort(key=lambda p: -len(p[0]))
+
+
+def tw_hk(name):
+    if not name:
+        return name
+    out, i = [], 0
+    while i < len(name):                      # one pass, longest match first (no double replacing)
+        for tw, hk in TW_HK:
+            if name.startswith(tw, i):
+                out.append(hk)
+                i += len(tw)
+                break
+        else:
+            out.append(name[i])
+            i += 1
+    return "".join(out).replace("平均值", "").strip()
+
+
 def clusters(db):
     parent = {}
 
@@ -121,16 +155,27 @@ def run(db):
     rows = []
     for members in clusters(db):
         # source preference, then the newest version (dated re-tests), then id
-        members.sort(key=lambda f: (rank.get(foods[f][1], 99), -versions.year(note[f]), f))
+        members.sort(key=lambda f: (rank.get(foods[f][1], 99), "平均值" not in (foods[f][3] or ""),
+                                    -versions.year(note[f]), f))
         main = members[0]
         cfs = [f for f in members if foods[f][1] == "cfs" and foods[f][3]]
         zh = None
         if cfs:
             zh = cfs_name(main) if main in cfs else min((cfs_name(f) for f in cfs), key=len)
+        if not zh and foods[main][1] == "tfda" and foods[main][3]:
+            # Taiwan record: keep its own details, change only the words (TW -> HK)
+            z = foods[main][3].replace("平均值", "")
+            core = synonyms.core_name(z)
+            c = maps["tfda"].get(core)
+            if c and concepts[c]["hk"]:
+                z = z.replace(core, concepts[c]["hk"][0], 1)
+            zh = tw_hk(z)
         if not zh:
             zh = next((w for w in map(hk_word, members) if w), None)
         if not zh:
             zh = next((foods[f][3] for f in members if foods[f][1] == "tfda" and foods[f][3]), None)
+        if zh and foods[main][1] == "tfda":
+            zh = tw_hk(zh)
         # TFDA English names can be synonym lists ("Sea mullet; River mullet; ..."): first name only
         ens = [foods[f][2].split(";")[0].strip() for f in members if foods[f][2] and foods[f][2].split(";")[0].strip()]
         en = min(ens, key=lambda n: (len(n), n)) if ens else None
