@@ -1,7 +1,7 @@
 // GET /api/meta - counts, sources, nutrient list and the HK (CFS) food groups for browsing.
-import { json, slug } from "../_lib.js";
+import { json, slug, cached } from "../_lib.js";
 
-export async function onRequestGet({ env }) {
+async function handle({ env }) {
   const db = env.DB;
   const [counts, sources, nutrients, groups] = await db.batch([
     db.prepare("SELECT COUNT(*) AS foods, SUM(is_primary) AS main_records FROM foods"),
@@ -29,3 +29,5 @@ export async function onRequestGet({ env }) {
     groups: [...byGroup.values()],
   }, 3600);
 }
+
+export const onRequestGet = (context) => cached(context, handle);

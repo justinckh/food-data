@@ -2,7 +2,7 @@
 
 This document is in ASD-STE100 Simplified Technical English.
 
-Last update: 2026-11-11.
+Last update: 2026-11-12.
 
 ## 1. Purpose
 
@@ -17,19 +17,19 @@ Other systems and AI tools will also use the data.
 
 | Item | Status |
 |---|---|
-| Web site on Cloudflare Pages | Live. It is a static site with no backend. |
+| Web site on Cloudflare Pages | The live site is the old static site. The new site with the API is on the preview address (section 4.4). |
 | Data source: Hong Kong CFS | Done. The data has 2,999 foods. |
-| Local database (`data/food.db`) | Done. It has the CFS data. |
-| Keyword search (FTS5) | Done in the local database. |
+| Local database (`data/food.db`) | Done. It has all sources: 26,480 foods. |
+| Search | Done. The API searches the names and the synonyms (section 3.4). |
 | Data source: Taiwan TFDA | Done. The data has 2,213 foods (section 2.6). |
 | Data source: Japan MEXT | Done. The data has 2,538 foods (section 2.7). |
 | Data source: Australia AFCD | Done. The data has 1,588 foods (section 2.8). |
 | Data source: USDA (Foundation Foods, SR Legacy) | Done. The data has 8,262 foods (section 2.5). |
 | Data source: UK CoFID | Done. The data has 2,887 foods (section 2.9). |
 | Data source: Canada CNF | Done. The data has 5,993 foods (section 2.10). |
-| Backend API | Not started. |
-| Cloudflare D1 | Not started. |
-| Other data sources | Not started. |
+| Backend API | Done. It is on the preview address (section 4.4). |
+| Cloudflare D1 | Done. The database `food-data` has all data. |
+| Other data sources | France Ciqual is on hold (section 4.3). |
 
 ### 2.2 Files and folders
 
@@ -38,8 +38,11 @@ Other systems and AI tools will also use the data.
 | `scrape_cfs.py` | This script gets the food data from the CFS web site. It writes `cfs_foods.csv`. |
 | `cfs_foods.csv` | The CFS data. It has one row for each food. Values are for 100 g. |
 | `cache/` | The script keeps the CFS web pages here. Git does not keep this folder. |
-| `build_data.py` | This script makes `site/foods.json` from `cfs_foods.csv`. |
-| `site/` | The web site files. `app.js` reads all of `foods.json` in the browser. |
+| `site/` | The web site files. `app.js` gets the data from the API. |
+| `functions/` | The API (Cloudflare Pages Functions). Section 4.4 gives the endpoints. |
+| `wrangler.jsonc` | The Cloudflare configuration: the Pages project and the D1 database. |
+| `pipeline/display.py` | This script makes the food groups, the main record of each group and the display names (section 3.9). |
+| `pipeline/export_d1.py` | This script makes the SQL file for D1: `data/export/d1.sql`. |
 | `db/schema.sql` | The database tables. |
 | `pipeline/common.py` | The nutrient list, the value parser and the search text function. |
 | `pipeline/importers/cfs.py` | This importer reads `cfs_foods.csv` for the database. |
@@ -68,16 +71,15 @@ Other systems and AI tools will also use the data.
 
 | Command | Result |
 |---|---|
-| `npm run dev` | Starts the site on your computer at port 8000. |
-| `npm run scrape` | Gets the CFS data again. Then it makes `foods.json` again. |
-| `npm run build` | Makes `site/foods.json` from `cfs_foods.csv`. |
-| `npm run download:tfda` | Downloads the TFDA file. |
-| `npm run download:mext` | Downloads the MEXT files. |
-| `npm run download:afcd` | Downloads the AFCD files. |
-| `npm run download:usda` | Downloads the USDA files. |
-| `npm run download:cofid` | Downloads the CoFID file. |
+| `npm run download:tfda` | Downloads the TFDA file. Use the same type of command for `mext`, `afcd`, `usda` and `cofid`. |
+| `npm run scrape` | Gets the CFS data again. It writes `cfs_foods.csv`. |
 | `npm run db` | Makes `data/food.db` from all sources. |
-| `npm run deploy` | Sends the `site/` folder to Cloudflare Pages. |
+| `npm run export` | Makes the D1 file `data/export/d1.sql` from `data/food.db`. |
+| `npm run build` | Does `npm run db` and then `npm run export`. |
+| `npm run load:local` | Puts `d1.sql` into the local D1 database (on your computer). |
+| `npm run load:remote` | Puts `d1.sql` into the D1 database on Cloudflare. This replaces all data. |
+| `npm run dev` | Starts the site and the API on your computer at http://localhost:8788. |
+| `npm run deploy` | Sends the site and the API to the live site on Cloudflare Pages. |
 
 ### 2.4 About the CFS data
 
@@ -356,18 +358,27 @@ We examined each source for a newer version on 2026-11-12.
 
 ### 3.4 Search
 
-The search index uses the trigram tokenizer.
-This tokenizer finds parts of words.
-Chinese text has no spaces between words, so this is necessary.
-
-The trigram index cannot find a query that has less than 3 characters.
-For these queries, the search must use `LIKE` on `foods.search_text`.
-Example: "粥" and "叉燒" use `LIKE`. "叉燒包" uses the index.
-
 The function `search_text()` in `pipeline/common.py` makes the search text for each food.
 The text has the names in all languages, the aliases and the food group names.
-It does not have nutrient values.
-SQL queries find foods by nutrient values.
+The synonym step adds the synonyms (section 3.7).
+The search text does not have nutrient values.
+
+The API searches `foods.search_text` with `LIKE`.
+This finds parts of words, also in Chinese text.
+For 26,480 foods, a search takes approximately 30 ms in D1.
+The local database also has an FTS5 index (`foods_fts`). D1 does not use it.
+
+The API gives 1 result for each food group (section 3.9).
+It shows the record that matches best.
+The order of the results:
+
+1. The name is the same as the search text.
+2. The name starts with the search text. For English search text, steps 1 and 2 have the same level.
+3. The Chinese name, the local name or an alias contains the search text.
+4. The English name contains the search text.
+5. Only a synonym or a group name contains the search text.
+
+For the same level: foods with a Chinese name first, then HK records, then groups with data from more sources, then shorter names.
 
 ### 3.5 Duplicates
 
@@ -455,6 +466,21 @@ To add a synonym, add a row or a word to `pipeline/synonyms.csv`. Then run `npm 
 - A new import does not bring the duplicates back.
 - It is easy to remove an incorrect link.
 
+### 3.9 Food groups and display names
+
+The script `pipeline/display.py` runs at the end of each build.
+We agreed these rules with the user on 2026-11-12.
+
+1. Foods with an `exact_copy` or `equivalent` link make a food group (`foods.cluster_id`). A `similar` link does not.
+2. Each group has 1 main record (`foods.is_primary` = 1). The order of preference: CFS, TFDA, MEXT, AFCD, CoFID, USDA Foundation, USDA SR Legacy, CNF.
+3. The Chinese display name (`foods.display_zh`):
+   - A CFS record always shows its own CFS name. If the record comes from the China table and its name is a Mainland word, the script shows the HK word. Example: 鱷梨 becomes 牛油果.
+   - Other records show the name of the group. This is the CFS name, if the group has a CFS record.
+   - If not, the script uses the HK word from the synonym table and adds the cooking state. Example: USDA "Broccoli, boiled" becomes 西蘭花(煮).
+   - If not, the script uses the TFDA name.
+4. The English display name (`foods.display_en`) is the shortest English name in the group.
+5. The original names do not change. The food page shows them.
+
 ## 4. Plan
 
 ### 4.1 Steps
@@ -473,9 +499,9 @@ To add a synonym, add a row or a word to `pipeline/synonyms.csv`. Then run `npm 
 | 5f | Write the importer for Canada CNF | Done |
 | 5d | Write the importer for France Ciqual | On hold. The Ciqual web site is in maintenance (section 4.3). |
 | 6 | Link the duplicates in `food_links` (section 4.2) | Done (sections 3.5 to 3.7). The synonym table can grow. |
-| 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
-| 8 | Make the API with Pages Functions | To do |
-| 9 | Change the site to use the API, not `foods.json` | To do |
+| 7 | Make a script that sends `food.db` to Cloudflare D1 | Done (`npm run export`, `npm run load:remote`) |
+| 8 | Make the API with Pages Functions | Done. On the preview address. |
+| 9 | Change the site to use the API, not `foods.json` | Done. On the preview address. The live site changes after the user approves it. |
 | 10 | Write the importers for the other sources (section 4.3) | To do |
 | 11 | Export the data to Parquet for AI and analysis | To do |
 | 12 | Add vector search (section 4.5) | Only if necessary |
@@ -531,28 +557,47 @@ The list has 54 nutrients now.
 ```
 raw files --> importers --> data/food.db (master copy)
                               |
-                              +--> Cloudflare D1 (for the site API)
-                              +--> Parquet files (for AI and analysis)
+                              +--> data/export/d1.sql --> Cloudflare D1 "food-data"
+                              +--> Parquet files (for AI and analysis, planned)
 
-Browser --> Cloudflare Pages site --> Pages Functions /api/* --> D1
+Browser --> Cloudflare Pages "hk-food-nutrition" --> Pages Functions /api/* --> D1
 ```
 
-Planned API:
+| Item | Value |
+|---|---|
+| Cloudflare account | "Justinckhcheung@hotmail.com's Account" |
+| Pages project | `hk-food-nutrition` |
+| Live address | https://hk-food-nutrition.pages.dev |
+| Preview address | https://preview.hk-food-nutrition.pages.dev |
+| D1 database | `food-data` (location: Asia-Pacific) |
+| Deployment | By hand (`npm run deploy`). There is no connection to GitHub. |
+
+The API:
 
 | Endpoint | Function |
 |---|---|
-| `/api/search?q=` | Find foods by name in any language |
-| `/api/food/:id` | Get all data for one food |
-| `/api/filter?...` | Find foods by nutrient values |
+| `/api/meta` | Counts, sources, the nutrient list and the HK food groups |
+| `/api/search?q=&limit=` | Find foods by name in any language (section 3.4) |
+| `/api/food?id=` | All data for 1 food: nutrients, servings, source, the other records of its group, similar foods and related foods |
+| `/api/group?g=&s=&sort=` | The foods of 1 HK food group |
+| `/api/foods?ids=` | Short data for a list of foods |
+| `/api/filter?...` | Find foods by nutrient values. Not done yet. |
 
 The site and AI tools must use only the API.
 They must not read the tables directly.
 Then a change to the search method does not change the site or the AI tools.
 
-Make sure of these items before step 7:
+The API keeps its answers in the Cloudflare cache for 1 hour (search: 5 minutes).
+The constant `DATA_VERSION` in `functions/_lib.js` is part of the cache key.
 
-- D1 supports FTS5 with the trigram tokenizer.
-- `wrangler d1 export` does not support virtual tables. Make the D1 SQL file from `food.db` with a script. Make the `foods_fts` index again in D1.
+To put new data on the site, do these steps:
+
+1. Run `npm run build`.
+2. Run `npm run load:remote`.
+3. Change `DATA_VERSION` in `functions/_lib.js`.
+4. Run `npm run deploy`.
+
+CAUTION: A full load writes approximately 2.6 million rows. The D1 free plan allows 100,000 written rows each day. The first load was successful. If a load stops because of this limit, use the Workers Paid plan or wait 1 day.
 
 ### 4.5 Vector search (future)
 

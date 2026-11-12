@@ -7,9 +7,9 @@
 // because English names such as "Apple" are too generic to win alone), 2 Chinese / local /
 // alias contains q, 3 English contains q, 4 synonym or group match only.
 // Ties: Chinese name first, HK (CFS) records, groups with data from more sources, shorter names.
-import { json, bad, likeEscape, keyNutrientCols } from "../_lib.js";
+import { json, bad, likeEscape, keyNutrientCols, cached } from "../_lib.js";
 
-export async function onRequestGet({ request, env }) {
+async function handle({ request, env }) {
   const url = new URL(request.url);
   const q = (url.searchParams.get("q") || "").trim();
   const limit = Math.min(Math.max(parseInt(url.searchParams.get("limit") || "50", 10) || 50, 1), 200);
@@ -49,3 +49,5 @@ export async function onRequestGet({ request, env }) {
   ]);
   return json({ q, total: total.results[0].n, results: rows.results });
 }
+
+export const onRequestGet = (context) => cached(context, handle);

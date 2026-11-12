@@ -3,17 +3,20 @@
 // Returns the record, all its nutrients, servings, its source, the other records of the
 // same food group (other countries' values), 'similar' foods, and related foods from the
 // same source group.
-import { json, bad, keyNutrientCols } from "../_lib.js";
+import { json, bad, keyNutrientCols, cached } from "../_lib.js";
 
-export async function onRequestGet({ request, env }) {
+async function handle({ request, env }) {
   let id = (new URL(request.url).searchParams.get("id") || "").trim();
   if (!id) return bad("id is required");
   if (!id.includes(":")) id = `cfs:${id}`;
   const db = env.DB;
 
+  // one round trip for the record itself, then one batch for everything else
   const food = await db.prepare(`SELECT id, source_id, source_code, display_zh, display_en, name_zh, name_en,
       name_local, alias, group_zh, group_en, subgroup_zh, subgroup_en, description, origin_source,
-      cluster_id, is_primary FROM foods WHERE id = ?1`).bind(id).first();
+      cluster_id, is_primary,
+      (SELECT value FROM food_nutrients WHERE food_id = foods.id AND nutrient_id = 'energy_kcal') AS kcal
+      FROM foods WHERE id = ?1`).bind(id).first();
   if (!food) return bad("food not found", 404);
 
   const [nutrients, servings, source, members, similar, related] = await db.batch([
@@ -41,11 +44,10 @@ export async function onRequestGet({ request, env }) {
         AND coalesce(p.subgroup_en, p.group_en, '') = coalesce(?3, ?4, '')
       ORDER BY abs(coalesce((SELECT value FROM food_nutrients WHERE food_id = p.id AND nutrient_id = 'energy_kcal'), 0)
                    - coalesce(?5, 0))
-      LIMIT 8`).bind(food.source_id, id, food.subgroup_en, food.group_en,
-        (await db.prepare("SELECT value FROM food_nutrients WHERE food_id = ?1 AND nutrient_id = 'energy_kcal'")
-          .bind(id).first("value")) ?? 0),
+      LIMIT 8`).bind(food.source_id, id, food.subgroup_en, food.group_en, food.kcal ?? 0),
   ]);
 
+  delete food.kcal;
   return json({
     food,
     nutrients: nutrients.results,
@@ -56,3 +58,5 @@ export async function onRequestGet({ request, env }) {
     related: related.results,
   }, 3600);
 }
+
+export const onRequestGet = (context) => cached(context, handle);

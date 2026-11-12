@@ -1,6 +1,6 @@
 // GET /api/group?g=<group slug>&s=<subgroup index>&sort=name|kcalAsc|kcalDesc|protein
 // Browse the HK (CFS) food groups, the same grouping the site used before.
-import { json, bad, slug, keyNutrientCols } from "../_lib.js";
+import { json, bad, slug, keyNutrientCols, cached } from "../_lib.js";
 
 const SORT = {
   name: "display_zh",
@@ -9,7 +9,7 @@ const SORT = {
   protein: "coalesce(protein, -1) DESC",
 };
 
-export async function onRequestGet({ request, env }) {
+async function handle({ request, env }) {
   const url = new URL(request.url);
   const g = url.searchParams.get("g") || "";
   const s = url.searchParams.get("s");
@@ -30,3 +30,5 @@ export async function onRequestGet({ request, env }) {
     ORDER BY ${order}`).bind(groupEn, sub ? sub.subgroup_en : null).all();
   return json({ group: groupEn, subgroup: sub ? sub.subgroup_en : null, results: rows.results }, 3600);
 }
+
+export const onRequestGet = (context) => cached(context, handle);
