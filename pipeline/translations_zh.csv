@@ -222,6 +222,17 @@ key,zh,file
 <鳥肉類> にわとり [若どり・副品目] ささみ ソテー,"雞柳(童子雞,副品目,香煎)",batch-015
 <鳥肉類> にわとり [若どり・副品目] ささみ フライ,"雞柳(童子雞,副品目,炸粉炸)",batch-015
 <鳥肉類> にわとり [若どり・副品目] ささみ 天ぷら,"雞柳(童子雞,副品目,天婦羅)",batch-015
+"APPLEBEE'S, 9 oz house sirloin steak",APPLEBEE'S 9安士特色西冷牛扒,batch-033
+"APPLEBEE'S, Double Crunch Shrimp",APPLEBEE'S 雙層脆炸蝦,batch-033
+"APPLEBEE'S, KRAFT, Macaroni & Cheese, from kid's menu",APPLEBEE'S KRAFT 芝士通粉(兒童餐單),batch-033
+"APPLEBEE'S, chicken tenders platter",APPLEBEE'S 雞柳條拼盤,batch-033
+"APPLEBEE'S, chicken tenders, from kids' menu",APPLEBEE'S 雞柳條(兒童餐單),batch-033
+"APPLEBEE'S, chili",APPLEBEE'S 辣肉醬,batch-033
+"APPLEBEE'S, coleslaw",APPLEBEE'S 椰菜沙律,batch-033
+"APPLEBEE'S, crunchy onion rings",APPLEBEE'S 脆洋蔥圈,batch-033
+"APPLEBEE'S, fish, hand battered",APPLEBEE'S 手工沾漿炸魚,batch-033
+"APPLEBEE'S, french fries",APPLEBEE'S 炸薯條,batch-033
+"APPLEBEE'S, mozzarella sticks",APPLEBEE'S 莫澤雷勒芝士條,batch-033
 "ARBY'S, roast beef sandwich, classic",ARBY'S 經典烤牛肉三明治,batch-027
 "Abalone, black lip, aquacultured, raw","鮑魚(黑唇,養殖,生)",batch-001
 "Abalone, black lip, wild, raw","鮑魚(黑唇,野生,生)",batch-001
@@ -855,6 +866,7 @@ Asafoetida,阿魏,batch-008
 "Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added DHA fortified","嬰兒食品(乳酪,全脂奶,連水果,多種穀物,添加DHA強化)",batch-020
 "Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added iron fortified","嬰兒食品(乳酪,全脂奶,連水果,多種穀物,添加鐵質強化)",batch-020
 "Bacha, raw",Bacha 鯰魚(生),batch-007
+Bacon and beef sticks,煙肉牛肉條,batch-033
 "Bacon bits, meatless",素煙肉碎,batch-030
 "Bacon loin steaks, lean, grilled","煙肉腰肉扒(瘦肉,燒烤)",batch-008
 "Bacon rashers, back, 'tendersweet', grilled","煙肉片(背脊,Tendersweet 醃製,燒烤)",batch-008
@@ -881,6 +893,8 @@ Asafoetida,阿魏,batch-008
 "Bacon, middle rasher, separable lean, fried, no added fat","煙肉(中段,只計瘦肉,炸,無添加脂肪)",batch-001
 "Bacon, middle rasher, untrimmed, baked, roasted, fried, grilled or BBQ'd, no added fat","煙肉(中段,未經削切,焗、烤、炸、燒烤或戶外燒烤,無添加脂肪)",batch-001
 "Bacon, shortcut, as purchased without rind, fried, no added fat","煙肉(短切,購買時已去皮,炸,無添加脂肪)",batch-001
+"Bacon, turkey, low sodium",火雞煙肉(低鈉),batch-033
+"Bacon, turkey, unprepared",火雞煙肉(未經調製),batch-033
 "Bagel, cinnamon-raisin",肉桂提子貝果,batch-021
 "Bagel, cinnamon-raisin, toasted",肉桂提子貝果(烘過),batch-021
 "Bagel, egg",雞蛋貝果,batch-021
@@ -932,6 +946,7 @@ Baobab powder,猴麵包樹粉,batch-028
 "Bar, snack, with >35% nuts, added protein","小食條(果仁多於35%,添加蛋白質)",batch-001
 "Bar, snack, with >55% nuts",小食條(果仁多於55%),batch-001
 "Bar, wafer & cream layers, chocolate-coated","威化朱古力條(威化及忌廉層,朱古力外層)",batch-001
+"Barbecue loaf, pork, beef","燒烤肉麵包(豬肉,牛肉)",batch-033
 "Barbecue sauce, homemade",燒烤醬(自家製),batch-010
 "Barcelona nuts, Kernel only",榛子(只計果仁),batch-010
 "Barcelona nuts, kernel only, weighed with shells","榛子(只計果仁,連殼稱重)",batch-010
@@ -1289,6 +1304,7 @@ Beef stew with potatoes and vegetables,薯仔蔬菜燉牛肉,batch-005
 "Beef, New Zealand, imported, variety meats and by-products, tongue, raw",新西蘭進口牛內臟及副產品牛脷(生),batch-022
 "Beef, New Zealand, imported, variety meats and by-products, tripe cooked, boiled","新西蘭進口牛內臟及副產品牛肚(熟,烚)",batch-022
 "Beef, New Zealand, imported, variety meats and by-products, tripe uncooked, raw","新西蘭進口牛內臟及副產品牛肚(未煮,生)",batch-022
+"Beef, bologna, reduced sodium",牛肉波羅尼亞腸(減鈉),batch-033
 "Beef, bottom sirloin, tri-tip roast, separable lean and fat, trimmed to 0"" fat, all grades, cooked, roasted","牛下後腰脊三角烤肉塊(連肥肉,修脂至0吋,各等級,熟,烤)",batch-022
 "Beef, bottom sirloin, tri-tip roast, separable lean and fat, trimmed to 0"" fat, choice, cooked, roasted","牛下後腰脊三角烤肉塊(連肥肉,修脂至0吋,特選級,熟,烤)",batch-022
 "Beef, bottom sirloin, tri-tip roast, separable lean and fat, trimmed to 0"" fat, choice, raw","牛下後腰脊三角烤肉塊(連肥肉,修脂至0吋,特選級,生)",batch-022
@@ -1348,6 +1364,7 @@ Beef stew with potatoes and vegetables,薯仔蔬菜燉牛肉,batch-005
 "Beef, casserole meat, boneless or bone-in, shin, lean, raw","牛肉(燉肉用,去骨或連骨,牛腱,瘦肉,生)",batch-001
 "Beef, casserole meat, boneless or bone-in, shin, untrimmed, casseroled, no added fat","牛肉(燉肉用,去骨或連骨,牛腱,未經削切,燉,無添加脂肪)",batch-001
 "Beef, casserole meat, boneless or bone-in, shin, untrimmed, raw","牛肉(燉肉用,去骨或連骨,牛腱,未經削切,生)",batch-001
+"Beef, chopped, cured, smoked","牛肉(碎肉,醃製,煙燻)",batch-033
 "Beef, chuck eye Country-Style ribs, boneless, separable lean and fat, trimmed to 0"" fat, all grades, cooked, braised","牛肩眼鄉村式肋條(去骨,連肥肉,修脂至0吋,各等級,熟,炆)",batch-022
 "Beef, chuck eye Country-Style ribs, boneless, separable lean and fat, trimmed to 0"" fat, all grades, raw","牛肩眼鄉村式肋條(去骨,連肥肉,修脂至0吋,各等級,生)",batch-022
 "Beef, chuck eye Country-Style ribs, boneless, separable lean and fat, trimmed to 0"" fat, choice, cooked, braised","牛肩眼鄉村式肋條(去骨,連肥肉,修脂至0吋,特選級,熟,炆)",batch-022
@@ -1553,6 +1570,9 @@ Beef stew with potatoes and vegetables,薯仔蔬菜燉牛肉,batch-005
 "Beef, cured, breakfast strips, cooked","牛肉早餐肉條(醃製,熟)",batch-023
 "Beef, cured, breakfast strips, raw or unheated","牛肉早餐肉條(醃製,生或未加熱)",batch-023
 "Beef, cured, corned beef, brisket, raw","鹽醃牛胸肉(醃製,生)",batch-023
+"Beef, cured, corned beef, canned","牛肉(醃製鹹牛肉,罐頭)",batch-033
+"Beef, cured, dried","牛肉(醃製,風乾)",batch-033
+"Beef, cured, pastrami","牛肉(醃製,煙燻牛肉)",batch-033
 "Beef, dairy fattened steer chuck, fat, raw","乳牛肥育閹牛肩肉(肥肉,生)",batch-016
 "Beef, dairy fattened steer chuck, without subcutaneous fat, raw","乳牛肥育閹牛肩肉(無皮下脂肪,生)",batch-016
 "Beef, dairy fattened steer, chuck roll, lean and fat, raw","牛肩胛脊肉(乳牛肥育閹牛,瘦肉連肥肉,生)",batch-016
@@ -2364,6 +2384,9 @@ Beef stew with potatoes and vegetables,薯仔蔬菜燉牛肉,batch-005
 "Beer, high alcohol (5% v/v & above)","啤酒(高酒精,酒精5%或以上)",batch-001
 "Beer, light (alcohol 1-2.9% v/v)","啤酒(淡,酒精1至2.9%)",batch-001
 "Beer, mid-strength (alcohol 3-3.9% v/v)","啤酒(中勁,酒精3至3.9%)",batch-001
+"Beerwurst, beer salami, pork","啤酒臘腸(啤酒薩拉米,豬肉)",batch-033
+"Beerwurst, beer salami, pork and beef","啤酒臘腸(啤酒薩拉米,豬肉及牛肉)",batch-033
+"Beerwurst, pork and beef",啤酒臘腸(豬肉及牛肉),batch-033
 "Beet greens, raw",甜菜葉(生),batch-019
 "Beetroot, cooked in unsalted water",紅菜頭(以無鹽水煮),batch-011
 "Beetroot, fresh, purple, peeled, baked, no added fat","紅菜頭(新鮮,紫色,去皮,焗,無添加脂肪)",batch-002
@@ -2705,6 +2728,7 @@ Bicarbonate of soda,梳打粉,batch-010
 "Blancmange, homemade",牛奶凍布甸(自家製),batch-010
 "Bloater, flesh only, grilled","鹽燻鯡魚(只計魚肉,燒烤)",batch-007
 "Bloater, flesh only, grilled, weighed with bones and skin","鹽燻鯡魚(只計魚肉,燒烤,連骨連皮稱重)",batch-007
+Blood sausage,血腸,batch-033
 "Blue berried honeysuckle, raw",藍靛果忍冬(生),batch-015
 "Blue grenadier (hoki), fillet, baked, no added fat","藍鱈魚(魚柳,焗,無添加脂肪)",batch-001
 "Blue grenadier (hoki), fillet, raw","藍鱈魚(魚柳,生)",batch-001
@@ -2721,6 +2745,7 @@ Bicarbonate of soda,梳打粉,batch-010
 "Blueberry, wild, frozen",野生藍莓(冷凍),batch-029
 "Blueberry, wild, raw",野生藍莓(生),batch-019
 "Boal, raw",Boal 鯰魚(生),batch-007
+"Bockwurst, pork, veal, raw","波克香腸(豬肉,小牛肉,生)",batch-033
 "Bok choy, leaves, raw","白菜(葉,生)",batch-018
 "Bologna, beef",牛肉香腸(Bologna),batch-019
 "Bologna, classic",經典香腸(Bologna),batch-019
@@ -3060,9 +3085,24 @@ Buckwheat,蕎麥,batch-025
 "Butter, whipped",打發牛油,batch-026
 "Buttermilk, low fat",酪乳(低脂),batch-019
 "Butteroil, unsalted",無鹽澄清牛油,batch-007
+"CARRABBA'S ITALIAN GRILL, cheese ravioli with marinara sauce",CARRABBA'S ITALIAN GRILL 芝士意大利雲吞配茄汁,batch-033
+"CARRABBA'S ITALIAN GRILL, chicken parmesan without cavatappi pasta",CARRABBA'S ITALIAN GRILL 巴馬臣芝士雞(不含卡瓦塔皮意粉),batch-033
+"CARRABBA'S ITALIAN GRILL, lasagne",CARRABBA'S ITALIAN GRILL 千層麵,batch-033
+"CARRABBA'S ITALIAN GRILL, spaghetti with meat sauce",CARRABBA'S ITALIAN GRILL 肉醬意粉,batch-033
+"CARRABBA'S ITALIAN GRILL, spaghetti with pomodoro sauce",CARRABBA'S ITALIAN GRILL 番茄醬意粉,batch-033
 "CHICK-FIL-A, Chick-n-Strips",CHICK-FIL-A 雞柳條,batch-027
 "CHICK-FIL-A, chicken sandwich",CHICK-FIL-A 雞肉三明治,batch-027
 "CHICK-FIL-A, hash browns",CHICK-FIL-A 薯餅,batch-027
+"CRACKER BARREL, chicken tenderloin platter, fried",CRACKER BARREL 炸雞柳拼盤,batch-033
+"CRACKER BARREL, chicken tenderloin platter, fried, from kid's menu",CRACKER BARREL 炸雞柳拼盤(兒童餐單),batch-033
+"CRACKER BARREL, coleslaw",CRACKER BARREL 椰菜沙律,batch-033
+"CRACKER BARREL, country fried shrimp platter",CRACKER BARREL 鄉村炸蝦拼盤,batch-033
+"CRACKER BARREL, farm raised catfish platter",CRACKER BARREL 養殖鯰魚拼盤,batch-033
+"CRACKER BARREL, grilled sirloin steak",CRACKER BARREL 燒西冷牛扒,batch-033
+"CRACKER BARREL, macaroni n' cheese",CRACKER BARREL 芝士通粉,batch-033
+"CRACKER BARREL, macaroni n' cheese plate, from kid's menu",CRACKER BARREL 芝士通粉拼盤(兒童餐單),batch-033
+"CRACKER BARREL, onion rings, thick-cut",CRACKER BARREL 厚切洋蔥圈,batch-033
+"CRACKER BARREL, steak fries",CRACKER BARREL 牛扒薯條,batch-033
 "Cabbage leaves, stuffed with lamb and rice, homemade",羊肉飯椰菜卷(自家製),batch-009
 "Cabbage, average, boiled in unsalted water","椰菜(平均,以無鹽水煮)",batch-011
 "Cabbage, bok choy, raw",白菜(生),batch-019
@@ -4108,9 +4148,44 @@ Chicken slices,雞肉片,batch-009
 "Chicken, broiler, meat only, stewed","肉雞(只計肉,炆)",batch-032
 "Chicken, broiler, meat, skin, giblets and neck, batter dipped, fried","肉雞(肉,皮,雞雜及雞頸,沾漿炸)",batch-032
 "Chicken, broiler, meat, skin, giblets and neck, flour coated, fried","肉雞(肉,皮,雞雜及雞頸,沾粉炸)",batch-032
+"Chicken, broiler, meat, skin, giblets and neck, raw","肉雞(肉,皮,雞雜及雞頸,生)",batch-033
+"Chicken, broiler, meat, skin, giblets and neck, roasted","肉雞(肉,皮,雞雜及雞頸,烤)",batch-033
+"Chicken, broiler, meat, skin, giblets and neck, stewed","肉雞(肉,皮,雞雜及雞頸,炆)",batch-033
+"Chicken, broiler, neck, meat and skin, batter dipped, fried","肉雞(雞頸,連皮,沾漿炸)",batch-033
+"Chicken, broiler, neck, meat and skin, flour coated, fried","肉雞(雞頸,連皮,沾粉炸)",batch-033
+"Chicken, broiler, neck, meat and skin, raw","肉雞(雞頸,連皮,生)",batch-033
+"Chicken, broiler, neck, meat and skin, simmered","肉雞(雞頸,連皮,燉煮)",batch-033
+"Chicken, broiler, neck, meat, fried","肉雞(雞頸,只計肉,炸)",batch-033
+"Chicken, broiler, neck, meat, raw","肉雞(雞頸,只計肉,生)",batch-033
+"Chicken, broiler, neck, meat, simmered","肉雞(雞頸,只計肉,燉煮)",batch-033
+"Chicken, broiler, rotisserie, BBQ, back meat only","肉雞(旋轉烤,燒烤味,只計雞背肉)",batch-033
+"Chicken, broiler, rotisserie, BBQ, back, meat and skin","肉雞(旋轉烤,燒烤味,雞背,連皮)",batch-033
+"Chicken, broiler, rotisserie, BBQ, breast, meat and skin","肉雞(旋轉烤,燒烤味,雞胸,連皮)",batch-033
+"Chicken, broiler, rotisserie, BBQ, breast, meat only","肉雞(旋轉烤,燒烤味,雞胸,只計肉)",batch-033
+"Chicken, broiler, rotisserie, BBQ, drumstick, meat and skin","肉雞(旋轉烤,燒烤味,雞鎚,連皮)",batch-033
+"Chicken, broiler, rotisserie, BBQ, drumstick, meat only","肉雞(旋轉烤,燒烤味,雞鎚,只計肉)",batch-033
+"Chicken, broiler, rotisserie, BBQ, skin","肉雞(旋轉烤,燒烤味,雞皮)",batch-033
+"Chicken, broiler, rotisserie, BBQ, thigh, meat and skin","肉雞(旋轉烤,燒烤味,雞髀,連皮)",batch-033
+"Chicken, broiler, rotisserie, BBQ, thigh, meat only","肉雞(旋轉烤,燒烤味,雞髀,只計肉)",batch-033
+"Chicken, broiler, rotisserie, BBQ, wing, meat and skin","肉雞(旋轉烤,燒烤味,雞翼,連皮)",batch-033
+"Chicken, broiler, rotisserie, BBQ, wing, meat only","肉雞(旋轉烤,燒烤味,雞翼,只計肉)",batch-033
+"Chicken, broiler, separable fat, raw","肉雞(可分離脂肪,生)",batch-033
+"Chicken, broiler, skin only, batter dipped, fried","肉雞(只計雞皮,沾漿炸)",batch-033
+"Chicken, broiler, skin only, flour coated, fried","肉雞(只計雞皮,沾粉炸)",batch-033
+"Chicken, broiler, skin only, raw","肉雞(只計雞皮,生)",batch-033
+"Chicken, broiler, skin only, roasted","肉雞(只計雞皮,烤)",batch-033
+"Chicken, broiler, skin only, stewed","肉雞(只計雞皮,炆)",batch-033
+"Chicken, broiler, skin, cooked, rotisserie, with seasoning","肉雞(雞皮,熟,旋轉烤,加調味)",batch-033
 "Chicken, broiler, tender, boiled",肉雞雞柳(煮),batch-016
 "Chicken, broiler, tender, raw",肉雞雞柳(生),batch-016
 "Chicken, broiler, tender, roasted",肉雞雞柳(烤),batch-016
+"Chicken, broiler, thigh, meat and skin, batter dipped, fried","肉雞(雞髀,連皮,沾漿炸)",batch-033
+"Chicken, broiler, thigh, meat and skin, braised","肉雞(雞髀,連皮,炆)",batch-033
+"Chicken, broiler, thigh, meat and skin, cooked, rotisserie, with seasoning","肉雞(雞髀,連皮,熟,旋轉烤,加調味)",batch-033
+"Chicken, broiler, thigh, meat and skin, flour coated, fried","肉雞(雞髀,連皮,沾粉炸)",batch-033
+"Chicken, broiler, thigh, meat and skin, raw","肉雞(雞髀,連皮,生)",batch-033
+"Chicken, broiler, thigh, meat and skin, roasted","肉雞(雞髀,連皮,烤)",batch-033
+"Chicken, broiler, thigh, meat and skin, stewed","肉雞(雞髀,連皮,燜煮)",batch-033
 "Chicken, broiler, thigh, meat with skin, ""Karaage""(floured and deep-fried chicken)","肉雞雞髀(連皮,「Karaage」日式炸雞)",batch-016
 "Chicken, broiler, thigh, meat with skin, boiled","肉雞雞髀(連皮,煮)",batch-016
 "Chicken, broiler, thigh, meat with skin, raw","肉雞雞髀(連皮,生)",batch-016
@@ -4119,11 +4194,39 @@ Chicken slices,雞肉片,batch-009
 "Chicken, broiler, thigh, meat without skin, boiled","肉雞雞髀(去皮,煮)",batch-016
 "Chicken, broiler, thigh, meat without skin, raw","肉雞雞髀(去皮,生)",batch-016
 "Chicken, broiler, thigh, meat without skin, roasted","肉雞雞髀(去皮,烤)",batch-016
+"Chicken, broiler, thigh, meat, braised","肉雞(雞髀,只計肉,炆)",batch-033
+"Chicken, broiler, thigh, meat, cooked, rotisserie, with seasoning","肉雞(雞髀,只計肉,熟,旋轉烤,加調味)",batch-033
+"Chicken, broiler, thigh, meat, fried","肉雞(雞髀,只計肉,炸)",batch-033
+"Chicken, broiler, thigh, meat, raw","肉雞(雞髀,只計肉,生)",batch-033
+"Chicken, broiler, thigh, meat, roasted","肉雞(雞髀,只計肉,烤)",batch-033
+"Chicken, broiler, thigh, meat, stewed","肉雞(雞髀,只計肉,燜煮)",batch-033
 "Chicken, broiler, wing stick, meat with skin, raw","肉雞翼棒(連皮,生)",batch-016
 "Chicken, broiler, wing tip, meat with skin, raw","肉雞翼尖(連皮,生)",batch-016
+"Chicken, broiler, wing, meat and skin, batter dipped, fried","肉雞(雞翼,連皮,沾漿炸)",batch-033
+"Chicken, broiler, wing, meat and skin, cooked, rotisserie, with seasoning","肉雞(雞翼,連皮,熟,旋轉烤,加調味)",batch-033
+"Chicken, broiler, wing, meat and skin, flour coated, fried","肉雞(雞翼,連皮,沾粉炸)",batch-033
+"Chicken, broiler, wing, meat and skin, raw","肉雞(雞翼,連皮,生)",batch-033
+"Chicken, broiler, wing, meat and skin, roasted","肉雞(雞翼,連皮,烤)",batch-033
+"Chicken, broiler, wing, meat and skin, stewed","肉雞(雞翼,連皮,炆)",batch-033
 "Chicken, broiler, wing, meat with skin, raw","雞翼(肉雞,連皮,生)",batch-016
+"Chicken, broiler, wing, meat, cooked, rotisserie, with seasoning","肉雞(雞翼,只計肉,熟,旋轉烤,加調味)",batch-033
+"Chicken, broiler, wing, meat, fried","肉雞(雞翼,只計肉,炸)",batch-033
+"Chicken, broiler, wing, meat, raw","肉雞(雞翼,只計肉,生)",batch-033
+"Chicken, broiler, wing, meat, roasted","肉雞(雞翼,只計肉,烤)",batch-033
+"Chicken, broiler, wing, meat, stewed","肉雞(雞翼,只計肉,炆)",batch-033
+"Chicken, broilers or fryers, breast, skinless, boneless, meat only, with added solution, raw","肉雞或嫩雞(雞胸,去皮,去骨,只計肉,加入溶液,生)",batch-033
+"Chicken, broilers or fryers, dark meat, drumstick, meat and skin, cooked, braised","肉雞或嫩雞(深色肉,雞鎚,連皮,熟,炆)",batch-033
+"Chicken, broilers or fryers, drumstick, meat and skin, cooked, stewed","肉雞或嫩雞(雞鎚,連皮,熟,燜煮)",batch-033
 "Chicken, broilers or fryers, drumstick, meat only, cooked, braised","肉雞雞髀(只計肉,熟,炆)",batch-019
 "Chicken, canned products, roast meat with seasoning","雞肉(罐頭,調味烤肉)",batch-016
+"Chicken, canned, meat only, with broth","雞肉(罐頭,只計肉,連肉汁)",batch-033
+"Chicken, canned, no broth","雞肉(罐頭,無肉汁)",batch-033
+"Chicken, capon, giblets, raw","閹雞(雞雜,生)",batch-033
+"Chicken, capon, giblets, simmered","閹雞(雞雜,燉煮)",batch-033
+"Chicken, capon, meat and skin, raw","閹雞(連皮,生)",batch-033
+"Chicken, capon, meat and skin, roasted","閹雞(連皮,烤)",batch-033
+"Chicken, capon, meat, skin, giblets and neck, raw","閹雞(肉,皮,雞雜及雞頸,生)",batch-033
+"Chicken, capon, meat, skin, giblets and neck, roasted","閹雞(肉,皮,雞雜及雞頸,烤)",batch-033
 "Chicken, corn-fed, raw, dark meat only","粟米雞(生,只計深色肉)",batch-009
 "Chicken, corn-fed, raw, light meat only","粟米雞(生,只計淺色肉)",batch-009
 "Chicken, corn-fed, raw, meat only","粟米雞(生,只計雞肉)",batch-009
@@ -4131,14 +4234,30 @@ Chicken slices,雞肉片,batch-009
 "Chicken, corn-fed, roasted, dark meat only","粟米雞(烤,只計深色肉)",batch-009
 "Chicken, corn-fed, roasted, light meat only","粟米雞(烤,只計淺色肉)",batch-009
 "Chicken, corn-fed, roasted, meat only","粟米雞(烤,只計雞肉)",batch-009
+"Chicken, cornish game hens, meat and skin, raw","春雞(連皮,生)",batch-033
+"Chicken, cornish game hens, meat and skin, roasted","春雞(連皮,烤)",batch-033
+"Chicken, cornish game hens, meat only, raw","春雞(只計肉,生)",batch-033
+"Chicken, cornish game hens, meat only, roasted","春雞(只計肉,烤)",batch-033
 "Chicken, culled, breast, meat with skin, raw","老母雞胸(連皮,生)",batch-016
 "Chicken, culled, breast, meat without skin, raw","老母雞胸(去皮,生)",batch-016
 "Chicken, culled, tender, raw",老母雞雞柳(生),batch-016
 "Chicken, culled, thigh, meat with skin, raw","老母雞雞髀(連皮,生)",batch-016
 "Chicken, culled, thigh, meat without skin, raw","老母雞雞髀(去皮,生)",batch-016
 "Chicken, culled, wing, meat with skin, raw","老母雞翼(連皮,生)",batch-016
+"Chicken, dark meat, drumstick, meat and skin, with added solution, cooked, braised","雞(深色肉,雞鎚,連皮,加入溶液,熟,炆)",batch-033
+"Chicken, dark meat, drumstick, meat and skin, with added solution, cooked, roasted","雞(深色肉,雞鎚,連皮,加入溶液,熟,烤)",batch-033
+"Chicken, dark meat, drumstick, meat and skin, with added solution, raw","雞(深色肉,雞鎚,連皮,加入溶液,生)",batch-033
+"Chicken, dark meat, drumstick, meat only, with added solution, cooked, braised","雞(深色肉,雞鎚,只計肉,加入溶液,熟,炆)",batch-033
+"Chicken, dark meat, drumstick, meat only, with added solution, cooked, roasted","雞(深色肉,雞鎚,只計肉,加入溶液,熟,烤)",batch-033
+"Chicken, dark meat, drumstick, meat only, with added solution, raw","雞(深色肉,雞鎚,只計肉,加入溶液,生)",batch-033
 "Chicken, dark meat, raw","雞肉(深色肉,生)",batch-009
 "Chicken, dark meat, roasted","雞肉(深色肉,烤)",batch-009
+"Chicken, dark meat, thigh, meat and skin, with added solution, cooked, braised","雞(深色肉,雞髀,連皮,加入溶液,熟,炆)",batch-033
+"Chicken, dark meat, thigh, meat and skin, with added solution, cooked, roasted","雞(深色肉,雞髀,連皮,加入溶液,熟,烤)",batch-033
+"Chicken, dark meat, thigh, meat and skin, with added solution, raw","雞(深色肉,雞髀,連皮,加入溶液,生)",batch-033
+"Chicken, dark meat, thigh, meat only, with added solution, cooked, braised","雞(深色肉,雞髀,只計肉,加入溶液,熟,炆)",batch-033
+"Chicken, dark meat, thigh, meat only, with added solution, cooked, roasted","雞(深色肉,雞髀,只計肉,加入溶液,熟,烤)",batch-033
+"Chicken, dark meat, thigh, meat only, with added solution, raw","雞(深色肉,雞髀,只計肉,加入溶液,生)",batch-033
 "Chicken, drumstick, meat and skin, raw","雞髀(連皮,生)",batch-019
 "Chicken, drumsticks, casseroled, meat and skin","雞鼓槌(燉,連皮)",batch-009
 "Chicken, drumsticks, casseroled, meat and skin, weighed with bone","雞鼓槌(燉,連皮,連骨稱重)",batch-009
@@ -4146,8 +4265,11 @@ Chicken slices,雞肉片,batch-009
 "Chicken, drumsticks, roasted, meat and skin","雞髀(連皮,烤)",pilot
 "Chicken, drumsticks, roasted, meat and skin, weighed with bone","雞鼓槌(烤,連皮,連骨稱重)",batch-009
 "Chicken, drumsticks, roasted, meat only","雞鼓槌(烤,只計雞肉)",batch-009
+"Chicken, feet, boiled",雞腳(烚),batch-033
 "Chicken, ground meat, raw",免治雞肉(生),batch-016
 "Chicken, ground meat, stir-fried",免治雞肉(炒),batch-016
+"Chicken, ground, lean, cooked","免治雞肉(瘦,熟)",batch-033
+"Chicken, ground, raw",免治雞肉(生),batch-033
 "Chicken, ground, with additives, raw","免治雞肉(有添加物,生)",batch-019
 "Chicken, leg quarter, casseroled, meat and skin","雞髀連背(燉,連皮)",batch-009
 "Chicken, leg quarter, casseroled, meat and skin, weighed with bone","雞髀連背(燉,連皮,連骨稱重)",batch-009
@@ -4158,6 +4280,7 @@ Chicken slices,雞肉片,batch-009
 "Chicken, leg quarter, roasted, meat and skin, weighed with bone","雞髀連背(烤,連皮,連骨稱重)",batch-009
 "Chicken, light meat, raw","雞肉(淺色肉,生)",batch-009
 "Chicken, light meat, roasted","雞肉(淺色肉,烤)",batch-009
+"Chicken, liver, all classes, cooked, pan-fried","雞肝(所有種類,熟,煎)",batch-033
 "Chicken, meat, average, raw","雞肉(平均,生)",batch-009
 "Chicken, meat, average, roasted","雞肉(平均,烤)",batch-009
 "Chicken, meatless",素雞肉,batch-031
@@ -4176,14 +4299,42 @@ Chicken slices,雞肉片,batch-009
 "Chicken, offal and by-products, skin, thigh, raw","雞皮(髀部,生)",batch-016
 "Chicken, portions, not coated, deep-fried, meat and skin","雞塊(不裹粉,油炸,連皮)",batch-009
 "Chicken, portions, not coated, deep-fried, meat and skin, weighed with bone","雞塊(不裹粉,油炸,連皮,連骨稱重)",batch-009
+"Chicken, roasting, dark meat, meat only, cooked, roasted","烤用雞(深色肉,只計肉,熟,烤)",batch-033
+"Chicken, roasting, dark meat, meat only, raw","烤用雞(深色肉,只計肉,生)",batch-033
+"Chicken, roasting, giblets, raw","烤用雞(雞雜,生)",batch-033
+"Chicken, roasting, giblets, simmered","烤用雞(雞雜,燉煮)",batch-033
+"Chicken, roasting, light meat, raw","烤用雞(淺色肉,生)",batch-033
+"Chicken, roasting, light meat, roasted","烤用雞(淺色肉,烤)",batch-033
+"Chicken, roasting, meat and skin, roasted","烤用雞(連皮,烤)",batch-033
+"Chicken, roasting, meat only, raw","烤用雞(只計肉,生)",batch-033
+"Chicken, roasting, meat only, roasted","烤用雞(只計肉,烤)",batch-033
+"Chicken, roasting, meat, skin, giblets and neck, raw","烤用雞(肉,皮,雞雜及雞頸,生)",batch-033
+"Chicken, roasting, meat, skin, giblets and neck, roasted","烤用雞(肉,皮,雞雜及雞頸,烤)",batch-033
 "Chicken, sautéed with almonds (almond guy ding)",杏仁炒雞丁,batch-005
 "Chicken, schnitzel, baked without fat","炸雞扒(焗,不加脂肪)",batch-002
 "Chicken, separable fat, composite, baked or roasted, no added fat","雞脂肪(可分離,混合部位,焗或烤,無添加脂肪)",batch-002
 "Chicken, separable fat, composite, cooked, no added fat","雞脂肪(可分離,混合部位,熟,無添加脂肪)",batch-002
+"Chicken, skin (drumsticks and thighs), cooked, braised","雞皮(雞鎚及雞髀,熟,炆)",batch-033
+"Chicken, skin (drumsticks and thighs), cooked, roasted","雞皮(雞鎚及雞髀,熟,烤)",batch-033
+"Chicken, skin (drumsticks and thighs), raw","雞皮(雞鎚及雞髀,生)",batch-033
+"Chicken, skin (drumsticks and thighs), with added solution, cooked, braised","雞皮(雞鎚及雞髀,加入溶液,熟,炆)",batch-033
+"Chicken, skin (drumsticks and thighs), with added solution, cooked, roasted","雞皮(雞鎚及雞髀,加入溶液,熟,烤)",batch-033
+"Chicken, skin (drumsticks and thighs), with added solution, raw","雞皮(雞鎚及雞髀,加入溶液,生)",batch-033
 "Chicken, skin, casseroled",雞皮(燉),batch-009
 "Chicken, skin, roasted/grilled, dry","雞皮(烤或燒烤,乾身)",batch-009
 "Chicken, skin, roasted/grilled, moist","雞皮(烤或燒烤,濕潤)",batch-009
+"Chicken, stewing, dark meat only, raw","燉用雞(只計深色肉,生)",batch-033
+"Chicken, stewing, dark meat only, stewed","燉用雞(只計深色肉,燜煮)",batch-033
+"Chicken, stewing, giblets, raw","燉用雞(雞雜,生)",batch-033
 "Chicken, stewing, giblets, simmered",老雞雜(煮),pilot
+"Chicken, stewing, light meat only, raw","燉用雞(只計淺色肉,生)",batch-033
+"Chicken, stewing, light meat only, stewed","燉用雞(只計淺色肉,燜煮)",batch-033
+"Chicken, stewing, meat and skin, raw","燉用雞(連皮,生)",batch-033
+"Chicken, stewing, meat and skin, stewed","燉用雞(連皮,燜煮)",batch-033
+"Chicken, stewing, meat only, raw","燉用雞(只計肉,生)",batch-033
+"Chicken, stewing, meat only, stewed","燉用雞(只計肉,燜煮)",batch-033
+"Chicken, stewing, meat, skin, giblets and neck, raw","燉用雞(肉,皮,雞雜及雞頸,生)",batch-033
+"Chicken, stewing, meat, skin, giblets and neck, stewed","燉用雞(肉,皮,雞雜及雞頸,燜煮)",batch-033
 "Chicken, stir-fried with mushrooms and cashew nuts, homemade",蘑菇腰果炒雞(自家製),batch-009
 "Chicken, stir-fried with peppers in black bean sauce, homemade",豉汁青椒炒雞(自家製),batch-009
 "Chicken, stir-fried with rice and vegetables, retail, reheated","雞肉蔬菜炒飯(零售,已翻熱)",batch-009
@@ -4209,6 +4360,9 @@ Chicken slices,雞肉片,batch-009
 "Chicken, wing quarter, raw, meat and skin, weighed with bone","雞翼連翼尖(生,連皮,連骨稱重)",batch-009
 "Chicken, wing quarter, roasted, meat and skin","雞翼連翼尖(烤,連皮)",batch-009
 "Chicken, wing quarter, roasted, meat and skin, weighed with bone","雞翼連翼尖(烤,連皮,連骨稱重)",batch-009
+"Chicken, wing, frozen, glazed, barbecue flavored, heated (conventional oven)","雞翼(冷凍,上糖漿,燒烤味,已加熱(傳統焗爐))",batch-033
+"Chicken, wing, frozen, glazed, barbecue flavored, heated (microwave)","雞翼(冷凍,上糖漿,燒烤味,已加熱(微波爐))",batch-033
+"Chicken, wing, frozen, glazed, barbecue flavour","雞翼(冷凍,上糖漿,燒烤味)",batch-033
 "Chicken, wing, meat and skin, raw","雞翼(連皮,生)",batch-019
 "Chicken/turkey pasties/slices, puff pastry",雞肉或火雞肉酥皮卷或片(酥皮),batch-009
 "Chicken/turkey pieces, coated, baked","雞肉或火雞肉塊(裹粉,焗)",batch-009
@@ -4233,6 +4387,7 @@ Chilchen (Red Berry Beverage) (Navajo),"紅莓飲品(Chilchen,納瓦霍族)",bat
 "Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed","兒童配方奶(ABBOTT NUTRITION,PEDIASURE,即飲)",batch-020
 "Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed, with iron and fiber","兒童配方奶(ABBOTT NUTRITION,PEDIASURE,即飲,含鐵質及纖維)",batch-020
 "Chili con carne with beans, canned",辣肉醬連豆(罐頭),batch-031
+"Chili con carne with beans, restaurant prepared",辣肉醬連豆(餐廳製作),batch-033
 "Chili with beans, canned","辣豆醬(罐頭,連豆)",batch-031
 "Chili with beans, microwavable bowls",辣豆醬(可微波碗裝),batch-031
 "Chili without beans, canned",辣肉醬不含豆(罐頭),batch-031
@@ -4253,6 +4408,7 @@ Chinese 5 spice,五香粉,batch-008
 "Chinese chive, leaves, raw","韭菜(葉,生)",batch-018
 "Chinese chive, leaves, sautéed","韭菜(葉,炒)",batch-018
 "Chinese chive, scape and flower bud, raw","韭菜花(花莖及花蕾,生)",batch-018
+"Chinese dish, chow mein, chicken",中式菜式(雞肉炒麵),batch-033
 "Chinese mustard, ""Taisai"", leaves, raw","大菜(葉,生)",batch-018
 "Chinese mustard, ""Taisai"", leaves, salted pickles","大菜(葉,鹽漬)",batch-018
 "Chinese mustard, ""Taisai"", young leaves, raw","大菜(嫩葉,生)",batch-018
@@ -5155,6 +5311,18 @@ Custard powder,吉士粉,batch-006
 "Custard, ready to eat, canned and tetra-pak",即食吉士醬(罐裝及利樂包裝),batch-010
 "Custard, vanilla, prepared from dry mix","吉士醬(雲呢拿味,由乾粉調製)",batch-002
 "Custard-apple, raw",番荔枝(生),batch-029
+"DENNY'S, chicken nuggets, star shaped, from kid's menu",DENNY'S 星形雞塊(兒童餐單),batch-033
+"DENNY'S, chicken strips",DENNY'S 雞條,batch-033
+"DENNY'S, coleslaw",DENNY'S 椰菜沙律,batch-033
+"DENNY'S, fish fillet, battered or breaded, fried","DENNY'S 魚柳(沾漿或裹粉,炸)",batch-033
+"DENNY'S, french fries",DENNY'S 炸薯條,batch-033
+"DENNY'S, golden fried shrimp",DENNY'S 金黃炸蝦,batch-033
+"DENNY'S, hash browns",DENNY'S 薯餅,batch-033
+"DENNY'S, macaroni & cheese, from kid's menu",DENNY'S 芝士通粉(兒童餐單),batch-033
+"DENNY'S, mozzarella cheese sticks",DENNY'S 莫澤雷勒芝士條,batch-033
+"DENNY'S, onion rings",DENNY'S 洋蔥圈,batch-033
+"DENNY'S, spaghetti and meatballs",DENNY'S 肉丸意粉,batch-033
+"DENNY'S, top sirloin steak",DENNY'S 上後腰脊牛扒,batch-033
 "DIGIORNO Pizza, cheese topping, cheese stuffed crust, frozen, baked","DIGIORNO 薄餅(芝士餡,芝士邊,冷凍,焗)",batch-027
 "DIGIORNO Pizza, cheese topping, rising crust, frozen, baked","DIGIORNO 薄餅(芝士餡,發酵厚批底,冷凍,焗)",batch-027
 "DIGIORNO Pizza, cheese topping, thin crispy crust, frozen, baked","DIGIORNO 薄餅(芝士餡,薄脆批底,冷凍,焗)",batch-027
@@ -5268,6 +5436,7 @@ Doner kebab in pitta bread with salad,沙律皮塔餅旋轉烤肉,batch-009
 "Doughnuts, yeast-leavened, glazed, unenriched (includes honey buns)","酵母發酵冬甩(糖衣,未強化,包括蜜糖包)",batch-021
 "Doughnuts, yeast-leavened, with creme filling",酵母發酵冬甩(忌廉夾心),batch-021
 "Doughnuts, yeast-leavened, with jelly filling",酵母發酵冬甩(果占夾心),batch-021
+"Dove (includes squab), cooked","鴿(包括乳鴿,熟)",batch-033
 "Dover sole, raw",龍利魚(生),batch-007
 "Dressing, French",沙律醬(法式),batch-017
 "Dressing, French or Italian, regular fat, commercial","法式或意式沙律醬(全脂,市售)",batch-002
@@ -5324,9 +5493,17 @@ Dried mixed fruit,雜果乾,batch-008
 "Duck, breast, lean flesh, raw","鴨胸(瘦肉,生)",batch-002
 "Duck, breast, lean, fried, no added fat","鴨胸(瘦肉,炸,無添加脂肪)",batch-002
 "Duck, crispy, chinese style, meat and skin",中式脆皮鴨(連皮),batch-009
+"Duck, domesticated, liver, raw","家鴨(鴨肝,生)",batch-033
+"Duck, domesticated, meat and skin, raw","家鴨(連皮,生)",batch-033
+"Duck, domesticated, meat and skin, roasted","家鴨(連皮,烤)",batch-033
+"Duck, domesticated, meat only, raw","家鴨(只計肉,生)",batch-033
+"Duck, domesticated, meat only, roasted","家鴨(只計肉,烤)",batch-033
 "Duck, domesticated, meat with skin, raw","家鴨肉(連皮,生)",batch-016
 "Duck, domesticated, meat without skin, raw","家鴨肉(去皮,生)",batch-016
 "Duck, domesticated, skin, raw",鴨皮(生),batch-016
+"Duck, duckling, domestic, Pekin, breast, meat only, boneless, cooked without skin, broiled","北京填鴨(幼鴨,胸肉,只計肉,去骨,去皮烹調,燒烤)",batch-033
+"Duck, duckling, domestic, Pekin, leg, meat and skin, bone in, roasted","北京填鴨(幼鴨,鴨腿,連皮,連骨,烤)",batch-033
+"Duck, duckling, domestic, Pekin, leg, meat only, bone in, cooked without skin, braised","北京填鴨(幼鴨,鴨腿,只計肉,連骨,去皮烹調,炆)",batch-033
 "Duck, lean flesh, baked, no added fat","鴨肉(瘦肉,焗,無添加脂肪)",batch-002
 "Duck, meat only, raw","鴨肉(只計肉,生)",batch-009
 "Duck, raw, meat only, weighed with fat, skin and bone","鴨(生,只計肉,連脂肪,皮及骨稱重)",batch-009
@@ -5336,7 +5513,10 @@ Dried mixed fruit,雜果乾,batch-008
 "Duck, roasted, meat, fat and skin","鴨肉(烤,連脂肪及皮)",batch-009
 "Duck, scoter, white-winged, meat (Alaska Native)",白翅黑鴨肉(阿拉斯加原住民),batch-019
 "Duck, wild, Indigenous, cooked","野鴨(原住民食物,熟)",batch-005
+"Duck, wild, breast, meat only, raw","野鴨(胸肉,只計肉,生)",batch-033
+"Duck, wild, meat and skin, raw","野鴨(連皮,生)",batch-033
 "Duck, wild, meat without skin, raw","野鴨肉(去皮,生)",batch-016
+"Duck, young duckling, domestic, White Pekin, breast, meat and skin, boneless, roasted","白北京填鴨(幼鴨,胸肉,連皮,去骨,烤)",batch-033
 Dulce de Leche,牛奶焦糖醬(Dulce de Leche),batch-026
 "Dumpling, plain",麵粉糰子(原味),batch-003
 "Dumpling, potato- or cheese-filled, frozen","餃子(薯仔餡或芝士餡,冷凍)",batch-031
@@ -5362,6 +5542,7 @@ Dulce de Leche,牛奶焦糖醬(Dulce de Leche),batch-026
 Egg Benedict,班尼迪克蛋,batch-004
 Egg fu yung,芙蓉蛋,batch-007
 "Egg nog, homemade",蛋酒(自家製),batch-006
+"Egg roll, assorted, restaurant prepared","春卷(什錦,餐廳製作)",batch-033
 "Egg roll, chicken, refrigerated, heated","雞肉春卷(冷藏,已加熱)",batch-031
 "Egg roll, pork, refrigerated, heated","豬肉春卷(冷藏,已加熱)",batch-031
 "Egg rolls, vegetable, frozen, prepared","蔬菜春卷(冷凍,已調製)",batch-031
@@ -5452,8 +5633,19 @@ Eggnog,蛋酒,batch-026
 "Elk, free range, ground, raw (Shoshone Bannock)","駝鹿免治肉(放養,生,Shoshone Bannock)",pilot
 "Elk, free range, roast, eye of round, cooked (Shoshone Bannock)","放養麋鹿牛腱芯烤肉塊(熟,肖松尼-班諾克族)",batch-019
 "Elk, free range, roast, eye of round, raw (Shoshone Bannock)","放養麋鹿牛腱芯烤肉塊(生,肖松尼-班諾克族)",batch-019
+"Emu, fan fillet, cooked, broiled","鴯鶓(扇形柳,熟,燒烤)",batch-033
+"Emu, flat fillet, raw","鴯鶓(扁柳,生)",batch-033
+"Emu, full rump, cooked, broiled","鴯鶓(整塊臀肉,熟,燒烤)",batch-033
+"Emu, full rump, raw","鴯鶓(整塊臀肉,生)",batch-033
+"Emu, ground, cooked, pan-broiled","免治鴯鶓肉(熟,平底鍋燒烤)",batch-033
+"Emu, ground, raw",免治鴯鶓肉(生),batch-033
+"Emu, inside drum, cooked, broiled","鴯鶓(內側小腿,熟,燒烤)",batch-033
+"Emu, inside drum, raw","鴯鶓(內側小腿,生)",batch-033
+"Emu, outside drum, raw","鴯鶓(外側小腿,生)",batch-033
+"Emu, oyster, raw","鴯鶓(腿窩肉,生)",batch-033
 "Emu, steak, as purchased, fried, no added fat","鴯鶓肉排(購買時,炸,無添加脂肪)",batch-002
 "Emu, steak, as purchased, raw","鴯鶓肉排(購買時,生)",batch-002
+"Emu, top loin, cooked, broiled","鴯鶓(上腰肉,熟,燒烤)",batch-033
 "Enchiladas, beef, homemade",牛肉墨西哥卷(自家製),batch-009
 "Endive, leaves, raw","苦苣(葉,生)",batch-018
 "Energy drink, caffeine free",能量飲品(無咖啡因),batch-003
@@ -6634,6 +6826,10 @@ Ghee made from vegetable oil,植物油製酥油,batch-010
 "Goat, meat, lean, raw","山羊肉(瘦肉,生)",batch-016
 "Goji berries, dried",枸杞子(乾),batch-029
 "Goji berry, dried",枸杞子(乾),batch-001
+"Goose, domesticated, meat and skin, raw","家鵝(連皮,生)",batch-033
+"Goose, domesticated, meat and skin, roasted","家鵝(連皮,烤)",batch-033
+"Goose, domesticated, meat only, raw","家鵝(只計肉,生)",batch-033
+"Goose, domesticated, meat only, roasted","家鵝(只計肉,烤)",batch-033
 "Goose, foie gras, boiled",鵝肝(煮),batch-016
 "Goose, meat, raw, fat and skin","鵝肉(生,連脂肪及皮)",batch-009
 "Goose, meat, roasted, fat and skin","鵝肉(烤,連脂肪及皮)",batch-009
@@ -6820,6 +7016,8 @@ Gravy instant granules,即食肉汁顆粒,batch-011
 "Guava, strawberry, raw",士多啤梨番石榴(生),batch-029
 "Guava, white flesh type, raw","番石榴(白肉種,生)",batch-015
 "Guinea fowl, meat without skin, raw","珍珠雞肉(去皮,生)",batch-016
+"Guinea, meat and skin, raw","珍珠雞(連皮,生)",batch-033
+"Guinea, meat only, raw","珍珠雞(只計肉,生)",batch-033
 "Gulab jamen/jambu, homemade","印度炸奶球(Gulab jamun,自家製)",batch-006
 "Gulab jamen/jambu, retail","印度炸奶球(Gulab jamun,零售)",batch-006
 "HORMEL ALWAYS TENDER, Boneless Pork Loin, Fresh Pork",HORMEL ALWAYS TENDER 去骨豬腰肉(新鮮豬肉),batch-031
@@ -7839,6 +8037,7 @@ Laverbread,紫菜麵包,batch-012
 "Leeks, bulb and leaves, raw","韭蔥(鱗莖及葉,生)",batch-018
 "Leeks, roasted in rapeseed oil",韭蔥(以芥花籽油烤),batch-012
 "Lemon chicken, homemade",檸檬雞(自家製),batch-009
+"Lemon chicken, restaurant prepared",檸檬雞(餐廳製作),batch-033
 Lemon curd,檸檬醬,batch-011
 "Lemon curd, homemade",檸檬醬(自家製),batch-011
 "Lemon juice from concentrate, bottled, CONCORD","檸檬汁(濃縮還原,瓶裝,CONCORD)",batch-029
@@ -8498,6 +8697,7 @@ Molasses,糖蜜,batch-011
 "Moussaka, vegetable, retail",素千層茄子(零售),batch-012
 "Mousse, chocolate, low fat",朱古力慕絲(低脂),batch-010
 "Mousse, fruit",水果慕絲,batch-010
+"Mozzarella sticks, fried",莫澤雷勒芝士條(炸),batch-033
 "Muesli, Swiss style, no added sugar or salt, unfortified","瑞士麥片(無添加糖或鹽,未強化)",pilot
 "Muesli, Swiss style, unfortified",瑞士式穀物麥片(無強化),batch-007
 "Muesli, granola, non-oat based, toasted, added nuts & seeds, unfortified","穀物麥片(烘烤,非燕麥類,添加果仁及種子,無強化)",batch-001
@@ -8820,6 +9020,16 @@ Natto,納豆,batch-031
 "Nuts, walnuts, dry roasted, with salt added","合桃(乾烤,加鹽)",batch-031
 "Nuts, walnuts, english",合桃(英國核桃),batch-031
 "Nuts, walnuts, glazed",糖衣合桃,batch-031
+"OLIVE GARDEN, cheese ravioli with marinara sauce",OLIVE GARDEN 芝士意大利雲吞配茄汁,batch-033
+"OLIVE GARDEN, chicken parmigiana without pasta",OLIVE GARDEN 巴馬臣芝士雞(不含意粉),batch-033
+"OLIVE GARDEN, lasagna classico",OLIVE GARDEN 經典千層麵,batch-033
+"OLIVE GARDEN, spaghetti with meat sauce",OLIVE GARDEN 肉醬意粉,batch-033
+"OLIVE GARDEN, spaghetti with pomodoro sauce",OLIVE GARDEN 番茄醬意粉,batch-033
+"ON THE BORDER, Mexican rice",ON THE BORDER 墨西哥飯,batch-033
+"ON THE BORDER, cheese enchilada",ON THE BORDER 芝士墨西哥粟米薄餅卷,batch-033
+"ON THE BORDER, cheese quesadilla",ON THE BORDER 芝士墨西哥芝士餅,batch-033
+"ON THE BORDER, refried beans",ON THE BORDER 炸豆泥,batch-033
+"ON THE BORDER, soft taco with ground beef, cheese and lettuce","ON THE BORDER 軟墨西哥薄餅(免治牛肉,芝士,生菜)",batch-033
 "Oat beverage, fluid, added Ca","燕麥飲品(液體,添加鈣)",batch-001
 "Oat beverage, fluid, added calcium & vitamins","燕麥飲品(液體,添加鈣及維他命)",batch-001
 "Oat beverage, fluid, unfortified","燕麥飲品(液體,無強化)",batch-001
@@ -8998,7 +9208,25 @@ Orange pineapple juice,橙菠蘿汁,batch-029
 "Oroblanco, juice sacs, raw","白柚(果肉,生)",batch-015
 "Ortaniques, flesh only",Ortanique 橘橙(只計果肉),batch-008
 "Ostrich, fan fillet, raw","鴕鳥肉(扇形柳,生)",batch-002
+"Ostrich, fan, raw","鴕鳥(扇形肉,生)",batch-033
+"Ostrich, ground, cooked, pan-broiled","免治鴕鳥肉(熟,平底鍋燒烤)",batch-033
+"Ostrich, ground, raw",免治鴕鳥肉(生),batch-033
+"Ostrich, inside leg, cooked","鴕鳥(內側腿肉,熟)",batch-033
+"Ostrich, inside leg, raw","鴕鳥(內側腿肉,生)",batch-033
+"Ostrich, inside strip, cooked","鴕鳥(內側肉條,熟)",batch-033
+"Ostrich, inside strip, raw","鴕鳥(內側肉條,生)",batch-033
 "Ostrich, moon steak, raw","鴕鳥肉(月形扒,生)",batch-002
+"Ostrich, outside leg, raw","鴕鳥(外側腿肉,生)",batch-033
+"Ostrich, outside strip, cooked","鴕鳥(外側肉條,熟)",batch-033
+"Ostrich, outside strip, raw","鴕鳥(外側肉條,生)",batch-033
+"Ostrich, oyster, cooked","鴕鳥(腿窩肉,熟)",batch-033
+"Ostrich, oyster, raw","鴕鳥(腿窩肉,生)",batch-033
+"Ostrich, round, raw","鴕鳥(後腿肉,生)",batch-033
+"Ostrich, tenderloin, raw","鴕鳥(柳,生)",batch-033
+"Ostrich, tip trimmed, cooked","鴕鳥(修整尖端,熟)",batch-033
+"Ostrich, tip trimmed, raw","鴕鳥(修整尖端,生)",batch-033
+"Ostrich, top loin, cooked","鴕鳥(上腰肉,熟)",batch-033
+"Ostrich, top loin, raw","鴕鳥(上腰肉,生)",batch-033
 "Ostrich-feather fern, fiddlehead, raw","黃瓜菜(嫩芽,生)",batch-018
 "Other milk, goat milk",山羊奶,batch-016
 "Other milk, human milk, mature",母乳(成熟乳),batch-016
@@ -9215,6 +9443,7 @@ Pastry cream,法式甜品忌廉(卡士達醬),batch-014
 "Pastry, wholemeal, uncooked, homemade","全麥酥皮(生,自家製)",batch-007
 "Pasty, vegetable, homemade",蔬菜餡餅(自家製),batch-012
 "Pasty, vegetable, wholemeal, homemade","蔬菜餡餅(全麥,自家製)",batch-012
+"Pate de foie gras, canned (goose liver pate), smoked","鵝肝醬(罐頭,鵝肝醬,煙燻)",batch-033
 "Pate, goose liver, smoked, canned","鵝肝醬(煙燻,罐頭)",pilot
 "Pate, liver",肝醬,batch-009
 "Pate, meat, reduced fat",肉醬(低脂),batch-009
@@ -9412,6 +9641,11 @@ Perilla oil,紫蘇籽油,batch-014
 "Pesto sauce, homemade",青醬(自家製),batch-012
 "Pesto, green",青醬,batch-011
 "Pesto, red",紅醬(番茄青醬),batch-011
+"Pheasant, breast, meat only, raw","雉雞(胸肉,只計肉,生)",batch-033
+"Pheasant, cooked, total edible","雉雞(熟,全部可食部分)",batch-033
+"Pheasant, leg, meat only, raw","雉雞(腿肉,只計肉,生)",batch-033
+"Pheasant, meat and skin, raw","雉雞(連皮,生)",batch-033
+"Pheasant, meat only, raw","雉雞(只計肉,生)",batch-033
 "Pheasant, meat only, roasted","野雉(只計肉,烤)",batch-009
 "Pheasant, meat only, roasted, weighed with bone","野雉(只計肉,烤,連骨稱重)",batch-009
 Phyllo dough,菲洛酥皮,batch-022
@@ -10385,6 +10619,9 @@ Potato salad with egg,雞蛋薯仔沙律,batch-031
 "Potsticker or wonton, pork and vegetable, frozen, unprepared","鍋貼或雲吞(豬肉蔬菜餡,冷凍,未經調製)",batch-031
 "Poultry food products, chicken, canned, flaked","家禽製品(雞肉,罐頭,肉絲)",batch-005
 "Poultry food products, turkey, canned, flaked","家禽製品(火雞肉,罐頭,肉絲)",batch-005
+"Poultry, mechanically deboned, from backs and necks only, raw","家禽肉(機械去骨,僅取自背及頸,生)",batch-033
+"Poultry, mechanically deboned, from backs and necks with skin, raw","家禽肉(機械去骨,取自背及頸連皮,生)",batch-033
+"Poultry, mechanically deboned, mature hens, raw","家禽肉(機械去骨,成年母雞,生)",batch-033
 "Poussin, raw, meat and skin","春雞(生,連皮)",batch-010
 "Poussin, raw, meat and skin, weighed with bone","春雞(生,連皮,連骨稱重)",batch-010
 Poutine,肉汁芝士薯條(Poutine),batch-005
@@ -10494,7 +10731,12 @@ Pumpkin seeds,南瓜籽,batch-010
 "Pâté, country style cognac, glazed","肉醬(鄉村式干邑,上光)",batch-005
 "Pâté, country style herb, glazed","肉醬(鄉村式香草,上光)",batch-005
 "Pâté, country style peppercorn, glazed","肉醬(鄉村式黑胡椒,上光)",batch-005
+"Quail, breast, meat only, raw","鵪鶉(胸肉,只計肉,生)",batch-033
+"Quail, cooked, total edible","鵪鶉(熟,全部可食部分)",batch-033
+"Quail, meat and skin, raw","鵪鶉(連皮,生)",batch-033
+"Quail, meat only, raw","鵪鶉(只計肉,生)",batch-033
 "Quandong, fruit, flesh",昆士蘭桃(果肉),batch-001
+Quesadilla with cheese,墨西哥芝士餅(芝士),batch-033
 Quesadilla with meat and cheese,肉類芝士墨西哥薄餅(Quesadilla),batch-005
 "Quiche, Lorraine, homemade",洛林鹹批(自家製),batch-007
 "Quiche, Lorraine, shortcrust pastry, retail","洛林鹹批(牛油酥皮,店售)",batch-007
@@ -10567,6 +10809,7 @@ Red pea loaf,紅豆糕,batch-012
 "Redcurrants, stewed without sugar",紅醋栗(無糖炆),batch-008
 Reddi Wip Fat Free Whipped Topping,無脂打發忌廉面層(Reddi Wip),batch-026
 "Redfish, raw",紅魚(生),batch-008
+Refried beans,炸豆泥,batch-033
 "Refried beans, canned",炸豆泥(罐頭),batch-031
 "Refried beans, canned (pinto)","炒豆泥(罐頭,斑豆)",batch-019
 "Refried beans, canned, fat-free","炸豆泥(罐頭,無脂肪)",batch-031
@@ -10574,10 +10817,47 @@ Reddi Wip Fat Free Whipped Topping,無脂打發忌廉面層(Reddi Wip),batch-026
 "Refried beans, canned, vegetarian","炒豆泥(罐頭,素食)",batch-019
 "Relish, corn/cucumber/onion",粟米青瓜洋蔥醃醬,batch-011
 "Relish, tomato based",番茄醃醬,batch-011
+"Restaurant, Chinese, beef and vegetables","餐廳(中式,牛肉炒雜菜)",batch-033
+"Restaurant, Chinese, chicken and vegetables","餐廳(中式,雞肉炒雜菜)",batch-033
 "Restaurant, Chinese, fried rice, without meat",餐廳式中式炒飯(無肉),batch-019
+"Restaurant, Chinese, general tso's chicken","餐廳(中式,左宗棠雞)",batch-033
+"Restaurant, Chinese, kung pao chicken","餐廳(中式,宮保雞丁)",batch-033
+"Restaurant, Chinese, orange chicken","餐廳(中式,橙皮雞)",batch-033
+"Restaurant, Chinese, sesame chicken","餐廳(中式,芝麻雞)",batch-033
+"Restaurant, Chinese, shrimp and vegetables","餐廳(中式,蝦炒雜菜)",batch-033
+"Restaurant, Chinese, sweet and sour chicken","餐廳(中式,糖醋雞)",batch-033
 "Restaurant, Chinese, sweet and sour pork",餐廳式中式咕嚕肉,batch-019
+"Restaurant, Chinese, vegetable chow mein, without meat or noodles","餐廳(中式,雜菜炒麵,不含肉及麵條)",batch-033
+"Restaurant, Chinese, vegetable lo mein, without meat","餐廳(中式,雜菜撈麵,不含肉)",batch-033
+"Restaurant, Italian, cheese ravioli with marinara sauce","餐廳(意式,芝士意大利雲吞配茄汁)",batch-033
+"Restaurant, Italian, chicken parmesan without pasta","餐廳(意式,巴馬臣芝士雞,不含意粉)",batch-033
+"Restaurant, Italian, lasagna with meat","餐廳(意式,肉千層麵)",batch-033
+"Restaurant, Italian, spaghetti with meat sauce","餐廳(意式,肉醬意粉)",batch-033
+"Restaurant, Italian, spaghetti with pomodoro sauce (no meat)","餐廳(意式,番茄醬意粉(不含肉))",batch-033
+"Restaurant, Latino, Arroz con frijoles negros (rice and black beans)","餐廳(拉丁式,黑豆飯)",batch-033
+"Restaurant, Latino, Arroz con grandules (rice and pigeonpeas)","餐廳(拉丁式,木豆飯)",batch-033
+"Restaurant, Latino, Arroz con habichuelas colorados (Rice And Red Beans)","餐廳(拉丁式,紅豆飯)",batch-033
+"Restaurant, Latino, arepa (unleavened cornmeal bread)","餐廳(拉丁式,玉米餅(無酵粟米粉麵包))",batch-033
+"Restaurant, Latino, arroz con leche (rice pudding)","餐廳(拉丁式,米布甸)",batch-033
+"Restaurant, Latino, bunuelos (fried yeast bread)","餐廳(拉丁式,炸酵母麵包球)",batch-033
+"Restaurant, Latino, chicken and rice, entree, prepared","餐廳(拉丁式,雞肉飯主菜,已調製)",batch-033
+"Restaurant, Latino, empanadas, beef, prepared","餐廳(拉丁式,牛肉餡餅,已調製)",batch-033
 "Restaurant, Latino, pupusas con frijoles (pupusas, bean)",餐廳式拉丁美洲豆餡玉米餅(Pupusas),batch-019
+"Restaurant, Latino, pupusas con queso (pupusas, cheese)","餐廳(拉丁式,芝士薩爾瓦多粟米餅)",batch-033
+"Restaurant, Latino, pupusas del cerdo (pupusas, pork)","餐廳(拉丁式,豬肉薩爾瓦多粟米餅)",batch-033
+"Restaurant, Latino, tripe soup","餐廳(拉丁式,牛肚湯)",batch-033
+"Restaurant, Mexican, cheese enchilada","餐廳(墨西哥式,芝士墨西哥粟米薄餅卷)",batch-033
+"Restaurant, Mexican, soft taco with ground beef, cheese and lettuce","餐廳(墨西哥式,軟墨西哥薄餅,免治牛肉,芝士,生菜)",batch-033
+"Restaurant, family style, chicken fingers, from kid's menu","餐廳(家庭式,雞柳條,兒童餐單)",batch-033
+"Restaurant, family style, chicken tenders","餐廳(家庭式,雞柳條)",batch-033
+"Restaurant, family style, coleslaw","餐廳(家庭式,椰菜沙律)",batch-033
+"Restaurant, family style, fish fillet, battered or breaded, fried","餐廳(家庭式,魚柳,沾漿或裹粉,炸)",batch-033
+"Restaurant, family style, french fries","餐廳(家庭式,炸薯條)",batch-033
+"Restaurant, family style, hash browns","餐廳(家庭式,薯餅)",batch-033
+"Restaurant, family style, macaroni & cheese, from kids' menu","餐廳(家庭式,芝士通粉,兒童餐單)",batch-033
 "Restaurant, family style, onion rings",炸洋蔥圈(家庭式餐廳),pilot
+"Restaurant, family style, shrimp, breaded and fried","餐廳(家庭式,蝦,裹粉炸)",batch-033
+"Restaurant, family style, sirloin steak","餐廳(家庭式,西冷牛扒)",batch-033
 "Rhea, raw",美洲鴕鳥(生),batch-005
 "Rhubarb, frozen, cooked, with sugar","大黃(冷凍,熟,加糖)",batch-029
 "Rhubarb, frozen, uncooked","大黃(冷凍,未煮)",batch-029
@@ -10608,6 +10888,7 @@ Rice and split peas,飯配乾豌豆瓣,batch-012
 "Rice hopper, Tsukudani (simmered whole without wings and legs in soy sauce and sugar)","蝗蟲(「Tsukudani」去翼去腳,豉油糖煮原隻)",batch-016
 "Rice noodles, dry",米粉(乾),batch-026
 "Rice paper wrapper, soaked in water",越南米紙(浸水),batch-001
+"Rice, Spanish rice",西班牙飯,batch-033
 "Rice, Thai fragrant, boiled in unsalted water",泰國香米飯(用無鹽水烚),batch-007
 "Rice, Thai fragrant, raw",泰國香米(生),batch-007
 "Rice, black, unenriched, raw","黑米(沒有添加,生)",batch-019
@@ -10767,6 +11048,7 @@ Rice and split peas,飯配乾豌豆瓣,batch-012
 "Rowal, raw",羅瓦爾果(生),batch-029
 "Ruby Red grapefruit juice blend (grapefruit, grape, apple), OCEAN SPRAY, bottled, with added vitamin C","紅寶石西柚混合汁(西柚,葡萄,蘋果)(OCEAN SPRAY,瓶裝,添加維他命C)",batch-029
 "Rudi's, Gluten-Free Bakery, Original Sandwich Bread","三明治麵包(Rudi's無麩質烘焙坊,原味)",batch-022
+"Ruffed Grouse, breast meat, skinless, raw","披肩榛雞(胸肉,去皮,生)",batch-033
 "Rum baba, homemade",朗姆巴巴蛋糕(自家製),batch-007
 Rusks,麵包乾,batch-007
 "Rutabagas, raw",灰胡桃南瓜,batch-012
@@ -11347,6 +11629,7 @@ Sorghum grain,高粱穀粒,batch-026
 "Soup, beef noodle, dehydrated",牛肉麵湯(脫水),batch-005
 "Soup, beef noodle, dehydrated, water added","牛肉麵湯(脫水,加水)",batch-005
 "Soup, black bean and vegetable, ready-to-serve, reduced sodium","黑豆蔬菜湯(即食,減鈉)",batch-005
+"Soup, black bean, ready-to-serve","湯(黑豆,即食)",batch-033
 "Soup, broccoli and stilton, carton, chilled","西蘭花藍紋芝士湯(盒裝,冷藏)",batch-011
 "Soup, broccoli cheese, canned, condensed, water added","西蘭花芝士湯(罐頭,濃縮,加水)",batch-005
 "Soup, broth (consomme), beef, canned, condensed, water added","清湯(牛肉,罐頭,濃縮,加水)",batch-005
@@ -11575,6 +11858,7 @@ Soy sauce made from soy and wheat (shoyu),大豆及小麥製醬油(日式醬油)
 "Soymilk, original and vanilla, light, with added calcium, vitamins A and D","豆漿(原味及雲呢拿味,輕盈,添加鈣及維他命A和D)",batch-031
 "Soymilk, original and vanilla, unfortified","豆漿(原味及雲呢拿味,未強化)",batch-031
 "Soymilk, original and vanilla, with added calcium, vitamins A and D","豆漿(原味及雲呢拿味,添加鈣及維他命A和D)",batch-031
+"Spaghetti and meatballs, restaurant prepared",肉丸意粉(餐廳製作),batch-033
 "Spaghetti bolognese, homemade",肉醬意粉(自家製),batch-010
 "Spaghetti bolognese, retail, meat and sauce only, reheated","肉醬意粉(零售,只計肉及醬汁,已翻熱)",batch-010
 "Spaghetti bolognese, retail, reheated, with spaghetti","肉醬意粉(零售,已翻熱,連意粉)",batch-010
@@ -11661,6 +11945,9 @@ Sports drink,運動飲品,batch-013
 "Spring rolls, meat, takeaway",肉餡春卷(外賣),batch-010
 "Spruce grouse, Indigenous, meat, cooked","云杉松雞肉(原住民食物,熟)",batch-005
 "Spruce grouse, Indigenous, meat, raw","云杉松雞肉(原住民食物,生)",batch-005
+"Squab (pigeon), breast, meat only, raw","乳鴿(胸肉,只計肉,生)",batch-033
+"Squab (pigeon), meat and skin, raw","乳鴿(連皮,生)",batch-033
+"Squab (pigeon), meat only, raw","乳鴿(只計肉,生)",batch-033
 "Squash, Indian, cooked, boiled (Navajo)","印第安南瓜(熟,烚,納瓦霍族)",batch-020
 "Squash, Indian, raw (Navajo)","印第安南瓜(生,納瓦霍族)",batch-020
 "Squash, acorn, baked",橡子南瓜(焗),batch-012
@@ -11881,6 +12168,13 @@ Sweetened condensed milk,煉奶(加糖),batch-016
 "Syrup, maple, pure",楓糖漿(純),batch-002
 "Syrup, rice malt",米麥芽糖漿,batch-002
 "Szechuan prawns with vegetables, takeaway",四川蝦配蔬菜(外賣),batch-008
+"T.G.I. FRIDAY'S, FRIDAY'S Shrimp, breaded",T.G.I. FRIDAY'S FRIDAY'S 裹粉蝦,batch-033
+"T.G.I. FRIDAY'S, chicken fingers",T.G.I. FRIDAY'S 雞柳條,batch-033
+"T.G.I. FRIDAY'S, chicken fingers, from kids' menu",T.G.I. FRIDAY'S 雞柳條(兒童餐單),batch-033
+"T.G.I. FRIDAY'S, classic sirloin steak (10 oz)",T.G.I. FRIDAY'S 經典西冷牛扒(10安士),batch-033
+"T.G.I. FRIDAY'S, french fries",T.G.I. FRIDAY'S 炸薯條,batch-033
+"T.G.I. FRIDAY'S, fried mozzarella",T.G.I. FRIDAY'S 炸莫澤雷勒芝士,batch-033
+"T.G.I. FRIDAY'S, macaroni & cheese, from kid's menu",T.G.I. FRIDAY'S 芝士通粉(兒童餐單),batch-033
 "TACO BELL, BURRITO SUPREME with beef",TACO BELL 至尊墨西哥卷(牛肉),batch-027
 "TACO BELL, BURRITO SUPREME with chicken",TACO BELL 至尊墨西哥卷(雞肉),batch-027
 "TACO BELL, BURRITO SUPREME with steak",TACO BELL 至尊墨西哥卷(牛扒),batch-027
@@ -11898,6 +12192,8 @@ Tabouleh,塔布勒沙律(Tabouleh),batch-012
 "Taco shell, from corn flour, plain","墨西哥脆餅殼(粟米粉製,原味)",batch-002
 Tahini paste,芝麻醬,batch-010
 Tamale (Navajo),"粟米粽(Tamale,納瓦霍族)",batch-020
+"Tamale, cheese",墨西哥粟米粽(芝士),batch-033
+"Tamale, corn",墨西哥粟米粽(粟米),batch-033
 "Tamale, pork",豬肉粟米粽(Tamale),batch-019
 "Tamales, masa and pork filling (Hopi)","粟米粉豬肉餡粟米粽(Tamale,霍皮族)",batch-020
 "Tamarillos, flesh and seeds",樹番茄(連肉連籽),batch-008
@@ -12207,43 +12503,147 @@ Tuna salad,吞拿魚沙律,batch-028
 "Turbot, flesh only, grilled","大菱鮃(只計魚肉,燒烤)",batch-008
 "Turbot, flesh only, grilled, weighed with bones and skin","大菱鮃(只計魚肉,燒烤,連骨連皮稱重)",batch-008
 "Turbot, flesh only, raw","大菱鮃(只計魚肉,生)",batch-008
+"Turkey and gravy, frozen",火雞肉配肉汁(冷凍),batch-033
 "Turkey and pasta bake, homemade",火雞肉焗意粉(自家製),batch-010
+"Turkey breast, pre-basted, meat and skin, cooked, roasted","火雞胸(預先塗醬,連皮,熟,烤)",batch-033
+"Turkey from whole, light meat, meat and skin, with added solution, cooked, roasted","整隻火雞的淺色肉(連皮,加入溶液,熟,烤)",batch-033
+"Turkey from whole, light meat, meat and skin, with added solution, raw","整隻火雞的淺色肉(連皮,加入溶液,生)",batch-033
 "Turkey from whole, light meat, meat only, with added solution, cooked, roasted","火雞肉(原隻,白肉,只計肉,注入溶液,熟,烤)",pilot
+"Turkey from whole, light meat, meat only, with added solution, raw","整隻火雞的淺色肉(只計肉,加入溶液,生)",batch-033
 "Turkey pot pie, frozen",火雞批(冷凍),batch-031
+"Turkey roast, boneless, frozen, seasoned, light and dark meat, raw","火雞烤肉塊(去骨,冷凍,調味,淺色及深色肉,生)",batch-033
 Turkey slices,火雞肉片,batch-010
+"Turkey sticks, breaded, battered, fried","火雞條(裹粉,沾漿,炸)",batch-033
+"Turkey thigh, pre-basted, meat and skin, cooked, roasted","火雞髀(預先塗醬,連皮,熟,烤)",batch-033
+"Turkey, Ground, cooked",免治火雞肉(熟),batch-033
+"Turkey, Ground, raw",免治火雞肉(生),batch-033
 "Turkey, all classes, back, meat and skin, raw","火雞(各類,背部,連皮,生)",batch-005
+"Turkey, all classes, back, meat and skin, roasted","火雞(所有種類,背部,連皮,烤)",batch-033
 "Turkey, all classes, back, meat only, raw","火雞(各類,背部,只計肉,生)",batch-005
 "Turkey, all classes, back, meat only, roasted","火雞(各類,背部,只計肉,烤)",batch-005
 "Turkey, all classes, breast, meat only, raw","火雞(各類,胸肉,只計肉,生)",batch-005
 "Turkey, all classes, breast, meat only, roasted","火雞(各類,胸肉,只計肉,烤)",batch-005
+"Turkey, all classes, giblets, simmered","火雞(所有種類,雞雜,燉煮)",batch-033
+"Turkey, all classes, gizzard, raw","火雞(所有種類,胗,生)",batch-033
+"Turkey, all classes, gizzard, simmered","火雞(所有種類,胗,燉煮)",batch-033
+"Turkey, all classes, heart, raw","火雞(所有種類,心,生)",batch-033
+"Turkey, all classes, heart, simmered","火雞(所有種類,心,燉煮)",batch-033
+"Turkey, all classes, liver, raw","火雞(所有種類,肝,生)",batch-033
+"Turkey, all classes, liver, simmered","火雞(所有種類,肝,燉煮)",batch-033
+"Turkey, all classes, neck, meat only, simmered","火雞(所有種類,頸,只計肉,燉煮)",batch-033
+"Turkey, back, from whole bird, meat and skin, with added solution, raw","火雞(整隻的背部,連皮,加入溶液,生)",batch-033
+"Turkey, back, from whole bird, meat and skin, with added solution, roasted","火雞(整隻的背部,連皮,加入溶液,烤)",batch-033
+"Turkey, back, from whole bird, meat only, with added solution, raw","火雞(整隻的背部,只計肉,加入溶液,生)",batch-033
+"Turkey, back, from whole bird, meat only, with added solution, roasted","火雞(整隻的背部,只計肉,加入溶液,烤)",batch-033
 "Turkey, breast, fillet, grilled, meat only","火雞胸柳(燒烤,只計肉)",batch-010
+"Turkey, breast, from whole bird, meat only, with added solution, raw","火雞(整隻的胸肉,只計肉,加入溶液,生)",batch-033
+"Turkey, breast, from whole bird, meat only, with added solution, roasted","火雞(整隻的胸肉,只計肉,加入溶液,烤)",batch-033
+"Turkey, broiler, breast, meat and skin, raw","火雞(肉用,胸肉,連皮,生)",batch-033
+"Turkey, broiler, breast, meat and skin, roasted","火雞(肉用,胸肉,連皮,烤)",batch-033
+"Turkey, canned, meat only, with broth","火雞肉(罐頭,只計肉,連肉汁)",batch-033
+"Turkey, dark meat from whole, meat and skin, with added solution, cooked, roasted","火雞(整隻的深色肉,連皮,加入溶液,熟,烤)",batch-033
+"Turkey, dark meat from whole, meat and skin, with added solution, raw","火雞(整隻的深色肉,連皮,加入溶液,生)",batch-033
+"Turkey, dark meat from whole, meat only, with added solution, raw","火雞(整隻的深色肉,只計肉,加入溶液,生)",batch-033
+"Turkey, dark meat, meat only, with added solution, cooked, roasted","火雞(深色肉,只計肉,加入溶液,熟,烤)",batch-033
 "Turkey, dark meat, raw","火雞肉(深色肉,生)",batch-010
 "Turkey, dark meat, roasted","火雞肉(深色肉,烤)",batch-010
+"Turkey, diced, light and dark meat, seasoned","火雞肉粒(淺色及深色肉,調味)",batch-033
+"Turkey, drumstick, from whole bird, meat only, raw","火雞(整隻的雞鎚,只計肉,生)",batch-033
+"Turkey, drumstick, from whole bird, meat only, roasted","火雞(整隻的雞鎚,只計肉,烤)",batch-033
+"Turkey, drumstick, from whole bird, meat only, with added solution, raw","火雞(整隻的雞鎚,只計肉,加入溶液,生)",batch-033
+"Turkey, drumstick, from whole bird, meat only, with added solution, roasted","火雞(整隻的雞鎚,只計肉,加入溶液,烤)",batch-033
+"Turkey, drumstick, smoked, cooked, with skin, bone removed","火雞(雞鎚,煙燻,熟,連皮,已去骨)",batch-033
 "Turkey, drumsticks, roasted, meat and skin","火雞鼓槌(烤,連皮)",batch-010
 "Turkey, drumsticks, roasted, meat and skin, weighed with bone","火雞髀(連皮,烤,連骨稱重)",pilot
 "Turkey, drumsticks, roasted, meat only","火雞鼓槌(烤,只計肉)",batch-010
+"Turkey, fryer-roasters, meat and skin, cooked, roasted","火雞(嫩烤用,連皮,熟,烤)",batch-033
+"Turkey, ground, 85% lean, 15% fat, patties, broiled","免治火雞肉(85%瘦肉,15%脂肪,肉餅,燒烤)",batch-033
 "Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles","免治火雞肉(93%瘦肉,7%脂肪,鍋煎碎粒)",batch-019
+"Turkey, ground, 93% lean, 7% fat, patties, broiled","免治火雞肉(93%瘦肉,7%脂肪,肉餅,燒烤)",batch-033
 "Turkey, ground, 93% lean, 7% fat, raw","免治火雞肉(93%瘦肉,7%脂肪,生)",batch-019
+"Turkey, ground, fat free, pan-broiled crumbles","免治火雞肉(無脂肪,平底鍋燒烤炒碎)",batch-033
+"Turkey, ground, fat free, patties, broiled","免治火雞肉(無脂肪,肉餅,燒烤)",batch-033
+"Turkey, ground, fat free, raw","免治火雞肉(無脂肪,生)",batch-033
+"Turkey, hen, breast, meat and skin, raw","母火雞(胸肉,連皮,生)",batch-033
+"Turkey, hen, breast, meat and skin, roasted","母火雞(胸肉,連皮,烤)",batch-033
+"Turkey, hen, breast, meat only, raw","母火雞(胸肉,只計肉,生)",batch-033
+"Turkey, hen, dark meat and skin, raw","母火雞(深色肉連皮,生)",batch-033
+"Turkey, hen, dark meat and skin, roasted","母火雞(深色肉連皮,烤)",batch-033
+"Turkey, hen, drumstick, meat and skin, raw","母火雞(雞鎚,連皮,生)",batch-033
+"Turkey, hen, drumstick, meat and skin, roasted","母火雞(雞鎚,連皮,烤)",batch-033
+"Turkey, hen, drumstick, meat only, raw","母火雞(雞鎚,只計肉,生)",batch-033
+"Turkey, hen, leg, meat and skin, raw","母火雞(腿,連皮,生)",batch-033
+"Turkey, hen, leg, meat and skin, roasted","母火雞(腿,連皮,烤)",batch-033
 "Turkey, hen, leg, meat only, raw","母火雞(腿,只計肉,生)",batch-005
+"Turkey, hen, light meat and skin, raw","母火雞(淺色肉連皮,生)",batch-033
+"Turkey, hen, light meat and skin, roasted","母火雞(淺色肉連皮,烤)",batch-033
+"Turkey, hen, light meat only, roasted","母火雞(只計淺色肉,烤)",batch-033
+"Turkey, hen, meat and skin, raw","母火雞(連皮,生)",batch-033
+"Turkey, hen, meat and skin, roasted","母火雞(連皮,烤)",batch-033
+"Turkey, hen, meat only, roasted","母火雞(只計肉,烤)",batch-033
+"Turkey, hen, thigh, meat and skin, raw","母火雞(雞髀,連皮,生)",batch-033
+"Turkey, hen, thigh, meat and skin, roasted","母火雞(雞髀,連皮,烤)",batch-033
+"Turkey, hen, thigh, meat only, raw","母火雞(雞髀,只計肉,生)",batch-033
+"Turkey, hen, wing, meat and skin, raw","母火雞(翼,連皮,生)",batch-033
+"Turkey, hen, wing, meat and skin, roasted","母火雞(翼,連皮,烤)",batch-033
+"Turkey, hen, wing, meat only, raw","母火雞(翼,只計肉,生)",batch-033
 "Turkey, light meat, raw","火雞肉(白肉,生)",pilot
 "Turkey, light meat, roasted","火雞肉(淺色肉,烤)",batch-010
+"Turkey, light or dark meat, smoked, cooked, skin and bone removed","火雞(淺色或深色肉,煙燻,熟,去皮去骨)",batch-033
+"Turkey, light or dark meat, smoked, cooked, with skin, bone removed","火雞(淺色或深色肉,煙燻,熟,連皮,已去骨)",batch-033
 "Turkey, meat without skin, raw","火雞肉(去皮,生)",batch-016
 "Turkey, meat, average, raw","火雞肉(平均,生)",batch-010
 "Turkey, meat, average, roasted","火雞肉(平均,烤)",batch-010
+"Turkey, mechanically deboned, from turkey frames, raw","火雞(機械去骨,取自火雞骨架,生)",batch-033
 "Turkey, mince, stewed",免治火雞肉(炆),batch-010
+"Turkey, retail parts, breast, meat and skin, with added solution, raw","火雞(零售部位,胸肉,連皮,加入溶液,生)",batch-033
+"Turkey, retail parts, breast, meat only, with added solution, cooked, roasted","火雞(零售部位,胸肉,只計肉,加入溶液,熟,烤)",batch-033
+"Turkey, retail parts, breast, meat only, with added solution, raw","火雞(零售部位,胸肉,只計肉,加入溶液,生)",batch-033
+"Turkey, retail parts, wing, meat and skin, cooked, roasted","火雞(零售部位,翼,連皮,熟,烤)",batch-033
+"Turkey, retail parts, wing, meat and skin, raw","火雞(零售部位,翼,連皮,生)",batch-033
 "Turkey, self-basting, light meat, roasted","自澆油火雞(淺色肉,烤)",batch-010
+"Turkey, skin from whole (light and dark), with added solution, raw","火雞(整隻的皮(淺色及深色),加入溶液,生)",batch-033
+"Turkey, skin from whole, (light and dark), with added solution, roasted","火雞(整隻的皮(淺色及深色),加入溶液,烤)",batch-033
 "Turkey, skin, dry, roasted","火雞皮(乾身,烤)",batch-010
 "Turkey, skin, from retail parts, from dark meat, cooked, roasted","火雞皮(零售部位,黑肉,熟,烤)",pilot
+"Turkey, skin, from retail parts, from dark meat, raw","火雞(零售部位的皮,取自深色肉,生)",batch-033
 "Turkey, skin, moist, roasted","火雞皮(濕潤,烤)",batch-010
 "Turkey, skin, raw",火雞皮(生),batch-010
 "Turkey, stir-fried with vegetables, homemade",蔬菜炒火雞肉(自家製),batch-010
 "Turkey, strips, stir-fried in corn oil",火雞肉條(粟米油炒),batch-010
 "Turkey, stuffing, mashed potatoes w/gravy, assorted vegetables, frozen, microwaved","火雞,餡料,薯蓉配肉汁,雜菜(冷凍,微波)",batch-031
+"Turkey, thigh, from whole bird, meat only, raw","火雞(整隻的雞髀,只計肉,生)",batch-033
+"Turkey, thigh, from whole bird, meat only, roasted","火雞(整隻的雞髀,只計肉,烤)",batch-033
+"Turkey, thigh, from whole bird, meat only, with added solution, raw","火雞(整隻的雞髀,只計肉,加入溶液,生)",batch-033
+"Turkey, thigh, from whole bird, meat only, with added solution, roasted","火雞(整隻的雞髀,只計肉,加入溶液,烤)",batch-033
 "Turkey, thighs, diced, casseroled, meat only","火雞髀肉粒(燉,只計肉)",batch-010
+"Turkey, tom, breast, meat, roasted","公火雞(胸肉,烤)",batch-033
+"Turkey, tom, drumstick, meat, roasted","公火雞(雞鎚,肉,烤)",batch-033
+"Turkey, tom, leg, meat, roasted","公火雞(腿,肉,烤)",batch-033
+"Turkey, tom, thigh, meat, roasted","公火雞(雞髀,肉,烤)",batch-033
+"Turkey, tom, wing, meat, roasted","公火雞(翼,肉,烤)",batch-033
+"Turkey, whole, back, meat only, cooked, roasted","整隻火雞(背部,只計肉,熟,烤)",batch-033
+"Turkey, whole, back, meat only, raw","整隻火雞(背部,只計肉,生)",batch-033
+"Turkey, whole, breast, meat only, cooked, roasted","整隻火雞(胸肉,只計肉,熟,烤)",batch-033
+"Turkey, whole, breast, meat only, raw","整隻火雞(胸肉,只計肉,生)",batch-033
+"Turkey, whole, giblets, raw","整隻火雞(雞雜,生)",batch-033
+"Turkey, whole, meat and skin, with added solution, raw","整隻火雞(連皮,加入溶液,生)",batch-033
+"Turkey, whole, meat and skin, with added solution, roasted","整隻火雞(連皮,加入溶液,烤)",batch-033
+"Turkey, whole, meat only, with added solution, raw","整隻火雞(只計肉,加入溶液,生)",batch-033
+"Turkey, whole, meat only, with added solution, roasted","整隻火雞(只計肉,加入溶液,烤)",batch-033
+"Turkey, whole, neck, meat only, raw","整隻火雞(頸,只計肉,生)",batch-033
 "Turkey, whole, raw","火雞(全隻,生)",batch-010
 "Turkey, whole, raw, weighed with bone","火雞(全隻,生,連骨稱重)",batch-010
 "Turkey, whole, roasted, meat and skin","火雞(全隻,烤,連皮)",batch-010
 "Turkey, whole, roasted, meat and skin, weighed with bone","火雞(全隻,烤,連皮,連骨稱重)",batch-010
+"Turkey, whole, skin (light and dark), raw","整隻火雞(皮(淺色及深色),生)",batch-033
+"Turkey, whole, skin (light and dark), roasted","整隻火雞(皮(淺色及深色),烤)",batch-033
+"Turkey, whole, wing, meat only, cooked, roasted","整隻火雞(翼,只計肉,熟,烤)",batch-033
+"Turkey, whole, wing, meat only, raw","整隻火雞(翼,只計肉,生)",batch-033
+"Turkey, wing, from whole bird, meat only, with added solution, raw","火雞(整隻的翼,只計肉,加入溶液,生)",batch-033
+"Turkey, wing, from whole bird, meat only, with added solution, roasted","火雞(整隻的翼,只計肉,加入溶液,烤)",batch-033
+"Turkey, wing, smoked, cooked, with skin, bone removed","火雞(翼,煙燻,熟,連皮,已去骨)",batch-033
+"Turkey, young hen, skin only, cooked, roasted","幼母火雞(只計雞皮,熟,烤)",batch-033
 "Turkish delight, with nuts, homemade","土耳其軟糖(含果仁,自家製)",batch-011
 "Turkish delight, without nuts",土耳其軟糖(不含果仁),batch-011
 "Turmeric, ground",薑黃粉,batch-008
