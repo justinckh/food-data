@@ -17,7 +17,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(
 // browser or the edge cached for the previous release. Change it when the API or data changes.
 // Machine-translated Chinese names (foods.zh_mt): the tag is hidden for now (user request 2026-11-12).
 const SHOW_MT_TAG = false;
-const API_VERSION = "2026-11-13d";
+const API_VERSION = "2026-11-13f";
 const api = (path) => {
   if (!cache.has(path)) {
     const url = path + (path.includes("?") ? "&" : "?") + "v=" + API_VERSION;
@@ -356,12 +356,16 @@ async function food(id) {
     <p class="src source-line">資料來源：${esc(d.source?.attribution || d.source?.name || "")}${country ? `（${esc(country)}）` : ""}${d.source?.licence ? ` · 授權：${esc(d.source.licence)}` : ""}${d.source?.version ? ` · 版本：${esc(d.source.version)}` : ""}</p>
   </div>`;
 
+  // values the source did not measure (e.g. UK stock cubes have no energy or carbohydrate)
+  const has = (id) => n[id] && (typeof n[id].value === "number" || n[id].flag);
+  const missing = [["energy_kcal", "熱量"], ["carbohydrate", "碳水化合物"]].filter(([id]) => !has(id)).map(([, t]) => t);
   const render = (grams, text) => {
     const factor = grams / 100;
     document.getElementById("kcalCard").innerHTML = `
       <div><span class="eyebrow">每${esc(text)}</span><div class="big">${fmt(n.energy_kcal, factor)}<small>kcal</small></div></div>
       <div class="pcf">${[["protein", "蛋白質"], ["carbohydrate", "碳水化合物"], ["fat", "脂肪"]].map(([k, l]) =>
-        `<div><b>${fmt(n[k], factor)}${n[k] && typeof n[k].value === "number" ? " g" : ""}</b><span>${l}</span></div>`).join("")}</div>`;
+        `<div><b>${fmt(n[k], factor)}${n[k] && typeof n[k].value === "number" ? " g" : ""}</b><span>${l}</span></div>`).join("")}</div>
+      ${missing.length ? `<p class="kc-note">資料來源沒有量度這個食物的${missing.join("及")}，所以顯示「—」（不等於零）。</p>` : ""}`;
     document.getElementById("macros").innerHTML = macros(n, factor);
     document.getElementById("label").innerHTML = label(n, factor, text);
   };

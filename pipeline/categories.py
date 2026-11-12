@@ -166,6 +166,16 @@ NAME_RULES = [
     ("bakery", r"\b(candy|candies|caramel|gum|chocolate|jelly|jellies|marshmallow|toffee|drops?)\b",
      r"キャンデー|キャラメル|ガム|チョコレート|ゼリー|ドロップ|糖果|巧克力", "sweets"),
     # USDA "American Indian/Alaska Native Foods" and other unmapped foods, sorted by name
+    # leftovers of 'other' (USDA/CNF/CoFID odd groups); before the Indigenous-food rules below
+    ("other", r"\b(stock|bouillon|gravy|baking powder|baking soda|bicarbonate|cream of tartar|yeast|vanilla|lecithin|marmite|vegemite|mustard|salt)\b",
+     r"湯粉|湯塊|雞粉|酵母|梳打粉|泡打粉|鹽", "condiments"),
+    ("other", r"\b(water|tea)\b", r"茶|水", "drinks"),
+    ("other", r"\b(crocodile|sea lion|owl|mutton)\b", r"鱷魚|海獅", "meat"),
+    ("other", r"\b(tunicate|ascidians?|sea cucumber|chiton|cockles?)\b", r"海參|海鞘", "seafood"),
+    ("other", r"\b(nuts?|hazelnuts?|pinon)\b", r"堅果|榛子|松子", "nuts"),
+    ("other", r"\b(cornmeal)\b", r"粟米粉", "cereals"),
+    ("other", r"\b(tamales?)\b", r"粽", "dishes"),
+    ("other", r"\b(agave|lambsquarters|turnips?|nettles?|tuber|melon|wocas)\b", r"龍舌蘭|藜|蕪菁|蕁麻", "vegetables"),
     ("other", r"\b(fish|salmon|trout|whitefish|smelt|mollusks?|cockle|clam|seal|whale|walrus|octopus|crab|shrimp)\b", r"魚|蝦|蟹|貝", "seafood"),
     ("other", r"\b(elk|moose|caribou|deer|venison|game meat|beef|bear|buffalo|bison|rabbit|beaver|muskrat|squirrel)\b", r"肉", "meat"),
     ("other", r"\b(duck|goose|grouse|ptarmigan)\b", r"鴨|鵝", "poultry"),
