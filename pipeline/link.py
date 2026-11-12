@@ -240,3 +240,64 @@ def run(db):
     db.executemany("INSERT OR IGNORE INTO food_links (food_id, canonical_id, match_type, confidence, method)"
                    " VALUES (?, ?, ?, ?, ?)", rows)
     print(f"  {'Same food (name)':<22} {len(rows):>5} links  " + ", ".join(f"{n} {k}" for k, n in sorted(Counter(r[2] for r in rows).items())))
+
+
+# --- rule 6: same shown name ---------------------------------------------------------
+def carb_total(nutr):
+    """Total carbohydrate: 'available' carbohydrate (CFS/FSANZ/MEXT style) does not include
+    fibre, 'by difference' / 'total' does. Cloves: 31.6 available + 33.9 fibre = 65.5 total."""
+    c = nutr.get("carbohydrate")
+    if c is None:
+        return None
+    value, method = c
+    if method in ("available", "available_monosaccharide") and nutr.get("fibre"):
+        return value + nutr["fibre"][0]
+    return value
+
+
+def plausible_normalised(a, b):
+    """Same food measured by different methods: protein, fat, total carbohydrate and water
+    roughly similar (energy is not compared: its formulas differ between countries)."""
+    checks = 0
+    for k, tol in (("protein", 3), ("fat", 3), ("carbohydrate", 8), ("water", 12)):
+        va = carb_total(a) if k == "carbohydrate" else (a.get(k) or (None,))[0]
+        vb = carb_total(b) if k == "carbohydrate" else (b.get(k) or (None,))[0]
+        if va is None or vb is None:
+            continue
+        checks += 1
+        if abs(va - vb) > max(tol, 0.25 * max(va, vb)):
+            return False
+    return checks >= 3
+
+
+def link_same_name(db):
+    """Runs after the display and category steps (build_db): main records of different groups
+    that are shown with the SAME Chinese name, in the same category, from different sources,
+    with plausible values -> 'equivalent' (method 'same_name'). Example: 丁香粉 from CFS/AFCD
+    and from MEXT/USDA/CNF (user report 2026-11-12). Groups that share a source are never
+    joined: a source's own records with one name are different samples (e.g. two CFS 冬瓜)."""
+    nutr = defaultdict(dict)
+    for f, n, v, m in db.execute("SELECT food_id, nutrient_id, value, method FROM food_nutrients WHERE value IS NOT NULL "
+                                 "AND nutrient_id IN ('protein', 'fat', 'carbohydrate', 'water', 'fibre')"):
+        nutr[f][n] = (v, m)
+    sources = defaultdict(set)
+    for cid, src in db.execute("SELECT cluster_id, source_id FROM foods"):
+        sources[cid].add(src)
+    by_name = defaultdict(list)
+    for fid, zh, cat in db.execute("SELECT id, display_zh, category FROM foods WHERE is_primary = 1 AND display_zh IS NOT NULL"):
+        by_name[(zh, cat)].append(fid)
+    rows = []
+    for ids in by_name.values():
+        if len(ids) < 2:
+            continue
+        ids.sort()
+        joined = [ids[0]]                 # merge into the first group, one by one
+        srcs = set(sources[ids[0]])
+        for b in ids[1:]:
+            if srcs & sources[b]:
+                continue
+            if all(plausible_normalised(nutr[a], nutr[b]) for a in joined):
+                rows.append((b, joined[0], "equivalent", 0.8, "same_name"))
+                joined.append(b)
+                srcs |= sources[b]
+    return rows

@@ -71,6 +71,13 @@ def main():
         synonyms.run(db)
         display.run(db)
         categories.run(db)
+        # rule 6 needs the shown names and categories; then groups and names are made again
+        rows = link.link_same_name(db)
+        db.executemany("INSERT OR IGNORE INTO food_links (food_id, canonical_id, match_type, confidence, method)"
+                       " VALUES (?, ?, ?, ?, ?)", rows)
+        print(f"  Same food (shown name) {len(rows):>5} links")
+        display.run(db)
+        categories.run(db)
         db.execute("INSERT INTO foods_fts(foods_fts) VALUES ('rebuild')")
         bad = db.execute("PRAGMA foreign_key_check").fetchall()
         if bad:

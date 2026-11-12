@@ -148,7 +148,8 @@ def run(db):
     db.executemany("UPDATE foods SET cluster_id = ?, is_primary = ?, display_zh = ?, display_en = ?, sample_note = ?, "
                    "zh_mt = ? WHERE id = ?", rows)
     # translated names are searchable too
-    db.execute("UPDATE foods SET search_text = search_text || ' ' || lower(display_zh) WHERE zh_mt = 1")
+    db.execute("UPDATE foods SET search_text = search_text || ' ' || lower(display_zh) "
+               "WHERE zh_mt = 1 AND instr(search_text, lower(display_zh)) = 0")   # display runs twice
     n_clusters = sum(r[1] for r in rows)
     print(f"  Display              {n_clusters:>6} main records for {len(rows)} foods; "
           f"{sum(1 for r in rows if r[1] and r[2])} have a Chinese display name "
