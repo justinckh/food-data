@@ -222,6 +222,7 @@ key,zh,file
 <鳥肉類> にわとり [若どり・副品目] ささみ ソテー,"雞柳(童子雞,副品目,香煎)",batch-015
 <鳥肉類> にわとり [若どり・副品目] ささみ フライ,"雞柳(童子雞,副品目,炸粉炸)",batch-015
 <鳥肉類> にわとり [若どり・副品目] ささみ 天ぷら,"雞柳(童子雞,副品目,天婦羅)",batch-015
+"ARBY'S, roast beef sandwich, classic",ARBY'S 經典烤牛肉三明治,batch-027
 "Abalone, black lip, aquacultured, raw","鮑魚(黑唇,養殖,生)",batch-001
 "Abalone, black lip, wild, raw","鮑魚(黑唇,野生,生)",batch-001
 "Abalone, brown lip, wild, raw","鮑魚(棕唇,野生,生)",batch-001
@@ -395,6 +396,7 @@ Amla,印度醋栗,batch-008
 "Animal fat, Indigenous, beluga oil",原住民動物脂肪(白鯨油),batch-019
 "Animal fat, Indigenous, moose, fat, dried","動物脂肪(原住民食品,駝鹿脂肪,乾)",batch-004
 "Animal fat, Indigenous, seal oil","動物脂肪(原住民食品,海豹油)",batch-004
+"Animal fat, bacon grease",動物脂肪(煙肉油),batch-027
 "Animal fat, duck",動物脂肪(鴨),batch-004
 "Animal fat, mutton tallow",動物脂肪(羊脂),batch-004
 Anise seeds,八角籽,batch-008
@@ -502,6 +504,24 @@ Asafoetida,阿魏,batch-008
 "Avocado, hass, raw","牛油果(哈斯,生)",batch-002
 "Avocado, shepard, raw","牛油果(Shepard,生)",batch-002
 "Ayr, raw",Ayr 鯰魚(生),batch-007
+"BURGER KING, CROISSAN'WICH with Egg and Cheese",漢堡王 芝士雞蛋牛角包三明治,batch-027
+"BURGER KING, CROISSAN'WICH with Sausage and Cheese",漢堡王 芝士香腸牛角包三明治,batch-027
+"BURGER KING, CROISSAN'WICH with Sausage, Egg and Cheese",漢堡王 芝士香腸雞蛋牛角包三明治,batch-027
+"BURGER KING, Cheeseburger",漢堡王 芝士漢堡包,batch-027
+"BURGER KING, Chicken Strips",漢堡王 炸雞條,batch-027
+"BURGER KING, DOUBLE WHOPPER, no cheese",漢堡王 雙層華堡(不加芝士),batch-027
+"BURGER KING, DOUBLE WHOPPER, with cheese",漢堡王 雙層華堡(加芝士),batch-027
+"BURGER KING, Double Cheeseburger",漢堡王 雙層芝士漢堡包,batch-027
+"BURGER KING, Hamburger",漢堡王 漢堡包,batch-027
+"BURGER KING, Hash Brown Rounds",漢堡王 薯餅粒,batch-027
+"BURGER KING, Onion Rings",漢堡王 洋蔥圈,batch-027
+"BURGER KING, Original Chicken Sandwich",漢堡王 原味雞肉三明治,batch-027
+"BURGER KING, Premium Fish Sandwich",漢堡王 優質魚柳三明治,batch-027
+"BURGER KING, Vanilla Shake",漢堡王 雲呢拿奶昔,batch-027
+"BURGER KING, WHOPPER, no cheese",漢堡王 華堡(不加芝士),batch-027
+"BURGER KING, WHOPPER, with cheese",漢堡王 華堡(加芝士),batch-027
+"BURGER KING, french fries",漢堡王 炸薯條,batch-027
+"BURGER KING, french toast sticks",漢堡王 西多士條,batch-027
 "Babaco, flesh only",Babaco 木瓜(只計果肉),batch-008
 "Babyfood, GERBER, 2nd Foods, apple, carrot and squash, organic","嬰兒食品(GERBER,第二階段,蘋果甘筍南瓜,有機)",batch-020
 "Babyfood, GERBER, 3rd Foods, apple, mango and kiwi","嬰兒食品(GERBER,第三階段,蘋果芒果奇異果)",batch-020
@@ -2862,8 +2882,11 @@ Buckwheat,蕎麥,batch-025
 "Burger, hamburger, takeaway",漢堡包(外賣),batch-009
 "Burrito, bean and cheese, microwaved",豆及芝士墨西哥卷(微波),batch-005
 "Butter oil, anhydrous",無水牛油脂,batch-026
+"Butter replacement, without fat, powder","牛油代替品(無脂肪,粉狀)",batch-027
 "Butter tart, with raisins, homemade",提子乾牛油撻(自家製),batch-003
 "Butter, cultured butter",牛油(發酵牛油),batch-014
+"Butter, light, salted",輕身牛油(有鹽),batch-027
+"Butter, light, unsalted",輕身牛油(無鹽),batch-027
 "Butter, plain, reduced salt","牛油(原味,減鹽)",batch-001
 "Butter, spreadable (75-80% fat)",可塗抹牛油(含75至80%脂肪),batch-007
 "Butter, spreadable, light (60% fat)",低脂可塗抹牛油(含60%脂肪),batch-007
@@ -2872,6 +2895,9 @@ Buckwheat,蕎麥,batch-025
 "Butter, whipped",打發牛油,batch-026
 "Buttermilk, low fat",酪乳(低脂),batch-019
 "Butteroil, unsalted",無鹽澄清牛油,batch-007
+"CHICK-FIL-A, Chick-n-Strips",CHICK-FIL-A 雞柳條,batch-027
+"CHICK-FIL-A, chicken sandwich",CHICK-FIL-A 雞肉三明治,batch-027
+"CHICK-FIL-A, hash browns",CHICK-FIL-A 薯餅,batch-027
 "Cabbage leaves, stuffed with lamb and rice, homemade",羊肉飯椰菜卷(自家製),batch-009
 "Cabbage, average, boiled in unsalted water","椰菜(平均,以無鹽水煮)",batch-011
 "Cabbage, bok choy, raw",白菜(生),batch-019
@@ -3775,6 +3801,8 @@ Cheese whey powder,芝士乳清粉,batch-016
 "Chicken in white sauce, made with semi-skimmed milk",白汁雞(以半脫脂牛奶製),batch-009
 "Chicken in white sauce, made with whole milk",白汁雞(以全脂牛奶製),batch-009
 "Chicken nuggets, macaroni in cheese sauce, corn in a seasoned sauce and chocolate pudding, frozen","雞塊,芝士汁通粉,調味粟米及朱古力布甸套餐(雪藏)",batch-005
+"Chicken nuggets, whole grain breading",雞塊(全穀物麵包糠),batch-027
+"Chicken patty, breaded, whole grain breading","雞肉餅(炸粉,全穀物麵包糠)",batch-027
 "Chicken piece, flesh, skin & fat, coated, fast food outlet, fried","雞塊(連肉、皮及脂肪,裹粉,快餐店,炸)",batch-002
 "Chicken pieces, coated, takeaway","雞塊(裹粉,外賣)",batch-009
 "Chicken portions, battered, deep fried, takeaway","雞塊(裹漿,油炸,外賣)",batch-009
@@ -4025,6 +4053,8 @@ Clif Z bar,Clif Z能量棒,batch-020
 "Cloudberries, raw (Alaska Native)","雲莓(生,阿拉斯加原住民)",batch-019
 "Cloudberry (bakeapple), Indigenous",雲莓(原住民食品),batch-004
 "Cloves, dried",丁香(乾),batch-008
+"Club sandwich with fried chicken, bacon, tomato, cheese, lettuce and mayonnaise","會所三明治(炸雞,煙肉,番茄,芝士,生菜,蛋黃醬)",batch-027
+"Club sandwich with grilled chicken, bacon, tomato, cheese, lettuce and mayonnaise","會所三明治(燒烤雞,煙肉,番茄,芝士,生菜,蛋黃醬)",batch-027
 "Cockles, boiled",鳥蛤(烚),batch-007
 "Cocktail mix, non-alcoholic, concentrated, frozen","非酒精雞尾酒調料(濃縮,冷凍)",batch-025
 "Coco fritters, fried in rapeseed oil, homemade","芋頭炸餅(以芥花籽油炸,自家製)",batch-011
@@ -4583,6 +4613,9 @@ Cream of tartar,塔塔粉,batch-011
 "Cream, whipping, 35% M.F., sweetened, whipped","淡忌廉(含35%乳脂,加糖,已打發)",batch-004
 "Cream, whipping, substitute, dietetic, powder, prepared","打發忌廉代替品(低糖,粉狀,已調製)",batch-026
 "Creamed chipped beef, frozen",奶油風乾牛肉片(雪藏),batch-005
+"Creamy dressing, made with sour cream and/or buttermilk and oil, reduced calorie","忌廉沙律醬(以酸忌廉或白脫牛奶及油製成,減卡路里)",batch-027
+"Creamy dressing, made with sour cream and/or buttermilk and oil, reduced calorie, cholesterol-free","忌廉沙律醬(以酸忌廉或白脫牛奶及油製成,減卡路里,無膽固醇)",batch-027
+"Creamy dressing, made with sour cream and/or buttermilk and oil, reduced calorie, fat-free","忌廉沙律醬(以酸忌廉或白脫牛奶及油製成,減卡路里,無脂肪)",batch-027
 "Creme caramel, retail",焦糖布甸(零售),batch-010
 Creme egg,朱古力蛋(Creme Egg),batch-011
 "Creme fraiche, full fat",法式酸忌廉(全脂),batch-010
@@ -4782,6 +4815,24 @@ Custard powder,吉士粉,batch-006
 "Custard, made up with whole milk",吉士醬(以全脂牛奶沖調),batch-010
 "Custard, ready to eat, canned and tetra-pak",即食吉士醬(罐裝及利樂包裝),batch-010
 "Custard, vanilla, prepared from dry mix","吉士醬(雲呢拿味,由乾粉調製)",batch-002
+"DIGIORNO Pizza, cheese topping, cheese stuffed crust, frozen, baked","DIGIORNO 薄餅(芝士餡,芝士邊,冷凍,焗)",batch-027
+"DIGIORNO Pizza, cheese topping, rising crust, frozen, baked","DIGIORNO 薄餅(芝士餡,發酵厚批底,冷凍,焗)",batch-027
+"DIGIORNO Pizza, cheese topping, thin crispy crust, frozen, baked","DIGIORNO 薄餅(芝士餡,薄脆批底,冷凍,焗)",batch-027
+"DIGIORNO Pizza, pepperoni topping, cheese stuffed crust, frozen, baked","DIGIORNO 薄餅(意大利辣肉腸餡,芝士邊,冷凍,焗)",batch-027
+"DIGIORNO Pizza, pepperoni topping, rising crust, frozen, baked","DIGIORNO 薄餅(意大利辣肉腸餡,發酵厚批底,冷凍,焗)",batch-027
+"DIGIORNO Pizza, pepperoni topping, thin crispy crust, frozen, baked","DIGIORNO 薄餅(意大利辣肉腸餡,薄脆批底,冷凍,焗)",batch-027
+"DIGIORNO Pizza, supreme topping, rising crust, frozen, baked","DIGIORNO 薄餅(至尊餡,發酵厚批底,冷凍,焗)",batch-027
+"DIGIORNO Pizza, supreme topping, thin crispy crust, frozen, baked","DIGIORNO 薄餅(至尊餡,薄脆批底,冷凍,焗)",batch-027
+"DOMINO'S 14"" Cheese Pizza, Classic Hand-Tossed Crust",達美樂 14吋芝士薄餅(經典手拋批底),batch-027
+"DOMINO'S 14"" Cheese Pizza, Crunchy Thin Crust",達美樂 14吋芝士薄餅(脆薄批底),batch-027
+"DOMINO'S 14"" Cheese Pizza, Ultimate Deep Dish Crust",達美樂 14吋芝士薄餅(極厚批底),batch-027
+"DOMINO'S 14"" EXTRAVAGANZZA FEAST Pizza, Classic Hand-Tossed Crust",達美樂 14吋豐盛薄餅(經典手拋批底),batch-027
+"DOMINO'S 14"" Pepperoni Pizza, Classic Hand-Tossed Crust",達美樂 14吋意大利辣肉腸薄餅(經典手拋批底),batch-027
+"DOMINO'S 14"" Pepperoni Pizza, Crunchy Thin Crust",達美樂 14吋意大利辣肉腸薄餅(脆薄批底),batch-027
+"DOMINO'S 14"" Pepperoni Pizza, Ultimate Deep Dish Crust",達美樂 14吋意大利辣肉腸薄餅(極厚批底),batch-027
+"DOMINO'S 14"" Sausage Pizza, Classic Hand-Tossed Crust",達美樂 14吋香腸薄餅(經典手拋批底),batch-027
+"DOMINO'S 14"" Sausage Pizza, Crunchy Thin Crust",達美樂 14吋香腸薄餅(脆薄批底),batch-027
+"DOMINO'S 14"" Sausage Pizza, Ultimate Deep Dish Crust",達美樂 14吋香腸薄餅(極厚批底),batch-027
 "Dab, raw",鰈魚(生),batch-007
 "Dahl, mixed, homemade",雜豆糊(自家製),batch-012
 "Dairy and Plant-based beverage, dairy and soy protein beverage, chocolate, not fortified, refrigerated","乳製品及大豆蛋白飲品(朱古力味,沒有強化,冷藏)",batch-003
@@ -4882,6 +4933,7 @@ Doner kebab in pitta bread with salad,沙律皮塔餅旋轉烤肉,batch-009
 "Dressing, French, homemade",法式沙律醬(自家製),batch-011
 "Dressing, Ranch",田園沙律醬,batch-019
 "Dressing, blue cheese",藍芝士沙律醬,batch-011
+"Dressing, honey mustard, fat-free",蜂蜜芥末沙律醬(無脂肪),batch-027
 "Dressing, mayonnaise, egg yolk type",蛋黃沙律醬,batch-017
 "Dressing, mayonnaise, whole egg type",全蛋沙律醬,batch-017
 "Dressing, mayonnaise-type, low calorie type",低卡路里蛋黃醬,batch-017
@@ -5084,17 +5136,88 @@ Fajita with chicken and vegetables,雞肉蔬菜墨西哥法吉達,batch-005
 "Fajita, chicken, meat only, takeaway and restaurant","雞肉法士達(只計肉,外賣及餐廳)",batch-009
 "Falafel, fried in rapeseed oil, homemade","炸豆丸子(以芥花籽油炸,自家製)",batch-012
 "Farro, pearled, dry, raw","法羅小麥(去皮,乾,生)",batch-019
+"Fast Food, Pizza Chain, 14"" pizza, cheese topping, stuffed crust",快餐薄餅連鎖店14吋芝士薄餅(芝士邊),batch-027
+"Fast Food, Pizza Chain, 14"" pizza, sausage topping, thick crust",快餐薄餅連鎖店14吋香腸薄餅(厚批底),batch-027
+"Fast Foods, Fried Chicken, Breast, meat and skin and breading",快餐炸雞胸(連皮連炸粉),batch-027
+"Fast Foods, Fried Chicken, Breast, meat only, skin and breading removed","快餐炸雞胸(只計肉,去皮去炸粉)",batch-027
+"Fast Foods, Fried Chicken, Drumstick, meat and skin with breading",快餐炸雞鎚(連皮連炸粉),batch-027
+"Fast Foods, Fried Chicken, Drumstick, meat only, skin and breading removed","快餐炸雞鎚(只計肉,去皮去炸粉)",batch-027
+"Fast Foods, Fried Chicken, Skin and breading from all pieces",快餐炸雞(所有部位的皮和炸粉),batch-027
+"Fast Foods, Fried Chicken, Thigh, meat and skin and breading",快餐炸雞髀(連皮連炸粉),batch-027
+"Fast Foods, Fried Chicken, Thigh, meat only, skin and breading removed","快餐炸雞髀(只計肉,去皮去炸粉)",batch-027
+"Fast Foods, Fried Chicken, Wing, meat and skin and breading",快餐炸雞翼(連皮連炸粉),batch-027
+"Fast Foods, Fried Chicken, Wing, meat only, skin and breading removed","快餐炸雞翼(只計肉,去皮去炸粉)",batch-027
+"Fast Foods, biscuit, with egg and sausage",快餐餐包(夾雞蛋香腸),batch-027
+"Fast Foods, cheeseburger",快餐芝士漢堡包,batch-027
+"Fast Foods, crispy chicken filet sandwich, with lettuce and mayonnaise",快餐脆雞柳三明治(加生菜蛋黃醬),batch-027
+"Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread","快餐燒雞柳三明治(加生菜,番茄,醬料)",batch-027
+"Fast food, biscuit",快餐鬆餅,batch-027
+"Fast foods, Miniature cinnamon rolls",快餐迷你玉桂卷,batch-027
+"Fast foods, bagel, with breakfast steak, egg, cheese, and condiments","快餐焗麵包圈(夾早餐牛扒,雞蛋,芝士,調味料)",batch-027
+"Fast foods, bagel, with egg, sausage patty, cheese, and condiments","快餐焗麵包圈(夾雞蛋,香腸餅,芝士,調味料)",batch-027
+"Fast foods, biscuit, with crispy chicken fillet",快餐鬆餅(夾脆雞柳),batch-027
+"Fast foods, biscuit, with egg and bacon",快餐鬆餅(夾雞蛋煙肉),batch-027
 "Fast foods, biscuit, with egg and ham",蛋火腿鬆餅(快餐式),pilot
+"Fast foods, biscuit, with egg, cheese, and bacon",快餐鬆餅(夾雞蛋芝士煙肉),batch-027
+"Fast foods, biscuit, with ham",快餐鬆餅(夾火腿),batch-027
+"Fast foods, biscuit, with sausage",快餐鬆餅(夾香腸),batch-027
+"Fast foods, bread stick, soft, garlic and parmesan cheese",快餐軟麵包條(蒜蓉巴馬臣芝士),batch-027
+"Fast foods, breakfast burrito, with egg, cheese, and sausage","快餐早餐墨西哥卷(雞蛋,芝士,香腸)",batch-027
 "Fast foods, breakfast, bagel, with ham, egg and cheese","快餐(早餐,貝果加火腿,蛋及芝士)",batch-004
 "Fast foods, breakfast, biscuit with egg","快餐(早餐,比司吉加蛋)",batch-004
 "Fast foods, breakfast, biscuit with egg and steak","快餐(早餐,比司吉加蛋及牛扒)",batch-004
 "Fast foods, breakfast, croissant with egg and cheese","快餐(早餐,牛角包加蛋及芝士)",batch-004
+"Fast foods, breakfast, english muffin with egg, cheese and bacon","快餐早餐英式瑪芬(雞蛋,芝士,煙肉)",batch-027
 "Fast foods, breakfast, french toast with butter","快餐(早餐,西多士加牛油)",batch-004
+"Fast foods, breakfast, potatoes, hashed brown",快餐早餐薯餅,batch-027
+"Fast foods, burrito, with beans",快餐墨西哥卷(豆),batch-027
+"Fast foods, burrito, with beans and beef","快餐墨西哥卷(豆,牛肉)",batch-027
+"Fast foods, burrito, with beans and cheese","快餐墨西哥卷(豆,芝士)",batch-027
+"Fast foods, burrito, with beans, cheese, and beef","快餐墨西哥卷(豆,芝士,牛肉)",batch-027
+"Fast foods, cheeseburger",快餐芝士漢堡包,batch-027
+"Fast foods, cheeseburger, double, regular patty and bun, with condiments","快餐雙層芝士漢堡包(普通肉餅和麵包,加調味料)",batch-027
+"Fast foods, chicken fillet sandwich, plain with pickles","快餐雞柳三明治(原味,加酸青瓜)",batch-027
+"Fast foods, chicken tenders",快餐雞柳條,batch-027
+"Fast foods, chicken, breaded and fried, boneless pieces, plain","快餐炸雞塊(去骨,原味)",batch-027
+"Fast foods, coleslaw",快餐凍椰菜沙律,batch-027
 "Fast foods, corn dog, wiener/sausage with cornflour coating","快餐(粟米狗,腸仔外裹粟粉糊)",batch-004
+"Fast foods, crispy chicken in tortilla, with lettuce, cheese, and ranch sauce","快餐脆雞墨西哥薄餅卷(生菜,芝士,田莊醬)",batch-027
+"Fast foods, croissant, with egg, cheese, and bacon","快餐牛角包(雞蛋,芝士,煙肉)",batch-027
+"Fast foods, croissant, with egg, cheese, and ham","快餐牛角包(雞蛋,芝士,火腿)",batch-027
+"Fast foods, croissant, with egg, cheese, and sausage","快餐牛角包(雞蛋,芝士,香腸)",batch-027
+"Fast foods, egg, cheese and bacon griddlecake sandwich","快餐煎餅三明治(雞蛋,芝士,煙肉)",batch-027
+"Fast foods, egg, cheese and sausage griddlecake sandwich","快餐煎餅三明治(雞蛋,芝士,香腸)",batch-027
+"Fast foods, egg, scrambled",快餐炒蛋,batch-027
+"Fast foods, english muffin, with cheese and sausage","快餐英式瑪芬(芝士,香腸)",batch-027
+"Fast foods, english muffin, with egg, cheese, and sausage","快餐英式瑪芬(雞蛋,芝士,香腸)",batch-027
+"Fast foods, fish sandwich, with tartar sauce",快餐魚柳三明治(他他醬),batch-027
+"Fast foods, fish sandwich, with tartar sauce and cheese","快餐魚柳三明治(他他醬,芝士)",batch-027
+"Fast foods, french toast sticks",快餐西多士條,batch-027
+"Fast foods, griddle cake sandwich, sausage",快餐煎餅三明治(香腸),batch-027
+"Fast foods, grilled chicken in tortilla, with lettuce, cheese, and ranch sauce","快餐燒雞墨西哥薄餅卷(生菜,芝士,田莊醬)",batch-027
+"Fast foods, hamburger",快餐漢堡包,batch-027
+"Fast foods, hamburger, large, single patty, with condiments","快餐大漢堡包(單層肉餅,加調味料)",batch-027
 "Fast foods, hot dog with chili",快餐(辣肉醬熱狗),batch-004
 "Fast foods, hot dog, plain","快餐(熱狗,原味)",batch-004
+"Fast foods, hush puppies",快餐粟米球,batch-027
 "Fast foods, mexican, taco salad","快餐(墨西哥式,塔可沙律)",batch-004
+"Fast foods, nachos, with cheese",快餐芝士墨西哥脆片,batch-027
+"Fast foods, nachos, with cheese, beans, ground beef, and tomatoes","快餐墨西哥脆片(芝士,豆,免治牛肉,番茄)",batch-027
+"Fast foods, onion rings, breaded and fried",快餐炸洋蔥圈(裹粉),batch-027
+"Fast foods, pizza, cheese and pepperoni, regular crust","快餐薄餅(芝士意大利辣肉腸,普通批底)",batch-027
+"Fast foods, pizza, cheese and pepperoni, thick crust","快餐薄餅(芝士意大利辣肉腸,厚批底)",batch-027
+"Fast foods, pizza, cheese and pepperoni, thin crust","快餐薄餅(芝士意大利辣肉腸,薄批底)",batch-027
+"Fast foods, pizza, cheese and sausage, regular crust","快餐薄餅(芝士香腸,普通批底)",batch-027
+"Fast foods, pizza, cheese and sausage, thin crust","快餐薄餅(芝士香腸,薄批底)",batch-027
+"Fast foods, pizza, cheese and vegetables, regular crust","快餐薄餅(芝士蔬菜,普通批底)",batch-027
 "Fast foods, pizza, cheese, meat (pepperoni, ground beef and sausage) and vegetables, regular crust","快餐(薄餅,芝士,肉類[意大利辣肉腸,免治牛肉及腸仔]及蔬菜,普通批底)",batch-004
+"Fast foods, pizza, cheese, regular crust","快餐薄餅(芝士,普通批底)",batch-027
+"Fast foods, pizza, cheese, thick crust","快餐薄餅(芝士,厚批底)",batch-027
+"Fast foods, pizza, cheese, thin crust","快餐薄餅(芝士,薄批底)",batch-027
+"Fast foods, potato, french fried in vegetable oil",快餐薯條(植物油炸),batch-027
+"Fast foods, potato, mashed",快餐薯蓉,batch-027
+"Fast foods, quesadilla, chicken",快餐墨西哥芝士餅(雞肉),batch-027
+"Fast foods, roast beef sandwich, plain",快餐烤牛肉三明治(原味),batch-027
 "Fast foods, sandwiches and burgers, cheeseburger, large, double patty, with condiments and vegetables","快餐(三文治及漢堡包,芝士漢堡包,大size,雙層肉餅,加醬料及蔬菜)",batch-004
 "Fast foods, sandwiches and burgers, cheeseburger, large, single patty, with bacon and condiments","快餐(三文治及漢堡包,芝士漢堡包,大size,單層肉餅,加煙肉及醬料)",batch-004
 "Fast foods, sandwiches and burgers, cheeseburger, large, single patty, with condiments and vegetables","快餐(三文治及漢堡包,芝士漢堡包,大size,單層肉餅,加醬料及蔬菜)",batch-004
@@ -5114,12 +5237,31 @@ Fajita with chicken and vegetables,雞肉蔬菜墨西哥法吉達,batch-005
 "Fast foods, sandwiches and burgers, hamburger, regular, single patty, with condiments and vegetables","快餐(三文治及漢堡包,漢堡包,普通size,單層肉餅,加醬料及蔬菜)",batch-004
 "Fast foods, sandwiches and burgers, roast beef sandwich with cheese","快餐(三文治及漢堡包,烤牛肉芝士三文治)",batch-004
 "Fast foods, sandwiches and burgers, steak sandwich","快餐(三文治及漢堡包,牛扒三文治)",batch-004
+"Fast foods, shrimp, breaded and fried",快餐炸蝦(裹粉),batch-027
 "Fast foods, side dish, potato salad","快餐(配菜,薯仔沙律)",batch-004
 "Fast foods, side dish, potato, french-fried in beef tallow","快餐(配菜,薯條,以牛油脂炸)",batch-004
 "Fast foods, side dish, potato, french-fried in beef tallow and vegetable oil","快餐(配菜,薯條,以牛油脂及植物油炸)",batch-004
+"Fast foods, smoothie, strawberry banana with low-fat yogourt and ice","快餐冰沙(士多啤梨香蕉,低脂乳酪,冰)",batch-027
 "Fast foods, submarine sandwich on white bread and vegetables (vegetarian)","快餐(潛艇三文治,白麵包加蔬菜,素食)",batch-004
+"Fast foods, submarine sandwich on white bread, ham with lettuce and tomato","快餐潛艇三明治(白麵包,火腿,生菜,番茄)",batch-027
+"Fast foods, submarine sandwich on white bread, meatball marinara","快餐潛艇三明治(白麵包,肉丸茄汁)",batch-027
+"Fast foods, submarine sandwich on white bread, oven roasted chicken with lettuce and tomato","快餐潛艇三明治(白麵包,烤雞,生菜,番茄)",batch-027
+"Fast foods, submarine sandwich on white bread, steak with cheese, lettuce and tomato","快餐潛艇三明治(白麵包,牛扒芝士,生菜,番茄)",batch-027
 "Fast foods, submarine sandwich on white bread, turkey","快餐(潛艇三文治,白麵包,火雞肉)",batch-004
+"Fast foods, submarine sandwich on white bread, turkey breast with lettuce and tomato","快餐潛艇三明治(白麵包,火雞胸,生菜,番茄)",batch-027
+"Fast foods, submarine sandwich on white bread, turkey, roast beef and ham with lettuce and tomato","快餐潛艇三明治(白麵包,火雞,烤牛肉,火腿,生菜,番茄)",batch-027
 "Fast foods, submarine sandwich, bacon, lettuce, and tomato on white bread","煙肉生菜番茄潛艇三明治(白麵包,快餐式)",pilot
+"Fast foods, submarine sandwich, cold cut on white bread with lettuce and tomato","快餐潛艇三明治(冷切肉,白麵包,生菜,番茄)",batch-027
+"Fast foods, submarine sandwich, roast beef on white bread with lettuce and tomato","快餐潛艇三明治(烤牛肉,白麵包,生菜,番茄)",batch-027
+"Fast foods, submarine sandwich, sweet onion chicken teriyaki on white bread with lettuce, tomato and sweet onion sauce","快餐潛艇三明治(甜洋蔥照燒雞,白麵包,生菜,番茄,甜洋蔥醬)",batch-027
+"Fast foods, submarine sandwich, tuna on white bread with lettuce and tomato","快餐潛艇三明治(吞拿魚,白麵包,生菜,番茄)",batch-027
+"Fast foods, sundae, caramel",快餐新地(焦糖),batch-027
+"Fast foods, sundae, hot fudge",快餐新地(熱朱古力醬),batch-027
+"Fast foods, sundae, strawberry",快餐新地(士多啤梨),batch-027
+"Fast foods, taco with beef, cheese and lettuce, hard shell","快餐墨西哥脆餅(牛肉,芝士,生菜,硬殼)",batch-027
+"Fast foods, taco with beef, cheese and lettuce, soft","快餐軟墨西哥薄餅(牛肉,芝士,生菜)",batch-027
+"Fast foods, taco with chicken, lettuce and cheese, soft","快餐軟墨西哥薄餅(雞肉,生菜,芝士)",batch-027
+"Fast foods, vanilla, light, soft-serve ice cream, with cone",快餐雲呢拿輕盈軟雪糕(連甜筒),batch-027
 "Fat free ice cream, no sugar added, flavors other than chocolate","無脂雪糕(無添加糖,朱古力以外口味)",batch-026
 Fat spread,脂肪塗醬,pilot
 "Fat spread, low fat (26-39%), not polyunsaturated, including dairy type","低脂塗抹醬(含26至39%脂肪,非多元不飽和,包括乳製品類)",batch-007
@@ -5130,6 +5272,10 @@ Fat spread,脂肪塗醬,pilot
 "Fat spread, reduced fat (41-62%), polyunsaturated","減脂塗抹醬(含41至62%脂肪,多元不飽和)",batch-007
 "Fat spread, reduced fat (62-75%), not polyunsaturated","減脂塗抹醬(含62至75%脂肪,非多元不飽和)",batch-007
 "Fat spread, reduced fat (62-75%), polyunsaturated","減脂塗抹醬(含62至75%脂肪,多元不飽和)",batch-007
+"Fat, beef tallow",牛脂肪,batch-027
+"Fat, chicken",雞脂肪,batch-027
+"Fat, goose",鵝脂肪,batch-027
+"Fat, turkey",火雞脂肪,batch-027
 "Feijoa, flesh only",斐濟果(只計果肉),batch-008
 "Feijoa, raw",斐濟果(生),batch-001
 "Fennel, Florence, boiled in unsalted water",茴香頭(以無鹽水煮),batch-012
@@ -5175,6 +5321,12 @@ Fish cake or patty,魚餅或魚肉餅,batch-004
 "Fish fingers, cod, grilled/baked",鱈魚條(燒烤或焗),batch-007
 "Fish fingers, pollock, grilled",狹鱈魚條(燒烤),batch-007
 "Fish fingers, salmon, grilled/baked",三文魚條(燒烤或焗),batch-007
+"Fish oil, cod liver",魚肝油(鱈魚肝),batch-027
+"Fish oil, herring",魚油(鯡魚),batch-027
+"Fish oil, menhaden",魚油(油鯡),batch-027
+"Fish oil, menhaden, fully hydrogenated","魚油(油鯡,全氫化)",batch-027
+"Fish oil, salmon",魚油(三文魚),batch-027
+"Fish oil, sardine",魚油(沙丁魚),batch-027
 Fish paste,魚醬,batch-007
 "Fish, Amago salmon, cultured, raw","魚(甘子魚,養殖,生)",batch-014
 "Fish, Asian pond loach, boiled","魚(泥鰍,烚)",batch-014
@@ -6376,6 +6528,28 @@ Jaffa cakes,Jaffa 橙味夾心蛋糕,batch-007
 "Juice, vegetable blend, commercial",蔬菜混合汁(市售),batch-002
 "Jujube, dried",紅棗(乾),batch-015
 "Jujube, flesh only",棗子(只計果肉),batch-008
+"KFC, Coleslaw",肯德基 椰菜沙律,batch-027
+"KFC, Crispy Chicken Strips",肯德基 脆雞條,batch-027
+"KFC, Fried Chicken, EXTRA CRISPY, Breast, meat and skin with breading","肯德基 炸雞(特脆,雞胸,連皮連炸粉)",batch-027
+"KFC, Fried Chicken, EXTRA CRISPY, Breast, meat only, skin and breading removed","肯德基 炸雞(特脆,雞胸,只計肉,去皮去炸粉)",batch-027
+"KFC, Fried Chicken, EXTRA CRISPY, Drumstick, meat and skin with breading","肯德基 炸雞(特脆,雞鎚,連皮連炸粉)",batch-027
+"KFC, Fried Chicken, EXTRA CRISPY, Drumstick, meat only, skin and breading removed","肯德基 炸雞(特脆,雞鎚,只計肉,去皮去炸粉)",batch-027
+"KFC, Fried Chicken, EXTRA CRISPY, Skin and Breading","肯德基 炸雞(特脆,皮和炸粉)",batch-027
+"KFC, Fried Chicken, EXTRA CRISPY, Thigh, meat and skin with breading","肯德基 炸雞(特脆,雞髀,連皮連炸粉)",batch-027
+"KFC, Fried Chicken, EXTRA CRISPY, Thigh, meat only, skin and breading removed","肯德基 炸雞(特脆,雞髀,只計肉,去皮去炸粉)",batch-027
+"KFC, Fried Chicken, EXTRA CRISPY, Wing, meat and skin with breading","肯德基 炸雞(特脆,雞翼,連皮連炸粉)",batch-027
+"KFC, Fried Chicken, EXTRA CRISPY, Wing, meat only, skin and breading removed","肯德基 炸雞(特脆,雞翼,只計肉,去皮去炸粉)",batch-027
+"KFC, Fried Chicken, ORIGINAL RECIPE, Breast, meat and skin with breading","肯德基 炸雞(原味,雞胸,連皮連炸粉)",batch-027
+"KFC, Fried Chicken, ORIGINAL RECIPE, Breast, meat only, skin and breading removed","肯德基 炸雞(原味,雞胸,只計肉,去皮去炸粉)",batch-027
+"KFC, Fried Chicken, ORIGINAL RECIPE, Drumstick, meat and skin with breading","肯德基 炸雞(原味,雞鎚,連皮連炸粉)",batch-027
+"KFC, Fried Chicken, ORIGINAL RECIPE, Drumstick, meat only, skin and breading removed","肯德基 炸雞(原味,雞鎚,只計肉,去皮去炸粉)",batch-027
+"KFC, Fried Chicken, ORIGINAL RECIPE, Skin and Breading","肯德基 炸雞(原味,皮和炸粉)",batch-027
+"KFC, Fried Chicken, ORIGINAL RECIPE, Thigh, meat and skin with breading","肯德基 炸雞(原味,雞髀,連皮連炸粉)",batch-027
+"KFC, Fried Chicken, ORIGINAL RECIPE, Thigh, meat only, skin and breading removed","肯德基 炸雞(原味,雞髀,只計肉,去皮去炸粉)",batch-027
+"KFC, Fried Chicken, ORIGINAL RECIPE, Wing, meat and skin with breading","肯德基 炸雞(原味,雞翼,連皮連炸粉)",batch-027
+"KFC, Fried Chicken, ORIGINAL RECIPE, Wing, meat only, skin and breading removed","肯德基 炸雞(原味,雞翼,只計肉,去皮去炸粉)",batch-027
+"KFC, Popcorn Chicken",肯德基 爆米花雞,batch-027
+"KFC, biscuit",肯德基 鬆餅,batch-027
 KRAFT BREAKSTONE'S FREE Fat Free Sour Cream,"酸忌廉(KRAFT BREAKSTONE'S FREE,無脂)",batch-026
 KRAFT BREAKSTONE'S Reduced Fat Sour Cream,"酸忌廉(KRAFT BREAKSTONE'S,減脂)",batch-026
 KRAFT CHEEZ WHIZ LIGHT Pasteurized Process Cheese Product,"加工芝士製品(KRAFT CHEEZ WHIZ LIGHT,巴氏殺菌)",batch-026
@@ -6458,6 +6632,12 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Kraft, Stove Top Stuffing Mix Chicken Flavor","餡料預拌粉(Kraft Stove Top,雞肉味)",batch-021
 "Kulfi, homemade",印度奶雪糕(自家製),batch-010
 "Kumquats, whole fruit, raw","金桔(全果,生)",batch-008
+"LITTLE CAESARS 14"" Cheese Pizza, Large Deep Dish Crust",小凱撒 14吋芝士薄餅(大號厚批底),batch-027
+"LITTLE CAESARS 14"" Cheese Pizza, Thin Crust",小凱撒 14吋芝士薄餅(薄批底),batch-027
+"LITTLE CAESARS 14"" Original Round Cheese Pizza, Regular Crust",小凱撒 14吋原味圓形芝士薄餅(普通批底),batch-027
+"LITTLE CAESARS 14"" Original Round Meat and Vegetable Pizza, Regular Crust",小凱撒 14吋原味圓形肉類蔬菜薄餅(普通批底),batch-027
+"LITTLE CAESARS 14"" Original Round Pepperoni Pizza, Regular Crust",小凱撒 14吋原味圓形意大利辣肉腸薄餅(普通批底),batch-027
+"LITTLE CAESARS 14"" Pepperoni Pizza, Large Deep Dish Crust",小凱撒 14吋意大利辣肉腸薄餅(大號厚批底),batch-027
 "Lactic acid bacteria beverages, milk solids-nonfat < 3.0%",乳酸菌飲品(無脂奶固體少於3.0%),batch-016
 "Lactic acid bacteria beverages, not pasteurized after fermentation, milk solids-nonfat ≥ 3.0%","乳酸菌飲品(發酵後未經巴士德消毒,無脂奶固體不少於3.0%)",batch-016
 "Lactic acid bacteria beverages, pasteurized after fermentation, milk solids-nonfat ≥ 3.0%","乳酸菌飲品(發酵後經巴士德消毒,無脂奶固體不少於3.0%)",batch-016
@@ -6735,6 +6915,8 @@ Lemonade,檸檬汽水,batch-006
 "Lettuce, red leaf lettuce, leaves, raw","紅葉生菜(葉,生)",batch-018
 "Lettuce, romaine, green, raw","羅馬生菜(綠色,生)",batch-019
 "Lettuce, spring mix (mesclun)",雜菜沙律(Mesclun),batch-006
+"Light Ice Cream, soft serve, blended with cookie pieces","輕盈雪糕(軟雪糕,混入曲奇碎)",batch-027
+"Light Ice Cream, soft serve, blended with milk chocolate candies","輕盈雪糕(軟雪糕,混入牛奶朱古力糖)",batch-027
 "Light ice cream, Creamsicle",輕怡雪糕(Creamsicle橙味),batch-026
 "Lily, bulb, boiled","百合(鱗莖,煮)",batch-018
 "Lima beans, mature seeds, whole, boiled","利馬豆(成熟,連皮,煮)",batch-017
@@ -6848,6 +7030,7 @@ Maltesers and similar products,麥提莎及同類產品,batch-011
 "Mangosteen, flesh only",山竹(只計果肉),batch-008
 "Mangosteen, raw",山竹(生),batch-015
 Maple syrup,楓糖漿,batch-018
+"Margarine Spread, 40-49% fat, tub","人造牛油抹醬(含40至49%脂肪,盒裝)",batch-027
 "Margarine spread, monounsaturated (>65% fat)","人造牛油塗醬(單元不飽和,脂肪多於65%)",batch-001
 "Margarine spread, monounsaturated (>65% fat), reduced salt (sodium 360 mg/100 g)","人造牛油塗醬(單元不飽和,脂肪多於65%,減鹽,鈉360毫克每100克)",batch-001
 "Margarine spread, monounsaturated (~70% fat), reduced salt (sodium 350 mg/100 g), added phytosterols","人造牛油塗醬(單元不飽和,脂肪約70%,減鹽,鈉350毫克每100克,添加植物固醇)",batch-001
@@ -6855,12 +7038,52 @@ Maple syrup,楓糖漿,batch-018
 "Margarine spread, monounsaturated, reduced fat (~55%) & salt (sodium 380 mg/100 g)","人造牛油塗醬(單元不飽和,減脂約55%及減鹽,鈉380毫克每100克)",batch-001
 "Margarine spread, polyunsaturated (~70% fat)","人造牛油塗醬(多元不飽和,脂肪約70%)",batch-001
 "Margarine spread, polyunsaturated (~70% fat), reduced salt (sodium 280 mg/100 g)","人造牛油塗醬(多元不飽和,脂肪約70%,減鹽,鈉280毫克每100克)",batch-001
+"Margarine, 80% fat, stick, includes regular and hydrogenated corn and soybean oils","人造牛油(含80%脂肪,條狀,含普通及氫化粟米油和大豆油)",batch-027
+"Margarine, 80% fat, tub, CANOLA HARVEST Soft Spread (canola, palm and palm kernel oils)","人造牛油(含80%脂肪,盒裝,CANOLA HARVEST 軟抹醬,含芥花籽油,棕櫚油和棕櫚仁油)",batch-027
+"Margarine, industrial, non-dairy, cottonseed, soy oil (partially hydrogenated ), for flaky pastries","工業用人造牛油(不含奶,棉籽油,大豆油(部分氫化),用於酥皮糕點)",batch-027
+"Margarine, industrial, soy and partially hydrogenated soy oil, use for baking, sauces and candy","工業用人造牛油(大豆油及部分氫化大豆油,用於烘焙,醬汁和糖果)",batch-027
+"Margarine, margarine-like vegetable oil spread, 67-70% fat, tub","人造牛油(類人造牛油植物油抹醬,含67至70%脂肪,盒裝)",batch-027
+"Margarine, margarine-type vegetable oil spread, 70% fat, soybean and partially hydrogenated soybean, stick","人造牛油(類人造牛油植物油抹醬,含70%脂肪,大豆油及部分氫化大豆油,條狀)",batch-027
+"Margarine, regular, 80% fat, composite, stick, with salt, with added vitamin D","人造牛油(普通,含80%脂肪,混合,條狀,有鹽,添加維他命D)",batch-027
+"Margarine, regular, 80% fat, composite, stick, without salt","人造牛油(普通,含80%脂肪,混合,條狀,無鹽)",batch-027
+"Margarine, regular, 80% fat, composite, stick, without salt, with added vitamin D","人造牛油(普通,含80%脂肪,混合,條狀,無鹽,添加維他命D)",batch-027
+"Margarine, regular, 80% fat, composite, tub, with salt, with added vitamin D","人造牛油(普通,含80%脂肪,混合,盒裝,有鹽,添加維他命D)",batch-027
+"Margarine, regular, 80% fat, composite, tub, without salt","人造牛油(普通,含80%脂肪,混合,盒裝,無鹽)",batch-027
+"Margarine, regular, hard, soybean (hydrogenated)","人造牛油(普通,硬身,大豆油(氫化))",batch-027
 "Margarine, soft type, commercial use","植物牛油(軟身,商業用)",batch-014
 "Margarine, soft type, home use","植物牛油(軟身,家庭用)",batch-014
+"Margarine, stick, palm and soybean oils","人造牛油(條狀,棕櫚油及大豆油)",batch-027
 "Margarine, tub, hydrogenated, canola oil","人造牛油(盒裝,氫化,芥花籽油)",batch-004
 "Margarine, tub, hydrogenated, soybean oil","人造牛油(盒裝,氫化,大豆油)",batch-004
 "Margarine, tub, non-hydrogenated, canola and fish oil","植物牛油(盒裝,非氫化,芥花籽油及魚油)",pilot
+"Margarine,spread, 35-39% fat, tub","人造牛油抹醬(含35至39%脂肪,盒裝)",batch-027
+"Margarine-like shortening, industrial, soy (partially hydrogenated), cottonseed, and soy, principal use flaky pastries","類人造牛油起酥油(工業用,大豆油(部分氫化),棉籽油及大豆油,主要用於酥皮糕點)",batch-027
+"Margarine-like spread with yogurt, 70% fat, stick, with salt","類人造牛油抹醬(加乳酪,含70%脂肪,條狀,有鹽)",batch-027
+"Margarine-like spread with yogurt, approximately 40% fat, tub, with salt","類人造牛油抹醬(加乳酪,約含40%脂肪,盒裝,有鹽)",batch-027
+"Margarine-like spread, BENECOL Light Spread",類人造牛油抹醬(BENECOL 輕身抹醬),batch-027
+"Margarine-like spread, SMART BALANCE Light Buttery Spread",類人造牛油抹醬(SMART BALANCE 輕身牛油味抹醬),batch-027
+"Margarine-like spread, SMART BALANCE Omega Plus Spread (with plant sterols & fish oil)","類人造牛油抹醬(SMART BALANCE Omega Plus 抹醬,含植物甾醇及魚油)",batch-027
+"Margarine-like spread, SMART BALANCE Regular Buttery Spread with flax oil","類人造牛油抹醬(SMART BALANCE 普通牛油味抹醬,含亞麻籽油)",batch-027
+"Margarine-like spread, SMART BEAT Smart Squeeze",類人造牛油抹醬(SMART BEAT 擠壓裝),batch-027
+"Margarine-like spread, SMART BEAT Super Light without saturated fat","類人造牛油抹醬(SMART BEAT 超輕身,不含飽和脂肪)",batch-027
+"Margarine-like vegetable-oil spread, stick/tub/bottle, 60% fat, with added vitamin D","類人造牛油植物油抹醬(條狀,盒裝或瓶裝,含60%脂肪,添加維他命D)",batch-027
+"Margarine-like, butter-margarine blend, 80% fat, stick, without salt","類人造牛油(牛油與人造牛油混合,含80%脂肪,條狀,無鹽)",batch-027
+"Margarine-like, margarine-butter blend, soybean oil and butter","類人造牛油(人造牛油與牛油混合,大豆油及牛油)",batch-027
+"Margarine-like, vegetable oil spread, 20% fat, with salt","類人造牛油(植物油抹醬,含20%脂肪,有鹽)",batch-027
+"Margarine-like, vegetable oil spread, 20% fat, without salt","類人造牛油(植物油抹醬,含20%脂肪,無鹽)",batch-027
+"Margarine-like, vegetable oil spread, 60% fat, stick, with salt","類人造牛油(植物油抹醬,含60%脂肪,條狀,有鹽)",batch-027
+"Margarine-like, vegetable oil spread, 60% fat, stick, with salt, with added vitamin D","類人造牛油(植物油抹醬,含60%脂肪,條狀,有鹽,添加維他命D)",batch-027
+"Margarine-like, vegetable oil spread, 60% fat, stick/tub/bottle, with salt","類人造牛油(植物油抹醬,含60%脂肪,條狀,盒裝或瓶裝,有鹽)",batch-027
+"Margarine-like, vegetable oil spread, 60% fat, stick/tub/bottle, without salt","類人造牛油(植物油抹醬,含60%脂肪,條狀,盒裝或瓶裝,無鹽)",batch-027
+"Margarine-like, vegetable oil spread, 60% fat, stick/tub/bottle, without salt, with added vitamin D","類人造牛油(植物油抹醬,含60%脂肪,條狀,盒裝或瓶裝,無鹽,添加維他命D)",batch-027
+"Margarine-like, vegetable oil spread, 60% fat, tub, with salt","類人造牛油(植物油抹醬,含60%脂肪,盒裝,有鹽)",batch-027
+"Margarine-like, vegetable oil spread, 60% fat, tub, with salt, with added vitamin D","類人造牛油(植物油抹醬,含60%脂肪,盒裝,有鹽,添加維他命D)",batch-027
+"Margarine-like, vegetable oil spread, approximately 37% fat, unspecified oils, with salt, with added vitamin D","類人造牛油(植物油抹醬,約含37%脂肪,未指明油類,有鹽,添加維他命D)",batch-027
+"Margarine-like, vegetable oil spread, fat free, liquid, with salt","類人造牛油(植物油抹醬,無脂肪,液體,有鹽)",batch-027
 "Margarine-like, vegetable oil spread, fat-free, tub","植物油塗醬(脫脂,盒裝)",pilot
+"Margarine-like, vegetable oil spread, stick or tub, sweetened","類人造牛油(植物油抹醬,條狀或盒裝,加糖)",batch-027
+"Margarine-like, vegetable oil-butter spread, reduced calorie, tub, with salt","類人造牛油(植物油牛油抹醬,減卡路里,盒裝,有鹽)",batch-027
+"Margarine-like, vegetable oil-butter spread, tub, with salt","類人造牛油(植物油牛油抹醬,盒裝,有鹽)",batch-027
 "Marjoram, dried",馬郁蘭(乾),batch-008
 "Marjoram, fresh, raw","牛至(新鮮,生)",batch-002
 Marmalade,橙皮果醬,batch-011
@@ -6877,12 +7100,61 @@ Mars bar and own brand equivalents,Mars朱古力條及自家品牌同類產品,b
 "Mashu roots, raw (Alaska Native)","馬舒根(生,阿拉斯加原住民)",batch-020
 "Matoki, boiled in unsalted water",Matoki蕉(以無鹽水煮),batch-012
 "Matoki, raw",Matoki蕉(生),batch-012
+"Mayonnaise dressing, no cholesterol",蛋黃醬(無膽固醇),batch-027
 "Mayonnaise, Regular",蛋黃醬(普通),batch-019
 "Mayonnaise, homemade",蛋黃醬(自家製),batch-011
 "Mayonnaise, low fat, commercial","蛋黃醬(低脂,市售)",batch-002
+"Mayonnaise, low sodium, low calorie or diet","蛋黃醬(低鈉,低卡路里或減肥)",batch-027
+"Mayonnaise, made with tofu",蛋黃醬(以豆腐製成),batch-027
 "Mayonnaise, reduced fat",蛋黃醬(減脂),batch-011
+"Mayonnaise, reduced fat, with olive oil","蛋黃醬(減脂,含橄欖油)",batch-027
+"Mayonnaise, reduced-calorie or diet, cholesterol-free","蛋黃醬(減卡路里或減肥,無膽固醇)",batch-027
 "Mayonnaise, standard, retail","蛋黃醬(標準,零售)",batch-011
+McDONALD'S Bacon Ranch Salad with Crispy Chicken,麥當勞 煙肉田莊醬沙律(脆雞),batch-027
+"McDONALD'S, BIG BREAKFAST",麥當勞 豐盛早餐,batch-027
+"McDONALD'S, BIG MAC",麥當勞 巨無霸,batch-027
+"McDONALD'S, BIG MAC (without Big Mac Sauce)",麥當勞 巨無霸(不加巨無霸醬),batch-027
+"McDONALD'S, Bacon Egg & Cheese Biscuit",麥當勞 煙肉雞蛋芝士鬆餅,batch-027
+"McDONALD'S, Bacon Ranch Salad with Grilled Chicken",麥當勞 煙肉田莊醬沙律(燒雞),batch-027
+"McDONALD'S, Bacon Ranch Salad without chicken",麥當勞 煙肉田莊醬沙律(不加雞肉),batch-027
+"McDONALD'S, Bacon, Egg & Cheese McGRIDDLES",麥當勞 煙肉雞蛋芝士McGRIDDLES煎餅堡,batch-027
+"McDONALD'S, Cheeseburger",麥當勞 芝士漢堡包,batch-027
+"McDONALD'S, Chicken McNUGGETS",麥當勞 麥樂雞,batch-027
+"McDONALD'S, DOUBLE QUARTER POUNDER with Cheese",麥當勞 雙層四盎司芝士牛肉漢堡,batch-027
+"McDONALD'S, Deluxe Breakfast, with syrup and margarine",麥當勞 豪華早餐(連糖漿和植物牛油),batch-027
+"McDONALD'S, Double Cheeseburger",麥當勞 雙層芝士漢堡包,batch-027
+"McDONALD'S, Egg McMUFFIN",麥當勞 蛋滿福堡,batch-027
+"McDONALD'S, FILET-O-FISH",麥當勞 麥香魚,batch-027
+"McDONALD'S, FILET-O-FISH (without tartar sauce)",麥當勞 麥香魚(不加他他醬),batch-027
+"McDONALD'S, Fruit 'n Yogurt Parfait",麥當勞 水果乳酪杯,batch-027
 "McDONALD'S, Fruit 'n Yogurt Parfait (without granola)",麥當勞水果乳酪新地(不含格蘭諾拉),pilot
+"McDONALD'S, Hamburger",麥當勞 漢堡包,batch-027
+"McDONALD'S, Hash Brown",麥當勞 薯餅,batch-027
+"McDONALD'S, Hot Caramel Sundae",麥當勞 熱焦糖新地,batch-027
+"McDONALD'S, Hot Fudge Sundae",麥當勞 熱朱古力醬新地,batch-027
+"McDONALD'S, Hotcakes (plain)",麥當勞 班戟(原味),batch-027
+"McDONALD'S, Hotcakes (with 2 pats margarine & syrup)",麥當勞 班戟(連兩片植物牛油和糖漿),batch-027
+"McDONALD'S, Hotcakes and Sausage",麥當勞 班戟配香腸,batch-027
+"McDONALD'S, McCHICKEN Sandwich",麥當勞 麥香雞,batch-027
+"McDONALD'S, McCHICKEN Sandwich (without mayonnaise)",麥當勞 麥香雞(不加蛋黃醬),batch-027
+"McDONALD'S, McFLURRY with M&M'S CANDIES",麥當勞 M&M'S朱古力糖麥旋風,batch-027
+"McDONALD'S, McFLURRY with OREO cookies",麥當勞 奧利奧曲奇麥旋風,batch-027
+"McDONALD'S, QUARTER POUNDER",麥當勞 四盎司牛肉漢堡,batch-027
+"McDONALD'S, QUARTER POUNDER with Cheese",麥當勞 四盎司芝士牛肉漢堡,batch-027
+"McDONALD'S, RANCH SNACK WRAP, Crispy",麥當勞 田莊醬小食卷(脆雞),batch-027
+"McDONALD'S, RANCH SNACK WRAP, Grilled",麥當勞 田莊醬小食卷(燒雞),batch-027
+"McDONALD'S, Sausage Biscuit",麥當勞 香腸鬆餅,batch-027
+"McDONALD'S, Sausage Biscuit with Egg",麥當勞 香腸雞蛋鬆餅,batch-027
+"McDONALD'S, Sausage Burrito",麥當勞 香腸墨西哥卷,batch-027
+"McDONALD'S, Sausage McGRIDDLES",麥當勞 香腸McGRIDDLES煎餅堡,batch-027
+"McDONALD'S, Sausage McMUFFIN",麥當勞 香腸滿福堡,batch-027
+"McDONALD'S, Sausage McMUFFIN with Egg",麥當勞 香腸蛋滿福堡,batch-027
+"McDONALD'S, Sausage, Egg & Cheese McGRIDDLES",麥當勞 香腸雞蛋芝士McGRIDDLES煎餅堡,batch-027
+"McDONALD'S, Side Salad",麥當勞 小食沙律,batch-027
+"McDONALD'S, Southern Style Chicken Biscuit",麥當勞 南方風味雞肉鬆餅,batch-027
+"McDONALD'S, Strawberry Sundae",麥當勞 士多啤梨新地,batch-027
+"McDONALD'S, Vanilla Reduced Fat Ice Cream Cone",麥當勞 雲呢拿減脂雪糕筒,batch-027
+"McDONALD'S, french fries",麥當勞 薯條,batch-027
 "Mchicha, homemade",坦桑尼亞莧菜(自家製),batch-012
 "Mckee Baking, Little Debbie Nutty Bars, Wafers with Peanut Butter, Chocolate Covered","花生醬威化條(Mckee Baking Little Debbie,朱古力包面)",batch-021
 "Meal replacement (cereal), ready to eat, Force Active, President's Choice","代餐穀物片(即食,Force Active,President's Choice)",batch-004
@@ -7425,18 +7697,59 @@ Mustard seeds,芥菜籽,batch-008
 "Oats, whole grain, steel cut",全穀物燕麥(鋼切),batch-019
 Octopus (Alaska Native),八爪魚(阿拉斯加原住民),batch-020
 "Octopus, boiled, no added fat","八爪魚(烚,無添加脂肪)",batch-001
+"Oil, apricot kernel",杏仁油,batch-027
 "Oil, avocado",牛油果油,batch-001
+"Oil, babassu",巴巴蘇棕櫚油,batch-027
 "Oil, bearded seal (Oogruk) (Alaska Native)","髯海豹油(Oogruk,阿拉斯加原住民)",batch-020
 "Oil, blend of monounsaturated vegetable oils",單元不飽和植物油混合油,batch-001
+"Oil, cocoa butter",可可脂,batch-027
 "Oil, cod liver",鱈魚肝油,batch-007
+"Oil, cooking and salad, ENOVA, 80% diglycerides","食用油及沙律油(ENOVA,含80%甘油二酯)",batch-027
+"Oil, corn and canola",粟米油及芥花籽油混合油,batch-027
+"Oil, corn, peanut, and olive","粟米油,花生油及橄欖油混合油",batch-027
+"Oil, cupu assu",古布阿蘇油,batch-027
 "Oil, evening primrose",月見草油,batch-007
+"Oil, flaxseed, cold pressed",亞麻籽油(冷壓),batch-027
+"Oil, flaxseed, contains added sliced flaxseed",亞麻籽油(加入亞麻籽片),batch-027
 "Oil, hazelnut",榛子油,batch-007
 "Oil, hemp",大麻籽油,batch-001
+"Oil, industrial, canola (partially hydrogenated) oil for deep fat frying","工業用油(芥花籽油(部分氫化),用於油炸)",batch-027
+"Oil, industrial, canola for salads, woks and light frying","工業用油(芥花籽油,用於沙律,炒菜和輕度煎炸)",batch-027
+"Oil, industrial, canola with antifoaming agent, principal uses salads, woks and light frying","工業用油(芥花籽油,加消泡劑,主要用於沙律,炒菜和輕度煎炸)",batch-027
+"Oil, industrial, canola, high oleic","工業用油(芥花籽油,高油酸)",batch-027
+"Oil, industrial, coconut (hydrogenated), used for whipped toppings and coffee whiteners","工業用油(椰子油(氫化),用於打發忌廉和咖啡伴侶)",batch-027
+"Oil, industrial, coconut, confection fat, typical basis for ice cream coatings","工業用油(椰子油,糖果用脂肪,雪糕脆皮的典型基料)",batch-027
+"Oil, industrial, coconut, principal uses candy coatings, oil sprays, roasting nuts","工業用油(椰子油,主要用於糖果脆皮,噴油和烤堅果)",batch-027
+"Oil, industrial, cottonseed, fully hydrogenated","工業用油(棉籽油,全氫化)",batch-027
+"Oil, industrial, palm and palm kernel, filling fat (non-hydrogenated)","工業用油(棕櫚油及棕櫚仁油,餡料用脂肪,非氫化)",batch-027
+"Oil, industrial, palm kernel (hydrogenated) , used for whipped toppings, non-dairy","工業用油(棕櫚仁油(氫化),用於打發忌廉,不含奶)",batch-027
+"Oil, industrial, palm kernel (hydrogenated), confection fat, intermediate grade product","工業用油(棕櫚仁油(氫化),糖果用脂肪,中級產品)",batch-027
+"Oil, industrial, palm kernel (hydrogenated), confection fat, uses similar to 95 degree hard butter","工業用油(棕櫚仁油(氫化),糖果用脂肪,用途類似95度硬牛油)",batch-027
+"Oil, industrial, palm kernel (hydrogenated), filling fat","工業用油(棕櫚仁油(氫化),餡料用脂肪)",batch-027
+"Oil, industrial, palm kernel, confection fat, uses similar to high quality cocoa butter","工業用油(棕櫚仁油,糖果用脂肪,用途類似優質可可脂)",batch-027
+"Oil, industrial, soy ( partially hydrogenated), all purpose","工業用油(大豆油(部分氫化),多用途)",batch-027
+"Oil, industrial, soy (partially hydrogenated ) and soy (winterized), pourable clear fry","工業用油(大豆油(部分氫化)及大豆油(冬化),可倒出的清澈煎炸油)",batch-027
+"Oil, industrial, soy (partially hydrogenated ), palm, principal uses icings and fillings","工業用油(大豆油(部分氫化),棕櫚油,主要用於糖霜及餡料)",batch-027
+"Oil, industrial, soy (partially hydrogenated) and cottonseed, principal use as a tortilla shortening","工業用油(大豆油(部分氫化)及棉籽油,主要用作墨西哥薄餅起酥油)",batch-027
+"Oil, industrial, soy (partially hydrogenated), multiuse for non-dairy butter flavor","工業用油(大豆油(部分氫化),多用途,不含奶的牛油味)",batch-027
+"Oil, industrial, soy (partially hydrogenated), principal uses popcorn and flavoring vegetables","工業用油(大豆油(部分氫化),主要用於爆谷及蔬菜調味)",batch-027
+"Oil, industrial, soy, fully hydrogenated","工業用油(大豆油,全氫化)",batch-027
+"Oil, industrial, soy, low linolenic","工業用油(大豆油,低亞麻酸)",batch-027
+"Oil, industrial, soy, refined, for woks and light frying","工業用油(大豆油,精煉,用於炒菜和輕度煎炸)",batch-027
+"Oil, industrial, soy, ultra low linolenic","工業用油(大豆油,超低亞麻酸)",batch-027
 "Oil, linseed or flaxseed",亞麻籽油,batch-001
+"Oil, mustard",芥子油,batch-027
 "Oil, mustard seed",芥菜籽油,batch-001
+"Oil, nutmeg butter",肉豆蔻脂,batch-027
+"Oil, oat",燕麥油,batch-027
 "Oil, olive, extra light",橄欖油(特淡),batch-019
 "Oil, olive, extra virgin",特級初榨橄欖油,batch-019
+"Oil, poppyseed",罌粟籽油,batch-027
+"Oil, sheanut",乳木果油,batch-027
 "Oil, soya",大豆油,batch-007
+"Oil, soybean lecithin",大豆卵磷脂油,batch-027
+"Oil, soybean, salad or cooking, (partially hydrogenated)","大豆油(沙律或烹調用,部分氫化)",batch-027
+"Oil, soybean, salad or cooking, (partially hydrogenated) and cottonseed","大豆油及棉籽油(沙律或烹調用,部分氫化)",batch-027
 "Oil, spotted seal (Alaska Native)",斑海豹油(阿拉斯加原住民),batch-020
 "Oil, vegetable",植物油,batch-001
 "Oil, vegetable, average",植物油(平均),batch-007
@@ -7531,7 +7844,41 @@ Octopus (Alaska Native),八爪魚(阿拉斯加原住民),batch-020
 "Oyster, Sydney rock, aquacultured, raw","悉尼岩蠔(養殖,生)",batch-001
 "Oyster, native, aquacultured, raw","本地蠔(養殖,生)",batch-001
 "Oysters, raw, weighed with shells","生蠔(生,連殼稱重)",batch-007
+"PAPA JOHN'S 14"" Cheese Pizza, Original Crust",PAPA JOHN'S 14吋芝士薄餅(原味批底),batch-027
+"PAPA JOHN'S 14"" Cheese Pizza, Thin Crust",PAPA JOHN'S 14吋芝士薄餅(薄批底),batch-027
+"PAPA JOHN'S 14"" Pepperoni Pizza, Original Crust",PAPA JOHN'S 14吋意大利辣肉腸薄餅(原味批底),batch-027
+"PAPA JOHN'S 14"" The Works Pizza, Original Crust",PAPA JOHN'S 14吋什錦薄餅(原味批底),batch-027
 "PIZZA HUT 12"" Cheese Pizza, Hand-Tossed Crust",必勝客12吋芝士薄餅(手拍餅底),pilot
+"PIZZA HUT 12"" Cheese Pizza, Pan Crust",必勝客 12吋芝士薄餅(厚身批底),batch-027
+"PIZZA HUT 12"" Cheese Pizza, THIN 'N CRISPY Crust",必勝客 12吋芝士薄餅(薄脆批底),batch-027
+"PIZZA HUT 12"" Pepperoni Pizza, Hand-Tossed Crust",必勝客 12吋意大利辣肉腸薄餅(手拋批底),batch-027
+"PIZZA HUT 12"" Pepperoni Pizza, Pan Crust",必勝客 12吋意大利辣肉腸薄餅(厚身批底),batch-027
+"PIZZA HUT 12"" Super Supreme Pizza, Hand-Tossed Crust",必勝客 12吋超級至尊薄餅(手拋批底),batch-027
+"PIZZA HUT 14"" Cheese Pizza, Hand-Tossed Crust",必勝客 14吋芝士薄餅(手拋批底),batch-027
+"PIZZA HUT 14"" Cheese Pizza, Pan Crust",必勝客 14吋芝士薄餅(厚身批底),batch-027
+"PIZZA HUT 14"" Cheese Pizza, Stuffed Crust",必勝客 14吋芝士薄餅(芝士邊),batch-027
+"PIZZA HUT 14"" Cheese Pizza, THIN 'N CRISPY Crust",必勝客 14吋芝士薄餅(薄脆批底),batch-027
+"PIZZA HUT 14"" Pepperoni Pizza, Hand-Tossed Crust",必勝客 14吋意大利辣肉腸薄餅(手拋批底),batch-027
+"PIZZA HUT 14"" Pepperoni Pizza, Pan Crust",必勝客 14吋意大利辣肉腸薄餅(厚身批底),batch-027
+"PIZZA HUT 14"" Pepperoni Pizza, THIN 'N CRISPY Crust",必勝客 14吋意大利辣肉腸薄餅(薄脆批底),batch-027
+"PIZZA HUT 14"" Sausage Pizza, Hand-Tossed Crust",必勝客 14吋香腸薄餅(手拋批底),batch-027
+"PIZZA HUT 14"" Sausage Pizza, Pan Crust",必勝客 14吋香腸薄餅(厚身批底),batch-027
+"PIZZA HUT 14"" Sausage Pizza, THIN 'N CRISPY Crust",必勝客 14吋香腸薄餅(薄脆批底),batch-027
+"PIZZA HUT 14"" Super Supreme Pizza, Hand-Tossed Crust",必勝客 14吋超級至尊薄餅(手拋批底),batch-027
+"PIZZA HUT, breadstick, parmesan garlic",必勝客 巴馬臣蒜蓉麵包條,batch-027
+"POPEYES, Coleslaw",POPEYES 椰菜沙律,batch-027
+"POPEYES, Fried Chicken, Mild, Breast, meat and skin with breading","POPEYES 炸雞(微辣,雞胸,連皮連炸粉)",batch-027
+"POPEYES, Fried Chicken, Mild, Breast, meat only, skin and breading removed","POPEYES 炸雞(微辣,雞胸,只計肉,去皮去炸粉)",batch-027
+"POPEYES, Fried Chicken, Mild, Drumstick, meat and skin with breading","POPEYES 炸雞(微辣,雞鎚,連皮連炸粉)",batch-027
+"POPEYES, Fried Chicken, Mild, Drumstick, meat only, skin and breading removed","POPEYES 炸雞(微辣,雞鎚,只計肉,去皮去炸粉)",batch-027
+"POPEYES, Fried Chicken, Mild, Skin and Breading","POPEYES 炸雞(微辣,皮和炸粉)",batch-027
+"POPEYES, Fried Chicken, Mild, Thigh, meat and skin with breading","POPEYES 炸雞(微辣,雞髀,連皮連炸粉)",batch-027
+"POPEYES, Fried Chicken, Mild, Thigh, meat only, skin and breading removed","POPEYES 炸雞(微辣,雞髀,只計肉,去皮去炸粉)",batch-027
+"POPEYES, Fried Chicken, Mild, Wing, meat and skin with breading","POPEYES 炸雞(微辣,雞翼,連皮連炸粉)",batch-027
+"POPEYES, Fried Chicken, Mild, Wing, meat only, skin and breading removed","POPEYES 炸雞(微辣,雞翼,只計肉,去皮去炸粉)",batch-027
+"POPEYES, Mild Chicken Strips, analyzed 2006",POPEYES 微辣雞條(2006年分析),batch-027
+"POPEYES, Spicy Chicken Strips, analyzed 2006",POPEYES 香辣雞條(2006年分析),batch-027
+"POPEYES, biscuit",POPEYES 鬆餅,batch-027
 Pad thaï with chicken,泰式炒河(雞肉),batch-005
 "Pakora, vegetable, takeaway and restaurant",印度蔬菜炸餅(外賣及餐廳),batch-012
 "Pakora/bhajia, aubergine, fried in vegetable oil, homemade","印度炸餅(茄子,以植物油炸,自家製)",batch-012
@@ -7970,8 +8317,13 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pizza, cheese & tomato, commercial","薄餅(芝士番茄,市售)",batch-001
 "Pizza, cheese and meat, thin crust, frozen, cooked","薄餅,芝士及肉,薄批,雪藏,熟",batch-005
 "Pizza, cheese and mushrooms, thin crust, frozen, cooked","薄餅,芝士及蘑菇,薄批,雪藏,熟",batch-005
+"Pizza, cheese and pepperoni, frozen, cooked","薄餅(芝士意大利辣肉腸,冷凍,熟)",batch-027
 "Pizza, cheese and pepperoni, gluten-free crust, frozen, cooked","薄餅,芝士及意大利辣肉腸,無麩質批底,雪藏,熟",batch-005
+"Pizza, cheese and pepperoni, thick crust, whole grain, frozen, cooked","薄餅(芝士意大利辣肉腸,厚批底,全穀物,冷凍,熟)",batch-027
 "Pizza, cheese and pepperoni, thin crust, frozen, cooked","薄餅,芝士及意大利辣肉腸,薄批,雪藏,熟",batch-005
+"Pizza, cheese and pepperoni, thin crust, whole grain, frozen, cooked","薄餅(芝士意大利辣肉腸,薄批底,全穀物,冷凍,熟)",batch-027
+"Pizza, cheese and sausage, thick crust, whole grain, frozen, cooked","薄餅(芝士香腸,厚批底,全穀物,冷凍,熟)",batch-027
+"Pizza, cheese and sausage, thin crust, whole grain, frozen, cooked","薄餅(芝士香腸,薄批底,全穀物,冷凍,熟)",batch-027
 "Pizza, cheese and spinach, thin crust, frozen, cooked","薄餅,芝士及菠菜,薄批,雪藏,熟",batch-005
 "Pizza, cheese and tomato, retail",芝士番茄薄餅(店售),batch-007
 "Pizza, cheese and vegetable, thin crust, frozen, cooked","薄餅,芝士及蔬菜,薄批,雪藏,熟",batch-005
@@ -7984,11 +8336,19 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pizza, cheese, chicken and vegetables, thick/regular crust, frozen, cooked","芝士雞肉蔬菜薄餅,厚批或普通批,雪藏,熟",batch-005
 "Pizza, cheese, chicken and vegetables, thin crust, frozen, cooked","芝士雞肉蔬菜薄餅,薄批,雪藏,熟",batch-005
 "Pizza, cheese, gluten-free crust, frozen, cooked","芝士薄餅,無麩質批底,雪藏,熟",batch-005
+"Pizza, cheese, meat and vegetable, regular crust, frozen, cooked","薄餅(芝士肉類蔬菜,普通批底,冷凍,熟)",batch-027
+"Pizza, cheese, meat and vegetable, rising crust, frozen, cooked","薄餅(芝士肉類蔬菜,發酵厚批底,冷凍,熟)",batch-027
+"Pizza, cheese, regular crust, frozen, cooked","薄餅(芝士,普通批底,冷凍,熟)",batch-027
+"Pizza, cheese, rising crust, frozen, cooked","薄餅(芝士,發酵厚批底,冷凍,熟)",batch-027
+"Pizza, cheese, thick crust, whole grain, frozen, cooked","薄餅(芝士,厚批底,全穀物,冷凍,熟)",batch-027
+"Pizza, cheese, thin crust, frozen, cooked","薄餅(芝士,薄批底,冷凍,熟)",batch-027
+"Pizza, cheese, thin crust, whole grain, frozen, cooked","薄餅(芝士,薄批底,全穀物,冷凍,熟)",batch-027
 "Pizza, cheese, vegetarian, thick/regular crust, frozen, cooked","素食芝士薄餅,厚批或普通批,雪藏,熟",batch-005
 "Pizza, chicken topped, retail",雞肉薄餅(店售),batch-007
 "Pizza, fish topped, takeaway",魚肉薄餅(外賣),batch-007
 "Pizza, ham and pineapple, retail",火腿菠蘿薄餅(店售),batch-007
 "Pizza, meat topped, retail and takeaway",肉類薄餅(店售及外賣),batch-007
+"Pizza, meat topping, thick crust, frozen, cooked","薄餅(肉類餡料,厚批底,冷凍,熟)",batch-027
 "Pizza, mini, cheese, thin crust, frozen, cooked","迷你芝士薄餅,薄批,雪藏,熟",batch-005
 "Pizza, partially skimmed cheese and meat, thick/regular crust, frozen, cooked","半脫脂芝士及肉薄餅,厚批或普通批,雪藏,熟",batch-005
 "Pizza, partially skimmed cheese and meat, thin crust, frozen, cooked","半脫脂芝士及肉薄餅,薄批,雪藏,熟",batch-005
@@ -8781,6 +9141,17 @@ Rusks,麵包乾,batch-007
 Rye grain,黑麥粒,batch-026
 "Rye, grain, whole, uncooked","裸麥(全穀粒,未煮)",batch-001
 "Rye, rolled, uncooked",裸麥片(未煮),batch-001
+"SUBWAY, B.L.T. sub on white bread with bacon, lettuce and tomato",賽百味 煙肉生菜番茄潛艇包(白麵包),batch-027
+"SUBWAY, SUBWAY CLUB sub on white bread with lettuce and tomato","賽百味 賽百味會所潛艇包(白麵包,生菜,番茄)",batch-027
+"SUBWAY, black forest ham sub on white bread with lettuce and tomato","賽百味 黑森林火腿潛艇包(白麵包,生菜,番茄)",batch-027
+"SUBWAY, cold cut sub on white bread with lettuce and tomato","賽百味 冷切肉潛艇包(白麵包,生菜,番茄)",batch-027
+"SUBWAY, meatball marinara sub on white bread (no toppings)","賽百味 肉丸茄汁潛艇包(白麵包,無配料)",batch-027
+"SUBWAY, oven roasted chicken sub on white bread with lettuce and tomato","賽百味 烤雞潛艇包(白麵包,生菜,番茄)",batch-027
+"SUBWAY, roast beef sub on white bread with lettuce and tomato","賽百味 烤牛肉潛艇包(白麵包,生菜,番茄)",batch-027
+"SUBWAY, steak & cheese sub on white bread with American cheese, lettuce and tomato","賽百味 牛扒芝士潛艇包(白麵包,美式芝士,生菜,番茄)",batch-027
+"SUBWAY, sweet onion chicken teriyaki sub on white bread with lettuce, tomato and sweet onion sauce","賽百味 甜洋蔥照燒雞潛艇包(白麵包,生菜,番茄,甜洋蔥醬)",batch-027
+"SUBWAY, tuna sub on white bread with lettuce and tomato","賽百味 吞拿魚潛艇包(白麵包,生菜,番茄)",batch-027
+"SUBWAY, turkey breast sub on white bread with lettuce and tomato","賽百味 火雞胸潛艇包(白麵包,生菜,番茄)",batch-027
 "Saag, homemade",印度菠菜(自家製),batch-012
 "Safflower oil, high linoleic",紅花籽油(高亞油酸),batch-014
 "Safflower oil, high oleic",紅花籽油(高油酸),batch-014
@@ -8993,6 +9364,11 @@ Sauerkraut,酸椰菜,batch-012
 "Scarlet runner beans, mature seeds, whole, raw","紅花菜豆(成熟,連皮,生)",batch-017
 "Schar, Gluten-Free, Classic White Rolls","經典白餐包(Schar,無麩質)",batch-022
 "Schar, Gluten-Free, Wheat-Free, Classic White Bread","經典白麵包(Schar,無麩質,不含小麥)",batch-022
+"School Lunch, pizza, BIG DADDY'S LS 16"" 51% Whole Grain Rolled Edge Cheese Pizza, frozen","學校午餐 薄餅(BIG DADDY'S LS 16吋 51%全穀物卷邊芝士薄餅,冷凍)",batch-027
+"School Lunch, pizza, BIG DADDY'S LS 16"" 51% Whole Grain Rolled Edge Turkey Pepperoni Pizza, frozen","學校午餐 薄餅(BIG DADDY'S LS 16吋 51%全穀物卷邊火雞意大利辣肉腸薄餅,冷凍)",batch-027
+"School Lunch, pizza, TONY'S Breakfast Pizza Sausage, frozen","學校午餐 薄餅(TONY'S 早餐香腸薄餅,冷凍)",batch-027
+"School Lunch, pizza, TONY'S SMARTPIZZA Whole Grain 4x6 Cheese Pizza 50/50 Cheese, frozen","學校午餐 薄餅(TONY'S SMARTPIZZA 全穀物4x6吋芝士薄餅,50/50芝士,冷凍)",batch-027
+"School Lunch, pizza, TONY'S SMARTPIZZA Whole Grain 4x6 Pepperoni Pizza 50/50 Cheese, frozen","學校午餐 薄餅(TONY'S SMARTPIZZA 全穀物4x6吋意大利辣肉腸薄餅,50/50芝士,冷凍)",batch-027
 "Scone, fruit, commercial","司康(水果,市售)",batch-001
 "Scone, plain, homemade","司康(原味,家庭自製)",batch-001
 "Scone, pumpkin, homemade","司康(南瓜,家庭自製)",batch-001
@@ -9679,6 +10055,17 @@ Sweetened condensed milk,煉奶(加糖),batch-016
 "Syrup, maple, pure",楓糖漿(純),batch-002
 "Syrup, rice malt",米麥芽糖漿,batch-002
 "Szechuan prawns with vegetables, takeaway",四川蝦配蔬菜(外賣),batch-008
+"TACO BELL, BURRITO SUPREME with beef",TACO BELL 至尊墨西哥卷(牛肉),batch-027
+"TACO BELL, BURRITO SUPREME with chicken",TACO BELL 至尊墨西哥卷(雞肉),batch-027
+"TACO BELL, BURRITO SUPREME with steak",TACO BELL 至尊墨西哥卷(牛扒),batch-027
+"TACO BELL, Bean Burrito",TACO BELL 豆墨西哥卷,batch-027
+"TACO BELL, Nachos",TACO BELL 墨西哥脆片,batch-027
+"TACO BELL, Nachos Supreme",TACO BELL 至尊墨西哥脆片,batch-027
+"TACO BELL, Original Taco with beef, cheese and lettuce","TACO BELL 原味墨西哥脆餅(牛肉,芝士,生菜)",batch-027
+"TACO BELL, Soft Taco with beef, cheese and lettuce","TACO BELL 軟墨西哥薄餅(牛肉,芝士,生菜)",batch-027
+"TACO BELL, Soft Taco with chicken, cheese and lettuce","TACO BELL 軟墨西哥薄餅(雞肉,芝士,生菜)",batch-027
+"TACO BELL, Soft Taco with steak",TACO BELL 軟墨西哥薄餅(牛扒),batch-027
+"TACO BELL, Taco Salad",TACO BELL 墨西哥沙律,batch-027
 Tabouleh,塔布勒沙律(Tabouleh),batch-012
 "Taco shell, baked",墨西哥脆餅殼(焗),batch-022
 "Taco shell, baked, unsalted","墨西哥脆餅殼(焗,無鹽)",batch-022
@@ -10133,7 +10520,19 @@ Vinegar (except balsamic vinegar),醋(香醋除外),batch-002
 "Vitamin water, lemon/orange flavours, sweetened","維他命水(檸檬或橙味,加糖)",batch-003
 "Vitamin water, tropical citrus flavour, sweetened, with caffeine","維他命水(熱帶柑橘味,加糖,含咖啡因)",batch-003
 "Vodka cooler, fruit flavours",伏特加果味酒精飲品,batch-003
+"WEND'YS, Crispy Chicken Sandwich",溫蒂漢堡 脆雞三明治,batch-027
+"WENDY'S, CLASSIC DOUBLE, with cheese",溫蒂漢堡 經典雙層漢堡(加芝士),batch-027
+"WENDY'S, CLASSIC SINGLE Hamburger, no cheese",溫蒂漢堡 經典單層漢堡包(不加芝士),batch-027
+"WENDY'S, CLASSIC SINGLE Hamburger, with cheese",溫蒂漢堡 經典單層漢堡包(加芝士),batch-027
+"WENDY'S, Chicken Nuggets",溫蒂漢堡 雞塊,batch-027
 "WENDY'S, DAVE'S Hot 'N Juicy 1/4 LB, single","温蒂漢堡(DAVE'S Hot 'N Juicy 1/4磅,單層)",pilot
+"WENDY'S, Double Stack, with cheese",溫蒂漢堡 雙層疊漢堡(加芝士),batch-027
+"WENDY'S, Frosty Dairy Dessert",溫蒂漢堡 Frosty 奶類甜品,batch-027
+"WENDY'S, Homestyle Chicken Fillet Sandwich",溫蒂漢堡 家常雞柳三明治,batch-027
+"WENDY'S, Jr. Hamburger, with cheese",溫蒂漢堡 迷你漢堡包(加芝士),batch-027
+"WENDY'S, Jr. Hamburger, without cheese",溫蒂漢堡 迷你漢堡包(不加芝士),batch-027
+"WENDY'S, Ultimate Chicken Grill Sandwich",溫蒂漢堡 究極燒雞三明治,batch-027
+"WENDY'S, french fries",溫蒂漢堡 薯條,batch-027
 "Wafers, plain ice cream wafers, not filled",原味雪糕威化餅(無餡),batch-007
 "Waffle, buttermilk, frozen, ready-to-heat","牛油奶窩夫(冷凍,即熱型)",batch-022
 "Waffle, buttermilk, frozen, ready-to-heat, microwaved","牛油奶窩夫(冷凍,即熱型,微波)",batch-022
@@ -10378,6 +10777,7 @@ Yeast extract,酵母抽取物,batch-011
 "Yogourt (yogurt), soy, vanilla flavoured, with added fibre","豆乳酪(雲呢拿味,添加纖維)",batch-004
 "Yogourt (yogurt), tubes, fruit flavoured, made with vitamin D fortified milk","管裝乳酪(水果味,以強化維他命D牛奶製)",batch-004
 "Yogourt (yogurt), with crunchy granola/cereal topping",乳酪(加脆格蘭諾拉或穀物面層),batch-004
+"Yogurt parfait, lowfat, with fruit and granola",低脂乳酪芭菲(連水果和格蘭諾拉麥片),batch-027
 "Yogurt, Greek style, fruit",希臘式乳酪(水果味),batch-010
 "Yogurt, Greek style, plain",希臘式乳酪(原味),batch-010
 "Yogurt, Greek, 2% fat, apricot, CHOBANI","希臘乳酪(2%脂肪,杏味,CHOBANI)",batch-026
