@@ -3195,6 +3195,7 @@ Cakes from 'healthy eating' ranges,健康飲食系列蛋糕,batch-006
 "Camel, rump, raw","駱駝肉(臀肉,生)",batch-002
 "Camel, steak, as purchased, fried, no added fat","駱駝肉排(購買時,炸,無添加脂肪)",batch-002
 "Camel, steak, as purchased, raw","駱駝肉排(購買時,生)",batch-002
+"Canada Goose, breast meat only, skinless, raw","加拿大黑雁(只計胸肉,去皮,生)",batch-032
 "Canadian bacon, cooked, pan-fried","加拿大煙肉(熟,煎)",batch-031
 "Canadian bacon, unprepared",加拿大煙肉(未經調製),batch-031
 "Candied foods, cherries",糖漬車厘子,batch-006
@@ -3978,6 +3979,8 @@ Cheese whey powder,芝士乳清粉,batch-016
 "Chewing gum, stick",口香糖(條裝),batch-014
 "Chewing gum, sugar-coated",口香糖(糖衣),batch-014
 "Chia seeds, dry, raw","奇亞籽(乾,生)",batch-019
+"Chicken breast tenders, breaded, cooked","雞胸柳條(裹粉,熟)",batch-032
+"Chicken breast tenders, breaded, uncooked","雞胸柳條(裹粉,未煮)",batch-032
 "Chicken breast with broccoli and cheese stuffing, frozen",西蘭花芝士餡雞胸(雪藏),batch-005
 "Chicken breast/steak, coated, baked","雞胸扒(裹粉,焗)",pilot
 "Chicken chasseur, homemade",獵人燴雞(自家製),batch-009
@@ -3991,6 +3994,8 @@ Cheese whey powder,芝士乳清粉,batch-016
 "Chicken nuggets, white meat, pre-cooked, frozen, not heated","雞塊(白肉,預先煮熟,冷凍,未加熱)",batch-031
 "Chicken nuggets, whole grain breading",雞塊(全穀物麵包糠),batch-027
 "Chicken patty, breaded, whole grain breading","雞肉餅(炸粉,全穀物麵包糠)",batch-027
+"Chicken patty, frozen, cooked","雞肉餅(冷凍,熟)",batch-032
+"Chicken patty, frozen, uncooked","雞肉餅(冷凍,未煮)",batch-032
 "Chicken piece, flesh, skin & fat, coated, fast food outlet, fried","雞塊(連肉、皮及脂肪,裹粉,快餐店,炸)",batch-002
 "Chicken pieces, coated, takeaway","雞塊(裹粉,外賣)",batch-009
 "Chicken portions, battered, deep fried, takeaway","雞塊(裹漿,油炸,外賣)",batch-009
@@ -4014,15 +4019,95 @@ Chicken slices,雞肉片,batch-009
 "Chicken, breast, lean flesh, skin & fat, baked, no added fat","雞胸(瘦肉連皮及脂肪,焗,無添加脂肪)",batch-002
 "Chicken, breast, meat and skin, raw","雞胸(連皮,生)",batch-019
 "Chicken, breast, strips, stir-fried in corn oil",雞胸肉條(粟米油炒),batch-009
+"Chicken, broiler or fryers, breast, skinless, boneless, meat only, with added solution, cooked, braised","肉雞或嫩雞(雞胸,去皮,去骨,只計肉,加入溶液,熟,炆)",batch-032
+"Chicken, broiler or fryers, breast, skinless, boneless, meat only, with added solution, cooked, grilled","肉雞或嫩雞(雞胸,去皮,去骨,只計肉,加入溶液,熟,燒烤)",batch-032
+"Chicken, broiler, back, meat and skin, batter dipped, fried","肉雞(雞背,連皮,沾漿炸)",batch-032
+"Chicken, broiler, back, meat and skin, cooked, rotisserie, with seasoning","肉雞(雞背,連皮,熟,旋轉烤,加調味)",batch-032
+"Chicken, broiler, back, meat and skin, flour coated, fried","肉雞(雞背,連皮,沾粉炸)",batch-032
+"Chicken, broiler, back, meat and skin, raw","肉雞(雞背,連皮,生)",batch-032
+"Chicken, broiler, back, meat and skin, roasted","肉雞(雞背,連皮,烤)",batch-032
+"Chicken, broiler, back, meat and skin, stewed","肉雞(雞背,連皮,炆)",batch-032
+"Chicken, broiler, back, meat, cooked, rotisserie, with seasoning","肉雞(雞背,只計肉,熟,旋轉烤,加調味)",batch-032
+"Chicken, broiler, back, meat, fried","肉雞(雞背,只計肉,炸)",batch-032
+"Chicken, broiler, back, meat, raw","肉雞(雞背,只計肉,生)",batch-032
+"Chicken, broiler, back, meat, roasted","肉雞(雞背,只計肉,烤)",batch-032
+"Chicken, broiler, back, meat, stewed","肉雞(雞背,只計肉,炆)",batch-032
+"Chicken, broiler, breast, meat and skin, batter dipped, fried","肉雞(雞胸,連皮,沾漿炸)",batch-032
+"Chicken, broiler, breast, meat and skin, cooked, rotisserie, with seasoning","肉雞(雞胸,連皮,熟,旋轉烤,加調味)",batch-032
+"Chicken, broiler, breast, meat and skin, flour coated, fried","肉雞(雞胸,連皮,沾粉炸)",batch-032
+"Chicken, broiler, breast, meat and skin, raw","肉雞(雞胸,連皮,生)",batch-032
+"Chicken, broiler, breast, meat and skin, roasted","肉雞(雞胸,連皮,烤)",batch-032
+"Chicken, broiler, breast, meat and skin, stewed","肉雞(雞胸,連皮,炆)",batch-032
 "Chicken, broiler, breast, meat with skin, raw","肉雞胸(連皮,生)",batch-016
 "Chicken, broiler, breast, meat with skin, roasted","肉雞胸(連皮,烤)",batch-016
 "Chicken, broiler, breast, meat without skin, raw","肉雞胸(去皮,生)",batch-016
 "Chicken, broiler, breast, meat without skin, roasted","肉雞胸(去皮,烤)",batch-016
+"Chicken, broiler, breast, meat, cooked, rotisserie, with seasoning","肉雞(雞胸,只計肉,熟,旋轉烤,加調味)",batch-032
+"Chicken, broiler, breast, meat, fried","肉雞(雞胸,只計肉,炸)",batch-032
 "Chicken, broiler, breast, meat, roasted","雞胸(只計肉,烤)",pilot
+"Chicken, broiler, breast, meat, stewed","肉雞(雞胸,只計肉,炆)",batch-032
 "Chicken, broiler, breast, skinless, boneless, meat, braised","肉雞胸(去皮,去骨,只計肉,炆)",batch-019
+"Chicken, broiler, breast, skinless, boneless, meat, grilled","肉雞(雞胸,去皮,去骨,只計肉,燒烤)",batch-032
+"Chicken, broiler, breast, skinless, boneless, meat, raw","肉雞(雞胸,去皮,去骨,只計肉,生)",batch-032
+"Chicken, broiler, dark meat and skin, batter dipped, fried","肉雞(深色肉,連皮,沾漿炸)",batch-032
+"Chicken, broiler, dark meat and skin, flour coated, fried","肉雞(深色肉,連皮,沾粉炸)",batch-032
+"Chicken, broiler, dark meat and skin, raw","肉雞(深色肉,連皮,生)",batch-032
+"Chicken, broiler, dark meat and skin, roasted","肉雞(深色肉,連皮,烤)",batch-032
+"Chicken, broiler, dark meat and skin, stewed","肉雞(深色肉,連皮,炆)",batch-032
+"Chicken, broiler, dark meat, fried","肉雞(深色肉,只計肉,炸)",batch-032
+"Chicken, broiler, dark meat, raw","肉雞(深色肉,只計肉,生)",batch-032
+"Chicken, broiler, dark meat, roasted","肉雞(深色肉,只計肉,烤)",batch-032
+"Chicken, broiler, dark meat, stewed","肉雞(深色肉,只計肉,炆)",batch-032
+"Chicken, broiler, drumstick, meat and skin, batter dipped, fried","肉雞(雞鎚,連皮,沾漿炸)",batch-032
+"Chicken, broiler, drumstick, meat and skin, cooked, rotisserie, with seasoning","肉雞(雞鎚,連皮,熟,旋轉烤,加調味)",batch-032
+"Chicken, broiler, drumstick, meat and skin, flour coated, fried","肉雞(雞鎚,連皮,沾粉炸)",batch-032
+"Chicken, broiler, drumstick, meat and skin, raw","肉雞(雞鎚,連皮,生)",batch-032
+"Chicken, broiler, drumstick, meat and skin, roasted","肉雞(雞鎚,連皮,烤)",batch-032
 "Chicken, broiler, drumstick, meat and skin, stewed","雞(肉雞,雞髀,連皮,炆)",batch-005
+"Chicken, broiler, drumstick, meat, braised","肉雞(雞鎚,只計肉,炆)",batch-032
+"Chicken, broiler, drumstick, meat, cooked, rotisserie, with seasoning","肉雞(雞鎚,只計肉,熟,旋轉烤,加調味)",batch-032
+"Chicken, broiler, drumstick, meat, fried","肉雞(雞鎚,只計肉,炸)",batch-032
+"Chicken, broiler, drumstick, meat, raw","肉雞(雞鎚,只計肉,生)",batch-032
+"Chicken, broiler, drumstick, meat, roasted","肉雞(雞鎚,只計肉,烤)",batch-032
+"Chicken, broiler, drumstick, meat, stewed","肉雞(雞鎚,只計肉,燜煮)",batch-032
+"Chicken, broiler, giblets, flour coated, fried","肉雞(雞雜,沾粉炸)",batch-032
 "Chicken, broiler, giblets, raw",肉雞雜(生),pilot
+"Chicken, broiler, giblets, simmered","肉雞(雞雜,燉煮)",batch-032
+"Chicken, broiler, gizzard, raw","肉雞(雞胗,生)",batch-032
+"Chicken, broiler, gizzard, simmered","肉雞(雞胗,燉煮)",batch-032
+"Chicken, broiler, heart, raw","肉雞(雞心,生)",batch-032
+"Chicken, broiler, heart, simmered","肉雞(雞心,燉煮)",batch-032
+"Chicken, broiler, leg, meat and skin, batter dipped, fried","肉雞(雞腿,連皮,沾漿炸)",batch-032
+"Chicken, broiler, leg, meat and skin, flour coated, fried","肉雞(雞腿,連皮,沾粉炸)",batch-032
+"Chicken, broiler, leg, meat and skin, raw","肉雞(雞腿,連皮,生)",batch-032
+"Chicken, broiler, leg, meat and skin, roasted","肉雞(雞腿,連皮,烤)",batch-032
+"Chicken, broiler, leg, meat and skin, stewed","肉雞(雞腿,連皮,炆)",batch-032
+"Chicken, broiler, leg, meat, fried","肉雞(雞腿,只計肉,炸)",batch-032
+"Chicken, broiler, leg, meat, raw","肉雞(雞腿,只計肉,生)",batch-032
+"Chicken, broiler, leg, meat, roasted","肉雞(雞腿,只計肉,烤)",batch-032
+"Chicken, broiler, leg, meat, stewed","肉雞(雞腿,只計肉,炆)",batch-032
+"Chicken, broiler, light meat and skin, batter dipped, fried","肉雞(淺色肉,連皮,沾漿炸)",batch-032
+"Chicken, broiler, light meat and skin, flour coated, fried","肉雞(淺色肉,連皮,沾粉炸)",batch-032
+"Chicken, broiler, light meat and skin, raw","肉雞(淺色肉,連皮,生)",batch-032
+"Chicken, broiler, light meat and skin, roasted","肉雞(淺色肉,連皮,烤)",batch-032
+"Chicken, broiler, light meat and skin, stewed","肉雞(淺色肉,連皮,炆)",batch-032
+"Chicken, broiler, light meat, fried","肉雞(淺色肉,只計肉,炸)",batch-032
+"Chicken, broiler, light meat, raw","肉雞(淺色肉,只計肉,生)",batch-032
+"Chicken, broiler, light meat, roasted","肉雞(淺色肉,只計肉,烤)",batch-032
+"Chicken, broiler, light meat, stewed","肉雞(淺色肉,只計肉,炆)",batch-032
+"Chicken, broiler, liver, raw","肉雞(雞肝,生)",batch-032
+"Chicken, broiler, liver, simmered","肉雞(雞肝,燉煮)",batch-032
 "Chicken, broiler, meat and skin, batter dipped, fried","肉雞(連皮,炸漿炸)",pilot
+"Chicken, broiler, meat and skin, flour coated, fried","肉雞(連皮,沾粉炸)",batch-032
+"Chicken, broiler, meat and skin, raw","肉雞(連皮,生)",batch-032
+"Chicken, broiler, meat and skin, roasted","肉雞(連皮,烤)",batch-032
+"Chicken, broiler, meat and skin, stewed","肉雞(連皮,炆)",batch-032
+"Chicken, broiler, meat only, fried","肉雞(只計肉,炸)",batch-032
+"Chicken, broiler, meat only, raw","肉雞(只計肉,生)",batch-032
+"Chicken, broiler, meat only, roasted","肉雞(只計肉,烤)",batch-032
+"Chicken, broiler, meat only, stewed","肉雞(只計肉,炆)",batch-032
+"Chicken, broiler, meat, skin, giblets and neck, batter dipped, fried","肉雞(肉,皮,雞雜及雞頸,沾漿炸)",batch-032
+"Chicken, broiler, meat, skin, giblets and neck, flour coated, fried","肉雞(肉,皮,雞雜及雞頸,沾粉炸)",batch-032
 "Chicken, broiler, tender, boiled",肉雞雞柳(煮),batch-016
 "Chicken, broiler, tender, raw",肉雞雞柳(生),batch-016
 "Chicken, broiler, tender, roasted",肉雞雞柳(烤),batch-016
@@ -9643,8 +9728,11 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, Shoulder breast, boneless, separable lean and fat, cooked, broiled","豬肩胸肉(去骨,瘦肉連脂肪,熟,燒烤)",batch-031
 "Pork, Shoulder breast, boneless, separable lean and fat, raw","豬肩胸肉(去骨,瘦肉連脂肪,生)",batch-031
 "Pork, Shoulder petite tender, boneless, separable lean and fat, raw","豬肩小柳(去骨,瘦肉連脂肪,生)",batch-031
+"Pork, back ribs, lean and fat, raw","豬背脊肋排(瘦肉連脂肪,生)",batch-032
+"Pork, back ribs, lean and fat, roasted","豬背脊肋排(瘦肉連脂肪,烤)",batch-032
 "Pork, bacon",煙肉,batch-016
 "Pork, bacon loin",煙燻豬裡脊肉,batch-016
+"Pork, bacon, rendered fat, cooked","豬肉(煙肉,煉出的脂肪,熟)",batch-032
 "Pork, belly joint, roasted, lean and fat","豬腩烤肉塊(烤,瘦肉連肥肉)",batch-010
 "Pork, belly joint/slices, grilled, lean and fat","豬腩肉塊或肉片(燒烤,瘦肉連肥肉)",batch-010
 "Pork, belly joint/slices, raw, lean and fat","豬腩肉塊或肉片(生,瘦肉連肥肉)",batch-010
@@ -9652,6 +9740,8 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, belly, rind removed, baked, no added fat","豬腩肉(去皮,焗,無添加脂肪)",batch-002
 "Pork, belly, rind removed, raw","豬腩肉(去皮,生)",batch-002
 "Pork, belly, with skin, raw","豬腩肉(連皮,生)",batch-019
+"Pork, brains, braised",豬腦(炆),batch-032
+"Pork, brains, raw",豬腦(生),batch-032
 "Pork, butterfly steak, lean, raw","豬蝴蝶扒(瘦肉,生)",batch-002
 "Pork, butterfly steak, untrimmed, grilled, no added fat","豬蝴蝶扒(未經削切,燒烤,無添加脂肪)",batch-002
 "Pork, butterfly steak, untrimmed, raw","豬蝴蝶扒(未經削切,生)",batch-002
@@ -9663,10 +9753,113 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, crackling, cooked",豬皮脆(熟),batch-010
 "Pork, crackling, roasted, salted","豬皮脆(烤,有鹽)",batch-002
 "Pork, cured, bacon bits, cooked","醃豬肉(煙肉碎,熟)",batch-005
+"Pork, cured, bacon, cooked, baked","豬肉(醃製煙肉,熟,焗)",batch-032
+"Pork, cured, bacon, cooked, microwaved","豬肉(醃製煙肉,熟,微波)",batch-032
+"Pork, cured, bacon, cooked, pan-fried","豬肉(醃製煙肉,熟,煎)",batch-032
 "Pork, cured, bacon, cooked, restaurant","醃製煙肉(熟,餐廳式)",batch-019
+"Pork, cured, bacon, raw","豬肉(醃製煙肉,生)",batch-032
+"Pork, cured, bacon, reduced sodium, broiled, pan-fried or roasted","豬肉(醃製煙肉,減鈉,燒烤,煎或烤)",batch-032
+"Pork, cured, bacon, reduced sodium, raw","豬肉(醃製煙肉,減鈉,生)",batch-032
 "Pork, cured, breakfast strips, cooked","醃豬肉(早餐肉條,熟)",batch-005
+"Pork, cured, breakfast strips, raw or unheated","豬肉(醃製早餐肉條,生或未加熱)",batch-032
+"Pork, cured, fat (ham and arm picnic), roasted","豬肉(醃製脂肪(火腿及前臂肩),烤)",batch-032
+"Pork, cured, fat, unheated","豬肉(醃製脂肪,未加熱)",batch-032
+"Pork, cured, feet, pickled","豬肉(醃製豬腳,醋漬)",batch-032
+"Pork, cured, ham -- water added, rump, bone-in, separable lean and fat, heated, roasted","豬肉(醃製火腿,加水,臀部,連骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham -- water added, rump, bone-in, separable lean and fat, unheated","豬肉(醃製火腿,加水,臀部,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham -- water added, rump, bone-in, separable lean only, heated, roasted","豬肉(醃製火腿,加水,臀部,連骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham -- water added, rump, bone-in, separable lean only, unheated","豬肉(醃製火腿,加水,臀部,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham -- water added, shank, bone-in, separable lean and fat, heated, roasted","豬肉(醃製火腿,加水,腱部,連骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham -- water added, shank, bone-in, separable lean and fat, unheated","豬肉(醃製火腿,加水,腱部,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham -- water added, shank, bone-in, separable lean only, heated, roasted","豬肉(醃製火腿,加水,腱部,連骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham -- water added, shank, bone-in, separable lean only, unheated","豬肉(醃製火腿,加水,腱部,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham -- water added, slice, bone-in, separable lean and fat, heated, pan-broil","豬肉(醃製火腿,加水,切片,連骨,瘦肉連脂肪,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham -- water added, slice, bone-in, separable lean and fat, unheated","豬肉(醃製火腿,加水,切片,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham -- water added, slice, bone-in, separable lean only, heated, pan-broil","豬肉(醃製火腿,加水,切片,連骨,只計瘦肉,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham -- water added, slice, bone-in, separable lean only, unheated","豬肉(醃製火腿,加水,切片,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham -- water added, slice, boneless, separable lean and fat, heated, pan-broil","豬肉(醃製火腿,加水,切片,去骨,瘦肉連脂肪,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham -- water added, slice, boneless, separable lean only, heated, pan-broil","豬肉(醃製火腿,加水,切片,去骨,只計瘦肉,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham -- water added, whole, boneless, separable lean and fat, heated, roasted","豬肉(醃製火腿,加水,整隻,去骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham -- water added, whole, boneless, separable lean and fat, unheated","豬肉(醃製火腿,加水,整隻,去骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham -- water added, whole, boneless, separable lean only, heated, roasted","豬肉(醃製火腿,加水,整隻,去骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham -- water added, whole, boneless, separable lean only, unheated","豬肉(醃製火腿,加水,整隻,去骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham and water product, rump, bone-in, separable lean and fat, heated, roasted","豬肉(醃製火腿加水製品,臀部,連骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham and water product, rump, bone-in, separable lean and fat, unheated","豬肉(醃製火腿加水製品,臀部,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham and water product, rump, bone-in, separable lean only, heated, roasted","豬肉(醃製火腿加水製品,臀部,連骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham and water product, rump, bone-in, separable lean only, unheated","豬肉(醃製火腿加水製品,臀部,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham and water product, shank, bone-in, separable lean and fat, heated, roasted","豬肉(醃製火腿加水製品,腱部,連骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham and water product, shank, bone-in, separable lean and fat, unheated","豬肉(醃製火腿加水製品,腱部,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham and water product, shank, bone-in, separable lean only, heated, roasted","豬肉(醃製火腿加水製品,腱部,連骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham and water product, shank, bone-in, unheated, separable lean only","豬肉(醃製火腿加水製品,腱部,連骨,未加熱,只計瘦肉)",batch-032
+"Pork, cured, ham and water product, slice, bone-in, separable lean and fat, heated, pan-broil","豬肉(醃製火腿加水製品,切片,連骨,瘦肉連脂肪,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham and water product, slice, bone-in, separable lean and fat, unheated","豬肉(醃製火腿加水製品,切片,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham and water product, slice, bone-in, separable lean only, heated, pan-broil","豬肉(醃製火腿加水製品,切片,連骨,只計瘦肉,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham and water product, slice, bone-in, separable lean only, unheated","豬肉(醃製火腿加水製品,切片,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham and water product, slice, boneless, separable lean and fat, heated, pan-broil","豬肉(醃製火腿加水製品,切片,去骨,瘦肉連脂肪,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham and water product, slice, boneless, separable lean only, heated, pan-broil","豬肉(醃製火腿加水製品,切片,去骨,只計瘦肉,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham and water product, whole, boneless, separable lean and fat, heated, roasted","豬肉(醃製火腿加水製品,整隻,去骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham and water product, whole, boneless, separable lean and fat, unheated","豬肉(醃製火腿加水製品,整隻,去骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham and water product, whole, boneless, separable lean only, heated, roasted","豬肉(醃製火腿加水製品,整隻,去骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham and water product, whole, boneless, separable lean only, unheated","豬肉(醃製火腿加水製品,整隻,去骨,只計瘦肉,未加熱)",batch-032
 "Pork, cured, ham patties, grilled",火腿餅(燒烤),batch-005
+"Pork, cured, ham patties, unheated","豬肉(醃製火腿餅,未加熱)",batch-032
+"Pork, cured, ham with natural juices, rump, bone-in, separable lean and fat, heated, roasted","豬肉(醃製含天然汁液火腿,臀部,連骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham with natural juices, rump, bone-in, separable lean and fat, unheated","豬肉(醃製含天然汁液火腿,臀部,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham with natural juices, rump, bone-in, separable lean only, heated, roasted","豬肉(醃製含天然汁液火腿,臀部,連骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham with natural juices, rump, bone-in, separable lean only, unheated","豬肉(醃製含天然汁液火腿,臀部,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham with natural juices, shank, bone-in, separable lean and fat, heated, roasted","豬肉(醃製含天然汁液火腿,腱部,連骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham with natural juices, shank, bone-in, separable lean and fat, unheated","豬肉(醃製含天然汁液火腿,腱部,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham with natural juices, shank, bone-in, separable lean only, heated, roasted","豬肉(醃製含天然汁液火腿,腱部,連骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham with natural juices, shank, bone-in, separable lean only, unheated","豬肉(醃製含天然汁液火腿,腱部,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham with natural juices, slice, bone-in, separable lean and fat, heated, pan-broil","豬肉(醃製含天然汁液火腿,切片,連骨,瘦肉連脂肪,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham with natural juices, slice, bone-in, separable lean and fat, unheated","豬肉(醃製含天然汁液火腿,切片,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham with natural juices, slice, bone-in, separable lean only, heated, pan-broil","豬肉(醃製含天然汁液火腿,切片,連骨,只計瘦肉,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham with natural juices, slice, bone-in, separable lean only, unheated","豬肉(醃製含天然汁液火腿,切片,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham with natural juices, slice, boneless, separable lean and fat, heated, pan-broil","豬肉(醃製含天然汁液火腿,切片,去骨,瘦肉連脂肪,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham with natural juices, slice, boneless, separable lean only, heated, pan-broil","豬肉(醃製含天然汁液火腿,切片,去骨,只計瘦肉,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham with natural juices, spiral slice, boneless, separable lean and fat, heated, roasted","豬肉(醃製含天然汁液火腿,螺旋切片,去骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham with natural juices, spiral slice, boneless, separable lean and fat, unheated","豬肉(醃製含天然汁液火腿,螺旋切片,去骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham with natural juices, spiral slice, boneless, separable lean only, unheated","豬肉(醃製含天然汁液火腿,螺旋切片,去骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham with natural juices, spiral slice, meat only, boneless, separable lean only, heated, roasted","豬肉(醃製含天然汁液火腿,螺旋切片,只計肉,去骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham with natural juices, whole, boneless, separable lean and fat, heated, roasted","豬肉(醃製含天然汁液火腿,整隻,去骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham with natural juices, whole, boneless, separable lean and fat, unheated","豬肉(醃製含天然汁液火腿,整隻,去骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham with natural juices, whole, boneless, separable lean only, heated, roasted","豬肉(醃製含天然汁液火腿,整隻,去骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham with natural juices, whole, boneless, separable lean only, unheated","豬肉(醃製含天然汁液火腿,整隻,去骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham, boneless, extra lean (approximately 5% fat), roasted","豬肉(醃製火腿,去骨,特瘦(約含5%脂肪),烤)",batch-032
+"Pork, cured, ham, boneless, extra lean and regular, roasted","豬肉(醃製火腿,去骨,特瘦及普通,烤)",batch-032
+"Pork, cured, ham, boneless, extra lean and regular, unheated","豬肉(醃製火腿,去骨,特瘦及普通,未加熱)",batch-032
+"Pork, cured, ham, boneless, low sodium, extra lean (approximately 5% fat), roasted","豬肉(醃製火腿,去骨,低鈉,特瘦(約含5%脂肪),烤)",batch-032
+"Pork, cured, ham, boneless, low sodium, extra lean and regular, roasted","豬肉(醃製火腿,去骨,低鈉,特瘦及普通,烤)",batch-032
+"Pork, cured, ham, boneless, regular (approximately 11% fat), roasted","豬肉(醃製火腿,去骨,普通(約含11%脂肪),烤)",batch-032
+"Pork, cured, ham, center slice, country-style, separable lean only, raw","豬肉(醃製火腿,中段切片,鄉村式,只計瘦肉,生)",batch-032
+"Pork, cured, ham, center slice, separable lean and fat, unheated","豬肉(醃製火腿,中段切片,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham, extra lean (approximately 4% fat), canned, roasted","豬肉(醃製火腿,特瘦(約含4%脂肪),罐頭,烤)",batch-032
+"Pork, cured, ham, extra lean and regular, canned, roasted","豬肉(醃製火腿,特瘦及普通,罐頭,烤)",batch-032
+"Pork, cured, ham, low sodium, lean and fat, cooked","豬肉(醃製火腿,低鈉,瘦肉連脂肪,熟)",batch-032
+"Pork, cured, ham, rump, bone-in, separable lean and fat, heated, roasted","豬肉(醃製火腿,臀部,連骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham, rump, bone-in, separable lean and fat, unheated","豬肉(醃製火腿,臀部,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham, rump, bone-in, separable lean only, heated, roasted","豬肉(醃製火腿,臀部,連骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham, rump, bone-in, separable lean only, unheated","豬肉(醃製火腿,臀部,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham, separable fat, boneless, heated","豬肉(醃製火腿,可分離脂肪,去骨,加熱)",batch-032
+"Pork, cured, ham, separable fat, boneless, unheated","豬肉(醃製火腿,可分離脂肪,去骨,未加熱)",batch-032
+"Pork, cured, ham, shank, bone-in, separable lean and fat, heated, roasted","豬肉(醃製火腿,腱部,連骨,瘦肉連脂肪,加熱,烤)",batch-032
+"Pork, cured, ham, shank, bone-in, separable lean and fat, unheated","豬肉(醃製火腿,腱部,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham, shank, bone-in, separable lean only, heated, roasted","豬肉(醃製火腿,腱部,連骨,只計瘦肉,加熱,烤)",batch-032
+"Pork, cured, ham, shank, bone-in, separable lean only, unheated","豬肉(醃製火腿,腱部,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham, shoulder, arm picnic, lean and fat, roasted","豬肉(醃製火腿,肩肉,前臂肩,瘦肉連脂肪,烤)",batch-032
+"Pork, cured, ham, shoulder, arm picnic, lean, roasted","豬肉(醃製火腿,肩肉,前臂肩,瘦肉,烤)",batch-032
 "Pork, cured, ham, shoulder, cottage roll, lean and fat, roasted","醃豬肩火腿(Cottage roll,連肥肉,烤)",batch-005
+"Pork, cured, ham, shoulder, cottage roll, lean and fat, unheated","豬肉(醃製火腿,肩肉,鄉村卷,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham, slice, bone-in, separable lean and fat, heated, pan-broil","豬肉(醃製火腿,切片,連骨,瘦肉連脂肪,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham, slice, bone-in, separable lean and fat, unheated","豬肉(醃製火腿,切片,連骨,瘦肉連脂肪,未加熱)",batch-032
+"Pork, cured, ham, slice, bone-in, separable lean only, heated, pan-broil","豬肉(醃製火腿,切片,連骨,只計瘦肉,加熱,平底鍋煎)",batch-032
+"Pork, cured, ham, slice, bone-in, separable lean only, unheated","豬肉(醃製火腿,切片,連骨,只計瘦肉,未加熱)",batch-032
+"Pork, cured, ham, steak, boneless, extra lean, unheated","豬肉(醃製火腿,厚切扒,去骨,特瘦,未加熱)",batch-032
+"Pork, cured, ham, whole, lean","豬肉(醃製火腿,整隻,瘦肉)",batch-032
+"Pork, cured, ham, whole, lean and fat","豬肉(醃製火腿,整隻,瘦肉連脂肪)",batch-032
+"Pork, cured, ham, whole, lean, bone-in, unheated","豬肉(醃製火腿,整隻,瘦肉,連骨,未加熱)",batch-032
+"Pork, cured, salt pork, raw","豬肉(醃製鹽豬肉,生)",batch-032
+"Pork, cured, shoulder, blade roll, separable lean and fat, roasted","豬肉(醃製肩肉,肩胛卷,瘦肉連脂肪,烤)",batch-032
 "Pork, diced, casseroled, lean","豬肉粒(燉,瘦肉)",batch-010
 "Pork, diced, casseroled, lean and fat","豬肉粒(燉,瘦肉連肥肉)",batch-010
 "Pork, diced, kebabs, grilled, lean","豬肉粒串(燒烤,瘦肉)",batch-010
@@ -9675,8 +9868,12 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, diced, raw, lean and fat","豬肉粒(生,瘦肉連肥肉)",batch-010
 "Pork, diced, untrimmed, fried, no added fat","豬肉粒(未經削切,炸,無添加脂肪)",batch-002
 "Pork, diced, untrimmed, raw","豬肉粒(未經削切,生)",batch-002
+"Pork, ears, frozen, raw","豬耳(冷凍,生)",batch-032
+"Pork, ears, frozen, simmered","豬耳(冷凍,燉煮)",batch-032
 "Pork, fat, average, cooked","豬脂肪(平均,熟)",batch-010
 "Pork, fat, average, raw","豬脂肪(平均,生)",batch-010
+"Pork, feet, raw",豬腳(生),batch-032
+"Pork, feet, simmered",豬腳(燉煮),batch-032
 "Pork, fillet medallions, grilled lean","豬柳圓片(燒烤,瘦肉)",batch-010
 "Pork, fillet medallions, grilled, lean and fat","豬柳圓片(燒烤,瘦肉連肥肉)",batch-010
 "Pork, fillet medallions, raw, lean","豬柳圓片(生,瘦肉)",batch-010
@@ -9691,9 +9888,78 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, forequarter shoulder roast, lean, raw","豬前腿肩烤肉塊(瘦肉,生)",batch-002
 "Pork, forequarter shoulder roast, untrimmed, BBQ'd, no added fat","豬前腿肩烤肉塊(未經削切,戶外燒烤,無添加脂肪)",batch-002
 "Pork, forequarter shoulder roast, untrimmed, raw","豬前腿肩烤肉塊(未經削切,生)",batch-002
+"Pork, fresh, backfat, raw","豬肉(新鮮,背脂,生)",batch-032
+"Pork, fresh, belly, raw","豬肉(新鮮,五花腩,生)",batch-032
+"Pork, fresh, blade, (chops), boneless, separable lean and fat, cooked, broiled","豬肉(新鮮,肩胛(扒),去骨,瘦肉連脂肪,熟,燒烤)",batch-032
+"Pork, fresh, composite of separable fat, with added solution, cooked","豬肉(新鮮,可分離脂肪綜合,加入溶液,熟)",batch-032
+"Pork, fresh, composite of separable fat, with added solution, raw","豬肉(新鮮,可分離脂肪綜合,加入溶液,生)",batch-032
+"Pork, fresh, composite of trimmed leg, loin, shoulder, and spareribs, (includes cuts to be cured), separable lean and fat, raw","豬肉(新鮮,削切腿肉,腰肉,肩肉及腩排綜合(包括待醃製部位),瘦肉連脂肪,生)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (leg, loin, and shoulder), separable lean only, cooked","豬肉(新鮮,削切零售部位綜合(腿肉,腰肉及肩肉),只計瘦肉,熟)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder), separable lean only, raw","豬肉(新鮮,削切零售部位綜合(腿肉,腰肉,肩肉),只計瘦肉,生)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder, and spareribs), separable lean and fat, cooked","豬肉(新鮮,削切零售部位綜合(腿肉,腰肉,肩肉及腩排),瘦肉連脂肪,熟)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (leg, loin, shoulder, and spareribs), separable lean and fat, raw","豬肉(新鮮,削切零售部位綜合(腿肉,腰肉,肩肉及腩排),瘦肉連脂肪,生)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean and fat, cooked","豬肉(新鮮,削切零售部位綜合(腰肉及肩胛),瘦肉連脂肪,熟)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean and fat, raw","豬肉(新鮮,削切零售部位綜合(腰肉及肩胛),瘦肉連脂肪,生)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean only, cooked","豬肉(新鮮,削切零售部位綜合(腰肉及肩胛),只計瘦肉,熟)",batch-032
+"Pork, fresh, composite of trimmed retail cuts (loin and shoulder blade), separable lean only, raw","豬肉(新鮮,削切零售部位綜合(腰肉及肩胛),只計瘦肉,生)",batch-032
+"Pork, fresh, enhanced, loin, tenderloin, separable lean only, raw","豬肉(新鮮,調味增強,腰肉,豬柳,只計瘦肉,生)",batch-032
+"Pork, fresh, loin, blade (chops or roasts), bone-in, separable lean and fat, raw","豬肉(新鮮,腰肉,肩胛(扒或烤肉塊),連骨,瘦肉連脂肪,生)",batch-032
+"Pork, fresh, loin, blade (chops or roasts), bone-in, separable lean only, raw","豬肉(新鮮,腰肉,肩胛(扒或烤肉塊),連骨,只計瘦肉,生)",batch-032
+"Pork, fresh, loin, blade (chops or roasts), boneless, separable lean and fat only, raw","豬肉(新鮮,腰肉,肩胛(扒或烤肉塊),去骨,只計瘦肉連脂肪,生)",batch-032
+"Pork, fresh, loin, blade (chops or roasts), boneless, separable lean only, raw","豬肉(新鮮,腰肉,肩胛(扒或烤肉塊),去骨,只計瘦肉,生)",batch-032
+"Pork, fresh, loin, blade (chops), bone-in, separable lean and fat, cooked, braised","豬肉(新鮮,腰肉,肩胛(扒),連骨,瘦肉連脂肪,熟,炆)",batch-032
+"Pork, fresh, loin, blade (chops), bone-in, separable lean and fat, cooked, broiled","豬肉(新鮮,腰肉,肩胛(扒),連骨,瘦肉連脂肪,熟,燒烤)",batch-032
+"Pork, fresh, loin, blade (chops), bone-in, separable lean and fat, cooked, pan-fried","豬肉(新鮮,腰肉,肩胛(扒),連骨,瘦肉連脂肪,熟,煎)",batch-032
+"Pork, fresh, loin, blade (chops), bone-in, separable lean only, cooked, braised","豬肉(新鮮,腰肉,肩胛(扒),連骨,只計瘦肉,熟,炆)",batch-032
+"Pork, fresh, loin, blade (chops), bone-in, separable lean only, cooked, broiled","豬肉(新鮮,腰肉,肩胛(扒),連骨,只計瘦肉,熟,燒烤)",batch-032
+"Pork, fresh, loin, blade (chops), bone-in, separable lean only, cooked, pan-fried","豬肉(新鮮,腰肉,肩胛(扒),連骨,只計瘦肉,熟,煎)",batch-032
+"Pork, fresh, loin, blade (chops), boneless, separable lean only, boneless, cooked, broiled","豬肉(新鮮,腰肉,肩胛(扒),去骨,只計瘦肉,熟,燒烤)",batch-032
+"Pork, fresh, loin, blade (roasts), bone-in, separable lean and fat, cooked, roasted","豬肉(新鮮,腰肉,肩胛(烤肉塊),連骨,瘦肉連脂肪,熟,烤)",batch-032
+"Pork, fresh, loin, blade (roasts), bone-in, separable lean only, cooked, roasted","豬肉(新鮮,腰肉,肩胛(烤肉塊),連骨,只計瘦肉,熟,烤)",batch-032
+"Pork, fresh, loin, blade (roasts), boneless, separable lean and fat, cooked, roasted","豬肉(新鮮,腰肉,肩胛(烤肉塊),去骨,瘦肉連脂肪,熟,烤)",batch-032
+"Pork, fresh, loin, blade (roasts), boneless, separable lean only, cooked, roasted","豬肉(新鮮,腰肉,肩胛(烤肉塊),去骨,只計瘦肉,熟,烤)",batch-032
+"Pork, fresh, loin, country-style ribs, separable lean and fat, bone-in, cooked, broiled","豬肉(新鮮,腰肉,鄉村式肋排,瘦肉連脂肪,連骨,熟,燒烤)",batch-032
+"Pork, fresh, loin, country-style ribs, separable lean and fat, boneless, cooked, broiled","豬肉(新鮮,腰肉,鄉村式肋排,瘦肉連脂肪,去骨,熟,燒烤)",batch-032
+"Pork, fresh, loin, country-style ribs, separable lean and fat, boneless, cooked, roasted","豬肉(新鮮,腰肉,鄉村式肋排,瘦肉連脂肪,去骨,熟,烤)",batch-032
+"Pork, fresh, loin, country-style ribs, separable lean only, bone-in, cooked, broiled","豬肉(新鮮,腰肉,鄉村式肋排,只計瘦肉,連骨,熟,燒烤)",batch-032
+"Pork, fresh, loin, country-style ribs, separable lean only, boneless, cooked, broiled","豬肉(新鮮,腰肉,鄉村式肋排,只計瘦肉,去骨,熟,燒烤)",batch-032
+"Pork, fresh, loin, country-style ribs, separable lean only, boneless, cooked, roasted","豬肉(新鮮,腰肉,鄉村式肋排,只計瘦肉,去骨,熟,烤)",batch-032
+"Pork, fresh, loin, tenderloin, separable lean and fat, with added solution, cooked, roasted","豬肉(新鮮,腰肉,豬柳,瘦肉連脂肪,加入溶液,熟,烤)",batch-032
+"Pork, fresh, loin, tenderloin, separable lean and fat, with added solution, raw","豬肉(新鮮,腰肉,豬柳,瘦肉連脂肪,加入溶液,生)",batch-032
+"Pork, fresh, loin, tenderloin, separable lean only, with added solution, cooked, roasted","豬肉(新鮮,腰肉,豬柳,只計瘦肉,加入溶液,熟,烤)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean and fat, cooked, braised","豬肉(新鮮,腰肉,上腰肉(扒),去骨,瘦肉連脂肪,熟,炆)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean and fat, cooked, broiled","豬肉(新鮮,腰肉,上腰肉(扒),去骨,瘦肉連脂肪,熟,燒烤)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean and fat, cooked, pan-fried","豬肉(新鮮,腰肉,上腰肉(扒),去骨,瘦肉連脂肪,熟,煎)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean and fat, raw","豬肉(新鮮,腰肉,上腰肉(扒),去骨,瘦肉連脂肪,生)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean and fat, with added solution, cooked, broiled","豬肉(新鮮,腰肉,上腰肉(扒),去骨,瘦肉連脂肪,加入溶液,熟,燒烤)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean and fat, with added solution, cooked, pan-broiled","豬肉(新鮮,腰肉,上腰肉(扒),去骨,瘦肉連脂肪,加入溶液,熟,平底鍋燒烤)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean and fat, with added solution, raw","豬肉(新鮮,腰肉,上腰肉(扒),去骨,瘦肉連脂肪,加入溶液,生)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean only, cooked, braised","豬肉(新鮮,腰肉,上腰肉(扒),去骨,只計瘦肉,熟,炆)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean only, cooked, broiled","豬肉(新鮮,腰肉,上腰肉(扒),去骨,只計瘦肉,熟,燒烤)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean only, cooked, pan-fried","豬肉(新鮮,腰肉,上腰肉(扒),去骨,只計瘦肉,熟,煎)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean only, raw","豬肉(新鮮,腰肉,上腰肉(扒),去骨,只計瘦肉,生)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean only, with added solution, cooked, broiled","豬肉(新鮮,腰肉,上腰肉(扒),去骨,只計瘦肉,加入溶液,熟,燒烤)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean only, with added solution, cooked, pan-broiled","豬肉(新鮮,腰肉,上腰肉(扒),去骨,只計瘦肉,加入溶液,熟,平底鍋燒烤)",batch-032
+"Pork, fresh, loin, top loin (chops), boneless, separable lean only, with added solution, raw","豬肉(新鮮,腰肉,上腰肉(扒),去骨,只計瘦肉,加入溶液,生)",batch-032
+"Pork, fresh, shoulder, (Boston butt), blade (steaks), separable lean and fat, with added solution, cooked, braised","豬肉(新鮮,肩肉,(梅頭),肩胛(厚切扒),瘦肉連脂肪,加入溶液,熟,炆)",batch-032
+"Pork, fresh, shoulder, (Boston butt), blade (steaks), separable lean and fat,with added solution, raw","豬肉(新鮮,肩肉,(梅頭),肩胛(厚切扒),瘦肉連脂肪,加入溶液,生)",batch-032
+"Pork, fresh, shoulder, (Boston butt), blade (steaks), separable lean only, with added solution cooked, braised","豬肉(新鮮,肩肉,(梅頭),肩胛(厚切扒),只計瘦肉,加入溶液,熟,炆)",batch-032
+"Pork, fresh, shoulder, (Boston butt), blade (steaks), separable lean only, with added solution, raw","豬肉(新鮮,肩肉,(梅頭),肩胛(厚切扒),只計瘦肉,加入溶液,生)",batch-032
+"Pork, fresh, spareribs, separable lean and fat, cooked, braised","豬肉(新鮮,腩排,瘦肉連脂肪,熟,炆)",batch-032
+"Pork, fresh, spareribs, separable lean and fat, cooked, roasted","豬肉(新鮮,腩排,瘦肉連脂肪,熟,烤)",batch-032
+"Pork, fresh, spareribs, separable lean and fat, raw","豬肉(新鮮,腩排,瘦肉連脂肪,生)",batch-032
 "Pork, gelatin",豬肉凍,batch-016
 "Pork, ground meat, raw",免治豬肉(生),batch-016
 "Pork, ground meat, stir-fried",免治豬肉(炒),batch-016
+"Pork, ground, 72% lean / 28% fat, cooked, crumbles","免治豬肉(72%瘦肉,28%脂肪,熟,炒碎)",batch-032
+"Pork, ground, 84% lean / 16% fat, cooked, crumbles","免治豬肉(84%瘦肉,16%脂肪,熟,炒碎)",batch-032
+"Pork, ground, 96% lean / 4% fat, cooked, crumbles","免治豬肉(96%瘦肉,4%脂肪,熟,炒碎)",batch-032
+"Pork, ground, 96% lean / 4% fat, cooked, pan-broiled","免治豬肉(96%瘦肉,4%脂肪,熟,平底鍋燒烤)",batch-032
+"Pork, ground, 96% lean / 4% fat, raw","免治豬肉(96%瘦肉,4%脂肪,生)",batch-032
+"Pork, ground, lean, pan-fried","免治豬肉(瘦,煎)",batch-032
+"Pork, ground, lean, raw","免治豬肉(瘦,生)",batch-032
+"Pork, ground, medium, pan-fried","免治豬肉(中等肥瘦,煎)",batch-032
+"Pork, ground, medium, raw","免治豬肉(中等肥瘦,生)",batch-032
 "Pork, ground, raw",免治豬肉(生),batch-019
 "Pork, ham, bone-in",火腿(連骨),batch-016
 "Pork, ham, boneless",火腿(去骨),batch-016
@@ -9707,6 +9973,13 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, hand, shoulder joint, raw, lean and fat","豬前腿肩烤肉塊(生,瘦肉連肥肉)",batch-010
 "Pork, hand, shoulder joint, roasted, lean","豬前腿肩烤肉塊(烤,瘦肉)",batch-010
 "Pork, hand, shoulder joint, roasted, lean and fat","豬前腿肩烤肉塊(烤,瘦肉連肥肉)",batch-010
+"Pork, heart, braised",豬心(炆),batch-032
+"Pork, heart, raw",豬心(生),batch-032
+"Pork, intestine (chitterlings), raw",豬大腸(生),batch-032
+"Pork, intestine (chitterlings), simmered",豬大腸(燉煮),batch-032
+"Pork, jowl, raw",豬面頰肉(生),batch-032
+"Pork, kidney, braised",豬腰(炆),batch-032
+"Pork, kidney, raw",豬腰(生),batch-032
 "Pork, large type breed, Boston butt, fat, raw","豬梅頭肉(大型種,肥肉,生)",batch-016
 "Pork, large type breed, Boston butt, lean and fat, raw","豬梅頭肉(大型種,連肥肉,生)",pilot
 "Pork, large type breed, Boston butt, lean, raw","豬梅頭肉(大型種,瘦肉,生)",batch-016
@@ -9737,6 +10010,8 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, large type breed, picnic shoulder, lean and fat, raw","豬前腿肉(大型種,瘦肉連肥肉,生)",batch-016
 "Pork, large type breed, picnic shoulder, lean, raw","豬前腿肉(大型種,瘦肉,生)",batch-016
 "Pork, large type breed, picnic shoulder, without subcutaneous fat, raw","豬前腿肉(大型種,無皮下脂肪,生)",batch-016
+"Pork, leaf fat, raw",豬板油(生),batch-032
+"Pork, lean and fat, raw","豬肉(瘦肉連脂肪,生)",batch-032
 "Pork, lean, average, raw","豬肉(瘦肉,平均,生)",batch-010
 "Pork, leg joint, raw, lean","豬腿烤肉塊(生,瘦肉)",batch-010
 "Pork, leg joint, raw, lean and fat","豬腿烤肉塊(生,瘦肉連肥肉)",batch-010
@@ -9745,7 +10020,21 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, leg joint, roasted, lean and fat","豬腿烤肉塊(烤,瘦肉連肥肉)",batch-010
 "Pork, leg joint, roasted, lean and fat, trimmed","豬腿烤肉塊(烤,瘦肉連肥肉,已修脂)",batch-010
 "Pork, leg roast, untrimmed, raw","豬腿烤肉塊(未經削切,生)",batch-002
+"Pork, leg, butt portion, lean and fat, raw","豬腿(臀部,瘦肉連脂肪,生)",batch-032
+"Pork, leg, butt portion, lean and fat, roasted","豬腿(臀部,瘦肉連脂肪,烤)",batch-032
+"Pork, leg, butt portion, lean, raw","豬腿(臀部,瘦肉,生)",batch-032
+"Pork, leg, butt portion, lean, roasted","豬腿(臀部,瘦肉,烤)",batch-032
+"Pork, leg, shank portion, lean and fat, raw","豬腿(腱部,瘦肉連脂肪,生)",batch-032
+"Pork, leg, shank portion, lean and fat, roasted","豬腿(腱部,瘦肉連脂肪,烤)",batch-032
+"Pork, leg, shank portion, lean, raw","豬腿(腱部,瘦肉,生)",batch-032
+"Pork, leg, shank portion, lean, roasted","豬腿(腱部,瘦肉,烤)",batch-032
+"Pork, leg, whole, lean and fat, raw","豬腿(整隻,瘦肉連脂肪,生)",batch-032
+"Pork, leg, whole, lean and fat, roasted","豬腿(整隻,瘦肉連脂肪,烤)",batch-032
+"Pork, leg, whole, lean, raw","豬腿(整隻,瘦肉,生)",batch-032
+"Pork, leg, whole, lean, roasted","豬腿(整隻,瘦肉,烤)",batch-032
 "Pork, liver paste",豬肝醬,batch-016
+"Pork, liver, braised",豬肝(炆),batch-032
+"Pork, liver, raw",豬肝(生),batch-032
 "Pork, loin chop, lean, BBQ'd, no added fat","豬腰脊扒(瘦肉,戶外燒烤,無添加脂肪)",batch-002
 "Pork, loin chop, lean, raw","豬腰脊扒(瘦肉,生)",batch-002
 "Pork, loin chop, untrimmed, raw","豬腰脊扒(未經削切,生)",batch-002
@@ -9778,7 +10067,85 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, loin steaks, stewed, lean","豬腰脊肉排(炆,瘦肉)",batch-010
 "Pork, loin steaks, stewed, lean and fat","豬腰脊肉排(炆,瘦肉連肥肉)",batch-010
 "Pork, loin, boneless, raw","豬腰脊肉(去骨,生)",batch-019
+"Pork, loin, centre cut (centre chop), bone in, lean and fat, braised","豬腰肉(中段(中段扒),連骨,瘦肉連脂肪,炆)",batch-032
+"Pork, loin, centre cut (centre chop), bone-in, lean and fat, broiled","豬腰肉(中段(中段扒),連骨,瘦肉連脂肪,燒烤)",batch-032
+"Pork, loin, centre cut (centre chop), bone-in, lean and fat, pan-fried","豬腰肉(中段(中段扒),連骨,瘦肉連脂肪,煎)",batch-032
+"Pork, loin, centre cut (centre chop), bone-in, lean and fat, raw","豬腰肉(中段(中段扒),連骨,瘦肉連脂肪,生)",batch-032
+"Pork, loin, centre cut (centre chop), bone-in, lean and fat, roasted","豬腰肉(中段(中段扒),連骨,瘦肉連脂肪,烤)",batch-032
+"Pork, loin, centre cut (centre chop), bone-in, lean, braised","豬腰肉(中段(中段扒),連骨,瘦肉,炆)",batch-032
+"Pork, loin, centre cut (centre chop), bone-in, lean, broiled","豬腰肉(中段(中段扒),連骨,瘦肉,燒烤)",batch-032
+"Pork, loin, centre cut (centre chop), bone-in, lean, pan-fried","豬腰肉(中段(中段扒),連骨,瘦肉,煎)",batch-032
+"Pork, loin, centre cut (centre chop), bone-in, lean, raw","豬腰肉(中段(中段扒),連骨,瘦肉,生)",batch-032
+"Pork, loin, centre cut (centre chop), bone-in, lean, roasted","豬腰肉(中段(中段扒),連骨,瘦肉,烤)",batch-032
+"Pork, loin, centre cut (centre steak), boneless, lean and fat, broiled","豬腰肉(中段(中段厚切扒),去骨,瘦肉連脂肪,燒烤)",batch-032
+"Pork, loin, centre cut (centre steak), boneless, lean and fat, raw","豬腰肉(中段(中段厚切扒),去骨,瘦肉連脂肪,生)",batch-032
+"Pork, loin, centre cut (centre steak), boneless, lean, broiled","豬腰肉(中段(中段厚切扒),去骨,瘦肉,燒烤)",batch-032
+"Pork, loin, centre cut (centre steak), boneless, lean, raw","豬腰肉(中段(中段厚切扒),去骨,瘦肉,生)",batch-032
+"Pork, loin, leg cap steak, boneless, separable lean and fat, cooked, broiled","豬腰肉(腿肉蓋扒,去骨,可分離瘦肉連脂肪,熟,燒烤)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean and fat, braised","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉連脂肪,炆)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean and fat, broiled","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉連脂肪,燒烤)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean and fat, pan-fried","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉連脂肪,煎)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean and fat, raw","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉連脂肪,生)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean and fat, roasted","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉連脂肪,烤)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean, braised","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉,炆)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean, broiled","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉,燒烤)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean, pan-fried","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉,煎)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean, raw","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉,生)",batch-032
+"Pork, loin, rib chop (rib end), bone-in, lean, roasted","豬腰肉(肋骨扒(肋骨端),連骨,瘦肉,烤)",batch-032
+"Pork, loin, rib half (country-style ribs), lean and fat, braised","豬腰肉(肋骨半邊(鄉村式肋排),瘦肉連脂肪,炆)",batch-032
+"Pork, loin, rib half (country-style ribs), lean and fat, raw","豬腰肉(肋骨半邊(鄉村式肋排),瘦肉連脂肪,生)",batch-032
+"Pork, loin, rib half (country-style ribs), lean and fat, roasted","豬腰肉(肋骨半邊(鄉村式肋排),瘦肉連脂肪,烤)",batch-032
+"Pork, loin, rib half (country-style ribs), lean, braised","豬腰肉(肋骨半邊(鄉村式肋排),瘦肉,炆)",batch-032
+"Pork, loin, rib half (country-style ribs), lean, raw","豬腰肉(肋骨半邊(鄉村式肋排),瘦肉,生)",batch-032
+"Pork, loin, rib half (country-style ribs), lean, roasted","豬腰肉(肋骨半邊(鄉村式肋排),瘦肉,烤)",batch-032
+"Pork, loin, rib roast, boneless, lean and fat, raw","豬腰肉(肋骨烤肉塊,去骨,瘦肉連脂肪,生)",batch-032
+"Pork, loin, rib roast, boneless, lean and fat, roasted","豬腰肉(肋骨烤肉塊,去骨,瘦肉連脂肪,烤)",batch-032
+"Pork, loin, rib roast, boneless, lean, raw","豬腰肉(肋骨烤肉塊,去骨,瘦肉,生)",batch-032
+"Pork, loin, rib roast, boneless, lean, roasted","豬腰肉(肋骨烤肉塊,去骨,瘦肉,烤)",batch-032
+"Pork, loin, rib steak (rib end), boneless, lean and fat, braised","豬腰肉(肋骨厚切扒(肋骨端),去骨,瘦肉連脂肪,炆)",batch-032
+"Pork, loin, rib steak (rib end), boneless, lean and fat, broiled","豬腰肉(肋骨厚切扒(肋骨端),去骨,瘦肉連脂肪,燒烤)",batch-032
+"Pork, loin, rib steak (rib end), boneless, lean and fat, pan-fried","豬腰肉(肋骨厚切扒(肋骨端),去骨,瘦肉連脂肪,煎)",batch-032
+"Pork, loin, rib steak (rib end), boneless, lean, braised","豬腰肉(肋骨厚切扒(肋骨端),去骨,瘦肉,炆)",batch-032
+"Pork, loin, rib steak (rib end), boneless, lean, broiled","豬腰肉(肋骨厚切扒(肋骨端),去骨,瘦肉,燒烤)",batch-032
+"Pork, loin, rib steak (rib end), boneless, lean, pan-fried","豬腰肉(肋骨厚切扒(肋骨端),去骨,瘦肉,煎)",batch-032
+"Pork, loin, sirloin chop, bone-in , lean and fat, braised","豬腰肉(後腰脊扒,連骨,瘦肉連脂肪,炆)",batch-032
+"Pork, loin, sirloin chop, bone-in, lean and fat, broiled","豬腰肉(後腰脊扒,連骨,瘦肉連脂肪,燒烤)",batch-032
+"Pork, loin, sirloin chop, bone-in, lean and fat, raw","豬腰肉(後腰脊扒,連骨,瘦肉連脂肪,生)",batch-032
+"Pork, loin, sirloin chop, bone-in, lean and fat, roasted","豬腰肉(後腰脊扒,連骨,瘦肉連脂肪,烤)",batch-032
+"Pork, loin, sirloin chop, bone-in, lean, braised","豬腰肉(後腰脊扒,連骨,瘦肉,炆)",batch-032
+"Pork, loin, sirloin chop, bone-in, lean, broiled","豬腰肉(後腰脊扒,連骨,瘦肉,燒烤)",batch-032
+"Pork, loin, sirloin chop, bone-in, lean, raw","豬腰肉(後腰脊扒,連骨,瘦肉,生)",batch-032
+"Pork, loin, sirloin chop, bone-in, lean, roasted","豬腰肉(後腰脊扒,連骨,瘦肉,烤)",batch-032
+"Pork, loin, sirloin roast, boneless, lean and fat, raw","豬腰肉(後腰脊烤肉塊,去骨,瘦肉連脂肪,生)",batch-032
+"Pork, loin, sirloin roast, boneless, lean and fat, roasted","豬腰肉(後腰脊烤肉塊,去骨,瘦肉連脂肪,烤)",batch-032
+"Pork, loin, sirloin roast, boneless, lean, raw","豬腰肉(後腰脊烤肉塊,去骨,瘦肉,生)",batch-032
+"Pork, loin, sirloin roast, boneless, lean, roasted","豬腰肉(後腰脊烤肉塊,去骨,瘦肉,烤)",batch-032
+"Pork, loin, sirloin steak, boneless, lean and fat, braised","豬腰肉(後腰脊厚切扒,去骨,瘦肉連脂肪,炆)",batch-032
+"Pork, loin, sirloin steak, boneless, lean and fat, broiled","豬腰肉(後腰脊厚切扒,去骨,瘦肉連脂肪,燒烤)",batch-032
+"Pork, loin, sirloin steak, boneless, lean and fat, raw","豬腰肉(後腰脊厚切扒,去骨,瘦肉連脂肪,生)",batch-032
+"Pork, loin, sirloin steak, boneless, lean and fat, roasted","豬腰肉(後腰脊厚切扒,去骨,瘦肉連脂肪,烤)",batch-032
+"Pork, loin, sirloin steak, boneless, lean, braised","豬腰肉(後腰脊厚切扒,去骨,瘦肉,炆)",batch-032
+"Pork, loin, sirloin steak, boneless, lean, broiled","豬腰肉(後腰脊厚切扒,去骨,瘦肉,燒烤)",batch-032
+"Pork, loin, sirloin steak, boneless, lean, raw","豬腰肉(後腰脊厚切扒,去骨,瘦肉,生)",batch-032
+"Pork, loin, sirloin steak, boneless, lean, roasted","豬腰肉(後腰脊厚切扒,去骨,瘦肉,烤)",batch-032
 "Pork, loin, tenderloin, boneless, raw","豬柳(去骨,生)",batch-019
+"Pork, loin, tenderloin, lean and fat, broiled","豬腰肉(豬柳,瘦肉連脂肪,燒烤)",batch-032
+"Pork, loin, tenderloin, lean and fat, raw","豬腰肉(豬柳,瘦肉連脂肪,生)",batch-032
+"Pork, loin, tenderloin, lean and fat, roasted","豬腰肉(豬柳,瘦肉連脂肪,烤)",batch-032
+"Pork, loin, tenderloin, lean, broiled","豬腰肉(豬柳,瘦肉,燒烤)",batch-032
+"Pork, loin, tenderloin, lean, raw","豬腰肉(豬柳,瘦肉,生)",batch-032
+"Pork, loin, tenderloin, lean, roasted","豬腰肉(豬柳,瘦肉,烤)",batch-032
+"Pork, loin, whole, lean and fat, braised","豬腰肉(整條,瘦肉連脂肪,炆)",batch-032
+"Pork, loin, whole, lean and fat, broiled","豬腰肉(整條,瘦肉連脂肪,燒烤)",batch-032
+"Pork, loin, whole, lean and fat, raw","豬腰肉(整條,瘦肉連脂肪,生)",batch-032
+"Pork, loin, whole, lean and fat, roasted","豬腰肉(整條,瘦肉連脂肪,烤)",batch-032
+"Pork, loin, whole, lean, braised","豬腰肉(整條,瘦肉,炆)",batch-032
+"Pork, loin, whole, lean, broiled","豬腰肉(整條,瘦肉,燒烤)",batch-032
+"Pork, loin, whole, lean, raw","豬腰肉(整條,瘦肉,生)",batch-032
+"Pork, loin, whole, lean, roasted","豬腰肉(整條,瘦肉,烤)",batch-032
+"Pork, lungs, braised",豬肺(炆),batch-032
+"Pork, lungs, raw",豬肺(生),batch-032
+"Pork, mechanically separated, raw",機械分離豬肉(生),batch-032
 "Pork, medallion or loin steak, lean, fried, no added fat","豬扒或腰脊肉排(瘦肉,炸,無添加脂肪)",batch-002
 "Pork, medallion or loin steak, lean, raw","豬扒或腰脊肉排(瘦肉,生)",batch-002
 "Pork, medallion or loin steak, separable fat, fried, no added fat","豬扒或腰脊肉排(可分離脂肪,炸,無添加脂肪)",batch-002
@@ -9820,6 +10187,10 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, offal and by-products, stomach, boiled","豬肚(內臟,煮)",batch-016
 "Pork, offal and by-products, tongue, raw","豬脷(內臟,生)",batch-016
 "Pork, offal and by-products, uterus, raw","豬子宮(內臟,生)",batch-016
+"Pork, oriental style, dehydrated",東方風味豬肉(脫水),batch-032
+"Pork, pancreas, braised",豬胰臟(炆),batch-032
+"Pork, pancreas, raw",豬胰臟(生),batch-032
+"Pork, pickled pork hocks",醋漬豬手,batch-032
 "Pork, round mini roast, lean, baked, no added fat","豬後腿迷你烤肉塊(瘦肉,焗,無添加脂肪)",batch-002
 "Pork, round mini roast, lean, raw","豬後腿迷你烤肉塊(瘦肉,生)",batch-002
 "Pork, round mini roast, separable fat, baked, no added fat","豬後腿迷你烤肉塊(可分離脂肪,焗,無添加脂肪)",batch-002
@@ -9843,6 +10214,8 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, scotch roast, separable fat, raw","豬頸肉烤肉塊(可分離脂肪,生)",batch-002
 "Pork, scotch roast, untrimmed, baked, no added fat","豬頸肉烤肉塊(未經削切,焗,無添加脂肪)",batch-002
 "Pork, scotch roast, untrimmed, raw","豬頸肉烤肉塊(未經削切,生)",batch-002
+"Pork, separable fat, cooked","豬肉(可分離脂肪,熟)",batch-032
+"Pork, separable fat, raw","豬肉(可分離脂肪,生)",batch-032
 "Pork, shoulder bacon",豬肩煙肉,batch-016
 "Pork, shoulder chops (collar), braised, lean","豬肩扒(梅頭,炆,瘦肉)",batch-010
 "Pork, shoulder chops (collar), braised, lean and fat","豬肩扒(梅頭,炆,瘦肉連肥肉)",batch-010
@@ -9857,6 +10230,25 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, shoulder steaks (collar), grilled, lean and fat, weighed with bone","豬肩肉排(梅頭,燒烤,瘦肉連肥肉,連骨稱重)",batch-010
 "Pork, shoulder steaks (collar), raw, lean and fat","豬肩肉排(梅頭,生,瘦肉連肥肉)",batch-010
 "Pork, shoulder steaks (collar), raw, lean and fat, weighed with bone","豬肩肉排(梅頭,生,瘦肉連肥肉,連骨稱重)",batch-010
+"Pork, shoulder, blade portion, bone-in, lean and fat, braised","豬肩(肩胛部分,連骨,瘦肉連脂肪,炆)",batch-032
+"Pork, shoulder, blade portion, bone-in, lean and fat, broiled","豬肩(肩胛部分,連骨,瘦肉連脂肪,燒烤)",batch-032
+"Pork, shoulder, blade portion, bone-in, lean and fat, roasted","豬肩(肩胛部分,連骨,瘦肉連脂肪,烤)",batch-032
+"Pork, shoulder, blade portion, bone-in, lean, braised","豬肩(肩胛部分,連骨,瘦肉,炆)",batch-032
+"Pork, shoulder, blade portion, bone-in, lean, broiled","豬肩(肩胛部分,連骨,瘦肉,燒烤)",batch-032
+"Pork, shoulder, blade portion, bone-in, lean, raw","豬肩(肩胛部分,連骨,瘦肉,生)",batch-032
+"Pork, shoulder, butt (blade boneless), lean, roasted","豬肩(梅頭(肩胛去骨),瘦肉,烤)",batch-032
+"Pork, shoulder, butt, blade (boneless), lean and fat, raw","豬肩(梅頭,肩胛(去骨),瘦肉連脂肪,生)",batch-032
+"Pork, shoulder, petite tender, boneless, separable lean and fat, cooked, broiled","豬肩(肩小柳,去骨,可分離瘦肉連脂肪,熟,燒烤)",batch-032
+"Pork, shoulder, picnic (arm), lean and fat, braised","豬肩(前臂肩(上臂),瘦肉連脂肪,炆)",batch-032
+"Pork, shoulder, picnic (arm), lean and fat, raw","豬肩(前臂肩(上臂),瘦肉連脂肪,生)",batch-032
+"Pork, shoulder, picnic (arm), lean and fat, roasted","豬肩(前臂肩(上臂),瘦肉連脂肪,烤)",batch-032
+"Pork, shoulder, picnic (arm), lean, braised","豬肩(前臂肩(上臂),瘦肉,炆)",batch-032
+"Pork, shoulder, picnic (arm), lean, raw","豬肩(前臂肩(上臂),瘦肉,生)",batch-032
+"Pork, shoulder, picnic (arm), lean, roasted","豬肩(前臂肩(上臂),瘦肉,烤)",batch-032
+"Pork, shoulder, whole, lean and fat, raw","豬肩(整隻,瘦肉連脂肪,生)",batch-032
+"Pork, shoulder, whole, lean and fat, roasted","豬肩(整隻,瘦肉連脂肪,烤)",batch-032
+"Pork, shoulder, whole, lean, raw","豬肩(整隻,瘦肉,生)",batch-032
+"Pork, shoulder, whole, lean, roasted","豬肩(整隻,瘦肉,烤)",batch-032
 "Pork, smoked liver",煙燻豬肝,batch-016
 "Pork, spare ribs, 'barbecue style', homemade",燒烤式豬肋骨(自家製),batch-010
 "Pork, spare ribs, 'barbecue style', homemade, weighed with bone","燒烤式豬肋骨(自家製,連骨稱重)",batch-010
@@ -9869,12 +10261,20 @@ Pork scratchings,豬皮脆,batch-011
 "Pork, spare ribs, raw, lean and fat","豬肋骨(生,瘦肉連肥肉)",batch-010
 "Pork, spare ribs, untrimmed, baked, no added fat","豬排骨(未經削切,焗,無添加脂肪)",batch-002
 "Pork, spare ribs, untrimmed, raw","豬排骨(未經削切,生)",batch-002
+"Pork, spleen, braised",豬脾(炆),batch-032
+"Pork, spleen, raw",豬脾(生),batch-032
 "Pork, stir-fried with vegetables, homemade",蔬菜炒豬肉(自家製),batch-010
+"Pork, stomach, raw",豬肚(生),batch-032
 "Pork, strips, untrimmed, fried, no added fat","豬肉條(未經削切,炸,無添加脂肪)",batch-002
 "Pork, strips, untrimmed, raw","豬肉條(未經削切,生)",batch-002
 "Pork, sweet and sour, made with lean pork, homemade","咕嚕肉(以瘦豬肉製,自家製)",batch-010
 "Pork, sweet and sour, made with sweet and sour cook in sauce",咕嚕肉(以糖醋即煮醬汁製),batch-010
+"Pork, tail, raw",豬尾(生),batch-032
+"Pork, tail, simmered",豬尾(燉煮),batch-032
+"Pork, tongue, braised",豬脷(炆),batch-032
+"Pork, tongue, raw",豬脷(生),batch-032
 "Pork, trotters and tails, boiled with added salt","豬手及豬尾(烚,有鹽)",batch-010
+"Pork, variety meats and by-products, stomach, cooked, simmered","豬雜及副產品(豬肚,熟,燉煮)",batch-032
 "Porridge oats, unfortified",燕麥片(無強化),batch-007
 "Porridge oats, unfortified, cooked, made up with semi-skimmed milk","燕麥粥(無強化,用半脫脂奶煮)",batch-007
 "Porridge, made with milk and water",燕麥粥(用牛奶和水煮),batch-007
