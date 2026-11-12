@@ -108,7 +108,7 @@ async function home() {
         <input id="hq" type="search" placeholder="輸入食物名稱，例如：虎蝦、白飯、apple" autocomplete="off" aria-label="搜尋食物">
       </form>
       <div class="quick">${QUICK.map((w) => `<a href="#/search/${encodeURIComponent(w)}">${w}</a>`).join("")}</div>
-      <div class="meta-line"><a href="#/c/all"><b>${META.main_records.toLocaleString()}</b> 種食物</a>（<b>${META.foods.toLocaleString()}</b> 筆數據）· <b>${META.categories.length}</b> 個類別 · <b>${META.sources.length}</b> 個官方資料來源 · <b>${META.nutrients.length}</b> 項營養素</div>
+      <div class="meta-line"><a href="#/c/all"><b>${META.main_records.toLocaleString()}</b> 種食物</a> · <b>${META.categories.length}</b> 個類別 · <b>${META.sources.length}</b> 個官方資料來源 · <b>${META.nutrients.length}</b> 項營養素</div>
     </section>
 
     <section class="home-section">
@@ -118,12 +118,9 @@ async function home() {
 
     <section class="home-section">
       <div class="section-head"><h2>食物類別</h2><a class="eyebrow" href="#/c/all">瀏覽全部食物 ›</a></div>
-      <div class="grid">
-        <a href="#/c/all" class="all">
-          <span class="txt"><strong>全部食物</strong><span class="sub">${META.foods.toLocaleString()} 筆數據 · All foods</span></span>
-          <span class="count">${META.main_records.toLocaleString()} 種</span>${ICON_CHEVRON}</a>${META.categories.map((c) => `
+      <div class="grid">${META.categories.map((c) => `
         <a href="${catHref(c.id)}">
-          <span class="txt"><strong>${esc(c.name_zh)}</strong><span class="sub">${(c.n_records || c.n).toLocaleString()} 筆數據 · ${esc(c.name_en)}</span></span>
+          <span class="txt"><strong>${esc(c.name_zh)}</strong><span class="sub">${esc(c.name_en)}</span></span>
           <span class="count">${c.n.toLocaleString()} 種</span>${ICON_CHEVRON}</a>`).join("")}
       </div>
     </section>
@@ -174,7 +171,7 @@ async function category(cid, params) {
   const c = cid === "all" ? ALL_CAT : CATS[cid];
   if (!c) return failed({ status: 404 });
   const sub = params.get("sub") || "";
-  const src = params.get("src") || "";
+  const src = "";   // source filter removed (user request 2026-11-12); the API still supports src
   const sort = params.get("sort") || "name";
   const page = Math.max(parseInt(params.get("page") || "1", 10) || 1, 1);
   setActiveGroup(cid);
@@ -191,16 +188,11 @@ async function category(cid, params) {
   app.innerHTML = `
     ${crumbs(path)}
     <h1 class="page">${esc(scope.name_zh)}</h1>
-    <p class="muted">${esc(scope.name_en)} · ${scope.n.toLocaleString()} 種食物 · ${d.n_records.toLocaleString()} 筆數據</p>
+    <p class="muted">${esc(scope.name_en)} · ${scope.n.toLocaleString()} 種食物</p>
     ${d.subcategories.length ? `<div class="tabs filters subs">
-      <a href="${href({ sub: "", src: "" })}" class="${sub ? "" : "on"}">全部${esc(c.name_zh)} (${c.n.toLocaleString()})</a>
-      ${d.subcategories.map((x) => `<a href="${href({ sub: x.id, src: "" })}" class="${sub === x.id ? "on" : ""}">${esc(x.name_zh)} (${x.n.toLocaleString()})</a>`).join("")}
+      <a href="${href({ sub: "" })}" class="${sub ? "" : "on"}">全部${esc(c.name_zh)} (${c.n.toLocaleString()})</a>
+      ${d.subcategories.map((x) => `<a href="${href({ sub: x.id })}" class="${sub === x.id ? "on" : ""}">${esc(x.name_zh)} (${x.n.toLocaleString()})</a>`).join("")}
     </div>` : ""}
-    <div class="tabs filters">
-      <a href="${href({ src: "" })}" class="${src ? "" : "on"}">所有來源 (${scope.n.toLocaleString()} 種)</a>
-      ${d.sources.map((r) => `<a href="${href({ src: r.source_id })}" class="${src === r.source_id ? "on" : ""}">${esc(SOURCE_SHORT[r.source_id] || r.source_id)} (${r.n.toLocaleString()})</a>`).join("")}
-    </div>
-    <p class="src">${src ? "顯示這個來源的所有記錄，包括已合併到其他來源同一食物的記錄。" : "同一食物有多個來源時只列出一次；選擇來源可查看該來源的所有記錄。"}</p>
     <div class="card">
       <div class="toolbar"><span class="eyebrow">每100克 · 第 ${page} / ${pages} 頁</span>
         <select id="sort" aria-label="排序">

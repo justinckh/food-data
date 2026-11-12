@@ -245,5 +245,4 @@ body.is-home .topbar .search { display: none; }
 
 /* category page: subcategory chips */
 .filters.subs a { font-weight: 700; }
-.grid a.all { border-color: var(--ink-3); }
 .meta-line a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
