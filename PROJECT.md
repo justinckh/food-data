@@ -542,6 +542,27 @@ The user does not want dates in food names (2026-11-12).
 
 Result on 2026-11-12: 138 old versions. 30 are duplicates. 108 have different values. Example: 燒鵝 289 kcal (old) and 420 kcal (2019).
 
+### 3.12 Machine translation of names
+
+Before the translation, 15,083 food groups had no Chinese name.
+On 2026-11-12, Sonnet (a Claude model) translated these 15,011 names into Hong Kong Chinese.
+
+| Item | Value |
+|---|---|
+| Rules and glossary | `data/translate/RULES.md` (made by `pipeline/translate_prep.py`) |
+| Translations | `pipeline/translations_zh.csv` (key, Chinese name, batch) |
+| Checks | `pipeline/translate_merge.py` |
+| Column | `foods.zh_mt` = 1 if the Chinese name is a machine translation |
+
+Rules:
+
+- The build uses a translation only if the group has no Chinese name from a source.
+- The original name stays on the page.
+- The search finds the translated names.
+- The site does not show the 「機器翻譯」 tag now (user decision). To show it, set `SHOW_MT_TAG` in `site/app.js` to `true`.
+
+All 20,157 main records now have a Chinese name.
+
 ## 4. Plan
 
 ### 4.1 Steps
