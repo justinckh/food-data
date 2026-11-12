@@ -25,6 +25,7 @@ Other systems and AI tools will also use the data.
 | Data source: Japan MEXT | Done. The data has 2,538 foods (section 2.7). |
 | Data source: Australia AFCD | Done. The data has 1,588 foods (section 2.8). |
 | Data source: USDA (Foundation Foods, SR Legacy) | Done. The data has 8,262 foods (section 2.5). |
+| Data source: UK CoFID | Done. The data has 2,887 foods (section 2.9). |
 | Backend API | Not started. |
 | Cloudflare D1 | Not started. |
 | Other data sources | Not started. |
@@ -47,6 +48,9 @@ Other systems and AI tools will also use the data.
 | `pipeline/download_mext.py` | This script downloads the MEXT Excel files to `data/raw/mext/`. |
 | `pipeline/importers/afcd.py` | This importer reads the AFCD Excel files in `data/raw/afcd/`. |
 | `pipeline/download_afcd.py` | This script downloads the AFCD Excel files to `data/raw/afcd/`. |
+| `pipeline/importers/cofid.py` | This importer reads the CoFID Excel file in `data/raw/cofid/`. |
+| `pipeline/importers/cofid_groups.csv` | The CoFID food group names. We copied them from Appendix B of the CoFID 2021 user guide. |
+| `pipeline/download_cofid.py` | This script downloads the CoFID Excel file to `data/raw/cofid/`. |
 | `pipeline/importers/usda.py` | This importer reads the USDA zip files in `data/raw/usda/`. It does not extract the zip files. |
 | `pipeline/download_usda.py` | This script downloads the newest USDA zip files to `data/raw/usda/`. |
 | `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
@@ -65,6 +69,7 @@ Other systems and AI tools will also use the data.
 | `npm run download:mext` | Downloads the MEXT files. |
 | `npm run download:afcd` | Downloads the AFCD files. |
 | `npm run download:usda` | Downloads the USDA files. |
+| `npm run download:cofid` | Downloads the CoFID file. |
 | `npm run db` | Makes `data/food.db` from all sources. |
 | `npm run deploy` | Sends the `site/` folder to Cloudflare Pages. |
 
@@ -203,6 +208,36 @@ Step 6 (links) must examine these foods.
 
 We compared the database with the raw file. All 72,086 values are the same.
 
+### 2.9 About the CoFID data
+
+The data set is "McCance and Widdowson's Composition of Foods Integrated Dataset (CoFID) 2021" from the UK government.
+It has 2,887 foods. The names are in English.
+The licence is the Open Government Licence v3.0.
+
+The importer uses 3 sheets: "1.3 Proximates", "1.4 Inorganics" and "1.5 Vitamins".
+It joins the 3 sheets by the food code.
+It finds each column by the identifier row below the header.
+It examines the unit in each header.
+
+| Source value | Database value |
+|---|---|
+| A number | `value` = the number |
+| `Tr` | `flag` = `TRACE` |
+| `N` (the food has the nutrient, but there is no reliable value) | No row |
+| Empty | No row |
+
+| Item | Rule |
+|---|---|
+| Carbohydrate | CoFID gives available carbohydrate as monosaccharide equivalents. `method` = `available_monosaccharide`. |
+| Fibre | The importer uses AOAC fibre. It does not use NSP fibre, because other sources do not use NSP. |
+| Alcoholic beverages (group Q) | CoFID gives the values for 100 ml, not for 100 g. The `description` of these 31 foods tells this. |
+
+CoFID uses the food code 13-669 for 2 different foods.
+The importer keeps the 2 foods.
+For a code that is used 2 times, the ID has the food name, for example `cofid:13-669~watercress-raw`.
+
+We compared the database with the raw file. All 103,806 values are the same.
+
 ## 3. Database design
 
 ### 3.1 Main rules
@@ -236,6 +271,7 @@ We compared the database with the raw file. All 72,086 values are the same.
 | Total carbohydrate | `method` = `total` |
 | Carbohydrate by difference (MEXT, USDA) | `method` = `difference` |
 | Available carbohydrate (AFCD) | `method` = `available` |
+| Available carbohydrate as monosaccharide equivalents (CoFID) | `method` = `available_monosaccharide` |
 | Energy in kcal that we calculated from kJ | `method` = `from_kj` |
 | A value that the source estimated or calculated | `estimated` = 1 |
 | A different value type (USDA, section 2.5) | `method` = the value type |
@@ -287,6 +323,7 @@ Reasons:
 | 5a | Write the importer for the Japan MEXT data | Done |
 | 5b | Write the importer for the Australia AFCD data | Done |
 | 5c | Write the importer for USDA | Done |
+| 5e | Write the importer for UK CoFID | Done |
 | 5d | Write the importers for Canada and France | On hold. We cannot download the data now (section 4.3). |
 | 6 | Link the duplicates in `food_links` (section 4.2) | To do |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
@@ -320,7 +357,7 @@ The numbers of foods are approximate. Make sure that each number and each licenc
 | Taiwan TFDA food composition | TW | 2,000 | Taiwan Open Data |
 | Japan MEXT Standard Tables (8th edition) | JP | 2,538 (done) | Public Data License (Japan) v1.0 |
 | Canadian Nutrient File (CNF) | CA | 5,700 | Open Government Licence. The web site does not accept connections from this computer. |
-| UK CoFID (McCance and Widdowson) | GB | 3,000 | Open Government Licence. The web site does not accept connections from this computer. |
+| UK CoFID (McCance and Widdowson) | GB | 2,887 (done) | Open Government Licence v3.0 |
 | Australian Food Composition Database (AFCD) | AU | 1,588 (done) | CC BY 4.0 |
 | France Ciqual | FR | 3,000 | Licence Ouverte (Etalab). On 2026-11-11 the Ciqual web site was in maintenance. Try again later. The files are listed on data.gouv.fr. |
 

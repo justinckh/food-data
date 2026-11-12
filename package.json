@@ -9,6 +9,7 @@
     "download:mext": "python3 -m pipeline.download_mext",
     "download:afcd": "python3 -m pipeline.download_afcd",
     "download:usda": "python3 -m pipeline.download_usda",
+    "download:cofid": "python3 -m pipeline.download_cofid",
     "scrape": "python3 scrape_cfs.py && python3 build_data.py",
     "deploy": "npx --yes wrangler pages deploy site --project-name=hk-food-nutrition --branch=main"
   }
