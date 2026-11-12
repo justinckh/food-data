@@ -228,6 +228,9 @@ key,zh,file
 "Abalone, brown lip, wild, raw","鮑魚(棕唇,野生,生)",batch-001
 "Abalone, green lip, aquacultured, raw","鮑魚(綠唇,養殖,生)",batch-001
 "Abalone, green lip, wild, raw","鮑魚(綠唇,野生,生)",batch-001
+"Abiyuch, raw",阿比尤奇果(生),batch-028
+"Acerola (West Indian cherry), raw",西印度車厘子(生),batch-028
+"Acerola juice, raw",西印度車厘子汁(生),batch-028
 "Acerola, 10 % fruit juice beverage",西印度櫻桃(含10%果汁飲品),batch-015
 "Acerola, sour type, raw","西印度櫻桃(酸味種,生)",batch-015
 "Acerola, sweet type, raw","西印度櫻桃(甜味種,生)",batch-015
@@ -401,13 +404,35 @@ Amla,印度醋栗,batch-008
 "Animal fat, mutton tallow",動物脂肪(羊脂),batch-004
 Anise seeds,八角籽,batch-008
 "Apple juice concentrate, unsweetened, commerical","蘋果汁濃縮(無糖,商業製)",batch-006
+"Apple juice, canned or bottled, added vitamin C","蘋果汁(罐裝或瓶裝,添加維他命C)",batch-028
+"Apple juice, canned or bottled, unsweetened, calcium and Vitamin C and D added","蘋果汁(罐裝或瓶裝,無糖,添加鈣及維他命C和D)",batch-028
+"Apple juice, canned or bottled, without added vitamin C","蘋果汁(罐裝或瓶裝,無添加維他命C)",batch-028
 "Apple juice, clear, ambient and chilled","蘋果汁(清,常溫及冷藏)",batch-008
+"Apple juice, frozen concentrate, diluted, added vitamin C","蘋果汁(冷凍濃縮,已稀釋,添加維他命C)",batch-028
+"Apple juice, frozen concentrate, diluted, without added vitamin C","蘋果汁(冷凍濃縮,已稀釋,無添加維他命C)",batch-028
+"Apple juice, frozen concentrate, undiluted, added vitamin C","蘋果汁(冷凍濃縮,未稀釋,添加維他命C)",batch-028
+"Apple juice, frozen concentrate, undiluted, without vitamin C","蘋果汁(冷凍濃縮,未稀釋,無維他命C)",batch-028
 "Apple juice, with added vitamin C, from concentrate, shelf stable","蘋果汁(添加維他命C,濃縮還原,常溫保存)",batch-019
 "Apple sauce, homemade",蘋果醬(自家製),batch-010
+"Apple, Fuji, raw, with skin","富士蘋果(生,連皮)",batch-028
+"Apple, Gala, raw, with skin","嘉富蘋果(生,連皮)",batch-028
+"Apple, Golden Delicious, raw, with skin","金冠蘋果(生,連皮)",batch-028
+"Apple, Granny Smith, raw, with skin","青蘋果(生,連皮)",batch-028
+"Apple, Red Delicious, raw, with skin","紅蛇果(生,連皮)",batch-028
 "Apple, bonza, unpeeled, raw","蘋果(Bonza,連皮,生)",batch-001
+"Apple, canned, sweetened, sliced, heated","蘋果片(罐頭,加糖,已加熱)",batch-028
 "Apple, canned, sweetened, sliced, unheated","蘋果片(罐頭,加糖,未加熱)",batch-004
+"Apple, dehydrated (low moisture), sulphured, cooked","蘋果(脫水(低水分),經二氧化硫處理,熟)",batch-028
+"Apple, dehydrated (low moisture), sulphured, uncooked","蘋果(脫水(低水分),經二氧化硫處理,未煮)",batch-028
+"Apple, dried, sulphured, stewed, added sugar","蘋果乾(經二氧化硫處理,燉煮,加糖)",batch-028
+"Apple, dried, sulphured, stewed, no added sugar","蘋果乾(經二氧化硫處理,燉煮,無添加糖)",batch-028
+"Apple, dried, sulphured, uncooked","蘋果乾(經二氧化硫處理,未煮)",batch-028
+"Apple, frozen, sliced, unsweetened, heated","蘋果片(冷凍,無糖,已加熱)",batch-028
+"Apple, frozen, sliced, unsweetened, unheated","蘋果片(冷凍,無糖,未加熱)",batch-028
 "Apple, jonathan, unpeeled, raw","蘋果(Jonathan,連皮,生)",batch-001
 "Apple, pink lady, unpeeled, raw","蘋果(粉紅佳人,連皮,生)",batch-001
+"Apple, raw, with skin","蘋果(生,連皮)",batch-028
+"Apple, raw, without skin","蘋果(生,去皮)",batch-028
 "Apple, red skin, peeled, raw","蘋果(紅皮,去皮,生)",batch-001
 "Apple, royal gala, unpeeled, raw","蘋果(皇家嘎啦,連皮,生)",batch-001
 "Apples, 30 % fruit juice beverage",蘋果(含30%果汁飲品),batch-015
@@ -428,14 +453,36 @@ Anise seeds,八角籽,batch-008
 "Apples, gala, with skin, raw","嘉啦蘋果(連皮,生)",batch-019
 "Apples, granny smith, with skin, raw","青蘋果(連皮,生)",batch-019
 "Apples, honeycrisp, with skin, raw","蜜脆蘋果(連皮,生)",batch-019
+"Apples, raw, without skin, cooked, boiled","蘋果(去皮,熟,烚)",batch-028
+"Apples, raw, without skin, cooked, microwave","蘋果(去皮,熟,微波)",batch-028
 "Apples, reconstituted fruit juice",蘋果(還原果汁),batch-015
 "Apples, red delicious, with skin, raw","紅元帥蘋果(連皮,生)",batch-019
 "Apples, straight fruit juice",蘋果(純果汁),batch-015
 "Apples, with skin, raw","蘋果(連皮,生)",batch-015
 "Apples, without skin, raw","蘋果(去皮,生)",batch-015
+"Applesauce, canned, sweetened","蘋果蓉(罐頭,加糖)",batch-028
+"Applesauce, canned, sweetened, with salt","蘋果蓉(罐頭,加糖,有鹽)",batch-028
+"Applesauce, canned, unsweetened","蘋果蓉(罐頭,無糖)",batch-028
+"Applesauce, canned, unsweetened, with added ascorbic acid","蘋果蓉(罐頭,無糖,添加抗壞血酸)",batch-028
 "Applesauce, unsweetened, with added vitamin C","蘋果醬(無糖,添加維他命C)",batch-019
+"Apricot nectar, canned",杏子汁(罐頭),batch-028
+"Apricot, canned halves with skin, extra light syrup, solids and liquid","杏(罐頭,連皮半邊,特淡糖漿,固體連汁)",batch-028
+"Apricot, canned, whole, peeled, extra heavy syrup pack, solids and liquid","杏(罐頭,整個去皮,特濃糖漿裝,固體連汁)",batch-028
+"Apricot, canned, whole, peeled, heavy syrup pack, solids and liquid","杏(罐頭,整個去皮,濃糖漿裝,固體連汁)",batch-028
+"Apricot, canned, whole, peeled, water pack, solids and liquid","杏(罐頭,整個去皮,水浸裝,固體連汁)",batch-028
+"Apricot, dehydrated (low moisture), sulphured, cooked","杏(脫水(低水分),經二氧化硫處理,熟)",batch-028
+"Apricot, dehydrated (low moisture), sulphured, uncooked","杏(脫水(低水分),經二氧化硫處理,未煮)",batch-028
+"Apricot, dried, sulphured, cooked, added sugar","杏乾(經二氧化硫處理,熟,加糖)",batch-028
+"Apricot, dried, sulphured, cooked, no added sugar","杏乾(經二氧化硫處理,熟,無添加糖)",batch-028
+"Apricot, dried, sulphured, uncooked","杏乾(經二氧化硫處理,未煮)",batch-028
+"Apricot, frozen, sweetened","杏(冷凍,加糖)",batch-028
 "Apricot, with skin, raw","杏(連皮,生)",batch-008
 "Apricots, canned in heavy syrup",杏(濃糖漿罐頭),batch-015
+"Apricots, canned, heavy syrup pack, with skin, solids and liquids","杏(罐頭,濃糖漿裝,連皮,固體連汁)",batch-028
+"Apricots, canned, heavy syrup, drained","杏(罐頭,濃糖漿,瀝乾)",batch-028
+"Apricots, canned, juice pack, with skin, solids and liquids","杏(罐頭,果汁浸裝,連皮,固體連汁)",batch-028
+"Apricots, canned, light syrup pack, with skin, solids and liquids","杏(罐頭,淡糖漿裝,連皮,固體連汁)",batch-028
+"Apricots, canned, water pack, with skin, solids and liquids","杏(罐頭,水浸裝,連皮,固體連汁)",batch-028
 "Apricots, dried",杏(乾),batch-015
 "Apricots, dried, stewed with sugar",杏乾(加糖炆),batch-008
 "Apricots, dried, stewed without sugar",杏乾(無糖炆),batch-008
@@ -502,6 +549,8 @@ Asafoetida,阿魏,batch-008
 "Avocado, Hass, flesh only, weighed with skin and stone","Hass 牛油果(只計果肉,連皮連核稱重)",batch-008
 "Avocado, Hass, peeled, raw","哈斯牛油果(去皮,生)",batch-019
 "Avocado, hass, raw","牛油果(哈斯,生)",batch-002
+"Avocado, raw, california","牛油果(生,加州品種)",batch-028
+"Avocado, raw, florida","牛油果(生,佛羅里達品種)",batch-028
 "Avocado, shepard, raw","牛油果(Shepard,生)",batch-002
 "Ayr, raw",Ayr 鯰魚(生),batch-007
 "BURGER KING, CROISSAN'WICH with Egg and Cheese",漢堡王 芝士雞蛋牛角包三明治,batch-027
@@ -858,8 +907,10 @@ Baking powder,發粉,batch-017
 "Banana bread, homemade",香蕉麵包(家庭自製),batch-001
 Banana chip,香蕉脆片,batch-001
 "Banana split, homemade",香蕉船(自家製),batch-010
+"Banana, dehydrated or banana powder",香蕉(脫水或香蕉粉),batch-028
 "Banana, frozen",香蕉(冷凍),batch-001
 "Banana, lady finger or sugar, peeled, raw","香蕉(小香蕉或糖蕉,去皮,生)",batch-001
+"Banana, raw",香蕉(生),batch-028
 "Bananas, dried",香蕉(乾),batch-015
 "Bananas, overripe, raw","香蕉(過熟,生)",batch-019
 "Bananas, raw",香蕉(生),batch-015
@@ -867,6 +918,7 @@ Banana chip,香蕉脆片,batch-001
 "Bananas, ripe and slightly ripe, raw","香蕉(熟及微熟,生)",batch-019
 "Bannocks, made with beremeal, homemade",大麥粉班諾克餅(自家製),batch-006
 "Bannocks, made with wheat flour, homemade",小麥粉班諾克餅(自家製),batch-006
+Baobab powder,猴麵包樹粉,batch-028
 "Bar, coconut cream centre, milk chocolate-coated","朱古力條(椰子忌廉心,牛奶朱古力外層)",batch-001
 "Bar, honeycomb centre, milk chocolate-coated","朱古力條(蜂巢心,牛奶朱古力外層)",batch-001
 "Bar, muesli, plain or with dried fruit",穀物條(原味或連乾果),batch-001
@@ -2540,10 +2592,13 @@ Bicarbonate of soda,梳打粉,batch-010
 "Black gram, urad gram, whole, dried, raw","黑豆(整粒,乾,生)",batch-011
 "Black pudding, dry-fried",血腸(乾煎),batch-009
 "Black pudding, raw",血腸(生),batch-009
+"Blackberries, canned, heavy syrup, solids and liquids","黑莓(罐頭,濃糖漿,固體連汁)",batch-028
 "Blackberries, stewed with sugar",黑莓(加糖炆),batch-008
 "Blackberries, stewed without sugar",黑莓(無糖炆),batch-008
 "Blackberry and apple, stewed with sugar",黑莓蘋果(加糖炆),batch-008
 "Blackberry and apple, stewed without sugar",黑莓蘋果(無糖炆),batch-008
+"Blackberry juice, canned",黑莓汁(罐頭),batch-028
+"Blackberry, frozen, unsweetened","黑莓(冷凍,無糖)",batch-028
 "Blackberry, purchased frozen",黑莓(購買冷凍),batch-001
 "Blackberry, wild, raw",野生黑莓(生),batch-019
 "Blackcurrant juice drink/squash, diluted",黑加侖子果汁飲品(已稀釋),batch-006
@@ -2560,9 +2615,13 @@ Bicarbonate of soda,梳打粉,batch-010
 "Blue grenadier (hoki), fillet, baked, no added fat","藍鱈魚(魚柳,焗,無添加脂肪)",batch-001
 "Blue grenadier (hoki), fillet, raw","藍鱈魚(魚柳,生)",batch-001
 "Blue grenadier (hoki), fillet, steamed, no added fat","藍鱈魚(魚柳,蒸,無添加脂肪)",batch-001
+"Blueberries, canned, heavy syrup, solids and liquids","藍莓(罐頭,濃糖漿,固體連汁)",batch-028
+"Blueberries, canned, light syrup, drained","藍莓(罐頭,淡糖漿,瀝乾)",batch-028
 "Blueberries, dried",藍莓(乾),batch-015
 "Blueberries, jam",藍莓(果醬),batch-015
+"Blueberries, wild, canned, heavy syrup, drained","野生藍莓(罐頭,濃糖漿,瀝乾)",batch-028
 "Blueberries, wild, frozen (Alaska Native)","野生藍莓(冷凍,阿拉斯加原住民)",batch-019
+"Blueberry, dried, sweetened",藍莓乾(加糖),batch-028
 "Blueberry, wild, raw",野生藍莓(生),batch-019
 "Boal, raw",Boal 鯰魚(生),batch-007
 "Bok choy, leaves, raw","白菜(葉,生)",batch-018
@@ -4677,12 +4736,34 @@ Cretons,法式豬肉醬(Cretons),batch-005
 "Crustacean, snow crab, raw","甲殼類(松葉蟹,生)",batch-014
 "Crustacean, whiteleg shrimp, raw","甲殼類(白蝦,生)",batch-014
 "Crustacean, whiteleg shrimp, tempura","甲殼類(白蝦,天婦羅)",batch-014
+"Crustaceans, crab, alaska king, boiled or steamed","甲殼類(阿拉斯加帝王蟹,烚或蒸)",batch-028
+"Crustaceans, crab, alaska king, imitation (seafood surimi)","甲殼類(阿拉斯加帝王蟹,仿製(海鮮魚漿))",batch-028
+"Crustaceans, crab, alaska king, raw","甲殼類(阿拉斯加帝王蟹,生)",batch-028
 "Crustaceans, crab, atlantic snow crab (spider, queen), canned, drained","甲殼類(蟹,大西洋雪蟹,罐頭,已瀝乾)",batch-004
 "Crustaceans, crab, blue swimming, lump, pasteurized, refrigerated","蟹(藍泳蟹,蟹肉塊,巴氏殺菌,冷藏)",batch-019
+"Crustaceans, crab, blue, crab cakes, homemade","甲殼類(藍蟹,蟹餅,自家製)",batch-028
+"Crustaceans, crab, dungeness, boiled or steamed","甲殼類(珍寶蟹,烚或蒸)",batch-028
+"Crustaceans, crab, dungeness, raw","甲殼類(珍寶蟹,生)",batch-028
 "Crustaceans, crab, jonah, steamed","甲殼類(蟹,Jonah蟹,蒸)",batch-004
+"Crustaceans, crab, queen, cooked, moist heat","甲殼類(雪蟹,熟,濕熱烹調)",batch-028
+"Crustaceans, crab, queen, raw","甲殼類(雪蟹,生)",batch-028
 "Crustaceans, crab, red, steamed","甲殼類(蟹,紅蟹,蒸)",batch-004
+"Crustaceans, crayfish, mixed species, farmed, raw","甲殼類(小龍蝦,混合品種,養殖,生)",batch-028
+"Crustaceans, crayfish, mixed species, wild, boiled or steamed","甲殼類(小龍蝦,混合品種,野生,烚或蒸)",batch-028
+"Crustaceans, crayfish, mixed species, wild, raw","甲殼類(小龍蝦,混合品種,野生,生)",batch-028
+"Crustaceans, lobster, northern, cooked, moist heat","甲殼類(北方龍蝦,熟,濕熱烹調)",batch-028
+"Crustaceans, lobster, northern, raw","甲殼類(北方龍蝦,生)",batch-028
 "Crustaceans, shrimp or lobster paste, canned","甲殼類(蝦或龍蝦醬,罐頭)",batch-004
+"Crustaceans, shrimp, cooked","甲殼類(蝦,熟)",batch-028
 "Crustaceans, shrimp, farm raised, raw","蝦(養殖,生)",batch-019
+"Crustaceans, shrimp, imitation (surimi)",甲殼類(仿製蝦(魚漿)),batch-028
+"Crustaceans, shrimp, mixed species, boiled or steamed","甲殼類(蝦,混合品種,烚或蒸)",batch-028
+"Crustaceans, shrimp, mixed species, breaded and fried","甲殼類(蝦,混合品種,裹粉炸)",batch-028
+"Crustaceans, shrimp, mixed species, raw","甲殼類(蝦,混合品種,生)",batch-028
+"Crustaceans, shrimp, raw","甲殼類(蝦,生)",batch-028
+"Crustaceans, spiny lobster, mixed species, cooked, moist heat","甲殼類(龍蝦,混合品種,熟,濕熱烹調)",batch-028
+"Crustaceans, spiny lobster, mixed species, raw","甲殼類(龍蝦,混合品種,生)",batch-028
+"Crusteceans, crayfish, mixed species, farmed, boiled or steamed","甲殼類(小龍蝦,混合品種,養殖,烚或蒸)",batch-028
 "Crème caramel, homemade",焦糖布甸(自家製),batch-010
 "Crêpe, plain, homemade","法式薄餅(原味,自家製)",batch-003
 "Cucumber, Lebanese, peeled, raw","黎巴嫩青瓜(去皮,生)",batch-002
@@ -5391,8 +5472,11 @@ Fish paste,魚醬,batch-007
 "Fish, Pacific saury, with integument, raw","魚(秋刀魚,連皮,生)",batch-014
 "Fish, Patagonian toothfish, raw","魚(巴塔哥尼亞犬牙魚,生)",batch-014
 "Fish, Salmon, Chum, raw (Alaska Native)","大麻哈魚(生,阿拉斯加原住民)",batch-020
+"Fish, Salmon, pink, canned, drained solids, without skin and bones","魚(粉紅三文魚,罐頭,瀝乾固體,去皮去骨)",batch-028
 "Fish, Shishamo smelt, semi-dried, baked","魚(柳葉魚,半乾,烤)",batch-014
 "Fish, Shishamo smelt, semi-dried, raw","魚(柳葉魚,半乾,生)",batch-014
+"Fish, anchovy, european, canned in oil, drained solids","魚(歐洲鯷魚,油浸罐頭,瀝乾固體)",batch-028
+"Fish, anchovy, european, raw","魚(歐洲鯷魚,生)",batch-028
 "Fish, anglerfish, liver, raw","魚(鮟鱇魚,肝,生)",batch-014
 "Fish, anglerfish, raw","魚(鮟鱇魚,生)",batch-014
 "Fish, angry rockfish, raw","魚(怒鮋,生)",batch-014
@@ -5405,12 +5489,18 @@ Fish paste,魚醬,batch-007
 "Fish, barracouta, raw","魚(長尾鯧,生)",batch-014
 "Fish, barracuda, baked","魚(梭子魚,烤)",batch-014
 "Fish, barracuda, raw","魚(梭子魚,生)",batch-014
+"Fish, bass, fresh water, mixed species, raw","魚(淡水鱸魚,混合品種,生)",batch-028
+"Fish, bass, freshwater, mixed species, cooked, dry heat","魚(淡水鱸魚,混合品種,熟,乾熱烹調)",batch-028
+"Fish, bass, striped, baked or broiled","魚(條紋鱸魚,焗或燒烤)",batch-028
+"Fish, bass, striped, raw","魚(條紋鱸魚,生)",batch-028
 "Fish, battered and fried",魚(炸漿炸),batch-004
 "Fish, black scraper, ""Ajitsuke-hirakiboshi"" (seasoned and dried fillet)","魚(黑馬面魨,調味乾製開邊魚柳)",batch-014
 "Fish, black scraper, raw","魚(黑馬面魨,生)",batch-014
 "Fish, blackfish, Indigenous, whole","黑魚(原住民,整條)",batch-020
 "Fish, blue sprat, raw","魚(藍鯡,生)",batch-014
 "Fish, blue sprat, seasoned and dried","魚(藍鯡,調味乾製)",batch-014
+"Fish, bluefish, baked or broiled","魚(藍魚,焗或燒烤)",batch-028
+"Fish, bluefish, raw","魚(藍魚,生)",batch-028
 "Fish, burbot (loche), Indigenous, baked or broiled","魚(江鱈,原住民食品,焗或燒烤)",batch-004
 "Fish, burbot (loche), Indigenous, eggs, raw","魚(江鱈,原住民食品,魚卵,生)",batch-004
 "Fish, burbot (loche), Indigenous, head, baked","魚(江鱈,原住民食品,魚頭,焗)",batch-004
@@ -5419,14 +5509,34 @@ Fish paste,魚醬,batch-007
 "Fish, burbot (loche), Indigenous, raw","魚(江鱈,原住民食品,生)",batch-004
 "Fish, burbot (loche), Indigenous, skin, baked","魚(江鱈,原住民食品,皮,焗)",batch-004
 "Fish, burbot (loche), Indigenous, skin, raw","魚(江鱈,原住民食品,皮,生)",batch-004
+"Fish, burbot, cooked, dry heat","魚(江鱈,熟,乾熱烹調)",batch-028
+"Fish, burbot, raw","魚(江鱈,生)",batch-028
+"Fish, butterfish, baked or broiled","魚(牛油魚,焗或燒烤)",batch-028
+"Fish, butterfish, raw","魚(牛油魚,生)",batch-028
+"Fish, carp, baked or broiled","魚(鯉魚,焗或燒烤)",batch-028
+"Fish, carp, raw","魚(鯉魚,生)",batch-028
+"Fish, catfish, channel, cooked, breaded and fried","魚(斑點叉尾鮰,熟,裹粉炸)",batch-028
+"Fish, catfish, channel, farmed, cooked, dry heat","魚(斑點叉尾鮰,養殖,熟,乾熱烹調)",batch-028
+"Fish, catfish, channel, farmed, raw","魚(斑點叉尾鮰,養殖,生)",batch-028
+"Fish, catfish, channel, wild, cooked, dry heat","魚(斑點叉尾鮰,野生,熟,乾熱烹調)",batch-028
+"Fish, catfish, channel, wild, raw","魚(斑點叉尾鮰,野生,生)",batch-028
 "Fish, catfish, farm raised, raw","鯰魚(養殖,生)",batch-019
 "Fish, catfish, raw","魚(鯰魚,生)",batch-014
+"Fish, caviar, black and red, granular","魚子醬(黑色及紅色,顆粒狀)",batch-028
 "Fish, caviar, salted product","魚(魚子醬,鹽醃製品)",batch-014
 "Fish, cisco (lake herring, tullibee), Indigenous, baked","魚(白鮭,原住民食品,焗)",batch-004
 "Fish, cisco (lake herring, tullibee), Indigenous, smoked, dried","魚(白鮭,原住民食品,煙燻,乾)",batch-004
+"Fish, cisco, raw","魚(白鮭,生)",batch-028
+"Fish, cisco, smoked","魚(白鮭,煙燻)",batch-028
+"Fish, cod (gray cod), pacific, baked or broiled","魚(太平洋鱈魚(灰鱈),焗或燒烤)",batch-028
+"Fish, cod (gray cod), pacific, raw","魚(太平洋鱈魚(灰鱈),生)",batch-028
 "Fish, cod (scrod), Atlantic, dried and salted, soaked in water","魚(大西洋鱈魚,乾及鹽醃,浸水)",batch-004
 "Fish, cod (scrod), Atlantic, smoked","魚(大西洋鱈魚,煙燻)",batch-004
 "Fish, cod (scrod), Atlantic, tongues and cheeks, raw","魚(大西洋鱈魚,脷及面頰肉,生)",batch-004
+"Fish, cod, Atlantic, canned, solids and liquid","魚(大西洋鱈魚,罐頭,連汁)",batch-028
+"Fish, cod, Atlantic, cooked, dry heat","魚(大西洋鱈魚,熟,乾熱烹調)",batch-028
+"Fish, cod, Atlantic, dried and salted","魚(大西洋鱈魚,風乾鹽醃)",batch-028
+"Fish, cod, Atlantic, raw","魚(大西洋鱈魚,生)",batch-028
 "Fish, cod, Atlantic, wild caught, raw","大西洋鱈魚(野生,生)",batch-019
 "Fish, cod, Pacific cod, ""Denbu"" (mashed and seasoned meat)","魚(鱈魚,太平洋鱈,魚鬆)",batch-014
 "Fish, cod, Pacific cod, baked","魚(鱈魚,太平洋鱈,烤)",batch-014
@@ -5434,6 +5544,7 @@ Fish paste,魚醬,batch-007
 "Fish, cod, Pacific cod, milt, raw","魚(鱈魚,太平洋鱈,魚白,生)",batch-014
 "Fish, cod, Pacific cod, raw","魚(鱈魚,太平洋鱈,生)",batch-014
 "Fish, cod, Pacific cod, salted fillet","魚(鱈魚,太平洋鱈,鹽醃魚柳)",batch-014
+"Fish, cod, Pacific, cooked","魚(太平洋鱈魚,熟)",batch-028
 "Fish, cod, walleye pollock, ""Karashi-mentaiko"" (salted roe with red hot pepper powder)","魚(鱈魚,狹鱈,辣味明太子,加紅辣椒粉的鹽醃魚子)",batch-014
 "Fish, cod, walleye pollock, ""Sukimidara"" (skinned, salted and dried fillet)","魚(鱈魚,狹鱈,去皮鹽醃乾魚柳)",batch-014
 "Fish, cod, walleye pollock, ""Tarako"" (salted roe), baked","魚(鱈魚,狹鱈,鱈魚子,鹽醃魚子,烤)",batch-014
@@ -5447,27 +5558,39 @@ Fish paste,魚醬,batch-007
 "Fish, common carp, cultured, raw","魚(鯉魚,養殖,生)",batch-014
 "Fish, common carp, cultured, viscera, raw","魚(鯉魚,養殖,內臟,生)",batch-014
 "Fish, conger pike, raw","魚(海鰻,生)",batch-014
+"Fish, croaker, Atlantic, breaded and fried","魚(大西洋黃花魚,裹粉炸)",batch-028
+"Fish, croaker, Atlantic, raw","魚(大西洋黃花魚,生)",batch-028
 "Fish, croaker, baked","魚(黃花魚,烤)",batch-014
 "Fish, croaker, raw","魚(黃花魚,生)",batch-014
 "Fish, crucian carp, ""Kanroni"" (simmered whole in soy sauce, sugar and glucose syrup)","魚(鯽魚,甘露煮,整條以豉油,糖及葡萄糖漿煮)",batch-014
 "Fish, crucian carp, boiled","魚(鯽魚,烚)",batch-014
 "Fish, crucian carp, raw","魚(鯽魚,生)",batch-014
+"Fish, cusk, baked or broiled","魚(長尾鱈,焗或燒烤)",batch-028
+"Fish, cusk, raw","魚(長尾鱈,生)",batch-028
 "Fish, devil stinger, raw","魚(鬼鮋,生)",batch-014
 "Fish, devilfish, Indigenous, meat","魔鬼魚(原住民,肉)",batch-020
 "Fish, dolphinfish, raw","魚(鯕鰍,生)",batch-014
 "Fish, dotted gizzard shad, ""Amazu-zuke"" (marinated in vinegar and sugar)","魚(斑鰶,甜醋醃,以醋及糖醃漬)",batch-014
 "Fish, dotted gizzard shad, raw","魚(斑鰶,生)",batch-014
 "Fish, double-lined fusilier, raw","魚(雙線烏尾冬,生)",batch-014
+"Fish, drum, freshwater, baked or broiled","魚(淡水鼓魚,焗或燒烤)",batch-028
+"Fish, drum, freshwater, raw","魚(淡水鼓魚,生)",batch-028
 "Fish, eel, ""Kabayaki"" (seasoned and baked fillet)","鰻魚(蒲燒,調味烤魚柳)",batch-014
 "Fish, eel, ""Shirayaki"" (mild-baked and steamed fillet)","鰻魚(白燒,淡烤後蒸魚柳)",batch-014
 "Fish, eel, cultured, raw","鰻魚(養殖,生)",batch-014
+"Fish, eel, mixed species, baked or broiled","魚(鰻魚,混合品種,焗或燒烤)",batch-028
+"Fish, eel, mixed species, raw","魚(鰻魚,混合品種,生)",batch-028
 "Fish, eel, raw",鰻魚(生),batch-001
 "Fish, eel, viscera, raw","鰻魚(內臟,生)",batch-014
 "Fish, eulachon, raw","魚(胡瓜魚,生)",batch-004
 "Fish, fat greenling, raw","魚(大瀧六線魚,生)",batch-014
+"Fish, fish sticks, frozen, prepared","魚條(冷凍,已調製)",batch-028
+"Fish, flatfish (flounder and sole species), cooked, dry heat","魚(比目魚(鰈魚及鰨魚類),熟,乾熱烹調)",batch-028
+"Fish, flatfish (flounder and sole species), raw","魚(比目魚(鰈魚及鰨魚類),生)",batch-028
 "Fish, flathead, bar-tailed flathead, raw","魚(牛抽魚,橫帶牛抽魚,生)",batch-014
 "Fish, flathead, big-eyed flathead, raw","魚(牛抽魚,大眼牛抽魚,生)",batch-014
 "Fish, frigate mackerel, raw","魚(圓鰺,生)",batch-014
+"Fish, gefiltefish, commercial, sweet recipe","猶太魚丸(市售,甜味配方)",batch-028
 "Fish, gnomefish, boiled",鯥魚(烚),pilot
 "Fish, gnomefish, raw","魚(銀鱗鯧,生)",batch-014
 "Fish, golden-thread, Surimi","魚(金線魚,魚漿)",batch-014
@@ -5477,16 +5600,28 @@ Fish paste,魚醬,batch-007
 "Fish, grayling, Indigenous, cooked","魚(北極茴魚,原住民食品,熟)",batch-004
 "Fish, grayling, Indigenous, raw","魚(北極茴魚,原住民食品,生)",batch-004
 "Fish, greater amberjack, raw","魚(大鰤魚,生)",batch-014
+"Fish, grouper, mixed species, baked or broiled","魚(石斑,混合品種,焗或燒烤)",batch-028
+"Fish, grouper, mixed species, raw","魚(石斑,混合品種,生)",batch-028
+"Fish, haddock, baked or broiled","魚(黑線鱈,焗或燒烤)",batch-028
 "Fish, haddock, raw",黑線鱈(生),batch-019
+"Fish, haddock, smoked","魚(黑線鱈,煙燻)",batch-028
 "Fish, hake, raw","魚(鱈魚,無鬚鱈,生)",batch-014
 "Fish, halfbeak, raw","魚(鱵魚,生)",batch-014
 "Fish, halibut, Atlantic or Pacific, baked or broiled","大比目魚(大西洋或太平洋,焗或燒烤)",pilot
+"Fish, halibut, Atlantic or Pacific, raw","魚(大西洋或太平洋大比目魚,生)",batch-028
+"Fish, halibut, Greenland, raw","魚(格陵蘭大比目魚,生)",batch-028
 "Fish, halibut, cooked, with skin (Alaska Native)","大比目魚(熟,連皮,阿拉斯加原住民)",batch-020
+"Fish, halibut, greenland, cooked, dry heat","魚(格陵蘭大比目魚,熟,乾熱烹調)",batch-028
 "Fish, halibut, raw, with skin (Alaska Native)","大比目魚(生,連皮,阿拉斯加原住民)",batch-020
 "Fish, herring eggs on giant kelp, Indigenous, Pacific","太平洋鯡魚卵(附於巨藻上,原住民)",batch-020
 "Fish, herring eggs, Indigenous, Pacific, dry","太平洋鯡魚卵(原住民,乾)",batch-020
 "Fish, herring eggs, Indigenous, Pacific, raw","太平洋鯡魚卵(原住民,生)",batch-020
+"Fish, herring, Atlantic, baked or broiled","魚(大西洋鯡魚,焗或燒烤)",batch-028
+"Fish, herring, Atlantic, kippered","魚(大西洋鯡魚,煙燻醃製)",batch-028
+"Fish, herring, Atlantic, pickled","魚(大西洋鯡魚,醋漬)",batch-028
+"Fish, herring, Atlantic, raw","魚(大西洋鯡魚,生)",batch-028
 "Fish, herring, Indigenous, Pacific, air-dried, packed in oil","太平洋鯡魚(原住民,風乾,油浸)",batch-020
+"Fish, herring, Pacific, baked or broiled","魚(太平洋鯡魚,焗或燒烤)",batch-028
 "Fish, hoki, raw","魚(藍鱈,生)",batch-014
 "Fish, horse mackerel, Atlantic horse mackerel, baked","鰺魚(大西洋竹莢魚,烤)",batch-014
 "Fish, horse mackerel, Atlantic horse mackerel, boiled","鰺魚(大西洋竹莢魚,烚)",batch-014
@@ -5515,12 +5650,20 @@ Fish paste,魚醬,batch-007
 "Fish, lamprey, dried","魚(八目鰻,乾)",batch-014
 "Fish, lamprey, raw","魚(八目鰻,生)",batch-014
 "Fish, leatherfish, raw","魚(革魚,生)",batch-014
+"Fish, ling, baked or broiled","魚(長鱈,焗或燒烤)",batch-028
+"Fish, ling, raw","魚(長鱈,生)",batch-028
 "Fish, lingcod, Indigenous, liver","長身鱈(原住民,肝)",batch-020
+"Fish, lingcod, baked or broiled","魚(綠鰭魚,焗或燒烤)",batch-028
 "Fish, lingcod, meat, raw (Alaska Native)","長身鱈肉(生,阿拉斯加原住民)",batch-020
+"Fish, lingcod, raw","魚(綠鰭魚,生)",batch-028
 "Fish, lizardfish, raw","魚(狗母魚,生)",batch-014
 "Fish, mackerel, Atlantic mackerel, baked","鯖魚(大西洋鯖,烤)",batch-014
 "Fish, mackerel, Atlantic mackerel, boiled","鯖魚(大西洋鯖,烚)",batch-014
 "Fish, mackerel, Atlantic mackerel, raw","鯖魚(大西洋鯖,生)",batch-014
+"Fish, mackerel, Atlantic, cooked, dry heat","魚(大西洋鯖魚,熟,乾熱烹調)",batch-028
+"Fish, mackerel, Atlantic, raw","魚(大西洋鯖魚,生)",batch-028
+"Fish, mackerel, Pacific and jack, mixed species, baked or broiled","魚(太平洋鯖魚及鰺魚,混合品種,焗或燒烤)",batch-028
+"Fish, mackerel, Pacific and jack, mixed species, raw","魚(太平洋鯖魚及鰺魚,混合品種,生)",batch-028
 "Fish, mackerel, canned products, boiled in brine","鯖魚(罐頭,鹽水煮)",batch-014
 "Fish, mackerel, canned products, boiled with miso","鯖魚(罐頭,味噌煮)",batch-014
 "Fish, mackerel, canned products, boiled with seasoning","鯖魚(罐頭,調味煮)",batch-014
@@ -5528,21 +5671,52 @@ Fish paste,魚醬,batch-007
 "Fish, mackerel, chub mackerel, boiled","鯖魚(白腹鯖,烚)",batch-014
 "Fish, mackerel, chub mackerel, breaded and fried","鯖魚(白腹鯖,裹麵包糠炸)",batch-014
 "Fish, mackerel, chub mackerel, raw","鯖魚(白腹鯖,生)",batch-014
+"Fish, mackerel, jack, canned, drained solids","魚(鰺魚,罐頭,瀝乾固體)",batch-028
+"Fish, mackerel, king, baked or broiled","魚(鰆魚,焗或燒烤)",batch-028
+"Fish, mackerel, king, raw","魚(鰆魚,生)",batch-028
 "Fish, mackerel, processed products, ""Hirakiboshi"" (mild salted and semi-dried split)","鯖魚(加工品,開邊淡鹽半乾)",batch-014
 "Fish, mackerel, processed products, ""Shiosaba"" (plain salted fillet)","鯖魚(加工品,鹽鯖,簡單鹽醃魚柳)",batch-014
+"Fish, mackerel, salted","魚(鯖魚,鹽醃)",batch-028
+"Fish, mackerel, spanish, cooked, dry heat","魚(西班牙鯖魚,熟,乾熱烹調)",batch-028
+"Fish, mackerel, spanish, raw","魚(西班牙鯖魚,生)",batch-028
 "Fish, mackerel, spotted mackerel, ""Saba-bushi"" (boiled, smoke-dried and fermented mackerel fillet)","鯖魚(花腹鯖,鯖節,煮後煙燻乾燥發酵魚柳)",batch-014
 "Fish, mackerel, spotted mackerel, baked","鯖魚(花腹鯖,烤)",batch-014
 "Fish, mackerel, spotted mackerel, boiled","鯖魚(花腹鯖,烚)",batch-014
 "Fish, mackerel, spotted mackerel, raw","鯖魚(花腹鯖,生)",batch-014
 "Fish, mackerels, processed products, ""Shimesaba"" (vinegar marinated fillet)","鯖魚(加工品,醋鯖,醋醃魚柳)",batch-014
+"Fish, mahimahi, cooked, dry heat","魚(鯕鰍,熟,乾熱烹調)",batch-028
+"Fish, mahimahi, raw","魚(鯕鰍,生)",batch-028
 "Fish, marbled rockfish, raw","魚(大理石鮋,生)",batch-014
+"Fish, milkfish, cooked, dry heat","魚(虱目魚,熟,乾熱烹調)",batch-028
+"Fish, milkfish, raw","魚(虱目魚,生)",batch-028
+"Fish, monkfish, cooked, dry heat","魚(安康魚,熟,乾熱烹調)",batch-028
+"Fish, monkfish, raw","魚(安康魚,生)",batch-028
+"Fish, mullet, striped, baked or broiled","魚(烏頭魚,焗或燒烤)",batch-028
+"Fish, ocean perch, Atlantic, baked or broiled","魚(大西洋紅魚,焗或燒烤)",batch-028
+"Fish, ocean perch, Atlantic, raw","魚(大西洋紅魚,生)",batch-028
 "Fish, olive flounder, cultured, sashimi","牙鮃(養殖,刺身)",batch-014
 "Fish, olive flounder, cultured, with integument, raw","牙鮃(養殖,連皮,生)",batch-014
 "Fish, olive flounder, wild, raw","牙鮃(野生,生)",batch-014
+"Fish, orange roughy, baked or broiled","魚(橙棘鯛,焗或燒烤)",batch-028
+"Fish, orange roughy, raw","魚(橙棘鯛,生)",batch-028
 "Fish, pale chub, raw","魚(淡水鯝魚,生)",batch-014
+"Fish, perch, mixed species, baked or broiled","魚(河鱸,混合品種,焗或燒烤)",batch-028
+"Fish, perch, mixed species, raw","魚(河鱸,混合品種,生)",batch-028
 "Fish, pike, northern, Indigenous, liver",北美狗魚肝(原住民食品),pilot
+"Fish, pike, northern, cooked, dry heat","魚(北方狗魚,熟,乾熱烹調)",batch-028
+"Fish, pike, northern, raw","魚(北方狗魚,生)",batch-028
+"Fish, pike, walleye, cooked, dry heat","魚(黃金眼鱸,熟,乾熱烹調)",batch-028
+"Fish, pike, walleye, raw","魚(黃金眼鱸,生)",batch-028
+"Fish, pollock, Alaska, baked or broiled","魚(阿拉斯加鱈魚,焗或燒烤)",batch-028
+"Fish, pollock, Alaska, cooked","魚(阿拉斯加鱈魚,熟)",batch-028
+"Fish, pollock, Alaska, raw","魚(阿拉斯加鱈魚,生)",batch-028
+"Fish, pollock, Atlantic, cooked, dry heat","魚(大西洋鱈魚(青鱈),熟,乾熱烹調)",batch-028
+"Fish, pollock, Atlantic, raw","魚(大西洋鱈魚(青鱈),生)",batch-028
 "Fish, pollock, raw",青鱈(生),batch-019
 "Fish, pompano, florida, baked or broiled","鯧魚(佛羅里達,焗或燒烤)",pilot
+"Fish, pompano, florida, raw","魚(佛羅里達鯧魚,生)",batch-028
+"Fish, pout, ocean, baked or broiled","魚(大洋鰻鯰,焗或燒烤)",batch-028
+"Fish, pout, ocean, raw","魚(大洋鰻鯰,生)",batch-028
 "Fish, puffer, ocellate puffer, cultured, raw","河豚(紅鰭東方魨,養殖,生)",batch-014
 "Fish, puffer, purple puffer, cultured, raw","河豚(紫色河豚,養殖,生)",batch-014
 "Fish, ray, raw",魟魚(生),batch-014
@@ -5555,8 +5729,14 @@ Fish paste,魚醬,batch-007
 "Fish, righteye flounder, marbled sole, raw",真子鰈(生),batch-015
 "Fish, righteye flounder, with ovary, boiled",有卵鰈魚(煮),batch-015
 "Fish, righteye flounder, with ovary, raw",有卵鰈魚(生),batch-015
+"Fish, rockfish, Pacific, mixed species, cooked, dry heat","魚(太平洋石斑魚,混合品種,熟,乾熱烹調)",batch-028
+"Fish, rockfish, Pacific, mixed species, raw","魚(太平洋石斑魚,混合品種,生)",batch-028
+"Fish, roe, mixed species, baked or broiled","魚子(混合品種,焗或燒烤)",batch-028
+"Fish, roe, mixed species, raw","魚子(混合品種,生)",batch-028
 "Fish, sablefish, boiled",銀鱈魚(煮),batch-015
+"Fish, sablefish, cooked, dry heat","魚(黑鱈,熟,乾熱烹調)",batch-028
 "Fish, sablefish, raw",銀鱈魚(生),batch-015
+"Fish, sablefish, smoked","魚(黑鱈,煙燻)",batch-028
 "Fish, sailfin sandfish, ""Namaboshi"" (salted and semi-dried whole)","黑鰭多鬚魚(「Namaboshi」鹽醃半乾,原條)",batch-015
 "Fish, sailfin sandfish, raw",黑鰭多鬚魚(生),batch-015
 "Fish, salmon and trout, Atlantic salmon, cultured, baked","大西洋三文魚(養殖,焗)",batch-015
@@ -5589,28 +5769,55 @@ Fish paste,魚醬,batch-007
 "Fish, salmon and trout, sockeye salmon, raw",紅鮭(生),batch-015
 "Fish, salmon and trout, sockeye salmon, smoked",紅鮭(煙燻),batch-015
 "Fish, salmon, Atlantic, farm raised, raw","大西洋三文魚(養殖,生)",batch-019
+"Fish, salmon, Atlantic, farmed, cooked, dry heat","魚(大西洋三文魚,養殖,熟,乾熱烹調)",batch-028
+"Fish, salmon, Atlantic, farmed, raw","魚(大西洋三文魚,養殖,生)",batch-028
+"Fish, salmon, Atlantic, wild, cooked, dry heat","魚(大西洋三文魚,野生,熟,乾熱烹調)",batch-028
+"Fish, salmon, Atlantic, wild, raw","魚(大西洋三文魚,野生,生)",batch-028
 "Fish, salmon, Indigenous, eggs, raw","魚(三文魚,原住民食品,魚卵,生)",batch-004
 "Fish, salmon, Indigenous, king or chinook, kippered, canned","帝王鮭(原住民,煙燻熟,罐頭)",batch-020
 "Fish, salmon, Indigenous, king or chinook, liver","帝王鮭(原住民,肝)",batch-020
 "Fish, salmon, Indigenous, king or chinook, smoked, brined","帝王鮭(原住民,煙燻,鹽水醃)",batch-020
 "Fish, salmon, Indigenous, king or chinook, smoked, canned","帝王鮭(原住民,煙燻,罐頭)",batch-020
 "Fish, salmon, Indigenous, tipnuk, fermented","三文魚(原住民,tipnuk,發酵)",batch-020
+"Fish, salmon, chinook (spring), smoked, lox","魚(帝王三文魚(春季),煙燻,鹽醃三文魚)",batch-028
+"Fish, salmon, chinook, cooked, dry heat","魚(帝王三文魚,熟,乾熱烹調)",batch-028
+"Fish, salmon, chinook, raw","魚(帝王三文魚,生)",batch-028
+"Fish, salmon, chinook, smoked","魚(帝王三文魚,煙燻)",batch-028
 "Fish, salmon, chum (keta), poached","魚(三文魚,大麻哈魚,水煮)",batch-004
+"Fish, salmon, chum, canned, drained solids with bone","魚(三文魚(狗鮭),罐頭,瀝乾固體連骨)",batch-028
+"Fish, salmon, chum, canned, without salt, drained solids with bone","魚(三文魚(狗鮭),罐頭,無鹽,瀝乾固體連骨)",batch-028
+"Fish, salmon, chum, cooked, dry heat","魚(三文魚(狗鮭),熟,乾熱烹調)",batch-028
 "Fish, salmon, chum, dried (Alaska Native)",大麻哈魚乾(阿拉斯加原住民),batch-020
+"Fish, salmon, chum, raw","魚(三文魚(狗鮭),生)",batch-028
 "Fish, salmon, coho (silver), raw (Alaska Native)","銀鮭(生,阿拉斯加原住民)",batch-020
+"Fish, salmon, coho, farmed, baked or broiled","魚(銀鮭,養殖,焗或燒烤)",batch-028
+"Fish, salmon, coho, farmed, raw","魚(銀鮭,養殖,生)",batch-028
+"Fish, salmon, coho, wild, baked or broiled","魚(銀鮭,野生,焗或燒烤)",batch-028
+"Fish, salmon, coho, wild, poached","魚(銀鮭,野生,水煮)",batch-028
+"Fish, salmon, coho, wild, raw","魚(銀鮭,野生,生)",batch-028
 "Fish, salmon, king (chinook), raw (Alaska Native)","帝王鮭(生,阿拉斯加原住民)",batch-020
 "Fish, salmon, king, with skin, kippered, (Alaska Native)","帝王鮭(連皮,煙燻熟,阿拉斯加原住民)",batch-020
 "Fish, salmon, pink (humpback), poached","魚(三文魚,駝背鮭,水煮)",batch-004
+"Fish, salmon, pink, canned, drained solids","魚(粉紅三文魚,罐頭,瀝乾固體)",batch-028
+"Fish, salmon, pink, canned, total can contents","魚(粉紅三文魚,罐頭,罐內全部內容物)",batch-028
+"Fish, salmon, pink, canned, without salt, solids with bone and liquid","魚(粉紅三文魚,罐頭,無鹽,固體連骨及汁液)",batch-028
+"Fish, salmon, pink, cooked, dry heat","魚(粉紅三文魚,熟,乾熱烹調)",batch-028
+"Fish, salmon, pink, raw","魚(粉紅三文魚,生)",batch-028
 "Fish, salmon, red, (sockeye), canned, smoked (Alaska Native)","紅鮭(罐頭,煙燻,阿拉斯加原住民)",batch-020
 "Fish, salmon, red, (sockeye), kippered (Alaska Native)","紅鮭(煙燻熟,阿拉斯加原住民)",batch-020
 "Fish, salmon, red, canned, bones removed (Alaska Native)","紅鮭(罐頭,去骨,阿拉斯加原住民)",batch-020
 "Fish, salmon, sockeye (red), raw (Alaska Native)","紅鮭(生,阿拉斯加原住民)",batch-020
+"Fish, salmon, sockeye, canned, drained solids","魚(紅三文魚,罐頭,瀝乾固體)",batch-028
+"Fish, salmon, sockeye, canned, without salt, drained solids with bone","魚(紅三文魚,罐頭,無鹽,瀝乾固體連骨)",batch-028
+"Fish, salmon, sockeye, cooked, dry heat","魚(紅三文魚,熟,乾熱烹調)",batch-028
+"Fish, salmon, sockeye, raw","魚(紅三文魚,生)",batch-028
 "Fish, salmon, sockeye, wild caught, raw","紅鮭(野生,生)",batch-019
 "Fish, sardine, ""Mezashi"" (skewered, salted and semi-dried whole), baked","沙甸魚(「Mezashi」串起鹽醃半乾,原條,焗)",batch-015
 "Fish, sardine, ""Mezashi"" (skewered, salted and semi-dried whole), raw","沙甸魚(「Mezashi」串起鹽醃半乾,原條,生)",batch-015
 "Fish, sardine, ""Shirasuboshi"" (boiled and dried whitebait), mild dried","沙甸魚(「Shirasuboshi」煮後曬乾銀魚,微乾)",batch-015
 "Fish, sardine, ""Shirasuboshi"" (boiled and dried whitebait), semi-dried","沙甸魚(「Shirasuboshi」煮後曬乾銀魚,半乾)",batch-015
 "Fish, sardine, ""Tatamiiwashi"" (sheet of dried whitebait)",沙甸魚(「Tatamiiwashi」銀魚乾片),batch-015
+"Fish, sardine, Atlantic, canned in oil, drained solids with bone","魚(大西洋沙丁魚,油浸罐頭,瀝乾固體連骨)",batch-028
 "Fish, sardine, Japanese anchovy, ""Mirinboshi"" (split seasoned with Mirin and dried)",日本鯷魚(「Mirinboshi」剖開以味醂調味曬乾),batch-015
 "Fish, sardine, Japanese anchovy, ""Niboshi"" (boiled and dried whole)","日本鯷魚(「Niboshi」煮後曬乾,原條)",batch-015
 "Fish, sardine, Japanese anchovy, ""Tazukuri"" (dried young anchovy)",日本鯷魚(「Tazukuri」曬乾小鯷魚),batch-015
@@ -5630,10 +5837,15 @@ Fish paste,魚醬,batch-007
 "Fish, sardine, Japanese pilchard, raw",日本沙甸魚(生),batch-015
 "Fish, sardine, Pacific round herring, ""Maruboshi"" (salted and dried whole), raw","太平洋圓鯡(「Maruboshi」鹽醃曬乾,原條,生)",batch-015
 "Fish, sardine, Pacific round herring, raw",太平洋圓鯡(生),batch-015
+"Fish, sardine, Pacific, canned in tomato sauce, drained with bones","魚(太平洋沙丁魚,茄汁罐頭,瀝乾連骨)",batch-028
 "Fish, sardine, anchovy, canned products, in oil",鯷魚(油浸罐頭),batch-015
 "Fish, sardine, whitebait, raw",銀魚(生),batch-015
 "Fish, sauger (yellow walleye), raw","魚(黃金眼鱸,生)",batch-004
 "Fish, sculpin, Indigenous, raw","魚(杜父魚,原住民食品,生)",batch-004
+"Fish, scup, cooked, dry heat","魚(斯卡普鯛,熟,乾熱烹調)",batch-028
+"Fish, scup, raw","魚(斯卡普鯛,生)",batch-028
+"Fish, sea bass, mixed species, baked or broiled","魚(海鱸魚,混合品種,焗或燒烤)",batch-028
+"Fish, sea bass, mixed species, raw","魚(海鱸魚,混合品種,生)",batch-028
 "Fish, sea bream, black sea bream, raw",黑鯛(生),batch-015
 "Fish, sea bream, crimson sea bream, raw",赤鯥(生),batch-015
 "Fish, sea bream, red sea bream, cultured, sashimi","真鯛(養殖,刺身)",batch-015
@@ -5642,11 +5854,19 @@ Fish paste,魚醬,batch-007
 "Fish, sea bream, red sea bream, cultured, with integument, raw","真鯛(養殖,連皮,生)",batch-015
 "Fish, sea bream, red sea bream, wild, raw","真鯛(野生,生)",batch-015
 "Fish, sea bream, yellow sea bream, raw",黃鯛(生),batch-015
+"Fish, seatrout, mixed species, cooked, dry heat","魚(海鱒,混合品種,熟,乾熱烹調)",batch-028
+"Fish, seatrout, mixed species, raw","魚(海鱒,混合品種,生)",batch-028
 "Fish, seema, cultured, raw","縞鰺(養殖,生)",batch-015
+"Fish, shad, American, baked or broiled","魚(美洲鰣,焗或燒烤)",batch-028
+"Fish, shad, American, raw","魚(美洲鰣,生)",batch-028
+"Fish, shark (dogfish), mixed species, battered and fried","魚(鯊魚(角鯊),混合品種,裹漿炸)",batch-028
 "Fish, shark, blue shark, raw",大青鯊(生),batch-015
 "Fish, shark, dogfish, raw",角鯊(生),batch-015
 "Fish, shark, dried shark fin",魚翅(乾),batch-015
+"Fish, shark, mixed species, raw","魚(鯊魚,混合品種,生)",batch-028
 "Fish, sheefish, raw (Alaska Native)","白鮭(Sheefish,生,阿拉斯加原住民)",batch-020
+"Fish, sheepshead, baked or broiled","魚(羊頭鯛,焗或燒烤)",batch-028
+"Fish, sheepshead, raw","魚(羊頭鯛,生)",batch-028
 "Fish, silver pomfret, raw",鯧魚(生),batch-015
 "Fish, silver warehou, raw",銀鯧(生),batch-015
 "Fish, skipjack tuna and frigate mackerel, canned products, flaked meat in oil","鰹魚及圓鰹(罐頭,油浸魚碎)",batch-015
@@ -5661,36 +5881,76 @@ Fish paste,魚醬,batch-007
 "Fish, skipjack tuna, processed products, ""Namari-bushi"" (boiled and semi-dried fillet)","鰹魚(加工品,「Namari-bushi」煮後半乾魚柳)",batch-015
 "Fish, skipjack tuna, processed products, ""Shiokara"" (salted and fermented viscera)","鰹魚(加工品,「Shiokara」鹽醃發酵內臟)",batch-015
 "Fish, smelt, dried",胡瓜魚乾,batch-020
+"Fish, smelt, rainbow, cooked, dry heat","魚(虹銀漢魚,熟,乾熱烹調)",batch-028
+"Fish, smelt, rainbow, raw","魚(虹銀漢魚,生)",batch-028
+"Fish, snapper, mixed species, baked or broiled","魚(笛鯛,混合品種,焗或燒烤)",batch-028
+"Fish, snapper, mixed species, raw","魚(笛鯛,混合品種,生)",batch-028
 "Fish, sole, raw",龍脷魚(生),batch-015
 "Fish, southern blue whiting, raw",南方藍鱈(生),batch-015
 "Fish, spangled emperor, raw",星斑裸頰鯛(生),batch-015
 "Fish, splendid alfonsino, raw",金眼鯛(生),batch-015
+"Fish, spot, baked or broiled","魚(斑鰭石首魚,焗或燒烤)",batch-028
+"Fish, spot, raw","魚(斑鰭石首魚,生)",batch-028
 "Fish, steelhead trout, boiled, canned","硬頭鱒魚(烚,罐頭)",batch-020
 "Fish, steelhead trout, meat, dried",硬頭鱒魚肉(乾),batch-020
 "Fish, striped jack, cultured, raw","條紋鰤(養殖,生)",batch-015
 "Fish, striped marlin, raw",條紋馬林魚(生),batch-015
 "Fish, striped mullet, ""Karasumi"" (salted and dried roe)",烏魚(「Karasumi」鹽醃曬乾魚子),batch-015
 "Fish, striped mullet, raw",烏魚(生),batch-015
+"Fish, sturgeon, mixed species, baked or broiled","魚(鱘魚,混合品種,焗或燒烤)",batch-028
+"Fish, sturgeon, mixed species, raw","魚(鱘魚,混合品種,生)",batch-028
+"Fish, sturgeon, mixed species, smoked","魚(鱘魚,混合品種,煙燻)",batch-028
+"Fish, sucker, white, cooked, dry heat","魚(白亞口魚,熟,乾熱烹調)",batch-028
+"Fish, sucker, white, raw","魚(白亞口魚,生)",batch-028
+"Fish, sunfish, pumpkin seed, baked or broiled","魚(南瓜籽太陽魚,焗或燒烤)",batch-028
+"Fish, sunfish, pumpkin seed, raw","魚(南瓜籽太陽魚,生)",batch-028
+"Fish, surimi",魚漿(蟹柳原料),batch-028
 "Fish, swordfish, baked",劍魚(焗),batch-015
+"Fish, swordfish, baked or broiled","魚(劍魚,焗或燒烤)",batch-028
 "Fish, swordfish, raw",劍魚(生),batch-015
 "Fish, three-line grunt, raw",三線雞魚(生),batch-015
+"Fish, tilapia, baked or broiled","魚(羅非魚,焗或燒烤)",batch-028
 "Fish, tilapia, farm raised, raw","羅非魚(養殖,生)",batch-019
+"Fish, tilapia, raw","魚(羅非魚,生)",batch-028
 "Fish, tile fish, baked",方頭魚(焗),batch-015
 "Fish, tile fish, boiled",方頭魚(煮),batch-015
 "Fish, tile fish, raw",方頭魚(生),batch-015
+"Fish, tilefish, baked or broiled","魚(方頭魚,焗或燒烤)",batch-028
+"Fish, tilefish, raw","魚(方頭魚,生)",batch-028
+"Fish, trout, brook, raw","魚(溪鱒,生)",batch-028
+"Fish, trout, mixed species, baked or broiled","魚(鱒魚,混合品種,焗或燒烤)",batch-028
+"Fish, trout, mixed species, raw","魚(鱒魚,混合品種,生)",batch-028
+"Fish, trout, rainbow, farmed, baked or broiled","魚(虹鱒,養殖,焗或燒烤)",batch-028
+"Fish, trout, rainbow, farmed, raw","魚(虹鱒,養殖,生)",batch-028
+"Fish, trout, rainbow, wild, baked or broiled","魚(虹鱒,野生,焗或燒烤)",batch-028
+"Fish, trout, rainbow, wild, raw","魚(虹鱒,野生,生)",batch-028
 "Fish, tuna, albacore, raw",長鰭吞拿魚(生),pilot
 "Fish, tuna, bluefin tuna, fatty meat, raw","藍鰭吞拿魚(脂肪豐富部位,生)",batch-015
 "Fish, tuna, bluefin tuna, lean meat, raw","藍鰭吞拿魚(瘦肉,生)",batch-015
+"Fish, tuna, bluefin, fresh, baked or broiled","魚(藍鰭吞拿魚,新鮮,焗或燒烤)",batch-028
+"Fish, tuna, bluefin, fresh, raw","魚(藍鰭吞拿魚,新鮮,生)",batch-028
 "Fish, tuna, canned products, flaked light meat in brine","吞拿魚(罐頭,淺色魚肉碎,鹽水浸)",batch-015
 "Fish, tuna, canned products, flaked light meat in oil","吞拿魚(罐頭,淺色魚肉碎,油浸)",batch-015
 "Fish, tuna, canned products, flaked meat with seasoning","吞拿魚(罐頭,調味魚肉碎)",batch-015
 "Fish, tuna, canned products, flaked white meat in brine","吞拿魚(罐頭,白色魚肉碎,鹽水浸)",batch-015
 "Fish, tuna, canned products, flaked white meat in oil","吞拿魚(罐頭,油浸,碎塊,白肉)",pilot
+"Fish, tuna, fresh, skipjack, raw","魚(鰹魚吞拿魚,新鮮,生)",batch-028
+"Fish, tuna, light, canned in oil, drained solids","魚(淡肉吞拿魚,油浸罐頭,瀝乾固體)",batch-028
+"Fish, tuna, light, canned in oil, drained, unsalted","魚(淡肉吞拿魚,油浸罐頭,瀝乾,無鹽)",batch-028
 "Fish, tuna, light, canned in water, drained solids","淡肉吞拿魚(水浸罐頭,已瀝乾固體)",batch-019
+"Fish, tuna, light, canned in water, drained, salt added","魚(淡肉吞拿魚,水浸罐頭,瀝乾,有鹽)",batch-028
+"Fish, tuna, skipjack (aku), baked or broiled","魚(鰹魚(鰹),焗或燒烤)",batch-028
 "Fish, tuna, southern bluefin tuna, fatty meat, raw","南方藍鰭吞拿魚(脂肪豐富部位,生)",batch-015
 "Fish, tuna, southern bluefin tuna, lean meat, raw","南方藍鰭吞拿魚(瘦肉,生)",batch-015
+"Fish, tuna, white, canned in oil, drained solids","魚(白肉吞拿魚,油浸罐頭,瀝乾固體)",batch-028
+"Fish, tuna, white, canned in water, drained solids","魚(白肉吞拿魚,水浸罐頭,瀝乾固體)",batch-028
+"Fish, tuna, white, canned with oil, drained, unsalted","魚(白肉吞拿魚,加油罐頭,瀝乾,無鹽)",batch-028
+"Fish, tuna, white, canned with water, drained, unsalted","魚(白肉吞拿魚,加水罐頭,瀝乾,無鹽)",batch-028
 "Fish, tuna, yellowfin tuna, raw",黃鰭吞拿魚(生),batch-015
+"Fish, tuna, yellowfin, baked or broiled","魚(黃鰭吞拿魚,焗或燒烤)",batch-028
 "Fish, tuna, young bluefin tuna, raw",幼藍鰭吞拿魚(生),batch-015
+"Fish, turbot, European, baked or broiled","魚(歐洲大菱鮃,焗或燒烤)",batch-028
+"Fish, turbot, European, raw","魚(歐洲大菱鮃,生)",batch-028
 "Fish, white flesh, battered, packaged frozen, baked, no added fat","白肉魚(炸漿,包裝冷凍,焗,無添加脂肪)",batch-001
 "Fish, white flesh, crumbed, packaged frozen, baked, no added fat","白肉魚(麵包糠裹面,包裝冷凍,焗,無添加脂肪)",batch-001
 "Fish, white-spotted char, cultured, raw","白斑紅點鮭(養殖,生)",batch-015
@@ -5703,14 +5963,23 @@ Fish paste,魚醬,batch-007
 "Fish, whitefish, broad, liver (Alaska Native)","寬白鮭(肝,阿拉斯加原住民)",batch-020
 "Fish, whitefish, dried (Alaska Native)",白鮭乾(阿拉斯加原住民),batch-020
 "Fish, whitefish, eggs (Alaska Native)",白鮭卵(阿拉斯加原住民),batch-020
+"Fish, whitefish, lake, Indigenous, baked","魚(湖白鮭,原住民做法,焗)",batch-028
+"Fish, whitefish, mixed species, raw","魚(白鮭,混合品種,生)",batch-028
 "Fish, whitefish, mixed species, raw (Alaska Native)","白鮭(混合品種,生,阿拉斯加原住民)",batch-020
+"Fish, whitefish, mixed species, smoked","魚(白鮭,混合品種,煙燻)",batch-028
+"Fish, whiting, mixed species, cooked, dry heat","魚(鱈魚,混合品種,熟,乾熱烹調)",batch-028
+"Fish, whiting, mixed species, raw","魚(鱈魚,混合品種,生)",batch-028
 "Fish, willow shiner, raw",柳葉魚(生),batch-015
+"Fish, wolffish, Atlantic, cooked, dry heat","魚(大西洋狼魚,熟,乾熱烹調)",batch-028
+"Fish, wolffish, Atlantic, raw","魚(大西洋狼魚,生)",batch-028
 "Fish, yellowfin goby, ""Kanroni"" (simmered whole in soy sauce and sugar)",黃鰭鰕虎魚(「Kanroni」豉油糖煮原條),batch-015
 "Fish, yellowfin goby, ""Tsukudani"" (boiled whole in soy sauce)",黃鰭鰕虎魚(「Tsukudani」豉油煮原條),batch-015
 "Fish, yellowfin goby, raw",黃鰭鰕虎魚(生),batch-015
 "Fish, yellowstriped butterfish, raw",黃條鰤(生),batch-015
 "Fish, yellowtail, mature, baked","鰤魚(成魚,焗)",batch-015
 "Fish, yellowtail, mature, raw","鰤魚(成魚,生)",batch-015
+"Fish, yellowtail, mixed species, baked or broiled","魚(黃尾魚,混合品種,焗或燒烤)",batch-028
+"Fish, yellowtail, mixed species, raw","魚(黃尾魚,混合品種,生)",batch-028
 "Fish, yellowtail, young, cultured, sashimi","鰤魚(幼魚,養殖,刺身)",batch-015
 "Fish, yellowtail, young, cultured, with integument, raw","鰤魚(幼魚,養殖,連皮,生)",batch-015
 "Fishcakes, cod, homemade",鱈魚餅(自家製),batch-007
@@ -5782,6 +6051,7 @@ Frankfurter with bun,法蘭克福腸熱狗包,batch-009
 "Frankfurter with bun, ketchup, fried onions and mustard","法蘭克福腸熱狗包(加茄汁,炒洋蔥及芥末)",batch-009
 "French toast, frozen, ready to heat","西多士(冷凍,即熱型)",batch-021
 "French toast, homemade, with 2% M.F. milk and margarine","西多士(自家製,用2%脂肪牛奶及瑪琪琳)",batch-021
+"Frog legs, raw",田雞腿(生),batch-028
 "Fromage frais, fruit, children's, fortified","法式鮮乳酪(水果味,兒童裝,強化)",batch-010
 "Fromage frais, virtually fat free, fruit","法式鮮乳酪(近乎無脂,水果味)",batch-010
 "Fromage frais, virtually fat free, natural","法式鮮乳酪(近乎無脂,原味)",batch-010
@@ -6501,6 +6771,7 @@ Jaffa cakes,Jaffa 橙味夾心蛋糕,batch-007
 "Jelly, made with water",果凍(以水製),batch-010
 "Jelly, sugar free, made with water","果凍(無糖,以水製)",batch-010
 "Jellyfish, Salted, desalted","海蜇(鹽醃,已脫鹽)",batch-015
+"Jellyfish, dried, salted","海蜇(乾,鹽醃)",batch-028
 "Jerusalem-artichoke, tuber, boiled","菊芋(塊莖,煮)",batch-017
 "Jerusalem-artichoke, tuber, raw","菊芋(塊莖,生)",batch-017
 "Jiaozi (Chinese dumpling), frozen",餃子(冷凍),batch-017
@@ -7369,14 +7640,24 @@ Molasses,糖蜜,batch-011
 "Mollusks, Sakhalin surf clam, raw",北極貝(生),batch-015
 "Mollusks, abalone, ""Shiokara"" (salted and fermented)",鮑魚(「Shiokara」鹽醃發酵),batch-015
 "Mollusks, abalone, canned in brine",鮑魚(鹽水罐頭),batch-015
+"Mollusks, abalone, mixed species, cooked, fried","軟體動物(鮑魚,混合品種,熟,炸)",batch-028
+"Mollusks, abalone, mixed species, raw","軟體動物(鮑魚,混合品種,生)",batch-028
 "Mollusks, abalone, steamed and dried",鮑魚(蒸後曬乾),batch-015
 "Mollusks, ark shell, canned with seasoning",魁蚶(調味罐頭),batch-015
 "Mollusks, bloody clam, raw",血蚶(生),batch-015
+"Mollusks, clam, mixed species, boiled or steamed","軟體動物(蜆,混合品種,烚或蒸)",batch-028
+"Mollusks, clam, mixed species, breaded and fried","軟體動物(蜆,混合品種,裹粉炸)",batch-028
+"Mollusks, clam, mixed species, canned, drained solids","軟體動物(蜆,混合品種,罐頭,瀝乾固體)",batch-028
+"Mollusks, clam, mixed species, canned, liquid","軟體動物(蜆,混合品種,罐頭,汁液)",batch-028
+"Mollusks, clam, mixed species, raw","軟體動物(蜆,混合品種,生)",batch-028
 "Mollusks, cockle, foot, raw","鳥貝(足部,生)",batch-015
 "Mollusks, cockle, raw","鳥蛤(軟體動物,生)",batch-020
 "Mollusks, common octopus, boiled",真蛸(煮),batch-015
 "Mollusks, common octopus, raw",真蛸(生),batch-015
 "Mollusks, common shield-clam, raw",盾蛤(生),batch-015
+"Mollusks, conch, baked or broiled","軟體動物(海螺,焗或燒烤)",batch-028
+"Mollusks, cuttlefish, mixed species, cooked, moist heat","軟體動物(墨魚,混合品種,熟,濕熱烹調)",batch-028
+"Mollusks, cuttlefish, mixed species, raw","軟體動物(墨魚,混合品種,生)",batch-028
 "Mollusks, firefly squid, ""Tsukudani"" (simmered whole in soy sauce and sugar)",螢火魷(「Tsukudani」豉油糖煮原隻),batch-015
 "Mollusks, firefly squid, boiled",螢火魷(煮),batch-015
 "Mollusks, firefly squid, raw",螢火魷(生),batch-015
@@ -7395,8 +7676,19 @@ Molasses,糖蜜,batch-011
 "Mollusks, hen clam, raw",白蛤(生),batch-015
 "Mollusks, jackknife clam, raw",竹蟶(生),batch-015
 "Mollusks, keen's gaper, siphon, raw","象拔蚌(水管,生)",batch-015
+"Mollusks, mussel, blue, boiled or steamed","軟體動物(藍青口,烚或蒸)",batch-028
+"Mollusks, mussel, blue, raw","軟體動物(藍青口,生)",batch-028
 "Mollusks, neon flying squid, raw",赤魷(生),batch-015
 "Mollusks, ocellated octopus, raw",眼斑章魚(生),batch-015
+"Mollusks, octopus, common, boiled or steamed","軟體動物(章魚,烚或蒸)",batch-028
+"Mollusks, oyster, Pacific, raw","軟體動物(太平洋蠔,生)",batch-028
+"Mollusks, oyster, eastern, canned","軟體動物(東方蠔,罐頭)",batch-028
+"Mollusks, oyster, eastern, cooked, breaded and fried","軟體動物(東方蠔,熟,裹粉炸)",batch-028
+"Mollusks, oyster, eastern, farmed, cooked, dry heat","軟體動物(東方蠔,養殖,熟,乾熱烹調)",batch-028
+"Mollusks, oyster, eastern, farmed, raw","軟體動物(東方蠔,養殖,生)",batch-028
+"Mollusks, oyster, eastern, wild, cooked, dry heat","軟體動物(東方蠔,野生,熟,乾熱烹調)",batch-028
+"Mollusks, oyster, eastern, wild, cooked, moist heat","軟體動物(東方蠔,野生,熟,濕熱烹調)",batch-028
+"Mollusks, oyster, pacific, boiled or steamed","軟體動物(太平洋蠔,烚或蒸)",batch-028
 "Mollusks, pen shell, adductor muscle, raw",江珧貝柱(生),pilot
 "Mollusks, pond snail, raw",田螺(生),batch-015
 "Mollusks, processed squid, ""Ika-arare"" (dried squid flakes, simmered in glucose syrup and soy sauce)","加工魷魚(「Ika-arare」乾魷魚片,葡萄糖漿豉油煮)",batch-015
@@ -7406,18 +7698,26 @@ Molasses,糖蜜,batch-011
 "Mollusks, processed squid, ""Surume"" (dried squid)",加工魷魚(「Surume」魷魚乾),batch-015
 "Mollusks, processed squid, canned with seasoning",加工魷魚(調味罐頭),batch-015
 "Mollusks, processed squid, seasoned and smoked",加工魷魚(調味煙燻),batch-015
+"Mollusks, scallop (bay and sea), cooked, steamed","軟體動物(扇貝(灣扇貝及海扇貝),熟,蒸)",batch-028
+"Mollusks, scallop, mixed species, breaded and fried","軟體動物(扇貝,混合品種,裹粉炸)",batch-028
+"Mollusks, scallop, mixed species, imitation (surimi)","軟體動物(扇貝,混合品種,仿製(魚漿))",batch-028
+"Mollusks, scallop, mixed species, raw","軟體動物(扇貝,混合品種,生)",batch-028
 "Mollusks, short-necked clam, ""Tsukudani"" (simmered meat in soy sauce and sugar)",蜆(「Tsukudani」豉油糖煮蜆肉),batch-015
 "Mollusks, short-necked clam, canned products, boiled in brine","蜆(罐頭,鹽水煮)",batch-015
 "Mollusks, short-necked clam, canned products, boiled with seasoning","蜆(罐頭,調味煮)",batch-015
 "Mollusks, short-necked clam, raw",蜆(生),batch-015
+"Mollusks, snail, raw","軟體動物(蝸牛,生)",batch-028
 "Mollusks, spear squid, raw",長槍魷(生),batch-015
 "Mollusks, squid (calamari), mixed species, breaded and fried","軟體動物(魷魚,混合品種,麵包糠炸)",batch-004
+"Mollusks, squid, mixed species, cooked, fried","軟體動物(魷魚,混合品種,熟,炸)",batch-028
+"Mollusks, squid, mixed species, raw","軟體動物(魷魚,混合品種,生)",batch-028
 "Mollusks, swordtip squid, raw",劍尖槍魷(生),batch-015
 "Mollusks, tokobushi abalone, raw",九孔鮑(生),batch-015
 "Mollusks, turban shell, baked",蠑螺(焗),batch-015
 "Mollusks, turban shell, raw",蠑螺(生),batch-015
 "Mollusks, whelk and Ivory shell, raw",海螺及象牙螺(生),batch-015
 "Mollusks, whelk, raw",海螺(生),batch-015
+"Mollusks, whelk, unspecified, boiled or steamed","軟體動物(峨螺,未指明,烚或蒸)",batch-028
 "Monkfish, flesh only, grilled","鮟鱇魚(只計魚肉,燒烤)",batch-007
 "Monkfish, flesh only, grilled, weighed with bones","鮟鱇魚(只計魚肉,燒烤,連骨稱重)",batch-007
 "Monkfish, flesh only, raw","鮟鱇魚(只計魚肉,生)",batch-007
@@ -7751,10 +8051,20 @@ Octopus (Alaska Native),八爪魚(阿拉斯加原住民),batch-020
 "Oil, soybean, salad or cooking, (partially hydrogenated)","大豆油(沙律或烹調用,部分氫化)",batch-027
 "Oil, soybean, salad or cooking, (partially hydrogenated) and cottonseed","大豆油及棉籽油(沙律或烹調用,部分氫化)",batch-027
 "Oil, spotted seal (Alaska Native)",斑海豹油(阿拉斯加原住民),batch-020
+"Oil, sunflower, high oleic (70% and over)","葵花籽油(高油酸,70%及以上)",batch-028
+"Oil, sunflower, linoleic (less than 60%)","葵花籽油(亞油酸型,低於60%)",batch-028
+"Oil, sunflower, linoleic, (approx. 65%)","葵花籽油(亞油酸型,約65%)",batch-028
+"Oil, sunflower, linoleic, (partially hydrogenated)","葵花籽油(亞油酸型,部分氫化)",batch-028
+"Oil, teaseed",茶籽油,batch-028
+"Oil, tomatoseed",番茄籽油,batch-028
+"Oil, ucuhuba butter",烏庫巴脂,batch-028
 "Oil, vegetable",植物油,batch-001
+"Oil, vegetable, Natreon canola, high stability, non trans, high oleic (70%)","植物油(Natreon芥花籽油,高穩定性,無反式脂肪,高油酸70%)",batch-028
 "Oil, vegetable, average",植物油(平均),batch-007
+"Oil, vegetable, soybean, refined","植物油(大豆,精煉)",batch-028
 "Oil, walrus (Alaska Native)",海象油(阿拉斯加原住民),batch-020
 "Oil, whale, bowhead (Alaska Native)",弓頭鯨油(阿拉斯加原住民),batch-020
+"Oil, wheat germ",麥芽油,batch-028
 "Okra with tomatoes and onion, Greek, homemade","希臘式秋葵(配番茄洋蔥,自家製)",batch-012
 "Okra with tomatoes and onion, West Indian, homemade","西印度式秋葵(配番茄洋蔥,自家製)",batch-012
 "Okra, boiled in unsalted water",秋葵(以無鹽水煮),batch-012
@@ -9164,11 +9474,65 @@ Saffron,藏紅花,batch-008
 "Sago, cooked in water, no added salt","西穀米(水煮,無添加鹽)",batch-001
 "Sago, dry, uncooked","西穀米(乾,未煮)",batch-001
 "Sago, raw",西米(生),batch-007
+"Salad Dressing, coleslaw, reduced fat",椰菜沙律醬(減脂),batch-028
+"Salad Dressing, mayonnaise, light, SMART BALANCE, Omega Plus light","沙律醬(蛋黃醬,輕身,SMART BALANCE Omega Plus 輕身)",batch-028
+"Salad Dressing, mayonnaise-like, fat-free","沙律醬(類蛋黃醬,無脂肪)",batch-028
 Salad cream,沙律奶油醬,batch-011
 "Salad cream, reduced fat",沙律奶油醬(減脂),batch-011
+"Salad dressing, Caesar dressing, regular",凱撒沙律醬(普通),batch-028
+"Salad dressing, Caesar, fat free",凱撒沙律醬(無脂肪),batch-028
+"Salad dressing, Caesar, low calorie",凱撒沙律醬(低卡路里),batch-028
+"Salad dressing, French, calorie-reduced",法式沙律醬(減卡路里),batch-028
+"Salad dressing, French, fat free",法式沙律醬(無脂肪),batch-028
+"Salad dressing, French, low calorie",法式沙律醬(低卡路里),batch-028
+"Salad dressing, French, regular",法式沙律醬(普通),batch-028
+"Salad dressing, Italian, calorie-reduced",意式沙律醬(減卡路里),batch-028
+"Salad dressing, Italian, fat free",意式沙律醬(無脂肪),batch-028
+"Salad dressing, Italian, low calorie",意式沙律醬(低卡路里),batch-028
 "Salad dressing, Italian, regular",意式沙律醬(普通),batch-019
+"Salad dressing, KRAFT MIRACLE WHIP FREE Nonfat Dressing",沙律醬(KRAFT MIRACLE WHIP FREE 無脂肪),batch-028
+"Salad dressing, KRAFT Mayo Fat Free Mayonnaise Dressing",沙律醬(KRAFT Mayo 無脂肪蛋黃醬),batch-028
+"Salad dressing, KRAFT Mayo Light Mayonnaise",沙律醬(KRAFT Mayo 輕身蛋黃醬),batch-028
+"Salad dressing, Russian, regular",俄式沙律醬(普通),batch-028
+"Salad dressing, Thousand Island dressing, fat free",千島沙律醬(無脂肪),batch-028
+"Salad dressing, Thousand Island, low calorie",千島沙律醬(低卡路里),batch-028
+"Salad dressing, Thousand Island, regular",千島沙律醬(普通),batch-028
+"Salad dressing, bacon and tomato",煙肉番茄沙律醬,batch-028
+"Salad dressing, blue or roquefort cheese dressing, fat free",藍芝士或羅克福芝士沙律醬(無脂肪),batch-028
+"Salad dressing, blue or roquefort cheese dressing, light",藍芝士或羅克福芝士沙律醬(輕身),batch-028
+"Salad dressing, blue or roquefort cheese, low calorie",藍芝士或羅克福芝士沙律醬(低卡路里),batch-028
+"Salad dressing, blue or roquefort cheese, regular",藍芝士或羅克福芝士沙律醬(普通),batch-028
 "Salad dressing, buttermilk as main ingredient",沙律醬(以酪乳為主要成分),batch-004
+"Salad dressing, buttermilk, lite",白脫牛奶沙律醬(輕身),batch-028
+"Salad dressing, coleslaw",椰菜沙律醬,batch-028
+"Salad dressing, french dressing, commercial, regular, without salt","法式沙律醬(市售,普通,無鹽)",batch-028
+"Salad dressing, french dressing, reduced fat, without salt","法式沙律醬(減脂,無鹽)",batch-028
+"Salad dressing, french, cottonseed, oil, home recipe","法式沙律醬(棉籽油,自家製)",batch-028
+"Salad dressing, french, home recipe",法式沙律醬(自家製),batch-028
+"Salad dressing, green goddess, regular",青神沙律醬(普通),batch-028
+"Salad dressing, honey mustard, calorie-reduced",蜂蜜芥末沙律醬(減卡路里),batch-028
+"Salad dressing, honey mustard, regular",蜂蜜芥末沙律醬(普通),batch-028
 "Salad dressing, italian dressing, reduced fat, without salt","意大利沙律醬(低脂,無鹽)",pilot
+"Salad dressing, mayonnaise and mayonnaise-type, low calorie",蛋黃醬及類蛋黃醬沙律醬(低卡路里),batch-028
+"Salad dressing, mayonnaise type, regular",類蛋黃醬沙律醬(普通),batch-028
+"Salad dressing, mayonnaise, imitation, milk cream",仿蛋黃醬沙律醬(奶忌廉),batch-028
+"Salad dressing, mayonnaise, imitation, soybean",仿蛋黃醬沙律醬(大豆),batch-028
+"Salad dressing, mayonnaise, imitation, soybean without cholesterol","仿蛋黃醬沙律醬(大豆,無膽固醇)",batch-028
+"Salad dressing, mayonnaise, light",蛋黃醬沙律醬(輕身),batch-028
+"Salad dressing, mayonnaise, regular",蛋黃醬沙律醬(普通),batch-028
+"Salad dressing, mayonnaise, soybean and safflower oil, with salt","蛋黃醬沙律醬(大豆油及紅花籽油,有鹽)",batch-028
+"Salad dressing, mayonnaise, soybean oil, without salt","蛋黃醬沙律醬(大豆油,無鹽)",batch-028
+"Salad dressing, mayonnaise-type, light",類蛋黃醬沙律醬(輕身),batch-028
+"Salad dressing, oil and vinegar, homemade",油醋汁沙律醬(自家製),batch-028
+"Salad dressing, peppercorn dressing, regular",胡椒粒沙律醬(普通),batch-028
+"Salad dressing, poppyseed, creamy",罌粟籽忌廉沙律醬,batch-028
+"Salad dressing, ranch dressing, fat free",田莊沙律醬(無脂肪),batch-028
+"Salad dressing, ranch dressing, reduced fat",田莊沙律醬(減脂),batch-028
+"Salad dressing, ranch dressing, regular",田莊沙律醬(普通),batch-028
+"Salad dressing, russian dressing, low calorie",俄式沙律醬(低卡路里),batch-028
+"Salad dressing, sesame seed, regular",芝麻沙律醬(普通),batch-028
+"Salad dressing, spray-style dressing, assorted flavors",噴霧式沙律醬(各種口味),batch-028
+"Salad dressing, sweet and sour",糖醋沙律醬,batch-028
 "Salad, Caesar with chicken, homemade",凱撒雞肉沙律(自家製),batch-005
 "Salad, Caesar, homemade",凱撒沙律(自家製),batch-005
 "Salad, Greek",希臘沙律,batch-012
@@ -9193,6 +9557,8 @@ Salami snack,薩拉米腸小食,batch-010
 "Salisbury steak in gravy with macaroni and cheese, frozen",沙利斯伯里牛扒配肉汁及芝士通粉(雪藏),batch-005
 "Salmis of pheasant, homemade",燴野雉(自家製),batch-010
 "Salmon en croute, retail",酥皮三文魚(店售),batch-008
+"Salmon nuggets, breaded, frozen, heated","三文魚塊(裹粉,冷凍,已加熱)",batch-028
+"Salmon nuggets, cooked as purchased, unheated","三文魚塊(購買時已煮熟,未加熱)",batch-028
 "Salmon, Pacific King, fillet, skinless, grilled, no added fat","三文魚(太平洋帝王三文魚,魚柳,去皮,燒烤,無添加脂肪)",batch-001
 "Salmon, Pacific King, fillet, skinless, raw","三文魚(太平洋帝王三文魚,魚柳,去皮,生)",batch-001
 "Salmon, Pacific King, fillet, steamed, no added fat","三文魚(太平洋帝王三文魚,魚柳,蒸,無添加脂肪)",batch-001
@@ -9209,6 +9575,8 @@ Salami snack,薩拉米腸小食,batch-010
 "Salmon, red, canned in brine, skinless and boneless, drained","紅鮭魚(罐頭,鹽水,去皮去骨,已瀝乾)",batch-008
 "Salmon, smoked (cold-smoked)",煙三文魚(冷燻),batch-008
 "Salmon, smoked (hot-smoked)",煙三文魚(熱燻),batch-008
+"Salmon, sockeye, canned, drained solids, without skin and bones","紅三文魚(罐頭,瀝乾固體,去皮去骨)",batch-028
+"Salmon, sockeye, canned, total can contents","紅三文魚(罐頭,罐內全部內容物)",batch-028
 "Salmon, wild, baked",野生三文魚(焗),batch-008
 "Salmon, wild, flesh only, raw","野生三文魚(只計魚肉,生)",batch-008
 "Salmon, wild, grilled",野生三文魚(燒烤),batch-008
@@ -9225,6 +9593,7 @@ Salt,鹽,batch-011
 "Samosas, lamb, baked, homemade","羊肉咖喱角(焗,自家製)",batch-010
 "Samosas, lamb, deep fried in rapeseed oil, homemade","羊肉咖喱角(芥花籽油炸,自家製)",batch-010
 "Samosas, vegetable, retail",蔬菜咖喱角(零售),batch-012
+"Sandwich spread, with chopped pickle, regular, unspecified oil","三明治抹醬(含酸青瓜碎,普通,未指明油類)",batch-028
 "Sandwich, egg salad, homemade",雞蛋沙律三文治(自家製),batch-005
 "Sandwich, ham, homemade",火腿三文治(自家製),batch-005
 "Sandwich, hot chicken",熱雞肉三文治,batch-005
@@ -9484,13 +9853,31 @@ Shish kebab in pitta bread with salad,沙律皮塔餅烤肉串,batch-010
 "Shish kebabs, with onions and peppers, homemade",洋蔥燈籠椒烤肉串(自家製),batch-010
 Shortbread,酥脆牛油餅,batch-007
 "Shortcake, caramel, chocolate covered, retail","焦糖朱古力酥餅(朱古力外層,店售)",batch-007
+"Shortening bread, soybean (hydrogenated) and cottonseed",麵包用起酥油(大豆(氫化)及棉籽),batch-028
+"Shortening cake mix, soybean (hydrogenated) and cottonseed (hydrogenated)",蛋糕粉用起酥油(大豆(氫化)及棉籽(氫化)),batch-028
+"Shortening confectionery, coconut (hydrogenated) and or palm kernel (hydrogenated)",糖果用起酥油(椰子(氫化)及或棕櫚仁(氫化)),batch-028
+"Shortening frying (heavy duty), beef tallow and cottonseed","煎炸用起酥油(重型,牛脂及棉籽)",batch-028
+"Shortening frying (heavy duty), palm (hydrogenated)","煎炸用起酥油(重型,棕櫚(氫化))",batch-028
+"Shortening frying (heavy duty), soybean (hydrogenated), linoleic (less than 1%)","煎炸用起酥油(重型,大豆(氫化),亞油酸低於1%)",batch-028
+Shortening household soybean (hydrogenated) and palm,家用起酥油(大豆(氫化)及棕櫚),batch-028
+"Shortening industrial, lard and vegetable oil",工業用起酥油(豬油及植物油),batch-028
+"Shortening industrial, soybean (hydrogenated) and cottonseed",工業用起酥油(大豆(氫化)及棉籽),batch-028
 "Shortening, commercial use for confectionery","起酥油(商業用,糕點用)",batch-014
 "Shortening, commercial use for frying","起酥油(商業用,煎炸用)",batch-014
+"Shortening, confectionery, fractionated palm",糖果用起酥油(分餾棕櫚),batch-028
 "Shortening, home use",起酥油(家庭用),batch-014
 "Shortening, household, all-vegetable, soybean oil and hydrogenated palm oil","起酥油(家用,全植物性,大豆油及氫化棕櫚油)",batch-004
+"Shortening, household, composite",家用起酥油(混合),batch-028
+"Shortening, household, lard and vegetable oil",家用起酥油(豬油及植物油),batch-028
+"Shortening, household, soybean (partially hydrogenated)-cottonseed (partially hydrogenated)",家用起酥油(大豆(部分氫化)及棉籽(部分氫化)),batch-028
 "Shortening, household, unspecified vegetable and animal oils","起酥油(家用,未指明植物及動物油)",batch-004
 "Shortening, household, unspecified vegetable oil","起酥油(家用,未指明植物油)",batch-004
 "Shortening, industrial, soy (partially hydrogenated ) and corn for frying","起酥油(工業用,大豆(部分氫化)及粟米,煎炸用)",pilot
+"Shortening, industrial, soy (partially hydrogenated ) for baking and confections","工業用起酥油(大豆(部分氫化),用於烘焙及糖果)",batch-028
+"Shortening, industrial, soy (partially hydrogenated), pourable liquid fry shortening","工業用起酥油(大豆(部分氫化),可倒出的液體煎炸起酥油)",batch-028
+"Shortening, multipurpose, hydrogenated soybean and palm",多用途起酥油(氫化大豆及棕櫚),batch-028
+"Shortening, special purpose for baking, soybean (hydrogenated) palm and cottonseed","烘焙專用起酥油(大豆(氫化),棕櫚及棉籽)",batch-028
+"Shortening, special purpose, cake and icing (frosting)",蛋糕及糖霜專用起酥油,batch-028
 "Shrimps, boiled, weighed with shells","小蝦(烚,連殼稱重)",batch-008
 "Shrimps, canned in brine, drained","小蝦(罐頭,鹽水,已瀝乾)",batch-008
 "Silver perch, aquacultured, baked, no added fat","銀鱸(養殖,焗,無添加脂肪)",batch-001
@@ -10345,6 +10732,7 @@ Triticale,黑小麥,batch-026
 "Trout, rainbow, flesh only, baked","虹鱒魚(只計魚肉,焗)",batch-008
 "Truffles, mocha, homemade",摩卡松露朱古力(自家製),batch-011
 "Truffles, rum, homemade",冧酒松露朱古力(自家製),batch-011
+Tuna salad,吞拿魚沙律,batch-028
 "Tuna, ahi or yellowfin, frozen, wild caught","黃鰭吞拿魚(冷凍,野生)",batch-019
 "Tuna, canned in sunflower oil, drained","吞拿魚(罐頭,葵花子油,已瀝乾)",batch-008
 "Tuna, flavoured, canned in oil","吞拿魚(調味,油浸罐頭)",batch-001
@@ -10423,6 +10811,7 @@ Turkey slices,火雞肉片,batch-010
 "Turnip, root, without skin, boiled","蕪菁(去皮根,煮)",batch-018
 "Turnip, root, without skin, raw","蕪菁(去皮根,生)",batch-018
 "Turnover, fruit (apple, berry, cherry, peach)","角形酥餅(水果[蘋果,莓,車厘子,桃])",batch-003
+"Turtle, green, raw",綠海龜(生),batch-028
 Twiglets,Twiglets鹹味餅條,batch-011
 Tzatziki,希臘青瓜乳酪醬,batch-010
 "Udi's, Gluten Free, Classic French Dinner Rolls","經典法式晚餐餐包(Udi's,無麩質)",batch-022
@@ -10485,7 +10874,18 @@ Vanilla bean extract,雲呢拿豆萃取物,batch-002
 "Vegetable crisps or chips, sweet potato & taro, flavoured","蔬菜脆片(番薯及芋頭,調味)",batch-002
 "Vegetable oil, blend",混合植物油,batch-014
 "Vegetable oil, canola and soybean",植物油(芥花籽油及大豆油),batch-004
+"Vegetable oil, cooking spray",植物油(烹調噴霧),batch-028
+"Vegetable oil, corn",植物油(粟米),batch-028
 "Vegetable oil, cottonseed",棉籽油(植物油),pilot
+"Vegetable oil, olive",植物油(橄欖),batch-028
+"Vegetable oil, palm kernel",植物油(棕櫚仁),batch-028
+"Vegetable oil, peanut",植物油(花生),batch-028
+"Vegetable oil, safflower, linoleic (70% and over)","植物油(紅花籽,亞油酸型,70%及以上)",batch-028
+"Vegetable oil, safflower, oleic (70% and over)","植物油(紅花籽,油酸型,70%及以上)",batch-028
+"Vegetable oil, sesame",植物油(芝麻),batch-028
+"Vegetable oil, soybean",植物油(大豆),batch-028
+"Vegetable oil, sunflower, mid-oleic","植物油(葵花籽,中油酸)",batch-028
+"Vegetable oil-butter spread, reduced calorie",植物油牛油抹醬(減卡路里),batch-028
 "Vegetable stir fry mix, fried in corn oil",炒菜雜菜(粟米油炒),batch-012
 "Vegetable stir fry mix, fried in rapeseed oil",炒菜雜菜(芥花籽油炒),batch-012
 "Vegetable stir fry mix, fried in sunflower oil",炒菜雜菜(葵花籽油炒),batch-012
