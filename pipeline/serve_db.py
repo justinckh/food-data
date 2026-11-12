@@ -14,6 +14,7 @@ n_records all records), foods.
 Key nutrients (KEY_NUTRIENTS) are also normal columns, for list rows and sorting.
 """
 import bisect
+import re
 import json
 import sqlite3
 from collections import defaultdict
@@ -75,6 +76,74 @@ def nutrient_json(value, flag, method, estimated):
     return d
 
 
+# --- one energy standard for all sources (user decision 2026-11-12) -------------------
+# kcal per g: protein 4, fat 9, available carbohydrate 4 (3.75 when the source gives it as
+# monosaccharide equivalents, e.g. CoFID), dietary fibre 2, alcohol 7 (FAO / EU / FSANZ factors).
+# The source's own figure is kept as 'energy_kcal_source'. Raw data (data/food.db) is unchanged.
+STD = "standard"
+
+
+def _v(n, k):
+    """value of nutrient k; ND / trace count as 0; None when missing."""
+    if k not in n:
+        return None
+    v, flag = n[k][0], n[k][1]
+    return 0.0 if v is None and flag else v
+
+
+def standard_energy(n):
+    """-> (kcal, estimated) or (None, 0). n: {nutrient: (value, flag, method, estimated)}"""
+    p, f, alc, fib = _v(n, "protein"), _v(n, "fat"), _v(n, "alcohol") or 0.0, _v(n, "fibre") or 0.0
+    estimated = 0
+    avail, factor = _v(n, "carbohydrate_available"), 4.0
+    c = _v(n, "carbohydrate")
+    method = n["carbohydrate"][2] if "carbohydrate" in n else None
+    if c is not None and method not in ("available", "available_monosaccharide"):
+        by_diff = max(c - fib, 0.0)                 # total / by difference: includes fibre
+        if avail is not None and abs(avail - by_diff) > max(3.0, 0.25 * by_diff):
+            if "fibre" not in n:
+                return None, 0                      # cannot tell which is right: keep the source's figure
+            avail = by_diff                         # direct analysis incomplete (MEXT does the same)
+        elif avail is None:
+            avail = by_diff
+    elif avail is None and c is not None:
+        avail, factor = (c, 3.75) if method == "available_monosaccharide" else (c, 4.0)
+    if avail is None and p is not None and f is not None and _v(n, "water") is not None:
+        # no carbohydrate value (e.g. CoFID stock cubes): by difference; ash, if missing, from salt
+        ash = _v(n, "ash")
+        if ash is None:
+            ash = (_v(n, "sodium") or 0.0) * 2.54 / 1000
+        avail = max(100 - _v(n, "water") - p - f - ash - alc - fib, 0.0)
+        estimated = 1
+    if p is None or f is None or avail is None:
+        return None, 0
+    return round(4 * p + 9 * f + factor * avail + 2 * fib + 7 * alc, 1), estimated
+
+
+LOW_CAL = re.compile(r"reduced[- ]calorie|low[- ]calorie|sugar[- ]free|\bdiet\b|\blight\b|\blite\b|sugarless|no sugar added|"
+                     r"aspartame|sucralose|saccharin|sweetened with low", re.I)
+
+
+def apply_standard_energy(n, name_en=None, alcoholic=False):
+    """Replace energy_kcal in n by the standard value; keep the source's figure.
+    Kept as published: drinks with alcohol but no alcohol value (7 kcal/g would be lost), and
+    reduced-calorie / sugar-free products (sugar alcohols and fibres have less energy than 4 kcal/g)."""
+    keep = (alcoholic and _v(n, "alcohol") is None) or (name_en and LOW_CAL.search(name_en))
+    if keep and n.get("energy_kcal") and n["energy_kcal"][0]:
+        n["energy_kcal_source"] = n["energy_kcal"]
+        return
+    if name_en and "0% moisture" in name_en and "water" not in n:
+        # USDA dry-basis beans: water is 0 by definition
+        kcal, est = standard_energy(dict(n, water=(0.0, None, None, 0)))
+    else:
+        kcal, est = standard_energy(n)
+    src = n.get("energy_kcal")
+    if src and src[0] is not None:
+        n["energy_kcal_source"] = (src[0], None, src[2], src[3])
+    if kcal is not None:
+        n["energy_kcal"] = (kcal, None, STD, est)
+
+
 def dumps(x):
     return json.dumps(x, ensure_ascii=False, separators=(",", ":")) if x else None
 
@@ -93,6 +162,11 @@ def build(master=MASTER, out=SERVED):
     nutr = defaultdict(dict)
     for f, n, v, fl, m, e in src.execute("SELECT food_id, nutrient_id, value, flag, method, estimated FROM food_nutrients"):
         nutr[f][n] = (v, fl, m, e)
+    info = {i: (en, cat) for i, en, cat in src.execute("SELECT id, name_en, category FROM foods")}
+    for fid in list(nutr):
+        en, cat = info.get(fid, (None, None))
+        alcoholic = cat == "alcohol" or bool(re.search(r"\b(wine|beer|liqueur|whisk|spirit|sake|vodka|rum|gin|brandy|cocktail)\b", en or "", re.I))
+        apply_standard_energy(nutr[fid], en, alcoholic)
     serv = defaultdict(list)
     for f, le, lz, a, u in src.execute("SELECT food_id, label_en, label_zh, amount, unit FROM servings ORDER BY food_id, amount, rowid"):
         serv[f].append([le, lz, a, u])

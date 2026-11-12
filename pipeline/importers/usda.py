@@ -54,6 +54,9 @@ NUTRIENT_MAP = {
     "copper":       (["312"], "MG"),
     "manganese":    (["315"], "MG"),
     "vitamin_c":    (["401"], "MG"),
+    "water":        (["255"], "G"),     # added 2026-11-12 for the energy standard (pipeline/serve_db.py)
+    "ash":          (["207"], "G"),
+    "alcohol":      (["221"], "G"),
 }
 
 # Record which definition was used when it is not the first choice.

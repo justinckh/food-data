@@ -71,6 +71,7 @@ NUTRIENTS = [
     ("biotin",       "BIOT",       "Biotin",        "生物素",     "ug"),
     # Added with AFCD (2026-11).
     ("caffeine",     "CAFFN",      "Caffeine",      "咖啡因",     "mg"),
+    ("energy_kcal_source", None, "Energy (as published by the source)", "能量（資料來源數值）", "kcal"),
 ]
 NUTRIENT_IDS = {n[0] for n in NUTRIENTS}
 

@@ -547,6 +547,28 @@ If you select a source, the list shows all records of that source.
 This includes the records that are in a group of a different source.
 The page `#/c/all` shows all foods.
 
+### 3.10.2 Energy: one standard for all sources
+
+The sources use different energy formulas. Thus the site calculates the energy again with 1 formula (decision of 2026-11-12):
+
+| Part | kcal for each gram |
+|---|---|
+| Protein | 4 |
+| Fat | 9 |
+| Available carbohydrate | 4 (3.75 if the source gives monosaccharide equivalents) |
+| Dietary fibre | 2 |
+| Alcohol | 7 |
+
+Rules (`pipeline/serve_db.py`, `standard_energy`):
+
+- If the source gives total carbohydrate, the script subtracts the fibre.
+- If the source has no carbohydrate value, the script calculates it by difference (100 − water − protein − fat − ash − fibre). The value is marked as estimated.
+- These foods keep the value of the source: drinks with alcohol but no alcohol value, and low-calorie or sugar-free products.
+- The value of the source stays in `energy_kcal_source`. The food page shows it.
+- `data/food.db` keeps the values of the sources. Only the served database has the standard values.
+
+69 records (55 main records) have no energy. These records have no protein, fat or carbohydrate values.
+
 ### 3.11 Dates in food names
 
 Some sources tested the same food again in a different year or month. Examples: CFS 菠蘿包 (2002) and 菠蘿包 (2018). TFDA 鯔(12月,雄魚).

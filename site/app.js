@@ -17,7 +17,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(
 // browser or the edge cached for the previous release. Change it when the API or data changes.
 // Machine-translated Chinese names (foods.zh_mt): the tag is hidden for now (user request 2026-11-12).
 const SHOW_MT_TAG = false;
-const API_VERSION = "2026-11-13g";
+const API_VERSION = "2026-11-13h";
 const api = (path) => {
   if (!cache.has(path)) {
     const url = path + (path.includes("?") ? "&" : "?") + "v=" + API_VERSION;
@@ -259,7 +259,7 @@ function label(n, factor, servingText) {
     const unit = v && typeof v.value === "number" ? " " + (NUTRIENTS[id]?.unit || "") : "";
     return `<tr class="${cls}"><td>${t}</td><td>${fmt(v, factor)}${unit}</td></tr>`;
   };
-  const shown = new Set([...LABEL_ROWS.map((r) => r[0]), ...MINERALS]);
+  const shown = new Set([...LABEL_ROWS.map((r) => r[0]), ...MINERALS, "energy_kcal_source"]);   // source energy: in the kcal note
   const more = Object.keys(n).filter((id) => !shown.has(id) && NUTRIENTS[id]);
   return `
     <div class="label">
@@ -359,12 +359,18 @@ async function food(id) {
   // values the source did not measure (e.g. UK stock cubes have no energy or carbohydrate)
   const has = (id) => n[id] && (typeof n[id].value === "number" || n[id].flag);
   const missing = [["energy_kcal", "熱量"], ["carbohydrate", "碳水化合物"]].filter(([id]) => !has(id)).map(([, t]) => t);
+  // energy: one standard for all sources (pipeline/serve_db.py); show the source's own figure too
+  const e = n.energy_kcal, es = n.energy_kcal_source;
+  const stdNote = e && e.method === "standard"
+    ? `熱量按統一標準計算（蛋白質4、脂肪9、可利用碳水化合物4、膳食纖維2、酒精7 kcal/克）${es && typeof es.value === "number" && Math.abs(es.value - e.value) >= 1 ? `；資料來源數值為 ${fmtNum(es.value)} kcal` : ""}。`
+    : "";
   const render = (grams, text) => {
     const factor = grams / 100;
     document.getElementById("kcalCard").innerHTML = `
       <div><span class="eyebrow">每${esc(text)}</span><div class="big">${fmt(n.energy_kcal, factor)}<small>kcal</small></div></div>
       <div class="pcf">${[["protein", "蛋白質"], ["carbohydrate", "碳水化合物"], ["fat", "脂肪"]].map(([k, l]) =>
         `<div><b>${fmt(n[k], factor)}${n[k] && typeof n[k].value === "number" ? " g" : ""}</b><span>${l}</span></div>`).join("")}</div>
+      ${stdNote ? `<p class="kc-note">${stdNote}</p>` : ""}
       ${missing.length ? `<p class="kc-note">資料來源沒有量度這個食物的${missing.join("及")}，所以顯示「—」（不等於零）。</p>` : ""}`;
     document.getElementById("macros").innerHTML = macros(n, factor);
     document.getElementById("label").innerHTML = label(n, factor, text);
