@@ -854,6 +854,7 @@ Asafoetida,阿魏,batch-008
 "Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added DHA fortified","嬰兒食品(乳酪,全脂奶,連水果,多種穀物,添加DHA強化)",batch-020
 "Babyfood, yogurt, whole milk, with fruit, multigrain cereal and added iron fortified","嬰兒食品(乳酪,全脂奶,連水果,多種穀物,添加鐵質強化)",batch-020
 "Bacha, raw",Bacha 鯰魚(生),batch-007
+"Bacon bits, meatless",素煙肉碎,batch-030
 "Bacon loin steaks, lean, grilled","煙肉腰肉扒(瘦肉,燒烤)",batch-008
 "Bacon rashers, back, 'tendersweet', grilled","煙肉片(背脊,Tendersweet 醃製,燒烤)",batch-008
 "Bacon rashers, back, dry-cured, grilled","煙肉片(背脊,乾醃,燒烤)",batch-008
@@ -875,6 +876,7 @@ Asafoetida,阿魏,batch-008
 "Bacon rashers, streaky, raw",五花腩煙肉片(生),batch-008
 "Bacon, fat only, average, cooked","煙肉(只計脂肪,平均,熟)",batch-008
 "Bacon, fat only, average, raw","煙肉(只計脂肪,平均,生)",batch-008
+"Bacon, meatless",素煙肉,batch-030
 "Bacon, middle rasher, separable lean, fried, no added fat","煙肉(中段,只計瘦肉,炸,無添加脂肪)",batch-001
 "Bacon, middle rasher, untrimmed, baked, roasted, fried, grilled or BBQ'd, no added fat","煙肉(中段,未經削切,焗、烤、炸、燒烤或戶外燒烤,無添加脂肪)",batch-001
 "Bacon, shortcut, as purchased without rind, fried, no added fat","煙肉(短切,購買時已去皮,炸,無添加脂肪)",batch-001
@@ -990,12 +992,30 @@ Barley malt flour,大麥麥芽粉,batch-025
 "Beans, Dry, Tan (0% moisture)","乾豆(棕黃豆,0%水分)",batch-019
 "Beans, aduki, whole, dried, boiled in unsalted water","紅豆(整粒,乾,以無鹽水煮)",batch-011
 "Beans, aduki, whole, dried, raw","紅豆(整粒,乾,生)",batch-011
+"Beans, adzuki, canned, sweetened","紅豆(罐頭,加糖)",batch-030
+"Beans, adzuki, mature seeds, boiled","紅豆(成熟豆,烚)",batch-030
+"Beans, adzuki, mature seeds, boiled, salt added","紅豆(成熟豆,烚,加鹽)",batch-030
 "Beans, adzuki, mature seeds, dry","紅豆(成熟,乾)",batch-017
+"Beans, adzuki, yokan (bean jelly)",紅豆羊羹,batch-030
+"Beans, baked, canned, unsalted","焗豆(罐頭,無鹽)",batch-030
 "Beans, baked, canned, vegetarian","焗豆(罐頭,素食)",batch-019
+"Beans, baked, canned, with beef","焗豆(罐頭,加牛肉)",batch-030
+"Beans, baked, canned, with franks","焗豆(罐頭,加腸仔)",batch-030
 "Beans, baked, canned, with pork","茄汁焗豆(罐頭,連豬肉)",pilot
+"Beans, baked, canned, with pork and sweet sauce","焗豆(罐頭,加豬肉及甜醬)",batch-030
+"Beans, baked, canned, with pork and tomato sauce","焗豆(罐頭,加豬肉及茄汁)",batch-030
+"Beans, baked, homemade",焗豆(自家製),batch-030
 "Beans, balor, ends trimmed, raw","Balor豆(切去兩端,生)",batch-011
+"Beans, black turtle, mature seeds, boiled","黑龜豆(成熟豆,烚)",batch-030
+"Beans, black turtle, mature seeds, boiled, salt added","黑龜豆(成熟豆,烚,加鹽)",batch-030
+"Beans, black turtle, mature seeds, canned","黑龜豆(成熟豆,罐頭)",batch-030
+"Beans, black turtle, mature seeds, dry","黑龜豆(成熟豆,乾)",batch-030
 "Beans, black, canned, sodium added, drained and rinsed","黑豆(罐頭,添加鈉,已瀝乾沖洗)",batch-019
 "Beans, black, flour",黑豆粉,batch-005
+"Beans, black, mature seeds, boiled","黑豆(成熟豆,烚)",batch-030
+"Beans, black, mature seeds, boiled, salt added","黑豆(成熟豆,烚,加鹽)",batch-030
+"Beans, black, mature seeds, canned, low sodium","黑豆(成熟豆,罐頭,低鈉)",batch-030
+"Beans, black, mature seeds, dry","黑豆(成熟豆,乾)",batch-030
 "Beans, blackeye, whole, dried, boiled in unsalted water","眉豆(整粒,乾,以無鹽水煮)",batch-011
 "Beans, blackeye, whole, dried, raw","眉豆(整粒,乾,生)",batch-011
 "Beans, broad, dried, raw",乾蠶豆(生),pilot
@@ -1011,34 +1031,88 @@ Barley malt flour,大麥麥芽粉,batch-025
 "Beans, chick peas, Kabuli, whole, dried, boiled in unsalted water","鷹嘴豆(Kabuli,整粒,乾,以無鹽水煮)",batch-011
 "Beans, chick peas, Kabuli, whole, dried, raw","鷹嘴豆(Kabuli,整粒,乾,生)",batch-011
 "Beans, chick peas, canned, re-heated, drained","鷹嘴豆(罐頭,翻熱,已瀝乾)",batch-011
+"Beans, chili, barbecue, ranch style, cooked",農場式燒烤辣豆(熟),batch-030
 "Beans, cluster, raw",瓜爾豆(生),batch-011
+"Beans, cranberry (roman), mature seeds, boiled","蔓越莓豆(羅馬豆,成熟豆,烚)",batch-030
+"Beans, cranberry (roman), mature seeds, boiled, salt added","蔓越莓豆(羅馬豆,成熟豆,烚,加鹽)",batch-030
+"Beans, cranberry (roman), mature seeds, canned","蔓越莓豆(羅馬豆,成熟豆,罐頭)",batch-030
+"Beans, cranberry (roman), mature seeds, dry","蔓越莓豆(羅馬豆,成熟豆,乾)",batch-030
 "Beans, edamame, frozen, boiled in unsalted water","毛豆(冷凍,以無鹽水煮)",batch-011
+"Beans, french, mature seeds, boiled","法國豆(成熟豆,烚)",batch-030
+"Beans, french, mature seeds, boiled, salt added","法國豆(成熟豆,烚,加鹽)",batch-030
+"Beans, french, mature seeds, dry","法國豆(成熟豆,乾)",batch-030
 "Beans, great northern, canned, sodium added, drained and rinsed","大北豆(罐頭,添加鈉,已瀝乾沖洗)",batch-019
+"Beans, great northern, mature seeds, boiled","北方大白豆(成熟豆,烚)",batch-030
+"Beans, great northern, mature seeds, boiled, salt added","北方大白豆(成熟豆,烚,加鹽)",batch-030
 "Beans, great northern, mature seeds, canned","大白豆(成熟種子,罐頭)",pilot
+"Beans, great northern, mature seeds, canned, low sodium","北方大白豆(成熟豆,罐頭,低鈉)",batch-030
+"Beans, great northern, mature seeds, dry","北方大白豆(成熟豆,乾)",batch-030
 "Beans, green, boiled in unsalted water",青豆角(以無鹽水煮),batch-011
 "Beans, green, raw",青豆角(生),batch-011
 "Beans, haricot, canned, re-heated, drained","海軍豆(罐頭,翻熱,已瀝乾)",batch-011
 "Beans, haricot, whole, dried, boiled in unsalted water","海軍豆(整粒,乾,以無鹽水煮)",batch-011
 "Beans, haricot, whole, dried, raw","海軍豆(整粒,乾,生)",batch-011
+"Beans, hyacinth, mature seeds, boiled, drained","扁豆(藊豆,成熟豆,烚,瀝乾)",batch-030
+"Beans, kidney, all types, mature seeds, boiled","紅腰豆(所有品種,成熟豆,烚)",batch-030
+"Beans, kidney, all types, mature seeds, boiled, with salt","紅腰豆(所有品種,成熟豆,烚,有鹽)",batch-030
+"Beans, kidney, all types, mature seeds, canned","紅腰豆(所有品種,成熟豆,罐頭)",batch-030
 "Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed","紅腰豆(深紅,罐頭,添加鈉及糖,已瀝乾沖洗)",batch-019
+"Beans, kidney, dark red, canned, solids and liquid","深紅腰豆(罐頭,固體連汁)",batch-030
+"Beans, kidney, dark red, mature seeds, boiled","深紅腰豆(成熟豆,烚)",batch-030
+"Beans, kidney, dark red, mature seeds, boiled, salt added","深紅腰豆(成熟豆,烚,加鹽)",batch-030
 "Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed","紅腰豆(淺紅,罐頭,添加鈉及糖,已瀝乾沖洗)",batch-019
+"Beans, kidney, light red, mature seeds, boiled","淺紅腰豆(成熟豆,烚)",batch-030
+"Beans, kidney, light red, mature seeds, boiled, salt added","淺紅腰豆(成熟豆,烚,加鹽)",batch-030
+"Beans, kidney, light red, mature seeds, dry","淺紅腰豆(成熟豆,乾)",batch-030
+"Beans, kidney, red, canned, drained and rinsed","紅腰豆(罐頭,瀝乾及沖洗)",batch-030
+"Beans, kidney, red, canned, drained solids","紅腰豆(罐頭,瀝乾固體)",batch-030
+"Beans, kidney, red, canned, solids and liquid, reduced sodium","紅腰豆(罐頭,固體連汁,減鈉)",batch-030
+"Beans, kidney, red, mature seeds, raw","紅腰豆(成熟豆,生)",batch-030
+"Beans, kidney, royal red, mature seeds, cooked, boiled with salt","皇家紅腰豆(成熟豆,熟,烚,加鹽)",batch-030
+"Beans, kidney, royal red, mature seeds, cooked, boiled, without salt","皇家紅腰豆(成熟豆,熟,烚,無鹽)",batch-030
+"Beans, kidney, royal red, mature seeds, raw","皇家紅腰豆(成熟豆,生)",batch-030
+"Beans, lima, dry, baby, mature seeds, boiled","乾小粒利馬豆(成熟豆,烚)",batch-030
+"Beans, lima, dry, baby, mature seeds, boiled, salt added","乾小粒利馬豆(成熟豆,烚,加鹽)",batch-030
+"Beans, lima, dry, baby, mature seeds, dry","乾小粒利馬豆(成熟豆,乾)",batch-030
+"Beans, lima, dry, large, mature seeds, boiled","乾大粒利馬豆(成熟豆,烚)",batch-030
+"Beans, lima, dry, large, mature seeds, boiled, salt added","乾大粒利馬豆(成熟豆,烚,加鹽)",batch-030
+"Beans, liquid from stewed kidney beans",燉紅腰豆湯汁,batch-030
 "Beans, mung, dahl, dried, boiled in unsalted water","綠豆瓣(乾,以無鹽水煮)",batch-011
 "Beans, mung, dahl, dried, raw","綠豆瓣(乾,生)",batch-011
 "Beans, mung, whole, dried, boiled in unsalted water","綠豆(整粒,乾,以無鹽水煮)",batch-011
+"Beans, mungo, mature seeds, boiled","黑吉豆(成熟豆,烚)",batch-030
+"Beans, mungo, mature seeds, boiled, salt added","黑吉豆(成熟豆,烚,加鹽)",batch-030
 "Beans, navy, canned, sodium added, drained and rinsed","海軍豆(罐頭,添加鈉,已瀝乾沖洗)",batch-019
+"Beans, navy, mature seeds, boiled","海軍豆(成熟豆,烚)",batch-030
+"Beans, navy, mature seeds, boiled, salt added","海軍豆(成熟豆,烚,加鹽)",batch-030
+"Beans, navy, mature seeds, canned","海軍豆(成熟豆,罐頭)",batch-030
+"Beans, navy, mature seeds, dry","海軍豆(成熟豆,乾)",batch-030
 "Beans, papri, raw",Papri豆(生),batch-011
 "Beans, pigeon peas, dahl, dried, boiled in unsalted water","木豆瓣(乾,以無鹽水煮)",batch-011
 "Beans, pigeon peas, dahl, dried, raw","木豆瓣(乾,生)",batch-011
 "Beans, pigeon peas, whole, dried, boiled in unsalted water","木豆(整粒,乾,以無鹽水煮)",batch-011
 "Beans, pigeon peas, whole, dried, raw","木豆(整粒,乾,生)",batch-011
+"Beans, pink, mature seeds, boiled","粉紅豆(成熟豆,烚)",batch-030
+"Beans, pink, mature seeds, boiled, salt added","粉紅豆(成熟豆,烚,加鹽)",batch-030
+"Beans, pink, mature seeds, dry","粉紅豆(成熟豆,乾)",batch-030
+"Beans, pinto, canned, drained and rinsed","斑豆(罐頭,瀝乾及沖洗)",batch-030
+"Beans, pinto, canned, drained solids","斑豆(罐頭,瀝乾固體)",batch-030
 "Beans, pinto, canned, sodium added, drained and rinsed","斑豆(罐頭,添加鈉,已瀝乾沖洗)",batch-019
+"Beans, pinto, canned, solids and liquid","斑豆(罐頭,固體連汁)",batch-030
+"Beans, pinto, canned, solids and liquid, reduced sodium","斑豆(罐頭,固體連汁,減鈉)",batch-030
 "Beans, pinto, dried, boiled in unsalted water","斑豆(乾,以無鹽水煮)",batch-011
 "Beans, pinto, dried, raw","斑豆(乾,生)",batch-011
+"Beans, pinto, mature seeds, boiled","斑豆(成熟豆,烚)",batch-030
+"Beans, pinto, mature seeds, boiled, salt added","斑豆(成熟豆,烚,加鹽)",batch-030
+"Beans, pinto, mature seeds, dry","斑豆(成熟豆,乾)",batch-030
 "Beans, pinto, re-fried beans",墨西哥炸豆泥,batch-011
 "Beans, red kidney, canned in water, re-heated, drained","紅腰豆(罐頭水浸,翻熱,已瀝乾)",batch-011
 "Beans, red kidney, dried, boiled in unsalted water","紅腰豆(乾,以無鹽水煮)",batch-011
 "Beans, runner, boiled in unsalted water",紅花菜豆(以無鹽水煮),batch-011
 "Beans, runner, raw",紅花菜豆(生),batch-011
+"Beans, small white, mature seeds, boiled","小白豆(成熟豆,烚)",batch-030
+"Beans, small white, mature seeds, boiled, salt added","小白豆(成熟豆,烚,加鹽)",batch-030
+"Beans, small white, mature seeds, dry","小白豆(成熟豆,乾)",batch-030
 "Beans, snap (Italian, green or yellow), frozen, boiled, drained","四季豆(冷凍,烚,瀝乾)",pilot
 "Beans, snap, green, canned, regular pack, drained solids","青豆角(罐頭,普通裝,已瀝乾固體)",batch-019
 "Beans, snap, green, raw",青豆角(生),batch-019
@@ -1046,6 +1120,16 @@ Barley malt flour,大麥麥芽粉,batch-025
 "Beans, soya, dried, raw","大豆(乾,生)",batch-011
 "Beans, sword, raw",刀豆(生),batch-011
 "Beans, white, flour",白豆粉,batch-005
+"Beans, white, mature seeds, boiled","白豆(成熟豆,烚)",batch-030
+"Beans, white, mature seeds, boiled, salt added","白豆(成熟豆,烚,加鹽)",batch-030
+"Beans, white, mature seeds, canned","白豆(成熟豆,罐頭)",batch-030
+"Beans, white, mature seeds, dry","白豆(成熟豆,乾)",batch-030
+"Beans, winged (goa beans), mature seeds, boiled","翼豆(果阿豆,成熟豆,烚)",batch-030
+"Beans, yardlong, mature seeds, boiled","豆角(成熟豆,烚)",batch-030
+"Beans, yardlong, mature seeds, boiled, salt added","豆角(成熟豆,烚,加鹽)",batch-030
+"Beans, yellow, mature seeds, boiled","黃菜豆(成熟豆,烚)",batch-030
+"Beans, yellow, mature seeds, boiled, salt added","黃菜豆(成熟豆,烚,加鹽)",batch-030
+"Beans, yellow, mature seeds, dry","黃菜豆(成熟豆,乾)",batch-030
 "Beansprouts, mung, boiled in unsalted water",綠豆芽(以無鹽水煮),batch-011
 "Beansprouts, mung, raw",綠豆芽(生),batch-011
 "Beansprouts, mung, stir-fried in rapeseed oil",綠豆芽(以芥花籽油炒),batch-011
@@ -2594,6 +2678,9 @@ Bicarbonate of soda,梳打粉,batch-010
 "Black gram, urad gram, whole, dried, raw","黑豆(整粒,乾,生)",batch-011
 "Black pudding, dry-fried",血腸(乾煎),batch-009
 "Black pudding, raw",血腸(生),batch-009
+"Black-eyed peas (cowpeas), catjang, mature seeds, boiled","眉豆(小豇豆,成熟豆,烚)",batch-030
+"Black-eyed peas (cowpeas, crowder, southern)), common, mature seeds, boiled","眉豆(普通,成熟豆,烚)",batch-030
+"Black-eyed peas (cowpeas, crowder, southern), common, mature seeds, boiled, salt added","眉豆(普通,成熟豆,烚,加鹽)",batch-030
 "Blackberries, canned, heavy syrup, solids and liquids","黑莓(罐頭,濃糖漿,固體連汁)",batch-028
 "Blackberries, stewed with sugar",黑莓(加糖炆),batch-008
 "Blackberries, stewed without sugar",黑莓(無糖炆),batch-008
@@ -2866,6 +2953,10 @@ Brawn,豬頭肉凍,batch-009
 "Broad beans, mature seeds, ""Shoyu-mame"" (beans cooked with sugar and soy sauce)",煮蠶豆(加糖及豉油煮),batch-017
 "Broad beans, mature seeds, oil-roasted and salted","蠶豆(成熟,油炸,加鹽)",batch-017
 "Broad beans, mature seeds, whole, raw","蠶豆(成熟,連皮,生)",batch-017
+"Broadbeans (fava beans), mature seeds, boiled","蠶豆(成熟豆,烚)",batch-030
+"Broadbeans (fava beans), mature seeds, boiled, with salt","蠶豆(成熟豆,烚,有鹽)",batch-030
+"Broadbeans (fava beans), mature seeds, canned","蠶豆(成熟豆,罐頭)",batch-030
+"Broadbeans (fava beans), mature seeds, dry","蠶豆(成熟豆,乾)",batch-030
 "Broccoli in cheese sauce, made with semi-skimmed milk, homemade","芝士汁西蘭花(以半脂奶製,自家製)",batch-011
 "Broccoli in cheese sauce, made with skimmed milk, homemade","芝士汁西蘭花(以脫脂奶製,自家製)",batch-011
 "Broccoli in cheese sauce, made with whole milk, homemade","芝士汁西蘭花(以全脂奶製,自家製)",batch-011
@@ -3157,6 +3248,7 @@ Caraway seeds,葛縷子籽,batch-008
 "Caribou, shoulder meat, dried (Alaska Native)","馴鹿肩肉(乾,阿拉斯加原住民)",batch-019
 "Caribou, tongue, raw (Alaska Native)","馴鹿舌(生,阿拉斯加原住民)",batch-019
 "Carissa (natalplum), raw",卡利撒果(生),pilot
+Carob flour,角豆粉,batch-030
 "Carp, raw",鯉魚(生),batch-007
 Carrot juice,甘筍汁,batch-011
 "Carrot, ""Kintoki"" (oriental type), root with skin, boiled","金時甘筍(東方種,連皮根,煮)",batch-018
@@ -7200,7 +7292,92 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, New Zealand, foreshank, lean and fat, 6mm (1/4) trim, raw","新西蘭羊前腿腱(瘦肉連脂肪,修脂6毫米(1/4吋),生)",batch-029
 "Lamb, New Zealand, foreshank, lean, braised","新西蘭羊前腿腱(瘦肉,炆)",batch-029
 "Lamb, New Zealand, foreshank, lean, raw","新西蘭羊前腿腱(瘦肉,生)",batch-029
+"Lamb, New Zealand, frozen, composite, lean and fat, 3mm (1/8) trim, cooked","新西蘭冷凍羊肉(綜合,瘦肉連脂肪,修脂3毫米(1/8吋),熟)",batch-030
+"Lamb, New Zealand, frozen, composite, lean and fat, 3mm (1/8) trim, raw","新西蘭冷凍羊肉(綜合,瘦肉連脂肪,修脂3毫米(1/8吋),生)",batch-030
+"Lamb, New Zealand, frozen, foreshank, separable lean and fat, 3mm (1/8) trim, braised","新西蘭冷凍羊前腿腱(瘦肉連脂肪,修脂3毫米(1/8吋),炆)",batch-030
+"Lamb, New Zealand, frozen, foreshank, separable lean and fat, 3mm (1/8) trim, raw","新西蘭冷凍羊前腿腱(瘦肉連脂肪,修脂3毫米(1/8吋),生)",batch-030
+"Lamb, New Zealand, frozen, leg, chop / steak, lean and fat, raw","新西蘭冷凍羊腿扒(瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, frozen, leg, whole, lean and fat, 3mm (1/8) trim, raw","新西蘭冷凍整隻羊腿(瘦肉連脂肪,修脂3毫米(1/8吋),生)",batch-030
+"Lamb, New Zealand, frozen, leg, whole, lean and fat, 3mm (1/8) trim, roasted","新西蘭冷凍整隻羊腿(瘦肉連脂肪,修脂3毫米(1/8吋),烤)",batch-030
+"Lamb, New Zealand, frozen, leg, whole, lean and fat, braised","新西蘭冷凍整隻羊腿(瘦肉連脂肪,炆)",batch-030
+"Lamb, New Zealand, frozen, leg, whole, lean, roasted","新西蘭冷凍整隻羊腿(瘦肉,烤)",batch-030
+"Lamb, New Zealand, frozen, loin chop, lean and fat, broiled","新西蘭冷凍羊腰扒(瘦肉連脂肪,燒烤)",batch-030
+"Lamb, New Zealand, frozen, loin chop, lean and fat, raw","新西蘭冷凍羊腰扒(瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, frozen, loin chop, lean, broiled","新西蘭冷凍羊腰扒(瘦肉,燒烤)",batch-030
+"Lamb, New Zealand, frozen, loin chop, lean, raw","新西蘭冷凍羊腰扒(瘦肉,生)",batch-030
+"Lamb, New Zealand, frozen, loin, separable lean and fat, 3mm (1/8) trim, broiled","新西蘭冷凍羊腰肉(只計瘦肉連脂肪,修脂3毫米(1/8吋),燒烤)",batch-030
+"Lamb, New Zealand, frozen, loin, separable lean and fat, 3mm (1/8) trim, raw","新西蘭冷凍羊腰肉(只計瘦肉連脂肪,修脂3毫米(1/8吋),生)",batch-030
+"Lamb, New Zealand, frozen, rib, lean and fat, 3mm (1/8) trim, raw","新西蘭冷凍羊肋骨肉(瘦肉連脂肪,修脂3毫米(1/8吋),生)",batch-030
+"Lamb, New Zealand, frozen, rib, lean and fat, 3mm (1/8) trim, roasted","新西蘭冷凍羊肋骨肉(瘦肉連脂肪,修脂3毫米(1/8吋),烤)",batch-030
+"Lamb, New Zealand, frozen, shoulder, whole, separable lean and fat, 3mm (1/8) trim, braised","新西蘭冷凍整隻羊肩(只計瘦肉連脂肪,修脂3毫米(1/8吋),炆)",batch-030
+"Lamb, New Zealand, frozen, shoulder, whole, separable lean and fat, 3mm (1/8) trim, raw","新西蘭冷凍整隻羊肩(只計瘦肉連脂肪,修脂3毫米(1/8吋),生)",batch-030
+"Lamb, New Zealand, imported, Intermuscular fat, cooked","新西蘭進口羊肉(肌間脂肪,熟)",batch-030
+"Lamb, New Zealand, imported, Intermuscular fat, raw","新西蘭進口羊肉(肌間脂肪,生)",batch-030
+"Lamb, New Zealand, imported, brains, cooked, soaked and fried","新西蘭進口羊腦(熟,浸泡後炸)",batch-030
+"Lamb, New Zealand, imported, brains, raw",新西蘭進口羊腦(生),batch-030
+"Lamb, New Zealand, imported, breast, separable lean only, cooked, braised","新西蘭進口羊胸腩(只計瘦肉,熟,炆)",batch-030
+"Lamb, New Zealand, imported, breast, separable lean only, raw","新西蘭進口羊胸腩(只計瘦肉,生)",batch-030
+"Lamb, New Zealand, imported, chump, boneless, separable lean only, cooked, fast roasted","新西蘭進口羊臀肉(去骨,只計瘦肉,熟,快烤)",batch-030
+"Lamb, New Zealand, imported, chump, boneless, separable lean only, raw","新西蘭進口羊臀肉(去骨,只計瘦肉,生)",batch-030
+"Lamb, New Zealand, imported, flap, boneless, separable lean and fat, cooked, braised","新西蘭進口羊腹脇肉(去骨,瘦肉連脂肪,熟,炆)",batch-030
+"Lamb, New Zealand, imported, flap, boneless, separable lean and fat, raw","新西蘭進口羊腹脇肉(去骨,瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, imported, flap, boneless, separable lean only, cooked, braised","新西蘭進口羊腹脇肉(去骨,只計瘦肉,熟,炆)",batch-030
+"Lamb, New Zealand, imported, flap, boneless, separable lean only, raw","新西蘭進口羊腹脇肉(去骨,只計瘦肉,生)",batch-030
+"Lamb, New Zealand, imported, ground lamb, cooked, braised","新西蘭進口免治羊肉(熟,炆)",batch-030
+"Lamb, New Zealand, imported, ground lamb, raw",新西蘭進口免治羊肉(生),batch-030
+"Lamb, New Zealand, imported, heart, cooked, soaked and simmered","新西蘭進口羊心(熟,浸泡後燉煮)",batch-030
+"Lamb, New Zealand, imported, heart, raw",新西蘭進口羊心(生),batch-030
+"Lamb, New Zealand, imported, hind-shank, separable lean and fat, cooked, braised","新西蘭進口羊後腿腱(瘦肉連脂肪,熟,炆)",batch-030
+"Lamb, New Zealand, imported, hind-shank, separable lean and fat, raw","新西蘭進口羊後腿腱(瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, imported, hind-shank, separable lean only, cooked, braised","新西蘭進口羊後腿腱(只計瘦肉,熟,炆)",batch-030
+"Lamb, New Zealand, imported, hind-shank, separable lean only, raw","新西蘭進口羊後腿腱(只計瘦肉,生)",batch-030
+"Lamb, New Zealand, imported, kidney, cooked, soaked and fried","新西蘭進口羊腰(熟,浸泡後炸)",batch-030
+"Lamb, New Zealand, imported, kidney, raw",新西蘭進口羊腰(生),batch-030
+"Lamb, New Zealand, imported, leg chop/steak, bone-in, separable lean and fat, cooked, fast fried","新西蘭進口羊腿扒(連骨,瘦肉連脂肪,熟,快炸)",batch-030
+"Lamb, New Zealand, imported, liver, cooked, soaked and fried","新西蘭進口羊肝(熟,浸泡後炸)",batch-030
+"Lamb, New Zealand, imported, liver, raw",新西蘭進口羊肝(生),batch-030
+"Lamb, New Zealand, imported, loin chop, separable lean and fat, cooked, fast fried","新西蘭進口羊腰扒(瘦肉連脂肪,熟,快炸)",batch-030
+"Lamb, New Zealand, imported, loin chop, separable lean only, cooked, fast fried","新西蘭進口羊腰扒(只計瘦肉,熟,快炸)",batch-030
+"Lamb, New Zealand, imported, loin saddle, separable lean and fat, cooked, fast roasted","新西蘭進口羊鞍(瘦肉連脂肪,熟,快烤)",batch-030
+"Lamb, New Zealand, imported, loin saddle, separable lean and fat, raw","新西蘭進口羊鞍(瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, imported, loin saddle, separable lean only, cooked, fast roasted","新西蘭進口羊鞍(只計瘦肉,熟,快烤)",batch-030
+"Lamb, New Zealand, imported, loin saddle, separable lean only, raw","新西蘭進口羊鞍(只計瘦肉,生)",batch-030
+"Lamb, New Zealand, imported, loin, boneless, separable lean and fat, cooked, fast roasted","新西蘭進口羊腰肉(去骨,瘦肉連脂肪,熟,快烤)",batch-030
+"Lamb, New Zealand, imported, loin, boneless, separable lean and fat, raw","新西蘭進口羊腰肉(去骨,瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, imported, loin, boneless, separable lean only, cooked, fast roasted","新西蘭進口羊腰肉(去骨,只計瘦肉,熟,快烤)",batch-030
+"Lamb, New Zealand, imported, loin, boneless, separable lean only, raw","新西蘭進口羊腰肉(去骨,只計瘦肉,生)",batch-030
+"Lamb, New Zealand, imported, neck chops, separable lean and fat, cooked, braised","新西蘭進口羊頸扒(瘦肉連脂肪,熟,炆)",batch-030
+"Lamb, New Zealand, imported, neck chops, separable lean and fat, raw","新西蘭進口羊頸扒(瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, imported, neck chops, separable lean only, cooked, braised","新西蘭進口羊頸扒(只計瘦肉,熟,炆)",batch-030
+"Lamb, New Zealand, imported, neck chops, separable lean only, raw","新西蘭進口羊頸扒(只計瘦肉,生)",batch-030
+"Lamb, New Zealand, imported, netted shoulder, rolled, boneless, separable lean and fat, cooked, slow roasted","新西蘭進口網綁羊肩卷(去骨,瘦肉連脂肪,熟,慢烤)",batch-030
+"Lamb, New Zealand, imported, netted shoulder, rolled, boneless, separable lean and fat, raw","新西蘭進口網綁羊肩卷(去骨,瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, imported, netted shoulder, rolled, boneless, separable lean only, cooked, slow roasted","新西蘭進口網綁羊肩卷(去骨,只計瘦肉,熟,慢烤)",batch-030
+"Lamb, New Zealand, imported, netted shoulder, rolled, boneless, separable lean only, raw","新西蘭進口網綁羊肩卷(去骨,只計瘦肉,生)",batch-030
+"Lamb, New Zealand, imported, rack - fully frenched, separable lean and fat, cooked, fast roasted","新西蘭進口羊排架(全法式切法,瘦肉連脂肪,熟,快烤)",batch-030
+"Lamb, New Zealand, imported, rack - fully frenched, separable lean and fat, raw","新西蘭進口羊排架(全法式切法,瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, imported, rack - fully frenched, separable lean only, cooked, fast roasted","新西蘭進口羊排架(全法式切法,只計瘦肉,熟,快烤)",batch-030
 "Lamb, New Zealand, imported, rack - fully frenched, separable lean only, raw","紐西蘭羊仔排(進口,全修骨,只計瘦肉,生)",pilot
+"Lamb, New Zealand, imported, square-cut shoulder chops, separable lean and fat, cooked, braised","新西蘭進口方切羊肩扒(瘦肉連脂肪,熟,炆)",batch-030
+"Lamb, New Zealand, imported, square-cut shoulder chops, separable lean and fat, raw","新西蘭進口方切羊肩扒(瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, imported, square-cut shoulder chops, separable lean only, cooked, braised","新西蘭進口方切羊肩扒(只計瘦肉,熟,炆)",batch-030
+"Lamb, New Zealand, imported, square-cut shoulder chops, separable lean only, raw","新西蘭進口方切羊肩扒(只計瘦肉,生)",batch-030
+"Lamb, New Zealand, imported, square-cut shoulder, separable lean and fat, cooked, slow roasted","新西蘭進口方切羊肩(瘦肉連脂肪,熟,慢烤)",batch-030
+"Lamb, New Zealand, imported, square-cut shoulder, separable lean only, cooked, slow roasted","新西蘭進口方切羊肩(只計瘦肉,熟,慢烤)",batch-030
+"Lamb, New Zealand, imported, subcutaneous fat, cooked","新西蘭進口羊肉(皮下脂肪,熟)",batch-030
+"Lamb, New Zealand, imported, subcutaneous fat, raw","新西蘭進口羊肉(皮下脂肪,生)",batch-030
+"Lamb, New Zealand, imported, sweetbread, cooked, soaked and simmered","新西蘭進口羊胸腺(熟,浸泡後燉煮)",batch-030
+"Lamb, New Zealand, imported, sweetbread, raw",新西蘭進口羊胸腺(生),batch-030
+"Lamb, New Zealand, imported, testes, cooked, soaked and fried","新西蘭進口羊睪丸(熟,浸泡後炸)",batch-030
+"Lamb, New Zealand, imported, testes, raw",新西蘭進口羊睪丸(生),batch-030
+"Lamb, New Zealand, imported, tongue - swiss cut, cooked, soaked and simmered","新西蘭進口羊脷(瑞士切法,熟,浸泡後燉煮)",batch-030
+"Lamb, New Zealand, imported, tongue - swiss cut, raw","新西蘭進口羊脷(瑞士切法,生)",batch-030
+"Lamb, New Zealand, imported, tunnel-boned leg, chump off, shank off, separable lean and fat, cooked, slow roasted","新西蘭進口隧道去骨羊腿(去臀去腱,瘦肉連脂肪,熟,慢烤)",batch-030
+"Lamb, New Zealand, imported, tunnel-boned leg, chump off, shank off, separable lean and fat, raw","新西蘭進口隧道去骨羊腿(去臀去腱,瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, imported, tunnel-boned leg, chump off, shank off, separable lean only, cooked, slow roasted","新西蘭進口隧道去骨羊腿(去臀去腱,只計瘦肉,熟,慢烤)",batch-030
+"Lamb, New Zealand, imported, tunnel-boned leg, chump off, shank off, separable lean only, raw","新西蘭進口隧道去骨羊腿(去臀去腱,只計瘦肉,生)",batch-030
+"Lamb, New Zealand, leg, chop / steak, lean, fast fried","新西蘭羊腿扒(瘦肉,快炸)",batch-030
+"Lamb, New Zealand, leg, chop / steak, lean, raw","新西蘭羊腿扒(瘦肉,生)",batch-030
 "Lamb, New Zealand, leg, whole, chilled, roasted, lean","羊肉(紐西蘭,全腿,冷藏,烤,瘦肉)",batch-009
 "Lamb, New Zealand, leg, whole, chilled, roasted, lean and fat","羊肉(紐西蘭,全腿,冷藏,烤,瘦肉連肥肉)",batch-009
 "Lamb, New Zealand, leg, whole, frozen, raw, lean and fat, weighed with bone","羊肉(紐西蘭,全腿,冷凍,生,瘦肉連肥肉,連骨稱重)",batch-009
@@ -7212,8 +7389,20 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, New Zealand, loin chops, frozen, grilled, lean and fat, weighed with bone","羊腰肉扒(紐西蘭,冷凍,燒烤,瘦肉連肥肉,連骨稱重)",batch-009
 "Lamb, New Zealand, loin chops, frozen, grilled, lean, weighed with fat and bone","羊腰肉扒(紐西蘭,冷凍,燒烤,瘦肉,連脂肪及骨稱重)",batch-009
 "Lamb, New Zealand, mince, frozen, stewed","免治羊肉(紐西蘭,冷凍,炆)",batch-009
+"Lamb, New Zealand, rack - partly frenched, lean and fat, fast roasted","新西蘭羊排架(部分法式切法,瘦肉連脂肪,快烤)",batch-030
+"Lamb, New Zealand, rack - partly frenched, lean and fat, raw","新西蘭羊排架(部分法式切法,瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, rib, lean, raw","新西蘭羊肋骨肉(瘦肉,生)",batch-030
+"Lamb, New Zealand, rib, lean, roasted","新西蘭羊肋骨肉(瘦肉,烤)",batch-030
 "Lamb, New Zealand, shoulder, whole, frozen, roasted, lean","羊肩肉(紐西蘭,全肩,冷凍,烤,瘦肉)",batch-009
 "Lamb, New Zealand, shoulder, whole, frozen, roasted, lean and fat","羊肩肉(紐西蘭,全肩,冷凍,烤,瘦肉連肥肉)",batch-009
+"Lamb, New Zealand, shoulder, whole, lean and fat, 6mm (1/4) trim, braised","新西蘭整隻羊肩(瘦肉連脂肪,修脂6毫米(1/4吋),炆)",batch-030
+"Lamb, New Zealand, shoulder, whole, lean and fat, 6mm (1/4) trim, raw","新西蘭整隻羊肩(瘦肉連脂肪,修脂6毫米(1/4吋),生)",batch-030
+"Lamb, New Zealand, shoulder, whole, lean braised","新西蘭整隻羊肩(瘦肉,炆)",batch-030
+"Lamb, New Zealand, shoulder, whole, lean, raw","新西蘭整隻羊肩(瘦肉,生)",batch-030
+"Lamb, New Zealand, tenderloin, lean and fat, fast fried","新西蘭羊柳(瘦肉連脂肪,快炸)",batch-030
+"Lamb, New Zealand, tenderloin, lean and fat, raw","新西蘭羊柳(瘦肉連脂肪,生)",batch-030
+"Lamb, New Zealand, tenderloin, lean, fast fried","新西蘭羊柳(瘦肉,快炸)",batch-030
+"Lamb, New Zealand, tenderloin, lean, raw","新西蘭羊柳(瘦肉,生)",batch-030
 "Lamb, average, raw, lean and fat","羊肉(平均,生,瘦肉連肥肉)",batch-009
 "Lamb, best end neck cutlets, barbecued, lean","羊頸脊肉排(炭燒,瘦肉)",batch-009
 "Lamb, best end neck cutlets, barbecued, lean and fat","羊頸脊肉排(炭燒,瘦肉連肥肉)",batch-009
@@ -7225,6 +7414,9 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, best end neck cutlets, grilled, lean, weighed with fat and bone","羊頸脊肉排(燒烤,瘦肉,連脂肪及骨稱重)",batch-009
 "Lamb, best end neck cutlets, raw, lean and fat","羊頸脊肉排(生,瘦肉連肥肉)",batch-009
 "Lamb, best end neck cutlets, raw, lean and fat, weighed with bone","羊頸脊肉排(生,瘦肉連肥肉,連骨稱重)",batch-009
+"Lamb, brain, braised",羊腦(炆),batch-030
+"Lamb, brain, pan-fried",羊腦(煎),batch-030
+"Lamb, brain, raw",羊腦(生),batch-030
 "Lamb, breast, raw, lean","羊腩(生,瘦肉)",batch-009
 "Lamb, breast, raw, lean and fat","羊腩(生,瘦肉連肥肉)",batch-009
 "Lamb, breast, roasted, lean","羊腩(烤,瘦肉)",batch-009
@@ -7237,6 +7429,11 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, chump chops, raw, lean and fat, weighed with bone","羊臀扒(生,瘦肉連肥肉,連骨稱重)",batch-009
 "Lamb, chump steaks, fried, lean and fat","羊臀肉排(煎,瘦肉連肥肉)",batch-009
 "Lamb, chump steaks, raw, lean and fat","羊臀肉排(生,瘦肉連肥肉)",batch-009
+"Lamb, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/4"" fat, choice, cooked","羊肉(綜合削切零售部位,瘦肉連脂肪,修脂至1/4吋,特選級,熟)",batch-030
+"Lamb, composite of trimmed retail cuts, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊肉(綜合削切零售部位,瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, cubed for stew or kabob, lean braised","羊肉粒(用於燉煮或串燒,瘦肉,炆)",batch-030
+"Lamb, cubed for stew or kabob, lean, broiled","羊肉粒(用於燉煮或串燒,瘦肉,燒烤)",batch-030
+"Lamb, cubed for stew or kabob, lean, raw","羊肉粒(用於燉煮或串燒,瘦肉,生)",batch-030
 "Lamb, cutlet or frenched cutlet, with bone, lean, raw","羊仔扒(連骨,瘦肉,生)",batch-002
 "Lamb, diced, lean, casseroled, no added fat","羊仔肉粒(瘦肉,燉,無添加脂肪)",batch-002
 "Lamb, diced, untrimmed, casseroled, no added fat","羊仔肉粒(未經削切,燉,無添加脂肪)",batch-002
@@ -7248,6 +7445,18 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, fat, raw, average, extra trimmed","羊脂肪(生,平均,額外修脂)",batch-009
 "Lamb, fillet, untrimmed, grilled, no added fat","羊仔柳(未經削切,燒烤,無添加脂肪)",batch-002
 "Lamb, fillet, untrimmed, raw","羊仔柳(未經削切,生)",batch-002
+"Lamb, foreshank, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, braised","羊前腿腱(瘦肉連脂肪,修脂至1/4吋,特選級,熟,炆)",batch-030
+"Lamb, foreshank, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊前腿腱(瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, foreshank, separable lean and fat, trimmed to 1/8"" fat, choice, raw","羊前腿腱(瘦肉連脂肪,修脂至1/8吋,特選級,生)",batch-030
+"Lamb, foreshank, separable lean and fat, trimmed to 1/8"" fat, cooked, braised","羊前腿腱(瘦肉連脂肪,修脂至1/8吋,熟,炆)",batch-030
+"Lamb, foreshank, separable lean only, trimmed to 1/4"" fat, choice, cooked, braised","羊前腿腱(只計瘦肉,修脂至1/4吋,特選級,熟,炆)",batch-030
+"Lamb, foreshank, separable lean only, trimmed to 1/4"" fat, choice, raw","羊前腿腱(只計瘦肉,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, ground, cooked, broiled","免治羊肉(熟,燒烤)",batch-030
+"Lamb, ground, raw",免治羊肉(生),batch-030
+"Lamb, heart, braised",羊心(炆),batch-030
+"Lamb, heart, raw",羊心(生),batch-030
+"Lamb, kidney, braised",羊腰(炆),batch-030
+"Lamb, kidney, raw",羊腰(生),batch-030
 "Lamb, lean only, raw, average","羊肉(只計瘦肉,生,平均)",batch-009
 "Lamb, lean only, raw, average, extra trimmed","羊肉(只計瘦肉,生,平均,額外修脂)",batch-009
 "Lamb, leg chops, grilled, lean and fat","羊腿扒(燒烤,瘦肉連肥肉)",batch-009
@@ -7263,9 +7472,30 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, leg, half knuckle, pot-roasted, lean and fat, weighed with bone","羊腿半腱(原鍋燜烤,瘦肉連肥肉,連骨稱重)",batch-009
 "Lamb, leg, lean and fat, raw","羊仔腿(瘦肉連肥肉,生)",batch-016
 "Lamb, leg, lean and fat, roasted","羊仔腿(瘦肉連肥肉,烤)",batch-016
+"Lamb, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, roasted","羊腿(腱端半邊,瘦肉連脂肪,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, leg, shank half, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊腿(腱端半邊,瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, leg, shank half, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, roasted","羊腿(腱端半邊,瘦肉連脂肪,修脂至1/8吋,特選級,熟,烤)",batch-030
+"Lamb, leg, shank half, separable lean and fat, trimmed to 1/8"" fat, choice, raw","羊腿(腱端半邊,瘦肉連脂肪,修脂至1/8吋,特選級,生)",batch-030
+"Lamb, leg, shank half, separable lean only, trimmed to 1/4"" fat, choice, cooked, roasted","羊腿(腱端半邊,只計瘦肉,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, leg, shank half, separable lean only, trimmed to 1/4"" fat, choice, raw","羊腿(腱端半邊,只計瘦肉,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, leg, sirloin half, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, roasted","羊腿(後腰脊端半邊,瘦肉連脂肪,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, leg, sirloin half, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊腿(後腰脊端半邊,瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, leg, sirloin half, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, roasted","羊腿(後腰脊端半邊,瘦肉連脂肪,修脂至1/8吋,特選級,熟,烤)",batch-030
+"Lamb, leg, sirloin half, separable lean and fat, trimmed to 1/8"" fat, choice, raw","羊腿(後腰脊端半邊,瘦肉連脂肪,修脂至1/8吋,特選級,生)",batch-030
+"Lamb, leg, sirloin half, separable lean only, trimmed to 1/4"" fat, choice, cooked, roasted","羊腿(後腰脊端半邊,只計瘦肉,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, leg, sirloin half, separable lean only, trimmed to 1/4"" fat, choice, raw","羊腿(後腰脊端半邊,只計瘦肉,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, leg, whole (shank and sirloin), separable lean and fat, trimmed to 1/4"" fat, choice, cooked, roasted","整隻羊腿(腱端及後腰脊端,瘦肉連脂肪,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, leg, whole (shank and sirloin), separable lean and fat, trimmed to 1/4"" fat, choice, raw","整隻羊腿(腱端及後腰脊端,瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, leg, whole (shank and sirloin), separable lean and fat, trimmed to 1/8"" fat, choice, cooked, roasted","整隻羊腿(腱端及後腰脊端,瘦肉連脂肪,修脂至1/8吋,特選級,熟,烤)",batch-030
+"Lamb, leg, whole (shank and sirloin), separable lean and fat, trimmed to 1/8"" fat, choice, raw","整隻羊腿(腱端及後腰脊端,瘦肉連脂肪,修脂至1/8吋,特選級,生)",batch-030
+"Lamb, leg, whole (shank and sirloin), separable lean only, trimmed to 1/4"" fat, choice, cooked, roasted","整隻羊腿(腱端及後腰脊端,只計瘦肉,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, leg, whole (shank and sirloin), separable lean only, trimmed to 1/4"" fat, choice, raw","整隻羊腿(腱端及後腰脊端,只計瘦肉,修脂至1/4吋,特選級,生)",batch-030
 "Lamb, leg, whole, roasted well done, lean","羊仔腿(整隻,烤,全熟,瘦肉)",pilot
 "Lamb, leg, whole, roasted well done, lean and fat","羊腿(全隻,烤至全熟,瘦肉連肥肉)",batch-009
 "Lamb, leg, whole, roasted, lean only","羊腿(全隻,烤,只計瘦肉)",batch-009
+"Lamb, liver, braised",羊肝(炆),batch-030
+"Lamb, liver, pan-fried",羊肝(煎),batch-030
+"Lamb, liver, raw",羊肝(生),batch-030
 "Lamb, loin chop, lean, grilled, no added fat","羊仔腰肉扒(瘦肉,燒烤,無添加脂肪)",batch-002
 "Lamb, loin chops, grilled, lean","羊腰肉扒(燒烤,瘦肉)",batch-009
 "Lamb, loin chops, grilled, lean and fat","羊腰肉扒(燒烤,瘦肉連肥肉)",batch-009
@@ -7289,6 +7519,17 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, loin, lean and fat, raw","羊仔腰肉(瘦肉連肥肉,生)",batch-016
 "Lamb, loin, lean and fat, roasted","羊仔腰肉(瘦肉連肥肉,烤)",batch-016
 "Lamb, loin, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, broiled","羊仔腰肉(連肥肉,修脂至1/4吋,特選級,熟,燒烤)",pilot
+"Lamb, loin, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, roasted","羊腰肉(瘦肉連脂肪,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, loin, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊腰肉(瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, loin, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, broiled","羊腰肉(瘦肉連脂肪,修脂至1/8吋,特選級,熟,燒烤)",batch-030
+"Lamb, loin, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, roasted","羊腰肉(瘦肉連脂肪,修脂至1/8吋,特選級,熟,烤)",batch-030
+"Lamb, loin, separable lean and fat, trimmed to 1/8"" fat, choice, raw","羊腰肉(瘦肉連脂肪,修脂至1/8吋,特選級,生)",batch-030
+"Lamb, loin, separable lean only, trimmed to 1/4"" fat, choice, cooked, broiled","羊腰肉(只計瘦肉,修脂至1/4吋,特選級,熟,燒烤)",batch-030
+"Lamb, loin, separable lean only, trimmed to 1/4"" fat, choice, cooked, roasted","羊腰肉(只計瘦肉,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, loin, separable lean only, trimmed to 1/4"" fat, choice, raw","羊腰肉(只計瘦肉,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, lungs, braised",羊肺(炆),batch-030
+"Lamb, lungs, raw",羊肺(生),batch-030
+"Lamb, mechanically separated, raw",機械分離羊肉(生),batch-030
 "Lamb, mince, raw",免治羊肉(生),batch-009
 "Lamb, mince, stewed",免治羊肉(炆),batch-009
 "Lamb, mince, stewed with onions",免治羊肉(洋蔥炆),batch-009
@@ -7300,12 +7541,47 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, neck fillet, slices, grilled, lean and fat","羊頸柳片(燒烤,瘦肉連肥肉)",batch-009
 "Lamb, neck fillet, strips, stir-fried in corn oil, lean","羊頸柳條(粟米油炒,瘦肉)",batch-009
 "Lamb, neck fillet, strips, stir-fried in corn oil, lean and fat","羊頸柳條(粟米油炒,瘦肉連肥肉)",batch-009
+"Lamb, pancreas, braised",羊胰臟(炆),batch-030
+"Lamb, pancreas, raw",羊胰臟(生),batch-030
 "Lamb, rack of, lean, roasted","羊排(烤,瘦肉)",batch-009
 "Lamb, rack of, raw, lean and fat","羊排(生,瘦肉連肥肉)",batch-009
 "Lamb, rack of, raw, lean and fat, weighed with bone","羊排(生,瘦肉連肥肉,連骨稱重)",batch-009
 "Lamb, rack of, roasted, lean and fat","羊排(烤,瘦肉連肥肉)",batch-009
+"Lamb, rib, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, broiled","羊肋骨肉(瘦肉連脂肪,修脂至1/4吋,特選級,熟,燒烤)",batch-030
+"Lamb, rib, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, roasted","羊肋骨肉(瘦肉連脂肪,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, rib, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊肋骨肉(瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, rib, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, broiled","羊肋骨肉(瘦肉連脂肪,修脂至1/8吋,特選級,熟,燒烤)",batch-030
+"Lamb, rib, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, roasted","羊肋骨肉(瘦肉連脂肪,修脂至1/8吋,特選級,熟,烤)",batch-030
+"Lamb, rib, separable lean and fat, trimmed to 1/8"" fat, choice, raw","羊肋骨肉(瘦肉連脂肪,修脂至1/8吋,特選級,生)",batch-030
+"Lamb, rib, separable lean only, trimmed to 1/4"" fat, choice, cooked, broiled","羊肋骨肉(只計瘦肉,修脂至1/4吋,特選級,熟,燒烤)",batch-030
+"Lamb, rib, separable lean only, trimmed to 1/4"" fat, choice, cooked, roasted","羊肋骨肉(只計瘦肉,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, rib, separable lean only, trimmed to 1/4"" fat, choice, raw","羊肋骨肉(只計瘦肉,修脂至1/4吋,特選級,生)",batch-030
 "Lamb, shoulder joint, roasted, lean","羊肩烤肉塊(烤,瘦肉)",batch-009
 "Lamb, shoulder joint, roasted, lean and fat","羊肩烤肉塊(烤,瘦肉連肥肉)",batch-009
+"Lamb, shoulder, arm, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, braised","羊上臂肩肉(瘦肉連脂肪,修脂至1/4吋,特選級,熟,炆)",batch-030
+"Lamb, shoulder, arm, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, broiled","羊上臂肩肉(瘦肉連脂肪,修脂至1/4吋,特選級,熟,燒烤)",batch-030
+"Lamb, shoulder, arm, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, roasted","羊上臂肩肉(瘦肉連脂肪,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, shoulder, arm, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊上臂肩肉(瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, shoulder, arm, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, braised","羊上臂肩肉(瘦肉連脂肪,修脂至1/8吋,特選級,熟,炆)",batch-030
+"Lamb, shoulder, arm, separable lean and fat, trimmed to 1/8"" fat, choice, raw","羊上臂肩肉(瘦肉連脂肪,修脂至1/8吋,特選級,生)",batch-030
+"Lamb, shoulder, arm, separable lean and fat, trimmed to 1/8"" fat, choice, roasted","羊上臂肩肉(瘦肉連脂肪,修脂至1/8吋,特選級,烤)",batch-030
+"Lamb, shoulder, arm, separable lean and fat, trimmed to 1/8"" fat, cooked, broiled","羊上臂肩肉(瘦肉連脂肪,修脂至1/8吋,熟,燒烤)",batch-030
+"Lamb, shoulder, arm, separable lean only, trimmed to 1/4"" fat, choice, cooked, braised","羊上臂肩肉(只計瘦肉,修脂至1/4吋,特選級,熟,炆)",batch-030
+"Lamb, shoulder, arm, separable lean only, trimmed to 1/4"" fat, choice, cooked, broiled","羊上臂肩肉(只計瘦肉,修脂至1/4吋,特選級,熟,燒烤)",batch-030
+"Lamb, shoulder, arm, separable lean only, trimmed to 1/4"" fat, choice, cooked, roasted","羊上臂肩肉(只計瘦肉,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, shoulder, arm, separable lean only, trimmed to 1/4"" fat, choice, raw","羊上臂肩肉(只計瘦肉,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, shoulder, blade, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, braised","羊肩胛肉(瘦肉連脂肪,修脂至1/4吋,特選級,熟,炆)",batch-030
+"Lamb, shoulder, blade, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, broiled","羊肩胛肉(瘦肉連脂肪,修脂至1/4吋,特選級,熟,燒烤)",batch-030
+"Lamb, shoulder, blade, separable lean and fat, trimmed to 1/4"" fat, choice, cooked, roasted","羊肩胛肉(瘦肉連脂肪,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, shoulder, blade, separable lean and fat, trimmed to 1/4"" fat, choice, raw","羊肩胛肉(瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, shoulder, blade, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, braised","羊肩胛肉(瘦肉連脂肪,修脂至1/8吋,特選級,熟,炆)",batch-030
+"Lamb, shoulder, blade, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, broiled","羊肩胛肉(瘦肉連脂肪,修脂至1/8吋,特選級,熟,燒烤)",batch-030
+"Lamb, shoulder, blade, separable lean and fat, trimmed to 1/8"" fat, choice, cooked, roasted","羊肩胛肉(瘦肉連脂肪,修脂至1/8吋,特選級,熟,烤)",batch-030
+"Lamb, shoulder, blade, separable lean and fat, trimmed to 1/8"" fat, choice, raw","羊肩胛肉(瘦肉連脂肪,修脂至1/8吋,特選級,生)",batch-030
+"Lamb, shoulder, blade, separable lean only, trimmed to 1/4"" fat, choice, cooked, braised","羊肩胛肉(只計瘦肉,修脂至1/4吋,特選級,熟,炆)",batch-030
+"Lamb, shoulder, blade, separable lean only, trimmed to 1/4"" fat, choice, cooked, broiled","羊肩胛肉(只計瘦肉,修脂至1/4吋,特選級,熟,燒烤)",batch-030
+"Lamb, shoulder, blade, separable lean only, trimmed to 1/4"" fat, choice, cooked, roasted","羊肩胛肉(只計瘦肉,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, shoulder, blade, separable lean only, trimmed to 1/4"" fat, choice, raw","羊肩胛肉(只計瘦肉,修脂至1/4吋,特選級,生)",batch-030
 "Lamb, shoulder, diced, kebabs, grilled, lean and fat","羊肩肉粒串(燒烤,瘦肉連肥肉)",batch-009
 "Lamb, shoulder, half bladeside, pot-roasted, lean","羊肩半塊(肩胛側,原鍋燜烤,瘦肉)",batch-009
 "Lamb, shoulder, half bladeside, pot-roasted, lean and fat","羊肩半塊(肩胛側,原鍋燜烤,瘦肉連肥肉)",batch-009
@@ -7313,9 +7589,23 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, shoulder, half knuckle, braised, lean and fat","羊肩半腱(炆,瘦肉連肥肉)",batch-009
 "Lamb, shoulder, lean and fat, raw","羊仔肩肉(瘦肉連肥肉,生)",batch-016
 "Lamb, shoulder, raw, lean and fat, weighed with bone","羊肩(生,瘦肉連肥肉,連骨稱重)",batch-009
+"Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/4"" fat, choice, cooked, braised","整隻羊肩(上臂及肩胛,瘦肉連脂肪,修脂至1/4吋,特選級,熟,炆)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/4"" fat, choice, cooked, broiled","整隻羊肩(上臂及肩胛,瘦肉連脂肪,修脂至1/4吋,特選級,熟,燒烤)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/4"" fat, choice, cooked, roasted","整隻羊肩(上臂及肩胛,瘦肉連脂肪,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/4"" fat, choice, raw","整隻羊肩(上臂及肩胛,瘦肉連脂肪,修脂至1/4吋,特選級,生)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8"" fat, choice, cooked, braised","整隻羊肩(上臂及肩胛,瘦肉連脂肪,修脂至1/8吋,特選級,熟,炆)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8"" fat, choice, cooked, broiled","整隻羊肩(上臂及肩胛,瘦肉連脂肪,修脂至1/8吋,特選級,熟,燒烤)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8"" fat, choice, cooked, roasted","整隻羊肩(上臂及肩胛,瘦肉連脂肪,修脂至1/8吋,特選級,熟,烤)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean and fat, trimmed to 1/8"" fat, choice, raw","整隻羊肩(上臂及肩胛,瘦肉連脂肪,修脂至1/8吋,特選級,生)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean only, trimmed to 1/4"" fat, choice, cooked, braised","整隻羊肩(上臂及肩胛,只計瘦肉,修脂至1/4吋,特選級,熟,炆)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean only, trimmed to 1/4"" fat, choice, cooked, broiled","整隻羊肩(上臂及肩胛,只計瘦肉,修脂至1/4吋,特選級,熟,燒烤)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean only, trimmed to 1/4"" fat, choice, cooked, roasted","整隻羊肩(上臂及肩胛,只計瘦肉,修脂至1/4吋,特選級,熟,烤)",batch-030
+"Lamb, shoulder, whole (arm and blade), separable lean only, trimmed to 1/4"" fat, choice, raw","整隻羊肩(上臂及肩胛,只計瘦肉,修脂至1/4吋,特選級,生)",batch-030
 "Lamb, shoulder, whole, roasted, lean","羊肩(全肩,烤,瘦肉)",batch-009
 "Lamb, shoulder, whole, roasted, lean and fat","羊仔肩肉(整塊,烤,連肥肉)",pilot
 "Lamb, shoulder, whole, roasted, lean and fat, weighed with bone","羊肩(全肩,烤,瘦肉連肥肉,連骨稱重)",batch-009
+"Lamb, spleen, braised",羊脾(炆),batch-030
+"Lamb, spleen, raw",羊脾(生),batch-030
 "Lamb, steak, boneless, lean, grilled, no added fat","羊仔肉排(去骨,瘦肉,燒烤,無添加脂肪)",batch-002
 "Lamb, steak, boneless, lean, raw","羊仔肉排(去骨,瘦肉,生)",batch-002
 "Lamb, steak, boneless, untrimmed, grilled, no added fat","羊仔肉排(去骨,未經削切,燒烤,無添加脂肪)",batch-002
@@ -7332,6 +7622,8 @@ Khatiyu,印度蒸粟米糕,batch-012
 "Lamb, stir-fry strips, untrimmed, casseroled, no added fat","羊仔炒肉條(未經削切,燉,無添加脂肪)",batch-002
 "Lamb, stir-fry strips, untrimmed, raw","羊仔炒肉條(未經削切,生)",batch-002
 "Lamb, stir-fry strips, untrimmed, stir-fried, no added fat","羊仔炒肉條(未經削切,炒,無添加脂肪)",batch-002
+"Lamb, tongue, braised",羊脷(炆),batch-030
+"Lamb, tongue, raw",羊脷(生),batch-030
 "Lamb, with bone, shin, lean, casseroled, no added fat","羊仔腱(連骨,瘦肉,燉,無添加脂肪)",batch-002
 "Lamb, with bone, shin, lean, raw","羊仔腱(連骨,瘦肉,生)",batch-002
 "Lamb, with bone, shin, untrimmed, casseroled, no added fat","羊仔腱(連骨,未經削切,燉,無添加脂肪)",batch-002
@@ -11223,9 +11515,37 @@ Tzatziki,希臘青瓜乳酪醬,batch-010
 "Van's, The Perfect 10, Crispy Six Whole Grain + Four Seed Baked Crackers, Gluten Free","六種全穀物加四種籽焗脆餅乾(Van's Perfect 10,無麩質)",batch-022
 Vanilla bean extract,雲呢拿豆萃取物,batch-002
 "Vanilla, artificial or imitation",雲呢拿(人造或仿製),batch-002
+"Veal, Australian, rib, rib roast, separable lean and fat, raw","澳洲牛仔肋骨烤肉塊(瘦肉連脂肪,生)",batch-030
+"Veal, Australian, rib, rib roast, separable lean only, raw","澳洲牛仔肋骨烤肉塊(只計瘦肉,生)",batch-030
+"Veal, Australian, separable fat, raw","澳洲牛仔肉(可分離脂肪,生)",batch-030
+"Veal, Australian, shank, fore, bone-in, separable lean and fat, raw","澳洲牛仔前腿腱(連骨,瘦肉連脂肪,生)",batch-030
+"Veal, Australian, shank, fore, bone-in, separable lean only, raw","澳洲牛仔前腿腱(連骨,只計瘦肉,生)",batch-030
+"Veal, Australian, shank, hind, bone-in, separable lean and fat, raw","澳洲牛仔後腿腱(連骨,瘦肉連脂肪,生)",batch-030
+"Veal, Australian, shank, hind, bone-in, separable lean only, raw","澳洲牛仔後腿腱(連骨,只計瘦肉,生)",batch-030
+"Veal, brain, braised",牛仔腦(炆),batch-030
+"Veal, brain, pan-fried",牛仔腦(煎),batch-030
+"Veal, brain, raw",牛仔腦(生),batch-030
+"Veal, breast, plate half, boneless, separable lean and fat, cooked, braised","牛仔胸腩(腹脇半邊,去骨,瘦肉連脂肪,熟,炆)",batch-030
+"Veal, breast, point half, boneless, separable lean and fat, cooked, braised","牛仔胸腩(尖端半邊,去骨,瘦肉連脂肪,熟,炆)",batch-030
+"Veal, breast, separable fat, cooked","牛仔胸腩(可分離脂肪,熟)",batch-030
+"Veal, breast, whole, boneless, separable lean and fat, cooked, braised","牛仔胸腩(整塊,去骨,瘦肉連脂肪,熟,炆)",batch-030
+"Veal, breast, whole, boneless, separable lean and fat, raw","牛仔胸腩(整塊,去骨,瘦肉連脂肪,生)",batch-030
+"Veal, breast, whole, boneless, separable lean only, cooked, braised","牛仔胸腩(整塊,去骨,只計瘦肉,熟,炆)",batch-030
+"Veal, composite cuts, fat, cooked","牛仔肉(綜合部位,脂肪,熟)",batch-030
+"Veal, composite cuts, fat, raw","牛仔肉(綜合部位,脂肪,生)",batch-030
+"Veal, composite cuts, lean and fat, cooked","牛仔肉(綜合部位,瘦肉連脂肪,熟)",batch-030
+"Veal, composite cuts, lean and fat, raw","牛仔肉(綜合部位,瘦肉連脂肪,生)",batch-030
+"Veal, composite cuts, lean, cooked","牛仔肉(綜合部位,瘦肉,熟)",batch-030
+"Veal, composite cuts, lean, raw","牛仔肉(綜合部位,瘦肉,生)",batch-030
+"Veal, cubed for stew (leg and shoulder), lean, braised","牛仔肉粒(用於燉煮,腿肉及肩肉,瘦肉,炆)",batch-030
+"Veal, cubed for stew (leg and shoulder), lean, raw","牛仔肉粒(用於燉煮,腿肉及肩肉,瘦肉,生)",batch-030
 "Veal, escalope, fried in corn oil",牛仔肉片(粟米油炸),pilot
 "Veal, escalope, raw",牛仔肉薄片(生),batch-010
+"Veal, external fat only, cooked","牛仔肉(只計外層脂肪,熟)",batch-030
+"Veal, external fat only, raw","牛仔肉(只計外層脂肪,生)",batch-030
 "Veal, flank or short plate, without subcutaneous fat, raw","牛仔腹脅肉(無皮下脂肪,生)",batch-016
+"Veal, foreshank, osso buco, lean and fat, braised","牛仔前腿腱(意式燜牛仔腱,瘦肉連脂肪,炆)",batch-030
+"Veal, foreshank, osso buco, lean, braised","牛仔前腿腱(意式燜牛仔腱,瘦肉,炆)",batch-030
 "Veal, grain-fed, cutlets (inside rop round), pan-fried","穀飼牛仔肉薄片(內側上腿肉,煎)",batch-005
 "Veal, grain-fed, cutlets (inside top round), braised","穀飼牛仔肉薄片(內側上腿肉,炆)",batch-005
 "Veal, grain-fed, cutlets (inside top round), raw","穀飼牛仔肉薄片(內側上腿肉,生)",batch-005
@@ -11249,7 +11569,39 @@ Vanilla bean extract,雲呢拿豆萃取物,batch-002
 "Veal, grain-fed, shoulder, whole, lean and fat, roasted","穀飼牛仔整塊肩肉(連肥肉,烤)",batch-005
 "Veal, grain-fed, shoulder, whole, lean, raw","穀飼牛仔整塊肩肉(瘦肉,生)",batch-005
 "Veal, grain-fed, shoulder, whole, lean, roasted","穀飼牛仔整塊肩肉(瘦肉,烤)",batch-005
+"Veal, ground, broiled",免治牛仔肉(燒烤),batch-030
+"Veal, ground, pan-fried",免治牛仔肉(煎),batch-030
+"Veal, ground, raw",免治牛仔肉(生),batch-030
+"Veal, heart, braised",牛仔心(炆),batch-030
+"Veal, heart, raw",牛仔心(生),batch-030
 "Veal, inside round, without subcutaneous fat, raw","牛仔內側後腿肉(無皮下脂肪,生)",batch-016
+"Veal, kidney, braised",牛仔腰(炆),batch-030
+"Veal, kidney, raw",牛仔腰(生),batch-030
+"Veal, leg (round), lean and fat, braised","牛仔腿肉(瘦肉連脂肪,炆)",batch-030
+"Veal, leg (round), lean and fat, pan-fried, breaded","牛仔腿肉(瘦肉連脂肪,煎,裹麵包糠)",batch-030
+"Veal, leg (round), lean and fat, pan-fried, not breaded","牛仔腿肉(瘦肉連脂肪,煎,不裹麵包糠)",batch-030
+"Veal, leg (round), lean and fat, raw","牛仔腿肉(瘦肉連脂肪,生)",batch-030
+"Veal, leg (round), lean and fat, roasted","牛仔腿肉(瘦肉連脂肪,烤)",batch-030
+"Veal, leg (round), lean, braised","牛仔腿肉(瘦肉,炆)",batch-030
+"Veal, leg (round), lean, pan-fried, breaded","牛仔腿肉(瘦肉,煎,裹麵包糠)",batch-030
+"Veal, leg (round), lean, pan-fried, not breaded","牛仔腿肉(瘦肉,煎,不裹麵包糠)",batch-030
+"Veal, leg (round), lean, roasted","牛仔腿肉(瘦肉,烤)",batch-030
+"Veal, leg (top round), separable lean only, raw","牛仔上腿肉(只計瘦肉,生)",batch-030
+"Veal, leg, top round, cap off, cutlet, boneless, cooked, grilled","牛仔上腿肉(去肉蓋,薄切片,去骨,熟,烤)",batch-030
+"Veal, leg, top round, cap off, cutlet, boneless, raw","牛仔上腿肉(去肉蓋,薄切片,去骨,生)",batch-030
+"Veal, liver, braised",牛仔肝(炆),batch-030
+"Veal, liver, pan-fried",牛仔肝(煎),batch-030
+"Veal, liver, raw",牛仔肝(生),batch-030
+"Veal, loin, chop, separable lean and fat, cooked, grilled","牛仔腰肉扒(瘦肉連脂肪,熟,烤)",batch-030
+"Veal, loin, chop, separable lean only, cooked, grilled","牛仔腰肉扒(只計瘦肉,熟,烤)",batch-030
+"Veal, loin, lean and fat, braised","牛仔腰肉(瘦肉連脂肪,炆)",batch-030
+"Veal, loin, lean and fat, raw","牛仔腰肉(瘦肉連脂肪,生)",batch-030
+"Veal, loin, lean and fat, roasted","牛仔腰肉(瘦肉連脂肪,烤)",batch-030
+"Veal, loin, lean, braised","牛仔腰肉(瘦肉,炆)",batch-030
+"Veal, loin, lean, raw","牛仔腰肉(瘦肉,生)",batch-030
+"Veal, loin, lean, roasted","牛仔腰肉(瘦肉,烤)",batch-030
+"Veal, lungs, braised",牛仔肺(炆),batch-030
+"Veal, lungs, raw",牛仔肺(生),batch-030
 "Veal, milk-fed, cutlets (inside top round), pan-fried","奶飼牛仔肉薄片(內側上腿肉,煎)",batch-005
 "Veal, milk-fed, cutlets (inside top round), raw","奶飼牛仔肉薄片(內側上腿肉,生)",batch-005
 "Veal, milk-fed, rib chop, lean and fat, broiled","奶飼牛仔肋扒(連肥肉,燒烤)",batch-005
@@ -11266,7 +11618,55 @@ Vanilla bean extract,雲呢拿豆萃取物,batch-002
 "Veal, milk-fed, shoulder, whole, lean, roasted","奶飼牛仔整塊肩肉(瘦肉,烤)",batch-005
 "Veal, mince, raw",免治牛仔肉(生),batch-010
 "Veal, mince, stewed",免治牛仔肉(炆),batch-010
+"Veal, pancreas, braised",牛仔胰臟(炆),batch-030
+"Veal, pancreas, raw",牛仔胰臟(生),batch-030
 "Veal, rib loin, without subcutaneous fat, raw","牛仔肋脊肉(無皮下脂肪,生)",batch-016
+"Veal, rib, lean and fat, braised","牛仔肋骨肉(瘦肉連脂肪,炆)",batch-030
+"Veal, rib, lean and fat, roasted","牛仔肋骨肉(瘦肉連脂肪,烤)",batch-030
+"Veal, rib, lean, braised","牛仔肋骨肉(瘦肉,炆)",batch-030
+"Veal, rib, lean, roasted","牛仔肋骨肉(瘦肉,烤)",batch-030
+"Veal, rib, separable lean and fat, raw","牛仔肋骨肉(只計瘦肉連脂肪,生)",batch-030
+"Veal, rib, separable lean only, raw","牛仔肋骨肉(只計瘦肉,生)",batch-030
+"Veal, seam fat only, cooked","牛仔肉(只計肌間脂肪,熟)",batch-030
+"Veal, seam fat only, raw","牛仔肉(只計肌間脂肪,生)",batch-030
+"Veal, shank (fore and hind), separable lean and fat, cooked, braised","牛仔腱(前腿及後腿,瘦肉連脂肪,熟,炆)",batch-030
+"Veal, shank (fore and hind), separable lean and fat, raw","牛仔腱(前腿及後腿,瘦肉連脂肪,生)",batch-030
+"Veal, shank (fore and hind), separable lean only, cooked, braised","牛仔腱(前腿及後腿,只計瘦肉,熟,炆)",batch-030
+"Veal, shank (fore and hind), separable lean only, raw","牛仔腱(前腿及後腿,只計瘦肉,生)",batch-030
+"Veal, shank, separable lean and fat, raw","牛仔腱(只計瘦肉連脂肪,生)",batch-030
+"Veal, shank, separable lean only, raw","牛仔腱(只計瘦肉,生)",batch-030
+"Veal, shoulder, blade chop, separable lean and fat, cooked, grilled","牛仔肩胛扒(瘦肉連脂肪,熟,烤)",batch-030
+"Veal, shoulder, blade chop, separable lean only, cooked, grilled","牛仔肩胛扒(只計瘦肉,熟,烤)",batch-030
+"Veal, shoulder, blade, lean and fat, braised","牛仔肩胛肉(瘦肉連脂肪,炆)",batch-030
+"Veal, shoulder, blade, lean and fat, raw","牛仔肩胛肉(瘦肉連脂肪,生)",batch-030
+"Veal, shoulder, blade, lean and fat, roasted","牛仔肩胛肉(瘦肉連脂肪,烤)",batch-030
+"Veal, shoulder, blade, lean, braised","牛仔肩胛肉(瘦肉,炆)",batch-030
+"Veal, shoulder, blade, lean, raw","牛仔肩胛肉(瘦肉,生)",batch-030
+"Veal, shoulder, blade, lean, roasted","牛仔肩胛肉(瘦肉,烤)",batch-030
+"Veal, shoulder, shank, lean and fat, braised","牛仔肩腱(瘦肉連脂肪,炆)",batch-030
+"Veal, shoulder, shank, lean and fat, raw","牛仔肩腱(瘦肉連脂肪,生)",batch-030
+"Veal, shoulder, shank, lean and fat, roasted","牛仔肩腱(瘦肉連脂肪,烤)",batch-030
+"Veal, shoulder, shank, lean, braised","牛仔肩腱(瘦肉,炆)",batch-030
+"Veal, shoulder, shank, lean, raw","牛仔肩腱(瘦肉,生)",batch-030
+"Veal, shoulder, shank, lean, roasted","牛仔肩腱(瘦肉,烤)",batch-030
+"Veal, shoulder, whole (arm and blade), separable lean and fat, cooked, roasted","整隻牛仔肩(上臂及肩胛,瘦肉連脂肪,熟,烤)",batch-030
+"Veal, shoulder, whole (arm and blade), separable lean and fat, raw","整隻牛仔肩(上臂及肩胛,瘦肉連脂肪,生)",batch-030
+"Veal, shoulder, whole (arm and blade), separable lean only, cooked, roasted","整隻牛仔肩(上臂及肩胛,只計瘦肉,熟,烤)",batch-030
+"Veal, shoulder, whole (arm and blade), separable lean only, raw","整隻牛仔肩(上臂及肩胛,只計瘦肉,生)",batch-030
+"Veal, shoulder, whole, lean and fat, braised","整隻牛仔肩(瘦肉連脂肪,炆)",batch-030
+"Veal, shoulder, whole, lean, braised","整隻牛仔肩(瘦肉,炆)",batch-030
+"Veal, sirloin, lean and fat, braised","牛仔後腰脊肉(瘦肉連脂肪,炆)",batch-030
+"Veal, sirloin, lean and fat, raw","牛仔後腰脊肉(瘦肉連脂肪,生)",batch-030
+"Veal, sirloin, lean and fat, roasted","牛仔後腰脊肉(瘦肉連脂肪,烤)",batch-030
+"Veal, sirloin, lean, braised","牛仔後腰脊肉(瘦肉,炆)",batch-030
+"Veal, sirloin, lean, raw","牛仔後腰脊肉(瘦肉,生)",batch-030
+"Veal, sirloin, lean, roasted","牛仔後腰脊肉(瘦肉,烤)",batch-030
+"Veal, spleen, braised",牛仔脾(炆),batch-030
+"Veal, spleen, raw",牛仔脾(生),batch-030
+"Veal, thymus, braised",牛仔胸腺(炆),batch-030
+"Veal, thymus, raw",牛仔胸腺(生),batch-030
+"Veal, tongue, braised",牛仔脷(炆),batch-030
+"Veal, tongue, raw",牛仔脷(生),batch-030
 "Vegeburger, retail, grilled","素漢堡(零售,燒烤)",batch-012
 "Vegetable and cheese grill/burger, in crumbs, baked/grilled","蔬菜芝士漢堡(裹麵包糠,焗或燒烤)",batch-012
 "Vegetable bake, homemade",焗蔬菜(自家製),batch-012
