@@ -331,6 +331,7 @@ Acorn stew (Apache),橡子燉菜(阿帕切族),batch-019
 "Alcoholic beverage, wine, table, white, Semillon",白餐酒(賽美蓉),batch-024
 "Alcoholic beverage, wine, table, white, late harvest",白餐酒(晚收),batch-024
 "Alcoholic beverage, wine, table, white, late harvest, Gewurztraminer","白餐酒(晚收,格烏茲塔明那)",batch-024
+"Alfalfa seeds, sprouted, raw","苜蓿芽(發芽種子,生)",batch-036
 "Algae, ""Arame"", steamed and dried",荒布(蒸後曬乾),batch-012
 "Algae, ""Ego-nori"", ""Okyuto"" (algae jelly)","海藻(江蓠海藻,海藻啫喱)",batch-013
 "Algae, ""Ego-nori"", dried","海藻(江蓠海藻,乾)",batch-013
@@ -401,6 +402,8 @@ Acorn stew (Apache),橡子燉菜(阿帕切族),batch-019
 "Aloe, leaves, raw","蘆薈(葉,生)",batch-018
 "Amaranth grain, cooked",莧菜籽(熟),batch-025
 "Amaranth leaves, boiled in unsalted water",莧菜(以無鹽水煮),batch-011
+"Amaranth leaves, boiled, drained","莧菜(烚,瀝乾)",batch-036
+"Amaranth leaves, cooked, boiled, drained, with salt","莧菜(熟,烚,瀝乾,有鹽)",batch-036
 "Amaranth leaves, raw",莧菜(生),batch-011
 Amla,印度醋栗,batch-008
 "Anchovies, canned in olive oil, with salt, drained","鯷魚(橄欖油浸罐頭,有鹽,已瀝乾)",batch-019
@@ -523,10 +526,19 @@ Anise seeds,八角籽,batch-008
 "Archway Home Style Cookies, Strawberry Filled","家常曲奇(Archway,士多啤梨夾心)",batch-021
 "Archway Home Style Cookies, Sugar Free Oatmeal","家常曲奇(Archway,無糖燕麥)",batch-021
 "Arrowhead, boiled in unsalted water",慈菇(以無鹽水煮),batch-011
+"Arrowhead, boiled, drained","慈菇(烚,瀝乾)",batch-036
+"Arrowhead, boiled, drained, with salt","慈菇(烚,瀝乾,有鹽)",batch-036
 "Arrowhead, raw",慈菇(生),batch-011
 "Arrowhead, tuber, boiled","慈姑(塊莖,煮)",batch-018
 "Arrowhead, tuber, raw","慈姑(塊莖,生)",batch-018
 Arrowroot,竹芋粉,batch-006
+"Arrowroot, raw",竹芋(生),batch-036
+"Artichoke (Globe, French), boiled, drained","朝鮮薊(球形,法國種,烚,瀝乾)",batch-036
+"Artichoke (Globe, French), boiled, drained, with salt","朝鮮薊(球形,法國種,烚,瀝乾,有鹽)",batch-036
+"Artichoke (Globe, French), frozen, boiled, drained","朝鮮薊(球形,法國種,冷凍,烚,瀝乾)",batch-036
+"Artichoke (Globe, French), frozen, boiled, drained, with salt","朝鮮薊(球形,法國種,冷凍,烚,瀝乾,有鹽)",batch-036
+"Artichoke (Globe, French), frozen, unprepared","朝鮮薊(球形,法國種,冷凍,未經調製)",batch-036
+"Artichoke (Globe, French), raw","朝鮮薊(球形,法國種,生)",batch-036
 "Artichoke, Jerusalem, boiled in unsalted water, flesh only","菊芋(以無鹽水煮,只計肉)",batch-011
 "Artichoke, canned",罐頭雅枝竹,batch-006
 "Artichoke, globe, base of leaves and heart, boiled in unsalted water","朝鮮薊(葉底及菜心,以無鹽水煮)",batch-011
@@ -536,6 +548,14 @@ Arrowroot,竹芋粉,batch-006
 "Arugula, baby, raw","火箭菜(幼嫩,生)",batch-019
 Asafoetida,阿魏,batch-008
 "Ascidians, Indigenous (tunughnak)",原住民海鞘(tunughnak),batch-019
+"Asparagus, boiled, drained","蘆筍(烚,瀝乾)",batch-036
+"Asparagus, boiled, drained, with salt","蘆筍(烚,瀝乾,有鹽)",batch-036
+"Asparagus, canned, drained solids","蘆筍(罐頭,瀝乾固體)",batch-036
+"Asparagus, canned, solids and liquid","蘆筍(罐頭,固體連汁)",batch-036
+"Asparagus, canned, solids and liquid, unsalted","蘆筍(罐頭,固體連汁,無鹽)",batch-036
+"Asparagus, frozen, boiled, drained","蘆筍(冷凍,烚,瀝乾)",batch-036
+"Asparagus, frozen, boiled, drained, with salt","蘆筍(冷凍,烚,瀝乾,有鹽)",batch-036
+"Asparagus, frozen, unprepared","蘆筍(冷凍,未經調製)",batch-036
 "Asparagus, green, fresh or frozen, baked, roasted, stir-fried or fried, grilled or BBQ'd, no added fat","蘆筍(綠色,新鮮或冷凍,焗、烤、炒、炸、燒烤或戶外燒烤,無添加脂肪)",batch-002
 "Asparagus, green, shoots, boiled","綠蘆筍(嫩芽,煮)",batch-018
 "Asparagus, green, shoots, raw","綠蘆筍(嫩芽,生)",batch-018
@@ -920,9 +940,18 @@ Bacon and beef sticks,煙肉牛肉條,batch-033
 Baking powder,發粉,batch-017
 "Baking powder, dry powder",泡打粉(乾粉),batch-002
 "Baking soda (bicarbonate), dry powder","梳打粉(碳酸氫鈉,乾粉)",batch-002
+"Balsam-pear (bitter gourd), leafy tips, cooked, boiled, drained, with salt","苦瓜苗(熟,烚,瀝乾,有鹽)",batch-036
+"Balsam-pear (bitter gourd), leafy tips, raw",苦瓜苗(生),batch-036
+"Balsam-pear (bitter gourd), pods, cooked, boiled, drained, with salt","苦瓜(瓜果,熟,烚,瀝乾,有鹽)",batch-036
+"Balsam-pear (bitter gourd), pods, raw","苦瓜(瓜果,生)",batch-036
+"Balsam-pear (bitter gourd, bitter melon), leafy tips, boiled, drained","苦瓜苗(烚,瀝乾)",batch-036
+"Balsam-pear (bitter gourd, bitter melon), pods, boiled, drained","苦瓜(瓜果,烚,瀝乾)",batch-036
 "Bamboo shoots, ""Shinachiku"" (boiled, fermented and salted bamboo shoots), desalted","支那竹筍(煮後發酵鹽醃,已脫鹽)",batch-018
 "Bamboo shoots, boiled",竹筍(煮),batch-018
+"Bamboo shoots, boiled, drained","竹筍(烚,瀝乾)",batch-036
+"Bamboo shoots, boiled, drained, with salt","竹筍(烚,瀝乾,有鹽)",batch-036
 "Bamboo shoots, canned in water",竹筍(水浸罐頭),batch-018
+"Bamboo shoots, canned, drained solids","竹筍(罐頭,瀝乾固體)",batch-036
 "Bamboo shoots, raw",竹筍(生),batch-018
 "Banana bread, homemade",香蕉麵包(家庭自製),batch-001
 Banana chip,香蕉脆片,batch-001
@@ -1057,6 +1086,7 @@ Barley malt flour,大麥麥芽粉,batch-025
 "Beans, cranberry (roman), mature seeds, canned","蔓越莓豆(羅馬豆,成熟豆,罐頭)",batch-030
 "Beans, cranberry (roman), mature seeds, dry","蔓越莓豆(羅馬豆,成熟豆,乾)",batch-030
 "Beans, edamame, frozen, boiled in unsalted water","毛豆(冷凍,以無鹽水煮)",batch-011
+"Beans, fava, in pod, raw","蠶豆(連莢,生)",batch-036
 "Beans, french, mature seeds, boiled","法國豆(成熟豆,烚)",batch-030
 "Beans, french, mature seeds, boiled, salt added","法國豆(成熟豆,烚,加鹽)",batch-030
 "Beans, french, mature seeds, dry","法國豆(成熟豆,乾)",batch-030
@@ -1071,6 +1101,8 @@ Barley malt flour,大麥麥芽粉,batch-025
 "Beans, haricot, canned, re-heated, drained","海軍豆(罐頭,翻熱,已瀝乾)",batch-011
 "Beans, haricot, whole, dried, boiled in unsalted water","海軍豆(整粒,乾,以無鹽水煮)",batch-011
 "Beans, haricot, whole, dried, raw","海軍豆(整粒,乾,生)",batch-011
+"Beans, hyacinth, immature seeds, boiled, drained","扁豆(藊豆,未成熟豆,烚,瀝乾)",batch-036
+"Beans, hyacinth, immature seeds, boiled, drained, salt added","扁豆(藊豆,未成熟豆,烚,瀝乾,加鹽)",batch-036
 "Beans, hyacinth, mature seeds, boiled, drained","扁豆(藊豆,成熟豆,烚,瀝乾)",batch-030
 "Beans, kidney, all types, mature seeds, boiled","紅腰豆(所有品種,成熟豆,烚)",batch-030
 "Beans, kidney, all types, mature seeds, boiled, with salt","紅腰豆(所有品種,成熟豆,烚,有鹽)",batch-030
@@ -1090,14 +1122,29 @@ Barley malt flour,大麥麥芽粉,batch-025
 "Beans, kidney, royal red, mature seeds, cooked, boiled with salt","皇家紅腰豆(成熟豆,熟,烚,加鹽)",batch-030
 "Beans, kidney, royal red, mature seeds, cooked, boiled, without salt","皇家紅腰豆(成熟豆,熟,烚,無鹽)",batch-030
 "Beans, kidney, royal red, mature seeds, raw","皇家紅腰豆(成熟豆,生)",batch-030
+"Beans, kidney, sprouted, boiled, drained","紅腰豆芽(烚,瀝乾)",batch-036
+"Beans, kidney, sprouted, boiled, drained, with salt","紅腰豆芽(烚,瀝乾,有鹽)",batch-036
+"Beans, kidney, sprouted, raw",紅腰豆芽(生),batch-036
+"Beans, lima (fordhook), frozen, boiled, drained","福特胡克利馬豆(冷凍,烚,瀝乾)",batch-036
+"Beans, lima (fordhook), frozen, boiled, drained, with salt","福特胡克利馬豆(冷凍,烚,瀝乾,有鹽)",batch-036
+"Beans, lima (fordhook), frozen, unprepared","福特胡克利馬豆(冷凍,未經調製)",batch-036
+"Beans, lima, baby, frozen, boiled, drained","小粒利馬豆(冷凍,烚,瀝乾)",batch-036
+"Beans, lima, baby, frozen, boiled, drained, with salt","小粒利馬豆(冷凍,烚,瀝乾,有鹽)",batch-036
+"Beans, lima, baby, frozen, unprepared","小粒利馬豆(冷凍,未經調製)",batch-036
+"Beans, lima, boiled, drained","利馬豆(烚,瀝乾)",batch-036
+"Beans, lima, boiled, drained, with salt","利馬豆(烚,瀝乾,有鹽)",batch-036
+"Beans, lima, canned, solids and liquid","利馬豆(罐頭,固體連汁)",batch-036
 "Beans, lima, dry, baby, mature seeds, boiled","乾小粒利馬豆(成熟豆,烚)",batch-030
 "Beans, lima, dry, baby, mature seeds, boiled, salt added","乾小粒利馬豆(成熟豆,烚,加鹽)",batch-030
 "Beans, lima, dry, baby, mature seeds, dry","乾小粒利馬豆(成熟豆,乾)",batch-030
 "Beans, lima, dry, large, mature seeds, boiled","乾大粒利馬豆(成熟豆,烚)",batch-030
 "Beans, lima, dry, large, mature seeds, boiled, salt added","乾大粒利馬豆(成熟豆,烚,加鹽)",batch-030
+"Beans, lima, raw",利馬豆(生),batch-036
 "Beans, liquid from stewed kidney beans",燉紅腰豆湯汁,batch-030
 "Beans, mung, dahl, dried, boiled in unsalted water","綠豆瓣(乾,以無鹽水煮)",batch-011
 "Beans, mung, dahl, dried, raw","綠豆瓣(乾,生)",batch-011
+"Beans, mung, mature seeds, sprouted, bean sprouts, boiled, drained","綠豆芽(成熟豆發芽,芽菜,烚,瀝乾)",batch-036
+"Beans, mung, mature seeds, sprouted, canned, drained solids","綠豆芽(成熟豆發芽,罐頭,瀝乾固體)",batch-036
 "Beans, mung, whole, dried, boiled in unsalted water","綠豆(整粒,乾,以無鹽水煮)",batch-011
 "Beans, mungo, mature seeds, boiled","黑吉豆(成熟豆,烚)",batch-030
 "Beans, mungo, mature seeds, boiled, salt added","黑吉豆(成熟豆,烚,加鹽)",batch-030
@@ -1106,6 +1153,9 @@ Barley malt flour,大麥麥芽粉,batch-025
 "Beans, navy, mature seeds, boiled, salt added","海軍豆(成熟豆,烚,加鹽)",batch-030
 "Beans, navy, mature seeds, canned","海軍豆(成熟豆,罐頭)",batch-030
 "Beans, navy, mature seeds, dry","海軍豆(成熟豆,乾)",batch-030
+"Beans, navy, mature seeds, sprouted, boiled, drained","海軍豆芽(成熟豆發芽,烚,瀝乾)",batch-036
+"Beans, navy, mature seeds, sprouted, boiled, drained, with salt","海軍豆芽(成熟豆發芽,烚,瀝乾,有鹽)",batch-036
+"Beans, navy, mature seeds, sprouted, raw","海軍豆芽(成熟豆發芽,生)",batch-036
 "Beans, papri, raw",Papri豆(生),batch-011
 "Beans, pigeon peas, dahl, dried, boiled in unsalted water","木豆瓣(乾,以無鹽水煮)",batch-011
 "Beans, pigeon peas, dahl, dried, raw","木豆瓣(乾,生)",batch-011
@@ -1121,20 +1171,47 @@ Barley malt flour,大麥麥芽粉,batch-025
 "Beans, pinto, canned, solids and liquid, reduced sodium","斑豆(罐頭,固體連汁,減鈉)",batch-030
 "Beans, pinto, dried, boiled in unsalted water","斑豆(乾,以無鹽水煮)",batch-011
 "Beans, pinto, dried, raw","斑豆(乾,生)",batch-011
+"Beans, pinto, frozen, boiled, drained","斑豆(冷凍,烚,瀝乾)",batch-036
+"Beans, pinto, frozen, boiled, drained, with salt","斑豆(冷凍,烚,瀝乾,有鹽)",batch-036
+"Beans, pinto, immature seeds, frozen, unprepared","斑豆(未成熟豆,冷凍,未經調製)",batch-036
 "Beans, pinto, mature seeds, boiled","斑豆(成熟豆,烚)",batch-030
 "Beans, pinto, mature seeds, boiled, salt added","斑豆(成熟豆,烚,加鹽)",batch-030
 "Beans, pinto, mature seeds, dry","斑豆(成熟豆,乾)",batch-030
+"Beans, pinto, mature seeds, sprouted, boiled, drained","斑豆芽(成熟豆發芽,烚,瀝乾)",batch-036
+"Beans, pinto, mature seeds, sprouted, boiled, drained, with salt","斑豆芽(成熟豆發芽,烚,瀝乾,有鹽)",batch-036
+"Beans, pinto, mature seeds, sprouted, raw","斑豆芽(成熟豆發芽,生)",batch-036
 "Beans, pinto, re-fried beans",墨西哥炸豆泥,batch-011
 "Beans, red kidney, canned in water, re-heated, drained","紅腰豆(罐頭水浸,翻熱,已瀝乾)",batch-011
 "Beans, red kidney, dried, boiled in unsalted water","紅腰豆(乾,以無鹽水煮)",batch-011
 "Beans, runner, boiled in unsalted water",紅花菜豆(以無鹽水煮),batch-011
 "Beans, runner, raw",紅花菜豆(生),batch-011
+"Beans, shellie, canned, solids and liquid","帶殼菜豆(罐頭,固體連汁)",batch-036
 "Beans, small white, mature seeds, boiled","小白豆(成熟豆,烚)",batch-030
 "Beans, small white, mature seeds, boiled, salt added","小白豆(成熟豆,烚,加鹽)",batch-030
 "Beans, small white, mature seeds, dry","小白豆(成熟豆,乾)",batch-030
+"Beans, snap (Italian, green or yellow), boiled, drained","四季豆(意大利,青色或黃色,烚,瀝乾)",batch-036
 "Beans, snap (Italian, green or yellow), frozen, boiled, drained","四季豆(冷凍,烚,瀝乾)",pilot
+"Beans, snap (Italian, green or yellow), frozen, unprepared","四季豆(意大利,青色或黃色,冷凍,未經調製)",batch-036
+"Beans, snap, canned, all styles, seasoned, solids and liquids","四季豆(罐頭,各種切法,調味,固體連汁)",batch-036
+"Beans, snap, green, canned, no salt added, drained solids","青四季豆(罐頭,無添加鹽,瀝乾固體)",batch-036
+"Beans, snap, green, canned, no salt added, solids and liquids","青四季豆(罐頭,無添加鹽,固體連汁)",batch-036
 "Beans, snap, green, canned, regular pack, drained solids","青豆角(罐頭,普通裝,已瀝乾固體)",batch-019
+"Beans, snap, green, canned, regular pack, solids and liquids","青四季豆(罐頭,普通裝,固體連汁)",batch-036
+"Beans, snap, green, cooked, boiled, drained, with salt","青四季豆(熟,烚,瀝乾,有鹽)",batch-036
+"Beans, snap, green, frozen, all styles, microwaved","青四季豆(冷凍,各種切法,微波)",batch-036
+"Beans, snap, green, frozen, cooked, boiled, drained, with salt","青四季豆(冷凍,熟,烚,瀝乾,有鹽)",batch-036
+"Beans, snap, green, microwaved",青四季豆(微波),batch-036
 "Beans, snap, green, raw",青豆角(生),batch-019
+"Beans, snap, yellow, canned, no salt added, drained solids","黃四季豆(罐頭,無添加鹽,瀝乾固體)",batch-036
+"Beans, snap, yellow, canned, no salt added, solids and liquids","黃四季豆(罐頭,無添加鹽,固體連汁)",batch-036
+"Beans, snap, yellow, canned, regular pack, drained solids","黃四季豆(罐頭,普通裝,瀝乾固體)",batch-036
+"Beans, snap, yellow, canned, regular pack, solids and liquids","黃四季豆(罐頭,普通裝,固體連汁)",batch-036
+"Beans, snap, yellow, cooked, boiled, drained, with salt","黃四季豆(熟,烚,瀝乾,有鹽)",batch-036
+"Beans, snap, yellow, cooked, boiled, drained, without salt","黃四季豆(熟,烚,瀝乾,無鹽)",batch-036
+"Beans, snap, yellow, frozen, all styles, unprepared","黃四季豆(冷凍,各種切法,未經調製)",batch-036
+"Beans, snap, yellow, frozen, boiled, with salt","黃四季豆(冷凍,烚,有鹽)",batch-036
+"Beans, snap, yellow, frozen, cooked, boiled, drained, without salt","黃四季豆(冷凍,熟,烚,瀝乾,無鹽)",batch-036
+"Beans, snap, yellow, raw",黃四季豆(生),batch-036
 "Beans, soya, dried, boiled in unsalted water","大豆(乾,以無鹽水煮)",batch-011
 "Beans, soya, dried, raw","大豆(乾,生)",batch-011
 "Beans, sword, raw",刀豆(生),batch-011
@@ -2390,11 +2467,20 @@ Beef stew with potatoes and vegetables,薯仔蔬菜燉牛肉,batch-005
 "Beerwurst, beer salami, pork","啤酒臘腸(啤酒薩拉米,豬肉)",batch-033
 "Beerwurst, beer salami, pork and beef","啤酒臘腸(啤酒薩拉米,豬肉及牛肉)",batch-033
 "Beerwurst, pork and beef",啤酒臘腸(豬肉及牛肉),batch-033
+"Beet greens, boiled, drained","甜菜葉(烚,瀝乾)",batch-036
+"Beet greens, boiled, drained, with salt","甜菜葉(烚,瀝乾,有鹽)",batch-036
 "Beet greens, raw",甜菜葉(生),batch-019
 "Beetroot, cooked in unsalted water",紅菜頭(以無鹽水煮),batch-011
 "Beetroot, fresh, purple, peeled, baked, no added fat","紅菜頭(新鮮,紫色,去皮,焗,無添加脂肪)",batch-002
 "Beetroot, fresh, purple, peeled, boiled, drained","紅菜頭(新鮮,紫色,去皮,烚,瀝乾)",batch-002
 "Beetroot, pickled, drained","紅菜頭(醃製,已瀝乾)",batch-011
+"Beets, boiled, drained","甜菜頭(烚,瀝乾)",batch-036
+"Beets, boiled, drained, with salt","甜菜頭(烚,瀝乾,有鹽)",batch-036
+"Beets, canned, drained solids","甜菜頭(罐頭,瀝乾固體)",batch-036
+"Beets, canned, no salt added, solids and liquids","甜菜頭(罐頭,無添加鹽,固體連汁)",batch-036
+"Beets, canned, solids and liquid","甜菜頭(罐頭,固體連汁)",batch-036
+"Beets, harvard, canned, solids and liquid","哈佛甜菜頭(罐頭,固體連汁)",batch-036
+"Beets, pickled, canned, solids and liquid","醋漬甜菜頭(罐頭,固體連汁)",batch-036
 "Bele, raw",Bele 彈塗魚(生),batch-007
 "Betel leaves, fresh",蒟醬葉(新鮮),batch-008
 Betel nuts,檳榔,batch-010
@@ -2750,6 +2836,8 @@ Blood sausage,血腸,batch-033
 "Boal, raw",Boal 鯰魚(生),batch-007
 "Bockwurst, pork, veal, raw","波克香腸(豬肉,小牛肉,生)",batch-033
 "Bok choy, leaves, raw","白菜(葉,生)",batch-018
+"Bok choy, pak-choi, boiled drained","白菜(烚,瀝乾)",batch-036
+"Bok choy, pak-choi, raw",白菜(生),batch-036
 "Bologna, beef",牛肉香腸(Bologna),batch-019
 "Bologna, beef and pork",波羅尼亞腸(牛肉及豬肉),batch-034
 "Bologna, beef and pork, low fat","波羅尼亞腸(牛肉及豬肉,低脂)",batch-034
@@ -2767,6 +2855,9 @@ Blood sausage,血腸,batch-033
 "Bolognese sauce (with meat), made with extra lean minced beef, homemade","肉醬意粉醬(以特瘦免治牛肉製,自家製)",batch-009
 Bombay duck,孟買鴨魚乾,batch-007
 Bombay mix,孟買雜錦小食,batch-011
+"Borage, boiled, drained","琉璃苣(烚,瀝乾)",batch-036
+"Borage, boiled, drained, with salt","琉璃苣(烚,瀝乾,有鹽)",batch-036
+"Borage, raw",琉璃苣(生),batch-036
 "Bouillabaisse, homemade",馬賽魚湯(自家製),batch-010
 Bounty bar and own brand equivalents,Bounty椰子朱古力條及自家品牌同類產品,batch-011
 "Boysenberries, canned, heavy syrup","波森莓(罐頭,濃糖漿)",batch-029
@@ -3006,20 +3097,34 @@ Brawn,豬頭肉凍,batch-009
 "Broad beans, mature seeds, ""Shoyu-mame"" (beans cooked with sugar and soy sauce)",煮蠶豆(加糖及豉油煮),batch-017
 "Broad beans, mature seeds, oil-roasted and salted","蠶豆(成熟,油炸,加鹽)",batch-017
 "Broad beans, mature seeds, whole, raw","蠶豆(成熟,連皮,生)",batch-017
+"Broadbeans (fava beans), fresh, boiled, drained","蠶豆(新鮮,烚,瀝乾)",batch-036
+"Broadbeans (fava beans), fresh, boiled, drained, with salt","蠶豆(新鮮,烚,瀝乾,有鹽)",batch-036
 "Broadbeans (fava beans), mature seeds, boiled","蠶豆(成熟豆,烚)",batch-030
 "Broadbeans (fava beans), mature seeds, boiled, with salt","蠶豆(成熟豆,烚,有鹽)",batch-030
 "Broadbeans (fava beans), mature seeds, canned","蠶豆(成熟豆,罐頭)",batch-030
 "Broadbeans (fava beans), mature seeds, dry","蠶豆(成熟豆,乾)",batch-030
+"Broadbeans, immature seeds, raw","蠶豆(未成熟豆,生)",batch-036
 "Broccoli in cheese sauce, made with semi-skimmed milk, homemade","芝士汁西蘭花(以半脂奶製,自家製)",batch-011
 "Broccoli in cheese sauce, made with skimmed milk, homemade","芝士汁西蘭花(以脫脂奶製,自家製)",batch-011
 "Broccoli in cheese sauce, made with whole milk, homemade","芝士汁西蘭花(以全脂奶製,自家製)",batch-011
+"Broccoli raab, cooked",西蘭花苗(熟),batch-036
+"Broccoli raab, raw",西蘭花苗(生),batch-036
+"Broccoli, flower clusters, raw","西蘭花(花球,生)",batch-036
 "Broccoli, fresh, baked, no added fat","西蘭花(新鮮,焗,無添加脂肪)",batch-002
+"Broccoli, frozen, chopped, boiled, drained","西蘭花(冷凍,切碎,烚,瀝乾)",batch-036
+"Broccoli, frozen, chopped, boiled, drained, with salt","西蘭花(冷凍,切碎,烚,瀝乾,有鹽)",batch-036
+"Broccoli, frozen, chopped, unprepared","西蘭花(冷凍,切碎,未經調製)",batch-036
+"Broccoli, frozen, spears, boiled, drained","西蘭花(冷凍,枝狀,烚,瀝乾)",batch-036
+"Broccoli, frozen, spears, boiled, drained, with salt","西蘭花(冷凍,枝狀,烚,瀝乾,有鹽)",batch-036
+"Broccoli, frozen, spears, unprepared","西蘭花(冷凍,枝狀,未經調製)",batch-036
 "Broccoli, green, boiled in salted water",西蘭花(以鹽水煮),batch-011
 "Broccoli, green, boiled in unsalted water",西蘭花(以無鹽水煮),batch-011
 "Broccoli, green, raw",西蘭花(生),batch-011
 "Broccoli, green, steamed",西蘭花(蒸),batch-011
+"Broccoli, leaves, raw",西蘭花葉(生),batch-036
 "Broccoli, purple sprouting, boiled in unsalted water",紫芽西蘭花(以無鹽水煮),batch-011
 "Broccoli, purple sprouting, raw",紫芽西蘭花(生),batch-011
+"Broccoli, stalks, raw",西蘭花莖(生),batch-036
 "Broccolini, fresh, boiled, drained","芥蘭苗(新鮮,烚,瀝乾)",batch-002
 "Broccolini, fresh, raw","芥蘭苗(新鮮,生)",batch-002
 Brown fruity sauce,褐色果味醬,batch-010
@@ -3028,6 +3133,11 @@ Brown sugar syrup,黑糖漿,batch-018
 "Brownies, chocolate, homemade",朱古力布朗尼(自家製),batch-006
 "Brussels sprout, fresh, baked, no added fat","抱子甘藍(新鮮,焗,無添加脂肪)",batch-002
 "Brussels sprouts, boiled in unsalted water",芽甘藍(以無鹽水煮),batch-011
+"Brussels sprouts, boiled, drained","椰菜仔(烚,瀝乾)",batch-036
+"Brussels sprouts, boiled, drained, with salt","椰菜仔(烚,瀝乾,有鹽)",batch-036
+"Brussels sprouts, frozen, boiled, drained","椰菜仔(冷凍,烚,瀝乾)",batch-036
+"Brussels sprouts, frozen, boiled, drained, with salt","椰菜仔(冷凍,烚,瀝乾,有鹽)",batch-036
+"Brussels sprouts, frozen, unprepared","椰菜仔(冷凍,未經調製)",batch-036
 "Brussels sprouts, head, boiled",抱子甘藍(煮),batch-018
 "Bubble and squeak, fried in rapeseed oil, homemade","薯仔椰菜煎餅(以芥花籽油煎,自家製)",batch-011
 "Bubble and squeak, fried in sunflower oil, homemade","薯仔椰菜煎餅(以葵花籽油煎,自家製)",batch-011
@@ -3073,6 +3183,8 @@ Buckwheat,蕎麥,batch-025
 "Bun, sweet, hot cross bun, with dried fruit","甜麵包(十字麵包,連乾果)",batch-001
 "Bun, sweet, with dried fruit, iced","甜麵包(連乾果,糖霜面層)",batch-001
 "Bun, sweet, with dried fruit, uniced","甜麵包(連乾果,無糖霜)",batch-001
+"Burdock root, boiled, drained","牛蒡根(烚,瀝乾)",batch-036
+"Burdock root, boiled, drained, with salt","牛蒡根(烚,瀝乾,有鹽)",batch-036
 "Burdock root, raw","牛蒡(根,生)",batch-018
 "Burger, Big Mac, takeaway",巨無霸漢堡包(外賣),batch-009
 "Burger, Quarter Pounder with cheese, takeaway",四盎司芝士漢堡包(外賣),batch-009
@@ -3106,6 +3218,10 @@ Buckwheat,蕎麥,batch-025
 "Butter, stick, salted",條裝牛油(有鹽),batch-019
 "Butter, stick, unsalted",條裝牛油(無鹽),batch-019
 "Butter, whipped",打發牛油,batch-026
+"Butterbur (fuki), boiled, drained","蜂斗菜(烚,瀝乾)",batch-036
+"Butterbur (fuki), boiled, drained, with salt","蜂斗菜(烚,瀝乾,有鹽)",batch-036
+"Butterbur (fuki), raw",蜂斗菜(生),batch-036
+"Butterbur, canned",蜂斗菜(罐頭),batch-036
 "Buttermilk, low fat",酪乳(低脂),batch-019
 "Butteroil, unsalted",無鹽澄清牛油,batch-007
 "CAMPBELL'S CHUNKY, Classic Chicken Noodle Soup",CAMPBELL'S CHUNKY 經典雞肉麵湯,batch-034
@@ -3134,18 +3250,31 @@ Buckwheat,蕎麥,batch-025
 "CRACKER BARREL, onion rings, thick-cut",CRACKER BARREL 厚切洋蔥圈,batch-033
 "CRACKER BARREL, steak fries",CRACKER BARREL 牛扒薯條,batch-033
 "Cabbage leaves, stuffed with lamb and rice, homemade",羊肉飯椰菜卷(自家製),batch-009
+"Cabbage, Chinese (pe-tsai), boiled, drained","紹菜(烚,瀝乾)",batch-036
 "Cabbage, average, boiled in unsalted water","椰菜(平均,以無鹽水煮)",batch-011
 "Cabbage, bok choy, raw",白菜(生),batch-019
+"Cabbage, chinese (pak-choi), cooked, boiled, drained, with salt","白菜(熟,烚,瀝乾,有鹽)",batch-036
+"Cabbage, chinese (pe-tsai), cooked, boiled, drained, with salt","紹菜(熟,烚,瀝乾,有鹽)",batch-036
+"Cabbage, common (danish, domestic, and pointed types), freshly harvest, raw","椰菜(普通(丹麥,本地及尖頂類型),剛收成,生)",batch-036
+"Cabbage, common (danish, domestic, and pointed types), stored, raw","椰菜(普通(丹麥,本地及尖頂類型),貯存後,生)",batch-036
+"Cabbage, common, cooked, boiled, drained, with salt","椰菜(普通,熟,烚,瀝乾,有鹽)",batch-036
 "Cabbage, common, head, boiled","椰菜(普通,煮)",batch-018
 "Cabbage, common, head, raw","椰菜(普通,生)",batch-018
 "Cabbage, common, head, sautéed","椰菜(普通,炒)",batch-018
 "Cabbage, green ball, head raw",圓椰菜(生),batch-018
 "Cabbage, green, boiled in unsalted water",綠椰菜(以無鹽水煮),batch-011
 "Cabbage, green, raw",綠椰菜(生),batch-011
+"Cabbage, japanese style, fresh, pickled","椰菜(日式,新鮮,醃漬)",batch-036
+"Cabbage, kimchi",泡菜(韓式),batch-036
 "Cabbage, mustard, boiled, drained","芥菜(烚,瀝乾)",batch-002
+"Cabbage, mustard, salted","鹹菜(芥菜,鹽醃)",batch-036
 "Cabbage, napa, leaf, destemmed, raw","紹菜(葉,去莖,生)",batch-019
 "Cabbage, red, boiled in unsalted water",紫椰菜(以無鹽水煮),batch-011
+"Cabbage, red, boiled, drained","紫椰菜(烚,瀝乾)",batch-036
+"Cabbage, red, boiled, drained, with salt","紫椰菜(烚,瀝乾,有鹽)",batch-036
 "Cabbage, red, cooked with apple",紫椰菜(配蘋果煮),batch-011
+"Cabbage, savoy, boiled, drained","皺葉椰菜(烚,瀝乾)",batch-036
+"Cabbage, savoy, boiled, drained, with salt","皺葉椰菜(烚,瀝乾,有鹽)",batch-036
 "Cabbage, white, boiled in unsalted water",白椰菜(以無鹽水煮),batch-011
 "Cake and pastry, Danish pastry",丹麥酥,batch-013
 "Cake and pastry, apple pie",蘋果批,batch-013
@@ -3455,6 +3584,9 @@ Caraway seeds,葛縷子籽,batch-008
 "Carbonnade of Beef, homemade",啤酒炆牛肉(自家製),batch-009
 "Cardamom seed, dried, ground","小豆蔻籽(乾,磨粉)",batch-002
 "Cardamom, ground",小豆蔻粉,batch-008
+"Cardoon, boiled, drained","刺菜薊(烚,瀝乾)",batch-036
+"Cardoon, boiled, drained, with salt","刺菜薊(烚,瀝乾,有鹽)",batch-036
+"Cardoon, raw",刺菜薊(生),batch-036
 "Caribou, bone marrow, raw (Alaska Native)","馴鹿骨髓(生,阿拉斯加原住民)",batch-019
 "Caribou, eye, raw (Alaska Native)","馴鹿眼(生,阿拉斯加原住民)",batch-019
 "Caribou, hind quarter meat, raw (Alaska Native)","馴鹿後腿肉(生,阿拉斯加原住民)",batch-019
@@ -3467,6 +3599,7 @@ Caraway seeds,葛縷子籽,batch-008
 Carob flour,角豆粉,batch-030
 "Carp, raw",鯉魚(生),batch-007
 Carrot juice,甘筍汁,batch-011
+"Carrot juice, canned",甘筍汁(罐頭),batch-036
 "Carrot, ""Kintoki"" (oriental type), root with skin, boiled","金時甘筍(東方種,連皮根,煮)",batch-018
 "Carrot, ""Kintoki"" (oriental type), root with skin, raw","金時甘筍(東方種,連皮根,生)",batch-018
 "Carrot, ""Kintoki"" (oriental type), root without skin, boiled","金時甘筍(東方種,去皮根,煮)",batch-018
@@ -3474,6 +3607,10 @@ Carrot juice,甘筍汁,batch-011
 "Carrot, baby carrot, root, raw","嬰兒甘筍(根,生)",batch-018
 "Carrot, baby, baked, no added fat","迷你甘筍(焗,無添加脂肪)",batch-002
 "Carrot, baby, raw",迷你甘筍(生),batch-019
+"Carrot, canned, drained solids","甘筍(罐頭,瀝乾固體)",batch-036
+"Carrot, canned, drained solids, unsalted","甘筍(罐頭,瀝乾固體,無鹽)",batch-036
+"Carrot, canned, solids and liquid","甘筍(罐頭,固體連汁)",batch-036
+"Carrot, canned, solids and liquid, unsalted","甘筍(罐頭,固體連汁,無鹽)",batch-036
 "Carrot, mature, peeled, fresh, baked, no added fat","甘筍(成熟,去皮,新鮮,焗,無添加脂肪)",batch-002
 "Carrot, regular (European type), glazed carrot","甘筍(普通歐洲種,糖煮甘筍)",batch-018
 "Carrot, regular (European type), juice, canned","甘筍汁(普通歐洲種,罐頭)",batch-018
@@ -3517,6 +3654,8 @@ Casein,酪蛋白,batch-016
 "Catfish, flesh only, steamed","鯰魚(只計魚肉,蒸)",batch-007
 "Catfish, flesh only, steamed, weighed with bones","鯰魚(只計魚肉,蒸,連骨稱重)",batch-007
 "Catfish, raw",鯰魚(生),batch-007
+Catsup,茄汁,batch-036
+"Catsup, low sodium",茄汁(低鈉),batch-036
 "Cattail, narrow leaf shoots, Indigenous",窄葉香蒲嫩芽(原住民),batch-019
 "Cauliflower cheese, made with semi-skimmed milk, homemade","焗芝士椰菜花(以半脂奶製,自家製)",batch-011
 "Cauliflower cheese, made with skimmed milk, homemade","焗芝士椰菜花(以脫脂奶製,自家製)",batch-011
@@ -3528,8 +3667,13 @@ Casein,酪蛋白,batch-016
 "Cauliflower with onions and chilli pepper, homemade",椰菜花配洋蔥及辣椒(自家製),batch-011
 "Cauliflower, boiled in unsalted water",椰菜花(以無鹽水煮),batch-011
 "Cauliflower, fresh, baked, no added fat","椰菜花(新鮮,焗,無添加脂肪)",batch-002
+"Cauliflower, green, boiled",青椰菜花(烚),batch-036
+"Cauliflower, green, boiled, with salt","青椰菜花(烚,有鹽)",batch-036
+"Cauliflower, green, raw",青椰菜花(生),batch-036
 "Caviare, bottled in brine, drained","魚子醬(鹽水瓶裝,已瀝乾)",batch-007
 "Celeriac, boiled in unsalted water",根芹菜(以無鹽水煮),batch-011
+"Celeriac, boiled, drained","根芹菜(烚,瀝乾)",batch-036
+"Celeriac, boiled, drained, with salt","根芹菜(烚,瀝乾,有鹽)",batch-036
 "Celeriac, peeled, boiled, drained","根芹菜(去皮,烚,瀝乾)",batch-002
 "Celeriac, raw",根芹菜(生),batch-011
 "Celery flakes, dried",乾西芹片,batch-006
@@ -3537,6 +3681,7 @@ Celery seeds,芹菜籽,batch-008
 "Celery, boiled in unsalted water",西芹(以無鹽水煮),batch-011
 "Celery, fresh, fried, no added fat","西芹(新鮮,炸,無添加脂肪)",batch-002
 "Celery, petiole, raw","西芹(葉柄,生)",batch-018
+"Celtuce, raw",萵筍(生),batch-036
 "Cereal bars, with fruit and/or nuts, no chocolate, unfortified","穀物條(含水果或堅果,無朱古力,無強化)",batch-006
 "Cereal bars, with fruit and/or nuts, with chocolate, unfortified","穀物條(含水果或堅果,有朱古力,無強化)",batch-006
 "Cereal, hot, 9 grain, dry, Rogers","熱穀物糊(九穀,乾,Rogers)",batch-003
@@ -3927,7 +4072,12 @@ Celery seeds,芹菜籽,batch-008
 "Chapatis, made without fat",印度薄餅(無脂肪),batch-006
 "Chard, Swiss, boiled in unsalted water",瑞士甜菜(以無鹽水煮),batch-011
 "Chard, Swiss, raw",瑞士甜菜(生),batch-011
+"Chard, swiss, boiled, drained","瑞士甜菜(烚,瀝乾)",batch-036
+"Chard, swiss, cooked, boiled, drained, with salt","瑞士甜菜(熟,烚,瀝乾,有鹽)",batch-036
+"Chayote, fruit, boiled, drained","佛手瓜(瓜果,烚,瀝乾)",batch-036
+"Chayote, fruit, cooked, boiled, drained, with salt","佛手瓜(瓜果,熟,烚,瀝乾,有鹽)",batch-036
 "Chayote, fruit, green-colored, raw","佛手瓜(果實,綠色,生)",batch-018
+"Chayote, fruit, raw","佛手瓜(瓜果,生)",batch-036
 "Chayote, fruit, white-colored, raw","佛手瓜(果實,白色,生)",batch-018
 "Chayote, fruit, white-colored, salted pickles","佛手瓜(果實,白色,鹽漬)",batch-018
 "Cheese and onion rolls, pastry, retail",芝士洋蔥酥卷(零售),batch-006
@@ -4551,9 +4701,12 @@ Chicken spread,雞肉抹醬,batch-034
 "Chickpeas, mature seeds, whole, boiled","雀仔豆(成熟,連皮,煮)",batch-017
 "Chickpeas, mature seeds, whole, oil-roasted and salted","雀仔豆(成熟,連皮,油炸,加鹽)",batch-017
 "Chickpeas, mature seeds, whole, raw","雀仔豆(成熟,連皮,生)",batch-017
+"Chicory greens, raw",菊苣葉(生),batch-036
+"Chicory roots, raw",菊苣根(生),batch-036
 "Chicory, pale variety, boiled in unsalted water","菊苣(淺色品種,以無鹽水煮)",batch-011
 "Chicory, pale variety, raw","菊苣(淺色品種,生)",batch-011
 "Chicory, spears, raw","菊苣(嫩芽,生)",batch-018
+"Chicory, witloof, raw",比利時菊苣(生),batch-036
 Chilchen (Red Berry Beverage) (Navajo),"紅莓飲品(Chilchen,納瓦霍族)",batch-019
 "Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed","兒童配方奶(ABBOTT NUTRITION,PEDIASURE,即飲)",batch-020
 "Child formula, ABBOTT NUTRITION, PEDIASURE, ready-to-feed, with iron and fiber","兒童配方奶(ABBOTT NUTRITION,PEDIASURE,即飲,含鐵質及纖維)",batch-020
@@ -4593,6 +4746,7 @@ Chinese 5 spice,五香粉,batch-008
 "Chiton, leathery, gumboots (Alaska Native)","革質石鱉(Gumboots,阿拉斯加原住民)",batch-019
 "Chive, ""Asatsuki"", leaves, boiled","淺蔥(葉,煮)",batch-018
 "Chive, ""Asatsuki"", leaves, raw","淺蔥(葉,生)",batch-018
+"Chives, freeze-dried",韭菜(冷凍乾燥),batch-036
 "Cho cho fritters, fried in rapeseed oil, homemade","佛手瓜炸餅(以芥花籽油炸,自家製)",batch-011
 "Cho cho, boiled in unsalted water",佛手瓜(以無鹽水煮),batch-011
 "Cho cho, raw",佛手瓜(生),batch-011
@@ -4632,7 +4786,9 @@ Chorizo,西班牙辣腸,batch-009
 "Chow mein, beef, retail, reheated","牛肉炒麵(零售,已翻熱)",batch-009
 "Chow mein, chicken, takeaway",雞肉炒麵(外賣),batch-009
 "Chow mein, pork and chicken, homemade",豬肉雞肉炒麵(自家製),batch-009
+"Chrysanthemum leaves, raw",茼蒿葉(生),batch-036
 "Chrysanthemum, ""Kikunori"" (sheet of dried chrysanthemum petals)",菊花紫菜(乾菊花瓣片),batch-018
+"Chrysanthemum, garland, boiled, drained","茼蒿(烚,瀝乾)",batch-036
 "Chrysanthemum, garland, boiled, drained, with salt","茼蒿(烚,瀝乾,有鹽)",pilot
 "Chrysanthemum, petals, boiled","菊花(花瓣,煮)",batch-018
 "Chrysanthemum, petals, raw","菊花(花瓣,生)",batch-018
@@ -4791,6 +4947,11 @@ Cola,可樂,batch-006
 "Coley, flesh only, raw","黑線鱈類鯰魚(只計魚肉,生)",batch-007
 "Coley, flesh only, steamed","黑線鱈類鯰魚(只計魚肉,蒸)",batch-007
 "Coley, flesh only, steamed, weighed with bones and skin","青鱈(只計魚肉,蒸,連骨及皮稱重)",pilot
+"Collards, boiled, drained","羽葉甘藍(烚,瀝乾)",batch-036
+"Collards, boiled, drained, with salt","羽葉甘藍(烚,瀝乾,有鹽)",batch-036
+"Collards, frozen, boiled, drained","羽葉甘藍(冷凍,烚,瀝乾)",batch-036
+"Collards, frozen, boiled, drained, with salt","羽葉甘藍(冷凍,烚,瀝乾,有鹽)",batch-036
+"Collards, frozen, unprepared","羽葉甘藍(冷凍,未經調製)",batch-036
 "Collards, raw","羽衣甘藍(Collards,生)",batch-019
 "Common oats, oatmeal, raw",燕麥片(生),batch-013
 "Common pheasant, meat without skin, raw","雉雞肉(去皮,生)",batch-016
@@ -5030,8 +5191,10 @@ Coriander seeds,芫荽籽,batch-008
 "Corn flour, yellow, masa, enriched","粟米粉(黃色,Masa,營養強化)",batch-026
 Corn fritter,粟米炸餅,batch-003
 "Corn fritters, fried in rapeseed oil, homemade","粟米炸餅(以芥花籽油炸,自家製)",batch-011
+"Corn pudding , homemade",粟米布甸(自家製),batch-036
 "Corn pudding, homemade",粟米布甸(自家製),batch-011
 Corn snacks,粟米小食,batch-011
+"Corn with red or green peppers, canned, solids and liquid","粟米配紅椒或青椒(罐頭,固體連汁)",batch-036
 "Corn, Corn flour, white kernel, raw","粟米(粟米粉,白粒,生)",batch-013
 "Corn, Corn flour, yellow kernel, raw","粟米(粟米粉,黃粒,生)",batch-013
 "Corn, Corn grits, white kernel, raw","粟米(粟米碎,白粒,生)",batch-013
@@ -5054,10 +5217,44 @@ Corn snacks,粟米小食,batch-011
 "Corn, sweet corn, immature kernels, microwaved","粟米(甜粟米,未成熟粒,微波)",batch-018
 "Corn, sweet corn, immature kernels, raw","粟米(甜粟米,未成熟粒,生)",batch-018
 "Corn, sweet corn, young ear, raw","粟米(甜粟米,嫩穗,生)",batch-018
+"Corn, sweet, canned, brine pack, drained solids","甜粟米(罐頭,鹽水裝,瀝乾固體)",batch-036
+"Corn, sweet, canned, brine pack, solids and liquid","甜粟米(罐頭,鹽水裝,固體連汁)",batch-036
+"Corn, sweet, canned, cream style","甜粟米(罐頭,忌廉式)",batch-036
+"Corn, sweet, canned, cream style, unsalted","甜粟米(罐頭,忌廉式,無鹽)",batch-036
+"Corn, sweet, canned, drained solids, rinsed","甜粟米(罐頭,瀝乾固體,沖洗)",batch-036
+"Corn, sweet, canned, solids and liquid, unsalted","甜粟米(罐頭,固體連汁,無鹽)",batch-036
+"Corn, sweet, canned, vacuum pack, niblets","甜粟米(罐頭,真空裝,粟米粒)",batch-036
+"Corn, sweet, canned, vacuum pack, niblets, unsalted","甜粟米(罐頭,真空裝,粟米粒,無鹽)",batch-036
+"Corn, sweet, frozen, kernels on the cob, boiled, drained","甜粟米(冷凍,連軸粟米粒,烚,瀝乾)",batch-036
+"Corn, sweet, frozen, kernels on the cob, unprepared","甜粟米(冷凍,連軸粟米粒,未經調製)",batch-036
+"Corn, sweet, white, canned, cream style, no salt added","白甜粟米(罐頭,忌廉式,無添加鹽)",batch-036
+"Corn, sweet, white, canned, cream style, regular pack","白甜粟米(罐頭,忌廉式,普通裝)",batch-036
+"Corn, sweet, white, canned, vacuum pack, no salt added","白甜粟米(罐頭,真空裝,無添加鹽)",batch-036
+"Corn, sweet, white, canned, vacuum pack, regular pack","白甜粟米(罐頭,真空裝,普通裝)",batch-036
+"Corn, sweet, white, canned, whole kernel, drained solids","白甜粟米(罐頭,整粒,瀝乾固體)",batch-036
+"Corn, sweet, white, canned, whole kernel, no salt added, solids and liquids","白甜粟米(罐頭,整粒,無添加鹽,固體連汁)",batch-036
+"Corn, sweet, white, canned, whole kernel, regular pack, solids and liquids","白甜粟米(罐頭,整粒,普通裝,固體連汁)",batch-036
+"Corn, sweet, white, cooked, boiled, drained, with salt","白甜粟米(熟,烚,瀝乾,有鹽)",batch-036
+"Corn, sweet, white, frozen, kernels off cob, boiled, drained","白甜粟米(冷凍,離軸粟米粒,烚,瀝乾)",batch-036
+"Corn, sweet, white, frozen, kernels off cob, boiled, drained, with salt","白甜粟米(冷凍,離軸粟米粒,烚,瀝乾,有鹽)",batch-036
+"Corn, sweet, white, frozen, kernels off cob, unprepared","白甜粟米(冷凍,離軸粟米粒,未經調製)",batch-036
+"Corn, sweet, white, frozen, kernels on cob, cooked, boiled, drained, with salt","白甜粟米(冷凍,連軸粟米粒,熟,烚,瀝乾,有鹽)",batch-036
+"Corn, sweet, white, frozen, kernels on cob, cooked, boiled, drained, without salt","白甜粟米(冷凍,連軸粟米粒,熟,烚,瀝乾,無鹽)",batch-036
+"Corn, sweet, white, frozen, kernels on cob, unprepared","白甜粟米(冷凍,連軸粟米粒,未經調製)",batch-036
+"Corn, sweet, white, on or off the cob, boiled, drained","白甜粟米(連軸或離軸,烚,瀝乾)",batch-036
+"Corn, sweet, white, raw",白甜粟米(生),batch-036
 "Corn, sweet, yellow and white kernels, fresh, raw","甜粟米(黃白粒,新鮮,生)",batch-019
+"Corn, sweet, yellow, cooked, boiled, drained, with salt","黃甜粟米(熟,烚,瀝乾,有鹽)",batch-036
+"Corn, sweet, yellow, frozen, kernels cut off the cob, boiled, drained","黃甜粟米(冷凍,切離粟米軸的粟米粒,烚,瀝乾)",batch-036
+"Corn, sweet, yellow, frozen, kernels cut off the cob, unprepared","黃甜粟米(冷凍,切離粟米軸的粟米粒,未經調製)",batch-036
+"Corn, sweet, yellow, frozen, kernels on cob, cooked, boiled, drained, with salt","黃甜粟米(冷凍,連軸粟米粒,熟,烚,瀝乾,有鹽)",batch-036
+"Corn, sweet, yellow, frozen, kernels, cut off cob, boiled, drained, with salt","黃甜粟米(冷凍,切離粟米軸的粟米粒,烚,瀝乾,有鹽)",batch-036
+"Corn, sweet, yellow, on or off the cob, boiled, drained","黃甜粟米(連軸或離軸,烚,瀝乾)",batch-036
+"Corn, sweet, yellow, raw",黃甜粟米(生),batch-036
 "Corn, white, steamed (Navajo)","白粟米(蒸,納瓦霍族)",batch-019
 "Corn, whole grain, white kernel, raw","粟米(全穀物,白粒,生)",batch-013
 "Corn, whole grain, yellow kernel, raw","粟米(全穀物,黃粒,生)",batch-013
+"Corn, yellow, whole kernel, frozen, microwaved","黃粟米(整粒,冷凍,微波)",batch-036
 Corned beef and potatoes in tortilla (Apache),鹹牛肉薯仔薄餅卷(阿帕切族),batch-019
 "Corned beef hash, homemade",鹹牛肉薯仔碎(自家製),batch-009
 "Corned beef loaf, jellied",鹹牛肉卷(凍膠狀),batch-034
@@ -5080,6 +5277,7 @@ Cornetto type ice cream cone,意式甜筒雪糕,batch-010
 "Cornmeal, yellow, self-rising, bolted, plain, enriched","粟米糝(黃色,自發粉,篩過,原味,營養強化)",batch-026
 "Cornmeal, yellow, self-rising, bolted, with wheat flour added, enriched","粟米糝(黃色,自發粉,篩過,添加小麥粉,營養強化)",batch-026
 "Cornmeal, yellow, self-rising, degermed, enriched","粟米糝(黃色,自發粉,去胚芽,營養強化)",batch-026
+"Cornsalad, raw",野苣(生),batch-036
 Cornstarch,粟粉,batch-026
 "Coronation chicken, homemade",加冕雞(自家製),batch-009
 "Coronation chicken, reduced fat, homemade","加冕雞(低脂,自家製)",batch-009
@@ -5095,13 +5293,25 @@ Cornstarch,粟粉,batch-026
 "Couscous, dry",古斯米(乾),batch-026
 "Couscous, plain, cooked","古斯米(原味,熟)",batch-006
 "Couscous, uncooked",古斯米(未煮),batch-001
+"Cowpeas (black-eyed peas), immature seeds, boiled, drained","豇豆(眉豆,未成熟豆,烚,瀝乾)",batch-036
+"Cowpeas (black-eyed peas), immature seeds, boiled, drained, with salt","豇豆(眉豆,未成熟豆,烚,瀝乾,有鹽)",batch-036
+"Cowpeas (black-eyed peas), immature seeds, frozen, boiled, drained","豇豆(眉豆,未成熟豆,冷凍,烚,瀝乾)",batch-036
+"Cowpeas (black-eyed peas), immature seeds, frozen, boiled, drained, with salt","豇豆(眉豆,未成熟豆,冷凍,烚,瀝乾,有鹽)",batch-036
+"Cowpeas (blackeyes), immature seeds, frozen, unprepared","豇豆(眉豆,未成熟豆,冷凍,未經調製)",batch-036
+"Cowpeas (blackeyes), immature seeds, raw","豇豆(眉豆,未成熟豆,生)",batch-036
 "Cowpeas, catjang, mature seeds, cooked, boiled, with salt","小豇豆(成熟豆,熟,烚,有鹽)",batch-031
 "Cowpeas, catjang, mature seeds, raw","小豇豆(成熟豆,生)",batch-031
 "Cowpeas, common (blackeyes, crowder, southern), mature seeds, canned with pork","眉豆(普通,成熟豆,罐頭,加豬肉)",batch-031
 "Cowpeas, common (blackeyes, crowder, southern), mature seeds, canned, plain","眉豆(普通,成熟豆,罐頭,原味)",batch-031
 "Cowpeas, common (blackeyes, crowder, southern), mature seeds, raw","眉豆(普通,成熟豆,生)",batch-031
+"Cowpeas, leafy tips, boiled, drained","豇豆苗(烚,瀝乾)",batch-036
+"Cowpeas, leafy tips, boiled, drained, with salt","豇豆苗(烚,瀝乾,有鹽)",batch-036
+"Cowpeas, leafy tips, raw",豇豆苗(生),batch-036
 "Cowpeas, mature seeds, whole, dried, boiled","豇豆(成熟,連皮,乾,煮)",batch-017
 "Cowpeas, mature seeds, whole, raw","豇豆(成熟,連皮,生)",batch-017
+"Cowpeas, young pods with seeds, boiled, drained","嫩豇豆莢連豆(烚,瀝乾)",batch-036
+"Cowpeas, young pods with seeds, boiled, drained, with salt","嫩豇豆莢連豆(烚,瀝乾,有鹽)",batch-036
+"Cowpeas, young pods with seeds, raw",嫩豇豆莢連豆(生),batch-036
 "Crab, brown meat, purchased cooked","蟹(褐色蟹膏,購買時已煮熟)",batch-007
 "Crab, canned in brine, drained","蟹(罐頭,鹽水,已瀝乾)",batch-007
 "Crab, white and brown meat, purchased cooked, weighed with shell","蟹(白肉及蟹膏,購買時已煮熟,連殼稱重)",batch-007
@@ -5271,6 +5481,9 @@ Cream of tartar,塔塔粉,batch-011
 Creme egg,朱古力蛋(Creme Egg),batch-011
 "Creme fraiche, full fat",法式酸忌廉(全脂),batch-010
 "Creme fraiche, half fat",法式酸忌廉(半脂),batch-010
+"Cress, garden, boiled, drained","家獨行菜(烚,瀝乾)",batch-036
+"Cress, garden, boiled, drained, with salt","家獨行菜(烚,瀝乾,有鹽)",batch-036
+"Cress, garden, raw",家獨行菜(生),batch-036
 Cretons,法式豬肉醬(Cretons),batch-005
 "Cretons, veal",法式牛仔肉醬(Cretons),batch-005
 "Crispbread, rye",裸麥脆麵包,batch-006
@@ -5535,6 +5748,9 @@ Custard powder,吉士粉,batch-006
 "Damsons, stewed with sugar, weighed with stones","歐洲李(加糖炆,連核稱重)",batch-008
 "Damsons, stewed without sugar",歐洲李(無糖炆),batch-008
 "Damsons, stewed without sugar, weighed with stones","歐洲李(無糖炆,連核稱重)",batch-008
+"Dandelion greens, boiled, drained","蒲公英葉(烚,瀝乾)",batch-036
+"Dandelion greens, boiled, drained, with salt","蒲公英葉(烚,瀝乾,有鹽)",batch-036
+"Dandelion greens, raw",蒲公英葉(生),batch-036
 "Danish pastry, cheese",芝士丹麥酥,batch-021
 "Danish pastry, cinnamon",肉桂丹麥酥,batch-021
 "Danish pastry, cinnamon, unenriched",肉桂丹麥酥(未強化),batch-021
@@ -5635,6 +5851,9 @@ Dill seeds,蒔蘿籽,batch-008
 "Distilled alcoholic beverage, rum",蒸餾酒(冧酒),batch-013
 "Distilled alcoholic beverage, vodka",蒸餾酒(伏特加),batch-013
 "Distilled alcoholic beverage, whisky",蒸餾酒(威士忌),batch-013
+"Dock (sorrel), boiled, drained","酸模(烚,瀝乾)",batch-036
+"Dock, cooked, boiled, drained, with salt","酸模(熟,烚,瀝乾,有鹽)",batch-036
+"Dock, raw",酸模(生),batch-036
 Doner kebab in pitta bread with salad,沙律皮塔餅旋轉烤肉,batch-009
 "Doner kebabs, meat only",旋轉烤肉(只計肉),batch-009
 "Dosa, filling, vegetable, homemade","印度薄餅餡料(蔬菜,自家製)",batch-012
@@ -5696,8 +5915,12 @@ Dried mixed fruit,雜果乾,batch-008
 "Drinking chocolate, powder",朱古力飲品粉,batch-006
 "Drinking chocolate, powder, reduced fat",朱古力飲品粉(減脂),batch-006
 "Drumstick leaves, boiled in unsalted water",辣木葉(以無鹽水煮),batch-012
+"Drumstick leaves, cooked, boiled, drained, with salt","辣木葉(熟,烚,瀝乾,有鹽)",batch-036
+"Drumstick leaves, cooked, boiled, drained, without salt","辣木葉(熟,烚,瀝乾,無鹽)",batch-036
 "Drumstick leaves, raw",辣木葉(生),batch-012
 "Drumstick pods, boiled in unsalted water",辣木莢(以無鹽水煮),batch-012
+"Drumstick pods, cooked, boiled, drained, with salt","辣木莢(熟,烚,瀝乾,有鹽)",batch-036
+"Drumstick pods, cooked, boiled, drained, without salt","辣木莢(熟,烚,瀝乾,無鹽)",batch-036
 "Drumstick pods, raw",辣木莢(生),batch-012
 "Duck a l'orange, excluding fat and skin, homemade","香橙鴨(不連脂肪及皮,自家製)",batch-009
 "Duck a l'orange, including fat and skin, homemade","香橙鴨(連脂肪及皮,自家製)",batch-009
@@ -5744,6 +5967,7 @@ Dulce de Leche,牛奶焦糖醬(Dulce de Leche),batch-026
 "East Indian lotus root, rhizome, raw","蓮藕(根莖,生)",batch-018
 "Eccles cakes, retail",埃克爾斯蛋糕(零售),batch-006
 "Edamame, frozen, prepared","毛豆(冷凍,已調製)",batch-019
+"Edamame, frozen, unprepared","毛豆(冷凍,未經調製)",batch-036
 "Edible burdock, root, boiled","牛蒡(食用,根,煮)",batch-018
 "Edible salt, common salt, sodium chloride ≥ 95%","食鹽(粗鹽,氯化鈉不少於95%)",batch-017
 "Edible salt, common salt, sodium chloride ≥ 99%","食鹽(粗鹽,氯化鈉不少於99%)",batch-017
@@ -5802,6 +6026,7 @@ Eggnog,蛋酒,batch-026
 "Eggplant, Japanese type, fruit, raw","茄子(日本種,果實,生)",batch-018
 "Eggplant, Japanese type, fruit, sautéed","茄子(日本種,果實,炒)",batch-018
 "Eggplant, Japanese type, fruit, tempura","茄子(日本種,果實,天婦羅)",batch-018
+"Eggplant, pickled",茄子(醃漬),batch-036
 "Eggplant, pickles, ""Karashi-zuke"" (pickled small oval type with mustard)","茄子(醃漬,芥末漬小橢圓茄)",batch-018
 "Eggplant, pickles, ""Koji-zuke"" (pickled small oval type with rice koji)","茄子(醃漬,麴漬小橢圓茄)",batch-018
 "Eggplant, pickles, ""Nukamiso-zuke"" (pickled with salty rice bran paste)","茄子(醃漬,米糠漬)",batch-018
@@ -5888,6 +6113,9 @@ Eggnog,蛋酒,batch-026
 "English muffins, plain, unenriched, with calcium propionate (includes sourdough)","英式瑪芬(原味,未強化,含丙酸鈣,包括酸種)",batch-021
 "English muffins, plain, unenriched, without calcium propionate (includes sourdough)","英式瑪芬(原味,未強化,不含丙酸鈣,包括酸種)",pilot
 "English muffins, whole grain white",英式瑪芬(全穀物白色),batch-021
+"Epazote, raw",土荊芥(生),batch-036
+"Eppaw, raw","埃保根(Eppaw,生)",batch-036
+"Escarole, boiled, drained","寬葉菊苣(烚,瀝乾)",batch-036
 "Faggots in gravy, retail, reheated","肉丸配肉汁(零售,已翻熱)",batch-009
 Fajita with chicken and vegetables,雞肉蔬菜墨西哥法吉達,batch-005
 "Fajita, chicken, meat only, takeaway and restaurant","雞肉法士達(只計肉,外賣及餐廳)",batch-009
@@ -6058,6 +6286,8 @@ Fenugreek seeds,葫蘆巴籽,batch-008
 "Fermented tea, Oolong tea, infusion",烏龍茶(沖泡),batch-013
 "Fermented tea, black tea, infusion",紅茶(沖泡),batch-013
 "Fermented tea, black tea, tea",紅茶(茶葉),batch-013
+"Fiddlehead ferns, frozen, unprepared","蕨菜(冷凍,未經調製)",batch-036
+"Fiddlehead ferns, raw",蕨菜(生),batch-036
 "Fiddlehead greens (ferns), frozen, boiled, drained","蕨菜芽(雪藏,烚,瀝乾)",batch-006
 "Field horsetail, fertile shoot, boiled","問荊(生殖莖,煮)",batch-018
 "Field horsetail, fertile shoot, raw","問荊(生殖莖,生)",batch-018
@@ -6077,6 +6307,7 @@ Fig Rolls,無花果卷餅,batch-006
 "Figs, whole fruit, dried",無花果乾(全果),batch-008
 "Figs, whole green fruit, raw","青無花果(全果,生)",batch-008
 "Fireweed, Indigenous, young leaves, raw","柳蘭(原住民,嫩葉,生)",batch-020
+"Fireweed, leaves, raw",柳蘭葉(生),batch-036
 Fish broth,魚湯,batch-034
 Fish cake or patty,魚餅或魚肉餅,batch-004
 "Fish finger, crumbed, purchased frozen, grilled, no added fat","炸魚條(麵包糠裹面,購買冷凍,燒烤,無添加脂肪)",batch-001
@@ -6835,7 +7066,16 @@ Frankfurter with bun,法蘭克福腸熱狗包,batch-009
 "Frozen novelties, KLONDIKE, SLIM-A-BEAR, No Sugar Added, Stickless Bar","冷凍甜點(KLONDIKE,SLIM-A-BEAR,無添加糖,無棍雪條)",batch-035
 "Frozen novelties, No Sugar Added CREAMSICLE Pops",冷凍甜點(無添加糖 CREAMSICLE 雪條),batch-035
 "Frozen novelties, No Sugar Added, FUDGSICLE pops","冷凍甜點(無添加糖,FUDGSICLE 雪條)",batch-035
+"Frozen novelties, Sugar Free, CREAMSICLE Pops","冷凍甜點(無糖,CREAMSICLE 雪條)",batch-036
+"Frozen novelties, ice type, fruit, no sugar added","冷凍甜點(冰類,水果,無添加糖)",batch-036
+"Frozen novelties, ice type, lime","冷凍甜點(冰類,青檸)",batch-036
+"Frozen novelties, ice type, pineapple-coconut","冷凍甜點(冰類,菠蘿椰子)",batch-036
+"Frozen novelties, juice type, POPSICLE SCRIBBLERS","冷凍甜點(果汁類,POPSICLE SCRIBBLERS)",batch-036
+"Frozen yogurts, chocolate",冷凍乳酪(朱古力),batch-036
+"Frozen yogurts, chocolate, nonfat milk, sweetened without sugar","冷凍乳酪(朱古力,脫脂奶,不加糖增甜)",batch-036
+"Frozen yogurts, chocolate, soft-serve","冷凍乳酪(朱古力,軟雪糕)",batch-036
 "Frozen yogurts, vanilla, soft-serve",雲呢拿冷凍乳酪(軟雪糕式),pilot
+"Fruit butters, apple",水果醬(蘋果),batch-036
 "Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, extra heavy syrup, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,特濃糖漿,固體連汁)",batch-029
 "Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, extra light syrup pack, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,特淡糖漿裝,固體連汁)",batch-029
 "Fruit cocktail (peach, pear, apricot, pineapple, cherry, grape), canned, heavy syrup pack, solids and liquid","雜果(桃,梨,杏,菠蘿,車厘子,葡萄)(罐頭,濃糖漿裝,固體連汁)",batch-029
@@ -6877,11 +7117,13 @@ Fruit pastilles,水果軟糖片,batch-011
 "Fruit salad, homemade",水果沙律(自家製),batch-008
 "Fruit salad, tropical (pineapple, red and yellow papaya), canned, heavy syrup pack, solids and liquid","熱帶水果沙律(菠蘿,紅肉及黃肉木瓜)(罐頭,濃糖漿裝,固體連汁)",batch-029
 "Fruit salad, tropical (pineapple, red and yellow papaya), canned, juice pack, solids and liquid","熱帶雜果(菠蘿,紅木瓜及黃木瓜,罐頭,果汁裝,連汁)",batch-004
+Fruit syrup,水果糖漿,batch-036
 "Frybread, made with lard","油炸麵包(Frybread,用豬油製)",batch-020
 "Frybread, made with lard (Navajo)","油炸麵包(Frybread,用豬油製,納瓦霍族)",batch-020
 "Fu-fu, sweet potato, homemade",番薯泥糰(自家製),batch-012
 "Fu-fu, yam, homemade",山藥泥糰(自家製),batch-012
 "Fudge, homemade",軟糖(自家製),batch-011
+"Fungi, Cloud ears, dried","真菌(雲耳,乾)",batch-036
 Gajjeralla,Gajjeralla(印度胡蘿蔔甜品),batch-006
 "Game meat, Indigenous, bear, smoked","野味(原住民食品,熊肉,煙燻)",batch-004
 "Game meat, Indigenous, bearded seal meat, boiled","野味(原住民食品,髯海豹肉,烚)",batch-004
@@ -7047,6 +7289,12 @@ Garlic powder,蒜頭粉,batch-008
 "Garlic, scape, raw",蒜苗(生),batch-018
 "Gateau, chocolate based, frozen",朱古力雪糕蛋糕(雪藏),batch-006
 "Gateau, fruit, frozen",水果雪糕蛋糕(雪藏),batch-006
+"Gelatin desserts, dry mix",啫喱甜品(乾粉),batch-036
+"Gelatin desserts, dry mix, reduced calorie, with aspartame","啫喱甜品(乾粉,減卡路里,含阿斯巴甜)",batch-036
+"Gelatin desserts, dry mix, reduced calorie, with aspartame, added phosphorus, potassium, sodium, vitamin C","啫喱甜品(乾粉,減卡路里,含阿斯巴甜,添加磷,鉀,鈉,維他命C)",batch-036
+"Gelatin desserts, dry mix, reduced calorie, with aspartame, no added sodium","啫喱甜品(乾粉,減卡路里,含阿斯巴甜,無添加鈉)",batch-036
+"Gelatin desserts, dry mix, with added ascorbic acid, sodium-citrate and salt","啫喱甜品(乾粉,添加抗壞血酸,檸檬酸鈉及鹽)",batch-036
+"Gelatins, dry powder, unsweetened","明膠(乾粉,無糖)",batch-036
 "Gemfish, fillet, baked, no added fat","銀鱈魚(魚柳,焗,無添加脂肪)",batch-001
 "George Weston Bakeries, Brownberry Sage and Onion Stuffing Mix, dry","填料預拌粉(George Weston Bakeries Brownberry,鼠尾草洋蔥,乾)",batch-021
 "George Weston Bakeries, Thomas English Muffins",英式瑪芬(George Weston Bakeries Thomas),batch-021
@@ -7057,6 +7305,8 @@ Ghee made from vegetable oil,植物油製酥油,batch-010
 "Giblets, chicken, boiled",雞雜(烚),batch-009
 "Giblets, chicken, raw",雞雜(生),batch-009
 "Giblets, turkey, boiled",火雞雜(烚),batch-009
+"Ginger root, pickled, canned, with artificial sweetener","薑(醃漬,罐頭,含人工甜味劑)",batch-036
+"Ginger root, raw",薑(生),batch-036
 "Ginger, dried, ground","薑(乾,磨粉)",batch-002
 "Ginger, ground",薑粉,pilot
 "Ginger, immature rhizome with stem, raw","薑(未成熟根莖連莖,生)",batch-018
@@ -7126,10 +7376,16 @@ Gooseberry raw,醋栗(生),batch-015
 "Gourd, ""Kanpyo"" (dried gourd strips), raw","干瓢(葫蘆乾條,生)",batch-018
 "Gourd, ash, raw",冬瓜(生),batch-012
 "Gourd, bottle, raw",瓠瓜(生),batch-012
+"Gourd, dishcloth (towelgourd), boiled, drained","水瓜(滑身絲瓜,烚,瀝乾)",batch-036
+"Gourd, dishcloth (towelgourd), boiled, drained, with salt","水瓜(滑身絲瓜,烚,瀝乾,有鹽)",batch-036
+"Gourd, dishcloth (towelgourd), raw","水瓜(滑身絲瓜,生)",batch-036
 "Gourd, kantola, raw",刺瓜(生),batch-012
 "Gourd, karela, raw",苦瓜(生),batch-012
 "Gourd, ridge, raw",勝瓜(生),batch-012
 "Gourd, tinda, raw",丁達瓜(生),batch-012
+"Gourd, white flowered (calabash gourd), boiled, drained","蒲瓜(白花,烚,瀝乾)",batch-036
+"Gourd, white-flowered (calabash gourd), boiled, drained, with salt","蒲瓜(白花,烚,瀝乾,有鹽)",batch-036
+"Gourd, white-flowered (calabash), raw","蒲瓜(白花,生)",batch-036
 "Grains, amaranth, dry","穀物(莧菜籽,乾)",batch-013
 "Grains, amaranth, flour",莧菜籽粉,batch-004
 "Grains, barley, malt extract, dried",大麥麥芽提取物(乾),batch-004
@@ -7187,6 +7443,8 @@ Gooseberry raw,醋栗(生),batch-015
 "Grape juice, purple, with added vitamin C, from concentrate, shelf stable","葡萄汁(紫色,添加維他命C,濃縮還原,常溫保存)",batch-019
 "Grape juice, unsweetened",葡萄汁(無糖),batch-006
 "Grape juice, white, with added vitamin C, from concentrate, shelf stable","葡萄汁(白色,添加維他命C,濃縮還原,常溫保存)",batch-019
+"Grape leaves, canned",葡萄葉(罐頭),batch-036
+"Grape leaves, raw",葡萄葉(生),batch-036
 "Grape, black muscatel (muscat), raw",黑麝香葡萄(生),batch-001
 "Grape, cornichon, raw",Cornichon葡萄(生),batch-001
 "Grape, thompson seedless, canned, heavy syrup pack, solids and liquid","湯普森無籽提子(罐頭,濃糖漿裝,固體連汁)",batch-029
@@ -7305,6 +7563,7 @@ Gravy instant granules,即食肉汁顆粒,batch-011
 "Guinea, meat only, raw","珍珠雞(只計肉,生)",batch-033
 "Gulab jamen/jambu, homemade","印度炸奶球(Gulab jamun,自家製)",batch-006
 "Gulab jamen/jambu, retail","印度炸奶球(Gulab jamun,零售)",batch-006
+"Gums, seed gums (includes locust bean, guar)","植物膠(種子膠,包括刺槐豆膠,瓜爾豆膠)",batch-036
 "HORMEL ALWAYS TENDER, Boneless Pork Loin, Fresh Pork",HORMEL ALWAYS TENDER 去骨豬腰肉(新鮮豬肉),batch-031
 "HORMEL ALWAYS TENDER, Center Cut Chops, Fresh Pork",HORMEL ALWAYS TENDER 中段豬扒(新鮮豬肉),batch-031
 "HORMEL ALWAYS TENDER, Pork Loin Filets, Lemon Garlic-Flavored",HORMEL ALWAYS TENDER 豬腰柳片(檸檬蒜蓉味),batch-031
@@ -7388,6 +7647,8 @@ Ham salad spread,火腿沙律抹醬,batch-034
 "Heart, ox, stewed",牛心(炆),batch-009
 "Heart, pig, raw",豬心(生),batch-009
 "Heart, pig, stewed",豬心(炆),batch-009
+"Hearts of palm, canned",棕櫚心(罐頭),batch-036
+"Hearts of palm, raw",棕櫚心(生),batch-036
 "Heinz, Weight Watcher, Chocolate Eclair, frozen","朱古力閃電泡芙(Heinz Weight Watcher,冷凍)",batch-021
 "Hemp seeds, dried",大麻籽(乾),batch-017
 "Herring, flesh only, grilled","鯡魚(只計魚肉,燒烤)",batch-007
@@ -7440,6 +7701,7 @@ Houmous,鷹嘴豆泥,batch-012
 "Hyacinth beans, immature pods, raw","扁豆(未成熟豆莢,生)",batch-018
 "Hyacinth beans, mature seeds, cooked, boiled, with salt","扁豆(藊豆,成熟豆,熟,烚,有鹽)",batch-031
 "Hyacinth beans, mature seeds, raw","扁豆(藊豆,成熟豆,生)",batch-031
+"Hyacinth-beans, immature seeds, raw","扁豆(藊豆,未成熟豆,生)",batch-036
 "Ice cream bar, covered with chocolate and nuts",雪糕條(朱古力及果仁面層),batch-026
 "Ice cream bar, stick or nugget, with crunch coating","雪糕條(棒裝或粒狀,脆皮面層)",batch-026
 "Ice cream bars/choc ices, chocolate coated, luxury","雪糕條或朱古力雪條(朱古力外層,高級)",batch-010
@@ -7471,7 +7733,35 @@ Ice cream sundae cone,新地雪糕筒,batch-026
 "Ice cream, soft-serve",軟雪糕,batch-016
 "Ice cream, vanilla flavour, premium or rich (~15% fat)","雪糕(雲呢拿味,優質或濃郁,脂肪約15%)",batch-002
 "Ice cream, virtually fat free alternative",雪糕(近乎無脂替代品),batch-010
+"Ice creams, BREYERS, 98% Fat Free Chocolate","雪糕(BREYERS,98%無脂肪朱古力)",batch-036
+"Ice creams, BREYERS, 98% Fat Free Vanilla","雪糕(BREYERS,98%無脂肪雲呢拿)",batch-036
+"Ice creams, BREYERS, All Natural Light French Chocolate","雪糕(BREYERS,純天然輕盈法式朱古力)",batch-036
+"Ice creams, BREYERS, All Natural Light French Vanilla","雪糕(BREYERS,純天然輕盈法式雲呢拿)",batch-036
+"Ice creams, BREYERS, All Natural Light Mint Chocolate Chip","雪糕(BREYERS,純天然輕盈薄荷朱古力脆片)",batch-036
+"Ice creams, BREYERS, All Natural Light Vanilla","雪糕(BREYERS,純天然輕盈雲呢拿)",batch-036
+"Ice creams, BREYERS, All Natural Light Vanilla Chocolate Strawberry","雪糕(BREYERS,純天然輕盈雲呢拿朱古力士多啤梨)",batch-036
+"Ice creams, BREYERS, No Sugar Added, Butter Pecan","雪糕(BREYERS,無添加糖,牛油山核桃)",batch-036
+"Ice creams, BREYERS, No Sugar Added, Chocolate Caramel","雪糕(BREYERS,無添加糖,朱古力焦糖)",batch-036
+"Ice creams, BREYERS, No Sugar Added, French Vanilla","雪糕(BREYERS,無添加糖,法式雲呢拿)",batch-036
+"Ice creams, BREYERS, No Sugar Added, Vanilla","雪糕(BREYERS,無添加糖,雲呢拿)",batch-036
+"Ice creams, BREYERS, No Sugar Added, Vanilla Chocolate Strawberry","雪糕(BREYERS,無添加糖,雲呢拿朱古力士多啤梨)",batch-036
+"Ice creams, BREYERS, No Sugar Added, Vanilla Fudge Twirl","雪糕(BREYERS,無添加糖,雲呢拿朱古力軟糖旋渦)",batch-036
+"Ice creams, chocolate",雪糕(朱古力),batch-036
+"Ice creams, chocolate, light","雪糕(朱古力,輕盈)",batch-036
+"Ice creams, chocolate, light, no sugar added","雪糕(朱古力,輕盈,無添加糖)",batch-036
+"Ice creams, chocolate, rich","雪糕(朱古力,濃郁)",batch-036
+"Ice creams, french vanilla, soft-serve","雪糕(法式雲呢拿,軟雪糕)",batch-036
+"Ice creams, regular, low carbohydrate, chocolate","雪糕(普通,低碳水化合物,朱古力)",batch-036
+"Ice creams, regular, low carbohydrate, vanilla","雪糕(普通,低碳水化合物,雲呢拿)",batch-036
+"Ice creams, strawberry",雪糕(士多啤梨),batch-036
+"Ice creams, vanilla",雪糕(雲呢拿),batch-036
+"Ice creams, vanilla, fat free","雪糕(雲呢拿,無脂肪)",batch-036
+"Ice creams, vanilla, light","雪糕(雲呢拿,輕盈)",batch-036
+"Ice creams, vanilla, light, no sugar added","雪糕(雲呢拿,輕盈,無添加糖)",batch-036
+"Ice creams, vanilla, light, soft-serve","雪糕(雲呢拿,輕盈,軟雪糕)",batch-036
+"Ice creams, vanilla, rich","雪糕(雲呢拿,濃郁)",batch-036
 "Iced buns, retail",糖霜麵包卷(店售),batch-007
+"Icing (frosting), glaze, homemade","糖霜(糖衣,自家製)",batch-036
 "Icing (frosting), sour cream flavour, ready to eat","糖霜(酸忌廉味,即食)",batch-006
 "Icing (frosting), vanilla (white), creamy, dry mix, prepared with butter","雲呢拿(白色)奶油糖霜(粉狀,以牛油調製)",batch-006
 "Icing, Royal, homemade",皇家糖霜(自家製),batch-011
@@ -7608,6 +7898,11 @@ Jaffa cakes,Jaffa 橙味夾心蛋糕,batch-007
 "Jam, reduced sugar",果醬(減糖),batch-011
 "Jam, stone fruit",果醬(核果類),batch-002
 "Jambu fruit, flesh only",蓮霧(只計果肉),batch-008
+Jams and preserves,果醬及蜜餞,batch-036
+"Jams and preserves, apricot",果醬及蜜餞(杏),batch-036
+"Jams and preserves, no sugar (with sodium saccharin), any flavor","果醬及蜜餞(無糖(含糖精鈉),任何口味)",batch-036
+"Jams, preserves, marmalade, reduced sugar","果醬,蜜餞,橘皮果醬(減糖)",batch-036
+"Jams, preserves, marmalades, sweetened with fruit juice","果醬,蜜餞,橘皮果醬(以果汁增甜)",batch-036
 "Japanese Spanish mackerel, baked",日本馬鮫魚(焗),batch-015
 "Japanese Worcester sauce, common type",日式伍斯特醬(普通),batch-017
 "Japanese Worcester sauce, semi-thick type",日式伍斯特醬(半濃稠),batch-017
@@ -7673,6 +7968,9 @@ Jaffa cakes,Jaffa 橙味夾心蛋糕,batch-007
 "Japanese wormwood, leaves, raw","艾草(葉,生)",batch-018
 "Java-plum, raw",爪哇蒲桃(生),batch-029
 "Jellabi, homemade",Jellabi 印度炸糖圈(自家製),batch-007
+Jellies,果凍醬,batch-036
+"Jellies, no sugar (with sodium saccharin), any flavors","果凍醬(無糖(含糖精鈉),任何口味)",batch-036
+"Jellies, reduced sugar, home preserved","果凍醬(減糖,自家保存)",batch-036
 "Jelly crystals, sugar sweetened, all flavours","啫喱粉(加糖,各種味道)",batch-002
 "Jelly, made with skimmed milk",果凍(以脫脂牛奶製),batch-010
 "Jelly, made with water",果凍(以水製),batch-010
@@ -7681,6 +7979,7 @@ Jaffa cakes,Jaffa 橙味夾心蛋糕,batch-007
 "Jellyfish, dried, salted","海蜇(乾,鹽醃)",batch-028
 "Jerusalem-artichoke, tuber, boiled","菊芋(塊莖,煮)",batch-017
 "Jerusalem-artichoke, tuber, raw","菊芋(塊莖,生)",batch-017
+"Jerusalem-artichokes, raw",菊芋(生),batch-036
 "Jiaozi (Chinese dumpling), frozen",餃子(冷凍),batch-017
 "Job's tears, milled grain, raw","薏米(精磨穀粒,生)",batch-013
 "John Dory, raw",多利魚(生),batch-007
@@ -8744,6 +9043,7 @@ Milk and cereal bar,牛奶穀物棒,batch-034
 "Milk beverages, coffee flavored",奶飲品(咖啡味),batch-016
 "Milk beverages, fruit flavored",奶飲品(水果味),batch-016
 "Milk bread, homemade",奶麵包(自家製),batch-007
+"Milk dessert, frozen, milk-fat free, chocolate","奶類甜品(冷凍,無乳脂,朱古力)",batch-036
 "Milk drink, fermented, with probiotics",發酵奶飲品(含益生菌),batch-010
 "Milk powder, infant formula",嬰兒配方奶粉,batch-016
 "Milk shake, powder",奶昔粉,batch-006
@@ -9927,6 +10227,8 @@ Peanuts and raisins,花生提子乾,batch-010
 "Pecan nuts, kernel only",美洲山核桃(只計果仁),batch-010
 "Pecan nuts, kernel only, weighed with shells","美洲山核桃(只計果仁,連殼稱重)",batch-010
 "Pecan nuts, oil-roasted and salted","山核桃(油炸,加鹽)",batch-017
+"Pectin, liquid",果膠(液體),batch-036
+"Pectin, unsweetened, dry mix","果膠(無糖,乾粉)",batch-036
 "Peel, mixed",雜錦果皮,batch-008
 "Pepper, black",黑胡椒,batch-008
 "Pepper, black, ground",黑胡椒(磨粉),batch-002
@@ -9996,6 +10298,10 @@ Piccalilli,英式雜菜酸辣醬,batch-011
 "Pie crust, standard-type, dry mix","批底(標準型,乾粉預拌)",batch-022
 "Pie crust, standard-type, dry mix, prepared, baked","批底(標準型,乾粉預拌,已調製,已焗)",batch-022
 "Pie crust, standard-type, frozen, ready-to-bake, unenriched","批底(標準型,冷凍,即焗型,未強化)",batch-022
+"Pie fillings, apple, canned","批餡(蘋果,罐頭)",batch-036
+"Pie fillings, blueberry, canned","批餡(藍莓,罐頭)",batch-036
+"Pie fillings, canned, cherry","批餡(罐頭,車厘子)",batch-036
+"Pie fillings, cherry, low calorie","批餡(車厘子,低卡路里)",batch-036
 "Pie, Cottage, homemade",農舍批(自家製),batch-009
 "Pie, Cottage/Shepherd's, reheated",農舍批或牧羊人批(已翻熱),batch-009
 "Pie, Dutch Apple, Commercially Prepared",荷蘭蘋果批(市面出售),batch-022
@@ -11032,6 +11338,7 @@ Prune puree,西梅蓉,batch-029
 "Pudding, Queen of Puddings, homemade",皇后布甸(自家製),batch-007
 "Pudding, bread and butter, homemade",麵包牛油布甸(自家製),batch-007
 "Pudding, chocolate, homemade","布甸(朱古力,家庭自製)",batch-001
+"Pudding, lemon, dry mix, regular, prepared with sugar, egg yolk and water","布甸(檸檬,乾粉,普通,以糖,蛋黃及水調製)",batch-036
 "Pudding, plum, steamed or boiled, homemade","聖誕布甸(蒸或煮,自製)",pilot
 "Pudding, rice, canned",米布甸(罐裝),batch-010
 "Pudding, rice, canned, low fat","米布甸(罐裝,低脂)",batch-010
@@ -11045,6 +11352,55 @@ Prune puree,西梅蓉,batch-029
 "Pudding, spotted dick, homemade",葡萄乾蒸布甸(自家製),batch-007
 "Pudding, sticky date, homemade",黏黏棗子布甸(家庭自製),batch-001
 "Pudding, suet, homemade",牛脂布甸(自家製),batch-007
+"Puddings, all flavors except chocolate, low calorie, instant, dry mix","布甸(除朱古力外各種口味,低卡路里,即沖,乾粉)",batch-036
+"Puddings, all flavors except chocolate, low calorie, regular, dry mix","布甸(除朱古力外各種口味,低卡路里,煮食型,乾粉)",batch-036
+"Puddings, banana, dry mix, instant","布甸(香蕉,乾粉,即沖)",batch-036
+"Puddings, banana, dry mix, instant, prepared with 2% milk","布甸(香蕉,乾粉,即沖,以2%牛奶調製)",batch-036
+"Puddings, banana, dry mix, instant, prepared with whole milk","布甸(香蕉,乾粉,即沖,以全脂牛奶調製)",batch-036
+"Puddings, banana, dry mix, instant, with added oil","布甸(香蕉,乾粉,即沖,加油)",batch-036
+"Puddings, banana, dry mix, regular","布甸(香蕉,乾粉,煮食型)",batch-036
+"Puddings, banana, dry mix, regular, prepared with 2% milk","布甸(香蕉,乾粉,煮食型,以2%牛奶調製)",batch-036
+"Puddings, banana, dry mix, regular, prepared with whole milk","布甸(香蕉,乾粉,煮食型,以全脂牛奶調製)",batch-036
+"Puddings, banana, dry mix, regular, with added oil","布甸(香蕉,乾粉,煮食型,加油)",batch-036
+"Puddings, chocolate flavor, low calorie, instant, dry mix","布甸(朱古力味,低卡路里,即沖,乾粉)",batch-036
+"Puddings, chocolate flavor, low calorie, regular, dry mix","布甸(朱古力味,低卡路里,煮食型,乾粉)",batch-036
+"Puddings, chocolate, dry mix, instant","布甸(朱古力,乾粉,即沖)",batch-036
+"Puddings, chocolate, dry mix, instant, prepared with 2% milk","布甸(朱古力,乾粉,即沖,以2%牛奶調製)",batch-036
+"Puddings, chocolate, dry mix, instant, prepared with whole milk","布甸(朱古力,乾粉,即沖,以全脂牛奶調製)",batch-036
+"Puddings, chocolate, dry mix, regular","布甸(朱古力,乾粉,煮食型)",batch-036
+"Puddings, chocolate, dry mix, regular, prepared with 2% milk","布甸(朱古力,乾粉,煮食型,以2%牛奶調製)",batch-036
+"Puddings, chocolate, dry mix, regular, prepared with whole milk","布甸(朱古力,乾粉,煮食型,以全脂牛奶調製)",batch-036
+"Puddings, chocolate, ready-to-eat","布甸(朱古力,即食)",batch-036
+"Puddings, chocolate, ready-to-eat, fat free","布甸(朱古力,即食,無脂肪)",batch-036
+"Puddings, coconut cream, dry mix, instant","布甸(椰子忌廉,乾粉,即沖)",batch-036
+"Puddings, coconut cream, dry mix, instant, prepared with 2% milk","布甸(椰子忌廉,乾粉,即沖,以2%牛奶調製)",batch-036
+"Puddings, coconut cream, dry mix, instant, prepared with whole milk","布甸(椰子忌廉,乾粉,即沖,以全脂牛奶調製)",batch-036
+"Puddings, coconut cream, dry mix, regular","布甸(椰子忌廉,乾粉,煮食型)",batch-036
+"Puddings, coconut cream, dry mix, regular, prepared with 2% milk","布甸(椰子忌廉,乾粉,煮食型,以2%牛奶調製)",batch-036
+"Puddings, coconut cream, dry mix, regular, prepared with whole milk","布甸(椰子忌廉,乾粉,煮食型,以全脂牛奶調製)",batch-036
+"Puddings, lemon, dry mix, instant","布甸(檸檬,乾粉,即沖)",batch-036
+"Puddings, lemon, dry mix, instant, prepared with 2% milk","布甸(檸檬,乾粉,即沖,以2%牛奶調製)",batch-036
+"Puddings, lemon, dry mix, instant, prepared with whole milk","布甸(檸檬,乾粉,即沖,以全脂牛奶調製)",batch-036
+"Puddings, lemon, dry mix, regular","布甸(檸檬,乾粉,煮食型)",batch-036
+"Puddings, lemon, dry mix, regular, with added oil, potassium, sodium","布甸(檸檬,乾粉,煮食型,加油,鉀,鈉)",batch-036
+"Puddings, rice, dry mix",米布甸(乾粉),batch-036
+"Puddings, rice, dry mix, prepared with 2% milk","米布甸(乾粉,以2%牛奶調製)",batch-036
+"Puddings, rice, dry mix, prepared with whole milk","米布甸(乾粉,以全脂牛奶調製)",batch-036
+"Puddings, rice, ready-to-eat",米布甸(即食),batch-036
+"Puddings, tapioca, dry mix",西米布甸(乾粉),batch-036
+"Puddings, tapioca, dry mix, prepared with 2% milk","西米布甸(乾粉,以2%牛奶調製)",batch-036
+"Puddings, tapioca, dry mix, prepared with whole milk","西米布甸(乾粉,以全脂牛奶調製)",batch-036
+"Puddings, tapioca, dry mix, with no added salt","西米布甸(乾粉,無添加鹽)",batch-036
+"Puddings, tapioca, ready-to-eat",西米布甸(即食),batch-036
+"Puddings, tapioca, ready-to-eat, fat free","西米布甸(即食,無脂肪)",batch-036
+"Puddings, vanilla, dry mix, instant","布甸(雲呢拿,乾粉,即沖)",batch-036
+"Puddings, vanilla, dry mix, instant, prepared with whole milk","布甸(雲呢拿,乾粉,即沖,以全脂牛奶調製)",batch-036
+"Puddings, vanilla, dry mix, regular","布甸(雲呢拿,乾粉,煮食型)",batch-036
+"Puddings, vanilla, dry mix, regular, prepared with 2% milk","布甸(雲呢拿,乾粉,煮食型,以2%牛奶調製)",batch-036
+"Puddings, vanilla, dry mix, regular, prepared with whole milk","布甸(雲呢拿,乾粉,煮食型,以全脂牛奶調製)",batch-036
+"Puddings, vanilla, dry mix, regular, with added oil","布甸(雲呢拿,乾粉,煮食型,加油)",batch-036
+"Puddings, vanilla, ready-to-eat","布甸(雲呢拿,即食)",batch-036
+"Puddings, vanilla, ready-to-eat, fat free","布甸(雲呢拿,即食,無脂肪)",batch-036
 "Puff pastry, frozen, ready-to-bake","酥皮(冷凍,即焗型)",batch-022
 "Puff pastry, frozen, ready-to-bake, baked","酥皮(冷凍,即焗型,已焗)",batch-022
 Pulled pork in barbecue sauce,燒烤汁手撕豬肉,batch-031
@@ -11162,6 +11518,10 @@ Refried beans,炸豆泥,batch-033
 "Refried beans, canned, vegetarian","炒豆泥(罐頭,素食)",batch-019
 "Relish, corn/cucumber/onion",粟米青瓜洋蔥醃醬,batch-011
 "Relish, tomato based",番茄醃醬,batch-011
+"Rennin, chocolate, dry mix, prepared with 2% milk","凝乳酶布甸(朱古力,乾粉,以2%牛奶調製)",batch-036
+"Rennin, chocolate, dry mix, prepared with whole milk","凝乳酶布甸(朱古力,乾粉,以全脂牛奶調製)",batch-036
+"Rennin, vanilla, dry mix, prepared with 2% milk","凝乳酶布甸(雲呢拿,乾粉,以2%牛奶調製)",batch-036
+"Rennin, vanilla, dry mix, prepared with whole milk","凝乳酶布甸(雲呢拿,乾粉,以全脂牛奶調製)",batch-036
 "Restaurant, Chinese, beef and vegetables","餐廳(中式,牛肉炒雜菜)",batch-033
 "Restaurant, Chinese, chicken and vegetables","餐廳(中式,雞肉炒雜菜)",batch-033
 "Restaurant, Chinese, fried rice, without meat",餐廳式中式炒飯(無肉),batch-019
@@ -11407,6 +11767,7 @@ Rusks,麵包乾,batch-007
 Rye grain,黑麥粒,batch-026
 "Rye, grain, whole, uncooked","裸麥(全穀粒,未煮)",batch-001
 "Rye, rolled, uncooked",裸麥片(未煮),batch-001
+"SCHIFF,TIGER'S MILK BAR",SCHIFF TIGER'S MILK 營養棒,batch-036
 SILK Banana-Strawberry soy yogurt,SILK 香蕉士多啤梨豆乳酪,batch-031
 SILK Black Cherry soy yogurt,SILK 黑車厘子豆乳酪,batch-031
 SILK Blueberry soy yogurt,SILK 藍莓豆乳酪,batch-031
@@ -11972,6 +12333,7 @@ Sesame seeds,芝麻,batch-010
 "Shepherd's pie, vegetable, retail",素牧羊人批(零售),batch-012
 "Shepherd's purse, leaves, raw","薺菜(葉,生)",batch-018
 Sherbet,雪葩,batch-016
+"Sherbet, orange",果子露(橙),batch-036
 "Sherry, medium",半甜雪利酒,batch-006
 Shish kebab in pitta bread with salad,沙律皮塔餅烤肉串,batch-010
 "Shish kebab, meat only",烤肉串(只計肉),batch-010
@@ -12057,7 +12419,9 @@ Smoothies,冰沙,batch-006
 "Snacks, crisped rice bar, almond","小食(脆米棒,杏仁)",batch-034
 "Snacks, crisped rice bar, chocolate chip","小食(脆米棒,朱古力脆片)",batch-034
 "Snacks, fruit bar",水果條小食,batch-005
+"Snacks, fruit leather, pieces","小食(水果乾片,碎件)",batch-036
 "Snacks, fruit leather, pieces, with vitamin C","小食(水果乾片,碎件,含維他命C)",batch-034
+"Snacks, fruit leather, roll","小食(水果乾片,卷)",batch-036
 "Snacks, granola bar, GENERAL MILLS NATURE VALLEY, SWEET&SALTY NUT, peanut","小食(格蘭諾拉麥片棒,GENERAL MILLS NATURE VALLEY,甜鹹果仁,花生)",batch-034
 "Snacks, granola bar, GENERAL MILLS, NATURE VALLEY, CHEWY TRAIL MIX","小食(格蘭諾拉麥片棒,GENERAL MILLS,NATURE VALLEY,煙韌什果仁)",batch-034
 "Snacks, granola bar, GENERAL MILLS, NATURE VALLEY, with yogurt coating","小食(格蘭諾拉麥片棒,GENERAL MILLS,NATURE VALLEY,乳酪包裹)",batch-034
@@ -12832,6 +13196,7 @@ Stock gel,高湯啫喱,batch-011
 "Sugar apple, flesh only",釋迦(只計果肉),batch-008
 "Sugar, Demerara",黃砂糖(Demerara),batch-011
 "Sugar, icing",糖霜粉,batch-011
+"Sugar, turbinado",糖(淡黃粗糖),batch-036
 "Sugar, white",白砂糖,batch-011
 "Sugar-apple, raw",釋迦(生),batch-029
 "Sugars, ""Wasanbonto"" (traditional non-centrifugal soft white cane sugar)",和三盆糖(傳統非離心軟白蔗糖),batch-018
@@ -12843,6 +13208,8 @@ Stock gel,高湯啫喱,batch-011
 "Sugars, hard sugars, granulated",硬糖(砂糖),batch-018
 "Sugars, liquid sugars, inverted",液體糖(轉化糖),batch-018
 "Sugars, liquid sugars, sucrose",液體糖(蔗糖),batch-018
+"Sugars, maple",糖(楓糖),batch-036
+"Sugars, powdered",糖(糖粉),batch-036
 "Sugars, reprocessed sugars, ""Korizato"" (crystal candy sugar)",冰糖(結晶冰糖),batch-018
 "Sugars, reprocessed sugars, candy sugar for coffee",咖啡用冰糖,batch-018
 "Sugars, reprocessed sugars, cubes",方糖,batch-018
@@ -12926,9 +13293,18 @@ Sweet red bean soup made from strained bean paste,紅豆沙糖水(過濾豆蓉),
 "Sweetcorn, kernels, boiled 'on the cob' in unsalted water, weighed with core","粟米粒(連芯以無鹽水煮,計芯重)",batch-012
 "Sweetcorn, kernels, raw",粟米粒(生),batch-012
 Sweetened condensed milk,煉奶(加糖),batch-016
+"Sweetener, aspartame, Equal","甜味劑(阿斯巴甜,Equal)",batch-036
+"Sweetener, brown sugar substitute, granulated","甜味劑(紅糖代糖,顆粒)",batch-036
+"Sweetener, herbal extract powder from Stevia leaf",甜味劑(甜菊葉草本提取粉),batch-036
+"Sweetener, saccharin",甜味劑(糖精),batch-036
+"Sweetener, sucralose, Splenda","甜味劑(三氯蔗糖,Splenda)",batch-036
+"Sweeteners, for baking, contains sugar and sucralose","甜味劑(焙製用,含糖及三氯蔗糖)",batch-036
+"Sweets, baking chocolate, M&M's Semisweet Chocolate Mini Baking Bits","甜食(烘焙朱古力,M&M's 半甜朱古力迷你烘焙粒)",batch-036
+"Sweets, baking chocolate, milk chocolate, mini bits","甜食(烘焙朱古力,牛奶朱古力,迷你粒)",batch-036
 "Sweets, boiled",硬糖,batch-011
 "Sweets, butter, maple",楓糖牛油,batch-006
 "Sweets, chew sweets",咬咬糖,batch-011
+"Sweets, cocoa, powder, unsweetened, dutch process","甜食(可可粉,無糖,荷蘭式處理)",batch-036
 "Sweets, jam type spread, Double Fruit",果醬型塗醬(Double Fruit),batch-006
 "Sweets, jam type spread, Double Fruit, Light","果醬型塗醬(Double Fruit,輕盈)",batch-006
 "Sweets, jam type spread, Double Fruit, apricot","果醬型塗醬(Double Fruit,杏)",batch-006
@@ -12936,7 +13312,11 @@ Sweetened condensed milk,煉奶(加糖),batch-016
 "Sweets, maple taffy",楓糖太妃糖,batch-006
 "Sweets, molasses, blackstrap",黑糖蜜,batch-006
 "Sweets, sherbert",酸沙糖,batch-011
+"Sweets, sugars, brown, contains sugar and sucralose","甜食(糖,紅糖,含糖及三氯蔗糖)",batch-036
+"Sweets, sugars, fructose, liquid","甜食(糖,果糖,液體)",batch-036
+"Sweets, sugars, fructose, powder","甜食(糖,果糖,粉狀)",batch-036
 "Sweets, sugars, maple, granulated",楓糖(顆粒),batch-006
+"Sweets, syrup, agave","甜食(糖漿,龍舌蘭)",batch-036
 "Sweets, syrup. table blend, cane and 15% maple",餐桌糖漿(蔗糖混合15%楓糖),batch-006
 "Swiss chard, leaves, boiled","瑞士甜菜(葉,煮)",batch-018
 "Swiss chard, leaves, raw","瑞士甜菜(葉,生)",batch-018
@@ -12945,11 +13325,26 @@ Sweetened condensed milk,煉奶(加糖),batch-016
 "Swordfish, flesh only, grilled, weighed with bones and skin","劍魚(只計魚肉,燒烤,連骨連皮稱重)",batch-008
 "Swordfish, flesh only, raw","劍魚(只計魚肉,生)",batch-008
 "Swordfish, frozen, wild caught","劍魚(冷凍,野生)",batch-019
+"Syrup, Cane",糖漿(蔗糖),batch-036
 "Syrup, NESTLE, chocolate",朱古力糖漿(NESTLE),pilot
 "Syrup, corn, dark",玉米糖漿(深色),batch-011
+"Syrup, fruit flavored",糖漿(水果味),batch-036
 "Syrup, malt",麥芽糖漿,batch-002
+"Syrup, maple, Canadian","糖漿(楓糖,加拿大)",batch-036
 "Syrup, maple, pure",楓糖漿(純),batch-002
 "Syrup, rice malt",米麥芽糖漿,batch-002
+"Syrups, chocolate, fudge-type","糖漿(朱古力,軟糖型)",batch-036
+"Syrups, corn, high-fructose","糖漿(粟米,高果糖)",batch-036
+"Syrups, corn, light","糖漿(粟米,淺色)",batch-036
+"Syrups, grenadine",糖漿(紅石榴糖漿),batch-036
+"Syrups, sorghum",糖漿(高粱),batch-036
+"Syrups, sugar free",糖漿(無糖),batch-036
+"Syrups, table blends, corn, refiner, and sugar","糖漿(餐桌混合,粟米,精製糖及糖)",batch-036
+"Syrups, table blends, pancake","糖漿(餐桌混合,班戟)",batch-036
+"Syrups, table blends, pancake, reduced-calorie","糖漿(餐桌混合,班戟,減卡路里)",batch-036
+"Syrups, table blends, pancake, with 2% maple","糖漿(餐桌混合,班戟,含2%楓糖)",batch-036
+"Syrups, table blends, pancake, with 2% maple, with added potassium","糖漿(餐桌混合,班戟,含2%楓糖,添加鉀)",batch-036
+"Syrups, table blends, pancake, with butter","糖漿(餐桌混合,班戟,含牛油)",batch-036
 "Szechuan prawns with vegetables, takeaway",四川蝦配蔬菜(外賣),batch-008
 "T.G.I. FRIDAY'S, FRIDAY'S Shrimp, breaded",T.G.I. FRIDAY'S FRIDAY'S 裹粉蝦,batch-033
 "T.G.I. FRIDAY'S, chicken fingers",T.G.I. FRIDAY'S 雞柳條,batch-033
@@ -13155,7 +13550,12 @@ Tomato puree,番茄蓉,batch-012
 "Tongue, sheep, meat only, stewed","綿羊脷(只計肉,炆)",batch-010
 Tonic water,湯力水,batch-006
 Topic/Snickers and own brand equivalents,Topic及Snickers朱古力條及自家品牌同類產品,batch-011
+"Topping, SMUCKER'S MAGIC SHELL",配料(SMUCKER'S MAGIC SHELL 朱古力脆殼醬),batch-036
+"Toppings, butterscotch or caramel",配料(奶油糖或焦糖),batch-036
 "Toppings, marshmallow cream",棉花糖醬,pilot
+"Toppings, nuts in syrup",配料(糖漿果仁),batch-036
+"Toppings, pineapple",配料(菠蘿),batch-036
+"Toppings, strawberry",配料(士多啤梨),batch-036
 "Tori ki subji, homemade",絲瓜炒菜(自家製),batch-012
 "Torte, fruit",水果托爾蛋糕,batch-010
 Tortilla chips fried in sunflower oil,粟米片(葵花籽油炸),batch-011
