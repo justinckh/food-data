@@ -17,7 +17,7 @@ Other systems and AI tools will also use the data.
 
 | Item | Status |
 |---|---|
-| Web site on Cloudflare Pages | The live site is the old static site. The new site with the API is on the preview address (section 4.4). |
+| Web site on Cloudflare Pages | Done. The new site with the API is live on the neologism account (section 4.4). |
 | Data source: Hong Kong CFS | Done. The data has 2,999 foods. |
 | Local database (`data/food.db`) | Done. It has all sources: 26,480 foods. |
 | Search | Done. The API searches the names and the synonyms (section 3.4). |
@@ -28,7 +28,7 @@ Other systems and AI tools will also use the data.
 | Data source: UK CoFID | Done. The data has 2,887 foods (section 2.9). |
 | Data source: Canada CNF | Done. The data has 5,993 foods (section 2.10). |
 | Backend API | Done. It is on the preview address (section 4.4). |
-| Cloudflare D1 | The new database `food-db` is empty. The upload is ready (1 part, approximately 82,000 row writes). Send it after 00:00 UTC (section 4.4.2). The old database `food-data` has the old layout. Delete it after the new site is live. |
+| Cloudflare D1 | Done. The database `food-db` (neologism account, Asia-Pacific) has all data. The first upload wrote 79,624 rows. |
 | Other data sources | France Ciqual is on hold (section 4.3). |
 
 ### 2.2 Files and folders
@@ -647,10 +647,10 @@ Browser --> Cloudflare Pages "hk-food-nutrition" --> Pages Functions /api/* --> 
 
 | Item | Value |
 |---|---|
-| Cloudflare account | "Justinckhcheung@hotmail.com's Account" |
+| Cloudflare account | "neologism" (ID in `.env`). Moved from the hotmail account on 2026-11-12. |
 | Pages project | `hk-food-nutrition` |
-| Live address | https://hk-food-nutrition.pages.dev |
-| Preview address | https://preview.hk-food-nutrition.pages.dev |
+| Live address | https://hk-food-nutrition-b9m.pages.dev |
+| Old address (hotmail account, old site) | https://hk-food-nutrition.pages.dev |
 | D1 database | `food-db` (location: Asia-Pacific) |
 | Deployment | By hand (`npm run deploy`). There is no connection to GitHub. |
 

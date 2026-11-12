@@ -1,17 +1,17 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   // Cloudflare Pages project (static site in ./site + API in ./functions), account:
-  // "Justinckhcheung@hotmail.com's Account". Deploy: npm run deploy
+  // "neologism" (moved from the hotmail account on 2026-11-12; account id in .env). Deploy: npm run deploy
   "name": "hk-food-nutrition",
   "pages_build_output_dir": "./site",
   "compatibility_date": "2026-11-01",
   // food-db (region APAC): one row per food, built by pipeline/serve_db.py.
-  // The old database food-data (normalised layout, 2026-11-11) is kept until go-live.
+  // Old copies on the hotmail account (food-data, food-db) can be deleted after go-live.
   "d1_databases": [
     {
       "binding": "DB",
       "database_name": "food-db",
-      "database_id": "c7f14ba2-3ed3-41c4-b368-c7517ee59486"
+      "database_id": "bea54542-6edf-4f76-a0e0-54d21a95b1d1"
     }
   ]
 }
