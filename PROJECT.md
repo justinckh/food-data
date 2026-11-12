@@ -26,6 +26,7 @@ Other systems and AI tools will also use the data.
 | Data source: Australia AFCD | Done. The data has 1,588 foods (section 2.8). |
 | Data source: USDA (Foundation Foods, SR Legacy) | Done. The data has 8,262 foods (section 2.5). |
 | Data source: UK CoFID | Done. The data has 2,887 foods (section 2.9). |
+| Data source: Canada CNF | Done. The data has 5,690 foods (section 2.10). |
 | Backend API | Not started. |
 | Cloudflare D1 | Not started. |
 | Other data sources | Not started. |
@@ -51,6 +52,7 @@ Other systems and AI tools will also use the data.
 | `pipeline/importers/cofid.py` | This importer reads the CoFID Excel file in `data/raw/cofid/`. |
 | `pipeline/importers/cofid_groups.csv` | The CoFID food group names. We copied them from Appendix B of the CoFID 2021 user guide. |
 | `pipeline/download_cofid.py` | This script downloads the CoFID Excel file to `data/raw/cofid/`. |
+| `pipeline/importers/cnf.py` | This importer reads the CNF zip file in `data/raw/cnf/`. |
 | `pipeline/importers/usda.py` | This importer reads the USDA zip files in `data/raw/usda/`. It does not extract the zip files. |
 | `pipeline/download_usda.py` | This script downloads the newest USDA zip files to `data/raw/usda/`. |
 | `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
@@ -238,6 +240,37 @@ For a code that is used 2 times, the ID has the food name, for example `cofid:13
 
 We compared the database with the raw file. All 103,806 values are the same.
 
+### 2.10 About the CNF data
+
+The data set is the Canadian Nutrient File (CNF) 2015 from Health Canada.
+It has 5,690 foods. Each food has an English name and a French name.
+The importer puts the French name in `name_local`.
+The licence is the Open Government Licence - Canada.
+
+This computer cannot connect to the Health Canada web site.
+To get the data, do these steps:
+
+1. Open https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/canadian-nutrient-file-2015-download-files.html in your browser.
+2. Download the CSV zip file (`cnf-fcen-csv.zip`).
+3. Put the zip file in `data/raw/cnf/`. Do not extract it.
+4. Run `npm run db`.
+
+The importer finds each nutrient by its nutrient code.
+These codes are the same as the USDA SR Legacy nutrient numbers.
+The importer examines the unit of each nutrient.
+
+| Item | Rule |
+|---|---|
+| Carbohydrate | By difference. `method` = `difference`. |
+| Servings | CNF gives a factor for 100 g. The serving weight is the factor x 100 g. |
+| Data origin | The importer puts the CNF food source in `origin_source`. |
+
+3,555 CNF foods (62 %) are USDA data with no changes.
+356 other CNF foods are USDA data with some nutrients analysed in Canada.
+Step 6 (links) must use `origin_source` to find these foods.
+
+We compared the database with the raw file. All 221,636 values are the same.
+
 ## 3. Database design
 
 ### 3.1 Main rules
@@ -324,7 +357,8 @@ Reasons:
 | 5b | Write the importer for the Australia AFCD data | Done |
 | 5c | Write the importer for USDA | Done |
 | 5e | Write the importer for UK CoFID | Done |
-| 5d | Write the importers for Canada and France | On hold. We cannot download the data now (section 4.3). |
+| 5f | Write the importer for Canada CNF | Done |
+| 5d | Write the importer for France Ciqual | On hold. The Ciqual web site is in maintenance (section 4.3). |
 | 6 | Link the duplicates in `food_links` (section 4.2) | To do |
 | 7 | Make a script that sends `food.db` to Cloudflare D1 | To do |
 | 8 | Make the API with Pages Functions | To do |
@@ -356,7 +390,7 @@ The numbers of foods are approximate. Make sure that each number and each licenc
 | USDA FoodData Central (Foundation, SR Legacy) | US | 8,262 (done) | Public domain |
 | Taiwan TFDA food composition | TW | 2,000 | Taiwan Open Data |
 | Japan MEXT Standard Tables (8th edition) | JP | 2,538 (done) | Public Data License (Japan) v1.0 |
-| Canadian Nutrient File (CNF) | CA | 5,700 | Open Government Licence. The web site does not accept connections from this computer. |
+| Canadian Nutrient File (CNF) | CA | 5,690 (done) | Open Government Licence - Canada. Download the file by hand (section 2.10). |
 | UK CoFID (McCance and Widdowson) | GB | 2,887 (done) | Open Government Licence v3.0 |
 | Australian Food Composition Database (AFCD) | AU | 1,588 (done) | CC BY 4.0 |
 | France Ciqual | FR | 3,000 | Licence Ouverte (Etalab). On 2026-11-11 the Ciqual web site was in maintenance. Try again later. The files are listed on data.gouv.fr. |

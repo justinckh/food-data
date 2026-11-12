@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 from .common import NUTRIENT_IDS, NUTRIENTS
-from .importers import afcd, cfs, cofid, mext, tfda, usda
+from .importers import afcd, cfs, cnf, cofid, mext, tfda, usda
 
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMA = ROOT / "db" / "schema.sql"
@@ -22,7 +22,7 @@ FOOD_COLS = ["id", "source_id", "source_code", "name_en", "name_zh", "name_local
              "origin_source", "search_text"]
 
 # Each importer exposes datasets(root) -> (SOURCE dict, rows). Add new sources here.
-IMPORTERS = [cfs, tfda, mext, afcd, usda, cofid]
+IMPORTERS = [cfs, tfda, mext, afcd, usda, cofid, cnf]
 
 
 def import_source(db, src, rows):
