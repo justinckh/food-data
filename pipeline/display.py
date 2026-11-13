@@ -29,6 +29,7 @@ from pathlib import Path
 
 from . import link, synonyms, versions
 
+SALTED = re.compile(r"\bwith (?:added )?salt\b|\bsalt added\b", re.I)
 TRANSLATIONS = Path(__file__).resolve().parent / "translations_zh.csv"
 PRIORITY = ["cfs", "tfda", "mext", "afcd", "cofid", "usda_fnd", "usda_sr", "cnf"]
 # Preparation words ignored when matching an English name to a synonym word (display only;
@@ -152,11 +153,25 @@ def run(db):
         with open(TRANSLATIONS, encoding="utf-8") as f:
             mt = {r["key"]: r["zh"] for r in csv.DictReader(f)}
 
+    # records linked to another record of the SAME source (older version, TFDA sample, re-release,
+    # partial release, salted twin) are never the main record when their target is in the group
+    secondary = {a for a, b in db.execute("SELECT food_id, canonical_id FROM food_links WHERE match_type != 'similar'")
+                 if foods[a][1] == foods[b][1]}
+    # English name: not from a salted twin or a re-released/partial record ('..., with salt' is shorter)
+    twins = {f for f, in db.execute("SELECT food_id FROM food_links WHERE method IN ('salt', 'same_source', "
+                                    "'same_source_sparse')")}
+    has_energy = {f for f, in db.execute("SELECT food_id FROM food_nutrients WHERE nutrient_id = 'energy_kcal' "
+                                         "AND value IS NOT NULL")}
+
+    # reviewed shown names for foods that had the same name as a different food (name_fixes.csv)
+    rename = {f: z for f, z in link.load_fixes("rename") if f in foods}
+
     rows = []
     for members in clusters(db):
-        # source preference, then the newest version (dated re-tests), then id
-        members.sort(key=lambda f: (rank.get(foods[f][1], 99), "平均值" not in (foods[f][3] or ""),
-                                    -versions.year(note[f]), f))
+        # source preference, then not secondary, then with energy, then the newest version
+        # (dated re-tests), then id
+        members.sort(key=lambda f: (rank.get(foods[f][1], 99), f in secondary, f not in has_energy,
+                                    "平均值" not in (foods[f][3] or ""), -versions.year(note[f]), f))
         main = members[0]
         cfs = [f for f in members if foods[f][1] == "cfs" and foods[f][3]]
         zh = None
@@ -177,9 +192,16 @@ def run(db):
         if zh and foods[main][1] == "tfda":
             zh = tw_hk(zh)
         # TFDA English names can be synonym lists ("Sea mullet; River mullet; ..."): first name only
-        ens = [foods[f][2].split(";")[0].strip() for f in members if foods[f][2] and foods[f][2].split(";")[0].strip()]
+        salted = SALTED.search(foods[main][2] or "")
+        named = [f for f in members if f not in twins and (salted or not SALTED.search(foods[f][2] or ""))] or members
+        ens = [foods[f][2].split(";")[0].strip() for f in named if foods[f][2] and foods[f][2].split(";")[0].strip()]
         en = min(ens, key=lambda n: (len(n), n)) if ens else None
         is_mt = 0
+        fixed = next((rename[f] for f in members if f in rename and foods[f][1] != "cfs"), None)
+        if main in rename:
+            fixed = rename[main]
+        if fixed:
+            zh = fixed
         if not zh:
             # same key as translate_prep: the shown English name, else the Japanese name
             zh = mt.get(nodate(en) or foods[main][4])
@@ -187,14 +209,20 @@ def run(db):
         for f in members:
             # HK records always keep their own (HK) name; other records show the group name
             own_zh = cfs_name(f) if foods[f][1] == "cfs" and foods[f][3] else zh
+            if foods[f][1] == "cfs" and f in rename:
+                own_zh = rename[f]
             own_en = foods[f][2] if foods[f][1] == "cfs" and foods[f][2] else en
-            own_mt = 0 if foods[f][1] == "cfs" and foods[f][3] else is_mt
+            own_mt = 0 if (foods[f][1] == "cfs" and foods[f][3]) or fixed else is_mt
             rows.append((main, int(f == main), nodate(own_zh), nodate(own_en), note[f], own_mt, f))
     db.executemany("UPDATE foods SET cluster_id = ?, is_primary = ?, display_zh = ?, display_en = ?, sample_note = ?, "
                    "zh_mt = ? WHERE id = ?", rows)
     # shown names are searchable too (translations, TW -> HK words such as 雞全翼)
     db.execute("UPDATE foods SET search_text = search_text || ' ' || lower(display_zh) "
                "WHERE display_zh IS NOT NULL AND instr(search_text, lower(display_zh)) = 0")   # shown names (HK words, translations)
+    same = db.execute("SELECT count(*), coalesce(sum(n), 0) FROM (SELECT count(*) n FROM foods WHERE is_primary = 1 "
+                      "AND display_zh IS NOT NULL GROUP BY display_zh HAVING n > 1)").fetchone()
+    print(f"  Shown names          {same[0]:>6} names are shown on more than one food group ({same[1]} groups); "
+          f"name_fixes.csv: {len(rename)} renames")
     n_clusters = sum(r[1] for r in rows)
     print(f"  Display              {n_clusters:>6} main records for {len(rows)} foods; "
           f"{sum(1 for r in rows if r[1] and r[2])} have a Chinese display name "

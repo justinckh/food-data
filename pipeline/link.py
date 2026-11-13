@@ -26,9 +26,11 @@ Rules, strongest first:
 Not done yet (planned): a species rule (pork vs beef) for lower scores, and the synonym
 table for foods without English names (PROJECT.md 4.2).
 """
+import csv
 import math
 import re
 from collections import Counter, defaultdict
+from pathlib import Path
 
 from . import versions
 
@@ -73,7 +75,9 @@ def key_values(db, where, args=()):
 
 def link_by_origin_code(db):
     usda = dict(db.execute("SELECT code, food_id FROM food_codes WHERE scheme = 'usda_ndb'"))
-    pairs = [(fid, usda.get(code.lstrip("0")))
+    ids = {f for f, in db.execute("SELECT id FROM foods WHERE source_id LIKE 'usda%'")}
+    # origin_code is an NDB number, or a USDA food id when CNF was rebuilt from the live copy
+    pairs = [(fid, code if code in ids else usda.get(code.lstrip("0")))
              for fid, code in db.execute("SELECT id, origin_code FROM foods WHERE source_id = 'cnf' AND origin_code IS NOT NULL")]
     pairs = [(c, u) for c, u in pairs if u]
     vals = key_values(db, "(f.source_id = 'cnf' OR f.source_id LIKE 'usda%')")
@@ -236,11 +240,104 @@ def run(db):
         db.executemany("INSERT OR IGNORE INTO food_links (food_id, canonical_id, match_type, confidence, method)"
                        " VALUES (?, ?, ?, ?, ?)", rows)
         print(f"  {label:<22} {len(rows):>5} links  " + ", ".join(f"{n} {k}" for k, n in sorted(Counter(r[2] for r in rows).items())))
+    rows = link_same_source(db)
+    db.executemany("INSERT OR IGNORE INTO food_links (food_id, canonical_id, match_type, confidence, method)"
+                   " VALUES (?, ?, ?, ?, ?)", rows)
+    print(f"  {'Same source (twins)':<22} {len(rows):>5} links  " + ", ".join(f"{n} {k}" for k, n in sorted(Counter(r[4] for r in rows).items())))
     # rule 3 runs after the copies are stored, so it can leave linked copies out
     rows = link_by_name(db)
     db.executemany("INSERT OR IGNORE INTO food_links (food_id, canonical_id, match_type, confidence, method)"
                    " VALUES (?, ?, ?, ?, ?)", rows)
     print(f"  {'Same food (name)':<22} {len(rows):>5} links  " + ", ".join(f"{n} {k}" for k, n in sorted(Counter(r[2] for r in rows).items())))
+    rows = link_reviewed(db)
+    db.executemany("INSERT OR REPLACE INTO food_links (food_id, canonical_id, match_type, confidence, method)"
+                   " VALUES (?, ?, ?, ?, ?)", rows)
+    print(f"  {'Reviewed (name_fixes)':<22} {len(rows):>5} links")
+
+
+# --- rule 0c: one source, same food twice ---------------------------------------------
+SALT = re.compile(r",?\s*\b(?:with|without|no) (?:added )?salt\b(?: added)?", re.I)
+EXTRA = re.compile(r"\s*\(includes foods for usda's food distribution program\)", re.I)
+
+
+def norm_en(name):
+    return re.sub(r"\s+", " ", EXTRA.sub("", name or "")).strip(" ,").lower()
+
+
+def id_order(fid):
+    """Newer releases have larger ids (USDA FDC ids, CoFID codes): numeric order, then text."""
+    return [int(p) if p.isdigit() else p for p in re.split(r"(\d+)", fid)]
+
+
+def link_same_source(db):
+    """Clean-up rules inside one source (user request 2026-11-13):
+      A1 same English name and same values -> 'exact_copy' of the newest id (re-released record,
+         e.g. USDA Foundation 'Beans, Dry, Pinto (0% moisture)' 335695 and 747445);
+      A2 same English name, a record without energy (partial release) -> 'equivalent' of the
+         newest full record, so the sparse record is shown inside its group;
+      B  the same food with and without salt ('Pumpkin, canned, with salt' / 'without salt')
+         -> 'equivalent' of the record without salt (the values differ in sodium only).
+    Two full records with the same name and different values are not linked here
+    (pipeline/name_fixes.csv decides them). Older versions and TFDA samples are left out."""
+    vals = key_values(db, "1")
+    count = Counter(f for f, in db.execute("SELECT food_id FROM food_nutrients WHERE value IS NOT NULL"))
+    done = {f for f, in db.execute("SELECT food_id FROM food_links")}
+    by_name, by_salt = defaultdict(list), defaultdict(list)
+    for fid, src, en in db.execute("SELECT id, source_id, name_en FROM foods WHERE name_en IS NOT NULL"):
+        if fid in done:
+            continue
+        n = norm_en(en)
+        by_name[(src, n)].append(fid)
+        m = SALT.search(n)
+        if m:
+            salted = m.group(0).strip(" ,").startswith("with ")
+            by_salt[(src, SALT.sub("", n).strip(" ,"))].append((fid, salted))
+    rows, linked = [], set()
+    for ids in by_name.values():
+        if len(ids) < 2:
+            continue
+        full = [f for f in ids if "energy_kcal" in vals[f]]
+        target = max(full, key=id_order) if full else max(ids, key=lambda f: (count[f], id_order(f)))
+        for f in ids:
+            if f == target:
+                continue
+            if f in full and same_values(vals[f], vals[target]):
+                rows.append((f, target, "exact_copy", 1.0, "same_source"))
+            elif f not in full:
+                rows.append((f, target, "equivalent", 0.9, "same_source_sparse"))
+            else:
+                continue
+            linked.add(f)
+    for (src, base), members in by_salt.items():
+        unsalted = [f for f, salted in members if not salted and f not in linked]
+        unsalted += [f for f in by_name.get((src, base), []) if f not in linked]
+        if not unsalted:
+            continue
+        target = unsalted[0]
+        for f, _ in members:
+            if f != target and f not in linked:
+                rows.append((f, target, "equivalent", 0.9, "salt"))
+                linked.add(f)
+    return rows
+
+
+# --- reviewed decisions -------------------------------------------------------------
+FIXES = Path(__file__).resolve().parent / "name_fixes.csv"
+
+
+def load_fixes(action):
+    """pipeline/name_fixes.csv: decisions for foods that were shown with the same Chinese
+    name (reviewed 2026-11-13). action 'group': value = id of the same food (-> 'equivalent'
+    link, method 'review'). action 'rename': value = the shown Chinese name (display.py)."""
+    if not FIXES.exists():
+        return []
+    with open(FIXES, encoding="utf-8") as f:
+        return [(r["id"], r["value"]) for r in csv.DictReader(f) if r["action"] == action]
+
+
+def link_reviewed(db):
+    ids = {f for f, in db.execute("SELECT id FROM foods")}
+    return [(a, b, "equivalent", 1.0, "review") for a, b in load_fixes("group") if a in ids and b in ids]
 
 
 # --- rule 6: same shown name ---------------------------------------------------------

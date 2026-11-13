@@ -1,0 +1,301 @@
+id,action,value,note
+cofid:13-813,group,cfs:0519002060090,五香粉: same food
+tfda:P0100401,group,cfs:0519002060090,五香粉: same food
+usda_sr:175290,group,cofid:18-094,免治牛仔肉: same food
+cofid:19-607,rename,"免治牛肉(炆,加洋蔥及麵粉)",recipe with onions and flour; 18-470 is meat only
+usda_sr:174370,group,cofid:18-481,免治羊肉: same food
+cofid:18-606,rename,"免治豬肉(瘦,約10%脂肪,生)",10% fat mince; others ~17% fat
+usda_fnd:2514745,group,mext:11163,免治豬肉: same food
+afcd:F002739,rename,"免治雞肉(以雞胸為主,生)",AFCD: mostly breast meat
+usda_sr:171116,group,mext:11230,免治雞肉: same food
+cfs:070107F001553,group,cfs:0601072707709,全麥麵包: same food (FSANZ / USDA data)
+mext:18048,rename,"八寶菜(中華料理,炒)",Japanese happosai stir-fry; CFS is pickled vegetables in soy sauce
+tfda:J3500201,rename,八爪魚(生),raw small octopus
+cfs:10030300327,group,cfs:0503030432030,冬瓜: same food
+cofid:13-294,group,mext:08013,冬菇(乾): same food
+tfda:N0100201,group,cfs:0518011810030,冰糖: same food
+cofid:17-717,group,cfs:071500F003612,千島沙律醬: same food
+mext:17041,group,cfs:071500F003612,千島沙律醬: same food
+mext:11317,group,cfs:0506060813070,午餐肉: same food
+cofid:17-158,group,tfda:O0900101,即溶咖啡粉: same food (carbohydrate method differs)
+tfda:R5100101,group,cfs:0506060813010,叉燒肉: same food
+cfs:0516001670040,rename,可可粉(沖調飲品),cocoa mix powder (sweetened drink mix)
+tfda:O0901701,group,cfs:071600F002980,可可粉: same food
+cofid:17-175,group,tfda:O0600101,可樂: same food
+tfda:P0400101,group,cfs:0520002072010,味精: same food
+afcd:F005701,group,tfda:P0800101,味醂: same food
+cofid:13-876,group,cfs:071900F003337,咖喱粉: same food
+cfs:072000F008063,rename,咖喱煮醬(市售),simmer sauce; CoFID is curry paste
+tfda:R9900102,group,cfs:0617002710616,啤酒: same food
+usda_fnd:1105781,group,usda_fnd:1750341,嘉啦蘋果: same USDA food (two releases)
+cofid:15-854,rename,墨西哥炸豆泥(自家製),recipe with kidney beans and fat
+usda_sr:170178,group,usda_fnd:2515378,夏威夷果: same food
+usda_fnd:2758995,group,cfs:0601072707777,多種穀物麵包: partial USDA record
+cofid:17-044,group,cfs:071500F006188,大豆油: same food
+afcd:F009977,group,mext:05003,大麻籽: same food
+usda_sr:174272,group,cofid:13-118,天貝: same food
+usda_sr:170554,group,mext:05046,奇亞籽: same food
+mext:04034,group,tfda:R4701201,嫩豆腐: same food
+usda_fnd:1105897,group,usda_fnd:1750340,富士蘋果: same USDA food (two releases)
+cfs:0503020451070,rename,小白菜(菜柄),petiole only
+cfs:10030200283,group,cfs:070302F001301,小白菜: same food
+cfs:0601002708377,rename,小米(煮熟),cooked millet (118 kcal)
+usda_sr:170177,group,cfs:0505000710060,山核桃: same food
+usda_sr:173317,rename,"快餐漢堡包(單層大肉餅,加醬料,蔬菜及蛋黃醬)",
+usda_sr:172080,rename,"快餐漢堡包(雙層大肉餅,加醬料,蔬菜及蛋黃醬)",
+usda_sr:173318,rename,"快餐漢堡包(單層肉餅,三層麵包,加醬料及特製醬)",
+usda_sr:170694,rename,"快餐漢堡包(單層肉餅,加醬料)",
+usda_sr:170693,rename,"快餐漢堡包(單層肉餅,原味)",
+usda_sr:172083,rename,"快餐芝士漢堡包(雙層大肉餅,加醬料,蔬菜及蛋黃醬)",
+usda_sr:170692,rename,"快餐芝士漢堡包(單層肉餅,加醬料及蔬菜)",
+usda_sr:172084,rename,"快餐芝士漢堡包(雙層肉餅,三層麵包,加醬料及特製醬)",
+usda_sr:172081,rename,"快餐芝士漢堡包(單層大肉餅,加醬料,蔬菜及蛋黃醬)",
+usda_sr:172082,rename,"快餐芝士漢堡包(單層大肉餅,加醬料)",
+usda_sr:170691,rename,"快餐芝士漢堡包(單層肉餅,加醬料)",
+usda_sr:173320,rename,"快餐芝士漢堡包(雙層大肉餅,加醬料)",
+usda_sr:173319,rename,"快餐芝士漢堡包(雙層肉餅,加醬料)",
+usda_sr:170690,rename,"快餐芝士漢堡包(單層肉餅,原味)",
+usda_sr:170294,rename,"快餐芝士漢堡包(單層大肉餅,原味)",
+mext:03008,group,tfda:N0100101,方糖: same food
+mext:10347,rename,日本魷魚(烤),MEXT: grilled (焼き); 10346 is boiled
+cfs:084002T0166,rename,春卷(非油炸),
+cfs:0540021410050,rename,"春卷(豬肉蔬菜,油炸)",
+mext:18056,group,cfs:10400200388,春卷: fried frozen spring roll
+cfs:070302F000144,group,cfs:0503020480100,朝鮮薊: same food
+usda_sr:168000,group,cfs:070500F008777,朱古力味榛子醬: same food
+cfs:070400F000134,group,cfs:0504000622040,杏: same food
+usda_sr:171032,rename,杏核仁油,apricot kernel oil; CFS is almond oil
+cfs:0504001830080,rename,杏脯(糖漬),preserved with sugar
+mext:05032,group,cfs:0505000710110,松子: same food
+mext:07185,group,usda_sr:173032,枸杞子: same food
+tfda:D2700501,group,cfs:0504000633040,柿餅: same food
+cofid:14-815,group,cfs:0505000710090,栗子(乾): same food
+cfs:0518061820040,rename,棉花糖(拉絲),cotton candy; the others are marshmallows
+mext:15113,group,tfda:Q6900501,棉花糖: marshmallow
+usda_fnd:2515382,rename,椰子麵粉,coconut flour (defatted); TFDA is coconut milk powder
+mext:07158,rename,椰奶(罐頭),coconut milk (16% fat)
+tfda:P0201101,group,cfs:070500F002982,椰漿: same food
+cfs:080500K0008,rename,椰絲(新鮮),fresh grated coconut
+cfs:070500F002987,rename,椰絲(乾),desiccated
+cofid:13-582,group,cfs:10030200311,椰菜: same food
+cfs:080400E0059,group,cfs:0504000650160,楊桃: same food
+cofid:14-804,rename,巴塞隆拿榛子(只計果仁),Barcelona nuts (a hazelnut type)
+cofid:14-805,rename,"巴塞隆拿榛子(只計果仁,連殼稱重)",
+cfs:0503062050290,group,tfda:R4401301,榨菜: same food
+cofid:17-179,group,cfs:0516001610050,檸檬汽水: same food
+cofid:17-107,group,tfda:Q6300101,水果軟糖: same food
+tfda:R3000101,group,cfs:0501070114090,油條: same food
+cofid:17-787,group,usda_sr:171416,法式沙律醬: same food
+mext:15120,group,cfs:0518061820060,泡泡糖: same food
+tfda:P1002201,group,cfs:072000F008008,海鮮醬: same food
+cfs:0502001410130,rename,綠豆涼粉,mung bean starch jelly; the other is grass jelly
+tfda:Q1001001,group,cfs:0601072707657,漢堡包: both are buns
+cfs:0601072707657,rename,漢堡包(麵包),hamburger bun
+cfs:0506060814200,rename,火腿(中式),"China table (CFC2002): Chinese cured ham, 27 g fat"
+cfs:10060000023,rename,火腿(西式),cooked sandwich ham
+cofid:19-496,group,cfs:10060000023,火腿: UK cooked ham = same food as HK sandwich ham
+cofid:11-1013,group,cfs:074003F006762,火腿菠蘿薄餅: same food
+tfda:O0100501,group,cfs:0516061620100,烏梅汁: same food
+tfda:I0400301,group,cfs:0507030911070,烏骨雞: same food
+tfda:R7300101,group,cfs:0507030913020,烤雞: same food
+tfda:D4410101,group,cfs:070400F003832,無花果乾: same food
+cfs:0501081410090,rename,煎餅(小米麵),foxtail millet pancake
+tfda:Q4100501,rename,煎餅(脆餅),crisp cracker (11.7 g fat)
+tfda:R5100801,group,mext:11183,煙肉: same food
+cofid:13-801,group,mext:17055,牙買加胡椒粉: same food
+cfs:070603F000825,group,afcd:F000825,same AFCD code F000825 (older release)
+cfs:070603F000765,group,afcd:F000765,same AFCD code F000765 (older release)
+cfs:070706F003631,group,afcd:F003631,same AFCD code F003631 (older release)
+usda_sr:173430,rename,牛油(無鹽),butter
+cfs:0515001910010,rename,牛脂,beef tallow
+cfs:0515001050040,rename,澄清牛油,clarified butter
+cfs:070400F000162,group,cfs:0504000612270,牛油果: same food
+mext:11107,rename,牛肉乾(美式),beef jerky (7.8 g fat); CFS is the Chinese snack
+afcd:F010451,rename,"馬郁蘭(新鮮,生)",marjoram; F010452 is oregano
+tfda:P1002601,group,cfs:0520002031110,甜麵醬: same food
+mext:17106,group,cfs:0520002031110,甜麵醬: same food
+tfda:R9900101,group,cfs:10170000519,生啤酒: same food
+cfs:10030400335,group,cfs:070304F009193,番茄: same food
+cofid:13-531,rename,番茄膏(雙倍濃縮),double concentrate
+cfs:0520002032020,rename,番茄膏(罐頭),China table: tomato paste
+cfs:072000F008083,rename,茄汁,FSANZ tomato sauce = ketchup
+cfs:072000F008083,group,usda_sr:168556,茄汁: same food
+mext:17036,group,usda_sr:168556,茄汁: same food
+cofid:50-1173,group,cofid:17-834,番茄醬汁(自家製): same food
+cofid:13-672,group,usda_sr:168483,番薯(焗): same food
+cfs:0518011810010,group,cofid:17-063,白砂糖: same food
+cfs:081900N0027,group,tfda:P0101101,白胡椒粉: same food
+cfs:10030200321,group,cfs:070302F001996,白菜: same food
+tfda:R9900301,group,cfs:0517001712020,白葡萄酒: same food
+tfda:R9900302,group,cfs:0517001712030,紅葡萄酒: same food
+cfs:070107F001463,group,cfs:0601072707598,白麵包: same food
+usda_fnd:325871,group,cfs:0601072707598,白麵包: same food
+cfs:070107F001541,group,cfs:0601072707599,白麵包(烘過): same food
+cofid:11-001,group,cfs:070301F003983,竹芋粉: same food
+cfs:10030300277,group,cfs:070303F005514,節瓜: same food
+mext:03011,group,tfda:P0201001,糖粉: same food
+tfda:A0520301,group,cfs:0601051104812,糙米粉: same food
+usda_fnd:1105430,group,usda_fnd:1750339,紅元帥蘋果: same USDA food (two releases)
+mext:07095,group,tfda:D3100401,紅棗(乾): same food
+cfs:080400E0017,group,cfs:070400F007612,紅毛丹: same food
+cofid:15-853,rename,紅腰豆餅(西印度群島菜),red pea loaf (kidney beans)
+cfs:080304D0338,group,cfs:070304F002901,紅辣椒: same food
+cfs:080304D0337,group,cfs:070304F002896,青辣椒: same food
+afcd:F009572,group,cfs:10170000520,紅酒(赤霞珠): same food
+cofid:16-127,rename,"紅鰽魚(只計魚肉,用混合油炸)",CoFID name error: 16-128 is weighed with bones
+mext:09003,group,cfs:0503070520080,紫菜(乾): same food
+tfda:O0701401,rename,綠茶(樽裝飲品),bottled drink
+cfs:0516011661060,rename,綠茶(茶葉),tea leaves
+cofid:19-506,rename,肉醬(抹醬),meat spread
+mext:17033,rename,肉醬(意粉醬),meat sauce
+mext:11192,group,cofid:19-106,肝腸: same food
+tfda:R5300201,rename,台式香腸(生),Chinese-style sausage; not 腸仔
+cfs:0506060814130,rename,香腸(中式),China table: sweet Chinese sausage
+tfda:Q0900101,group,cfs:10011000413,芝士蛋糕: same food
+cofid:14-847,group,cfs:0520002031140,芝麻醬: same food
+mext:05042,group,cfs:0520002031140,芝麻醬: same food
+mext:17057,group,cfs:071900F005972,芥末粉: same food
+mext:17058,rename,芥末醬(管裝),Japanese tube paste (40 g carbohydrate)
+mext:17078,rename,番芫荽碎(乾),parsley (not coriander)
+usda_sr:170930,group,mext:17078,番芫荽碎(乾): same food
+usda_sr:173806,rename,花生(乾烤),dry-roasted
+usda_sr:175258,rename,花生(油烤),oil-roasted
+tfda:M1600101,group,cfs:0515001920070,花生油: same food
+tfda:P1300901,group,cfs:0505002031040,花生醬: same food
+cofid:14-892,group,usda_fnd:2262072,花生醬(幼滑): same food
+usda_sr:169747,group,afcd:F009860,苔麩: same food
+cfs:10030300338,group,cfs:070303F005513,苦瓜: same food
+cfs:0504000650100,group,cfs:080400E0100,荔枝: same food
+cfs:0503020454130,rename,苦苣,endive; F002884 is chicory
+cfs:10030200303,group,cfs:070302F001990,菜心: same food
+cofid:15-802,rename,菠菜撻(自家製),flan
+cofid:15-805,rename,"蔬菜撻(全麥,自家製)",flan
+cofid:15-804,rename,蔬菜撻(自家製),flan
+mext:05047,group,tfda:B1000101,菱角: same food
+cfs:0515001920090,group,cfs:071500F006189,葵花子油: same food
+usda_sr:172233,group,afcd:F003509,蒔蘿: same food
+cfs:10010700410,group,cfs:070107F001600,蒜蓉包: same food
+mext:17076,rename,蒜蓉(管裝),garlic paste in a tube; TFDA is garlic sauce with oil
+cofid:13-244,group,tfda:E2100101,蒜頭: same food
+usda_fnd:1104647,group,tfda:E2100101,蒜頭: same food
+cfs:10040000298,group,cfs:070400F009534,蓮霧: same food
+usda_sr:170286,group,cfs:0501000190050,蕎麥: same food
+cfs:0601002708362,rename,蕎麥穀粒(煮熟),cooked (118 kcal)
+afcd:F006043,group,tfda:R2001501,蕎麥麵(乾): same food
+usda_sr:173474,group,afcd:F005700,薄荷: same food
+cofid:13-861,group,cfs:071900F009335,薑黃粉: same food
+tfda:P0101901,group,cfs:071900F009335,薑黃粉: same food
+usda_sr:170032,rename,薯仔皮(生),skin only
+usda_sr:170441,rename,"薯仔(微波,只計肉)",
+usda_sr:170094,rename,"薯仔(微波,連皮)",
+usda_sr:170521,group,usda_sr:170094,salted twin
+usda_sr:170035,rename,薯仔皮(微波),
+usda_sr:170115,group,usda_sr:170035,salted twin
+usda_sr:170033,rename,"薯仔(焗,只計肉)",
+usda_sr:170093,rename,"薯仔(焗,連皮)",
+usda_sr:170034,rename,薯仔皮(焗),
+usda_sr:170113,group,usda_sr:170034,salted twin
+usda_sr:170439,rename,薯仔皮(連皮煮),
+usda_sr:170440,rename,薯仔(去皮煮),
+usda_sr:170438,rename,"薯仔(連皮煮,只計肉)",
+cnf:2506,rename,薯仔(連皮煮),flesh and skin
+cfs:072600F007204,rename,脆薯絲,potato straws (509 kcal)
+mext:15080,group,cfs:070110F006679,蘋果批: same food
+cfs:0501101423020,rename,蛋黃鬆糕,China table: egg-yolk cake (3.9 g fat); TFDA is the flaky pastry
+mext:06168,rename,"大吳風草(葉柄,煮)",leopard plant (つわぶき)
+mext:10281,rename,花蛤(生),short-necked clam (あさり)
+usda_fnd:1105547,group,usda_fnd:1750343,蜜脆蘋果: same USDA food (two releases)
+cfs:071300F006285,group,cfs:0613002706351,蠔(生): same food
+mext:17031,group,cfs:072000F008026,蠔油: same food
+tfda:P0800301,group,cfs:072000F008026,蠔油: same food
+cfs:070302F009532,group,cfs:10030200288,西洋菜: same food
+cfs:070302F001905,group,cfs:10030200339,西蘭花: same food
+cfs:10160000510,rename,豆漿(無糖),
+tfda:R5000101,rename,豆漿(有糖),packaged (9 g carbohydrate)
+tfda:R5010101,group,cfs:0502000312030,豆漿粉: same food
+mext:17004,group,cfs:0520002031010,豆瓣醬: same food
+tfda:R4700401,group,cfs:0502000315050,豆腐皮: same food
+tfda:I0304201,group,cfs:0506060811140,豬大排: same food
+tfda:I0321901,group,cfs:0506060812100,豬小腸: same food
+tfda:I0321101,group,cfs:0506060812020,豬肚: same food
+tfda:I0320601,group,cfs:0506060812120,豬血: same food
+cfs:0504000629020,rename,中國櫻桃,false sour cherry (Prunus pseudocerasus)
+tfda:D3300101,group,cfs:070400F002522,車厘子: same food
+usda_sr:171833,rename,辣根醬(蛋黃醬底),mayonnaise-based (50 g fat)
+cofid:13-873,group,cfs:0519002060070,辣椒粉: same food
+tfda:P0101801,group,cfs:0519002060070,辣椒粉: same food
+cofid:13-882,group,afcd:F007715,迷迭香(乾): same food
+usda_fnd:2346387,group,cfs:071013F003269,酸忌廉(全脂): same food
+tfda:P0700701,group,cfs:0520002031060,醬油膏: same food
+mext:12016,group,cofid:12-960,雞蛋白(乾): same food
+cofid:12-941,group,mext:12015,雞蛋白(烚): same food
+cofid:12-938,group,cfs:070900F003706,雞蛋白(生): same food
+mext:12014,group,cfs:070900F003706,雞蛋白(生): same food
+cfs:0511001680030,group,cfs:10110000424,雪糕: same food
+cfs:10040000348,group,cfs:070400F000098,青蘋果(連皮): same food
+usda_fnd:1105664,group,usda_fnd:1750342,青蘋果: same USDA food (two releases)
+usda_fnd:2346400,group,cofid:13-514,青豆角: same food
+tfda:P1001201,rename,青醬(意粉醬),ready pasta sauce with butter and starch (5 g fat)
+cfs:0503050444010,group,cfs:10030200293,韭菜: same food
+cfs:0519000480560,group,cfs:081900N0018,香茅: sparse record
+tfda:P0600601,rename,醋,plain vinegar (3 kcal)
+afcd:F009499,rename,意大利黑醋,balsamic vinegar
+cofid:12-490,group,mext:13055,馬斯卡邦芝士: same food
+tfda:Q0700501,rename,鬆餅(台式),Taiwan 鬆餅; CFS is a muffin
+mext:10276,rename,"魚(西太公魚,生)",わかさぎ; 10211 is ちか
+tfda:P0800401,group,cfs:072000F008004,魚露: same food
+tfda:J3501301,group,cfs:0613002706337,鮑魚: same food
+cofid:14-369,group,cfs:10160600266,鮮榨橙汁: same food
+cofid:16-393,group,afcd:F005268,鯖魚: same food
+mext:10041,rename,疣鯛(生),Japanese butterfish (えぼだい); 10266 is silver pomfret
+cfs:071200F008359,rename,鰽魚柳(生),snapper
+cfs:071200F008360,rename,"鰽魚柳(蒸,無添加脂肪)",snapper
+cfs:071200F009164,rename,"羅非魚柳(蒸,無添加脂肪)",tilapia
+tfda:I0520601,group,cfs:0507060921060,鴨翅: same food
+tfda:I0520401,group,cfs:0507060922010,鴨腸: same food
+tfda:K0206101,group,cfs:0509001121020,鴨蛋白: same food
+tfda:I0620201,group,cfs:0507090932010,鵝肝: same food
+afcd:F003539,group,usda_fnd:321358,鷹嘴豆泥: same food
+cofid:11-896,group,cfs:070200F003986,鷹嘴豆粉: same food
+cfs:070100F009536,rename,小麥胚芽,wheat germ (not malt)
+cfs:0601002708477,rename,小麥胚芽,wheat germ (not malt)
+cfs:070100F009536,group,cfs:0601002708477,小麥胚芽: same food
+cfs:0515001920120,rename,小麥胚芽油,wheat germ oil
+usda_sr:171014,group,cfs:0515001920120,小麥胚芽油: same food
+mext:17082,group,cofid:17-378,麵包酵母: same food
+afcd:F004002,group,cfs:0502000312010,黃豆粉: same food
+tfda:H1120101,group,cfs:0502000312010,黃豆粉: same food
+cfs:0513001221110,group,cfs:0613002706349,龍蝦: same food
+cnf:6433,group,cnf:6239,"same burger, two CNF records"
+cnf:4397,group,cofid:14-335,糖漬車厘子: same food
+cnf:6304,group,tfda:E3300105,紹菜: same food
+cnf:6732,group,cofid:17-684,蔬菜湯(自家製): same food
+cnf:4077,group,cfs:10011000639,雞批: same food
+cnf:5921,rename,"魚(湖鯡,北美原住民傳統食物,煙燻,乾)",cisco; 5923 is whitefish
+cnf:3235,rename,"魚(梭鱸,生)",sauger; USDA record is walleye
+cnf:6181,group,tfda:H0620101,黑豆粉: same food
+usda_sr:168436,group,mext:08013,冬菇(乾): same food
+cofid:14-873,group,cfs:070500F002987,椰絲(乾): same food
+usda_sr:171315,group,mext:17055,牙買加胡椒粉: same food
+afcd:F008204,group,cfs:0503070520080,紫菜(乾): nori = dried laver
+cofid:14-878,group,usda_sr:173806,花生(乾烤): same food
+cfs:070302F003784,group,cfs:0503020454130,苦苣: same food
+tfda:H1150201,group,cfs:10160000510,豆漿(無糖): same food
+usda_sr:174030,rename,"免治牛肉(90%瘦,生)",90% lean / 10% fat; CoFID extra lean has 4 g fat
+usda_fnd:335240,group,cfs:0601072707709,全麥麵包: same values
+usda_sr:175041,group,cofid:17-358,塔塔粉: same food (CoFID gives no energy)
+usda_sr:172714,rename,朱古力薄脆曲奇,chocolate wafer cookies; CoFID is a chocolate-covered wafer bar
+usda_sr:172707,rename,"海綿蛋糕(不加牛油,自家製)",4 g fat; CoFID recipe has butter (26 g fat)
+usda_sr:171162,rename,"湯(牛肉粒,罐頭,即食)",chunky beef soup; 174073 is beef barley
+usda_sr:174980,group,cfs:0501091524110,牛奶餅乾: same food
+cofid:18-416,group,usda_sr:168626,牛肝(炆): same food
+cofid:18-415,group,usda_sr:169451,牛肝(生): same food
+cofid:18-418,group,usda_sr:167863,豬肝(炆): same food
+cnf:6579,group,cfs:0520002032020,番茄膏(罐頭): same food
+cofid:13-888,group,tfda:E4000101,芫荽: same food
+usda_sr:170026,group,tfda:B0700202,薯仔: same food
+usda_sr:170378,group,cfs:070200F000418,蠶豆: same food
+usda_sr:169248,group,cfs:10030200313,西生菜: same food
+usda_sr:169225,rename,青瓜(去皮),peeled
+usda_sr:175130,rename,"魚(阿拉斯加鱈魚,生,含保水劑)",may contain additives to retain moisture
+cnf:2417,group,tfda:B0700202,薯仔: same food

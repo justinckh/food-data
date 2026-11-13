@@ -2,7 +2,7 @@
 
 This document is in ASD-STE100 Simplified Technical English.
 
-Last update: 2026-11-12.
+Last update: 2026-11-13.
 
 ## 1. Purpose
 
@@ -61,6 +61,7 @@ Other systems and AI tools will also use the data.
 | `pipeline/link.py` | This script finds the duplicates and records them in `food_links`. The build runs it after the import. |
 | `pipeline/synonyms.py` | This script uses the synonym table for search and for links (section 3.7). |
 | `pipeline/synonyms.csv` | The synonym table. Each row is 1 food concept with the words for HK, TW, CN, JA and EN. |
+| `pipeline/name_fixes.csv` | Reviewed decisions for foods that had the same Chinese name: join the group of the same food, or show a different name (section 3.9.1). |
 | `pipeline/synonyms_ambiguous.csv` | Words that have different meanings in different regions, and our decision for each word. |
 | `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
 | `data/raw/` | The downloaded source files. Git does not keep this folder. |
@@ -281,6 +282,11 @@ To get the data, do these steps:
 4. Run `npm run db`.
 
 The importer does not use the 2015 file (`cnf-fcen-csv.zip`). You can delete it.
+
+If the zip file is not on your computer, the importer uses the CNF records in the copy of the live database (`data/export/download/remote.db`, made by `npm run pull`).
+Thus an update does not remove CNF from the site.
+The values, names and servings are the same as on the site.
+The live copy does not have the USDA NDB number. A CNF record with 1 direct link to a USDA record gets the ID of that record in `origin_code`. Rule 1 accepts this ID.
 
 The importer finds each nutrient by its nutrient code.
 These codes are the same as the USDA SR Legacy nutrient numbers.
@@ -519,6 +525,43 @@ We agreed these rules with the user on 2026-11-12.
    - If not, the script uses the TFDA name.
 4. The English display name (`foods.display_en`) is the shortest English name in the group.
 5. The original names do not change. The food page shows them.
+
+### 3.9.1 Same name, different groups (clean-up of 2026-11-13)
+
+The site must not show 2 food groups with the same Chinese name.
+Before the clean-up, 282 names had more than 1 group (620 groups). Example: 3 groups with the name 火腿.
+These are 3 different types of problem:
+
+| Problem | Example | Action |
+|---|---|---|
+| 1 source has the same food 2 times | USDA Foundation "Beans, Dry, Pinto" (335695 and 747445) | Automatic link (rule 0c below) |
+| The same food from 2 sources, with different values | 天貝 from CoFID and USDA | Join the groups (`group` in `name_fixes.csv`) |
+| 2 different foods with the same name | 火腿: Chinese cured ham (CFC2002, 27 g fat) and western ham (CFS, 4.8 g fat) | Show different names (`rename` in `name_fixes.csv`) |
+
+Rule 0c (`link_same_source` in `pipeline/link.py`) links records of 1 source:
+
+- A1. Same English name and same values: `exact_copy` of the record with the newest ID. The site does not show the copy.
+- A2. Same English name, and 1 record has no energy (a partial USDA release): `equivalent` of the full record.
+- B. The same food with salt and without salt (USDA): `equivalent` of the record without salt. Only the sodium is different.
+
+The file `pipeline/name_fixes.csv` has 1 row for each reviewed decision:
+
+| Column | Content |
+|---|---|
+| `id` | The food record |
+| `action` | `group`: the record is the same food as `value`. The build makes an `equivalent` link (method `review`). `rename`: show `value` as the Chinese name. |
+| `value` | A food ID (`group`) or a Chinese name (`rename`) |
+| `note` | The reason |
+
+A `rename` changes only the shown name. The original name does not change.
+For a CFS record, the new name replaces the CFS name.
+
+The main record of a group is not a record that has a link to a record of the same source (an old version, a TFDA sample, a copy, a record with salt).
+A record with energy comes before a record without energy.
+
+Result on 2026-11-13: 0 names with more than 1 group. The site shows 19,369 food groups (before: 19,818). No nutrient value changed.
+At each build, the line `Shown names` tells the number of names with more than 1 group.
+If the number is more than 0, add rows to `pipeline/name_fixes.csv`.
 
 ### 3.10 Categories for all sources
 

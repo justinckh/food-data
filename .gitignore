@@ -4,6 +4,7 @@ scrape.log
 
 # Raw downloads from other sources (re-creatable)
 data/raw/
+data/raw2/
 
 # Build outputs
 data/food.db

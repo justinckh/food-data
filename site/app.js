@@ -17,7 +17,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(
 // browser or the edge cached for the previous release. Change it when the API or data changes.
 // Machine-translated Chinese names (foods.zh_mt): the tag is hidden for now (user request 2026-11-12).
 const SHOW_MT_TAG = false;
-const API_VERSION = "2026-11-13j";
+const API_VERSION = "2026-11-13k";
 const api = (path) => {
   if (!cache.has(path)) {
     const url = path + (path.includes("?") ? "&" : "?") + "v=" + API_VERSION;

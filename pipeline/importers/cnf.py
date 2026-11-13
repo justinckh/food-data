@@ -131,9 +131,55 @@ def load(path):
         yield food, values.get(code, []), servings.get(code, [])
 
 
+LIVE = "data/export/download/remote.db"   # npm run pull: copy of the live D1 database
+
+
+def load_live(path):
+    """Fallback without the zip (user decision 2026-11-13): rebuild the CNF records from the copy
+    of the live database (served layout, pipeline/serve_db.py), so CNF stays on the site and goes
+    through the same links and names as the other sources.
+    - nutrients: the JSON is unpacked; the standard energy is replaced by the source's own figure
+      (energy_kcal_source), as in the raw data.
+    - origin_code: the live data has no USDA NDB number. A CNF record with exactly one direct
+      link to a USDA record gets that record's id as origin_code (link.py rule 1 accepts it)."""
+    import json
+    import sqlite3
+    db = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+    src = dict(zip([d[0] for d in db.execute("SELECT * FROM sources WHERE id = 'cnf'").description],
+                   db.execute("SELECT * FROM sources WHERE id = 'cnf'").fetchone()))
+    cols = ["id", "source_id", "source_code", "name_en", "name_zh", "name_local", "alias", "group_en", "group_zh",
+            "subgroup_en", "subgroup_zh", "description", "origin_source"]
+    rows = []
+    for r in db.execute(f"SELECT {', '.join(cols)}, nutrients, servings, links FROM foods "
+                        "WHERE source_id = 'cnf' ORDER BY id"):
+        food = {c: (v if v != "" else None) for c, v in zip(cols, r[:len(cols)])}
+        nutr, serv, links = (json.loads(x) if x else {} for x in r[len(cols):])
+        values = []
+        for nid, v in nutr.items():
+            if nid in ("energy_kcal", "energy_kcal_source"):
+                continue
+            d = v if isinstance(v, dict) else {"v": v}
+            values.append((nid, d.get("v"), d.get("f"), d.get("m"), d.get("e", 0)))
+        e = nutr.get("energy_kcal_source")
+        if e is not None:
+            d = e if isinstance(e, dict) else {"v": e}
+            values.append(("energy_kcal", d.get("v"), d.get("f"), d.get("m"), d.get("e", 0)))
+        usda = [k for k in links if k.startswith("usda_")]
+        food["origin_code"] = usda[0] if len(usda) == 1 else None
+        food["search_text"] = search_text(food)
+        rows.append((food, values, [tuple(x) for x in serv]))
+    return {k: src[k] for k in ("id", "name", "publisher", "country", "licence", "attribution", "url",
+                                "version", "retrieved_at")}, rows
+
+
 def datasets(root):
     path = root / RAW / FILE
     if not path.exists():
+        live = root / LIVE
+        if live.exists():
+            print(f"  cnf        no {FILE}: records taken from the live copy {LIVE}")
+            yield load_live(live)
+            return
         print(f"  cnf        skipped: no {FILE} in {RAW}/ (download it by hand, see PROJECT.md 2.10)")
         return
     src = dict(SOURCE, retrieved_at=date.fromtimestamp(path.stat().st_mtime).isoformat())
