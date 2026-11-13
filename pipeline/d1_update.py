@@ -38,6 +38,17 @@ MAX_STATEMENT = 50_000
 FTS_COST = 1.1   # FTS5 (columnsize=0) writes a content row per document + index blocks (~1 per 13 docs)
 
 
+def same(x, y):
+    """Equal values; floats equal up to rounding in the last digits (D1 export prints 17 digits)."""
+    if isinstance(x, float) and isinstance(y, (int, float)) or isinstance(y, float) and isinstance(x, (int, float)):
+        return abs(x - y) <= 1e-9 * max(abs(x), abs(y), 1.0)
+    return x == y
+
+
+def same_row(a, b):
+    return len(a) == len(b) and all(same(x, y) for x, y in zip(a, b))
+
+
 def index_count(table):
     return sum(1 for i in INDEXES if f" ON {table}(" in i)
 
@@ -105,15 +116,15 @@ def plan():
         old = {r[0]: r for r in db.execute(f"SELECT {sel_old} FROM old.{t}")}
         added = [k for k in new if k not in old]
         removed = [k for k in old if k not in new]
-        changed = [k for k in new if k in old and new[k] != old[k]]
+        changed = [k for k in new if k in old and not same_row(new[k], old[k])]
 
         for i in range(0, len(removed), 200):
             ids = removed[i:i + 200]
             parts.add(f"DELETE FROM {t} WHERE id IN ({','.join(map(literal, ids))});", (1 + n_idx) * len(ids))
         # UPDATE only the changed columns (an UPDATE of unindexed columns is 1 write)
         for k in changed:
-            sets = [f"{c} = {literal(v)}" for c, v, o in zip(cols, new[k], old[k]) if v != o]
-            touched = {c for c, v, o in zip(cols, new[k], old[k]) if v != o}
+            sets = [f"{c} = {literal(v)}" for c, v, o in zip(cols, new[k], old[k]) if not same(v, o)]
+            touched = {c for c, v, o in zip(cols, new[k], old[k]) if not same(v, o)}
             idx_cols = {"category", "is_primary", "source_id"} if t == "foods" else set()
             parts.add(f"UPDATE {t} SET {', '.join(sets)} WHERE id = {literal(k)};", 1 + (n_idx if touched & idx_cols else 0))
         batched(f"INSERT INTO {t} ({', '.join(cols)}) VALUES ",

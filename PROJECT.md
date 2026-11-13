@@ -81,6 +81,8 @@ Other systems and AI tools will also use the data.
 | `npm run update:plan` | Makes the served database. Compares it with the data on D1. Writes the changes as SQL parts (section 4.4.2). |
 | `npm run update:apply` | Sends the next part to D1. |
 | `npm run update:status` | Shows the parts and which parts are sent. |
+| `npm run pull` | Downloads the live database from Cloudflare D1 (section 4.4.4). |
+| `npm run pull:local` | Downloads the live database and puts it into the local D1 database for `npm run dev`. |
 | `npm run dev` | Starts the site and the API on your computer at http://localhost:8788. |
 | `npm run deploy` | Sends the site and the API to the live site on Cloudflare Pages. |
 
@@ -745,6 +747,37 @@ We tested the tool on a local database. A full upload and a small update make ex
 
 A search with 3 or more characters uses the index `search_fts` (FTS5, trigram). It reads only the rows that match.
 A search with 1 or 2 characters (for example 白飯) reads all foods. Its result stays in the cache for 1 day.
+
+### 4.4.4 Work as a collaborator
+
+A collaborator can get the live data from Cloudflare. The collaborator does not need the raw files for this.
+
+Before you start, make sure that:
+
+- Node.js and Python 3 are on your computer.
+- You are a member of the Cloudflare account "neologism". The file `.env` has the account ID.
+
+Do these steps:
+
+1. Clone the repository from GitHub.
+2. Run `npx wrangler login`. Log in with your Cloudflare user.
+3. Run `npm run pull:local`.
+4. Run `npm run dev`. Open http://localhost:8788.
+
+The script `pipeline/d1_download.py` does these tasks:
+
+- It exports the tables `sources`, `nutrients`, `categories`, `subcategories` and `foods` from D1.
+- It makes the file `data/export/download/remote.db`.
+- It sets this file as the update baseline. Then `npm run update:plan` sends only the changes.
+- With `pull:local`, it also puts the data and the search index into the local D1 database.
+
+The download reads approximately 27,000 rows. This is a small part of the daily limit (5 million).
+
+D1 has only the served layout (section 3.2.1). You cannot download `data/food.db`.
+To change the data, make `data/food.db` from the raw files with `npm run build` (section 2.3).
+
+Before you send an update, run `npm run pull`. Then the baseline is the same as the live data.
+If 2 persons send updates, the second update can overwrite the first update.
 
 ### 4.5 Vector search (future)
 
