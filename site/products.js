@@ -33,6 +33,15 @@ document.getElementById("searchForm").addEventListener("submit", () => {
   }
 });
 
+// Products home: everyday Hong Kong products, picked by hand (2026-11-13). Each one has a photo and
+// nutrition facts. [barcode, Chinese name shown on the card]
+const HK_PICKS = [
+  ["4891028703907", "維他檸檬茶（低糖）"], ["4891028172345", "維他奶（低糖麥精豆奶）"], ["4897878000012", "出前一丁"],
+  ["4897878100408", "合味道（海鮮味）"], ["0089782032881", "嘉頓生命麵包"], ["4892294101428", "卡樂B 粟一燒"],
+  ["4895047047288", "奇華雞蛋卷"], ["0078895100020", "李錦記蠔油"], ["4891014896033", "益力多"],
+  ["4893318633536", "維記低脂高鈣奶"], ["4890008171606", "陽光檸檬茶"], ["6937761805022", "寶礦力水特"],
+];
+
 const P_ALL = { id: "all", name_zh: "全部包裝食品", name_en: "All products" };
 const marketName = (id) => PMETA.markets.find((m) => m.id === id)?.name_zh || id;
 const pHref = (cid, o = {}) => {
@@ -85,12 +94,13 @@ async function productsHome() {
     </section>
 
     <section class="home-section">
-      <div class="section-head"><h2>香港熱門產品</h2><a class="eyebrow" href="${pHref("all", { m: "HK" })}">全部香港產品 ›</a></div>
+      <div class="section-head"><h2>香港人熟悉的產品</h2><a class="eyebrow" href="${pHref("all", { m: "HK" })}">標示在香港有售的產品 ›</a></div>
+      <p class="muted section-note">本站挑選的香港常見產品。營養數值來自 Open Food Facts 用戶輸入的包裝標籤，只供參考。</p>
       <div class="pcards" id="pPopular"><p class="muted">載入中…</p></div>
     </section>
 
     <section class="home-section">
-      <div class="section-head"><h2>按地區瀏覽</h2><span class="eyebrow">產品有售的地區</span></div>
+      <div class="section-head"><h2>按地區瀏覽</h2><span class="eyebrow">用戶標示的有售地區</span></div>
       <div class="tabs markets">${PMETA.markets.map((m) => `<a href="${pHref("all", { m: m.id })}">${esc(m.name_zh)} <span class="n">${m.n.toLocaleString()}</span></a>`).join("")}</div>
     </section>
 
@@ -107,7 +117,7 @@ async function productsHome() {
       <div class="source-card off-card">
         <div class="flag">Open Food Facts</div>
         <div><strong>資料來自 Open Food Facts</strong>
-          <span class="sub">全球用戶按包裝標籤輸入的公開資料庫。本站收錄在亞洲地區有售的產品；其他條碼會即時向 Open Food Facts 查詢。</span>
+          <span class="sub">全球用戶按包裝標籤輸入的公開資料庫。本站收錄被用戶標示在亞洲地區有售的產品；其他條碼會即時向 Open Food Facts 查詢。</span>
           <span class="sub">${esc(PMETA.source.licence)}</span></div>
       </div>
     </section>`;
@@ -130,14 +140,15 @@ async function productsHome() {
     }, 400);
   });
   document.getElementById("pScan").addEventListener("click", openScanner);
-  const d = await api("/api/products/list?c=all&m=HK&sort=popular&page=1");
+  const d = await api(`/api/products/codes?codes=${HK_PICKS.map(([c]) => c).join(",")}`);
   const box = document.getElementById("pPopular");
   if (!box) return;
-  box.innerHTML = d.results.slice(0, 8).map((p) => `
+  const label = Object.fromEntries(HK_PICKS);
+  box.innerHTML = d.results.map((p) => ({ ...p, sub: p.name, name: label[p.code] || p.name })).map((p) => `
     <a href="#/p/i/${encodeURIComponent(p.code)}">
       ${thumb(p, "pimg")}
       <div class="nm">${esc(p.name)}</div>
-      <div class="sub">${esc([p.brand, p.quantity].filter(Boolean).join(" · "))}</div>
+      <div class="sub">${esc([p.brand, p.sub && p.sub !== p.name && p.sub.toLowerCase() !== (p.brand || "").toLowerCase() ? p.sub : p.quantity].filter(Boolean).join(" · "))}</div>
       <div class="kc">${typeof p.energy_kcal === "number" ? Math.round(p.energy_kcal) : "—"}<small>kcal/100${perUnit(p) === "毫升" ? "ml" : "g"}</small>${nutriBadge(p.nutriscore)}</div>
     </a>`).join("");
 }
@@ -160,7 +171,7 @@ async function productCategory(cid, params) {
   const href = (o) => pHref(cid, { m, sort, page: 1, ...o });
   app.innerHTML = `
     ${crumbs([["包裝食品", "#/p"], [c.name_zh, ""]])}
-    <h1 class="page">${esc(c.name_zh)}${m ? ` <span class="h-sub">· ${esc(marketName(m))}有售</span>` : ""}</h1>
+    <h1 class="page">${esc(c.name_zh)}${m ? ` <span class="h-sub">· 標示在${esc(marketName(m))}有售</span>` : ""}</h1>
     <p class="muted">${esc(c.name_en)} · ${d.total.toLocaleString()} 件產品</p>
     <div class="tabs filters markets">
       <a href="${href({ m: "" })}" class="${m ? "" : "on"}">所有地區</a>
@@ -270,7 +281,7 @@ async function productPage(code) {
             ${p.nova ? `<span class="pill soft" title="NOVA 加工程度分類">NOVA ${p.nova} · ${NOVA[p.nova]}</span>` : ""}
             ${p.off_category ? `<span class="pill soft">${esc(p.off_category)}</span>` : ""}
           </div>
-          ${markets.length ? `<p class="muted desc">有售地區：${markets.map(esc).join("、")}</p>` : p.countries ? `<p class="muted desc">有售地區：${esc(p.countries)}</p>` : ""}
+          ${markets.length ? `<p class="muted desc">用戶標示的有售地區：${markets.map(esc).join("、")}</p>` : p.countries ? `<p class="muted desc">用戶標示的有售地區：${esc(p.countries)}</p>` : ""}
         </div>
       </div>
       ${p.has_nutrition ? `<div class="serving-row">
