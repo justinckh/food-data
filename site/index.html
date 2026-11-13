@@ -14,10 +14,18 @@
 <header class="topbar">
   <div class="wrap topbar-inner">
     <a class="brand" href="#/"><span class="brand-mark"></span>食物營養資料庫</a>
+    <nav class="section-tabs" id="sectionTabs" aria-label="資料類別">
+      <a href="#/" data-sec="foods" class="on">食物</a>
+      <a href="#/p" data-sec="products">包裝食品</a>
+    </nav>
     <form class="search" id="searchForm" role="search">
       <svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
       <input id="q" type="search" placeholder="搜尋食物，例如：虎蝦、白飯、apple" autocomplete="off" aria-label="搜尋食物">
     </form>
+    <button type="button" class="scan-btn" id="scanBtn" aria-label="掃描條碼" title="掃描條碼">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><path d="M7 8v8M10.5 8v8M14 8v8M17 8v8"/></svg>
+      <span>掃描條碼</span>
+    </button>
   </div>
   <nav class="groupbar" id="groupbar" aria-label="食物類別"></nav>
 </header>
@@ -25,9 +33,45 @@
 <main class="wrap" id="app"><p class="muted">載入中…</p></main>
 
 <footer class="wrap footer">
-  數值以每100克可食用部份計算，只供一般參考。資料來自各地政府的公開食物成分資料庫，詳見各食物頁的資料來源。
+  <span class="foot-foods">數值以每100克可食用部份計算，只供一般參考。資料來自各地政府的公開食物成分資料庫，詳見各食物頁的資料來源。</span>
+  <span class="foot-products">包裝食品資料來自 <a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a>（ODbL 授權），由用戶按包裝標籤輸入，只供一般參考，請以包裝為準。</span>
 </footer>
 
+<dialog class="scanner" id="scanner" aria-labelledby="scanTitle">
+  <div class="scan-head">
+    <h2 id="scanTitle">掃描條碼</h2>
+    <button type="button" class="icon-btn" id="scanClose" aria-label="關閉">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="scan-view" id="scanView">
+    <video id="scanVideo" playsinline muted></video>
+    <div class="scan-frame" aria-hidden="true"><i></i></div>
+  </div>
+  <p class="scan-status" id="scanStatus" role="status">把條碼放在框內</p>
+  <form class="scan-manual" id="scanManual">
+    <input id="scanCode" inputmode="numeric" pattern="[0-9]{6,14}" placeholder="或輸入條碼數字" aria-label="條碼數字" autocomplete="off">
+    <button type="submit">查看</button>
+  </form>
+  <label class="scan-photo">
+    <input type="file" id="scanFile" accept="image/*" capture="environment">
+    <svg class="icon" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+    用相片掃描
+  </label>
+</dialog>
+
+<dialog class="notice-dlg" id="betaNotice" aria-labelledby="betaTitle">
+  <span class="pill soft">測試版</span>
+  <h2 id="betaTitle">包裝食品資料仍在開發中</h2>
+  <p>產品資料來自 <b>Open Food Facts</b>，由世界各地的用戶自願輸入，本站<b>未有逐一核實</b>，內容可能有錯漏或已經過時。</p>
+  <p>購買或食用前，請以包裝上的營養標籤及成分表為準。如有食物敏感，請特別留意。</p>
+  <form method="dialog" class="notice-actions">
+    <label><input type="checkbox" id="betaHide"> 不再顯示</label>
+    <button type="submit" value="ok" autofocus>明白</button>
+  </form>
+</dialog>
+
 <script src="app.js"></script>
+<script src="products.js"></script>
 </body>
 </html>

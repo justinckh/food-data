@@ -22,3 +22,6 @@ node_modules/
 
 # Machine translation work files (pipeline/translate_prep.py)
 data/translate/
+
+# Local secrets for `npm run dev` (DEEPSEEK_API_KEY). Never commit. Live site: wrangler pages secret put
+.dev.vars

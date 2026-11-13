@@ -5,6 +5,7 @@
 //   #/c/<category | all>?sub=<subcategory>&src=<source>&sort=<sort>&page=<n>   database-wide category
 //   #/f/<food id>      food detail (old CFS ids without "cfs:" still work)
 //   #/search/<query>   search results
+//   #/p...             packaged products (site/products.js): #/p  #/p/c/<cat>  #/p/search/<q>  #/p/i/<barcode>
 "use strict";
 
 let META, CATS = {}, NUTRIENTS = {};
@@ -79,6 +80,26 @@ function foodRow(f, extra = "") {
   return `<li><a href="#/f/${encodeURIComponent(f.id)}">
     <span><span class="nm">${esc(name(f))}</span> ${multi}<br><span class="sub">${esc(subName(f))}${extra}</span></span>
     <span class="kc">${kcal(f)}<small>kcal/100g</small></span></a></li>`;
+}
+
+// The two sections of the site: foods (government composition data) and packaged products (Open Food Facts).
+const inProducts = () => /^#\/p(\/|\?|$)/.test(location.hash);
+const PLACEHOLDER = { foods: "搜尋食物，例如：虎蝦、白飯、apple", products: "搜尋產品名稱、品牌或條碼" };
+let groupbarFor = null;
+function setSection(sec) {
+  document.body.classList.toggle("in-products", sec === "products");
+  document.querySelectorAll("#sectionTabs a").forEach((a) => a.classList.toggle("on", a.dataset.sec === sec));
+  q.placeholder = PLACEHOLDER[sec];
+  q.setAttribute("aria-label", sec === "products" ? "搜尋包裝食品" : "搜尋食物");
+  if (groupbarFor === sec) return;
+  groupbarFor = sec;
+  const bar = document.getElementById("groupbar");
+  bar.setAttribute("aria-label", sec === "products" ? "包裝食品類別" : "食物類別");
+  bar.innerHTML = sec === "products"
+    ? (PMETA ? `<a href="#/p/c/all" data-g="all">全部</a>` + PMETA.categories
+      .map((c) => `<a href="#/p/c/${c.id}" data-g="${c.id}">${esc(c.name_zh)}</a>`).join("") : "")
+    : `<a href="#/c/all" data-g="all">全部</a>` + META.categories
+      .map((c) => `<a href="${catHref(c.id)}" data-g="${c.id}">${esc(c.name_zh)}</a>`).join("");
 }
 
 function setActiveGroup(c) {
@@ -410,10 +431,18 @@ async function search(term) {
 }
 
 async function route() {
-  document.body.classList.toggle("is-home", !/^#\/(f|c|search)\//.test(location.hash));
   const [path, query = ""] = location.hash.replace(/^#\/?/, "").split("?");
   const parts = path.split("/").map(decodeURIComponent);
+  const products = parts[0] === "p";
+  document.body.classList.toggle("is-home", products ? !parts[1] : !/^#\/(f|c|search)\//.test(location.hash));
   try {
+    if (products) {
+      await loadProductMeta();
+      setSection("products");
+      await productRoute(parts.slice(1), new URLSearchParams(query));
+      return;
+    }
+    setSection("foods");
     if (parts[0] === "f" && parts[1]) await food(parts[1]);
     else if (parts[0] === "c" && parts[1]) await category(parts[1], new URLSearchParams(query));
     else if (parts[0] === "search" && parts[1]) await search(parts[1]);
@@ -430,7 +459,8 @@ q.addEventListener("input", () => {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(() => {
     const v = q.value.trim();
-    location.hash = v ? `#/search/${encodeURIComponent(v)}` : "#/";
+    const base = inProducts() ? "#/p" : "#";
+    location.hash = v ? `${base}/search/${encodeURIComponent(v)}` : `${base}/`;
   }, 250);
 });
 document.getElementById("searchForm").addEventListener("submit", (e) => e.preventDefault());
@@ -440,8 +470,6 @@ api("/api/meta")
     META = meta;
     CATS = Object.fromEntries(meta.categories.map((c) => [c.id, c]));
     NUTRIENTS = Object.fromEntries(meta.nutrients.map((x) => [x.id, x]));
-    document.getElementById("groupbar").innerHTML = `<a href="#/c/all" data-g="all">全部</a>` + meta.categories
-      .map((c) => `<a href="${catHref(c.id)}" data-g="${c.id}">${esc(c.name_zh)}</a>`).join("");
     window.addEventListener("hashchange", route);
     route();
   })

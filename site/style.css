@@ -249,3 +249,167 @@ body.is-home .topbar .search { display: none; }
 
 /* food page: note when the source has no energy / carbohydrate value */
 .kc-note { flex-basis: 100%; margin: 10px 0 0; font-size: 12px; color: rgba(255,255,255,0.75); }
+
+/* ---------- sections: foods | packaged products ---------- */
+.section-tabs { display: flex; gap: 2px; padding: 3px; border-radius: 999px; background: var(--sunken); flex: none; }
+.section-tabs a { font-size: 14px; font-weight: 700; padding: 6px 14px; border-radius: 999px; color: var(--ink-2); white-space: nowrap; }
+.section-tabs a:hover { color: var(--ink); }
+.section-tabs a.on { background: var(--surface); color: var(--ink); box-shadow: 0 1px 3px #0000001A; }
+.scan-btn {
+  flex: none; display: inline-flex; align-items: center; gap: 8px; height: 42px; padding: 0 16px; border-radius: 999px;
+  border: 0; background: var(--orange); color: var(--ink); font-weight: 800; font-size: 14px; cursor: pointer; box-shadow: var(--shadow-brand);
+}
+.scan-btn:hover { background: var(--orange-600); }
+.scan-btn .icon { width: 20px; height: 20px; }
+body.is-home .topbar .search { display: none; }
+body.is-home .topbar .scan-btn { margin-left: auto; }
+.footer .foot-products, body.in-products .footer .foot-foods { display: none; }
+body.in-products .footer .foot-products { display: inline; }
+.link { color: var(--orange-600); font-weight: 700; background: none; border: 0; padding: 0; cursor: pointer; font-size: inherit; }
+.link:hover { text-decoration: underline; }
+
+/* products home */
+.hero-row { display: flex; gap: 10px; align-items: center; }
+.hero-row .search { flex: 1; }
+.scan-cta {
+  display: inline-flex; align-items: center; gap: 8px; height: 54px; padding: 0 22px; border-radius: 999px; border: 0;
+  background: var(--orange); color: var(--ink); font-size: 16px; font-weight: 800; cursor: pointer; box-shadow: var(--shadow-brand); white-space: nowrap;
+}
+.scan-cta:hover { background: var(--orange-600); }
+.scan-cta .icon { width: 22px; height: 22px; }
+.markets a .n { font-weight: 500; color: var(--ink-3); margin-left: 4px; }
+.markets a.on .n { color: #D6D2C8; }
+.pcards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.pcards a { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-card); padding: 12px; box-shadow: var(--shadow-card); display: flex; flex-direction: column; gap: 4px; transition: border-color .15s; min-width: 0; }
+.pcards a:hover { border-color: var(--ink-3); }
+.pcards .pimg { aspect-ratio: 1; margin-bottom: 8px; }
+.pcards .nm { font-weight: 700; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.pcards .sub { font-size: 12px; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pcards .kc { font-size: 20px; font-weight: 900; letter-spacing: -0.4px; margin-top: auto; padding-top: 6px; display: flex; align-items: baseline; gap: 4px; }
+.pcards .kc small { font-size: 12px; font-weight: 600; letter-spacing: 0; color: var(--ink-3); }
+.pcards .kc .nutri { margin-left: auto; align-self: center; }
+.off-card { max-width: none; }
+.off-card .flag { background: var(--teal-50); border-color: transparent; color: var(--teal-600); }
+
+/* product images */
+.thumb, .pimg, .pphoto { display: grid; place-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.thumb img, .pimg img, .pphoto img { width: 100%; height: 100%; object-fit: contain; }
+.thumb.empty, .pimg.empty, .pphoto.empty { background: var(--sunken); border-color: transparent; color: var(--ink-3); }
+.thumb { width: 52px; height: 52px; flex: none; border-radius: 10px; }
+.thumb .icon { width: 22px; height: 22px; }
+.pimg .icon { width: 36px; height: 36px; }
+
+/* product list rows */
+.plist a.prow { grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 14px; }
+.plist .pmain { min-width: 0; }
+.plist .pmain .nm { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.plist .pmain .sub { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.list .kc .nodata { font-size: 12px; font-weight: 600; color: var(--ink-3); }
+
+/* Nutri-Score (official colours are data, not controls) */
+.nutri { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 6px; font-size: 12px; font-weight: 900; color: #FFFFFF; letter-spacing: 0; }
+.nutri-a { background: #038141; } .nutri-b { background: #85BB2F; } .nutri-c { background: #FECB02; color: var(--ink); }
+.nutri-d { background: #EE8100; } .nutri-e { background: #E63E11; }
+.nutri-pill { color: #FFFFFF; } .nutri-pill.nutri-c { color: var(--ink); }
+
+/* product page */
+.product-page .food-head { align-items: flex-start; }
+.pphoto { width: 132px; height: 132px; flex: none; border-radius: 16px; padding: 6px; }
+.pphoto.empty .icon { width: 40px; height: 40px; }
+.phead-txt { min-width: 0; }
+.barcode { font-variant-numeric: tabular-nums; letter-spacing: .5px; }
+.notice { background: var(--orange-50); border: 1px solid #F8D9A0; color: var(--ink-2); border-radius: var(--r-md); padding: 10px 14px; font-size: 14px; margin-bottom: 16px; }
+.empty-nutrition { margin-top: 24px; padding: 18px 20px; border-radius: var(--r-md); background: var(--sunken); display: grid; gap: 4px; font-size: 14px; color: var(--ink-2); }
+.empty-nutrition strong { color: var(--ink); }
+.empty-nutrition a { color: var(--orange-600); font-weight: 700; }
+.label .kj { font-weight: 500; color: var(--ink-3); }
+.allergen { margin: 0 0 10px; padding: 10px 14px; border-radius: var(--r-md); background: var(--orange-50); font-size: 14px; }
+.allergen.soft { background: var(--sunken); }
+.ingredients { font-size: 14px; color: var(--ink-2); line-height: 1.7; margin: 14px 0 0; white-space: pre-line; }
+.h-sub { font-size: 20px; font-weight: 700; color: var(--ink-3); letter-spacing: 0; }
+.not-found { display: flex; gap: 20px; align-items: flex-start; }
+.not-found .pphoto { width: 88px; height: 88px; }
+.nf-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.nf-actions .scan-cta { height: 44px; font-size: 15px; }
+.btn-ghost { display: inline-flex; align-items: center; height: 44px; padding: 0 18px; border-radius: 999px; border: 1.5px solid var(--line); font-weight: 700; font-size: 14px; background: var(--surface); }
+.btn-ghost:hover { border-color: var(--ink-3); }
+
+/* barcode scanner */
+.scanner { width: min(440px, calc(100vw - 24px)); border: 0; border-radius: 22px; padding: 18px; background: var(--surface); color: var(--ink); box-shadow: 0 24px 60px #00000040; }
+.scanner::backdrop { background: #1B1A17B3; backdrop-filter: blur(3px); }
+.scan-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.scan-head h2 { font-size: 19px; font-weight: 800; margin: 0; }
+.icon-btn { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 999px; border: 0; background: var(--sunken); cursor: pointer; }
+.scan-view { position: relative; aspect-ratio: 4 / 3; border-radius: 16px; overflow: hidden; background: var(--ink); }
+.scan-view.off { display: none; }
+.scan-view video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.scan-frame { position: absolute; inset: 22% 10%; border: 3px solid var(--orange); border-radius: 14px; box-shadow: 0 0 0 999px #1B1A1766; }
+.scan-frame i { position: absolute; left: 8px; right: 8px; top: 50%; height: 2px; background: var(--orange); box-shadow: 0 0 10px var(--orange); animation: scanline 1.8s ease-in-out infinite; }
+@keyframes scanline { 0%, 100% { transform: translateY(-36px); } 50% { transform: translateY(36px); } }
+@media (prefers-reduced-motion: reduce) { .scan-frame i { animation: none; } }
+.scan-status { font-size: 14px; color: var(--ink-2); margin: 12px 2px; min-height: 1.5em; }
+.scan-status.warn { color: #B4540A; font-weight: 600; }
+.scan-manual { display: flex; gap: 8px; }
+.scan-manual input { flex: 1; min-width: 0; height: 44px; padding: 0 14px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--cream); font-size: 16px; letter-spacing: .5px; }
+.scan-manual input:focus { outline: none; border-color: var(--orange); }
+.scan-manual button { height: 44px; padding: 0 18px; border-radius: 12px; border: 0; background: var(--ink); color: #FFFFFF; font-weight: 700; cursor: pointer; }
+.scan-photo { display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 10px; height: 42px; border-radius: 12px; border: 1.5px dashed var(--line); font-size: 14px; font-weight: 700; color: var(--ink-2); cursor: pointer; }
+.scan-photo:hover { border-color: var(--ink-3); }
+.scan-photo input { display: none; }
+
+@media (max-width: 760px) {
+  .pcards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pphoto { width: 96px; height: 96px; }
+  .hero-row { flex-direction: column; align-items: stretch; }
+  .scan-cta { justify-content: center; }
+}
+@media (max-width: 560px) {
+  .topbar-inner { flex-wrap: wrap; }
+  .brand { font-size: 0; gap: 0; }
+  .brand::after { content: "營養資料庫"; font-size: 16px; margin-left: 8px; }
+  .scan-btn { order: 3; margin-left: auto; height: 38px; padding: 0 12px; }
+  .scan-btn span { display: none; }
+  .topbar .search { order: 4; }
+  .product-page .food-head { flex-direction: column; }
+  .pphoto { width: 120px; height: 120px; }
+  .not-found { flex-direction: column; }
+}
+
+/* beta notice (product search) */
+.notice-dlg { width: min(440px, calc(100vw - 32px)); border: 0; border-radius: 22px; padding: 24px; background: var(--surface); color: var(--ink); box-shadow: 0 24px 60px #00000040; }
+.notice-dlg::backdrop { background: #1B1A17B3; backdrop-filter: blur(3px); }
+.notice-dlg h2 { font-size: 20px; font-weight: 900; letter-spacing: -0.3px; margin: 12px 0 10px; }
+.notice-dlg p { font-size: 14px; color: var(--ink-2); margin: 0 0 10px; line-height: 1.7; }
+.notice-dlg p b { color: var(--ink); }
+.notice-actions { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 18px; }
+.notice-actions label { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--ink-3); cursor: pointer; }
+.notice-actions button { height: 42px; padding: 0 26px; border-radius: 999px; border: 0; background: var(--orange); color: var(--ink); font-weight: 800; font-size: 15px; cursor: pointer; }
+.notice-actions button:hover { background: var(--orange-600); }
+
+/* AI health score */
+.ai-start { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.ai-start p { margin: 0; flex: 1; min-width: 220px; }
+.ai-go { height: 46px; font-size: 15px; }
+.ai-loading { display: flex; align-items: center; gap: 12px; color: var(--ink-2); font-size: 14px; padding: 8px 0; }
+.spinner { width: 22px; height: 22px; border-radius: 999px; border: 3px solid var(--track); border-top-color: var(--orange); animation: spin .8s linear infinite; flex: none; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spinner { animation-duration: 2.4s; } }
+.ai-top { display: flex; gap: 20px; align-items: center; }
+.ai-ring { width: 112px; height: 112px; flex: none; }
+.ai-ring .arc { stroke: currentColor; }
+.band-excellent { color: #038141; } .band-good { color: #5E9A1E; } .band-ok { color: #C89A00; }
+.band-poor { color: #D46F00; } .band-bad { color: #D2380E; }
+.ai-verdict { font-size: 20px; font-weight: 900; letter-spacing: -0.3px; }
+.ai-summary { margin: 4px 0 8px; color: var(--ink-2); font-size: 15px; }
+.ai-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 18px; }
+.ai-lists h3 { font-size: 13px; font-weight: 800; margin: 0 0 6px; }
+.ai-lists ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.ai-lists li { font-size: 14px; padding: 8px 12px; border-radius: 10px; }
+.ai-good li { background: var(--tint-3); }
+.ai-watch li { background: var(--orange-50); }
+.ai-tip { margin: 16px 0 0; padding: 12px 14px; border-radius: var(--r-md); background: var(--sunken); font-size: 14px; }
+@media (max-width: 560px) {
+  .ai-lists { grid-template-columns: 1fr; }
+  .ai-top { align-items: flex-start; }
+  .ai-ring { width: 88px; height: 88px; }
+}

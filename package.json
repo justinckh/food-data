@@ -6,6 +6,8 @@
     "db": "python3 -m pipeline.build_db",
     "serve": "python3 -m pipeline.serve_db",
     "export": "python3 -m pipeline.export_d1",
+    "products": "python3 -m pipeline.build_products --sql",
+    "products:local": "python3 -m pipeline.load_products_local",
     "build": "python3 -m pipeline.build_db && python3 -m pipeline.export_d1",
     "load:local": "npx --yes wrangler d1 execute food-db --local --file data/export/d1.sql --yes",
     "update:plan": "python3 -m pipeline.d1_update plan",
@@ -18,6 +20,7 @@
     "download:afcd": "python3 -m pipeline.download_afcd",
     "download:usda": "python3 -m pipeline.download_usda",
     "download:cofid": "python3 -m pipeline.download_cofid",
+    "download:off": "mkdir -p data/raw/off && curl -fL -A 'food-data/1.0' -o data/raw/off/en.openfoodfacts.org.products.csv.gz https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz",
     "scrape": "python3 scrape_cfs.py",
     "deploy": "npx --yes wrangler pages deploy --branch=main"
   }

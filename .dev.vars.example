@@ -1,0 +1,3 @@
+# Copy to .dev.vars (not committed) and fill in. Used by `npm run dev` only.
+# Live site: npx wrangler pages secret put DEEPSEEK_API_KEY --project-name hk-food-nutrition
+DEEPSEEK_API_KEY=
