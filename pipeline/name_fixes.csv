@@ -299,3 +299,19 @@ usda_sr:169248,group,cfs:10030200313,西生菜: same food
 usda_sr:169225,rename,青瓜(去皮),peeled
 usda_sr:175130,rename,"魚(阿拉斯加鱈魚,生,含保水劑)",may contain additives to retain moisture
 cnf:2417,group,tfda:B0700202,薯仔: same food
+tfda:Q2100102,group,cfs:10020000696,涼粉 (TW 仙草凍): same food
+tfda:Q0700101,group,cfs:070110F003305,牛角包 (TW 可頌): same food
+tfda:E3300105,group,tfda:E33001,紹菜 (TW 包心白菜 / 結球白菜): same food
+tfda:H1200401,group,cfs:10020000296,蜜糖豆 (TW 甜豌豆莢): same food
+tfda:E3700301,group,cfs:070302F002390,西芹 (TW 西洋芹菜): same food
+tfda:E7700801,group,cfs:10030200290,豆苗 (TW 豌豆芽): same food
+tfda:P0700101,group,cfs:072000F008065,豉油 (TW 醬油): same food
+tfda:R4401101,group,cofid:13-336,酸椰菜 (TW 酸甘藍菜): same food
+tfda:D3830102,group,cfs:071606F004729,青檸汁 (TW 萊姆汁): same food
+tfda:B0800102,group,cfs:10030100279,馬蹄 (TW 荸薺): same food
+tfda:Q6200501,group,cfs:10180600429,鳥結糖 (TW 牛軋糖): same food
+tfda:P1001901,group,mext:17059,黃芥末醬 (TW 黃芥茉醬): same food
+tfda:P0600701,group,cfs:0520002020050,黑醋 (TW 烏醋): same food
+cnf:6189,rename,番薯粉(全薯),sweet potato flour (protein 6.7 g); TFDA 番薯粉 is starch (protein 1.0 g)
+tfda:R4600201,rename,綠豆粉絲,mung bean thread; CFS 粉絲 is corn starch noodle
+tfda:E5400101,group,cfs:10030200290,豆苗 (TW 豌豆苗): same food
