@@ -1,9 +1,10 @@
-"""Copy data/export/products.db into the LOCAL D1 database used by `npm run dev` (food-db).
+"""Copy data/export/products.db into the LOCAL D1 database used by `npm run dev` (products-db,
+binding PRODUCTS).
 
 Run from the project root:   python3 -m pipeline.load_products_local      (npm run products:local)
 
 Faster than `wrangler d1 execute --local --file products.sql` (65 MB of SQL). Finds the local
-SQLite file of food-db by creating a probe table with wrangler. Does not touch the live D1.
+SQLite file of products-db by creating a probe table with wrangler. Does not touch the live D1.
 """
 import sqlite3
 import subprocess
@@ -17,12 +18,12 @@ TABLES = ["product_categories", "product_markets", "products"]
 
 
 def local_db_file():
-    subprocess.run(["npx", "--yes", "wrangler", "d1", "execute", "food-db", "--local", "--command",
+    subprocess.run(["npx", "--yes", "wrangler", "d1", "execute", "products-db", "--local", "--command",
                     "CREATE TABLE IF NOT EXISTS _probe(x)"], cwd=ROOT, check=True, capture_output=True)
     hits = [f for f in STATE.glob("*.sqlite") if f.name != "metadata.sqlite"
             and sqlite3.connect(f).execute("SELECT 1 FROM sqlite_master WHERE name = '_probe'").fetchone()]
     if len(hits) != 1:
-        sys.exit(f"Could not find the local food-db file ({len(hits)} candidates)")
+        sys.exit(f"Could not find the local products-db file ({len(hits)} candidates)")
     return hits[0]
 
 

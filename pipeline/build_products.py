@@ -2,6 +2,7 @@
 
 Run from the project root:   python3 -m pipeline.build_products   -> data/export/products.db
                               python3 -m pipeline.build_products --sql   (also writes products.sql)
+                              python3 -m pipeline.build_products --sql-only   (products.sql only)
 
 Input:  data/raw/off/en.openfoodfacts.org.products.csv.gz  (download: npm run download:off)
         The file is read compressed, row by row. It is not extracted.
@@ -256,19 +257,36 @@ def build(write_sql=False):
     print("Markets:", ", ".join(f"{c} {mkts[c]:,}" for c, _ in MARKETS.values()))
     print("Categories:", ", ".join(f"{c} {cats[c]:,}" for c, *_ in CATEGORIES))
     if write_sql:
-        with open(SQL_OUT, "w", encoding="utf-8") as fh:
-            for stmt in ("DROP TABLE IF EXISTS products_fts;", "DROP TABLE IF EXISTS products;",
-                         "DROP TABLE IF EXISTS product_categories;", "DROP TABLE IF EXISTS product_markets;"):
-                fh.write(stmt + "\n")
-            for line in db.iterdump():
-                if line.startswith(("BEGIN", "COMMIT")) or "products_fts_" in line or "sqlite_master" in line:
-                    continue
-                if line.startswith('INSERT INTO "products_fts"'):
-                    continue
-                fh.write(line + "\n")
-            fh.write("INSERT INTO products_fts (code, search_text) SELECT code, search_text FROM products;\n")
-        print(f"Wrote {SQL_OUT}")
+        export_sql(db)
     db.close()
+
+
+FTS_BATCH = 10_000
+
+
+def export_sql(db):
+    """products.db -> products.sql for D1 (wrangler d1 execute --file).
+
+    D1 does not accept the PRAGMA / sqlite_master lines of sqlite3 iterdump(), so the schema is
+    written from SCHEMA. The search index is filled in batches of FTS_BATCH products, so that no
+    single statement runs too long. The table product_ai (saved AI answers) is not dropped.
+    """
+    tables = ("product_categories", "product_markets", "products")
+    with open(SQL_OUT, "w", encoding="utf-8") as fh:
+        for t in ("products_fts", *reversed(tables)):
+            fh.write(f"DROP TABLE IF EXISTS {t};\n")
+        fh.write(SCHEMA.strip() + "\n")
+        n = 0
+        for line in db.iterdump():
+            if line.startswith(tuple(f'INSERT INTO "{t}" ' for t in tables)):
+                fh.write(line + "\n")
+                n += 1
+        codes = [c for c, in db.execute("SELECT code FROM products ORDER BY code")]
+        bounds = codes[::FTS_BATCH] + [None]
+        for lo, hi in zip(bounds, bounds[1:]):
+            where = f"code >= '{lo}'" + (f" AND code < '{hi}'" if hi else "")
+            fh.write(f"INSERT INTO products_fts (code, search_text) SELECT code, search_text FROM products WHERE {where};\n")
+    print(f"Wrote {SQL_OUT} ({n:,} rows, {len(bounds) - 1} search index batches)")
 
 
 def insert(db, rows):
@@ -277,4 +295,9 @@ def insert(db, rows):
 
 
 if __name__ == "__main__":
-    build("--sql" in sys.argv)
+    if "--sql-only" in sys.argv:   # write products.sql from the existing products.db
+        con = sqlite3.connect(OUT)
+        export_sql(con)
+        con.close()
+    else:
+        build("--sql" in sys.argv)

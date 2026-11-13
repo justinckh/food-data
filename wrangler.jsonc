@@ -12,6 +12,13 @@
       "binding": "DB",
       "database_name": "food-db",
       "database_id": "bea54542-6edf-4f76-a0e0-54d21a95b1d1"
+    },
+    // products-db (region APAC, created 2026-11-13): packaged products from Open Food Facts
+    // (pipeline/build_products.py) and saved AI answers (product_ai). Upload: npm run products:upload
+    {
+      "binding": "PRODUCTS",
+      "database_name": "products-db",
+      "database_id": "110dc6ff-cbfe-4c19-bc61-ee44ac389eb7"
     }
   ]
 }

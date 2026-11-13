@@ -8,6 +8,7 @@
     "export": "python3 -m pipeline.export_d1",
     "products": "python3 -m pipeline.build_products --sql",
     "products:local": "python3 -m pipeline.load_products_local",
+    "products:upload": "npx --yes wrangler d1 execute products-db --remote --file data/export/products.sql --yes",
     "build": "python3 -m pipeline.build_db && python3 -m pipeline.export_d1",
     "load:local": "npx --yes wrangler d1 execute food-db --local --file data/export/d1.sql --yes",
     "update:plan": "python3 -m pipeline.d1_update plan",
