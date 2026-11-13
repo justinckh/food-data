@@ -2,7 +2,7 @@
 
 This document is in ASD-STE100 Simplified Technical English.
 
-Last update: 2026-11-13.
+Last update: 2026-11-13 (packaged products).
 
 ## 1. Purpose
 
@@ -29,6 +29,9 @@ Other systems and AI tools will also use the data.
 | Data source: Canada CNF | Done. The data has 5,993 foods (section 2.10). |
 | Backend API | Done. It is on the preview address (section 4.4). |
 | Cloudflare D1 | Done. The database `food-db` (neologism account, Asia-Pacific) has all data. The first upload wrote 79,624 rows. |
+| Packaged products (Open Food Facts) | Done. The database `products-db` has 125,915 products that are sold in 13 Asian markets (section 2.12). The site shows them in the tab 包裝食品. |
+| Barcode scanner | Done. The site reads a barcode with the camera, from a photo, or from typed digits (section 2.12). |
+| AI health score | Done. DeepSeek gives each product a score from 0 to 100 and a short analysis (section 2.13). |
 | Other data sources | France Ciqual is on hold (section 4.3). |
 
 ### 2.2 Files and folders
@@ -66,6 +69,11 @@ Other systems and AI tools will also use the data.
 | `pipeline/build_db.py` | This script makes `data/food.db` from all importers. If the files for a source are missing, the script does not import that source. |
 | `data/raw/` | The downloaded source files. Git does not keep this folder. |
 | `data/food.db` | The master copy of the database. Git does not keep this file. You can make it again at any time. |
+| `pipeline/build_products.py` | This script reads the Open Food Facts file and makes `data/export/products.db` and `data/export/products.sql` (section 2.12). |
+| `pipeline/load_products_local.py` | This script puts `products.db` into the local D1 database `products-db`. |
+| `site/products.js` | The pages of the tab 包裝食品, the barcode scanner and the AI score. |
+| `functions/_products.js` | The shared code of the product API, and the live search on Open Food Facts. |
+| `.dev.vars` | The secrets for `npm run dev` (`DEEPSEEK_API_KEY`). Git does not keep this file. `.dev.vars.example` shows the format. |
 | `PROJECT.md` | This document. |
 
 ### 2.3 Commands
@@ -84,6 +92,10 @@ Other systems and AI tools will also use the data.
 | `npm run update:status` | Shows the parts and which parts are sent. |
 | `npm run pull` | Downloads the live database from Cloudflare D1 (section 4.4.4). |
 | `npm run pull:local` | Downloads the live database and puts it into the local D1 database for `npm run dev`. |
+| `npm run download:off` | Downloads the Open Food Facts file (1.5 GB) to `data/raw/off/`. |
+| `npm run products` | Makes `products.db` and `products.sql` from the Open Food Facts file. |
+| `npm run products:local` | Puts the products into the local D1 database. |
+| `npm run products:upload` | Sends all products to the live D1 database `products-db`. |
 | `npm run dev` | Starts the site and the API on your computer at http://localhost:8788. |
 | `npm run deploy` | Sends the site and the API to the live site on Cloudflare Pages. |
 
@@ -324,6 +336,58 @@ We examined each source for a newer version on 2026-11-12.
 | UK CoFID | 2021 | Same | Current |
 | Canada CNF | 2026 | Same | Current |
 | France Ciqual | Not in the database | Unknown. The web site is in maintenance. | On hold |
+
+### 2.12 About the Open Food Facts data (packaged products)
+
+Open Food Facts is a database of packaged products. Users in all countries type in the data from the package.
+We do not examine the data. The site tells this to the user (a notice after a search).
+The licence is ODbL 1.0 for the database, DbCL 1.0 for the contents and CC BY-SA for the photos.
+
+The file is `en.openfoodfacts.org.products.csv.gz` (download: `npm run download:off`).
+On 2026-11-13 it had 4,908,651 products.
+The script does not extract the file. It reads it row by row.
+
+| Rule | Result on 2026-11-13 |
+|---|---|
+| Keep only products that are sold in 1 of 13 Asian markets (HK, MO, TW, CN, JP, KR, SG, MY, TH, PH, ID, VN, IN) | 125,915 products. 4,891 are sold in Hong Kong. |
+| Do not keep products that are not food (cosmetics, soap, toothpaste) | 416 products removed |
+| Do not keep products with Russian (Cyrillic) text in the name, the brand or the ingredients (user decision of 2026-11-13) | 1,678 products removed |
+| If the name is only digits (a barcode), use the generic name. If there is no generic name, do not keep the product. | - |
+
+The values are the values on the package, for 100 g or 100 ml.
+The site does not calculate the energy again (section 3.10.2 is for foods only).
+Values that are not possible (for example more than 100 g of fat in 100 g) are not kept.
+
+Categories: 77 % of the products have no Open Food Facts category.
+The script uses the category tags first. Then it uses words in the name (English, Chinese, Japanese).
+The words for a type of product (chips, wafer, tuna) come before the words for a flavour (cheese, milk, oil).
+38 % of the products stay in 其他／未分類. To change a rule, change `CATEGORIES` or `NAME_RULES` in `pipeline/build_products.py`.
+
+If a barcode is not in our database, the API gets the product from the Open Food Facts API (live search).
+The site shows a note on these products.
+
+To update the products, do these steps:
+
+1. Run `npm run download:off`.
+2. Run `npm run products`.
+3. Run `npm run products:upload`. This replaces all products. It does not delete the saved AI answers.
+
+The first upload (2026-11-13) wrote 377,816 rows. The database is 127 MB.
+
+### 2.13 AI health score
+
+The product page gets an AI analysis automatically.
+The model is DeepSeek `deepseek-flash`. The text is in Hong Kong Traditional Chinese.
+The analysis has a score from 0 to 100, a verdict, a summary, good points, points to watch and 1 tip.
+The score uses the label values, the ingredients, Nutri-Score, NOVA and the CFS limits for high sugar, high fat and high sodium.
+
+| Item | Value |
+|---|---|
+| API key | Secret `DEEPSEEK_API_KEY`. Live site: `npx wrangler pages secret put DEEPSEEK_API_KEY --project-name hk-food-nutrition`. Your computer: `.dev.vars`. Do not put the key in `.env`, because Git keeps `.env`. |
+| Saved answers | Table `product_ai` in `products-db`. Each product calls DeepSeek 1 time only. |
+| Prompt | `functions/api/product-ai.js`. If you change the prompt, change `AI_VERSION`. Then the products get a new analysis. |
+
+The site tells the user that the text comes from AI and is not medical advice.
 
 ## 3. Database design
 
@@ -702,8 +766,8 @@ The numbers of foods are approximate. Make sure that each number and each licenc
 
 We do not use these sources now:
 
-- **Open Food Facts.** It has data for brand products, not for basic foods.
-- **USDA Branded Foods.** The reason is the same.
+- **Open Food Facts** as a source of basic foods. It has data for brand products. The site shows these products in a different tab (section 2.12).
+- **USDA Branded Foods.** It has data for brand products, not for basic foods.
 - **China CFC2002 and Thai FCD.** These sources have no open download. The CFS data has a part of them.
 
 Each importer must:
@@ -726,7 +790,11 @@ raw files --> importers --> data/food.db (master copy)
                               +--> data/export/served.db --> update parts --> Cloudflare D1 "food-db"
                               +--> Parquet files (for AI and analysis, planned)
 
-Browser --> Cloudflare Pages "hk-food-nutrition" --> Pages Functions /api/* --> D1
+Open Food Facts file --> pipeline/build_products.py --> data/export/products.sql --> Cloudflare D1 "products-db"
+
+Browser --> Cloudflare Pages "hk-food-nutrition" --> Pages Functions /api/* --> D1 (food-db, products-db)
+                                                                            --> DeepSeek (AI score)
+                                                                            --> Open Food Facts (barcodes that we do not have)
 ```
 
 | Item | Value |
@@ -734,7 +802,8 @@ Browser --> Cloudflare Pages "hk-food-nutrition" --> Pages Functions /api/* --> 
 | Cloudflare account | "neologism" (ID in `.env`). Moved from the hotmail account on 2026-11-12. |
 | Pages project | `hk-food-nutrition` |
 | Live address | https://hk-food-nutrition.pages.dev |
-| D1 database | `food-db` (location: Asia-Pacific) |
+| D1 database | `food-db` (location: Asia-Pacific), binding `DB` |
+| D1 database for products | `products-db` (location: Asia-Pacific), binding `PRODUCTS`. Made on 2026-11-13. |
 | Deployment | By hand (`npm run deploy`). There is no connection to GitHub. |
 
 The API:
@@ -747,6 +816,11 @@ The API:
 | `/api/category?c=&sub=&src=&sort=&page=` | The foods of 1 category or subcategory, or all foods (`c=all`) (section 3.10.1) |
 | `/api/foods?ids=` | Short data for a list of foods |
 | `/api/filter?...` | Find foods by the key nutrients. Not done yet. |
+| `/api/products/meta` | Product categories and markets, with counts |
+| `/api/products/list?c=&m=&sort=&page=` | The products of 1 category (or `c=all`), and of 1 market (`m=HK`) |
+| `/api/products/search?q=&limit=` | Find products by name, brand or barcode |
+| `/api/product?code=` | All data for 1 product. If the barcode is not in `products-db`, the API gets it from Open Food Facts. |
+| `/api/product-ai?code=` | The AI score and analysis of 1 product (section 2.13) |
 
 The site and AI tools must use only the API.
 They must not read the tables directly.
