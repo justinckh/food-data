@@ -311,7 +311,7 @@ tfda:D3830102,group,cfs:071606F004729,青檸汁 (TW 萊姆汁): same food
 tfda:B0800102,group,cfs:10030100279,馬蹄 (TW 荸薺): same food
 tfda:Q6200501,group,cfs:10180600429,鳥結糖 (TW 牛軋糖): same food
 tfda:P1001901,group,mext:17059,黃芥末醬 (TW 黃芥茉醬): same food
-tfda:P0600701,group,cfs:0520002020050,黑醋 (TW 烏醋): same food
+tfda:P0600701,rename,台式烏醋,TW 烏醋 is seasoned (vinegar + soy sauce + fruit juice + sugar; 37 kcal); CFS 黑醋 is plain black vinegar (91 kcal): not the same food
 cnf:6189,rename,番薯粉(全薯),sweet potato flour (protein 6.7 g); TFDA 番薯粉 is starch (protein 1.0 g)
 tfda:R4600201,rename,綠豆粉絲,mung bean thread; CFS 粉絲 is corn starch noodle
 tfda:E5400101,group,cfs:10030200290,豆苗 (TW 豌豆苗): same food
